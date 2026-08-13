@@ -1,0 +1,283 @@
+map_id: OPM_BM-01
+map_type: battle
+scenario: '一拳超人·怪人協會殲滅戰 / One Punch Man: Monster Association Raid'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 680
+- 460
+title: B1雜魚層——入口防衛戰
+description: ''
+grid:
+  type: square
+  width: 16
+  height: 12
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20.0
+  - 20.0
+  total_width_ft: 80
+  total_height_ft: 60
+terrain:
+- bounds_px:
+  - 20.0
+  - 20.0
+  - 5.0
+  - 420.0
+  name: L
+  fill: '#334'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 1
+  - 28
+  center_ft:
+  - 2.5
+  - 70.0
+- bounds_px:
+  - 655.0
+  - 20.0
+  - 5.0
+  - 420.0
+  name: ''
+  fill: '#334'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 42
+  - 0
+  - 1
+  - 28
+  center_ft:
+  - 212.5
+  - 70.0
+- bounds_px:
+  - 20.0
+  - 20.0
+  - 640.0
+  - 5.0
+  name: B1雜魚層——入口防衛戰
+  fill: '#334'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 43
+  - 1
+  center_ft:
+  - 107.5
+  - 2.5
+- bounds_px:
+  - 20.0
+  - 435.0
+  - 640.0
+  - 5.0
+  name: 玩家進場區
+  fill: '#334'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 28
+  - 43
+  - 1
+  center_ft:
+  - 107.5
+  - 142.5
+- bounds_px:
+  - 250.0
+  - 20.0
+  - 5.0
+  - 200.0
+  name: ''
+  fill: '#334'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 15
+  - 0
+  - 1
+  - 13
+  center_ft:
+  - 77.5
+  - 32.5
+- bounds_px:
+  - 430.0
+  - 20.0
+  - 5.0
+  - 200.0
+  name: 虎×2
+  fill: '#334'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 27
+  - 0
+  - 1
+  - 13
+  center_ft:
+  - 137.5
+  - 32.5
+- bounds_px:
+  - 250.0
+  - 380.0
+  - 180.0
+  - 30.0
+  name: 入口通道
+  fill: '#1a2a2a'
+  stroke: '#10B981'
+  stroke_width: ''
+  bounds_grid:
+  - 15
+  - 24
+  - 12
+  - 2
+  center_ft:
+  - 105.0
+  - 125.0
+- bounds_px:
+  - 250.0
+  - 410.0
+  - 180.0
+  - 25.0
+  name: 玩家進場區
+  fill: none
+  stroke: '#00FF88'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 15
+  - 26
+  - 12
+  - 2
+  center_ft:
+  - 105.0
+  - 135.0
+- bounds_px:
+  - 100.0
+  - 100.0
+  - 480.0
+  - 240.0
+  name: ''
+  fill: '#0d0d1a'
+  stroke: '#4a2a6a'
+  stroke_width: ''
+  bounds_grid:
+  - 5
+  - 5
+  - 32
+  - 16
+  center_ft:
+  - 105.0
+  - 65.0
+- bounds_px:
+  - 120.0
+  - 180.0
+  - 60.0
+  - 30.0
+  name: 碎石堆
+  fill: '#334'
+  stroke: '#667'
+  stroke_width: ''
+  bounds_grid:
+  - 7
+  - 11
+  - 4
+  - 2
+  center_ft:
+  - 45.0
+  - 60.0
+- bounds_px:
+  - 450.0
+  - 160.0
+  - 60.0
+  - 30.0
+  name: 鋼筋
+  fill: '#334'
+  stroke: '#667'
+  stroke_width: ''
+  bounds_grid:
+  - 29
+  - 9
+  - 4
+  - 2
+  center_ft:
+  - 155.0
+  - 50.0
+- bounds_px:
+  - 280.0
+  - 300.0
+  - 60.0
+  - 20.0
+  name: 貨櫃
+  fill: '#334'
+  stroke: '#667'
+  stroke_width: ''
+  bounds_grid:
+  - 17
+  - 19
+  - 4
+  - 1
+  center_ft:
+  - 95.0
+  - 97.5
+- bounds_px:
+  - 580.0
+  - 300.0
+  - 50.0
+  - 50.0
+  name: 電梯↓B2
+  fill: '#1a2a20'
+  stroke: '#10B981'
+  stroke_width: '2'
+  bounds_grid:
+  - 37
+  - 19
+  - 3
+  - 3
+  center_ft:
+  - 192.5
+  - 102.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: L
+  to: ''
+  distance_ft: 210.0
+- from: L
+  to: B1雜魚層——入口防衛戰
+  distance_ft: 124.8
+- from: L
+  to: 玩家進場區
+  distance_ft: 127.6
+- from: L
+  to: ''
+  distance_ft: 83.9
+- from: L
+  to: 虎×2
+  distance_ft: 140.1
+- from: L
+  to: 入口通道
+  distance_ft: 116.3
+- from: L
+  to: 玩家進場區
+  distance_ft: 121.4
+- from: L
+  to: ''
+  distance_ft: 102.6
+- from: L
+  to: 碎石堆
+  distance_ft: 43.7
+- from: L
+  to: 鋼筋
+  distance_ft: 153.8

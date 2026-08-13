@@ -1,0 +1,198 @@
+map_id: DBZ_BM-02
+map_type: battle
+scenario: '龍珠·那美克星篇 / Dragon Ball Z: Namek Saga'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 弗利薩最終形態戰場 — 那美克星之心
+description: ''
+grid:
+  type: square
+  width: 16
+  height: 12
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 80
+  total_height_ft: 60
+terrain:
+- bounds_px:
+  - 320.0
+  - 55.0
+  - 160.0
+  - 40.0
+  name: COUNTER
+  fill: '#2d0000'
+  stroke: '#b8305e'
+  stroke_width: '2.5'
+  bounds_grid:
+  - 20
+  - 2
+  - 11
+  - 3
+  center_ft:
+  - 127.5
+  - 17.5
+- bounds_px:
+  - 340.0
+  - 120.0
+  - 100.0
+  - 70.0
+  name: 弗利薩
+  fill: '#1a0a10'
+  stroke: '#b8305e'
+  stroke_width: '3'
+  bounds_grid:
+  - 21
+  - 7
+  - 7
+  - 5
+  center_ft:
+  - 122.5
+  - 47.5
+- bounds_px:
+  - 540.0
+  - 130.0
+  - 80.0
+  - 55.0
+  name: 孫悟空
+  fill: '#b8a030'
+  stroke: '#ffd700'
+  stroke_width: '2.5'
+  bounds_grid:
+  - 35
+  - 7
+  - 5
+  - 4
+  center_ft:
+  - 187.5
+  - 45.0
+- bounds_px:
+  - 130.0
+  - 420.0
+  - 90.0
+  - 35.0
+  name: 逃生艙×3
+  fill: '#0a201a'
+  stroke: '#2d8f6b'
+  stroke_width: '2'
+  bounds_grid:
+  - 7
+  - 27
+  - 6
+  - 2
+  center_ft:
+  - 50.0
+  - 140.0
+- bounds_px:
+  - 560.0
+  - 420.0
+  - 90.0
+  - 35.0
+  name: 悟空瞬間移動
+  fill: '#0a201a'
+  stroke: '#2d8f6b'
+  stroke_width: '2'
+  bounds_grid:
+  - 36
+  - 27
+  - 6
+  - 2
+  center_ft:
+  - 195.0
+  - 140.0
+- bounds_px:
+  - 330.0
+  - 500.0
+  - 120.0
+  - 35.0
+  name: 那美克星傳送陣
+  fill: '#1f1440'
+  stroke: '#b794f4'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 21
+  - 32
+  - 8
+  - 2
+  center_ft:
+  - 125.0
+  - 165.0
+- bounds_px:
+  - 80.0
+  - 250.0
+  - 60.0
+  - 50.0
+  name: 輪迴者
+  fill: '#0a201a'
+  stroke: '#2d8f6b'
+  stroke_width: '2'
+  bounds_grid:
+  - 4
+  - 15
+  - 4
+  - 3
+  center_ft:
+  - 30.0
+  - 82.5
+- bounds_px:
+  - 0.0
+  - 0.0
+  - 210.0
+  - 90.0
+  name: 10輪 = 約5分鐘
+  fill: '#1a1030'
+  stroke: '#3a2a5e'
+  stroke_width: ''
+  bounds_grid:
+  - -1
+  - -1
+  - 14
+  - 6
+  center_ft:
+  - 30.0
+  - 10.0
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: COUNTER
+  to: 弗利薩
+  distance_ft: 30.4
+- from: COUNTER
+  to: 孫悟空
+  distance_ft: 66.0
+- from: COUNTER
+  to: 逃生艙×3
+  distance_ft: 145.0
+- from: COUNTER
+  to: 悟空瞬間移動
+  distance_ft: 139.9
+- from: COUNTER
+  to: 那美克星傳送陣
+  distance_ft: 147.5
+- from: COUNTER
+  to: 輪迴者
+  distance_ft: 117.2
+- from: COUNTER
+  to: 10輪 = 約5分鐘
+  distance_ft: 97.8
+- from: 弗利薩
+  to: 孫悟空
+  distance_ft: 65.0
+- from: 弗利薩
+  to: 逃生艙×3
+  distance_ft: 117.5
+- from: 弗利薩
+  to: 悟空瞬間移動
+  distance_ft: 117.5

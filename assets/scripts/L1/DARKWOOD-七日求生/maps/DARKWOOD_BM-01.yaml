@@ -1,0 +1,223 @@
+map_id: DARKWOOD_BM-01
+map_type: battle
+scenario: '陰暗森林·七日求生 / Darkwood: Seven Days Survival'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 680
+- 420
+title: 安全屋 — 夜間防守
+description: ''
+grid:
+  type: square
+  width: 14
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 40.0
+  - 40.0
+  total_width_ft: 70
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 420.0
+  - 5.0
+  name: 異形犬
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 28
+  - 1
+  center_ft:
+  - 70.0
+  - 2.5
+- bounds_px:
+  - 40.0
+  - 335.0
+  - 420.0
+  - 5.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 20
+  - 28
+  - 1
+  center_ft:
+  - 70.0
+  - 102.5
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 5.0
+  - 300.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 1
+  - 20
+  center_ft:
+  - 2.5
+  - 50.0
+- bounds_px:
+  - 455.0
+  - 40.0
+  - 5.0
+  - 300.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 28
+  - 0
+  - 1
+  - 20
+  center_ft:
+  - 142.5
+  - 50.0
+- bounds_px:
+  - 200.0
+  - 180.0
+  - 100.0
+  - 70.0
+  name: 安全屋內部
+  fill: '#1a1030'
+  stroke: '#6D28D9'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 11
+  - 9
+  - 7
+  - 5
+  center_ft:
+  - 72.5
+  - 57.5
+- bounds_px:
+  - 180.0
+  - 250.0
+  - 140.0
+  - 8.0
+  name: 大門(AC10 HP20)
+  fill: '#FFAA00'
+  stroke: '#886600'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 9
+  - 14
+  - 9
+  - 1
+  center_ft:
+  - 67.5
+  - 72.5
+- bounds_px:
+  - 200.0
+  - 180.0
+  - 8.0
+  - 70.0
+  name: 窗A
+  fill: '#FFAA00'
+  stroke: '#886600'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 11
+  - 9
+  - 1
+  - 5
+  center_ft:
+  - 57.5
+  - 57.5
+- bounds_px:
+  - 300.0
+  - 180.0
+  - 8.0
+  - 70.0
+  name: 窗B
+  fill: '#FFAA00'
+  stroke: '#886600'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 17
+  - 9
+  - 1
+  - 5
+  center_ft:
+  - 87.5
+  - 57.5
+- bounds_px:
+  - 200.0
+  - 195.0
+  - 100.0
+  - 5.0
+  name: 安全屋
+  fill: '#00FF88'
+  stroke: '#00FF88'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 11
+  - 10
+  - 7
+  - 1
+  center_ft:
+  - 72.5
+  - 52.5
+spawn_points:
+  players:
+  - px:
+    - 200.0
+    - 420.0
+    name: 玩家入口
+    fill: '#00FF88'
+    grid:
+    - 11
+    - 25
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 異形犬
+  to: ''
+  distance_ft: 100.0
+- from: 異形犬
+  to: ''
+  distance_ft: 82.5
+- from: 異形犬
+  to: ''
+  distance_ft: 86.7
+- from: 異形犬
+  to: 安全屋內部
+  distance_ft: 55.1
+- from: 異形犬
+  to: 大門(AC10 HP20)
+  distance_ft: 70.0
+- from: 異形犬
+  to: 窗A
+  distance_ft: 56.4
+- from: 異形犬
+  to: 窗B
+  distance_ft: 57.7
+- from: 異形犬
+  to: 安全屋
+  distance_ft: 50.1
+- from: ''
+  to: ''
+  distance_ft: 85.5
+- from: ''
+  to: ''
+  distance_ft: 89.5

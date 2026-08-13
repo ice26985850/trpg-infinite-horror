@@ -1,0 +1,87 @@
+map_id: HSR_WM-01
+map_type: world
+scenario: '崩壞·星穹鐵道·裂界侵蝕 / Honkai: Star Rail - Fragmentum'
+tier: L3
+difficulty: ★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: HSR_WM-01 世界地圖
+description: ''
+scale: HSR WM-01 — 貝洛伯格全圖
+regions: []
+roads:
+- x1: 400.0
+  y1: 130.0
+  x2: 400.0
+  y2: 470.0
+  stroke: '#3a3a5e'
+  stroke_width: '2'
+  dashed: false
+- x1: 160.0
+  y1: 300.0
+  x2: 640.0
+  y2: 300.0
+  stroke: '#3a3a5e'
+  stroke_width: '2'
+  dashed: false
+- x1: 400.0
+  y1: 315.0
+  x2: 312.0
+  y2: 285.0
+  stroke: ''
+  stroke_width: '2'
+  dashed: false
+- x1: 400.0
+  y1: 315.0
+  x2: 487.0
+  y2: 285.0
+  stroke: ''
+  stroke_width: '2'
+  dashed: false
+- x1: 400.0
+  y1: 315.0
+  x2: 400.0
+  y2: 350.0
+  stroke: ''
+  stroke_width: '2'
+  dashed: false
+- x1: 400.0
+  y1: 370.0
+  x2: 400.0
+  y2: 247.0
+  stroke: '#cc334480'
+  stroke_width: '2'
+  dashed: false
+- x1: 595.0
+  y1: 548.0
+  x2: 620.0
+  y2: 548.0
+  stroke: ''
+  stroke_width: '2'
+  dashed: false
+routes: []
+danger_zones:
+- center:
+  - 400.0
+  - 300.0
+  rx: 340.0
+  ry: 240.0
+  name: 冰封之城
+  fill: ''
+  stroke: ''
+landmarks:
+- center:
+  - 400.0
+  - 235.0
+  radius: 55.0
+  name: 裂界侵蝕核心
+  fill: '#cc334415'
+  stroke: '#ff556640'
+  dashed: true
+legend:
+- 安全區/起始點
+- 危險區/戰鬥區
+- 路線

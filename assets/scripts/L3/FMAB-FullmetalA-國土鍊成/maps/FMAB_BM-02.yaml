@@ -1,0 +1,193 @@
+map_id: FMAB_BM-02
+map_type: battle
+scenario: '鋼之鍊金術師·國土鍊成 / Fullmetal Alchemist: Nationwide Transmutation'
+tier: L3
+difficulty: ★★★
+viewbox:
+- 0
+- 0
+- 680
+- 480
+title: 國土鍊成陣——節點核心
+description: ''
+grid:
+  type: square
+  width: 14
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20.0
+  - 20.0
+  total_width_ft: 70
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 20.0
+  - 20.0
+  - 640.0
+  - 440.0
+  name: HP30 AC16
+  fill: none
+  stroke: '#556'
+  stroke_width: '4'
+  bounds_grid:
+  - 0
+  - 0
+  - 43
+  - 29
+  center_ft:
+  - 107.5
+  - 72.5
+- bounds_px:
+  - 460.0
+  - 140.0
+  - 40.0
+  - 60.0
+  name: 岩石(掩體)
+  fill: '#2a2a20'
+  stroke: '#886600'
+  stroke_width: ''
+  bounds_grid:
+  - 29
+  - 8
+  - 3
+  - 4
+  center_ft:
+  - 152.5
+  - 50.0
+- bounds_px:
+  - 140.0
+  - 310.0
+  - 50.0
+  - 30.0
+  name: 崩塌石塊
+  fill: '#2a2a20'
+  stroke: '#886600'
+  stroke_width: ''
+  bounds_grid:
+  - 8
+  - 19
+  - 3
+  - 2
+  center_ft:
+  - 47.5
+  - 100.0
+- bounds_px:
+  - 550.0
+  - 280.0
+  - 50.0
+  - 40.0
+  name: 礦柱(掩體)
+  fill: '#2a2a20'
+  stroke: '#886600'
+  stroke_width: ''
+  bounds_grid:
+  - 35
+  - 17
+  - 3
+  - 3
+  center_ft:
+  - 182.5
+  - 92.5
+- bounds_px:
+  - 100.0
+  - 60.0
+  - 45.0
+  - 30.0
+  name: 輔助陣
+  fill: '#1a1030'
+  stroke: '#6D28D9'
+  stroke_width: ''
+  bounds_grid:
+  - 5
+  - 3
+  - 3
+  - 2
+  center_ft:
+  - 32.5
+  - 20.0
+- bounds_px:
+  - 580.0
+  - 60.0
+  - 45.0
+  - 30.0
+  name: 輔助陣
+  fill: '#1a1030'
+  stroke: '#6D28D9'
+  stroke_width: ''
+  bounds_grid:
+  - 37
+  - 3
+  - 3
+  - 2
+  center_ft:
+  - 192.5
+  - 20.0
+- bounds_px:
+  - 40.0
+  - 380.0
+  - 100.0
+  - 40.0
+  name: 崩塌區（10輪後）
+  fill: '#FF0000'
+  stroke: '#EF4444'
+  stroke_width: '1'
+  bounds_grid:
+  - 1
+  - 24
+  - 7
+  - 3
+  center_ft:
+  - 22.5
+  - 127.5
+spawn_points:
+  players:
+  - px:
+    - 73.33333333333333
+    - 440.0
+    name: 玩家入口
+    fill: '#00FF88'
+    grid:
+    - 4
+    - 28
+  enemies: []
+entry_points: []
+boundary: []
+objective:
+  description: ★ 最終戰策略：破壞能量管道(先)→賢者之石(主目標)→BOSS
+  position_px:
+  - 30.0
+  - 428.0
+key_distances:
+- from: HP30 AC16
+  to: 岩石(掩體)
+  distance_ft: 50.3
+- from: HP30 AC16
+  to: 崩塌石塊
+  distance_ft: 66.0
+- from: HP30 AC16
+  to: 礦柱(掩體)
+  distance_ft: 77.6
+- from: HP30 AC16
+  to: 輔助陣
+  distance_ft: 91.5
+- from: HP30 AC16
+  to: 輔助陣
+  distance_ft: 99.9
+- from: HP30 AC16
+  to: 崩塌區（10輪後）
+  distance_ft: 101.2
+- from: 岩石(掩體)
+  to: 崩塌石塊
+  distance_ft: 116.3
+- from: 岩石(掩體)
+  to: 礦柱(掩體)
+  distance_ft: 52.0
+- from: 岩石(掩體)
+  to: 輔助陣
+  distance_ft: 123.7
+- from: 岩石(掩體)
+  to: 輔助陣
+  distance_ft: 50.0

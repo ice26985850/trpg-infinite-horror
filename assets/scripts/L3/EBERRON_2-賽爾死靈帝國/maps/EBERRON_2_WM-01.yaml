@@ -1,0 +1,134 @@
+map_id: EBERRON_2_WM-01
+map_type: world
+scenario: '哭泣戰爭·賽爾死靈帝國 / Eberron: The Cry War - Thrane''s Last Stand'
+tier: L3
+difficulty: ★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: EBERRON_2_WM-01 世界地圖
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 80.0
+  - 60.0
+  - 640.0
+  - 480.0
+  fill: '#0a1a2a'
+  stroke: '#1e3a5f'
+  name: 城牆防線
+roads: []
+routes:
+- x1: 420.0
+  y1: 380.0
+  x2: 620.0
+  y2: 230.0
+  stroke: '#FFD700'
+  stroke_width: '2'
+  dashed: true
+danger_zones:
+- center:
+  - 650.0
+  - 200.0
+  rx: 60.0
+  ry: 40.0
+  name: 召喚塔
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 550.0
+  - 100.0
+  rx: 80.0
+  ry: 50.0
+  name: 敵方大營
+  fill: '#FF0000'
+  stroke: '#FF4444'
+landmarks:
+- center:
+  - 400.0
+  - 450.0
+  radius: 12.0
+  name: 黎明堡壘
+  fill: none
+  stroke: '#00FF88'
+  dashed: true
+- center:
+  - 400.0
+  - 450.0
+  radius: 5.0
+  name: 黎明堡壘
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 400.0
+  - 300.0
+  radius: 12.0
+  name: 城牆防線
+  fill: none
+  stroke: '#00AAFF'
+  dashed: true
+- center:
+  - 400.0
+  - 300.0
+  radius: 5.0
+  name: 城牆防線
+  fill: '#00AAFF'
+  stroke: ''
+  dashed: false
+- center:
+  - 650.0
+  - 200.0
+  radius: 12.0
+  name: 召喚塔
+  fill: none
+  stroke: '#FF0000'
+  dashed: true
+- center:
+  - 650.0
+  - 200.0
+  radius: 5.0
+  name: 召喚塔
+  fill: '#FF0000'
+  stroke: ''
+  dashed: false
+- center:
+  - 550.0
+  - 100.0
+  radius: 12.0
+  name: 敵方大營
+  fill: none
+  stroke: '#FF6600'
+  dashed: true
+- center:
+  - 550.0
+  - 100.0
+  radius: 5.0
+  name: 敵方大營
+  fill: '#FF6600'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 60.0
+  radius: 4.0
+  name: 起始點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 78.0
+  radius: 4.0
+  name: 目標點
+  fill: '#FFD700'
+  stroke: ''
+  dashed: false
+legend:
+- 不死軍團
+- 敵方大營
+- 起始點
+- 目標點

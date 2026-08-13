@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<rect width="800" height="600" fill="#1a1a2e"/>
+<text x="400.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">JJK_EM-01 探索地圖</text>
+<text x="20" y="70.0" fill="#8B5CF6" font-size="13" font-weight="bold">B4F通道</text>
+<rect x="20" y="75.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="80.0" y="75.0" width="700.0" height="30.0" rx="0.0" fill="#0f1525" stroke="#2a2a4e" stroke-width="1"/>
+<text x="430.0" y="90.0" text-anchor="middle" fill="#aaa" font-size="9">平民</text>
+<rect x="80.0" y="75.0" width="30.0" height="280.0" rx="0.0" fill="#0f1525" stroke="#2a2a4e" stroke-width="1"/>
+<text x="95.0" y="215.0" text-anchor="middle" fill="#aaa" font-size="9">平民</text>
+<rect x="750.0" y="75.0" width="30.0" height="280.0" rx="0.0" fill="#0f1525" stroke="#2a2a4e" stroke-width="1"/>
+<rect x="410.0" y="75.0" width="30.0" height="280.0" rx="0.0" fill="#0f1525" stroke="#2a2a4e" stroke-width="1"/>
+<text x="425.0" y="215.0" text-anchor="middle" fill="#aaa" font-size="9">平民</text>
+<text x="20" y="320.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 2</text>
+<rect x="20" y="325.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="80.0" y="325.0" width="700.0" height="30.0" rx="0.0" fill="#0f1525" stroke="#2a2a4e" stroke-width="1"/>
+<text x="20" y="590" fill="#666" font-size="9">JJK_EM-01 | 探索地圖 </text>
+</svg>

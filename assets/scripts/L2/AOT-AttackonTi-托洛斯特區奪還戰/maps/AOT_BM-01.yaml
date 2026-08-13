@@ -1,0 +1,252 @@
+map_id: AOT_BM-01
+map_type: battle
+scenario: '進擊的巨人·托洛斯特區奪還戰 / Attack on Titan: Battle of Trost District'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 830
+- 640
+title: 街道巨人遭遇戰 (Battle Map BM-01) — 15×10 格線 | 1格=5ft
+description: ''
+grid:
+  type: square
+  width: 15
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 75
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 40.0
+  - 60.0
+  - 750.0
+  - 500.0
+  name: 主街道
+  fill: '#3a3a2a'
+  stroke: '#4B0082'
+  stroke_width: '3'
+  bounds_grid:
+  - 1
+  - 3
+  - 50
+  - 33
+  center_ft:
+  - 130.0
+  - 97.5
+- bounds_px:
+  - 40.0
+  - 260.0
+  - 750.0
+  - 100.0
+  name: 主街道
+  fill: '#5a5a4a'
+  stroke: '#6a6a5a'
+  stroke_width: '1'
+  bounds_grid:
+  - 1
+  - 16
+  - 50
+  - 7
+  center_ft:
+  - 130.0
+  - 97.5
+- bounds_px:
+  - 90.0
+  - 110.0
+  - 200.0
+  - 150.0
+  name: '倒塌商舖
+
+    (可攀爬)'
+  fill: '#4a4a3a'
+  stroke: '#6a6a5a'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 5
+  - 6
+  - 13
+  - 10
+  center_ft:
+  - 57.5
+  - 55.0
+- bounds_px:
+  - 540.0
+  - 110.0
+  - 200.0
+  - 150.0
+  name: '藥舖
+
+    (可搜索)'
+  fill: '#4a4a3a'
+  stroke: '#6a6a5a'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 35
+  - 6
+  - 13
+  - 10
+  center_ft:
+  - 207.5
+  - 55.0
+- bounds_px:
+  - 90.0
+  - 360.0
+  - 150.0
+  - 150.0
+  name: '民宅
+
+    (可躲藏)'
+  fill: '#4a4a3a'
+  stroke: '#6a6a5a'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 5
+  - 23
+  - 10
+  - 10
+  center_ft:
+  - 50.0
+  - 140.0
+- bounds_px:
+  - 590.0
+  - 360.0
+  - 150.0
+  - 150.0
+  name: '廢棄旅館
+
+    (2層建築)'
+  fill: '#4a4a3a'
+  stroke: '#6a6a5a'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 38
+  - 23
+  - 10
+  - 10
+  center_ft:
+  - 215.0
+  - 140.0
+- bounds_px:
+  - 95.0
+  - 107.0
+  - 190.0
+  - 6.0
+  name: 屋頂
+  fill: '#6a6a5a'
+  stroke: '#888'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 5
+  - 6
+  - 13
+  - 1
+  center_ft:
+  - 57.5
+  - 32.5
+- bounds_px:
+  - 545.0
+  - 107.0
+  - 190.0
+  - 6.0
+  name: 屋頂
+  fill: '#6a6a5a'
+  stroke: '#888'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 35
+  - 6
+  - 13
+  - 1
+  center_ft:
+  - 207.5
+  - 32.5
+- bounds_px:
+  - 300.0
+  - 270.0
+  - 60.0
+  - 30.0
+  name: 倒塌馬車
+  fill: '#6a4a20'
+  stroke: '#8a6a30'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 19
+  - 17
+  - 4
+  - 2
+  center_ft:
+  - 105.0
+  - 90.0
+- bounds_px:
+  - 345.0
+  - 465.0
+  - 90.0
+  - 40.0
+  name: 玩家起始
+  fill: none
+  stroke: '#2ecc71'
+  stroke_width: '2'
+  bounds_grid:
+  - 22
+  - 30
+  - 6
+  - 3
+  center_ft:
+  - 125.0
+  - 157.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 主街道
+  to: '倒塌商舖
+
+    (可攀爬)'
+  distance_ft: 84.0
+- from: 主街道
+  to: '藥舖
+
+    (可搜索)'
+  distance_ft: 88.4
+- from: 主街道
+  to: '民宅
+
+    (可躲藏)'
+  distance_ft: 90.6
+- from: 主街道
+  to: '廢棄旅館
+
+    (2層建築)'
+  distance_ft: 95.0
+- from: 主街道
+  to: 屋頂
+  distance_ft: 97.4
+- from: 主街道
+  to: 屋頂
+  distance_ft: 101.1
+- from: 主街道
+  to: 倒塌馬車
+  distance_ft: 26.1
+- from: 主街道
+  to: 玩家起始
+  distance_ft: 60.2
+- from: 主街道
+  to: '倒塌商舖
+
+    (可攀爬)'
+  distance_ft: 84.0
+- from: 主街道
+  to: '藥舖
+
+    (可搜索)'
+  distance_ft: 88.4

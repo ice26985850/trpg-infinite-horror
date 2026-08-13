@@ -1,0 +1,89 @@
+map_id: NAR_WM-01
+map_type: world
+scenario: '火影忍者·第四次忍界大戰 / Naruto: Fourth Great Ninja War'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 第四次忍界大戰 — 全體戰線圖
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 350.0
+  - 280.0
+  - 100.0
+  - 60.0
+  fill: '#1a1030'
+  stroke: '#b794f4'
+  name: 聯軍指揮部
+- bounds:
+  - 570.0
+  - 220.0
+  - 100.0
+  - 40.0
+  fill: '#1f1440'
+  stroke: '#6b1a3a'
+  name: 東海岸前線
+- bounds:
+  - 150.0
+  - 150.0
+  - 100.0
+  - 40.0
+  fill: '#1f1440'
+  stroke: '#6b1a3a'
+  name: 森林祭壇
+- bounds:
+  - 600.0
+  - 420.0
+  - 90.0
+  - 30.0
+  fill: '#0a201a'
+  stroke: '#2d8f6b'
+  name: 忍者聯軍 80000
+- bounds:
+  - 80.0
+  - 500.0
+  - 90.0
+  - 30.0
+  fill: '#1a0a10'
+  stroke: '#b8305e'
+  name: 白絕大軍 100000
+roads: []
+routes:
+- x1: 450.0
+  y1: 300.0
+  x2: 570.0
+  y2: 240.0
+  stroke: '#6b1a3a'
+  stroke_width: '1.5'
+  dashed: true
+- x1: 380.0
+  y1: 300.0
+  x2: 200.0
+  y2: 170.0
+  stroke: '#6b1a3a'
+  stroke_width: '1.5'
+  dashed: true
+- x1: 400.0
+  y1: 340.0
+  x2: 400.0
+  y2: 390.0
+  stroke: '#b8305e'
+  stroke_width: '2'
+  dashed: true
+danger_zones: []
+landmarks:
+- center:
+  - 400.0
+  - 440.0
+  radius: 50.0
+  name: 十尾戰場
+  fill: '#0a0015'
+  stroke: '#b8305e'
+  dashed: false
+legend:
+- 忍者聯軍 80000

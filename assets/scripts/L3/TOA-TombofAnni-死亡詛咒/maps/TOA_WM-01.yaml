@@ -1,0 +1,124 @@
+map_id: TOA_WM-01
+map_type: world
+scenario: '墳墓滅絕·死亡詛咒 / Tomb of Annihilation: The Death Curse'
+tier: L3
+difficulty: ★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: TOA_WM-01 世界地圖
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 80.0
+  - 60.0
+  - 640.0
+  - 480.0
+  fill: '#0a1a2a'
+  stroke: '#1e3a5f'
+  name: ''
+roads: []
+routes:
+- x1: 180.0
+  y1: 420.0
+  x2: 320.0
+  y2: 270.0
+  stroke: '#FFD700'
+  stroke_width: '2'
+  dashed: true
+- x1: 370.0
+  y1: 220.0
+  x2: 570.0
+  y2: 120.0
+  stroke: '#FFD700'
+  stroke_width: '2'
+  dashed: true
+danger_zones:
+- center:
+  - 250.0
+  - 350.0
+  rx: 60.0
+  ry: 50.0
+  name: 叢林路徑
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 500.0
+  - 200.0
+  rx: 80.0
+  ry: 60.0
+  name: 往死亡之墓
+  fill: '#FF0000'
+  stroke: '#FF4444'
+landmarks:
+- center:
+  - 150.0
+  - 450.0
+  radius: 12.0
+  name: 恩德港
+  fill: none
+  stroke: '#00FF88'
+  dashed: true
+- center:
+  - 150.0
+  - 450.0
+  radius: 5.0
+  name: 恩德港
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 350.0
+  - 250.0
+  radius: 12.0
+  name: 神廟廢墟
+  fill: none
+  stroke: '#FFAA00'
+  dashed: true
+- center:
+  - 350.0
+  - 250.0
+  radius: 5.0
+  name: 神廟廢墟
+  fill: '#FFAA00'
+  stroke: ''
+  dashed: false
+- center:
+  - 600.0
+  - 100.0
+  radius: 12.0
+  name: 死亡之墓
+  fill: none
+  stroke: '#FF0000'
+  dashed: true
+- center:
+  - 600.0
+  - 100.0
+  radius: 5.0
+  name: 死亡之墓
+  fill: '#FF0000'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 60.0
+  radius: 4.0
+  name: 起始點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 78.0
+  radius: 4.0
+  name: 目標點
+  fill: '#FFD700'
+  stroke: ''
+  dashed: false
+legend:
+- 亡靈出沒區
+- 起始點
+- 目標點

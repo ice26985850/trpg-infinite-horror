@@ -1,0 +1,164 @@
+map_id: NAR_BM-02
+map_type: battle
+scenario: '火影忍者·第四次忍界大戰 / Naruto: Fourth Great Ninja War'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 十尾戰場 — 最終決戰
+description: ''
+grid:
+  type: square
+  width: 16
+  height: 12
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 80
+  total_height_ft: 60
+terrain:
+- bounds_px:
+  - 360.0
+  - 230.0
+  - 80.0
+  - 80.0
+  name: 十尾
+  fill: '#0a0015'
+  stroke: '#b8305e'
+  stroke_width: '3'
+  bounds_grid:
+  - 23
+  - 14
+  - 5
+  - 5
+  center_ft:
+  - 127.5
+  - 82.5
+- bounds_px:
+  - 120.0
+  - 150.0
+  - 60.0
+  - 30.0
+  name: 五影集結
+  fill: '#1f1440'
+  stroke: '#b794f4'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 7
+  - 9
+  - 4
+  - 2
+  center_ft:
+  - 45.0
+  - 50.0
+- bounds_px:
+  - 580.0
+  - 400.0
+  - 140.0
+  - 50.0
+  name: 聯軍忍術大隊
+  fill: '#0a201a'
+  stroke: '#2d8f6b'
+  stroke_width: '2'
+  bounds_grid:
+  - 37
+  - 25
+  - 9
+  - 3
+  center_ft:
+  - 207.5
+  - 132.5
+- bounds_px:
+  - 120.0
+  - 430.0
+  - 60.0
+  - 40.0
+  name: 輪迴者
+  fill: '#0a201a'
+  stroke: '#2d8f6b'
+  stroke_width: '2'
+  bounds_grid:
+  - 7
+  - 27
+  - 4
+  - 3
+  center_ft:
+  - 45.0
+  - 142.5
+- bounds_px:
+  - 560.0
+  - 120.0
+  - 80.0
+  - 35.0
+  name: 鳴人+佐助
+  fill: '#b8a030'
+  stroke: '#ffd700'
+  stroke_width: '2'
+  bounds_grid:
+  - 36
+  - 7
+  - 5
+  - 2
+  center_ft:
+  - 192.5
+  - 40.0
+- bounds_px:
+  - 0.0
+  - 0.0
+  - 340.0
+  - 60.0
+  name: 尾獸砲蓄力 → 集中火力打斷(50+傷害) → 眼睛弱點(DC4感知) → 分裂體清理 → 封印班待命
+  fill: '#1a1030'
+  stroke: '#3a2a5e'
+  stroke_width: ''
+  bounds_grid:
+  - -1
+  - -1
+  - 23
+  - 4
+  center_ft:
+  - 52.5
+  - 5.0
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 十尾
+  to: 五影集結
+  distance_ft: 88.7
+- from: 十尾
+  to: 聯軍忍術大隊
+  distance_ft: 94.3
+- from: 十尾
+  to: 輪迴者
+  distance_ft: 102.0
+- from: 十尾
+  to: 鳴人+佐助
+  distance_ft: 77.7
+- from: 十尾
+  to: 尾獸砲蓄力 → 集中火力打斷(50+傷害) → 眼睛弱點(DC4感知) → 分裂體清理 → 封印班待命
+  distance_ft: 107.8
+- from: 五影集結
+  to: 聯軍忍術大隊
+  distance_ft: 182.2
+- from: 五影集結
+  to: 輪迴者
+  distance_ft: 92.5
+- from: 五影集結
+  to: 鳴人+佐助
+  distance_ft: 147.8
+- from: 五影集結
+  to: 尾獸砲蓄力 → 集中火力打斷(50+傷害) → 眼睛弱點(DC4感知) → 分裂體清理 → 封印班待命
+  distance_ft: 45.6
+- from: 聯軍忍術大隊
+  to: 輪迴者
+  distance_ft: 162.8

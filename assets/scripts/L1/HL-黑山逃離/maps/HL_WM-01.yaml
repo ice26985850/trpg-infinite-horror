@@ -1,0 +1,171 @@
+map_id: HL_WM-01
+map_type: world
+scenario: '戰慄時空·黑山逃離 / Half-Life: Black Mesa Escape'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 黑山研究所區
+description: ''
+scale: HL_WM-01 | 大範圍地圖 | 1格 ≈ 5m
+regions:
+- bounds:
+  - 160.0
+  - 420.0
+  - 80.0
+  - 60.0
+  fill: '#2e1a3e'
+  stroke: '#8B5CF6'
+  name: 觀測室
+- bounds:
+  - 180.0
+  - 120.0
+  - 100.0
+  - 60.0
+  fill: '#2e1a3e'
+  stroke: '#8B5CF6'
+  name: 保安中心
+- bounds:
+  - 500.0
+  - 420.0
+  - 100.0
+  - 60.0
+  fill: '#1a2a30'
+  stroke: '#3B82F6'
+  name: 材料實驗室
+- bounds:
+  - 320.0
+  - 350.0
+  - 80.0
+  - 50.0
+  fill: '#301520'
+  stroke: '#EF4444'
+  name: 異常物質
+roads:
+- x1: 100.0
+  y1: 350.0
+  x2: 700.0
+  y2: 350.0
+  stroke: '#555'
+  stroke_width: '6'
+  dashed: false
+- x1: 400.0
+  y1: 80.0
+  x2: 400.0
+  y2: 520.0
+  stroke: '#555'
+  stroke_width: '6'
+  dashed: false
+- x1: 200.0
+  y1: 200.0
+  x2: 600.0
+  y2: 200.0
+  stroke: '#555'
+  stroke_width: '3'
+  dashed: false
+routes:
+- x1: 240.0
+  y1: 450.0
+  x2: 400.0
+  y2: 410.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+- x1: 400.0
+  y1: 410.0
+  x2: 600.0
+  y2: 100.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+- x1: 635.0
+  y1: 515.0
+  x2: 665.0
+  y2: 515.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+danger_zones:
+- center:
+  - 350.0
+  - 300.0
+  rx: 80.0
+  ry: 50.0
+  name: 異形活躍區
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 600.0
+  - 350.0
+  rx: 60.0
+  ry: 40.0
+  name: 軍事封鎖線
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 150.0
+  - 200.0
+  rx: 50.0
+  ry: 35.0
+  name: 坍塌區域
+  fill: '#FF0000'
+  stroke: '#FF4444'
+landmarks:
+- center:
+  - 200.0
+  - 475.0
+  radius: 4.0
+  name: (起始點)
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 600.0
+  - 100.0
+  radius: 18.0
+  name: ★ 撤離點
+  fill: none
+  stroke: '#00FF88'
+  dashed: true
+- center:
+  - 600.0
+  - 100.0
+  radius: 7.0
+  name: ★ 撤離點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 400.0
+  - 180.0
+  radius: 20.0
+  name: T+18 核彈引爆
+  fill: '#FFAA00'
+  stroke: '#FFAA00'
+  dashed: false
+- center:
+  - 642.0
+  - 558.0
+  radius: 5.0
+  name: 撤離點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 575.0
+  radius: 4.0
+  name: 起始點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+legend:
+- Lambda實驗室
+- 軍事封鎖線
+- 撤離路線
+- 危險區域
+- 撤離點
+- 起始點

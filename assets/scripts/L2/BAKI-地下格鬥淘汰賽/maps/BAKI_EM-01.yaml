@@ -1,0 +1,75 @@
+map_id: BAKI_EM-01
+map_type: exploration
+scenario: '刃牙·地下格鬥淘汰賽 / Baki: Underground Tournament'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 700
+- 500
+title: 地下格鬥場 — 探索地圖 (EM-01)
+description: ''
+floors:
+- name: 樓層 1
+  y: 0.0
+  rooms:
+  - bounds:
+    - 0.0
+    - 0.0
+    - 700.0
+    - 500.0
+    name: ''
+    fill: '#1e1a1a'
+    stroke: ''
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 30.0
+    - 55.0
+    - 640.0
+    - 420.0
+    name: ''
+    fill: '#1e1a1a'
+    stroke: '#f39c12'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 80.0
+    - 100.0
+    - 250.0
+    - 80.0
+    name: A 圓形競技場
+    fill: '#3a3a2a'
+    stroke: '#f39c12'
+    stroke_width: '1.5'
+    rx: 3.0
+- name: 樓層 2
+  y: 210.0
+  rooms:
+  - bounds:
+    - 80.0
+    - 210.0
+    - 250.0
+    - 80.0
+    name: B 選手休息室
+    fill: '#4a4a3a'
+    stroke: '#f39c12'
+    stroke_width: '1.5'
+    rx: 3.0
+- name: 樓層 3
+  y: 320.0
+  rooms:
+  - bounds:
+    - 80.0
+    - 320.0
+    - 250.0
+    - 80.0
+    name: C 觀眾席
+    fill: '#3a4a4a'
+    stroke: '#f39c12'
+    stroke_width: '1.5'
+    rx: 3.0
+connections: []
+legend: []
+notes: []

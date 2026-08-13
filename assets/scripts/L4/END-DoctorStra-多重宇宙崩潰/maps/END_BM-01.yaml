@@ -1,0 +1,147 @@
+map_id: END_BM-01
+map_type: battle
+scenario: '奇異博士2·多重宇宙崩潰 / Doctor Strange: Multiverse Collapse'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 640
+- 480
+title: BM-01 混沌魔像防守戰
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 80.0
+  - 80.0
+  name: 玩家起始
+  fill: none
+  stroke: '#00FF88'
+  stroke_width: '2'
+  bounds_grid:
+  - 1
+  - 1
+  - 5
+  - 5
+  center_ft:
+  - 17.5
+  - 17.5
+- bounds_px:
+  - 280.0
+  - 280.0
+  - 80.0
+  - 80.0
+  name: 混沌魔像
+  fill: none
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 17
+  - 17
+  - 5
+  - 5
+  center_ft:
+  - 97.5
+  - 97.5
+- bounds_px:
+  - 280.0
+  - 40.0
+  - 80.0
+  - 40.0
+  name: 混沌碎片×4
+  fill: none
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 17
+  - 1
+  - 5
+  - 3
+  center_ft:
+  - 97.5
+  - 12.5
+- bounds_px:
+  - 40.0
+  - 280.0
+  - 120.0
+  - 80.0
+  name: 維度節點
+  fill: '#3B82F622'
+  stroke: '#3B82F6'
+  stroke_width: '2'
+  bounds_grid:
+  - 1
+  - 17
+  - 8
+  - 5
+  center_ft:
+  - 25.0
+  - 97.5
+- bounds_px:
+  - 160.0
+  - 160.0
+  - 80.0
+  - 80.0
+  name: 聖所結界
+  fill: '#F59E0B44'
+  stroke: '#F59E0B'
+  stroke_width: '1'
+  bounds_grid:
+  - 9
+  - 9
+  - 5
+  - 5
+  center_ft:
+  - 57.5
+  - 57.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 玩家起始
+  to: 混沌魔像
+  distance_ft: 113.1
+- from: 玩家起始
+  to: 混沌碎片×4
+  distance_ft: 80.2
+- from: 玩家起始
+  to: 維度節點
+  distance_ft: 80.4
+- from: 玩家起始
+  to: 聖所結界
+  distance_ft: 56.6
+- from: 混沌魔像
+  to: 混沌碎片×4
+  distance_ft: 85.0
+- from: 混沌魔像
+  to: 維度節點
+  distance_ft: 72.5
+- from: 混沌魔像
+  to: 聖所結界
+  distance_ft: 56.6
+- from: 混沌碎片×4
+  to: 維度節點
+  distance_ft: 111.7
+- from: 混沌碎片×4
+  to: 聖所結界
+  distance_ft: 60.2
+- from: 維度節點
+  to: 聖所結界
+  distance_ft: 51.5

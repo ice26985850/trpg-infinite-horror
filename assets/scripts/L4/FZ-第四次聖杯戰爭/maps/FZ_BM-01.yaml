@@ -1,0 +1,206 @@
+map_id: FZ_BM-01
+map_type: battle
+scenario: 'Fate/Zero·第四次聖杯戰爭 / Fate/Zero: The 4th Holy Grail War'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 680
+- 460
+title: 愛因茲貝倫城·森林戰場
+description: ''
+grid:
+  type: square
+  width: 16
+  height: 12
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20.0
+  - 20.0
+  total_width_ft: 80
+  total_height_ft: 60
+terrain:
+- bounds_px:
+  - 180.0
+  - 20.0
+  - 320.0
+  - 60.0
+  name: 愛因茲貝倫城牆
+  fill: '#1a2a2a'
+  stroke: '#10B981'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 11
+  - 0
+  - 21
+  - 4
+  center_ft:
+  - 107.5
+  - 10.0
+- bounds_px:
+  - 220.0
+  - 130.0
+  - 240.0
+  - 180.0
+  name: 開闊地
+  fill: '#151520'
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 13
+  - 7
+  - 16
+  - 12
+  center_ft:
+  - 105.0
+  - 65.0
+- bounds_px:
+  - 260.0
+  - 300.0
+  - 80.0
+  - 40.0
+  name: Caster
+  fill: '#301520'
+  stroke: '#EF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 16
+  - 19
+  - 5
+  - 3
+  center_ft:
+  - 92.5
+  - 102.5
+- bounds_px:
+  - 220.0
+  - 100.0
+  - 100.0
+  - 40.0
+  name: Saber/玩家
+  fill: '#1a3020'
+  stroke: '#10B981'
+  stroke_width: ''
+  bounds_grid:
+  - 13
+  - 5
+  - 7
+  - 3
+  center_ft:
+  - 82.5
+  - 32.5
+- bounds_px:
+  - 360.0
+  - 100.0
+  - 100.0
+  - 40.0
+  name: 玩家/愛麗絲
+  fill: '#1a3020'
+  stroke: '#10B981'
+  stroke_width: ''
+  bounds_grid:
+  - 23
+  - 5
+  - 7
+  - 3
+  center_ft:
+  - 132.5
+  - 32.5
+- bounds_px:
+  - 500.0
+  - 350.0
+  - 120.0
+  - 40.0
+  name: Berserker亂入點
+  fill: '#301520'
+  stroke: '#FD0304'
+  stroke_width: ''
+  bounds_grid:
+  - 32
+  - 22
+  - 8
+  - 3
+  center_ft:
+  - 180.0
+  - 117.5
+- bounds_px:
+  - 120.0
+  - 150.0
+  - 30.0
+  - 20.0
+  name: 石
+  fill: '#334'
+  stroke: '#667'
+  stroke_width: ''
+  bounds_grid:
+  - 7
+  - 9
+  - 2
+  - 1
+  center_ft:
+  - 40.0
+  - 47.5
+- bounds_px:
+  - 500.0
+  - 130.0
+  - 30.0
+  - 20.0
+  name: 石
+  fill: '#334'
+  stroke: '#667'
+  stroke_width: ''
+  bounds_grid:
+  - 32
+  - 7
+  - 2
+  - 1
+  center_ft:
+  - 165.0
+  - 37.5
+spawn_points:
+  players:
+  - px:
+    - 46.666666666666664
+    - 380.0
+    name: 玩家入口
+    fill: '#00FF88'
+    grid:
+    - 2
+    - 24
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 愛因茲貝倫城牆
+  to: 開闊地
+  distance_ft: 55.1
+- from: 愛因茲貝倫城牆
+  to: Caster
+  distance_ft: 93.7
+- from: 愛因茲貝倫城牆
+  to: Saber/玩家
+  distance_ft: 33.6
+- from: 愛因茲貝倫城牆
+  to: 玩家/愛麗絲
+  distance_ft: 33.6
+- from: 愛因茲貝倫城牆
+  to: Berserker亂入點
+  distance_ft: 129.7
+- from: 愛因茲貝倫城牆
+  to: 石
+  distance_ft: 77.2
+- from: 愛因茲貝倫城牆
+  to: 石
+  distance_ft: 63.7
+- from: 開闊地
+  to: Caster
+  distance_ft: 39.5
+- from: 開闊地
+  to: Saber/玩家
+  distance_ft: 39.5
+- from: 開闊地
+  to: 玩家/愛麗絲
+  distance_ft: 42.6

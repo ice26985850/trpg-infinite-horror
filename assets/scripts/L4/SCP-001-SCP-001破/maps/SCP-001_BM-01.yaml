@@ -1,0 +1,164 @@
+map_id: SCP-001_BM-01
+map_type: battle
+scenario: 'SCP-001 破曉之時 / SCP-001: When Day Breaks'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 640
+- 480
+title: BM-01 地下鐵路伏擊戰
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 40.0
+  - 200.0
+  - 80.0
+  - 80.0
+  name: 玩家起始
+  fill: none
+  stroke: '#00FF88'
+  stroke_width: '2'
+  bounds_grid:
+  - 1
+  - 12
+  - 5
+  - 5
+  center_ft:
+  - 17.5
+  - 72.5
+- bounds_px:
+  - 280.0
+  - 200.0
+  - 120.0
+  - 80.0
+  name: 崩塌月台
+  fill: '#F59E0B22'
+  stroke: '#F59E0B'
+  stroke_width: '2'
+  bounds_grid:
+  - 17
+  - 12
+  - 8
+  - 5
+  center_ft:
+  - 105.0
+  - 72.5
+- bounds_px:
+  - 200.0
+  - 40.0
+  - 80.0
+  - 80.0
+  name: 小型肉團×3
+  fill: none
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 12
+  - 1
+  - 5
+  - 5
+  center_ft:
+  - 72.5
+  - 17.5
+- bounds_px:
+  - 360.0
+  - 320.0
+  - 80.0
+  - 80.0
+  name: 肉團聚合體
+  fill: none
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 23
+  - 20
+  - 5
+  - 5
+  center_ft:
+  - 127.5
+  - 112.5
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 80.0
+  - 80.0
+  name: 隧道入口
+  fill: '#3B82F644'
+  stroke: '#3B82F6'
+  stroke_width: '1'
+  bounds_grid:
+  - 1
+  - 1
+  - 5
+  - 5
+  center_ft:
+  - 17.5
+  - 17.5
+- bounds_px:
+  - 120.0
+  - 360.0
+  - 160.0
+  - 80.0
+  name: 廢棄列車（掩體）
+  fill: '#66644'
+  stroke: '#666'
+  stroke_width: '1'
+  bounds_grid:
+  - 7
+  - 23
+  - 11
+  - 5
+  center_ft:
+  - 62.5
+  - 127.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 玩家起始
+  to: 崩塌月台
+  distance_ft: 87.5
+- from: 玩家起始
+  to: 小型肉團×3
+  distance_ft: 77.8
+- from: 玩家起始
+  to: 肉團聚合體
+  distance_ft: 117.0
+- from: 玩家起始
+  to: 隧道入口
+  distance_ft: 55.0
+- from: 玩家起始
+  to: 廢棄列車（掩體）
+  distance_ft: 71.1
+- from: 崩塌月台
+  to: 小型肉團×3
+  distance_ft: 63.9
+- from: 崩塌月台
+  to: 肉團聚合體
+  distance_ft: 45.9
+- from: 崩塌月台
+  to: 隧道入口
+  distance_ft: 103.4
+- from: 崩塌月台
+  to: 廢棄列車（掩體）
+  distance_ft: 69.5
+- from: 小型肉團×3
+  to: 肉團聚合體
+  distance_ft: 109.8

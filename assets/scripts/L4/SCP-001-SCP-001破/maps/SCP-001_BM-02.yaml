@@ -1,0 +1,164 @@
+map_id: SCP-001_BM-02
+map_type: battle
+scenario: 'SCP-001 破曉之時 / SCP-001: When Day Breaks'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 640
+- 480
+title: BM-02 Site-19 最終防線
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 80.0
+  - 80.0
+  name: 玩家起始
+  fill: none
+  stroke: '#00FF88'
+  stroke_width: '2'
+  bounds_grid:
+  - 1
+  - 1
+  - 5
+  - 5
+  center_ft:
+  - 17.5
+  - 17.5
+- bounds_px:
+  - 280.0
+  - 40.0
+  - 80.0
+  - 80.0
+  name: 防爆門控制台
+  fill: '#F59E0B22'
+  stroke: '#F59E0B'
+  stroke_width: '2'
+  bounds_grid:
+  - 17
+  - 1
+  - 5
+  - 5
+  center_ft:
+  - 97.5
+  - 17.5
+- bounds_px:
+  - 280.0
+  - 360.0
+  - 80.0
+  - 80.0
+  name: Site-19 入口
+  fill: '#3B82F622'
+  stroke: '#3B82F6'
+  stroke_width: '2'
+  bounds_grid:
+  - 17
+  - 23
+  - 5
+  - 5
+  center_ft:
+  - 97.5
+  - 127.5
+- bounds_px:
+  - 360.0
+  - 200.0
+  - 120.0
+  - 120.0
+  name: 肉團巨獸
+  fill: none
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 23
+  - 12
+  - 8
+  - 8
+  center_ft:
+  - 135.0
+  - 80.0
+- bounds_px:
+  - 40.0
+  - 200.0
+  - 120.0
+  - 80.0
+  name: 警衛崗亭（掩體）
+  fill: '#66644'
+  stroke: '#666'
+  stroke_width: '1'
+  bounds_grid:
+  - 1
+  - 12
+  - 8
+  - 5
+  center_ft:
+  - 25.0
+  - 72.5
+- bounds_px:
+  - 160.0
+  - 360.0
+  - 80.0
+  - 80.0
+  name: 武器箱
+  fill: '#10B98144'
+  stroke: '#10B981'
+  stroke_width: '1'
+  bounds_grid:
+  - 9
+  - 23
+  - 5
+  - 5
+  center_ft:
+  - 57.5
+  - 127.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 玩家起始
+  to: 防爆門控制台
+  distance_ft: 80.0
+- from: 玩家起始
+  to: Site-19 入口
+  distance_ft: 136.0
+- from: 玩家起始
+  to: 肉團巨獸
+  distance_ft: 133.1
+- from: 玩家起始
+  to: 警衛崗亭（掩體）
+  distance_ft: 55.5
+- from: 玩家起始
+  to: 武器箱
+  distance_ft: 117.0
+- from: 防爆門控制台
+  to: Site-19 入口
+  distance_ft: 110.0
+- from: 防爆門控制台
+  to: 肉團巨獸
+  distance_ft: 72.9
+- from: 防爆門控制台
+  to: 警衛崗亭（掩體）
+  distance_ft: 91.0
+- from: 防爆門控制台
+  to: 武器箱
+  distance_ft: 117.0
+- from: Site-19 入口
+  to: 肉團巨獸
+  distance_ft: 60.5

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<rect width="800" height="600" fill="#1a1a2e"/>
+<text x="400.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">第1層迷宮 · 內部地圖</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 1</text>
+<rect x="20" y="0.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="12.0" height="12.0" rx="2.0" fill="#1f1440" stroke="#4a2d8f" stroke-width="1"/>
+<text x="6.0" y="6.0" text-anchor="middle" fill="#aaa" font-size="9">怪物巢穴</text>
+<rect x="90.0" y="0.0" width="12.0" height="12.0" rx="2.0" fill="#1f1440" stroke="#4a2d8f" stroke-width="1"/>
+<text x="96.0" y="6.0" text-anchor="middle" fill="#aaa" font-size="9">寶箱/資源</text>
+<rect x="180.0" y="0.0" width="12.0" height="12.0" rx="2.0" fill="#1f1440" stroke="#6b1a3a" stroke-width="1.5"/>
+<text x="186.0" y="6.0" text-anchor="middle" fill="#aaa" font-size="9">精英怪</text>
+<rect x="260.0" y="0.0" width="12.0" height="12.0" rx="2.0" fill="#2d0a1a" stroke="#b8305e" stroke-width="2"/>
+<text x="266.0" y="6.0" text-anchor="middle" fill="#aaa" font-size="9">BOSS</text>
+<rect x="30.0" y="65.0" width="740.0" height="490.0" rx="5.0" fill="none" stroke="#3a2a5e" stroke-width="2"/>
+<rect x="50.0" y="85.0" width="120.0" height="30.0" rx="4.0" fill="#1a1030" stroke="#4a2d8f" stroke-width="1"/>
+<text x="110.0" y="100.0" text-anchor="middle" fill="#aaa" font-size="9">入口</text>
+<rect x="170.0" y="85.0" width="560.0" height="30.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<text x="450.0" y="100.0" text-anchor="middle" fill="#aaa" font-size="9">Sword Art Online · Exploration Map EM-01</text>
+<rect x="50.0" y="115.0" width="30.0" height="120.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<rect x="170.0" y="115.0" width="30.0" height="120.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<rect x="300.0" y="115.0" width="30.0" height="120.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<rect x="490.0" y="115.0" width="30.0" height="120.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<text x="20" y="230.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 2</text>
+<rect x="20" y="235.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="50.0" y="235.0" width="120.0" height="30.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<text x="110.0" y="250.0" text-anchor="middle" fill="#aaa" font-size="9">狗頭人巢穴</text>
+<rect x="170.0" y="235.0" width="560.0" height="30.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<rect x="500.0" y="235.0" width="30.0" height="140.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<text x="515.0" y="305.0" text-anchor="middle" fill="#aaa" font-size="9">DC2調查</text>
+<rect x="200.0" y="235.0" width="30.0" height="140.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<text x="215.0" y="305.0" text-anchor="middle" fill="#aaa" font-size="9">★★x1~2</text>
+<rect x="630.0" y="235.0" width="30.0" height="70.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<text x="645.0" y="270.0" text-anchor="middle" fill="#aaa" font-size="9">寶箱房</text>
+<rect x="80.0" y="255.0" width="80.0" height="50.0" rx="5.0" fill="#1f1440" stroke="#4a2d8f" stroke-width="1.5"/>
+<text x="120.0" y="280.0" text-anchor="middle" fill="#aaa" font-size="9">狗頭人巢穴</text>
+<rect x="230.0" y="255.0" width="80.0" height="50.0" rx="5.0" fill="#1f1440" stroke="#4a2d8f" stroke-width="1.5"/>
+<text x="270.0" y="280.0" text-anchor="middle" fill="#aaa" font-size="9">廢墟狼穴</text>
+<rect x="540.0" y="255.0" width="80.0" height="50.0" rx="5.0" fill="#1f1440" stroke="#4a2d8f" stroke-width="1.5"/>
+<text x="580.0" y="280.0" text-anchor="middle" fill="#aaa" font-size="9">寶箱房</text>
+<text x="20" y="370.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 3</text>
+<rect x="20" y="375.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="50.0" y="375.0" width="420.0" height="30.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<rect x="500.0" y="375.0" width="260.0" height="30.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<rect x="50.0" y="405.0" width="30.0" height="120.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<text x="65.0" y="465.0" text-anchor="middle" fill="#aaa" font-size="9">破壞者</text>
+<rect x="320.0" y="405.0" width="30.0" height="120.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<rect x="630.0" y="405.0" width="30.0" height="120.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<text x="645.0" y="465.0" text-anchor="middle" fill="#aaa" font-size="9">BOSS房間</text>
+<rect x="80.0" y="445.0" width="100.0" height="50.0" rx="5.0" fill="#1f1440" stroke="#6b1a3a" stroke-width="1.5"/>
+<text x="130.0" y="470.0" text-anchor="middle" fill="#aaa" font-size="9">破壞者</text>
+<rect x="370.0" y="445.0" width="100.0" height="50.0" rx="5.0" fill="#1f1440" stroke="#4a2d8f" stroke-width="1.5"/>
+<text x="420.0" y="470.0" text-anchor="middle" fill="#aaa" font-size="9">休息點</text>
+<rect x="620.0" y="445.0" width="120.0" height="80.0" rx="6.0" fill="#2d0a1a" stroke="#b8305e" stroke-width="2"/>
+<text x="680.0" y="485.0" text-anchor="middle" fill="#aaa" font-size="9">BOSS房間</text>
+<text x="20" y="525.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 4</text>
+<rect x="20" y="530.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="50.0" y="530.0" width="610.0" height="10.0" rx="3.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<text x="355.0" y="535.0" text-anchor="middle" fill="#aaa" font-size="9">SAO_副本 · 地圖編號EM-01 · 800x600 · #1a1a2e</text>
+<rect x="20" y="545" width="760" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="570" fill="#aaa" font-size="9">SAO_副本 · 地圖編號EM-01 · 800x600 · #1a1a2e</text>
+<text x="20" y="590" fill="#666" font-size="9">SAO_EM-01 | 探索地圖 </text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="680" height="420" fill="#1a1a2e"/>
+<rect x="20" y="20" width="640" height="380" fill="url(#grid)"/>
+<rect x="20" y="20" width="640" height="380" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="340.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">獵人領地 — 廢棄醫院</text>
+<text x="25" y="412" fill="#666" font-size="9">TLOU_BM-01 | 14×10格（概念） | 1格 = 5ft | 總 70×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="177.5" y="15" text-anchor="middle" fill="#555" font-size="7">11</text>
+<text x="192.5" y="15" text-anchor="middle" fill="#555" font-size="7">12</text>
+<text x="207.5" y="15" text-anchor="middle" fill="#555" font-size="7">13</text>
+<text x="222.5" y="15" text-anchor="middle" fill="#555" font-size="7">14</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="40.0" y="40.0" width="420.0" height="5.0" rx="5" fill="#667" stroke="" stroke-width=""/>
+<rect x="40.0" y="335.0" width="420.0" height="5.0" rx="5" fill="#667" stroke="" stroke-width=""/>
+<rect x="40.0" y="40.0" width="5.0" height="300.0" rx="3" fill="#667" stroke="" stroke-width=""/>
+<rect x="455.0" y="40.0" width="5.0" height="300.0" rx="3" fill="#667" stroke="" stroke-width=""/>
+<rect x="100.0" y="60.0" width="80.0" height="40.0" rx="3" fill="#2a2a30" stroke="#555" stroke-width="1.5"/>
+<text x="140.0" y="76.0" text-anchor="middle" fill="#aaa" font-size="8">檢查室</text>
+<text x="140.0" y="90.0" text-anchor="middle" fill="#666" font-size="6">(32.5, 12.5)ft</text>
+<rect x="350.0" y="60.0" width="90.0" height="40.0" rx="3" fill="#2a2a30" stroke="#555" stroke-width="1.5"/>
+<text x="395.0" y="76.0" text-anchor="middle" fill="#aaa" font-size="8">急診室</text>
+<text x="395.0" y="90.0" text-anchor="middle" fill="#666" font-size="6">(120.0, 12.5)ft</text>
+<rect x="250.0" y="280.0" width="80.0" height="12.0" rx="5" fill="#FFAA00" stroke="#886600" stroke-width="1.5"/>
+<text x="290.0" y="282.0" text-anchor="middle" fill="#aaa" font-size="8">路障</text>
+<text x="290.0" y="296.0" text-anchor="middle" fill="#666" font-size="6">(82.5, 82.5)ft</text>
+<rect x="80.0" y="300.0" width="60.0" height="40.0" rx="3" fill="#301520" stroke="#EF4444" stroke-width="1.5"/>
+<text x="110.0" y="316.0" text-anchor="middle" fill="#aaa" font-size="8">武器庫</text>
+<text x="110.0" y="330.0" text-anchor="middle" fill="#666" font-size="6">(25.0, 92.5)ft</text>
+<rect x="450.0" y="280.0" width="60.0" height="20.0" rx="5" fill="#FFAA00" stroke="#886600" stroke-width="1.5"/>
+<text x="480.0" y="286.0" text-anchor="middle" fill="#aaa" font-size="8">人質區</text>
+<text x="480.0" y="300.0" text-anchor="middle" fill="#666" font-size="6">(145.0, 82.5)ft</text>
+<rect x="450.0" y="275.0" width="60.0" height="5.0" rx="5" fill="#00FF88" stroke="#00FF88" stroke-width="1.5"/>
+<text x="480.0" y="273.5" text-anchor="middle" fill="#aaa" font-size="8">解救人質</text>
+<text x="480.0" y="287.5" text-anchor="middle" fill="#666" font-size="6">(145.0, 82.5)ft</text>
+<polygon points="490.0,372.0 510.0,380.0 490.0,388.0" fill="#00FF88"/>
+<text x="505.0" y="394.0" fill="#00FF88" font-size="8">玩家入口</text>
+</svg>

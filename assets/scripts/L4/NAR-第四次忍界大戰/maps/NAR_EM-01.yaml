@@ -1,0 +1,95 @@
+map_id: NAR_EM-01
+map_type: exploration
+scenario: '火影忍者·第四次忍界大戰 / Naruto: Fourth Great Ninja War'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 森林祭壇 — 穢土轉生戰場
+description: ''
+floors:
+- name: 樓層 1
+  y: 0.0
+  rooms:
+  - bounds:
+    - 0.0
+    - 0.0
+    - 200.0
+    - 130.0
+    name: 注意:塵遁粒子每輪移動
+    fill: '#1a1030'
+    stroke: '#3a2a5e'
+    stroke_width: ''
+    rx: 6.0
+  - bounds:
+    - 30.0
+    - 65.0
+    - 740.0
+    - 490.0
+    name: ''
+    fill: '#0a1020'
+    stroke: '#2a3a5e'
+    stroke_width: '1.5'
+    rx: 8.0
+  - bounds:
+    - 330.0
+    - 120.0
+    - 140.0
+    - 80.0
+    name: 穢土轉生祭壇核心
+    fill: '#1a0030'
+    stroke: '#b8305e'
+    stroke_width: '2.5'
+    rx: 6.0
+- name: 樓層 2
+  y: 300.0
+  rooms:
+  - bounds:
+    - 150.0
+    - 300.0
+    - 80.0
+    - 60.0
+    name: 二代水影
+    fill: '#1f1440'
+    stroke: '#4a6d8f'
+    stroke_width: '2'
+    rx: 6.0
+  - bounds:
+    - 560.0
+    - 300.0
+    - 80.0
+    - 60.0
+    name: 三代雷影
+    fill: '#1f1440'
+    stroke: '#b8a040'
+    stroke_width: '2'
+    rx: 6.0
+- name: 樓層 3
+  y: 400.0
+  rooms:
+  - bounds:
+    - 60.0
+    - 400.0
+    - 100.0
+    - 40.0
+    name: 輪迴者初始位置
+    fill: '#0a201a'
+    stroke: '#2d8f6b'
+    stroke_width: '2'
+    rx: 5.0
+  - bounds:
+    - 330.0
+    - 430.0
+    - 80.0
+    - 60.0
+    name: 二代土影
+    fill: '#1f1440'
+    stroke: '#8f6b4a'
+    stroke_width: '2'
+    rx: 6.0
+connections: []
+legend: []
+notes: []

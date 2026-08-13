@@ -1,0 +1,259 @@
+map_id: BLEACH_EM-01
+map_type: exploration
+scenario: '死神·屍魂界救援 / Bleach: Soul Society Rescue'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 900
+- 620
+title: 瀞靈廷內部——探索地圖 (1區)
+description: ''
+floors:
+- name: 樓層 1
+  y: 0.0
+  rooms:
+  - bounds:
+    - 0.0
+    - 0.0
+    - 900.0
+    - 620.0
+    name: (25%朽木白哉/15%其他隊長)
+    fill: '#1a1a2e'
+    stroke: ''
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 20.0
+    - 58.0
+    - 860.0
+    - 160.0
+    name: (3席官+死×2)
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 35.0
+    - 70.0
+    - 120.0
+    - 60.0
+    name: 露琪亞牢房
+    fill: '#301520'
+    stroke: '#EF4444'
+    stroke_width: '2'
+    rx: 3.0
+  - bounds:
+    - 180.0
+    - 70.0
+    - 80.0
+    - 60.0
+    name: 牢房 2
+    fill: '#1a1030'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 280.0
+    - 70.0
+    - 80.0
+    - 60.0
+    name: 牢房 3
+    fill: '#1a1030'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 380.0
+    - 70.0
+    - 100.0
+    - 60.0
+    name: 守衛室
+    fill: '#162040'
+    stroke: '#F59E0B'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 500.0
+    - 70.0
+    - 70.0
+    - 140.0
+    name: 通往中庭
+    fill: '#162040'
+    stroke: '#F59E0B'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 590.0
+    - 70.0
+    - 130.0
+    - 60.0
+    name: 審問室
+    fill: '#1a1030'
+    stroke: '#6D28D9'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 740.0
+    - 70.0
+    - 120.0
+    - 60.0
+    name: 檔案室
+    fill: '#1a1030'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 3.0
+- name: 樓層 2
+  y: 248.0
+  rooms:
+  - bounds:
+    - 20.0
+    - 248.0
+    - 860.0
+    - 120.0
+    name: (25%朽木白哉/15%其他隊長)
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 35.0
+    - 260.0
+    - 260.0
+    - 50.0
+    name: 中庭花園
+    fill: '#1a2a2a'
+    stroke: '#10B981'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 330.0
+    - 260.0
+    - 60.0
+    - 50.0
+    name: 轉角
+    fill: '#162040'
+    stroke: '#F59E0B'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 420.0
+    - 260.0
+    - 120.0
+    - 50.0
+    name: 隊長級遭遇點
+    fill: '#301520'
+    stroke: '#EF4444'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 570.0
+    - 260.0
+    - 130.0
+    - 50.0
+    name: 通道岔路口
+    fill: '#1a2a2a'
+    stroke: '#10B981'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 730.0
+    - 260.0
+    - 130.0
+    - 50.0
+    name: 隱蔽小巷
+    fill: '#1a1030'
+    stroke: '#6D28D9'
+    stroke_width: ''
+    rx: 3.0
+- name: 樓層 3
+  y: 398.0
+  rooms:
+  - bounds:
+    - 20.0
+    - 398.0
+    - 860.0
+    - 110.0
+    name: (T+72處刑場)
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 35.0
+    - 410.0
+    - 180.0
+    - 40.0
+    name: 白哉最終關卡
+    fill: '#301520'
+    stroke: '#EF4444'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 250.0
+    - 410.0
+    - 100.0
+    - 40.0
+    name: 大階段
+    fill: '#162040'
+    stroke: '#F59E0B'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 400.0
+    - 410.0
+    - 100.0
+    - 40.0
+    name: 雙殛之丘入口
+    fill: '#1a2a2a'
+    stroke: '#10B981'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 550.0
+    - 410.0
+    - 150.0
+    - 40.0
+    name: 總隊長最終防線
+    fill: '#301520'
+    stroke: '#FF4444'
+    stroke_width: ''
+    rx: 3.0
+- name: 樓層 4
+  y: 538.0
+  rooms:
+  - bounds:
+    - 20.0
+    - 538.0
+    - 860.0
+    - 65.0
+    name: ''
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 35.0
+    - 548.0
+    - 180.0
+    - 40.0
+    name: 穿界門
+    fill: '#1a2a2a'
+    stroke: '#10B981'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 250.0
+    - 548.0
+    - 200.0
+    - 40.0
+    name: 斬魄刀訓練場
+    fill: '#1a2a2a'
+    stroke: '#10B981'
+    stroke_width: ''
+    rx: 3.0
+connections: []
+legend:
+- BLEACH_EM-01 | 探索地圖 | 瀞靈廷內部區域 A~D
+notes: []

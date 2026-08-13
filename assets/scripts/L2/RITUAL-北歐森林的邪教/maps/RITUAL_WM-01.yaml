@@ -1,0 +1,51 @@
+map_id: RITUAL_WM-01
+map_type: world
+scenario: '黑森靈·北歐森林的邪教 / The Ritual: Nordic Forest Cult'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 900
+- 620
+title: 北歐原始森林 — 大範圍地圖 (WM-01)
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 150.0
+  - 120.0
+  - 100.0
+  - 60.0
+  fill: '#2a3a1a'
+  stroke: '#27ae60'
+  name: A 廢棄木屋
+- bounds:
+  - 550.0
+  - 370.0
+  - 100.0
+  - 60.0
+  fill: '#3a2a2a'
+  stroke: '#27ae60'
+  name: B 邪教村莊
+- bounds:
+  - 350.0
+  - 520.0
+  - 100.0
+  - 60.0
+  fill: '#2a2a3a'
+  stroke: '#27ae60'
+  name: C 地下聖所
+- bounds:
+  - 20.0
+  - 540.0
+  - 860.0
+  - 60.0
+  fill: '#0a1a0a'
+  stroke: '#333'
+  name: ''
+roads: []
+routes: []
+danger_zones: []
+landmarks: []
+legend: []

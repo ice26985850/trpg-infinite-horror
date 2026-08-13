@@ -1,0 +1,140 @@
+map_id: W40K_WM-01
+map_type: world
+scenario: '戰鎚40K·審判庭的裁決 / Warhammer 40K: The Inquisition''s Judgment'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: W40K_WM-01 世界地圖
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 80.0
+  - 60.0
+  - 640.0
+  - 480.0
+  fill: '#0a1a2a'
+  stroke: '#1e3a5f'
+  name: ''
+roads: []
+routes:
+- x1: 340.0
+  y1: 310.0
+  x2: 310.0
+  y2: 180.0
+  stroke: '#FFD700'
+  stroke_width: '2'
+  dashed: true
+- x1: 320.0
+  y1: 160.0
+  x2: 530.0
+  y2: 100.0
+  stroke: '#FFD700'
+  stroke_width: '2'
+  dashed: true
+danger_zones:
+- center:
+  - 300.0
+  - 150.0
+  rx: 100.0
+  ry: 60.0
+  name: 巢都底層
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 550.0
+  - 80.0
+  rx: 60.0
+  ry: 50.0
+  name: 儀式場地
+  fill: '#FF0000'
+  stroke: '#FF4444'
+landmarks:
+- center:
+  - 350.0
+  - 350.0
+  radius: 12.0
+  name: 前哨站
+  fill: none
+  stroke: '#00FF88'
+  dashed: true
+- center:
+  - 350.0
+  - 350.0
+  radius: 5.0
+  name: 前哨站
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 300.0
+  - 150.0
+  radius: 12.0
+  name: 巢都底層
+  fill: none
+  stroke: '#FF0000'
+  dashed: true
+- center:
+  - 300.0
+  - 150.0
+  radius: 5.0
+  name: 巢都底層
+  fill: '#FF0000'
+  stroke: ''
+  dashed: false
+- center:
+  - 550.0
+  - 80.0
+  radius: 12.0
+  name: 儀式場地
+  fill: none
+  stroke: '#FF00FF'
+  dashed: true
+- center:
+  - 550.0
+  - 80.0
+  radius: 5.0
+  name: 儀式場地
+  fill: '#FF00FF'
+  stroke: ''
+  dashed: false
+- center:
+  - 200.0
+  - 280.0
+  radius: 12.0
+  name: 市集
+  fill: none
+  stroke: '#00AAFF'
+  dashed: true
+- center:
+  - 200.0
+  - 280.0
+  radius: 5.0
+  name: 市集
+  fill: '#00AAFF'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 60.0
+  radius: 4.0
+  name: 起始點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 78.0
+  radius: 4.0
+  name: 目標點
+  fill: '#FFD700'
+  stroke: ''
+  dashed: false
+legend:
+- 亞空間裂隙
+- 起始點
+- 目標點

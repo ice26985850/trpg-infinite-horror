@@ -1,0 +1,912 @@
+map_id: LONELY_BM-02
+map_type: battle
+scenario: '漫漫長夜·寂靜荒野 / The Long Dark: Silent Wilderness'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 460
+- 360
+title: 戰鬥地圖 8x6
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 30.0
+  - 30.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 1
+  - 1
+  - 3
+  - 3
+  center_ft:
+  - 12.5
+  - 12.5
+- bounds_px:
+  - 30.0
+  - 80.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 1
+  - 4
+  - 3
+  - 3
+  center_ft:
+  - 12.5
+  - 27.5
+- bounds_px:
+  - 30.0
+  - 130.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 1
+  - 7
+  - 3
+  - 3
+  center_ft:
+  - 12.5
+  - 42.5
+- bounds_px:
+  - 30.0
+  - 180.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 1
+  - 11
+  - 3
+  - 3
+  center_ft:
+  - 12.5
+  - 62.5
+- bounds_px:
+  - 30.0
+  - 230.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 1
+  - 14
+  - 3
+  - 3
+  center_ft:
+  - 12.5
+  - 77.5
+- bounds_px:
+  - 30.0
+  - 280.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 1
+  - 17
+  - 3
+  - 3
+  center_ft:
+  - 12.5
+  - 92.5
+- bounds_px:
+  - 80.0
+  - 30.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 4
+  - 1
+  - 3
+  - 3
+  center_ft:
+  - 27.5
+  - 12.5
+- bounds_px:
+  - 80.0
+  - 80.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 4
+  - 4
+  - 3
+  - 3
+  center_ft:
+  - 27.5
+  - 27.5
+- bounds_px:
+  - 80.0
+  - 130.0
+  - 50.0
+  - 50.0
+  name: 障
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 4
+  - 7
+  - 3
+  - 3
+  center_ft:
+  - 27.5
+  - 42.5
+- bounds_px:
+  - 80.0
+  - 180.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 4
+  - 11
+  - 3
+  - 3
+  center_ft:
+  - 27.5
+  - 62.5
+- bounds_px:
+  - 80.0
+  - 230.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 4
+  - 14
+  - 3
+  - 3
+  center_ft:
+  - 27.5
+  - 77.5
+- bounds_px:
+  - 80.0
+  - 280.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 4
+  - 17
+  - 3
+  - 3
+  center_ft:
+  - 27.5
+  - 92.5
+- bounds_px:
+  - 130.0
+  - 30.0
+  - 50.0
+  - 50.0
+  name: ▲戰鬥地圖BM-02
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 7
+  - 1
+  - 3
+  - 3
+  center_ft:
+  - 42.5
+  - 12.5
+- bounds_px:
+  - 130.0
+  - 80.0
+  - 50.0
+  - 50.0
+  name: 障
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 7
+  - 4
+  - 3
+  - 3
+  center_ft:
+  - 42.5
+  - 27.5
+- bounds_px:
+  - 130.0
+  - 130.0
+  - 50.0
+  - 50.0
+  name: 障
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 7
+  - 7
+  - 3
+  - 3
+  center_ft:
+  - 42.5
+  - 42.5
+- bounds_px:
+  - 130.0
+  - 180.0
+  - 50.0
+  - 50.0
+  name: BOSS
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 7
+  - 11
+  - 3
+  - 3
+  center_ft:
+  - 42.5
+  - 62.5
+- bounds_px:
+  - 130.0
+  - 230.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 7
+  - 14
+  - 3
+  - 3
+  center_ft:
+  - 42.5
+  - 77.5
+- bounds_px:
+  - 130.0
+  - 280.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 7
+  - 17
+  - 3
+  - 3
+  center_ft:
+  - 42.5
+  - 92.5
+- bounds_px:
+  - 180.0
+  - 30.0
+  - 50.0
+  - 50.0
+  name: ▲戰鬥地圖BM-02
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 11
+  - 1
+  - 3
+  - 3
+  center_ft:
+  - 62.5
+  - 12.5
+- bounds_px:
+  - 180.0
+  - 80.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 11
+  - 4
+  - 3
+  - 3
+  center_ft:
+  - 62.5
+  - 27.5
+- bounds_px:
+  - 180.0
+  - 130.0
+  - 50.0
+  - 50.0
+  name: BOSS
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 11
+  - 7
+  - 3
+  - 3
+  center_ft:
+  - 62.5
+  - 42.5
+- bounds_px:
+  - 180.0
+  - 180.0
+  - 50.0
+  - 50.0
+  name: BOSS
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 11
+  - 11
+  - 3
+  - 3
+  center_ft:
+  - 62.5
+  - 62.5
+- bounds_px:
+  - 180.0
+  - 230.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 11
+  - 14
+  - 3
+  - 3
+  center_ft:
+  - 62.5
+  - 77.5
+- bounds_px:
+  - 180.0
+  - 280.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 11
+  - 17
+  - 3
+  - 3
+  center_ft:
+  - 62.5
+  - 92.5
+- bounds_px:
+  - 230.0
+  - 30.0
+  - 50.0
+  - 50.0
+  name: 戰鬥地圖 8x6
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 14
+  - 1
+  - 3
+  - 3
+  center_ft:
+  - 77.5
+  - 12.5
+- bounds_px:
+  - 230.0
+  - 80.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 14
+  - 4
+  - 3
+  - 3
+  center_ft:
+  - 77.5
+  - 27.5
+- bounds_px:
+  - 230.0
+  - 130.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 14
+  - 7
+  - 3
+  - 3
+  center_ft:
+  - 77.5
+  - 42.5
+- bounds_px:
+  - 230.0
+  - 180.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 14
+  - 11
+  - 3
+  - 3
+  center_ft:
+  - 77.5
+  - 62.5
+- bounds_px:
+  - 230.0
+  - 230.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 14
+  - 14
+  - 3
+  - 3
+  center_ft:
+  - 77.5
+  - 77.5
+- bounds_px:
+  - 230.0
+  - 280.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 14
+  - 17
+  - 3
+  - 3
+  center_ft:
+  - 77.5
+  - 92.5
+- bounds_px:
+  - 280.0
+  - 30.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 17
+  - 1
+  - 3
+  - 3
+  center_ft:
+  - 92.5
+  - 12.5
+- bounds_px:
+  - 280.0
+  - 80.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 17
+  - 4
+  - 3
+  - 3
+  center_ft:
+  - 92.5
+  - 27.5
+- bounds_px:
+  - 280.0
+  - 130.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 17
+  - 7
+  - 3
+  - 3
+  center_ft:
+  - 92.5
+  - 42.5
+- bounds_px:
+  - 280.0
+  - 180.0
+  - 50.0
+  - 50.0
+  name: 我方
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 17
+  - 11
+  - 3
+  - 3
+  center_ft:
+  - 92.5
+  - 62.5
+- bounds_px:
+  - 280.0
+  - 230.0
+  - 50.0
+  - 50.0
+  name: 我方
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 17
+  - 14
+  - 3
+  - 3
+  center_ft:
+  - 92.5
+  - 77.5
+- bounds_px:
+  - 280.0
+  - 280.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 17
+  - 17
+  - 3
+  - 3
+  center_ft:
+  - 92.5
+  - 92.5
+- bounds_px:
+  - 330.0
+  - 30.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 21
+  - 1
+  - 3
+  - 3
+  center_ft:
+  - 112.5
+  - 12.5
+- bounds_px:
+  - 330.0
+  - 80.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 21
+  - 4
+  - 3
+  - 3
+  center_ft:
+  - 112.5
+  - 27.5
+- bounds_px:
+  - 330.0
+  - 130.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 21
+  - 7
+  - 3
+  - 3
+  center_ft:
+  - 112.5
+  - 42.5
+- bounds_px:
+  - 330.0
+  - 180.0
+  - 50.0
+  - 50.0
+  name: 我方
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 21
+  - 11
+  - 3
+  - 3
+  center_ft:
+  - 112.5
+  - 62.5
+- bounds_px:
+  - 330.0
+  - 230.0
+  - 50.0
+  - 50.0
+  name: 我方
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 21
+  - 14
+  - 3
+  - 3
+  center_ft:
+  - 112.5
+  - 77.5
+- bounds_px:
+  - 330.0
+  - 280.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 21
+  - 17
+  - 3
+  - 3
+  center_ft:
+  - 112.5
+  - 92.5
+- bounds_px:
+  - 380.0
+  - 30.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 24
+  - 1
+  - 3
+  - 3
+  center_ft:
+  - 127.5
+  - 12.5
+- bounds_px:
+  - 380.0
+  - 80.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 24
+  - 4
+  - 3
+  - 3
+  center_ft:
+  - 127.5
+  - 27.5
+- bounds_px:
+  - 380.0
+  - 130.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 24
+  - 7
+  - 3
+  - 3
+  center_ft:
+  - 127.5
+  - 42.5
+- bounds_px:
+  - 380.0
+  - 180.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 24
+  - 11
+  - 3
+  - 3
+  center_ft:
+  - 127.5
+  - 62.5
+- bounds_px:
+  - 380.0
+  - 230.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 24
+  - 14
+  - 3
+  - 3
+  center_ft:
+  - 127.5
+  - 77.5
+- bounds_px:
+  - 380.0
+  - 280.0
+  - 50.0
+  - 50.0
+  name: ''
+  fill: none
+  stroke: '#333'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 24
+  - 17
+  - 3
+  - 3
+  center_ft:
+  - 127.5
+  - 92.5
+- bounds_px:
+  - 28.0
+  - 28.0
+  - 404.0
+  - 304.0
+  name: BOSS
+  fill: none
+  stroke: '#4B0082'
+  stroke_width: '2'
+  bounds_grid:
+  - 1
+  - 1
+  - 27
+  - 20
+  center_ft:
+  - 72.5
+  - 55.0
+- bounds_px:
+  - 150.0
+  - 100.0
+  - 40.0
+  - 80.0
+  name: 障
+  fill: '#7f8c8d'
+  stroke: '#95a5a6'
+  stroke_width: '1'
+  bounds_grid:
+  - 9
+  - 5
+  - 3
+  - 5
+  center_ft:
+  - 52.5
+  - 37.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: ''
+  to: ''
+  distance_ft: 15.0
+- from: ''
+  to: ''
+  distance_ft: 30.0
+- from: ''
+  to: ''
+  distance_ft: 50.0
+- from: ''
+  to: ''
+  distance_ft: 65.0
+- from: ''
+  to: ''
+  distance_ft: 80.0
+- from: ''
+  to: ''
+  distance_ft: 15.0
+- from: ''
+  to: ''
+  distance_ft: 21.2
+- from: ''
+  to: 障
+  distance_ft: 33.5
+- from: ''
+  to: ''
+  distance_ft: 52.2
+- from: ''
+  to: ''
+  distance_ft: 66.7

@@ -1,0 +1,147 @@
+map_id: SIN_BM-01
+map_type: battle
+scenario: '七大罪·魔神之戰 / The Seven Deadly Sins: War of the Demon King'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 640
+- 480
+title: BM-01 十誡·伽藍戰
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 40.0
+  - 240.0
+  - 80.0
+  - 80.0
+  name: 玩家起始
+  fill: none
+  stroke: '#00FF88'
+  stroke_width: '2'
+  bounds_grid:
+  - 1
+  - 15
+  - 5
+  - 5
+  center_ft:
+  - 17.5
+  - 87.5
+- bounds_px:
+  - 280.0
+  - 280.0
+  - 80.0
+  - 80.0
+  name: 伽藍
+  fill: none
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 17
+  - 17
+  - 5
+  - 5
+  center_ft:
+  - 97.5
+  - 97.5
+- bounds_px:
+  - 280.0
+  - 40.0
+  - 80.0
+  - 40.0
+  name: 魔神手下×3
+  fill: none
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 17
+  - 1
+  - 5
+  - 3
+  center_ft:
+  - 97.5
+  - 12.5
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 120.0
+  - 80.0
+  name: 廢墟柱子（可推倒）
+  fill: '#66644'
+  stroke: '#666'
+  stroke_width: '1'
+  bounds_grid:
+  - 1
+  - 1
+  - 8
+  - 5
+  center_ft:
+  - 25.0
+  - 17.5
+- bounds_px:
+  - 200.0
+  - 160.0
+  - 80.0
+  - 80.0
+  name: 鏡子（反射魔法）
+  fill: '#3B82F644'
+  stroke: '#3B82F6'
+  stroke_width: '1'
+  bounds_grid:
+  - 12
+  - 9
+  - 5
+  - 5
+  center_ft:
+  - 72.5
+  - 57.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 玩家起始
+  to: 伽藍
+  distance_ft: 80.6
+- from: 玩家起始
+  to: 魔神手下×3
+  distance_ft: 109.7
+- from: 玩家起始
+  to: 廢墟柱子（可推倒）
+  distance_ft: 70.4
+- from: 玩家起始
+  to: 鏡子（反射魔法）
+  distance_ft: 62.6
+- from: 伽藍
+  to: 魔神手下×3
+  distance_ft: 85.0
+- from: 伽藍
+  to: 廢墟柱子（可推倒）
+  distance_ft: 108.0
+- from: 伽藍
+  to: 鏡子（反射魔法）
+  distance_ft: 47.2
+- from: 魔神手下×3
+  to: 廢墟柱子（可推倒）
+  distance_ft: 72.7
+- from: 魔神手下×3
+  to: 鏡子（反射魔法）
+  distance_ft: 51.5
+- from: 廢墟柱子（可推倒）
+  to: 鏡子（反射魔法）
+  distance_ft: 62.1

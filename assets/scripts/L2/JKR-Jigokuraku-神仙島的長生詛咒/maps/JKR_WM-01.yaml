@@ -1,0 +1,128 @@
+map_id: JKR_WM-01
+map_type: world
+scenario: '地獄樂·神仙島的長生詛咒 / Jigokuraku: Paradise''s Curse'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 1000
+- 700
+title: JKR_WM-01 世界地圖
+description: ''
+scale: 示意圖
+regions: []
+roads: []
+routes:
+- x1: 120.0
+  y1: 600.0
+  x2: 400.0
+  y2: 450.0
+  stroke: '#4B0082'
+  stroke_width: '1'
+  dashed: true
+- x1: 400.0
+  y1: 450.0
+  x2: 700.0
+  y2: 550.0
+  stroke: '#4B0082'
+  stroke_width: '1'
+  dashed: true
+- x1: 700.0
+  y1: 550.0
+  x2: 500.0
+  y2: 150.0
+  stroke: '#4B0082'
+  stroke_width: '1'
+  dashed: true
+- x1: 500.0
+  y1: 150.0
+  x2: 850.0
+  y2: 100.0
+  stroke: '#4B0082'
+  stroke_width: '1'
+  dashed: true
+danger_zones: []
+landmarks:
+- center:
+  - 120.0
+  - 600.0
+  radius: 8.0
+  name: A 登陸海灘
+  fill: '#e74c3c'
+  stroke: '#fff'
+  dashed: false
+- center:
+  - 120.0
+  - 600.0
+  radius: 12.0
+  name: A 登陸海灘
+  fill: none
+  stroke: '#e74c3c'
+  dashed: false
+- center:
+  - 400.0
+  - 450.0
+  radius: 8.0
+  name: B 妖物森林
+  fill: '#3498db'
+  stroke: '#fff'
+  dashed: false
+- center:
+  - 400.0
+  - 450.0
+  radius: 12.0
+  name: B 妖物森林
+  fill: none
+  stroke: '#3498db'
+  dashed: false
+- center:
+  - 700.0
+  - 550.0
+  radius: 8.0
+  name: C 山賊據點
+  fill: '#2ecc71'
+  stroke: '#fff'
+  dashed: false
+- center:
+  - 700.0
+  - 550.0
+  radius: 12.0
+  name: C 山賊據點
+  fill: none
+  stroke: '#2ecc71'
+  dashed: false
+- center:
+  - 500.0
+  - 150.0
+  radius: 8.0
+  name: D 天仙宮殿
+  fill: '#f39c12'
+  stroke: '#fff'
+  dashed: false
+- center:
+  - 500.0
+  - 150.0
+  radius: 12.0
+  name: D 天仙宮殿
+  fill: none
+  stroke: '#f39c12'
+  dashed: false
+- center:
+  - 850.0
+  - 100.0
+  radius: 8.0
+  name: E 空之道場(隱)
+  fill: '#9b59b6'
+  stroke: '#fff'
+  dashed: false
+- center:
+  - 850.0
+  - 100.0
+  radius: 12.0
+  name: E 空之道場(隱)
+  fill: none
+  stroke: '#9b59b6'
+  dashed: false
+legend:
+- JKR_WM-01

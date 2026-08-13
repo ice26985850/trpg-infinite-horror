@@ -1,0 +1,163 @@
+map_id: JJK_WM-01
+map_type: world
+scenario: '咒術迴戰·澀谷事變 / Jujutsu Kaisen: Shibuya Incident'
+tier: L3
+difficulty: ★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 帳 (Veil) — 半徑 500m
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 320.0
+  - 270.0
+  - 60.0
+  - 60.0
+  fill: '#4444aa20'
+  stroke: '#6666cc'
+  name: '[S01]'
+roads:
+- x1: 100.0
+  y1: 300.0
+  x2: 600.0
+  y2: 300.0
+  stroke: '#3a3a5e'
+  stroke_width: '2'
+  dashed: false
+- x1: 350.0
+  y1: 100.0
+  x2: 350.0
+  y2: 520.0
+  stroke: '#3a3a5e'
+  stroke_width: '2'
+  dashed: false
+- x1: 200.0
+  y1: 300.0
+  x2: 280.0
+  y2: 180.0
+  stroke: '#3a3a5e'
+  stroke_width: '2'
+  dashed: false
+- x1: 500.0
+  y1: 300.0
+  x2: 420.0
+  y2: 180.0
+  stroke: '#3a3a5e'
+  stroke_width: '2'
+  dashed: false
+- x1: 200.0
+  y1: 300.0
+  x2: 280.0
+  y2: 420.0
+  stroke: '#3a3a5e'
+  stroke_width: '2'
+  dashed: false
+- x1: 500.0
+  y1: 300.0
+  x2: 420.0
+  y2: 420.0
+  stroke: '#3a3a5e'
+  stroke_width: '2'
+  dashed: false
+- x1: 350.0
+  y1: 300.0
+  x2: 350.0
+  y2: 360.0
+  stroke: ''
+  stroke_width: '2'
+  dashed: false
+- x1: 350.0
+  y1: 380.0
+  x2: 350.0
+  y2: 440.0
+  stroke: ''
+  stroke_width: '2'
+  dashed: false
+- x1: 370.0
+  y1: 370.0
+  x2: 440.0
+  y2: 250.0
+  stroke: ''
+  stroke_width: '2'
+  dashed: false
+- x1: 350.0
+  y1: 380.0
+  x2: 350.0
+  y2: 210.0
+  stroke: ''
+  stroke_width: '2'
+  dashed: false
+- x1: 350.0
+  y1: 300.0
+  x2: 260.0
+  y2: 345.0
+  stroke: ''
+  stroke_width: '2'
+  dashed: false
+- x1: 595.0
+  y1: 548.0
+  x2: 620.0
+  y2: 548.0
+  stroke: ''
+  stroke_width: '2'
+  dashed: false
+routes: []
+danger_zones:
+- center:
+  - 350.0
+  - 310.0
+  rx: 300.0
+  ry: 240.0
+  name: 十字路口
+  fill: ''
+  stroke: ''
+- center:
+  - 400.0
+  - 400.0
+  rx: 100.0
+  ry: 80.0
+  name: '[S02]'
+  fill: ''
+  stroke: ''
+landmarks:
+- center:
+  - 350.0
+  - 440.0
+  radius: 40.0
+  name: B5F月台
+  fill: '#cc334410'
+  stroke: '#ff556640'
+  dashed: true
+- center:
+  - 350.0
+  - 440.0
+  radius: 70.0
+  name: B5F月台
+  fill: '#cc334410'
+  stroke: '#ff556640'
+  dashed: true
+- center:
+  - 350.0
+  - 440.0
+  radius: 100.0
+  name: B5F月台
+  fill: '#cc334410'
+  stroke: '#ff556640'
+  dashed: true
+- center:
+  - 600.0
+  - 565.0
+  radius: 4.0
+  name: 帳(範圍)
+  fill: '#6666aa40'
+  stroke: '#6666aa'
+  dashed: false
+legend:
+- 安全區/撤離點
+- 危險區/戰鬥區
+- 路線
+- 帳(範圍)

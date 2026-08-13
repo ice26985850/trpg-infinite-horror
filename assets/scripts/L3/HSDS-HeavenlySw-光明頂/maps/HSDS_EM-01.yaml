@@ -1,0 +1,31 @@
+map_id: HSDS_EM-01
+map_type: exploration
+scenario: '倚天屠龍記·光明頂 / Heavenly Sword: Bright Peak'
+tier: L3
+difficulty: ★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: HSDS_EM-01 探索地圖
+description: ''
+floors:
+- name: 樓層 1
+  y: 270.0
+  rooms:
+  - bounds:
+    - 370.0
+    - 270.0
+    - 60.0
+    - 20.0
+    name: 成昆埋伏
+    fill: '#cc3344'
+    stroke: ''
+    stroke_width: ''
+    rx: 3.0
+connections: []
+legend:
+- 安全區/起始點
+- 危險區/戰鬥區
+notes: []

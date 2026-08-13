@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<rect width="800" height="600" fill="#1a1a2e"/>
+<text x="400.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">HSR_EM-01 探索地圖</text>
+<rect x="20" y="545" width="760" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="570" fill="#aaa" font-size="9">安全區/起始點</text>
+<text x="205" y="570" fill="#aaa" font-size="9">危險區/戰鬥區</text>
+<text x="20" y="590" fill="#666" font-size="9">HSR_EM-01 | 探索地圖 </text>
+</svg>

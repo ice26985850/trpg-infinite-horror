@@ -1,0 +1,244 @@
+map_id: WWZ_BM-02
+map_type: battle
+scenario: '末日之戰·耶路撒冷圍城 / World War Z: Siege of Jerusalem'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 680
+- 420
+title: 直升機撤離點廣場
+description: ''
+grid:
+  type: square
+  width: 12
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 40.0
+  - 40.0
+  total_width_ft: 60
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 360.0
+  - 5.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 24
+  - 1
+  center_ft:
+  - 60.0
+  - 2.5
+- bounds_px:
+  - 40.0
+  - 335.0
+  - 360.0
+  - 5.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 20
+  - 24
+  - 1
+  center_ft:
+  - 60.0
+  - 102.5
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 5.0
+  - 300.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 1
+  - 20
+  center_ft:
+  - 2.5
+  - 50.0
+- bounds_px:
+  - 395.0
+  - 40.0
+  - 5.0
+  - 300.0
+  name: 登機!
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 24
+  - 0
+  - 1
+  - 20
+  center_ft:
+  - 122.5
+  - 50.0
+- bounds_px:
+  - 80.0
+  - 80.0
+  - 80.0
+  - 40.0
+  name: 悍馬
+  fill: '#2a2a30'
+  stroke: '#555'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 3
+  - 3
+  - 5
+  - 3
+  center_ft:
+  - 27.5
+  - 22.5
+- bounds_px:
+  - 300.0
+  - 200.0
+  - 100.0
+  - 50.0
+  name: CH-53
+  fill: '#2a2a20'
+  stroke: '#10B981'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 17
+  - 11
+  - 7
+  - 3
+  center_ft:
+  - 102.5
+  - 62.5
+- bounds_px:
+  - 500.0
+  - 80.0
+  - 80.0
+  - 40.0
+  name: 巴士
+  fill: '#2a2a30'
+  stroke: '#555'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 31
+  - 3
+  - 5
+  - 3
+  center_ft:
+  - 167.5
+  - 22.5
+- bounds_px:
+  - 280.0
+  - 300.0
+  - 50.0
+  - 15.0
+  name: 防線
+  fill: '#FFAA00'
+  stroke: '#886600'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 16
+  - 17
+  - 3
+  - 1
+  center_ft:
+  - 87.5
+  - 87.5
+- bounds_px:
+  - 450.0
+  - 300.0
+  - 50.0
+  - 15.0
+  name: 防線
+  fill: '#FFAA00'
+  stroke: '#886600'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 27
+  - 17
+  - 3
+  - 1
+  center_ft:
+  - 142.5
+  - 87.5
+- bounds_px:
+  - 300.0
+  - 195.0
+  - 100.0
+  - 5.0
+  name: 登機!
+  fill: '#00FF88'
+  stroke: '#00FF88'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 17
+  - 10
+  - 7
+  - 1
+  center_ft:
+  - 102.5
+  - 52.5
+spawn_points:
+  players:
+  - px:
+    - 500.0
+    - 380.0
+    name: 玩家入口
+    fill: '#00FF88'
+    grid:
+    - 31
+    - 23
+  enemies: []
+entry_points: []
+boundary: []
+objective:
+  description: 直升機撤離點廣場
+  position_px:
+  - 340.0
+  - 20.0
+key_distances:
+- from: ''
+  to: ''
+  distance_ft: 100.0
+- from: ''
+  to: ''
+  distance_ft: 74.6
+- from: ''
+  to: 登機!
+  distance_ft: 78.5
+- from: ''
+  to: 悍馬
+  distance_ft: 38.2
+- from: ''
+  to: CH-53
+  distance_ft: 73.5
+- from: ''
+  to: 巴士
+  distance_ft: 109.3
+- from: ''
+  to: 防線
+  distance_ft: 89.3
+- from: ''
+  to: 防線
+  distance_ft: 118.5
+- from: ''
+  to: 登機!
+  distance_ft: 65.6
+- from: ''
+  to: ''
+  distance_ft: 77.9

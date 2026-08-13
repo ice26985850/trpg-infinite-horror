@@ -1,0 +1,48 @@
+map_id: DS-SOUL_BM-02
+map_type: battle
+scenario: '黑暗靈魂·不死人朝聖 / Dark Souls: Undead Pilgrimage'
+tier: L3
+difficulty: ★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 羅德蘭 (Lordran)
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 50.0
+  - 70.0
+  - 700.0
+  - 450.0
+  name: '[S03-Boss]'
+  fill: '#1a1a3e'
+  stroke: '#3a3a6e'
+  stroke_width: '2'
+  bounds_grid:
+  - 2
+  - 3
+  - 47
+  - 30
+  center_ft:
+  - 127.5
+  - 90.0
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}

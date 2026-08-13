@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<rect x="20" y="20" width="760" height="560" fill="url(#grid)"/>
+<rect x="20" y="20" width="760" height="560" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="400.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">BACK-02_BM-01 戰鬥地圖</text>
+<text x="25" y="592" fill="#666" font-size="9">BACK-02_BM-01 | 10×10格（概念） | 1格 = 5ft | 總 50×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+</svg>

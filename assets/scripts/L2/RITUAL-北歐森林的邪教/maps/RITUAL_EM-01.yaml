@@ -1,0 +1,75 @@
+map_id: RITUAL_EM-01
+map_type: exploration
+scenario: '黑森靈·北歐森林的邪教 / The Ritual: Nordic Forest Cult'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 700
+- 500
+title: 北歐原始森林 — 探索地圖 (EM-01)
+description: ''
+floors:
+- name: 樓層 1
+  y: 0.0
+  rooms:
+  - bounds:
+    - 0.0
+    - 0.0
+    - 700.0
+    - 500.0
+    name: ''
+    fill: '#0a1a0a'
+    stroke: ''
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 30.0
+    - 55.0
+    - 640.0
+    - 420.0
+    name: ''
+    fill: '#0a1a0a'
+    stroke: '#27ae60'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 80.0
+    - 100.0
+    - 250.0
+    - 80.0
+    name: A 廢棄木屋
+    fill: '#2a3a1a'
+    stroke: '#27ae60'
+    stroke_width: '1.5'
+    rx: 3.0
+- name: 樓層 2
+  y: 210.0
+  rooms:
+  - bounds:
+    - 80.0
+    - 210.0
+    - 250.0
+    - 80.0
+    name: B 邪教村莊
+    fill: '#3a2a2a'
+    stroke: '#27ae60'
+    stroke_width: '1.5'
+    rx: 3.0
+- name: 樓層 3
+  y: 320.0
+  rooms:
+  - bounds:
+    - 80.0
+    - 320.0
+    - 250.0
+    - 80.0
+    name: C 地下聖所
+    fill: '#2a2a3a'
+    stroke: '#27ae60'
+    stroke_width: '1.5'
+    rx: 3.0
+connections: []
+legend: []
+notes: []

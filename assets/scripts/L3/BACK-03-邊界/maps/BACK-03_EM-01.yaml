@@ -1,0 +1,31 @@
+map_id: BACK-03_EM-01
+map_type: exploration
+scenario: '後室·邊界 / Backrooms: Border - Level 94'
+tier: L3
+difficulty: ★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: Level 94 — 動畫王國
+description: ''
+floors:
+- name: 樓層 1
+  y: 90.0
+  rooms:
+  - bounds:
+    - 100.0
+    - 90.0
+    - 600.0
+    - 400.0
+    name: '[S05-Boss]'
+    fill: '#1a1a3e'
+    stroke: '#3a3a6e'
+    stroke_width: '2'
+    rx: 5.0
+connections: []
+legend:
+- 安全區/起始點
+- 危險區/戰鬥區
+notes: []

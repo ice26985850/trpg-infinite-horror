@@ -1,0 +1,31 @@
+map_id: BTTH_EM-01
+map_type: exploration
+scenario: '鬥破蒼穹·異火爭奪 / Battle Through the Heavens: Strange Fire'
+tier: L3
+difficulty: ★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 龍虎山 — 羅天大醮會場
+description: ''
+floors:
+- name: 樓層 1
+  y: 80.0
+  rooms:
+  - bounds:
+    - 100.0
+    - 80.0
+    - 600.0
+    - 420.0
+    name: '[S04-全性巢穴]'
+    fill: '#1a1a3e'
+    stroke: '#3a3a6e'
+    stroke_width: '2'
+    rx: 5.0
+connections: []
+legend:
+- 安全區/起始點
+- 危險區/戰鬥區
+notes: []

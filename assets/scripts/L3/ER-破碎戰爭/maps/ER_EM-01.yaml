@@ -1,0 +1,31 @@
+map_id: ER_EM-01
+map_type: exploration
+scenario: '艾爾登法環·破碎戰爭 / Elden Ring: The Shattering'
+tier: L3
+difficulty: ★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 交界地 (The Lands Between)
+description: ''
+floors:
+- name: 樓層 1
+  y: 70.0
+  rooms:
+  - bounds:
+    - 50.0
+    - 70.0
+    - 700.0
+    - 450.0
+    name: '[S03-Boss]'
+    fill: '#1a1a3e'
+    stroke: '#3a3a6e'
+    stroke_width: '2'
+    rx: 5.0
+connections: []
+legend:
+- 安全區/起始點
+- 危險區/戰鬥區
+notes: []

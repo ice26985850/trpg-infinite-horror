@@ -1,0 +1,249 @@
+map_id: FZ_BM-02
+map_type: battle
+scenario: 'Fate/Zero·第四次聖杯戰爭 / Fate/Zero: The 4th Holy Grail War'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 680
+- 460
+title: 柳洞寺·最終決戰
+description: ''
+grid:
+  type: square
+  width: 16
+  height: 12
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20.0
+  - 20.0
+  total_width_ft: 80
+  total_height_ft: 60
+terrain:
+- bounds_px:
+  - 20.0
+  - 20.0
+  - 640.0
+  - 420.0
+  name: (降臨祭壇)
+  fill: '#151020'
+  stroke: '#4a2a6a'
+  stroke_width: '1'
+  bounds_grid:
+  - 0
+  - 0
+  - 43
+  - 28
+  center_ft:
+  - 107.5
+  - 70.0
+- bounds_px:
+  - 240.0
+  - 30.0
+  - 200.0
+  - 60.0
+  name: 柳洞寺本堂
+  fill: '#1a2a2a'
+  stroke: '#F59E0B'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 15
+  - 1
+  - 13
+  - 4
+  center_ft:
+  - 107.5
+  - 15.0
+- bounds_px:
+  - 260.0
+  - 160.0
+  - 160.0
+  - 80.0
+  name: 大聖杯
+  fill: '#2E1A3E'
+  stroke: '#FD0304'
+  stroke_width: '2.5'
+  bounds_grid:
+  - 16
+  - 9
+  - 11
+  - 5
+  center_ft:
+  - 107.5
+  - 57.5
+- bounds_px:
+  - 280.0
+  - 240.0
+  - 120.0
+  - 30.0
+  name: 階段
+  fill: '#334'
+  stroke: '#888'
+  stroke_width: ''
+  bounds_grid:
+  - 17
+  - 15
+  - 8
+  - 2
+  center_ft:
+  - 105.0
+  - 80.0
+- bounds_px:
+  - 200.0
+  - 380.0
+  - 40.0
+  - 30.0
+  name: 山門
+  fill: '#301520'
+  stroke: '#EF4444'
+  stroke_width: ''
+  bounds_grid:
+  - 12
+  - 24
+  - 3
+  - 2
+  center_ft:
+  - 67.5
+  - 125.0
+- bounds_px:
+  - 80.0
+  - 280.0
+  - 80.0
+  - 35.0
+  name: Saber組
+  fill: '#1a3020'
+  stroke: '#10B981'
+  stroke_width: ''
+  bounds_grid:
+  - 4
+  - 17
+  - 5
+  - 2
+  center_ft:
+  - 32.5
+  - 90.0
+- bounds_px:
+  - 400.0
+  - 120.0
+  - 80.0
+  - 35.0
+  name: Archer(金閃閃)
+  fill: '#301520'
+  stroke: '#FD0304'
+  stroke_width: ''
+  bounds_grid:
+  - 25
+  - 7
+  - 5
+  - 2
+  center_ft:
+  - 137.5
+  - 40.0
+- bounds_px:
+  - 520.0
+  - 280.0
+  - 80.0
+  - 35.0
+  name: Rider組(可結盟)
+  fill: '#1a2020'
+  stroke: '#F59E0B'
+  stroke_width: ''
+  bounds_grid:
+  - 33
+  - 17
+  - 5
+  - 2
+  center_ft:
+  - 177.5
+  - 90.0
+- bounds_px:
+  - 80.0
+  - 120.0
+  - 80.0
+  - 35.0
+  name: 玩家組
+  fill: '#1a1030'
+  stroke: '#6D28D9'
+  stroke_width: ''
+  bounds_grid:
+  - 4
+  - 7
+  - 5
+  - 2
+  center_ft:
+  - 32.5
+  - 40.0
+- bounds_px:
+  - 500.0
+  - 60.0
+  - 80.0
+  - 35.0
+  name: Berserker
+  fill: '#301520'
+  stroke: '#FD0304'
+  stroke_width: ''
+  bounds_grid:
+  - 32
+  - 3
+  - 5
+  - 2
+  center_ft:
+  - 172.5
+  - 20.0
+- bounds_px:
+  - 250.0
+  - 100.0
+  - 80.0
+  - 35.0
+  name: Lancer組
+  fill: '#1a2020'
+  stroke: '#F59E0B'
+  stroke_width: ''
+  bounds_grid:
+  - 15
+  - 5
+  - 5
+  - 2
+  center_ft:
+  - 87.5
+  - 30.0
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: (降臨祭壇)
+  to: 柳洞寺本堂
+  distance_ft: 55.0
+- from: (降臨祭壇)
+  to: 大聖杯
+  distance_ft: 12.5
+- from: (降臨祭壇)
+  to: 階段
+  distance_ft: 10.3
+- from: (降臨祭壇)
+  to: 山門
+  distance_ft: 68.0
+- from: (降臨祭壇)
+  to: Saber組
+  distance_ft: 77.6
+- from: (降臨祭壇)
+  to: Archer(金閃閃)
+  distance_ft: 42.4
+- from: (降臨祭壇)
+  to: Rider組(可結盟)
+  distance_ft: 72.8
+- from: (降臨祭壇)
+  to: 玩家組
+  distance_ft: 80.8
+- from: (降臨祭壇)
+  to: Berserker
+  distance_ft: 82.0
+- from: (降臨祭壇)
+  to: Lancer組
+  distance_ft: 44.7

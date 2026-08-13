@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="1000" height="700" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="1000" height="700" fill="url(#wmgrid)"/>
+<line x1="120.0" y1="600.0" x2="400.0" y2="450.0" stroke="#4B0082" stroke-width="1" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="400.0" y1="450.0" x2="700.0" y2="550.0" stroke="#4B0082" stroke-width="1" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="700.0" y1="550.0" x2="500.0" y2="150.0" stroke="#4B0082" stroke-width="1" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="500.0" y1="150.0" x2="850.0" y2="100.0" stroke="#4B0082" stroke-width="1" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<circle cx="120.0" cy="600.0" r="8.0" fill="#e74c3c" opacity="0.6"/>
+<circle cx="120.0" cy="600.0" r="8.0" fill="none" stroke="#fff" stroke-width="2"/>
+<text x="120.0" y="587.0" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">★ A 登陸海灘</text>
+<circle cx="120.0" cy="600.0" r="12.0" fill="none" stroke="#e74c3c" stroke-width="2"/>
+<text x="120.0" y="583.0" text-anchor="middle" fill="#e74c3c" font-size="10" font-weight="bold">★ A 登陸海灘</text>
+<circle cx="400.0" cy="450.0" r="8.0" fill="#3498db" opacity="0.6"/>
+<circle cx="400.0" cy="450.0" r="8.0" fill="none" stroke="#fff" stroke-width="2"/>
+<text x="400.0" y="437.0" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">★ B 妖物森林</text>
+<circle cx="400.0" cy="450.0" r="12.0" fill="none" stroke="#3498db" stroke-width="2"/>
+<text x="400.0" y="433.0" text-anchor="middle" fill="#3498db" font-size="10" font-weight="bold">★ B 妖物森林</text>
+<circle cx="700.0" cy="550.0" r="8.0" fill="#2ecc71" opacity="0.6"/>
+<circle cx="700.0" cy="550.0" r="8.0" fill="none" stroke="#fff" stroke-width="2"/>
+<text x="700.0" y="537.0" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">★ C 山賊據點</text>
+<circle cx="700.0" cy="550.0" r="12.0" fill="none" stroke="#2ecc71" stroke-width="2"/>
+<text x="700.0" y="533.0" text-anchor="middle" fill="#2ecc71" font-size="10" font-weight="bold">★ C 山賊據點</text>
+<circle cx="500.0" cy="150.0" r="8.0" fill="#f39c12" opacity="0.6"/>
+<circle cx="500.0" cy="150.0" r="8.0" fill="none" stroke="#fff" stroke-width="2"/>
+<text x="500.0" y="137.0" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">★ D 天仙宮殿</text>
+<circle cx="500.0" cy="150.0" r="12.0" fill="none" stroke="#f39c12" stroke-width="2"/>
+<text x="500.0" y="133.0" text-anchor="middle" fill="#f39c12" font-size="10" font-weight="bold">★ D 天仙宮殿</text>
+<circle cx="850.0" cy="100.0" r="8.0" fill="#9b59b6" opacity="0.6"/>
+<circle cx="850.0" cy="100.0" r="8.0" fill="none" stroke="#fff" stroke-width="2"/>
+<text x="850.0" y="87.0" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">★ E 空之道場(隱)</text>
+<circle cx="850.0" cy="100.0" r="12.0" fill="none" stroke="#9b59b6" stroke-width="2"/>
+<text x="850.0" y="83.0" text-anchor="middle" fill="#9b59b6" font-size="10" font-weight="bold">★ E 空之道場(隱)</text>
+<rect x="830" y="20" width="150" height="38" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="905" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">圖例</text>
+<text x="840" y="60" fill="#aaa" font-size="9">JKR_WM-01</text>
+<text x="20" y="685" fill="#666" font-size="9">JKR_WM-01 | 大範圍地圖 | 示意圖</text>
+</svg>

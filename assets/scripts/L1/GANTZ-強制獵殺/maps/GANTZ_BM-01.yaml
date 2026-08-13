@@ -1,0 +1,223 @@
+map_id: GANTZ_BM-01
+map_type: battle
+scenario: '殺戮都市·強制獵殺 / GANTZ: Mandatory Hunt'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 680
+- 420
+title: 寺廟區域 — 佛像星人戰場
+description: ''
+grid:
+  type: square
+  width: 14
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 40.0
+  - 40.0
+  total_width_ft: 70
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 420.0
+  - 5.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 28
+  - 1
+  center_ft:
+  - 70.0
+  - 2.5
+- bounds_px:
+  - 40.0
+  - 335.0
+  - 420.0
+  - 5.0
+  name: 石階防線
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 20
+  - 28
+  - 1
+  center_ft:
+  - 70.0
+  - 102.5
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 5.0
+  - 300.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 1
+  - 20
+  center_ft:
+  - 2.5
+  - 50.0
+- bounds_px:
+  - 455.0
+  - 40.0
+  - 5.0
+  - 300.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 28
+  - 0
+  - 1
+  - 20
+  center_ft:
+  - 142.5
+  - 50.0
+- bounds_px:
+  - 150.0
+  - 60.0
+  - 100.0
+  - 80.0
+  name: 本堂(可破壞)
+  fill: '#2a2a30'
+  stroke: '#555'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 7
+  - 1
+  - 7
+  - 5
+  center_ft:
+  - 52.5
+  - 17.5
+- bounds_px:
+  - 400.0
+  - 60.0
+  - 100.0
+  - 80.0
+  name: 佛塔(掩體)
+  fill: '#2a2a30'
+  stroke: '#555'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 24
+  - 1
+  - 7
+  - 5
+  center_ft:
+  - 137.5
+  - 17.5
+- bounds_px:
+  - 250.0
+  - 250.0
+  - 120.0
+  - 60.0
+  name: 佛像星人核心
+  fill: '#2e1a3e'
+  stroke: '#8B5CF6'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 14
+  - 14
+  - 8
+  - 4
+  center_ft:
+  - 90.0
+  - 80.0
+- bounds_px:
+  - 180.0
+  - 310.0
+  - 100.0
+  - 12.0
+  name: 石階防線
+  fill: '#FFAA00'
+  stroke: '#886600'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 9
+  - 18
+  - 7
+  - 1
+  center_ft:
+  - 62.5
+  - 92.5
+- bounds_px:
+  - 250.0
+  - 245.0
+  - 120.0
+  - 5.0
+  name: 消滅所有佛像
+  fill: '#00FF88'
+  stroke: '#00FF88'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 14
+  - 14
+  - 8
+  - 1
+  center_ft:
+  - 90.0
+  - 72.5
+spawn_points:
+  players:
+  - px:
+    - 500.0
+    - 400.0
+    name: 玩家入口
+    fill: '#00FF88'
+    grid:
+    - 31
+    - 24
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: ''
+  to: 石階防線
+  distance_ft: 100.0
+- from: ''
+  to: ''
+  distance_ft: 82.5
+- from: ''
+  to: ''
+  distance_ft: 86.7
+- from: ''
+  to: 本堂(可破壞)
+  distance_ft: 23.0
+- from: ''
+  to: 佛塔(掩體)
+  distance_ft: 69.1
+- from: ''
+  to: 佛像星人核心
+  distance_ft: 80.0
+- from: ''
+  to: 石階防線
+  distance_ft: 90.3
+- from: ''
+  to: 消滅所有佛像
+  distance_ft: 72.8
+- from: 石階防線
+  to: ''
+  distance_ft: 85.5
+- from: 石階防線
+  to: ''
+  distance_ft: 89.5

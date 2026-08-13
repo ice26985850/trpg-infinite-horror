@@ -1,0 +1,202 @@
+map_id: DBZ_BM-01
+map_type: battle
+scenario: '龍珠·那美克星篇 / Dragon Ball Z: Namek Saga'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 基紐特戰隊 — 對決場
+description: ''
+grid:
+  type: square
+  width: 16
+  height: 12
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 80
+  total_height_ft: 60
+terrain:
+- bounds_px:
+  - 560.0
+  - 200.0
+  - 180.0
+  - 80.0
+  name: 弗利薩旗艦
+  fill: '#1a0a10'
+  stroke: '#b8305e'
+  stroke_width: '2'
+  bounds_grid:
+  - 36
+  - 12
+  - 12
+  - 5
+  center_ft:
+  - 210.0
+  - 72.5
+- bounds_px:
+  - 320.0
+  - 110.0
+  - 70.0
+  - 50.0
+  name: 基紐隊長
+  fill: '#2d1b4e'
+  stroke: '#b8305e'
+  stroke_width: '2'
+  bounds_grid:
+  - 20
+  - 6
+  - 5
+  - 3
+  center_ft:
+  - 112.5
+  - 37.5
+- bounds_px:
+  - 150.0
+  - 200.0
+  - 55.0
+  - 45.0
+  name: 利庫姆
+  fill: '#1f1440'
+  stroke: '#4a2d8f'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 9
+  - 12
+  - 4
+  - 3
+  center_ft:
+  - 55.0
+  - 67.5
+- bounds_px:
+  - 450.0
+  - 180.0
+  - 55.0
+  - 45.0
+  name: 巴特
+  fill: '#1f1440'
+  stroke: '#4a2d8f'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 29
+  - 11
+  - 4
+  - 3
+  center_ft:
+  - 155.0
+  - 62.5
+- bounds_px:
+  - 250.0
+  - 330.0
+  - 55.0
+  - 45.0
+  name: 吉斯
+  fill: '#1f1440'
+  stroke: '#4a2d8f'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 15
+  - 21
+  - 4
+  - 3
+  center_ft:
+  - 85.0
+  - 112.5
+- bounds_px:
+  - 400.0
+  - 350.0
+  - 40.0
+  - 40.0
+  name: 古杜
+  fill: '#1f1440'
+  stroke: '#ff6600'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 25
+  - 22
+  - 3
+  - 3
+  center_ft:
+  - 132.5
+  - 117.5
+- bounds_px:
+  - 60.0
+  - 400.0
+  - 60.0
+  - 50.0
+  name: 輪迴者
+  fill: '#0a201a'
+  stroke: '#2d8f6b'
+  stroke_width: '2'
+  bounds_grid:
+  - 3
+  - 25
+  - 4
+  - 3
+  center_ft:
+  - 25.0
+  - 132.5
+- bounds_px:
+  - 0.0
+  - 0.0
+  - 210.0
+  - 190.0
+  name: 4. 基紐隊長(身體交換)
+  fill: '#1a1030'
+  stroke: '#3a2a5e'
+  stroke_width: ''
+  bounds_grid:
+  - -1
+  - -1
+  - 14
+  - 13
+  center_ft:
+  - 30.0
+  - 27.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective:
+  description: 5目標同時追蹤
+  position_px:
+  - 105.0
+  - 183.0
+key_distances:
+- from: 弗利薩旗艦
+  to: 基紐隊長
+  distance_ft: 103.6
+- from: 弗利薩旗艦
+  to: 利庫姆
+  distance_ft: 155.1
+- from: 弗利薩旗艦
+  to: 巴特
+  distance_ft: 55.9
+- from: 弗利薩旗艦
+  to: 吉斯
+  distance_ft: 131.2
+- from: 弗利薩旗艦
+  to: 古杜
+  distance_ft: 89.6
+- from: 弗利薩旗艦
+  to: 輪迴者
+  distance_ft: 194.5
+- from: 弗利薩旗艦
+  to: 4. 基紐隊長(身體交換)
+  distance_ft: 185.5
+- from: 基紐隊長
+  to: 利庫姆
+  distance_ft: 64.9
+- from: 基紐隊長
+  to: 巴特
+  distance_ft: 49.3
+- from: 基紐隊長
+  to: 吉斯
+  distance_ft: 79.9

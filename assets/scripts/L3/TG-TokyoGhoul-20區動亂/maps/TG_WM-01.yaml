@@ -1,0 +1,223 @@
+map_id: TG_WM-01
+map_type: world
+scenario: '東京喰種·20區動亂 / Tokyo Ghoul: Ward 20 Uprising'
+tier: L3
+difficulty: ★★★
+viewbox:
+- 0
+- 0
+- 900
+- 640
+title: 東京20區——全域地圖
+description: ''
+scale: TG_WM-01 | 大範圍地圖 | 1格 ≈ 200m
+regions:
+- bounds:
+  - 60.0
+  - 50.0
+  - 780.0
+  - 530.0
+  fill: none
+  stroke: '#4a2a6a'
+  name: ''
+- bounds:
+  - 370.0
+  - 130.0
+  - 160.0
+  - 100.0
+  fill: '#1a2a3e'
+  stroke: '#8B5CF6'
+  name: （起始點 A — T+0）
+- bounds:
+  - 390.0
+  - 193.0
+  - 55.0
+  - 15.0
+  fill: '#2a3a4e'
+  stroke: '#6D28D9'
+  name: 武器庫
+- bounds:
+  - 455.0
+  - 193.0
+  - 55.0
+  - 15.0
+  fill: '#2a3a4e'
+  stroke: '#6D28D9'
+  name: 拘留所
+- bounds:
+  - 230.0
+  - 270.0
+  - 200.0
+  - 140.0
+  fill: '#1a2a2a'
+  stroke: '#555'
+  name: 書店
+- bounds:
+  - 245.0
+  - 325.0
+  - 55.0
+  - 20.0
+  fill: '#2a1a2e'
+  stroke: '#6D28D9'
+  name: 居酒屋
+- bounds:
+  - 310.0
+  - 325.0
+  - 55.0
+  - 20.0
+  fill: '#2a1a2e'
+  stroke: '#6D28D9'
+  name: 書店
+- bounds:
+  - 375.0
+  - 325.0
+  - 45.0
+  - 20.0
+  fill: '#2a1a2e'
+  stroke: '#6D28D9'
+  name: 便利商店
+- bounds:
+  - 500.0
+  - 420.0
+  - 180.0
+  - 130.0
+  fill: '#1a2a1a'
+  stroke: '#10B981'
+  name: 古董咖啡廳 (Anteiku)
+- bounds:
+  - 520.0
+  - 478.0
+  - 140.0
+  - 35.0
+  fill: '#1a3020'
+  stroke: '#10B981'
+  name: 古董咖啡廳 (Anteiku)
+- bounds:
+  - 80.0
+  - 420.0
+  - 160.0
+  - 120.0
+  fill: '#301520'
+  stroke: '#EF4444'
+  name: （E — 青桐樹據點）
+- bounds:
+  - 95.0
+  - 480.0
+  - 130.0
+  - 30.0
+  fill: '#3a1520'
+  stroke: '#EF4444'
+  name: 廢棄化工廠
+- bounds:
+  - 680.0
+  - 80.0
+  - 150.0
+  - 80.0
+  fill: '#1a2a3e'
+  stroke: '#3B82F6'
+  name: （F — T+96增援）
+roads:
+- x1: 100.0
+  y1: 350.0
+  x2: 800.0
+  y2: 350.0
+  stroke: '#555'
+  stroke_width: '5'
+  dashed: false
+- x1: 450.0
+  y1: 80.0
+  x2: 450.0
+  y2: 580.0
+  stroke: '#555'
+  stroke_width: '4'
+  dashed: false
+- x1: 200.0
+  y1: 200.0
+  x2: 700.0
+  y2: 200.0
+  stroke: '#444'
+  stroke_width: '3'
+  dashed: false
+- x1: 200.0
+  y1: 500.0
+  x2: 700.0
+  y2: 500.0
+  stroke: '#444'
+  stroke_width: '3'
+  dashed: false
+- x1: 700.0
+  y1: 80.0
+  x2: 700.0
+  y2: 580.0
+  stroke: '#444'
+  stroke_width: '2'
+  dashed: false
+routes:
+- x1: 160.0
+  y1: 540.0
+  x2: 330.0
+  y2: 410.0
+  stroke: '#8B5CF6'
+  stroke_width: '2'
+  dashed: true
+- x1: 160.0
+  y1: 540.0
+  x2: 450.0
+  y2: 230.0
+  stroke: '#8B5CF6'
+  stroke_width: '2'
+  dashed: true
+- x1: 330.0
+  y1: 410.0
+  x2: 590.0
+  y2: 550.0
+  stroke: '#8B5CF6'
+  stroke_width: '2'
+  dashed: true
+- x1: 680.0
+  y1: 120.0
+  x2: 535.0
+  y2: 185.0
+  stroke: '#3B82F6'
+  stroke_width: '2'
+  dashed: true
+- x1: 695.0
+  y1: 516.0
+  x2: 735.0
+  y2: 516.0
+  stroke: '#EF4444'
+  stroke_width: '2'
+  dashed: true
+danger_zones:
+- center:
+  - 160.0
+  - 500.0
+  rx: 90.0
+  ry: 80.0
+  name: 廢棄化工廠
+  fill: '#FF0000'
+  stroke: '#EF4444'
+landmarks:
+- center:
+  - 450.0
+  - 230.0
+  radius: 6.0
+  name: ''
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 702.0
+  - 562.0
+  radius: 5.0
+  name: 起始點/安全區
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+legend:
+- （F — T+96增援）
+- 下水道路線
+- 危險區域
+- 起始點/安全區
+- 喰種溫和派據點
+- CCG設施

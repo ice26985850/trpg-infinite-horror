@@ -1,0 +1,81 @@
+map_id: HSDS_WM-01
+map_type: world
+scenario: '倚天屠龍記·光明頂 / Heavenly Sword: Bright Peak'
+tier: L3
+difficulty: ★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: HSDS_WM-01 世界地圖
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 370.0
+  - 270.0
+  - 60.0
+  - 20.0
+  fill: '#cc3344'
+  stroke: ''
+  name: 成昆埋伏
+roads:
+- x1: 400.0
+  y1: 135.0
+  x2: 400.0
+  y2: 185.0
+  stroke: ''
+  stroke_width: '2'
+  dashed: false
+- x1: 400.0
+  y1: 185.0
+  x2: 250.0
+  y2: 262.0
+  stroke: ''
+  stroke_width: '2'
+  dashed: false
+- x1: 400.0
+  y1: 185.0
+  x2: 550.0
+  y2: 262.0
+  stroke: ''
+  stroke_width: '2'
+  dashed: false
+- x1: 400.0
+  y1: 400.0
+  x2: 400.0
+  y2: 135.0
+  stroke: '#22aa66'
+  stroke_width: '2'
+  dashed: false
+- x1: 595.0
+  y1: 548.0
+  x2: 620.0
+  y2: 548.0
+  stroke: ''
+  stroke_width: '2'
+  dashed: false
+routes: []
+danger_zones:
+- center:
+  - 400.0
+  - 300.0
+  rx: 340.0
+  ry: 240.0
+  name: 成昆埋伏
+  fill: ''
+  stroke: ''
+landmarks:
+- center:
+  - 400.0
+  - 280.0
+  radius: 80.0
+  name: 成昆埋伏
+  fill: '#cc334415'
+  stroke: '#ff556640'
+  dashed: true
+legend:
+- 安全區/起始點
+- 危險區/戰鬥區
+- 路線

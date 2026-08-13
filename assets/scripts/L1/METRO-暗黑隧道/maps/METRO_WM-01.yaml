@@ -1,0 +1,169 @@
+map_id: METRO_WM-01
+map_type: world
+scenario: '地鐵2033·暗黑隧道 / Metro 2033: Dark Tunnels'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 莫斯科地鐵 — 路線圖
+description: ''
+scale: METRO_WM-01 | 大範圍地圖 | 1格 ≈ 5m
+regions:
+- bounds:
+  - 60.0
+  - 420.0
+  - 80.0
+  - 60.0
+  fill: '#2e1a3e'
+  stroke: '#8B5CF6'
+  name: VDNKh站
+- bounds:
+  - 280.0
+  - 430.0
+  - 80.0
+  - 50.0
+  fill: '#1a2a30'
+  stroke: '#3B82F6'
+  name: 商業區站
+- bounds:
+  - 480.0
+  - 380.0
+  - 80.0
+  - 50.0
+  fill: '#301520'
+  stroke: '#EF4444'
+  name: 納粹區
+- bounds:
+  - 380.0
+  - 260.0
+  - 80.0
+  - 50.0
+  fill: '#2e1a3e'
+  stroke: '#8B5CF6'
+  name: 軍械庫
+roads:
+- x1: 80.0
+  y1: 350.0
+  x2: 720.0
+  y2: 350.0
+  stroke: '#555'
+  stroke_width: '6'
+  dashed: false
+- x1: 400.0
+  y1: 80.0
+  x2: 400.0
+  y2: 520.0
+  stroke: '#555'
+  stroke_width: '6'
+  dashed: false
+- x1: 150.0
+  y1: 200.0
+  x2: 650.0
+  y2: 200.0
+  stroke: '#555'
+  stroke_width: '3'
+  dashed: false
+- x1: 250.0
+  y1: 450.0
+  x2: 550.0
+  y2: 150.0
+  stroke: '#555'
+  stroke_width: '2'
+  dashed: false
+routes:
+- x1: 140.0
+  y1: 450.0
+  x2: 390.0
+  y2: 410.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+- x1: 390.0
+  y1: 410.0
+  x2: 680.0
+  y2: 100.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+- x1: 635.0
+  y1: 515.0
+  x2: 665.0
+  y2: 515.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+danger_zones:
+- center:
+  - 250.0
+  - 350.0
+  rx: 60.0
+  ry: 40.0
+  name: 潛行者巢穴
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 500.0
+  - 280.0
+  rx: 70.0
+  ry: 50.0
+  name: 納粹控制區
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 350.0
+  - 100.0
+  rx: 60.0
+  ry: 40.0
+  name: 惡魔領域
+  fill: '#FF0000'
+  stroke: '#FF4444'
+landmarks:
+- center:
+  - 100.0
+  - 475.0
+  radius: 4.0
+  name: (起始點)
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 680.0
+  - 100.0
+  radius: 18.0
+  name: ★ 撤離點
+  fill: none
+  stroke: '#00FF88'
+  dashed: true
+- center:
+  - 680.0
+  - 100.0
+  radius: 7.0
+  name: ★ 撤離點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 558.0
+  radius: 5.0
+  name: 撤離點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 575.0
+  radius: 4.0
+  name: 起始點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+legend:
+- 波利斯站
+- 撤離路線
+- 危險區域
+- 撤離點
+- 起始點

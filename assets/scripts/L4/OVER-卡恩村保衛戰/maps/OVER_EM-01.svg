@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" font-family="Microsoft JhengHei, sans-serif">
+<rect width="900" height="580" fill="#1a1a2e"/>
+<text x="450.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">卡恩村防線——詳細戰區</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 1</text>
+<rect x="20" y="0.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="900.0" height="580.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<rect x="20.0" y="53.0" width="860.0" height="140.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="123.0" text-anchor="middle" fill="#aaa" font-size="9">村中心（據點/補給）</text>
+<rect x="35.0" y="85.0" width="200.0" height="60.0" rx="3.0" fill="#1a1505" stroke="#F59E0B" stroke-width="1.5"/>
+<text x="135.0" y="115.0" text-anchor="middle" fill="#aaa" font-size="9">柵欄（HP 100）</text>
+<rect x="270.0" y="85.0" width="250.0" height="60.0" rx="3.0" fill="#0d1a1a" stroke="#10B981" stroke-width="1.5"/>
+<text x="395.0" y="115.0" text-anchor="middle" fill="#aaa" font-size="9">村中心（據點/補給）</text>
+<text x="20" y="218.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 2</text>
+<rect x="20" y="223.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="223.0" width="860.0" height="140.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="20" y="350.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 3</text>
+<rect x="20" y="355.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="35.0" y="355.0" width="200.0" height="60.0" rx="3.0" fill="#0d0d1a" stroke="#3B82F6" stroke-width="1.5"/>
+<text x="135.0" y="385.0" text-anchor="middle" fill="#aaa" font-size="9">冒險者公會（S-01）</text>
+<rect x="270.0" y="355.0" width="250.0" height="60.0" rx="3.0" fill="#1a1020" stroke="#6D28D9" stroke-width="1.5"/>
+<text x="395.0" y="385.0" text-anchor="middle" fill="#aaa" font-size="9">納薩力克入口（S-02）</text>
+<rect x="20.0" y="393.0" width="860.0" height="150.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="20" y="620.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 4</text>
+<rect x="20" y="625.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="35.0" y="625.0" width="530.0" height="70.0" rx="3.0" fill="#1a0505" stroke="#EF4444" stroke-width="1.5"/>
+<text x="300.0" y="660.0" text-anchor="middle" fill="#aaa" font-size="9">王國軍營地（敵方集結點）</text>
+<rect x="20" y="525" width="860" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="550" fill="#aaa" font-size="9">OVER_EM-01 | 探索地圖</text>
+<text x="20" y="570" fill="#666" font-size="9">OVER_EM-01 | 探索地圖 </text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<rect width="800" height="600" fill="#1a1a2e"/>
+<text x="400.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">SW_EM-01 探索地圖</text>
+<text x="20" y="325.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 1</text>
+<rect x="20" y="330.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="430.0" y="330.0" width="320.0" height="200.0" rx="5.0" fill="#33335520" stroke="#5555aa" stroke-width="1"/>
+<text x="590.0" y="430.0" text-anchor="middle" fill="#aaa" font-size="9">[S05] Boss</text>
+<rect x="20" y="545" width="760" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="570" fill="#aaa" font-size="9">起始區域 — 補給、情報、任務簡報</text>
+<text x="205" y="570" fill="#aaa" font-size="9">安全區/起始點</text>
+<text x="375" y="570" fill="#aaa" font-size="9">危險區/戰鬥區</text>
+<text x="20" y="590" fill="#666" font-size="9">SW_EM-01 | 探索地圖 </text>
+</svg>

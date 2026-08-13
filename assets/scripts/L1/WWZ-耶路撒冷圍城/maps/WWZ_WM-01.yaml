@@ -1,0 +1,185 @@
+map_id: WWZ_WM-01
+map_type: world
+scenario: '末日之戰·耶路撒冷圍城 / World War Z: Siege of Jerusalem'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 耶路撒冷舊城區
+description: ''
+scale: WWZ_WM-01 | 大範圍地圖 | 1格 ≈ 5m
+regions:
+- bounds:
+  - 140.0
+  - 270.0
+  - 80.0
+  - 60.0
+  fill: '#2e1a3e'
+  stroke: '#8B5CF6'
+  name: 避難所
+- bounds:
+  - 340.0
+  - 360.0
+  - 120.0
+  - 80.0
+  fill: '#1a2a30'
+  stroke: '#3B82F6'
+  name: 市場
+- bounds:
+  - 500.0
+  - 440.0
+  - 100.0
+  - 60.0
+  fill: '#2e1a3e'
+  stroke: '#8B5CF6'
+  name: 檢查站
+- bounds:
+  - 120.0
+  - 150.0
+  - 100.0
+  - 60.0
+  fill: '#1a2a2a'
+  stroke: '#444'
+  name: 停車場
+roads:
+- x1: 80.0
+  y1: 400.0
+  x2: 720.0
+  y2: 400.0
+  stroke: '#555'
+  stroke_width: '6'
+  dashed: false
+- x1: 400.0
+  y1: 80.0
+  x2: 400.0
+  y2: 520.0
+  stroke: '#555'
+  stroke_width: '6'
+  dashed: false
+- x1: 200.0
+  y1: 300.0
+  x2: 600.0
+  y2: 300.0
+  stroke: '#555'
+  stroke_width: '3'
+  dashed: false
+- x1: 200.0
+  y1: 480.0
+  x2: 600.0
+  y2: 480.0
+  stroke: '#555'
+  stroke_width: '3'
+  dashed: false
+routes:
+- x1: 220.0
+  y1: 300.0
+  x2: 400.0
+  y2: 260.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+- x1: 400.0
+  y1: 260.0
+  x2: 620.0
+  y2: 150.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+- x1: 635.0
+  y1: 515.0
+  x2: 665.0
+  y2: 515.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+danger_zones:
+- center:
+  - 520.0
+  - 350.0
+  rx: 70.0
+  ry: 45.0
+  name: Z殭屍密集
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 280.0
+  - 500.0
+  rx: 80.0
+  ry: 50.0
+  name: Z殭屍密集
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 450.0
+  - 120.0
+  rx: 60.0
+  ry: 40.0
+  name: Z殭屍密集
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 100.0
+  - 420.0
+  rx: 50.0
+  ry: 35.0
+  name: Z殭屍密集
+  fill: '#FF0000'
+  stroke: '#FF4444'
+landmarks:
+- center:
+  - 180.0
+  - 325.0
+  radius: 4.0
+  name: (起始點)
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 620.0
+  - 150.0
+  radius: 18.0
+  name: ★ 撤離點
+  fill: none
+  stroke: '#00FF88'
+  dashed: true
+- center:
+  - 620.0
+  - 150.0
+  radius: 7.0
+  name: ★ 撤離點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 350.0
+  - 180.0
+  radius: 22.0
+  name: T+12 圍牆裂縫
+  fill: '#FFAA00'
+  stroke: '#FFAA00'
+  dashed: false
+- center:
+  - 642.0
+  - 558.0
+  radius: 5.0
+  name: 撤離點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 575.0
+  radius: 4.0
+  name: 起始點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+legend:
+- 直升機撤離點
+- 撤離路線
+- 危險區域
+- 撤離點
+- 起始點

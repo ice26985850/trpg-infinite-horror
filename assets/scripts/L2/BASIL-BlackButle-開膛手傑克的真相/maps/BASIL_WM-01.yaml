@@ -1,0 +1,60 @@
+map_id: BASIL_WM-01
+map_type: world
+scenario: '黑執事·開膛手傑克的真相 / Black Butler: The Truth of Jack the Ripper'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 900
+- 620
+title: 維多利亞倫敦 — 大範圍地圖 (WM-01)
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 250.0
+  - 120.0
+  - 100.0
+  - 60.0
+  fill: '#3a3a4a'
+  stroke: '#c0392b'
+  name: A 凡多姆海伍宅邸
+- bounds:
+  - 450.0
+  - 270.0
+  - 100.0
+  - 60.0
+  fill: '#3a2a2a'
+  stroke: '#c0392b'
+  name: B 白教堂區
+- bounds:
+  - 650.0
+  - 170.0
+  - 100.0
+  - 60.0
+  fill: '#4a4a3a'
+  stroke: '#c0392b'
+  name: C 貴族區
+- bounds:
+  - 500.0
+  - 450.0
+  - 100.0
+  - 60.0
+  fill: '#2a2a3a'
+  stroke: '#c0392b'
+  name: D 廢棄教堂
+- bounds:
+  - 20.0
+  - 540.0
+  - 860.0
+  - 60.0
+  fill: '#1a1a1e'
+  stroke: '#333'
+  name: ''
+roads: []
+routes: []
+danger_zones: []
+landmarks: []
+legend:
+- C 貴族區

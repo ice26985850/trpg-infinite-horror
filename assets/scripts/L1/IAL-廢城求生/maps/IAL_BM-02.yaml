@@ -1,0 +1,419 @@
+map_id: IAL_BM-02
+map_type: battle
+scenario: '我是傳奇·廢城求生 / I Am Legend: Last Light'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 680
+- 460
+title: 廢棄公寓屋頂—守夜戰場
+description: ''
+grid:
+  type: square
+  width: 12
+  height: 8
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20.0
+  - 20.0
+  total_width_ft: 60
+  total_height_ft: 40
+terrain:
+- bounds_px:
+  - 20.0
+  - 20.0
+  - 640.0
+  - 2.0
+  name: 鐵欄杆圍欄
+  fill: '#888'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 43
+  - 1
+  center_ft:
+  - 107.5
+  - 2.5
+- bounds_px:
+  - 20.0
+  - 438.0
+  - 640.0
+  - 2.0
+  name: 變種人主要湧入點
+  fill: '#888'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 28
+  - 43
+  - 1
+  center_ft:
+  - 107.5
+  - 142.5
+- bounds_px:
+  - 20.0
+  - 20.0
+  - 2.0
+  - 420.0
+  name: ''
+  fill: '#888'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 1
+  - 28
+  center_ft:
+  - 2.5
+  - 70.0
+- bounds_px:
+  - 658.0
+  - 20.0
+  - 2.0
+  - 420.0
+  name: 入侵
+  fill: '#888'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 43
+  - 0
+  - 1
+  - 28
+  center_ft:
+  - 217.5
+  - 70.0
+- bounds_px:
+  - 45.0
+  - 40.0
+  - 65.0
+  - 65.0
+  name: 水塔
+  fill: '#222'
+  stroke: '#556'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 2
+  - 1
+  - 4
+  - 4
+  center_ft:
+  - 20.0
+  - 15.0
+- bounds_px:
+  - 280.0
+  - 180.0
+  - 80.0
+  - 40.0
+  name: 天窗
+  fill: '#0a0a20'
+  stroke: '#3B82F6'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 17
+  - 11
+  - 5
+  - 3
+  center_ft:
+  - 97.5
+  - 62.5
+- bounds_px:
+  - 150.0
+  - 60.0
+  - 40.0
+  - 25.0
+  name: 通風管A
+  fill: '#2a2a30'
+  stroke: '#666'
+  stroke_width: ''
+  bounds_grid:
+  - 9
+  - 3
+  - 3
+  - 2
+  center_ft:
+  - 52.5
+  - 20.0
+- bounds_px:
+  - 480.0
+  - 50.0
+  - 35.0
+  - 25.0
+  name: 通風管B
+  fill: '#2a2a30'
+  stroke: '#666'
+  stroke_width: ''
+  bounds_grid:
+  - 31
+  - 2
+  - 2
+  - 2
+  center_ft:
+  - 160.0
+  - 15.0
+- bounds_px:
+  - 540.0
+  - 120.0
+  - 40.0
+  - 25.0
+  name: 通風管C
+  fill: '#2a2a30'
+  stroke: '#666'
+  stroke_width: ''
+  bounds_grid:
+  - 35
+  - 7
+  - 3
+  - 2
+  center_ft:
+  - 182.5
+  - 40.0
+- bounds_px:
+  - 540.0
+  - 340.0
+  - 60.0
+  - 40.0
+  name: 發電機
+  fill: '#1a2a20'
+  stroke: '#FFAA00'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 35
+  - 21
+  - 4
+  - 3
+  center_ft:
+  - 185.0
+  - 112.5
+- bounds_px:
+  - 290.0
+  - 390.0
+  - 80.0
+  - 48.0
+  name: 樓梯間入口
+  fill: '#162040'
+  stroke: '#F59E0B'
+  stroke_width: '2'
+  bounds_grid:
+  - 18
+  - 25
+  - 5
+  - 3
+  center_ft:
+  - 102.5
+  - 132.5
+- bounds_px:
+  - 30.0
+  - 350.0
+  - 15.0
+  - 80.0
+  name: 消  防  梯
+  fill: '#333'
+  stroke: '#EF4444'
+  stroke_width: '1'
+  bounds_grid:
+  - 1
+  - 22
+  - 1
+  - 5
+  center_ft:
+  - 7.5
+  - 122.5
+- bounds_px:
+  - 630.0
+  - 240.0
+  - 15.0
+  - 100.0
+  name: 消  防  梯
+  fill: '#333'
+  stroke: '#EF4444'
+  stroke_width: '1'
+  bounds_grid:
+  - 41
+  - 15
+  - 1
+  - 7
+  center_ft:
+  - 207.5
+  - 92.5
+- bounds_px:
+  - 240.0
+  - 370.0
+  - 40.0
+  - 8.0
+  name: 路障L1
+  fill: '#FFAA00'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 15
+  - 23
+  - 3
+  - 1
+  center_ft:
+  - 82.5
+  - 117.5
+- bounds_px:
+  - 360.0
+  - 370.0
+  - 40.0
+  - 8.0
+  name: 路障R1
+  fill: '#FFAA00'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 23
+  - 23
+  - 3
+  - 1
+  center_ft:
+  - 122.5
+  - 117.5
+- bounds_px:
+  - 280.0
+  - 385.0
+  - 20.0
+  - 8.0
+  name: 路障L1
+  fill: '#FFAA00'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 17
+  - 24
+  - 1
+  - 1
+  center_ft:
+  - 87.5
+  - 122.5
+- bounds_px:
+  - 360.0
+  - 385.0
+  - 20.0
+  - 8.0
+  name: 路障R1
+  fill: '#FFAA00'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 23
+  - 24
+  - 1
+  - 1
+  center_ft:
+  - 117.5
+  - 122.5
+- bounds_px:
+  - 200.0
+  - 330.0
+  - 260.0
+  - 30.0
+  name: 防守陣線 (玩家站位)
+  fill: none
+  stroke: '#00FF88'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 12
+  - 21
+  - 17
+  - 2
+  center_ft:
+  - 102.5
+  - 110.0
+- bounds_px:
+  - 100.0
+  - 370.0
+  - 50.0
+  - 30.0
+  name: 物資堆
+  fill: '#1a2a20'
+  stroke: '#FFAA00'
+  stroke_width: ''
+  bounds_grid:
+  - 5
+  - 23
+  - 3
+  - 2
+  center_ft:
+  - 32.5
+  - 120.0
+- bounds_px:
+  - 590.0
+  - 30.0
+  - 50.0
+  - 20.0
+  name: 觀察點
+  fill: '#1a1030'
+  stroke: '#3B82F6'
+  stroke_width: ''
+  bounds_grid:
+  - 38
+  - 1
+  - 3
+  - 1
+  center_ft:
+  - 197.5
+  - 7.5
+- bounds_px:
+  - 530.0
+  - 180.0
+  - 80.0
+  - 25.0
+  name: 對面建築屋頂
+  fill: '#301520'
+  stroke: '#EF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 34
+  - 11
+  - 5
+  - 2
+  center_ft:
+  - 182.5
+  - 60.0
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 鐵欄杆圍欄
+  to: 變種人主要湧入點
+  distance_ft: 140.0
+- from: 鐵欄杆圍欄
+  to: ''
+  distance_ft: 124.8
+- from: 鐵欄杆圍欄
+  to: 入侵
+  distance_ft: 129.1
+- from: 鐵欄杆圍欄
+  to: 水塔
+  distance_ft: 88.4
+- from: 鐵欄杆圍欄
+  to: 天窗
+  distance_ft: 60.8
+- from: 鐵欄杆圍欄
+  to: 通風管A
+  distance_ft: 57.7
+- from: 鐵欄杆圍欄
+  to: 通風管B
+  distance_ft: 54.0
+- from: 鐵欄杆圍欄
+  to: 通風管C
+  distance_ft: 83.9
+- from: 鐵欄杆圍欄
+  to: 發電機
+  distance_ft: 134.6
+- from: 鐵欄杆圍欄
+  to: 樓梯間入口
+  distance_ft: 130.1

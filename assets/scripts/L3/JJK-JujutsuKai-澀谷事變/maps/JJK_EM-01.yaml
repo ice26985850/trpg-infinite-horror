@@ -1,0 +1,72 @@
+map_id: JJK_EM-01
+map_type: exploration
+scenario: '咒術迴戰·澀谷事變 / Jujutsu Kaisen: Shibuya Incident'
+tier: L3
+difficulty: ★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: JJK_EM-01 探索地圖
+description: ''
+floors:
+- name: B4F通道
+  y: 75.0
+  rooms:
+  - bounds:
+    - 80.0
+    - 75.0
+    - 700.0
+    - 30.0
+    name: 平民
+    fill: '#0f1525'
+    stroke: '#2a2a4e'
+    stroke_width: '1'
+    rx: 0.0
+  - bounds:
+    - 80.0
+    - 75.0
+    - 30.0
+    - 280.0
+    name: 平民
+    fill: '#0f1525'
+    stroke: '#2a2a4e'
+    stroke_width: '1'
+    rx: 0.0
+  - bounds:
+    - 750.0
+    - 75.0
+    - 30.0
+    - 280.0
+    name: ''
+    fill: '#0f1525'
+    stroke: '#2a2a4e'
+    stroke_width: '1'
+    rx: 0.0
+  - bounds:
+    - 410.0
+    - 75.0
+    - 30.0
+    - 280.0
+    name: 平民
+    fill: '#0f1525'
+    stroke: '#2a2a4e'
+    stroke_width: '1'
+    rx: 0.0
+- name: 樓層 2
+  y: 325.0
+  rooms:
+  - bounds:
+    - 80.0
+    - 325.0
+    - 700.0
+    - 30.0
+    name: ''
+    fill: '#0f1525'
+    stroke: '#2a2a4e'
+    stroke_width: '1'
+    rx: 0.0
+connections: []
+legend: []
+notes: []

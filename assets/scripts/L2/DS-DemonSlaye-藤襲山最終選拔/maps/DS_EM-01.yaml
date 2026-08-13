@@ -1,0 +1,75 @@
+map_id: DS_EM-01
+map_type: exploration
+scenario: '鬼滅之刃·藤襲山最終選拔 / Demon Slayer: Final Selection'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 900
+- 700
+title: 藤襲山樹林探索圖 (Exploration Map EM-01)
+description: ''
+floors:
+- name: 樓層 1
+  y: 0.0
+  rooms:
+  - bounds:
+    - 0.0
+    - 0.0
+    - 900.0
+    - 700.0
+    name: ▲
+    fill: '#1a1a2e'
+    stroke: ''
+    stroke_width: ''
+    rx: 0.0
+- name: 樓層 2
+  y: 80.0
+  rooms:
+  - bounds:
+    - 50.0
+    - 80.0
+    - 800.0
+    - 570.0
+    name: ▲
+    fill: '#1e3a2f'
+    stroke: '#4B0082'
+    stroke_width: '2'
+    rx: 8.0
+- name: 樓層 3
+  y: 288.0
+  rooms:
+  - bounds:
+    - 320.0
+    - 288.0
+    - 60.0
+    - 24.0
+    name: NPC 炭治郎
+    fill: '#4a90d9'
+    stroke: ''
+    stroke_width: ''
+    rx: 12.0
+  - bounds:
+    - 570.0
+    - 338.0
+    - 60.0
+    - 24.0
+    name: NPC 善逸
+    fill: '#f1c40f'
+    stroke: ''
+    stroke_width: ''
+    rx: 12.0
+  - bounds:
+    - 620.0
+    - 388.0
+    - 60.0
+    - 24.0
+    name: NPC 伊之助
+    fill: '#e74c3c'
+    stroke: ''
+    stroke_width: ''
+    rx: 12.0
+connections: []
+legend: []
+notes: []

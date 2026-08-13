@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<rect width="800" height="600" fill="#1a1a2e"/>
+<text x="400.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">地下設施探索——詳細地圖</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 1</text>
+<rect x="20" y="0.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="800.0" height="600.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<text x="20" y="75.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 2</text>
+<rect x="20" y="80.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="100.0" y="80.0" width="300.0" height="100.0" rx="5.0" fill="#0d1a1a" stroke="#10B981" stroke-width="2"/>
+<text x="250.0" y="130.0" text-anchor="middle" fill="#aaa" font-size="9">A區：廢棄公寓地下室</text>
+<rect x="450.0" y="80.0" width="250.0" height="100.0" rx="5.0" fill="#0d0d1a" stroke="#3B82F6" stroke-width="2"/>
+<text x="575.0" y="130.0" text-anchor="middle" fill="#aaa" font-size="9">C區：基金會前哨站</text>
+<text x="20" y="235.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 3</text>
+<rect x="20" y="240.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="100.0" y="240.0" width="300.0" height="120.0" rx="5.0" fill="#1a1505" stroke="#F59E0B" stroke-width="2"/>
+<text x="250.0" y="300.0" text-anchor="middle" fill="#aaa" font-size="9">B區：地下鐵路崩塌區</text>
+<text x="20" y="415.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 4</text>
+<rect x="20" y="420.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="100.0" y="420.0" width="600.0" height="120.0" rx="5.0" fill="#1a0505" stroke="#EF4444" stroke-width="2"/>
+<text x="400.0" y="480.0" text-anchor="middle" fill="#aaa" font-size="9">D區：Site-19 入口防線</text>
+<text x="20" y="495.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 5</text>
+<rect x="20" y="500.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="620.0" y="500.0" width="165.0" height="85.0" rx="4.0" fill="#111" stroke="#333" stroke-width=""/>
+<text x="702.5" y="542.5" text-anchor="middle" fill="#aaa" font-size="9">圖例</text>
+<rect x="20" y="545" width="760" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="570" fill="#aaa" font-size="9">SCP-001_WM-01 | 大範圍地圖</text>
+<text x="20" y="590" fill="#666" font-size="9">SCP-001_EM-01 | 探索地圖 </text>
+</svg>

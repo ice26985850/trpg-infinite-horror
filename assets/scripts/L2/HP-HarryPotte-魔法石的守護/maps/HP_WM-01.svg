@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="900" height="620" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="900" height="620" fill="url(#wmgrid)"/>
+<rect x="350.0" y="120.0" width="100.0" height="60.0" rx="5" fill="#3a3a5a" stroke="#e67e22" stroke-width="2"/>
+<text x="400.0" y="150.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">A 大廳</text>
+<rect x="550.0" y="220.0" width="100.0" height="60.0" rx="5" fill="#4a3a4a" stroke="#e67e22" stroke-width="2"/>
+<text x="600.0" y="250.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">B 圖書館</text>
+<rect x="150.0" y="320.0" width="100.0" height="60.0" rx="5" fill="#3a5a3a" stroke="#e67e22" stroke-width="2"/>
+<text x="200.0" y="350.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">C 溫室</text>
+<rect x="450.0" y="450.0" width="100.0" height="60.0" rx="5" fill="#4a2a2a" stroke="#e67e22" stroke-width="2"/>
+<text x="500.0" y="480.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">D 禁區</text>
+<text x="20" y="605" fill="#666" font-size="9">HP_WM-01 | 大範圍地圖 | 霍格華茲城堡 — 大範圍地圖 (WM-01)</text>
+</svg>

@@ -1,0 +1,250 @@
+map_id: HOTD_WM-01
+map_type: world
+scenario: '學園默示錄·末日校園 / Highschool of the Dead: Academy of the Dead'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: (起始點 T+0)
+description: ''
+scale: HOTD_WM-01 | 大範圍地圖 | HOTD_WM-01 | 大範圍地圖 | HOTD_WM-01 | 大範圍地圖 | HOTD_WM-01 | 大範圍地圖 | 1格 ≈ 100m
+regions:
+- bounds:
+  - 300.0
+  - 200.0
+  - 200.0
+  - 160.0
+  fill: '#2e1a3e'
+  stroke: '#8B5CF6'
+  name: (起始點 T+0)
+- bounds:
+  - 340.0
+  - 230.0
+  - 50.0
+  - 20.0
+  fill: '#3B1F5E'
+  stroke: '#6D28D9'
+  name: 校舍
+- bounds:
+  - 420.0
+  - 310.0
+  - 40.0
+  - 15.0
+  fill: '#3B1F5E'
+  stroke: '#6D28D9'
+  name: 體育館
+- bounds:
+  - 80.0
+  - 200.0
+  - 120.0
+  - 80.0
+  fill: '#1a2a2a'
+  stroke: '#444'
+  name: 住宅區 A
+- bounds:
+  - 600.0
+  - 200.0
+  - 120.0
+  - 80.0
+  fill: '#1a2a2a'
+  stroke: '#444'
+  name: 住宅區 B
+- bounds:
+  - 200.0
+  - 440.0
+  - 120.0
+  - 60.0
+  fill: '#1a2a2a'
+  stroke: '#444'
+  name: 商店街
+roads:
+- x1: 100.0
+  y1: 500.0
+  x2: 700.0
+  y2: 500.0
+  stroke: '#555'
+  stroke_width: '6'
+  dashed: false
+- x1: 400.0
+  y1: 100.0
+  x2: 400.0
+  y2: 500.0
+  stroke: '#555'
+  stroke_width: '6'
+  dashed: false
+- x1: 200.0
+  y1: 300.0
+  x2: 600.0
+  y2: 300.0
+  stroke: '#555'
+  stroke_width: '3'
+  dashed: false
+- x1: 200.0
+  y1: 420.0
+  x2: 600.0
+  y2: 420.0
+  stroke: '#555'
+  stroke_width: '3'
+  dashed: false
+routes:
+- x1: 430.0
+  y1: 360.0
+  x2: 490.0
+  y2: 420.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+- x1: 490.0
+  y1: 420.0
+  x2: 560.0
+  y2: 450.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+- x1: 635.0
+  y1: 55.0
+  x2: 665.0
+  y2: 55.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+danger_zones:
+- center:
+  - 600.0
+  - 380.0
+  rx: 80.0
+  ry: 50.0
+  name: 死體密集區
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 180.0
+  - 320.0
+  rx: 60.0
+  ry: 40.0
+  name: 死體密集區
+  fill: '#FF0000'
+  stroke: '#FF4444'
+landmarks:
+- center:
+  - 560.0
+  - 460.0
+  radius: 15.0
+  name: ★ ★ ★ ★ 撤離點
+  fill: none
+  stroke: '#00FF88'
+  dashed: true
+- center:
+  - 560.0
+  - 460.0
+  radius: 6.0
+  name: ★ ★ ★ ★ 撤離點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 560.0
+  - 460.0
+  radius: 6.0
+  name: ★ ★ ★ ★ 撤離點
+  fill: none
+  stroke: ''
+  dashed: false
+- center:
+  - 560.0
+  - 460.0
+  radius: 6.0
+  name: ★ ★ ★ ★ 撤離點
+  fill: none
+  stroke: ''
+  dashed: false
+- center:
+  - 560.0
+  - 460.0
+  radius: 6.0
+  name: ★ ★ ★ ★ 撤離點
+  fill: none
+  stroke: ''
+  dashed: false
+- center:
+  - 320.0
+  - 140.0
+  radius: 20.0
+  name: ★ ★ ★ T+36 加油站爆炸
+  fill: '#FFAA00'
+  stroke: ''
+  dashed: false
+- center:
+  - 320.0
+  - 140.0
+  radius: 20.0
+  name: ★ ★ ★ T+36 加油站爆炸
+  fill: none
+  stroke: ''
+  dashed: false
+- center:
+  - 320.0
+  - 140.0
+  radius: 20.0
+  name: ★ ★ ★ T+36 加油站爆炸
+  fill: none
+  stroke: ''
+  dashed: false
+- center:
+  - 320.0
+  - 140.0
+  radius: 20.0
+  name: ★ ★ ★ T+36 加油站爆炸
+  fill: none
+  stroke: '#FFAA00'
+  dashed: false
+- center:
+  - 642.0
+  - 100.0
+  radius: 5.0
+  name: ★ 撤離路線
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 100.0
+  radius: 5.0
+  name: ★ 撤離路線
+  fill: none
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 100.0
+  radius: 5.0
+  name: ★ 撤離路線
+  fill: none
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 100.0
+  radius: 5.0
+  name: ★ 撤離路線
+  fill: none
+  stroke: ''
+  dashed: false
+legend:
+- 死體密集區
+- ★ 住宅區 B
+- ★ 住宅區 B
+- ★ 住宅區 B
+- 死體密集區
+- ★ 撤離路線
+- ★ 撤離路線
+- 死體密集區
+- ★ 撤離點
+- 住宅區 B
+- 死體密集區
+- 撤離路線
+- 死體密集區
+- 撤離點

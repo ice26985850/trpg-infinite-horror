@@ -1,0 +1,52 @@
+
+:root{--bg:#13110f;--surface:#ffffff;--ink:#23221f;--mut:#6b6963;--line:#e3e0d8;--accent:#c0392b;--accent2:#7b1f16;}
+*{box-sizing:border-box}
+body{margin:0;background:#f6f4f0;color:var(--ink);font:15px/1.7 -apple-system,"PingFang TC","Microsoft JhengHei","Noto Sans CJK TC",sans-serif;}
+.topbar{display:flex;align-items:center;gap:16px;padding:14px 22px;background:#1c1714;color:#f3ece6;border-bottom:3px solid var(--accent);position:sticky;top:0;z-index:5}
+.brand{font-weight:800;font-size:17px;letter-spacing:.5px}
+.back-btn{display:inline-block;background:var(--accent);color:#fff !important;text-decoration:none;font-weight:700;font-size:14px;padding:7px 15px;border-radius:8px;margin-left:auto}
+.back-btn:hover{background:var(--accent2)}
+.container{max-width:1080px;margin:0 auto;padding:28px 22px 60px}
+.lead{color:var(--mut);margin:0 0 24px}
+h1{font-size:27px;margin:0 0 8px}
+h2{font-size:21px;border-left:5px solid var(--accent);padding-left:12px;margin:32px 0 16px}
+h3{font-size:17px;margin:22px 0 10px;color:var(--accent2)}
+.meta{color:var(--mut);margin:0 0 14px;font-size:14px}
+.nav{font-size:14px;background:#f0ebe6;padding:10px 14px;border-radius:8px;margin:14px 0}
+.nav a{color:var(--accent);text-decoration:none;margin-right:8px;font-weight:600}
+.block{margin:24px 0}
+.content{max-width:820px}
+.layer{margin:36px 0}
+.lhead{margin-bottom:14px}
+.lhead h2{border-left:5px solid var(--accent2);margin-bottom:2px}
+.ldesc{color:var(--mut);font-size:14px;margin:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(248px,1fr));gap:16px}
+.card{display:block;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;text-decoration:none;color:inherit;transition:.15s;border-top:3px solid var(--accent)}
+.card:hover{border-color:var(--accent);transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.08)}
+.ctitle{font-weight:800;font-size:16px;line-height:1.4}
+.ccode{color:var(--accent);font-size:12px;margin:3px 0 4px;font-family:ui-monospace,monospace}
+.cstars{color:#e0a800;font-size:15px;letter-spacing:2px;margin-bottom:6px}
+.cinfo{color:var(--mut);font-size:13px;min-height:40px}
+.cbadge{margin-top:8px;display:flex;flex-wrap:wrap;gap:6px}
+.badge{font-size:11px;background:#fbeae7;color:#c0392b;border:1px solid #f2c4bc;padding:2px 8px;border-radius:20px}
+.badge.demo{background:#fff3e0;color:#b45309;border-color:#fcd9a5}
+.demo-banner{background:#fff7ed;border:1px solid #fdba74;color:#9a3412;padding:12px 16px;border-radius:10px;margin:14px 0;font-size:14px;line-height:1.6}
+#search{width:100%;max-width:420px;padding:11px 14px;font-size:15px;border:1px solid var(--line);border-radius:10px;margin:8px 0 4px;background:#fff}
+table{border-collapse:collapse;width:100%;margin:14px 0;font-size:14px}
+th,td{border:1px solid var(--line);padding:7px 10px;text-align:left}
+th{background:#f0ebe6}
+code{background:#f0ebe6;padding:1px 6px;border-radius:5px;font-size:13px}
+pre{background:#f0ebe6;padding:14px;border-radius:8px;overflow:auto}
+pre code{background:none;padding:0}
+.gallery{display:flex;flex-wrap:wrap;gap:12px}
+.gallery img{width:150px;height:150px;object-fit:cover;border:1px solid var(--line);border-radius:8px;cursor:pointer}
+.map{border:1px solid var(--line);border-radius:10px;padding:12px;margin:14px 0;background:var(--surface)}
+.maptitle{font-weight:700;font-size:14px;margin-bottom:8px}
+.maptype{font-size:11px;background:#fbeae7;color:#c0392b;border:1px solid #f2c4bc;padding:1px 8px;border-radius:20px;margin-left:6px}
+.mapbody svg{width:100%;height:auto;display:block;border:1px solid var(--line);border-radius:6px;background:#fff}
+.cap{font-size:13px;color:var(--mut);margin:6px 0 0}
+.cap a{color:var(--accent);text-decoration:none}
+details.gm{margin:18px 0;border:1px dashed #c0392b;border-radius:10px;background:#fdf3f1;padding:4px 14px}
+details.gm summary{cursor:pointer;font-weight:700;color:#c0392b;padding:10px 0;font-size:15px}
+details.gm[open] summary{margin-bottom:8px}
+.foot{text-align:center;color:#cbb9b2;font-size:12px;padding:24px;border-top:1px solid var(--line);background:#1c1714}

@@ -1,0 +1,172 @@
+map_id: HXH_WM-01
+map_type: world
+scenario: '獵人·貪婪之島 / Hunter × Hunter: Greed Island'
+tier: L3
+difficulty: ★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: HXH_WM-01 世界地圖
+description: ''
+scale: 示意圖
+regions: []
+roads:
+- x1: 200.0
+  y1: 230.0
+  x2: 150.0
+  y2: 130.0
+  stroke: ''
+  stroke_width: ''
+  dashed: false
+- x1: 150.0
+  y1: 130.0
+  x2: 450.0
+  y2: 160.0
+  stroke: ''
+  stroke_width: ''
+  dashed: false
+- x1: 450.0
+  y1: 160.0
+  x2: 600.0
+  y2: 300.0
+  stroke: ''
+  stroke_width: ''
+  dashed: false
+- x1: 450.0
+  y1: 160.0
+  x2: 550.0
+  y2: 450.0
+  stroke: ''
+  stroke_width: ''
+  dashed: false
+- x1: 550.0
+  y1: 450.0
+  x2: 250.0
+  y2: 420.0
+  stroke: ''
+  stroke_width: ''
+  dashed: false
+- x1: 200.0
+  y1: 230.0
+  x2: 250.0
+  y2: 420.0
+  stroke: ''
+  stroke_width: ''
+  dashed: false
+routes:
+- x1: 590.0
+  y1: 552.0
+  x2: 630.0
+  y2: 552.0
+  stroke: ''
+  stroke_width: ''
+  dashed: true
+danger_zones:
+- center:
+  - 380.0
+  - 320.0
+  rx: 280.0
+  ry: 200.0
+  name: ''
+  fill: ''
+  stroke: ''
+- center:
+  - 200.0
+  - 230.0
+  rx: 60.0
+  ry: 40.0
+  name: '起點平原
+
+    (起始點)'
+  fill: ''
+  stroke: ''
+- center:
+  - 150.0
+  - 130.0
+  rx: 55.0
+  ry: 35.0
+  name: '安多尼拔城
+
+    (Antokiba)'
+  fill: ''
+  stroke: ''
+- center:
+  - 450.0
+  - 160.0
+  rx: 65.0
+  ry: 45.0
+  name: '瑪莎多拉
+
+    (Masadora)'
+  fill: ''
+  stroke: ''
+- center:
+  - 600.0
+  - 300.0
+  rx: 55.0
+  ry: 40.0
+  name: '磊札體育館
+
+    (Razor''s Gym)'
+  fill: ''
+  stroke: ''
+- center:
+  - 550.0
+  - 450.0
+  rx: 50.0
+  ry: 35.0
+  name: '廢棄礦坑
+
+    (甘舒據點)'
+  fill: ''
+  stroke: ''
+- center:
+  - 250.0
+  - 420.0
+  rx: 45.0
+  ry: 30.0
+  name: '通關傳送點
+
+    (Exit Portal)'
+  fill: ''
+  stroke: ''
+- center:
+  - 500.0
+  - 380.0
+  rx: 120.0
+  ry: 80.0
+  name: ⚠ 炸彈魔活躍區域
+  fill: ''
+  stroke: ''
+landmarks:
+- center:
+  - 595.0
+  - 535.0
+  radius: 5.0
+  name: 圖例
+  fill: ''
+  stroke: ''
+  dashed: false
+- center:
+  - 685.0
+  - 535.0
+  radius: 5.0
+  name: 危險區
+  fill: ''
+  stroke: ''
+  dashed: false
+- center:
+  - 685.0
+  - 555.0
+  radius: 5.0
+  name: 關鍵地點
+  fill: ''
+  stroke: ''
+  dashed: false
+legend:
+- '磊札體育館
+
+  (Razor''s Gym)'
+- '[S05]'

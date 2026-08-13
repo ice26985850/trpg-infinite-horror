@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="640" height="480" fill="#1a1a2e"/>
+<rect x="20" y="20" width="600" height="440" fill="url(#grid)"/>
+<rect x="20" y="20" width="600" height="440" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="320.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">BM-01 覺醒者山谷戰</text>
+<text x="25" y="472" fill="#666" font-size="9">CLAYMORE_BM-01 | 10×10格（概念） | 1格 = 5ft | 總 50×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="40.0" y="40.0" width="80.0" height="80.0" rx="3" fill="none" stroke="#00FF88" stroke-width="2"/>
+<text x="80.0" y="76.0" text-anchor="middle" fill="#aaa" font-size="8">玩家起始</text>
+<text x="80.0" y="90.0" text-anchor="middle" fill="#666" font-size="6">(17.5, 17.5)ft</text>
+<rect x="280.0" y="200.0" width="120.0" height="80.0" rx="3" fill="none" stroke="#FF4444" stroke-width="1.5"/>
+<text x="340.0" y="236.0" text-anchor="middle" fill="#aaa" font-size="8">覺醒者</text>
+<text x="340.0" y="250.0" text-anchor="middle" fill="#666" font-size="6">(105.0, 72.5)ft</text>
+<rect x="40.0" y="200.0" width="80.0" height="80.0" rx="3" fill="none" stroke="#00FF88" stroke-width="2"/>
+<text x="80.0" y="236.0" text-anchor="middle" fill="#aaa" font-size="8">克蕾雅（協同DP+2）</text>
+<text x="80.0" y="250.0" text-anchor="middle" fill="#666" font-size="6">(17.5, 72.5)ft</text>
+<rect x="160.0" y="120.0" width="80.0" height="80.0" rx="3" fill="#3B82F644" stroke="#3B82F6" stroke-width="1"/>
+<text x="200.0" y="156.0" text-anchor="middle" fill="#aaa" font-size="8">高地（敏捷DC3）</text>
+<text x="200.0" y="170.0" text-anchor="middle" fill="#666" font-size="6">(57.5, 47.5)ft</text>
+</svg>

@@ -1,0 +1,92 @@
+map_id: AVERNUS_EM-01
+map_type: exploration
+scenario: '巴爾德之門·地獄 / Baldur''s Gate: Descent into Avernus'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 巴爾德之門內部——探索地圖
+description: ''
+floors:
+- name: 樓層 1
+  y: 0.0
+  rooms:
+  - bounds:
+    - 0.0
+    - 0.0
+    - 800.0
+    - 600.0
+    name: 下城區（鐵匠鋪/酒館）
+    fill: '#1a1a2e'
+    stroke: ''
+    stroke_width: ''
+    rx: 0.0
+- name: 樓層 2
+  y: 100.0
+  rooms:
+  - bounds:
+    - 200.0
+    - 100.0
+    - 400.0
+    - 100.0
+    name: 神殿區（結界/補給）
+    fill: '#0d1a1a'
+    stroke: '#10B981'
+    stroke_width: '2'
+    rx: 5.0
+- name: 樓層 3
+  y: 250.0
+  rooms:
+  - bounds:
+    - 200.0
+    - 250.0
+    - 400.0
+    - 100.0
+    name: 下城區（鐵匠鋪/酒館）
+    fill: '#1a1505'
+    stroke: '#F59E0B'
+    stroke_width: '2'
+    rx: 5.0
+- name: 樓層 4
+  y: 400.0
+  rooms:
+  - bounds:
+    - 200.0
+    - 400.0
+    - 400.0
+    - 100.0
+    name: 貴族區（廢墟/避難所）
+    fill: '#0d0d1a'
+    stroke: '#3B82F6'
+    stroke_width: '2'
+    rx: 5.0
+- name: 樓層 5
+  y: 500.0
+  rooms:
+  - bounds:
+    - 620.0
+    - 500.0
+    - 165.0
+    - 85.0
+    name: 圖例
+    fill: '#111'
+    stroke: '#333'
+    stroke_width: ''
+    rx: 4.0
+  - bounds:
+    - 200.0
+    - 550.0
+    - 400.0
+    - 100.0
+    name: 港口區（冥河接觸點）
+    fill: '#1a1020'
+    stroke: '#6D28D9'
+    stroke_width: '2'
+    rx: 5.0
+connections: []
+legend:
+- AVERNUS_WM-01 | 大範圍地圖
+notes: []

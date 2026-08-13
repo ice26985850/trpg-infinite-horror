@@ -1,0 +1,147 @@
+map_id: SIN_BM-02
+map_type: battle
+scenario: '七大罪·魔神之戰 / The Seven Deadly Sins: War of the Demon King'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 640
+- 480
+title: BM-02 魔神王最終決戰
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 80.0
+  - 80.0
+  name: 玩家起始
+  fill: none
+  stroke: '#00FF88'
+  stroke_width: '2'
+  bounds_grid:
+  - 1
+  - 1
+  - 5
+  - 5
+  center_ft:
+  - 17.5
+  - 17.5
+- bounds_px:
+  - 280.0
+  - 280.0
+  - 120.0
+  - 120.0
+  name: 魔神王化身
+  fill: none
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 17
+  - 17
+  - 8
+  - 8
+  center_ft:
+  - 105.0
+  - 105.0
+- bounds_px:
+  - 280.0
+  - 40.0
+  - 80.0
+  - 80.0
+  name: 封印魔法陣
+  fill: '#F59E0B22'
+  stroke: '#F59E0B'
+  stroke_width: '2'
+  bounds_grid:
+  - 17
+  - 1
+  - 5
+  - 5
+  center_ft:
+  - 97.5
+  - 17.5
+- bounds_px:
+  - 40.0
+  - 200.0
+  - 120.0
+  - 80.0
+  name: 艾斯卡諾位置
+  fill: '#10B98144'
+  stroke: '#10B981'
+  stroke_width: '1'
+  bounds_grid:
+  - 1
+  - 12
+  - 8
+  - 5
+  center_ft:
+  - 25.0
+  - 72.5
+- bounds_px:
+  - 160.0
+  - 160.0
+  - 80.0
+  - 80.0
+  name: 碎片（破解術式）
+  fill: '#3B82F644'
+  stroke: '#3B82F6'
+  stroke_width: '1'
+  bounds_grid:
+  - 9
+  - 9
+  - 5
+  - 5
+  center_ft:
+  - 57.5
+  - 57.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 玩家起始
+  to: 魔神王化身
+  distance_ft: 123.7
+- from: 玩家起始
+  to: 封印魔法陣
+  distance_ft: 80.0
+- from: 玩家起始
+  to: 艾斯卡諾位置
+  distance_ft: 55.5
+- from: 玩家起始
+  to: 碎片（破解術式）
+  distance_ft: 56.6
+- from: 魔神王化身
+  to: 封印魔法陣
+  distance_ft: 87.8
+- from: 魔神王化身
+  to: 艾斯卡諾位置
+  distance_ft: 86.3
+- from: 魔神王化身
+  to: 碎片（破解術式）
+  distance_ft: 67.2
+- from: 封印魔法陣
+  to: 艾斯卡諾位置
+  distance_ft: 91.0
+- from: 封印魔法陣
+  to: 碎片（破解術式）
+  distance_ft: 56.6
+- from: 艾斯卡諾位置
+  to: 碎片（破解術式）
+  distance_ft: 35.8

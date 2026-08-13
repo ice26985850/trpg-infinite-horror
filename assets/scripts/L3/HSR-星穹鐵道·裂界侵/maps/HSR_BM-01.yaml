@@ -1,0 +1,35 @@
+map_id: HSR_BM-01
+map_type: battle
+scenario: '崩壞·星穹鐵道·裂界侵蝕 / Honkai: Star Rail - Fragmentum'
+tier: L3
+difficulty: ★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: HSR_BM-01 戰鬥地圖
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 50
+terrain: []
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective:
+  description: 目標
+  position_px:
+  - 685.0
+  - 118.0

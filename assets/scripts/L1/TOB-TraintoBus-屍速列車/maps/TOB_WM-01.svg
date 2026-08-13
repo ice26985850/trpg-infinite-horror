@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="900" height="600" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="900" height="600" fill="url(#wmgrid)"/>
+<rect x="65.0" y="355.0" width="110.0" height="16.0" rx="5" fill="#00FF88" stroke="#00FF88" stroke-width="2"/>
+<text x="120.0" y="363.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">★ 起始點</text>
+<rect x="345.0" y="268.0" width="110.0" height="16.0" rx="5" fill="#FF0000" stroke="#EF4444" stroke-width="2"/>
+<text x="400.0" y="276.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">⚠ 月台已淪陷</text>
+<line x1="170.0" y1="305.0" x2="350.0" y2="250.0" stroke="#FF4444" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="450.0" y1="235.0" x2="720.0" y2="240.0" stroke="#00FF88" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="715.0" y1="458.0" x2="745.0" y2="458.0" stroke="#FF4444" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="715.0" y1="475.0" x2="745.0" y2="475.0" stroke="#00FF88" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<ellipse cx="260.0" cy="300.0" rx="130.0" ry="60.0" fill="#FF0000" opacity="0.1" stroke="#FF4444" stroke-width="1"/>
+<text x="325.0" y="300.0" fill="#FF4444" font-size="9">(車廂 8-12)</text>
+<ellipse cx="550.0" cy="250.0" rx="100.0" ry="50.0" fill="#FF8800" opacity="0.1" stroke="#FF8800" stroke-width="1"/>
+<text x="600.0" y="250.0" fill="#FF4444" font-size="9">大田後感染區</text>
+<ellipse cx="730.0" cy="498.0" rx="15.0" ry="8.0" fill="#FF0000" opacity="0.1" stroke="#FF4444" stroke-width="1"/>
+<text x="737.5" y="498.0" fill="#FF4444" font-size="9">感染區</text>
+<circle cx="120.0" cy="320.0" r="18.0" fill="#2e1a3e" opacity="0.6"/>
+<circle cx="120.0" cy="320.0" r="18.0" fill="none" stroke="#8B5CF6" stroke-width="2"/>
+<text x="120.0" y="297.0" text-anchor="middle" fill="#8B5CF6" font-size="10" font-weight="bold">★ 首爾</text>
+<circle cx="400.0" cy="238.0" r="16.0" fill="#2e1a2e" opacity="0.6"/>
+<circle cx="400.0" cy="238.0" r="16.0" fill="none" stroke="#EF4444" stroke-width="2"/>
+<text x="400.0" y="217.0" text-anchor="middle" fill="#EF4444" font-size="10" font-weight="bold">★ 大田</text>
+<circle cx="780.0" cy="240.0" r="18.0" fill="#1a2e1a" opacity="0.6"/>
+<circle cx="780.0" cy="240.0" r="18.0" fill="none" stroke="#10B981" stroke-width="2"/>
+<text x="780.0" y="217.0" text-anchor="middle" fill="#10B981" font-size="10" font-weight="bold">★ 釜山</text>
+<circle cx="780.0" cy="278.0" r="6.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="780.0" cy="278.0" r="6.0" fill="none" stroke="" stroke-width="2"/>
+<text x="780.0" y="267.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ 撤離點</text>
+<circle cx="580.0" cy="248.0" r="8.0" fill="#FFAA00" opacity="0.6"/>
+<circle cx="580.0" cy="248.0" r="8.0" fill="none" stroke="#FFAA00" stroke-width="2"/>
+<text x="580.0" y="235.0" text-anchor="middle" fill="#FFAA00" font-size="10" font-weight="bold">★ 急煞故障點 (T+50)</text>
+<circle cx="730.0" cy="520.0" r="5.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="730.0" cy="520.0" r="5.0" fill="none" stroke="" stroke-width="2"/>
+<text x="730.0" y="510.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ 安全撤離點</text>
+<rect x="730" y="20" width="150" height="146" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="805" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">圖例</text>
+<text x="740" y="60" fill="#aaa" font-size="9">終點站 T+120</text>
+<text x="740" y="76" fill="#aaa" font-size="9">撤離點</text>
+<text x="740" y="92" fill="#aaa" font-size="9">慶尚丘陵</text>
+<text x="740" y="108" fill="#aaa" font-size="9">感染擴散方向</text>
+<text x="740" y="124" fill="#aaa" font-size="9">撤離路線</text>
+<text x="740" y="140" fill="#aaa" font-size="9">感染區</text>
+<text x="740" y="156" fill="#aaa" font-size="9">安全撤離點</text>
+<text x="20" y="585" fill="#666" font-size="9">TOB_WM-01 | 大範圍地圖 | 示意圖</text>
+</svg>

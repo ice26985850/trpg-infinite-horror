@@ -1,0 +1,35 @@
+map_id: SW_BM-01
+map_type: battle
+scenario: '星際大戰·奪取死星計劃 / Star Wars: Death Star'
+tier: L3
+difficulty: ★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: SW_BM-01 戰鬥地圖
+description: ''
+grid:
+  type: square
+  width: 24
+  height: 14
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 120
+  total_height_ft: 70
+terrain: []
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective:
+  description: 目標
+  position_px:
+  - 675.0
+  - 128.0

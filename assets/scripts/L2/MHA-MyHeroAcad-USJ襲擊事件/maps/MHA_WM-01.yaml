@@ -1,0 +1,151 @@
+map_id: MHA_WM-01
+map_type: world
+scenario: '我的英雄學院·USJ襲擊事件 / My Hero Academia: USJ Incident'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 1000
+- 700
+title: MHA_WM-01 世界地圖
+description: ''
+scale: 示意圖
+regions: []
+roads: []
+routes:
+- x1: 500.0
+  y1: 600.0
+  x2: 500.0
+  y2: 380.0
+  stroke: '#4B0082'
+  stroke_width: '1'
+  dashed: true
+- x1: 500.0
+  y1: 380.0
+  x2: 200.0
+  y2: 250.0
+  stroke: '#4B0082'
+  stroke_width: '1'
+  dashed: true
+- x1: 200.0
+  y1: 250.0
+  x2: 400.0
+  y2: 150.0
+  stroke: '#4B0082'
+  stroke_width: '1'
+  dashed: true
+- x1: 400.0
+  y1: 150.0
+  x2: 750.0
+  y2: 300.0
+  stroke: '#4B0082'
+  stroke_width: '1'
+  dashed: true
+- x1: 750.0
+  y1: 300.0
+  x2: 800.0
+  y2: 150.0
+  stroke: '#4B0082'
+  stroke_width: '1'
+  dashed: true
+danger_zones: []
+landmarks:
+- center:
+  - 500.0
+  - 600.0
+  radius: 8.0
+  name: A 入口大廳
+  fill: '#e74c3c'
+  stroke: '#fff'
+  dashed: false
+- center:
+  - 500.0
+  - 600.0
+  radius: 12.0
+  name: A 入口大廳
+  fill: none
+  stroke: '#e74c3c'
+  dashed: false
+- center:
+  - 500.0
+  - 380.0
+  radius: 8.0
+  name: B 中央廣場
+  fill: '#3498db'
+  stroke: '#fff'
+  dashed: false
+- center:
+  - 500.0
+  - 380.0
+  radius: 12.0
+  name: B 中央廣場
+  fill: none
+  stroke: '#3498db'
+  dashed: false
+- center:
+  - 200.0
+  - 250.0
+  radius: 8.0
+  name: C 水災區
+  fill: '#2ecc71'
+  stroke: '#fff'
+  dashed: false
+- center:
+  - 200.0
+  - 250.0
+  radius: 12.0
+  name: C 水災區
+  fill: none
+  stroke: '#2ecc71'
+  dashed: false
+- center:
+  - 400.0
+  - 150.0
+  radius: 8.0
+  name: D 山火區
+  fill: '#f39c12'
+  stroke: '#fff'
+  dashed: false
+- center:
+  - 400.0
+  - 150.0
+  radius: 12.0
+  name: D 山火區
+  fill: none
+  stroke: '#f39c12'
+  dashed: false
+- center:
+  - 750.0
+  - 300.0
+  radius: 8.0
+  name: E 廢墟區
+  fill: '#9b59b6'
+  stroke: '#fff'
+  dashed: false
+- center:
+  - 750.0
+  - 300.0
+  radius: 12.0
+  name: E 廢墟區
+  fill: none
+  stroke: '#9b59b6'
+  dashed: false
+- center:
+  - 800.0
+  - 150.0
+  radius: 8.0
+  name: F 暴風區
+  fill: '#1abc9c'
+  stroke: '#fff'
+  dashed: false
+- center:
+  - 800.0
+  - 150.0
+  radius: 12.0
+  name: F 暴風區
+  fill: none
+  stroke: '#1abc9c'
+  dashed: false
+legend:
+- MHA_WM-01

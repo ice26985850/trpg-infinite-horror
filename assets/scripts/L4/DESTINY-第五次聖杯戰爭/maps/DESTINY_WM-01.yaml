@@ -1,0 +1,60 @@
+map_id: DESTINY_WM-01
+map_type: world
+scenario: '命運/停駐之夜·第五次聖杯戰爭 / Fate/stay night: The Fifth Holy Grail War'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 冬木市——聖杯戰爭戰場
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 200.0
+  - 50.0
+  - 400.0
+  - 100.0
+  fill: '#0d1a1a'
+  stroke: '#10B981'
+  name: 衛宮邸（安全據點）
+- bounds:
+  - 200.0
+  - 200.0
+  - 400.0
+  - 100.0
+  fill: '#0d0d1a'
+  stroke: '#3B82F6'
+  name: 柳洞寺（Caster據點）
+- bounds:
+  - 200.0
+  - 350.0
+  - 400.0
+  - 100.0
+  fill: '#1a0505'
+  stroke: '#EF4444'
+  name: 市民會館（最終）
+roads: []
+routes:
+- x1: 400.0
+  y1: 150.0
+  x2: 400.0
+  y2: 200.0
+  stroke: '#C084FC'
+  stroke_width: '2'
+  dashed: true
+- x1: 400.0
+  y1: 300.0
+  x2: 400.0
+  y2: 350.0
+  stroke: '#C084FC'
+  stroke_width: '2'
+  dashed: true
+danger_zones: []
+landmarks: []
+legend:
+- 圖例
+- 箭頭 = 推薦路線
+- 紅色區域 = 最終目標

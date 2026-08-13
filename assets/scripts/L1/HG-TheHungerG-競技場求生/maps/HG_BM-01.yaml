@@ -1,0 +1,283 @@
+map_id: HG_BM-01
+map_type: battle
+scenario: '飢餓遊戲·競技場求生 / The Hunger Games: Arena Survival'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 680
+- 520
+title: 豐饒角起始區 -- 開幕物資爭奪戰
+description: ''
+grid:
+  type: square
+  width: 15
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20.0
+  - 40.0
+  total_width_ft: 75
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 240.0
+  - 180.0
+  - 200.0
+  - 140.0
+  name: Cornucopia
+  fill: '#2a2a1a'
+  stroke: '#FFAA00'
+  stroke_width: '3'
+  bounds_grid:
+  - 15
+  - 9
+  - 13
+  - 9
+  center_ft:
+  - 107.5
+  - 67.5
+- bounds_px:
+  - 290.0
+  - 320.0
+  - 100.0
+  - 30.0
+  name: 入口 (職業貢品守護)
+  fill: '#1a1a10'
+  stroke: '#FFAA00'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 18
+  - 19
+  - 7
+  - 2
+  center_ft:
+  - 107.5
+  - 100.0
+- bounds_px:
+  - 260.0
+  - 260.0
+  - 40.0
+  - 8.0
+  name: 長矛x3
+  fill: '#888'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 16
+  - 15
+  - 3
+  - 1
+  center_ft:
+  - 87.5
+  - 77.5
+- bounds_px:
+  - 320.0
+  - 260.0
+  - 40.0
+  - 8.0
+  name: 短劍x2
+  fill: '#888'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 20
+  - 15
+  - 3
+  - 1
+  center_ft:
+  - 107.5
+  - 77.5
+- bounds_px:
+  - 380.0
+  - 260.0
+  - 40.0
+  - 8.0
+  name: 戰斧
+  fill: '#888'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 24
+  - 15
+  - 3
+  - 1
+  center_ft:
+  - 127.5
+  - 77.5
+- bounds_px:
+  - 280.0
+  - 275.0
+  - 50.0
+  - 8.0
+  name: 弓箭(12支)
+  fill: '#888'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 17
+  - 16
+  - 3
+  - 1
+  center_ft:
+  - 92.5
+  - 82.5
+- bounds_px:
+  - 350.0
+  - 275.0
+  - 70.0
+  - 8.0
+  name: 背包x8
+  fill: '#888'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 22
+  - 16
+  - 5
+  - 1
+  center_ft:
+  - 122.5
+  - 82.5
+- bounds_px:
+  - 450.0
+  - 290.0
+  - 30.0
+  - 8.0
+  name: ''
+  fill: '#555'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 29
+  - 17
+  - 2
+  - 1
+  center_ft:
+  - 150.0
+  - 87.5
+- bounds_px:
+  - 200.0
+  - 370.0
+  - 30.0
+  - 8.0
+  name: D6
+  fill: '#555'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 12
+  - 22
+  - 2
+  - 1
+  center_ft:
+  - 65.0
+  - 112.5
+- bounds_px:
+  - 500.0
+  - 260.0
+  - 30.0
+  - 8.0
+  name: D3
+  fill: '#555'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 32
+  - 15
+  - 2
+  - 1
+  center_ft:
+  - 165.0
+  - 77.5
+- bounds_px:
+  - 400.0
+  - 120.0
+  - 120.0
+  - 35.0
+  name: 職業貢品小隊 4人
+  fill: '#301520'
+  stroke: '#EF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 25
+  - 5
+  - 8
+  - 2
+  center_ft:
+  - 145.0
+  - 30.0
+- bounds_px:
+  - 210.0
+  - 115.0
+  - 100.0
+  - 20.0
+  name: 凱妮絲 D12
+  fill: '#1a3020'
+  stroke: '#10B981'
+  stroke_width: '1'
+  bounds_grid:
+  - 13
+  - 5
+  - 7
+  - 1
+  center_ft:
+  - 82.5
+  - 27.5
+- bounds_px:
+  - 250.0
+  - 50.0
+  - 180.0
+  - 25.0
+  name: 00:60 倒數計時
+  fill: '#000'
+  stroke: '#FF4444'
+  stroke_width: '2'
+  bounds_grid:
+  - 15
+  - 1
+  - 12
+  - 2
+  center_ft:
+  - 105.0
+  - 10.0
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: Cornucopia
+  to: 入口 (職業貢品守護)
+  distance_ft: 32.5
+- from: Cornucopia
+  to: 長矛x3
+  distance_ft: 22.4
+- from: Cornucopia
+  to: 短劍x2
+  distance_ft: 10.0
+- from: Cornucopia
+  to: 戰斧
+  distance_ft: 22.4
+- from: Cornucopia
+  to: 弓箭(12支)
+  distance_ft: 21.2
+- from: Cornucopia
+  to: 背包x8
+  distance_ft: 21.2
+- from: Cornucopia
+  to: ''
+  distance_ft: 47.0
+- from: Cornucopia
+  to: D6
+  distance_ft: 61.9
+- from: Cornucopia
+  to: D3
+  distance_ft: 58.4
+- from: Cornucopia
+  to: 職業貢品小隊 4人
+  distance_ft: 53.0

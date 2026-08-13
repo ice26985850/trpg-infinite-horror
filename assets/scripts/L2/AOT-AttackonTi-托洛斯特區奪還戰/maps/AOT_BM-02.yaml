@@ -1,0 +1,283 @@
+map_id: AOT_BM-02
+map_type: battle
+scenario: '進擊的巨人·托洛斯特區奪還戰 / Attack on Titan: Battle of Trost District'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 740
+- 590
+title: AOT_BM-02 戰鬥地圖
+description: ''
+grid:
+  type: square
+  width: 12
+  height: 8
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 60
+  total_height_ft: 40
+terrain:
+- bounds_px:
+  - 40.0
+  - 60.0
+  - 660.0
+  - 440.0
+  name: ''
+  fill: '#3a3520'
+  stroke: '#4B0082'
+  stroke_width: '3'
+  bounds_grid:
+  - 1
+  - 3
+  - 44
+  - 29
+  center_ft:
+  - 115.0
+  - 87.5
+- bounds_px:
+  - 40.0
+  - 60.0
+  - 660.0
+  - 20.0
+  name: 瑪利亞之牆
+  fill: '#5a5a5a'
+  stroke: '#888'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 1
+  - 3
+  - 44
+  - 1
+  center_ft:
+  - 115.0
+  - 17.5
+- bounds_px:
+  - 265.0
+  - 60.0
+  - 210.0
+  - 40.0
+  name: ⚠ 破洞 — 巨人進入點 ⚠
+  fill: '#330000'
+  stroke: '#ff4444'
+  stroke_width: '4'
+  bounds_grid:
+  - 16
+  - 3
+  - 14
+  - 3
+  center_ft:
+  - 115.0
+  - 22.5
+- bounds_px:
+  - 95.0
+  - 170.0
+  - 110.0
+  - 165.0
+  name: 左側防線
+  fill: '#4a4a3a'
+  stroke: '#2ecc71'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 5
+  - 10
+  - 7
+  - 11
+  center_ft:
+  - 42.5
+  - 77.5
+- bounds_px:
+  - 535.0
+  - 170.0
+  - 110.0
+  - 165.0
+  name: 右側防線
+  fill: '#4a4a3a'
+  stroke: '#2ecc71'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 34
+  - 10
+  - 7
+  - 11
+  center_ft:
+  - 187.5
+  - 77.5
+- bounds_px:
+  - 162.5
+  - 354.5
+  - 30.0
+  - 16.0
+  name: 沙包
+  fill: '#8a7a50'
+  stroke: '#aa9a60'
+  stroke_width: '1'
+  bounds_grid:
+  - 10
+  - 22
+  - 2
+  - 1
+  center_ft:
+  - 55.0
+  - 112.5
+- bounds_px:
+  - 547.5
+  - 354.5
+  - 30.0
+  - 16.0
+  name: 沙包
+  fill: '#8a7a50'
+  stroke: '#aa9a60'
+  stroke_width: '1'
+  bounds_grid:
+  - 35
+  - 22
+  - 2
+  - 1
+  center_ft:
+  - 180.0
+  - 112.5
+- bounds_px:
+  - 327.5
+  - 409.5
+  - 30.0
+  - 16.0
+  name: 沙包
+  fill: '#8a7a50'
+  stroke: '#aa9a60'
+  stroke_width: '1'
+  bounds_grid:
+  - 20
+  - 26
+  - 2
+  - 1
+  center_ft:
+  - 105.0
+  - 132.5
+- bounds_px:
+  - 437.5
+  - 409.5
+  - 30.0
+  - 16.0
+  name: 沙包
+  fill: '#8a7a50'
+  stroke: '#aa9a60'
+  stroke_width: '1'
+  bounds_grid:
+  - 28
+  - 26
+  - 2
+  - 1
+  center_ft:
+  - 145.0
+  - 132.5
+- bounds_px:
+  - 150.0
+  - 390.0
+  - 110.0
+  - 55.0
+  name: 玩家部署區
+  fill: none
+  stroke: '#2ecc71'
+  stroke_width: '2'
+  bounds_grid:
+  - 9
+  - 25
+  - 7
+  - 4
+  center_ft:
+  - 62.5
+  - 135.0
+- bounds_px:
+  - 480.0
+  - 390.0
+  - 110.0
+  - 55.0
+  name: 沙包
+  fill: none
+  stroke: '#2ecc71'
+  stroke_width: '2'
+  bounds_grid:
+  - 31
+  - 25
+  - 7
+  - 4
+  center_ft:
+  - 172.5
+  - 135.0
+- bounds_px:
+  - 40.0
+  - 345.0
+  - 110.0
+  - 8.0
+  name: 屋頂伏擊點
+  fill: '#6a6a5a'
+  stroke: '#888'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 1
+  - 22
+  - 7
+  - 1
+  center_ft:
+  - 22.5
+  - 112.5
+- bounds_px:
+  - 590.0
+  - 345.0
+  - 110.0
+  - 8.0
+  name: 屋頂伏擊點
+  fill: '#6a6a5a'
+  stroke: '#888'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 38
+  - 22
+  - 7
+  - 1
+  center_ft:
+  - 207.5
+  - 112.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: ''
+  to: 瑪利亞之牆
+  distance_ft: 70.0
+- from: ''
+  to: ⚠ 破洞 — 巨人進入點 ⚠
+  distance_ft: 65.0
+- from: ''
+  to: 左側防線
+  distance_ft: 73.2
+- from: ''
+  to: 右側防線
+  distance_ft: 73.2
+- from: ''
+  to: 沙包
+  distance_ft: 65.0
+- from: ''
+  to: 沙包
+  distance_ft: 69.6
+- from: ''
+  to: 沙包
+  distance_ft: 46.1
+- from: ''
+  to: 沙包
+  distance_ft: 54.1
+- from: ''
+  to: 玩家部署區
+  distance_ft: 70.8
+- from: ''
+  to: 沙包
+  distance_ft: 74.6

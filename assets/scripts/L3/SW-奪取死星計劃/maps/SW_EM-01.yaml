@@ -1,0 +1,32 @@
+map_id: SW_EM-01
+map_type: exploration
+scenario: '星際大戰·奪取死星計劃 / Star Wars: Death Star'
+tier: L3
+difficulty: ★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: SW_EM-01 探索地圖
+description: ''
+floors:
+- name: 樓層 1
+  y: 330.0
+  rooms:
+  - bounds:
+    - 430.0
+    - 330.0
+    - 320.0
+    - 200.0
+    name: '[S05] Boss'
+    fill: '#33335520'
+    stroke: '#5555aa'
+    stroke_width: '1'
+    rx: 5.0
+connections: []
+legend:
+- 起始區域 — 補給、情報、任務簡報
+- 安全區/起始點
+- 危險區/戰鬥區
+notes: []

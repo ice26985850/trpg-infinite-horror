@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<rect width="800" height="600" fill="#1a1a2e"/>
+<text x="400.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">TORMENT_EM-01 探索地圖</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 1</text>
+<rect x="20" y="0.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="800.0" height="600.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<text x="400.0" y="300.0" text-anchor="middle" fill="#aaa" font-size="9">貧民窟</text>
+<rect x="50.0" y="40.0" width="700.0" height="520.0" rx="8.0" fill="none" stroke="#4a4a7e" stroke-width="2"/>
+<text x="400.0" y="300.0" text-anchor="middle" fill="#aaa" font-size="9">貧民窟</text>
+<rect x="80.0" y="60.0" width="200.0" height="140.0" rx="5.0" fill="#2a3a5e" stroke="#6a4a8e" stroke-width="1.5"/>
+<text x="180.0" y="130.0" text-anchor="middle" fill="#aaa" font-size="9">廢棄旅店</text>
+<rect x="320.0" y="60.0" width="180.0" height="140.0" rx="5.0" fill="#2a3a5e" stroke="#6a4a8e" stroke-width="1.5"/>
+<text x="410.0" y="130.0" text-anchor="middle" fill="#aaa" font-size="9">信息商人</text>
+<text x="20" y="175.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 2</text>
+<rect x="20" y="180.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="540.0" y="180.0" width="120.0" height="80.0" rx="5.0" fill="#2a3a5e" stroke="#6a4a8e" stroke-width="1.5"/>
+<text x="600.0" y="220.0" text-anchor="middle" fill="#aaa" font-size="9">暗巷</text>
+<rect x="80.0" y="240.0" width="200.0" height="140.0" rx="5.0" fill="#2a3a5e" stroke="#6a4a8e" stroke-width="1.5"/>
+<text x="180.0" y="310.0" text-anchor="middle" fill="#aaa" font-size="9">位面之門遺址</text>
+<rect x="320.0" y="240.0" width="180.0" height="140.0" rx="5.0" fill="#2a3a5e" stroke="#6a4a8e" stroke-width="1.5"/>
+<text x="410.0" y="310.0" text-anchor="middle" fill="#aaa" font-size="9">貧民窟</text>
+<text x="20" y="495.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 3</text>
+<rect x="20" y="500.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="620.0" y="500.0" width="160.0" height="80.0" rx="4.0" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="700.0" y="540.0" text-anchor="middle" fill="#aaa" font-size="9">圖例</text>
+<rect x="635.0" y="533.0" width="15.0" height="10.0" rx="0.0" fill="#2a3a5e" stroke="#6a4a8e" stroke-width=""/>
+<text x="642.5" y="538.0" text-anchor="middle" fill="#aaa" font-size="9">可探索區域</text>
+<rect x="635.0" y="550.0" width="15.0" height="10.0" rx="0.0" fill="#3a2a5e" stroke="#6a4a8e" stroke-width=""/>
+<text x="642.5" y="555.0" text-anchor="middle" fill="#aaa" font-size="9">安全區</text>
+<rect x="20" y="545" width="760" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="570" fill="#aaa" font-size="9">TORMENT_EM-01 | 探索地圖 | 1格 = 5m</text>
+<text x="20" y="590" fill="#666" font-size="9">TORMENT_EM-01 | 探索地圖 </text>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<rect width="800" height="600" fill="#1a1a2e"/>
+<text x="400.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">探索地圖</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 1</text>
+<rect x="20" y="0.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="800.0" height="600.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<rect x="15.0" y="60.0" width="770.0" height="120.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="400.0" y="120.0" text-anchor="middle" fill="#aaa" font-size="9">艾莉</text>
+<rect x="25.0" y="75.0" width="120.0" height="50.0" rx="3.0" fill="#1a1030" stroke="#6D28D9" stroke-width="1.5"/>
+<text x="85.0" y="100.0" text-anchor="middle" fill="#aaa" font-size="9">隔離區哨站</text>
+<rect x="300.0" y="75.0" width="100.0" height="50.0" rx="3.0" fill="#1a2a30" stroke="#3B82F6" stroke-width="1.5"/>
+<text x="350.0" y="100.0" text-anchor="middle" fill="#aaa" font-size="9">安全屋</text>
+<rect x="500.0" y="75.0" width="100.0" height="50.0" rx="3.0" fill="#301520" stroke="#EF4444" stroke-width="1.5"/>
+<text x="550.0" y="100.0" text-anchor="middle" fill="#aaa" font-size="9">廢墟入口</text>
+<rect x="650.0" y="75.0" width="80.0" height="50.0" rx="3.0" fill="#1a2a20" stroke="#10B981" stroke-width="1.5"/>
+<text x="690.0" y="100.0" text-anchor="middle" fill="#aaa" font-size="9">物資儲存點</text>
+<text x="20" y="215.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 2</text>
+<rect x="20" y="220.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="15.0" y="220.0" width="770.0" height="35.0" rx="3.0" fill="#111" stroke="#333" stroke-width="1.5"/>
+<rect x="83.0" y="231.0" width="14.0" height="12.0" rx="0.0" fill="#EF4444" stroke="#EF4444" stroke-width="1"/>
+<text x="90.0" y="237.0" text-anchor="middle" fill="#aaa" font-size="9">危險區</text>
+<rect x="143.0" y="231.0" width="14.0" height="12.0" rx="0.0" fill="#F59E0B" stroke="#F59E0B" stroke-width="1"/>
+<text x="150.0" y="237.0" text-anchor="middle" fill="#aaa" font-size="9">通道</text>
+<rect x="193.0" y="231.0" width="14.0" height="12.0" rx="0.0" fill="#3B82F6" stroke="#3B82F6" stroke-width="1"/>
+<text x="200.0" y="237.0" text-anchor="middle" fill="#aaa" font-size="9">支線</text>
+<rect x="243.0" y="231.0" width="14.0" height="12.0" rx="0.0" fill="#10B981" stroke="#10B981" stroke-width="1"/>
+<text x="250.0" y="237.0" text-anchor="middle" fill="#aaa" font-size="9">物資</text>
+<rect x="20" y="545" width="760" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="570" fill="#aaa" font-size="9">起始點</text>
+<text x="205" y="570" fill="#aaa" font-size="9">危險區</text>
+<text x="375" y="570" fill="#aaa" font-size="9">TLOU_EM-01 | 探索地圖</text>
+<text x="20" y="590" fill="#666" font-size="9">TLOU_EM-01 | 探索地圖 </text>
+</svg>

@@ -1,0 +1,240 @@
+map_id: TLOU_BM-01
+map_type: battle
+scenario: '最後生還者·孢子隔離區 / The Last of Us: Quarantine Zone'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 680
+- 420
+title: 獵人領地 — 廢棄醫院
+description: ''
+grid:
+  type: square
+  width: 14
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 40.0
+  - 40.0
+  total_width_ft: 70
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 420.0
+  - 5.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 28
+  - 1
+  center_ft:
+  - 70.0
+  - 2.5
+- bounds_px:
+  - 40.0
+  - 335.0
+  - 420.0
+  - 5.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 20
+  - 28
+  - 1
+  center_ft:
+  - 70.0
+  - 102.5
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 5.0
+  - 300.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 1
+  - 20
+  center_ft:
+  - 2.5
+  - 50.0
+- bounds_px:
+  - 455.0
+  - 40.0
+  - 5.0
+  - 300.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 28
+  - 0
+  - 1
+  - 20
+  center_ft:
+  - 142.5
+  - 50.0
+- bounds_px:
+  - 100.0
+  - 60.0
+  - 80.0
+  - 40.0
+  name: 檢查室
+  fill: '#2a2a30'
+  stroke: '#555'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 4
+  - 1
+  - 5
+  - 3
+  center_ft:
+  - 32.5
+  - 12.5
+- bounds_px:
+  - 350.0
+  - 60.0
+  - 90.0
+  - 40.0
+  name: 急診室
+  fill: '#2a2a30'
+  stroke: '#555'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 21
+  - 1
+  - 6
+  - 3
+  center_ft:
+  - 120.0
+  - 12.5
+- bounds_px:
+  - 250.0
+  - 280.0
+  - 80.0
+  - 12.0
+  name: 路障
+  fill: '#FFAA00'
+  stroke: '#886600'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 14
+  - 16
+  - 5
+  - 1
+  center_ft:
+  - 82.5
+  - 82.5
+- bounds_px:
+  - 80.0
+  - 300.0
+  - 60.0
+  - 40.0
+  name: 武器庫
+  fill: '#301520'
+  stroke: '#EF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 3
+  - 17
+  - 4
+  - 3
+  center_ft:
+  - 25.0
+  - 92.5
+- bounds_px:
+  - 450.0
+  - 280.0
+  - 60.0
+  - 20.0
+  name: 人質區
+  fill: '#FFAA00'
+  stroke: '#886600'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 27
+  - 16
+  - 4
+  - 1
+  center_ft:
+  - 145.0
+  - 82.5
+- bounds_px:
+  - 450.0
+  - 275.0
+  - 60.0
+  - 5.0
+  name: 解救人質
+  fill: '#00FF88'
+  stroke: '#00FF88'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 27
+  - 16
+  - 4
+  - 1
+  center_ft:
+  - 145.0
+  - 82.5
+spawn_points:
+  players:
+  - px:
+    - 500.0
+    - 380.0
+    name: 玩家入口
+    fill: '#00FF88'
+    grid:
+    - 31
+    - 23
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: ''
+  to: ''
+  distance_ft: 100.0
+- from: ''
+  to: ''
+  distance_ft: 82.5
+- from: ''
+  to: ''
+  distance_ft: 86.7
+- from: ''
+  to: 檢查室
+  distance_ft: 38.8
+- from: ''
+  to: 急診室
+  distance_ft: 51.0
+- from: ''
+  to: 路障
+  distance_ft: 81.0
+- from: ''
+  to: 武器庫
+  distance_ft: 100.6
+- from: ''
+  to: 人質區
+  distance_ft: 109.7
+- from: ''
+  to: 解救人質
+  distance_ft: 109.7
+- from: ''
+  to: ''
+  distance_ft: 85.5

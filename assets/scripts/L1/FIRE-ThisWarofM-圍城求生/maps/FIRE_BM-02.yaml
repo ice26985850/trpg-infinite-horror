@@ -1,0 +1,206 @@
+map_id: FIRE_BM-02
+map_type: battle
+scenario: '這是我的戰爭·圍城求生 / This War of Mine: Siege Survival'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 680
+- 420
+title: 市中心建築 — 狙擊手據點
+description: ''
+grid:
+  type: square
+  width: 12
+  height: 8
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 40.0
+  - 40.0
+  total_width_ft: 60
+  total_height_ft: 40
+terrain:
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 360.0
+  - 5.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 24
+  - 1
+  center_ft:
+  - 60.0
+  - 2.5
+- bounds_px:
+  - 40.0
+  - 275.0
+  - 360.0
+  - 5.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 16
+  - 24
+  - 1
+  center_ft:
+  - 60.0
+  - 82.5
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 5.0
+  - 240.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 1
+  - 16
+  center_ft:
+  - 2.5
+  - 40.0
+- bounds_px:
+  - 395.0
+  - 40.0
+  - 5.0
+  - 240.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 24
+  - 0
+  - 1
+  - 16
+  center_ft:
+  - 122.5
+  - 40.0
+- bounds_px:
+  - 200.0
+  - 300.0
+  - 200.0
+  - 50.0
+  name: 1-4F樓梯間
+  fill: '#1a2a30'
+  stroke: '#555'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 11
+  - 17
+  - 13
+  - 3
+  center_ft:
+  - 87.5
+  - 92.5
+- bounds_px:
+  - 250.0
+  - 180.0
+  - 100.0
+  - 60.0
+  name: 5F狙擊手位置
+  fill: '#301520'
+  stroke: '#EF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 14
+  - 9
+  - 7
+  - 4
+  center_ft:
+  - 87.5
+  - 55.0
+- bounds_px:
+  - 500.0
+  - 80.0
+  - 60.0
+  - 40.0
+  name: 觀察手
+  fill: '#2a2a30'
+  stroke: '#555'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 31
+  - 3
+  - 4
+  - 3
+  center_ft:
+  - 165.0
+  - 22.5
+- bounds_px:
+  - 250.0
+  - 175.0
+  - 100.0
+  - 5.0
+  name: 清除狙擊手
+  fill: '#00FF88'
+  stroke: '#00FF88'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 14
+  - 9
+  - 7
+  - 1
+  center_ft:
+  - 87.5
+  - 47.5
+spawn_points:
+  players:
+  - px:
+    - 120.0
+    - 400.0
+    name: 玩家入口
+    fill: '#00FF88'
+    grid:
+    - 5
+    - 24
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: ''
+  to: ''
+  distance_ft: 80.0
+- from: ''
+  to: ''
+  distance_ft: 68.6
+- from: ''
+  to: ''
+  distance_ft: 72.9
+- from: ''
+  to: 1-4F樓梯間
+  distance_ft: 94.1
+- from: ''
+  to: 5F狙擊手位置
+  distance_ft: 59.3
+- from: ''
+  to: 觀察手
+  distance_ft: 106.9
+- from: ''
+  to: 清除狙擊手
+  distance_ft: 52.7
+- from: ''
+  to: ''
+  distance_ft: 71.5
+- from: ''
+  to: ''
+  distance_ft: 75.6
+- from: ''
+  to: 1-4F樓梯間
+  distance_ft: 29.3

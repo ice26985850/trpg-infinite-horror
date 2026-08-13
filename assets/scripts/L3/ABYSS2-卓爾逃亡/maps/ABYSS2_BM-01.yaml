@@ -1,0 +1,164 @@
+map_id: ABYSS2_BM-01
+map_type: battle
+scenario: '幽暗地域·卓爾逃亡 / Underdark: Drow Escape'
+tier: L3
+difficulty: ★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: ABYSS2_BM-01 戰鬥地圖
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 30.0
+  - 30.0
+  - 740.0
+  - 540.0
+  name: ''
+  fill: none
+  stroke: '#4a4a7e'
+  stroke_width: '2'
+  bounds_grid:
+  - 1
+  - 1
+  - 49
+  - 36
+  center_ft:
+  - 127.5
+  - 95.0
+- bounds_px:
+  - 40.0
+  - 400.0
+  - 120.0
+  - 160.0
+  name: 玩家起始區
+  fill: '#00FF88'
+  stroke: '#00FF88'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 1
+  - 25
+  - 8
+  - 11
+  center_ft:
+  - 25.0
+  - 152.5
+- bounds_px:
+  - 600.0
+  - 40.0
+  - 160.0
+  - 120.0
+  name: 敵方出沒區
+  fill: '#FF4444'
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 39
+  - 1
+  - 11
+  - 8
+  center_ft:
+  - 222.5
+  - 25.0
+- bounds_px:
+  - 150.0
+  - 200.0
+  - 100.0
+  - 40.0
+  name: 礦車
+  fill: '#3a2a4e'
+  stroke: '#6a4a8e'
+  stroke_width: '1'
+  bounds_grid:
+  - 9
+  - 12
+  - 7
+  - 3
+  center_ft:
+  - 62.5
+  - 67.5
+- bounds_px:
+  - 400.0
+  - 150.0
+  - 80.0
+  - 60.0
+  name: 監工高塔
+  fill: '#3a2a4e'
+  stroke: '#6a4a8e'
+  stroke_width: '1'
+  bounds_grid:
+  - 25
+  - 9
+  - 5
+  - 4
+  center_ft:
+  - 137.5
+  - 55.0
+- bounds_px:
+  - 300.0
+  - 350.0
+  - 120.0
+  - 80.0
+  name: 晶礦堆
+  fill: '#3a2a4e'
+  stroke: '#6a4a8e'
+  stroke_width: '1'
+  bounds_grid:
+  - 19
+  - 22
+  - 8
+  - 5
+  center_ft:
+  - 115.0
+  - 122.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: ''
+  to: 玩家起始區
+  distance_ft: 117.5
+- from: ''
+  to: 敵方出沒區
+  distance_ft: 118.0
+- from: ''
+  to: 礦車
+  distance_ft: 70.6
+- from: ''
+  to: 監工高塔
+  distance_ft: 41.2
+- from: ''
+  to: 晶礦堆
+  distance_ft: 30.2
+- from: 玩家起始區
+  to: 敵方出沒區
+  distance_ft: 235.1
+- from: 玩家起始區
+  to: 礦車
+  distance_ft: 92.9
+- from: 玩家起始區
+  to: 監工高塔
+  distance_ft: 148.9
+- from: 玩家起始區
+  to: 晶礦堆
+  distance_ft: 94.9
+- from: 敵方出沒區
+  to: 礦車
+  distance_ft: 165.5

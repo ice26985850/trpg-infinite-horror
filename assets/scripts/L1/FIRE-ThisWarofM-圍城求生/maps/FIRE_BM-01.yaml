@@ -1,0 +1,223 @@
+map_id: FIRE_BM-01
+map_type: battle
+scenario: '這是我的戰爭·圍城求生 / This War of Mine: Siege Survival'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 680
+- 420
+title: 軍用倉庫 — 潛入挑戰
+description: ''
+grid:
+  type: square
+  width: 14
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 40.0
+  - 40.0
+  total_width_ft: 70
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 420.0
+  - 5.0
+  name: 叛×2
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 28
+  - 1
+  center_ft:
+  - 70.0
+  - 2.5
+- bounds_px:
+  - 40.0
+  - 335.0
+  - 420.0
+  - 5.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 20
+  - 28
+  - 1
+  center_ft:
+  - 70.0
+  - 102.5
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 5.0
+  - 300.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 1
+  - 20
+  center_ft:
+  - 2.5
+  - 50.0
+- bounds_px:
+  - 455.0
+  - 40.0
+  - 5.0
+  - 300.0
+  name: 叛×1
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 28
+  - 0
+  - 1
+  - 20
+  center_ft:
+  - 142.5
+  - 50.0
+- bounds_px:
+  - 80.0
+  - 60.0
+  - 160.0
+  - 60.0
+  name: 糧食儲存區
+  fill: '#2a2a30'
+  stroke: '#555'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 3
+  - 1
+  - 11
+  - 4
+  center_ft:
+  - 42.5
+  - 15.0
+- bounds_px:
+  - 380.0
+  - 60.0
+  - 160.0
+  - 60.0
+  name: 軍械儲存區
+  fill: '#2a2a30'
+  stroke: '#555'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 23
+  - 1
+  - 11
+  - 4
+  center_ft:
+  - 142.5
+  - 15.0
+- bounds_px:
+  - 250.0
+  - 200.0
+  - 120.0
+  - 40.0
+  name: 倉庫核心
+  fill: '#2e1a3e'
+  stroke: '#8B5CF6'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 14
+  - 11
+  - 8
+  - 3
+  center_ft:
+  - 90.0
+  - 62.5
+- bounds_px:
+  - 250.0
+  - 280.0
+  - 120.0
+  - 12.0
+  name: 鐵絲網圍欄
+  fill: '#FFAA00'
+  stroke: '#886600'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 14
+  - 16
+  - 8
+  - 1
+  center_ft:
+  - 90.0
+  - 82.5
+- bounds_px:
+  - 250.0
+  - 275.0
+  - 120.0
+  - 5.0
+  name: 倉庫入口
+  fill: '#00FF88'
+  stroke: '#00FF88'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 14
+  - 16
+  - 8
+  - 1
+  center_ft:
+  - 90.0
+  - 82.5
+spawn_points:
+  players:
+  - px:
+    - 500.0
+    - 380.0
+    name: 玩家入口
+    fill: '#00FF88'
+    grid:
+    - 31
+    - 23
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 叛×2
+  to: ''
+  distance_ft: 100.0
+- from: 叛×2
+  to: ''
+  distance_ft: 82.5
+- from: 叛×2
+  to: 叛×1
+  distance_ft: 86.7
+- from: 叛×2
+  to: 糧食儲存區
+  distance_ft: 30.2
+- from: 叛×2
+  to: 軍械儲存區
+  distance_ft: 73.6
+- from: 叛×2
+  to: 倉庫核心
+  distance_ft: 63.2
+- from: 叛×2
+  to: 鐵絲網圍欄
+  distance_ft: 82.5
+- from: 叛×2
+  to: 倉庫入口
+  distance_ft: 82.5
+- from: ''
+  to: ''
+  distance_ft: 85.5
+- from: ''
+  to: 叛×1
+  distance_ft: 89.5

@@ -1,0 +1,52 @@
+map_id: LOVEC_WM-01
+map_type: world
+scenario: '克蘇魯的呼喚·印斯茅斯的陰影 / Call of Cthulhu: Shadow Over Innsmouth'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 900
+- 620
+title: 印斯茅斯海港 — 大範圍地圖 (WM-01)
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 250.0
+  - 120.0
+  - 100.0
+  - 60.0
+  fill: '#3a4a3a'
+  stroke: '#9b59b6'
+  name: A 旅館
+- bounds:
+  - 600.0
+  - 270.0
+  - 100.0
+  - 60.0
+  fill: '#3a3a4a'
+  stroke: '#9b59b6'
+  name: B 碼頭
+- bounds:
+  - 350.0
+  - 450.0
+  - 100.0
+  - 60.0
+  fill: '#3a2a4a'
+  stroke: '#9b59b6'
+  name: C 峭壁神殿
+- bounds:
+  - 20.0
+  - 540.0
+  - 860.0
+  - 60.0
+  fill: '#0a1a1e'
+  stroke: '#333'
+  name: ''
+roads: []
+routes: []
+danger_zones: []
+landmarks: []
+legend:
+- B 碼頭

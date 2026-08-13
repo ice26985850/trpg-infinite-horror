@@ -1,0 +1,140 @@
+map_id: STRAHD_WM-01
+map_type: world
+scenario: '鴉閣城·巴洛維亞濃霧 / Castle Ravenloft: The Mists of Barovia'
+tier: L3
+difficulty: ★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: STRAHD_WM-01 世界地圖
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 80.0
+  - 60.0
+  - 640.0
+  - 480.0
+  fill: '#0a1a2a'
+  stroke: '#1e3a5f'
+  name: ''
+roads: []
+routes:
+- x1: 150.0
+  y1: 420.0
+  x2: 320.0
+  y2: 310.0
+  stroke: '#FFD700'
+  stroke_width: '2'
+  dashed: true
+- x1: 330.0
+  y1: 280.0
+  x2: 620.0
+  y2: 140.0
+  stroke: '#FFD700'
+  stroke_width: '2'
+  dashed: true
+danger_zones:
+- center:
+  - 250.0
+  - 150.0
+  rx: 60.0
+  ry: 40.0
+  name: 伐木場
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 650.0
+  - 120.0
+  rx: 70.0
+  ry: 50.0
+  name: 鴉閣城
+  fill: '#FF0000'
+  stroke: '#FF4444'
+landmarks:
+- center:
+  - 120.0
+  - 450.0
+  radius: 12.0
+  name: 維斯塔尼營地
+  fill: none
+  stroke: '#00FF88'
+  dashed: true
+- center:
+  - 120.0
+  - 450.0
+  radius: 5.0
+  name: 維斯塔尼營地
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 350.0
+  - 300.0
+  radius: 12.0
+  name: 巴洛維亞村
+  fill: none
+  stroke: '#00AAFF'
+  dashed: true
+- center:
+  - 350.0
+  - 300.0
+  radius: 5.0
+  name: 巴洛維亞村
+  fill: '#00AAFF'
+  stroke: ''
+  dashed: false
+- center:
+  - 250.0
+  - 150.0
+  radius: 12.0
+  name: 伐木場
+  fill: none
+  stroke: '#FF6600'
+  dashed: true
+- center:
+  - 250.0
+  - 150.0
+  radius: 5.0
+  name: 伐木場
+  fill: '#FF6600'
+  stroke: ''
+  dashed: false
+- center:
+  - 650.0
+  - 120.0
+  radius: 12.0
+  name: 鴉閣城
+  fill: none
+  stroke: '#FF0000'
+  dashed: true
+- center:
+  - 650.0
+  - 120.0
+  radius: 5.0
+  name: 鴉閣城
+  fill: '#FF0000'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 60.0
+  radius: 4.0
+  name: 起始點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 78.0
+  radius: 4.0
+  name: 目標點
+  fill: '#FFD700'
+  stroke: ''
+  dashed: false
+legend:
+- 鴉閣城
+- 起始點
+- 目標點

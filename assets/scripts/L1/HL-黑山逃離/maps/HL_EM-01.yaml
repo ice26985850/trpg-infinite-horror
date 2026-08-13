@@ -1,0 +1,178 @@
+map_id: HL_EM-01
+map_type: exploration
+scenario: '戰慄時空·黑山逃離 / Half-Life: Black Mesa Escape'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 探索地圖
+description: ''
+floors:
+- name: 樓層 1
+  y: 0.0
+  rooms:
+  - bounds:
+    - 0.0
+    - 0.0
+    - 800.0
+    - 600.0
+    name: 樓梯/C
+    fill: '#1a1a2e'
+    stroke: ''
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 15.0
+    - 60.0
+    - 770.0
+    - 120.0
+    name: 樓梯/B
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 25.0
+    - 75.0
+    - 140.0
+    - 50.0
+    name: 異常物質實驗室
+    fill: '#301520'
+    stroke: '#EF4444'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 185.0
+    - 75.0
+    - 90.0
+    - 50.0
+    name: 觀測室
+    fill: '#1a1030'
+    stroke: '#555'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 295.0
+    - 75.0
+    - 100.0
+    - 50.0
+    name: 控制室
+    fill: '#1a2a30'
+    stroke: '#3B82F6'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 415.0
+    - 75.0
+    - 70.0
+    - 50.0
+    name: 樓梯/B
+    fill: '#162040'
+    stroke: '#F59E0B'
+    stroke_width: '1.5'
+    rx: 3.0
+- name: 樓層 2
+  y: 210.0
+  rooms:
+  - bounds:
+    - 15.0
+    - 210.0
+    - 770.0
+    - 100.0
+    name: 樓梯/C
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 25.0
+    - 225.0
+    - 120.0
+    - 45.0
+    name: 材料實驗室
+    fill: '#1a2a30'
+    stroke: '#3B82F6'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 185.0
+    - 225.0
+    - 90.0
+    - 45.0
+    name: 觀測室B
+    fill: '#1a1030'
+    stroke: '#555'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 415.0
+    - 225.0
+    - 70.0
+    - 45.0
+    name: 樓梯/C
+    fill: '#162040'
+    stroke: '#F59E0B'
+    stroke_width: '1.5'
+    rx: 3.0
+- name: 樓層 3
+  y: 350.0
+  rooms:
+  - bounds:
+    - 15.0
+    - 350.0
+    - 770.0
+    - 35.0
+    name: ''
+    fill: '#111'
+    stroke: '#333'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 83.0
+    - 361.0
+    - 14.0
+    - 12.0
+    name: 危險區
+    fill: '#EF4444'
+    stroke: '#EF4444'
+    stroke_width: '1'
+    rx: 0.0
+  - bounds:
+    - 143.0
+    - 361.0
+    - 14.0
+    - 12.0
+    name: 通道
+    fill: '#F59E0B'
+    stroke: '#F59E0B'
+    stroke_width: '1'
+    rx: 0.0
+  - bounds:
+    - 193.0
+    - 361.0
+    - 14.0
+    - 12.0
+    name: 支線
+    fill: '#3B82F6'
+    stroke: '#3B82F6'
+    stroke_width: '1'
+    rx: 0.0
+  - bounds:
+    - 243.0
+    - 361.0
+    - 14.0
+    - 12.0
+    name: 物資
+    fill: '#10B981'
+    stroke: '#10B981'
+    stroke_width: '1'
+    rx: 0.0
+connections: []
+legend:
+- 起始點
+- 危險區
+- HL_EM-01 | 探索地圖
+notes: []

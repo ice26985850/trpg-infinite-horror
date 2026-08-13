@@ -1,0 +1,52 @@
+map_id: BAKI_WM-01
+map_type: world
+scenario: '刃牙·地下格鬥淘汰賽 / Baki: Underground Tournament'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 900
+- 620
+title: 地下格鬥場 — 大範圍地圖 (WM-01)
+description: ''
+scale: 地下格鬥場 — 大範圍地圖 (WM-01)
+regions:
+- bounds:
+  - 450.0
+  - 320.0
+  - 100.0
+  - 60.0
+  fill: '#3a3a2a'
+  stroke: '#f39c12'
+  name: A 圓形競技場
+- bounds:
+  - 250.0
+  - 170.0
+  - 100.0
+  - 60.0
+  fill: '#4a4a3a'
+  stroke: '#f39c12'
+  name: B 選手休息室
+- bounds:
+  - 600.0
+  - 170.0
+  - 100.0
+  - 60.0
+  fill: '#3a4a4a'
+  stroke: '#f39c12'
+  name: C 觀眾席
+- bounds:
+  - 20.0
+  - 540.0
+  - 860.0
+  - 60.0
+  fill: '#1e1a1a'
+  stroke: '#333'
+  name: ''
+roads: []
+routes: []
+danger_zones: []
+landmarks: []
+legend:
+- C 觀眾席

@@ -1,0 +1,486 @@
+map_id: HOTD_EM-01
+map_type: exploration
+scenario: '學園默示錄·末日校園 / Highschool of the Dead: Academy of the Dead'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 900
+- 640
+title: 藤美學園校舍 — 探索地圖
+description: ''
+floors:
+- name: 3 樓（3F）
+  y: 0.0
+  rooms:
+  - bounds:
+    - 0.0
+    - 0.0
+    - 900.0
+    - 640.0
+    name: 樓梯間
+    fill: '#1a1a2e'
+    stroke: ''
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 20.0
+    - 0.0
+    - 860.0
+    - 140.0
+    name: 教室 D
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 0.0
+    - 0.0
+    - 900.0
+    - 640.0
+    name: 樓梯間
+    fill: '#1a1a2e'
+    stroke: ''
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 20.0
+    - 0.0
+    - 860.0
+    - 140.0
+    name: 教室 D
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 0.0
+    - 0.0
+    - 900.0
+    - 640.0
+    name: 樓梯間
+    fill: '#1a1a2e'
+    stroke: ''
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 20.0
+    - 0.0
+    - 860.0
+    - 140.0
+    name: 教室 D
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 0.0
+    - 0.0
+    - 900.0
+    - 640.0
+    name: 樓梯間
+    fill: '#1a1a2e'
+    stroke: ''
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 20.0
+    - 65.0
+    - 860.0
+    - 150.0
+    name: 教室 D
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 35.0
+    - 80.0
+    - 100.0
+    - 60.0
+    name: 起始教室
+    fill: '#1a1030'
+    stroke: '#6D28D9'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 155.0
+    - 80.0
+    - 70.0
+    - 60.0
+    name: 教室 B
+    fill: '#1a1030'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 240.0
+    - 80.0
+    - 70.0
+    - 60.0
+    name: 走廊遭遇
+    fill: '#1a1030'
+    stroke: '#6D28D9'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 330.0
+    - 80.0
+    - 50.0
+    - 30.0
+    name: 廁所(C)
+    fill: '#162040'
+    stroke: '#3B82F6'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 400.0
+    - 80.0
+    - 70.0
+    - 60.0
+    name: 教室 D
+    fill: '#1a1030'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 490.0
+    - 80.0
+    - 50.0
+    - 150.0
+    name: (B)
+    fill: '#162040'
+    stroke: '#F59E0B'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 560.0
+    - 80.0
+    - 70.0
+    - 60.0
+    name: 教室 E
+    fill: '#1a1030'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 650.0
+    - 80.0
+    - 70.0
+    - 60.0
+    name: 教室 F
+    fill: '#1a1030'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 740.0
+    - 80.0
+    - 120.0
+    - 60.0
+    name: 屋頂(D)
+    fill: '#1a3020'
+    stroke: '#10B981'
+    stroke_width: ''
+    rx: 3.0
+- name: 2 樓（2F）
+  y: 250.0
+  rooms:
+  - bounds:
+    - 20.0
+    - 250.0
+    - 860.0
+    - 140.0
+    name: 樓梯間
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 20.0
+    - 250.0
+    - 860.0
+    - 140.0
+    name: 樓梯間
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 20.0
+    - 250.0
+    - 860.0
+    - 140.0
+    name: 樓梯間
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 20.0
+    - 250.0
+    - 860.0
+    - 150.0
+    name: 樓梯間
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 35.0
+    - 265.0
+    - 100.0
+    - 60.0
+    name: 教室 2A
+    fill: '#1a1030'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 155.0
+    - 265.0
+    - 100.0
+    - 60.0
+    name: 教室 2B
+    fill: '#1a1030'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 280.0
+    - 265.0
+    - 90.0
+    - 60.0
+    name: 保健室(E)
+    fill: '#301520'
+    stroke: '#EF4444'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 490.0
+    - 265.0
+    - 50.0
+    - 135.0
+    name: 樓梯間
+    fill: '#162040'
+    stroke: '#F59E0B'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 560.0
+    - 265.0
+    - 130.0
+    - 60.0
+    name: 教職員辦公室(F)
+    fill: '#1a2a30'
+    stroke: '#3B82F6'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 720.0
+    - 265.0
+    - 140.0
+    - 60.0
+    name: 圖書館
+    fill: '#1a1030'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 3.0
+- name: 1 樓（1F）
+  y: 435.0
+  rooms:
+  - bounds:
+    - 20.0
+    - 435.0
+    - 860.0
+    - 140.0
+    name: ''
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 20.0
+    - 435.0
+    - 860.0
+    - 140.0
+    name: ''
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 20.0
+    - 435.0
+    - 860.0
+    - 140.0
+    name: ''
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 20.0
+    - 435.0
+    - 860.0
+    - 130.0
+    name: ''
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 35.0
+    - 450.0
+    - 120.0
+    - 50.0
+    name: 校舍大門
+    fill: '#301520'
+    stroke: '#EF4444'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 490.0
+    - 450.0
+    - 50.0
+    - 115.0
+    name: ''
+    fill: '#162040'
+    stroke: '#F59E0B'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 560.0
+    - 450.0
+    - 120.0
+    - 50.0
+    name: 職員室
+    fill: '#1a1030'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 720.0
+    - 450.0
+    - 140.0
+    - 50.0
+    name: 體育館入口
+    fill: '#1a1030'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 3.0
+- name: HOTD_EM-01 | 探索地圖 | 校舍 1～3F
+  y: 580.0
+  rooms:
+  - bounds:
+    - 20.0
+    - 580.0
+    - 860.0
+    - 140.0
+    name: HOTD_EM-01 | 探索地圖 | 校舍 1～3F
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 20.0
+    - 580.0
+    - 860.0
+    - 140.0
+    name: HOTD_EM-01 | 探索地圖 | 校舍 1～3F
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 20.0
+    - 580.0
+    - 860.0
+    - 140.0
+    name: HOTD_EM-01 | 探索地圖 | 校舍 1～3F
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 35.0
+    - 580.0
+    - 820.0
+    - 45.0
+    name: HOTD_EM-01 | 探索地圖 | 校舍 1～3F
+    fill: '#111'
+    stroke: '#333'
+    stroke_width: ''
+    rx: 4.0
+  - bounds:
+    - 20.0
+    - 585.0
+    - 860.0
+    - 40.0
+    name: HOTD_EM-01 | 探索地圖 | 校舍 1～3F
+    fill: '#111'
+    stroke: '#333'
+    stroke_width: ''
+    rx: 4.0
+  - bounds:
+    - 20.0
+    - 585.0
+    - 860.0
+    - 40.0
+    name: HOTD_EM-01 | 探索地圖 | 校舍 1～3F
+    fill: '#111'
+    stroke: '#333'
+    stroke_width: ''
+    rx: 4.0
+  - bounds:
+    - 20.0
+    - 585.0
+    - 860.0
+    - 40.0
+    name: HOTD_EM-01 | 探索地圖 | 校舍 1～3F
+    fill: '#111'
+    stroke: '#333'
+    stroke_width: ''
+    rx: 4.0
+  - bounds:
+    - 140.0
+    - 596.0
+    - 14.0
+    - 12.0
+    name: 危險區域
+    fill: '#EF4444'
+    stroke: '#EF4444'
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 240.0
+    - 596.0
+    - 14.0
+    - 12.0
+    name: 樓梯通道
+    fill: '#F59E0B'
+    stroke: '#F59E0B'
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 340.0
+    - 596.0
+    - 14.0
+    - 12.0
+    name: 支線觸發點
+    fill: '#3B82F6'
+    stroke: '#3B82F6'
+    stroke_width: ''
+    rx: 0.0
+connections: []
+legend:
+- 危險區域
+- HOTD_EM-01 | 探索地圖 | 校舍 1～3F
+- HOTD_EM-01 | 探索地圖 | 各層樓梯互通 | 3F 走廊連接屋頂（D）
+- HOTD_EM-01 | 探索地圖 | HOTD_EM-01 | 探索地圖 | 各層樓梯互通 | 3F 走廊連接屋頂（D）
+- HOTD_EM-01 | 探索地圖 | HOTD_EM-01 | 探索地圖 | 各層樓梯互通 | 3F 走廊連接屋頂（D） | HOTD_EM-01 | 探索地圖 | HOTD_EM-01 | 探索地圖 | 各層樓梯互通 | 3F 走廊連接屋頂（D）
+notes:
+- HOTD_EM-01 | 探索地圖 | 各層樓梯互通 | 3F 走廊連接屋頂（D）
+- HOTD_EM-01 | 探索地圖 | HOTD_EM-01 | 探索地圖 | 各層樓梯互通 | 3F 走廊連接屋頂（D）
+- HOTD_EM-01 | 探索地圖 | HOTD_EM-01 | 探索地圖 | 各層樓梯互通 | 3F 走廊連接屋頂（D） | HOTD_EM-01 | 探索地圖 | HOTD_EM-01 | 探索地圖 | 各層樓梯互通 | 3F 走廊連接屋頂（D）

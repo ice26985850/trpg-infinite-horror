@@ -1,0 +1,300 @@
+map_id: BLEACH_BM-02
+map_type: battle
+scenario: '死神·屍魂界救援 / Bleach: Soul Society Rescue'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 680
+- 460
+title: 雙殛之丘——最終決戰
+description: ''
+grid:
+  type: square
+  width: 16
+  height: 12
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20.0
+  - 20.0
+  total_width_ft: 80
+  total_height_ft: 60
+terrain:
+- bounds_px:
+  - 20.0
+  - 20.0
+  - 5.0
+  - 420.0
+  name: ''
+  fill: '#334'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 1
+  - 28
+  center_ft:
+  - 2.5
+  - 70.0
+- bounds_px:
+  - 655.0
+  - 20.0
+  - 5.0
+  - 420.0
+  name: ''
+  fill: '#334'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 42
+  - 0
+  - 1
+  - 28
+  center_ft:
+  - 212.5
+  - 70.0
+- bounds_px:
+  - 20.0
+  - 435.0
+  - 640.0
+  - 5.0
+  name: 大階段入口
+  fill: '#334'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 28
+  - 43
+  - 1
+  center_ft:
+  - 107.5
+  - 142.5
+- bounds_px:
+  - 20.0
+  - 20.0
+  - 640.0
+  - 5.0
+  name: 雙殛之丘——最終決戰
+  fill: '#334'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 43
+  - 1
+  center_ft:
+  - 107.5
+  - 2.5
+- bounds_px:
+  - 270.0
+  - 160.0
+  - 140.0
+  - 80.0
+  name: 處刑台
+  fill: '#2E1A3E'
+  stroke: '#FF4444'
+  stroke_width: '2.5'
+  bounds_grid:
+  - 17
+  - 9
+  - 9
+  - 5
+  center_ft:
+  - 107.5
+  - 57.5
+- bounds_px:
+  - 200.0
+  - 380.0
+  - 280.0
+  - 55.0
+  name: 大階段入口
+  fill: '#1a2a20'
+  stroke: '#10B981'
+  stroke_width: ''
+  bounds_grid:
+  - 12
+  - 24
+  - 19
+  - 4
+  center_ft:
+  - 107.5
+  - 130.0
+- bounds_px:
+  - 60.0
+  - 100.0
+  - 100.0
+  - 50.0
+  name: 朽木白哉
+  fill: '#301520'
+  stroke: '#EF4444'
+  stroke_width: ''
+  bounds_grid:
+  - 3
+  - 5
+  - 7
+  - 3
+  center_ft:
+  - 32.5
+  - 32.5
+- bounds_px:
+  - 520.0
+  - 100.0
+  - 100.0
+  - 50.0
+  name: 山本總隊長
+  fill: '#301520'
+  stroke: '#FD0304'
+  stroke_width: ''
+  bounds_grid:
+  - 33
+  - 5
+  - 7
+  - 3
+  center_ft:
+  - 182.5
+  - 32.5
+- bounds_px:
+  - 60.0
+  - 280.0
+  - 80.0
+  - 40.0
+  name: 副隊長×2
+  fill: '#1a2020'
+  stroke: '#FF6600'
+  stroke_width: ''
+  bounds_grid:
+  - 3
+  - 17
+  - 5
+  - 3
+  center_ft:
+  - 27.5
+  - 92.5
+- bounds_px:
+  - 540.0
+  - 280.0
+  - 80.0
+  - 40.0
+  name: 副隊長×2
+  fill: '#1a2020'
+  stroke: '#FF6600'
+  stroke_width: ''
+  bounds_grid:
+  - 35
+  - 17
+  - 5
+  - 3
+  center_ft:
+  - 187.5
+  - 92.5
+- bounds_px:
+  - 220.0
+  - 280.0
+  - 100.0
+  - 40.0
+  name: 黑崎一護/玩家
+  fill: '#1a3020'
+  stroke: '#10B981'
+  stroke_width: ''
+  bounds_grid:
+  - 13
+  - 17
+  - 7
+  - 3
+  center_ft:
+  - 82.5
+  - 92.5
+- bounds_px:
+  - 360.0
+  - 280.0
+  - 100.0
+  - 40.0
+  name: 夜一/玩家
+  fill: '#1a3020'
+  stroke: '#10B981'
+  stroke_width: ''
+  bounds_grid:
+  - 23
+  - 17
+  - 7
+  - 3
+  center_ft:
+  - 132.5
+  - 92.5
+- bounds_px:
+  - 160.0
+  - 170.0
+  - 40.0
+  - 30.0
+  name: 碎石
+  fill: '#334'
+  stroke: '#667'
+  stroke_width: ''
+  bounds_grid:
+  - 9
+  - 10
+  - 3
+  - 2
+  center_ft:
+  - 52.5
+  - 55.0
+- bounds_px:
+  - 480.0
+  - 170.0
+  - 40.0
+  - 30.0
+  name: 碎石
+  fill: '#334'
+  stroke: '#667'
+  stroke_width: ''
+  bounds_grid:
+  - 31
+  - 10
+  - 3
+  - 2
+  center_ft:
+  - 162.5
+  - 55.0
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: ''
+  to: ''
+  distance_ft: 210.0
+- from: ''
+  to: 大階段入口
+  distance_ft: 127.6
+- from: ''
+  to: 雙殛之丘——最終決戰
+  distance_ft: 124.8
+- from: ''
+  to: 處刑台
+  distance_ft: 105.7
+- from: ''
+  to: 大階段入口
+  distance_ft: 120.9
+- from: ''
+  to: 朽木白哉
+  distance_ft: 48.0
+- from: ''
+  to: 山本總隊長
+  distance_ft: 183.9
+- from: ''
+  to: 副隊長×2
+  distance_ft: 33.6
+- from: ''
+  to: 副隊長×2
+  distance_ft: 186.4
+- from: ''
+  to: 黑崎一護/玩家
+  distance_ft: 83.1

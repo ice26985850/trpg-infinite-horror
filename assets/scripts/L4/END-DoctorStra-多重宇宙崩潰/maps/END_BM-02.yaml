@@ -1,0 +1,147 @@
+map_id: END_BM-02
+map_type: battle
+scenario: '奇異博士2·多重宇宙崩潰 / Doctor Strange: Multiverse Collapse'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 640
+- 480
+title: BM-02 緋紅女巫最終戰
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 80.0
+  - 80.0
+  name: 玩家起始
+  fill: none
+  stroke: '#00FF88'
+  stroke_width: '2'
+  bounds_grid:
+  - 1
+  - 1
+  - 5
+  - 5
+  center_ft:
+  - 17.5
+  - 17.5
+- bounds_px:
+  - 280.0
+  - 280.0
+  - 80.0
+  - 80.0
+  name: 緋紅女巫
+  fill: none
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 17
+  - 17
+  - 5
+  - 5
+  center_ft:
+  - 97.5
+  - 97.5
+- bounds_px:
+  - 280.0
+  - 40.0
+  - 120.0
+  - 80.0
+  name: 黑暗神書碎片
+  fill: '#6D28D922'
+  stroke: '#6D28D9'
+  stroke_width: '2'
+  bounds_grid:
+  - 17
+  - 1
+  - 8
+  - 5
+  center_ft:
+  - 105.0
+  - 17.5
+- bounds_px:
+  - 40.0
+  - 200.0
+  - 120.0
+  - 80.0
+  name: 破碎現實（每2輪變換）
+  fill: '#F59E0B44'
+  stroke: '#F59E0B'
+  stroke_width: '1'
+  bounds_grid:
+  - 1
+  - 12
+  - 8
+  - 5
+  center_ft:
+  - 25.0
+  - 72.5
+- bounds_px:
+  - 160.0
+  - 80.0
+  - 80.0
+  - 80.0
+  name: 美國小姐
+  fill: '#10B98144'
+  stroke: '#10B981'
+  stroke_width: '1'
+  bounds_grid:
+  - 9
+  - 4
+  - 5
+  - 5
+  center_ft:
+  - 57.5
+  - 32.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 玩家起始
+  to: 緋紅女巫
+  distance_ft: 113.1
+- from: 玩家起始
+  to: 黑暗神書碎片
+  distance_ft: 87.5
+- from: 玩家起始
+  to: 破碎現實（每2輪變換）
+  distance_ft: 55.5
+- from: 玩家起始
+  to: 美國小姐
+  distance_ft: 42.7
+- from: 緋紅女巫
+  to: 黑暗神書碎片
+  distance_ft: 80.4
+- from: 緋紅女巫
+  to: 破碎現實（每2輪變換）
+  distance_ft: 76.7
+- from: 緋紅女巫
+  to: 美國小姐
+  distance_ft: 76.3
+- from: 黑暗神書碎片
+  to: 破碎現實（每2輪變換）
+  distance_ft: 97.1
+- from: 黑暗神書碎片
+  to: 美國小姐
+  distance_ft: 49.8
+- from: 破碎現實（每2輪變換）
+  to: 美國小姐
+  distance_ft: 51.5

@@ -1,0 +1,141 @@
+map_id: XYJ_WM-01
+map_type: world
+scenario: '西遊記·大鬧天宮 / Journey to the West: Havoc in Heaven'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: XYJ_WM-01 世界地圖
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 80.0
+  - 60.0
+  - 640.0
+  - 480.0
+  fill: '#0a1a2a'
+  stroke: '#1e3a5f'
+  name: ''
+roads: []
+routes:
+- x1: 200.0
+  y1: 380.0
+  x2: 380.0
+  y2: 230.0
+  stroke: '#FFD700'
+  stroke_width: '2'
+  dashed: true
+danger_zones:
+- center:
+  - 400.0
+  - 200.0
+  rx: 100.0
+  ry: 80.0
+  name: 南天門
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 550.0
+  - 100.0
+  rx: 70.0
+  ry: 50.0
+  name: 凌霄寶殿
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 150.0
+  - 400.0
+  rx: 60.0
+  ry: 40.0
+  name: 花果山
+  fill: '#FF0000'
+  stroke: '#FF4444'
+landmarks:
+- center:
+  - 150.0
+  - 400.0
+  radius: 12.0
+  name: 花果山
+  fill: none
+  stroke: '#00FF88'
+  dashed: true
+- center:
+  - 150.0
+  - 400.0
+  radius: 5.0
+  name: 花果山
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 400.0
+  - 200.0
+  radius: 12.0
+  name: 南天門
+  fill: none
+  stroke: '#FFD700'
+  dashed: true
+- center:
+  - 400.0
+  - 200.0
+  radius: 5.0
+  name: 南天門
+  fill: '#FFD700'
+  stroke: ''
+  dashed: false
+- center:
+  - 550.0
+  - 100.0
+  radius: 12.0
+  name: 凌霄寶殿
+  fill: none
+  stroke: '#FF0000'
+  dashed: true
+- center:
+  - 550.0
+  - 100.0
+  radius: 5.0
+  name: 凌霄寶殿
+  fill: '#FF0000'
+  stroke: ''
+  dashed: false
+- center:
+  - 300.0
+  - 120.0
+  radius: 12.0
+  name: 蟠桃園
+  fill: none
+  stroke: '#FF69B4'
+  dashed: true
+- center:
+  - 300.0
+  - 120.0
+  radius: 5.0
+  name: 蟠桃園
+  fill: '#FF69B4'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 60.0
+  radius: 4.0
+  name: 起始點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 78.0
+  radius: 4.0
+  name: 目標點
+  fill: '#FFD700'
+  stroke: ''
+  dashed: false
+legend:
+- 凌霄寶殿
+- 起始點
+- 目標點

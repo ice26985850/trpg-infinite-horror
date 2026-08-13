@@ -1,0 +1,51 @@
+map_id: HP_WM-01
+map_type: world
+scenario: '哈利波特·魔法石的守護 / Harry Potter: The Philosopher''s Stone'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 900
+- 620
+title: 霍格華茲城堡 — 大範圍地圖 (WM-01)
+description: ''
+scale: 霍格華茲城堡 — 大範圍地圖 (WM-01)
+regions:
+- bounds:
+  - 350.0
+  - 120.0
+  - 100.0
+  - 60.0
+  fill: '#3a3a5a'
+  stroke: '#e67e22'
+  name: A 大廳
+- bounds:
+  - 550.0
+  - 220.0
+  - 100.0
+  - 60.0
+  fill: '#4a3a4a'
+  stroke: '#e67e22'
+  name: B 圖書館
+- bounds:
+  - 150.0
+  - 320.0
+  - 100.0
+  - 60.0
+  fill: '#3a5a3a'
+  stroke: '#e67e22'
+  name: C 溫室
+- bounds:
+  - 450.0
+  - 450.0
+  - 100.0
+  - 60.0
+  fill: '#4a2a2a'
+  stroke: '#e67e22'
+  name: D 禁區
+roads: []
+routes: []
+danger_zones: []
+landmarks: []
+legend: []

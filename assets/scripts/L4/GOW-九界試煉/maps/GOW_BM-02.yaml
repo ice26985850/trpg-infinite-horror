@@ -1,0 +1,164 @@
+map_id: GOW_BM-02
+map_type: battle
+scenario: '戰神·九界試煉 / God of War: Trial of the Nine Realms'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 640
+- 480
+title: BM-02 女武神最終決戰
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 80.0
+  - 80.0
+  name: 玩家起始
+  fill: none
+  stroke: '#00FF88'
+  stroke_width: '2'
+  bounds_grid:
+  - 1
+  - 1
+  - 5
+  - 5
+  center_ft:
+  - 17.5
+  - 17.5
+- bounds_px:
+  - 320.0
+  - 280.0
+  - 120.0
+  - 80.0
+  name: 墮落女武神
+  fill: none
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 20
+  - 17
+  - 8
+  - 5
+  center_ft:
+  - 120.0
+  - 97.5
+- bounds_px:
+  - 280.0
+  - 40.0
+  - 120.0
+  - 80.0
+  name: 議會廳中心
+  fill: '#F59E0B22'
+  stroke: '#F59E0B'
+  stroke_width: '2'
+  bounds_grid:
+  - 17
+  - 1
+  - 8
+  - 5
+  center_ft:
+  - 105.0
+  - 17.5
+- bounds_px:
+  - 40.0
+  - 160.0
+  - 80.0
+  - 80.0
+  name: 柱子（可破壞）
+  fill: '#66644'
+  stroke: '#666'
+  stroke_width: '1'
+  bounds_grid:
+  - 1
+  - 9
+  - 5
+  - 5
+  center_ft:
+  - 17.5
+  - 57.5
+- bounds_px:
+  - 200.0
+  - 160.0
+  - 80.0
+  - 80.0
+  name: 符文石（治療）
+  fill: '#10B98144'
+  stroke: '#10B981'
+  stroke_width: '1'
+  bounds_grid:
+  - 12
+  - 9
+  - 5
+  - 5
+  center_ft:
+  - 72.5
+  - 57.5
+- bounds_px:
+  - 400.0
+  - 120.0
+  - 120.0
+  - 80.0
+  name: 壁畫（情報）
+  fill: '#3B82F644'
+  stroke: '#3B82F6'
+  stroke_width: '1'
+  bounds_grid:
+  - 25
+  - 7
+  - 8
+  - 5
+  center_ft:
+  - 145.0
+  - 47.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 玩家起始
+  to: 墮落女武神
+  distance_ft: 130.0
+- from: 玩家起始
+  to: 議會廳中心
+  distance_ft: 87.5
+- from: 玩家起始
+  to: 柱子（可破壞）
+  distance_ft: 40.0
+- from: 玩家起始
+  to: 符文石（治療）
+  distance_ft: 68.0
+- from: 玩家起始
+  to: 壁畫（情報）
+  distance_ft: 131.0
+- from: 墮落女武神
+  to: 議會廳中心
+  distance_ft: 81.4
+- from: 墮落女武神
+  to: 柱子（可破壞）
+  distance_ft: 110.0
+- from: 墮落女武神
+  to: 符文石（治療）
+  distance_ft: 62.1
+- from: 墮落女武神
+  to: 壁畫（情報）
+  distance_ft: 55.9
+- from: 議會廳中心
+  to: 柱子（可破壞）
+  distance_ft: 96.2

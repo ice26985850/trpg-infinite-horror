@@ -1,0 +1,140 @@
+map_id: LOL_WM-01
+map_type: world
+scenario: '英雄聯盟·符文大地衝突 / League of Legends: Runeterra Conflict'
+tier: L3
+difficulty: ★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: LOL_WM-01 世界地圖
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 80.0
+  - 60.0
+  - 640.0
+  - 480.0
+  fill: '#0a1a2a'
+  stroke: '#1e3a5f'
+  name: ''
+roads: []
+routes:
+- x1: 320.0
+  y1: 400.0
+  x2: 580.0
+  y2: 220.0
+  stroke: '#FFD700'
+  stroke_width: '2'
+  dashed: true
+- x1: 300.0
+  y1: 440.0
+  x2: 380.0
+  y2: 260.0
+  stroke: '#FFD700'
+  stroke_width: '2'
+  dashed: true
+danger_zones:
+- center:
+  - 600.0
+  - 180.0
+  rx: 80.0
+  ry: 50.0
+  name: 虛空裂縫
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 350.0
+  - 250.0
+  rx: 90.0
+  ry: 50.0
+  name: 前線
+  fill: '#FF0000'
+  stroke: '#FF4444'
+landmarks:
+- center:
+  - 300.0
+  - 450.0
+  radius: 12.0
+  name: 哨站
+  fill: none
+  stroke: '#00FF88'
+  dashed: true
+- center:
+  - 300.0
+  - 450.0
+  radius: 5.0
+  name: 哨站
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 600.0
+  - 180.0
+  radius: 12.0
+  name: 虛空裂縫
+  fill: none
+  stroke: '#FF00FF'
+  dashed: true
+- center:
+  - 600.0
+  - 180.0
+  radius: 5.0
+  name: 虛空裂縫
+  fill: '#FF00FF'
+  stroke: ''
+  dashed: false
+- center:
+  - 400.0
+  - 250.0
+  radius: 12.0
+  name: 前線
+  fill: none
+  stroke: '#FF6600'
+  dashed: true
+- center:
+  - 400.0
+  - 250.0
+  radius: 5.0
+  name: 前線
+  fill: '#FF6600'
+  stroke: ''
+  dashed: false
+- center:
+  - 150.0
+  - 350.0
+  radius: 12.0
+  name: 營地
+  fill: none
+  stroke: '#00AAFF'
+  dashed: true
+- center:
+  - 150.0
+  - 350.0
+  radius: 5.0
+  name: 營地
+  fill: '#00AAFF'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 60.0
+  radius: 4.0
+  name: 起始點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 78.0
+  radius: 4.0
+  name: 目標點
+  fill: '#FFD700'
+  stroke: ''
+  dashed: false
+legend:
+- 虛空腐化區
+- 起始點
+- 目標點

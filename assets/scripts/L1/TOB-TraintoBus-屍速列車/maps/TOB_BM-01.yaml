@@ -1,0 +1,300 @@
+map_id: TOB_BM-01
+map_type: battle
+scenario: 屍速列車 / Train to Busan (TOB)
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 680
+- 480
+title: 大田站月台 — 戰鬥地圖
+description: ''
+grid:
+  type: square
+  width: 12
+  height: 8
+  cell_px: 40
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 40.0
+  - 40.0
+  total_width_ft: 60
+  total_height_ft: 40
+terrain:
+- bounds_px:
+  - 40.0
+  - 360.0
+  - 480.0
+  - 20.0
+  name: 鐵軌 (軌道區)
+  fill: '#2a2a2a'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 8
+  - 12
+  - 1
+  center_ft:
+  - 30.0
+  - 42.5
+- bounds_px:
+  - 40.0
+  - 340.0
+  - 480.0
+  - 20.0
+  name: 列車停靠位置
+  fill: '#F59E0B'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 8
+  - 12
+  - 1
+  center_ft:
+  - 30.0
+  - 42.5
+- bounds_px:
+  - 360.0
+  - 60.0
+  - 100.0
+  - 80.0
+  name: 便利店
+  fill: '#162040'
+  stroke: '#3B82F6'
+  stroke_width: '2'
+  bounds_grid:
+  - 8
+  - 0
+  - 2
+  - 2
+  center_ft:
+  - 45.0
+  - 5.0
+- bounds_px:
+  - 370.0
+  - 65.0
+  - 30.0
+  - 5.0
+  name: '9'
+  fill: '#555'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 8
+  - 1
+  - 1
+  - 1
+  center_ft:
+  - 42.5
+  - 7.5
+- bounds_px:
+  - 370.0
+  - 85.0
+  - 30.0
+  - 5.0
+  name: 便利店
+  fill: '#555'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 8
+  - 1
+  - 1
+  - 1
+  center_ft:
+  - 42.5
+  - 7.5
+- bounds_px:
+  - 420.0
+  - 65.0
+  - 30.0
+  - 5.0
+  name: '10'
+  fill: '#555'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 10
+  - 1
+  - 1
+  - 1
+  center_ft:
+  - 52.5
+  - 7.5
+- bounds_px:
+  - 420.0
+  - 85.0
+  - 30.0
+  - 5.0
+  name: 便利店
+  fill: '#555'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 10
+  - 1
+  - 1
+  - 1
+  center_ft:
+  - 52.5
+  - 7.5
+- bounds_px:
+  - 60.0
+  - 80.0
+  - 15.0
+  - 25.0
+  name: 販賣
+  fill: '#334'
+  stroke: '#666'
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 1
+  - 1
+  - 1
+  center_ft:
+  - 2.5
+  - 7.5
+- bounds_px:
+  - 80.0
+  - 80.0
+  - 15.0
+  - 25.0
+  name: 販賣
+  fill: '#334'
+  stroke: '#666'
+  stroke_width: ''
+  bounds_grid:
+  - 1
+  - 1
+  - 1
+  - 1
+  center_ft:
+  - 7.5
+  - 7.5
+- bounds_px:
+  - 60.0
+  - 120.0
+  - 60.0
+  - 10.0
+  name: 候車長椅
+  fill: '#444'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 2
+  - 2
+  - 1
+  center_ft:
+  - 5.0
+  - 12.5
+- bounds_px:
+  - 180.0
+  - 120.0
+  - 60.0
+  - 10.0
+  name: 候車長椅
+  fill: '#444'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 4
+  - 2
+  - 2
+  - 1
+  center_ft:
+  - 25.0
+  - 12.5
+- bounds_px:
+  - 200.0
+  - 160.0
+  - 80.0
+  - 15.0
+  name: 檢票口 (封鎖)
+  fill: '#301520'
+  stroke: '#EF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 4
+  - 3
+  - 2
+  - 1
+  center_ft:
+  - 25.0
+  - 17.5
+- bounds_px:
+  - 400.0
+  - 280.0
+  - 50.0
+  - 25.0
+  name: 樓梯 ↑
+  fill: '#162040'
+  stroke: '#F59E0B'
+  stroke_width: ''
+  bounds_grid:
+  - 9
+  - 6
+  - 1
+  - 1
+  center_ft:
+  - 47.5
+  - 32.5
+- bounds_px:
+  - 540.0
+  - 210.0
+  - 120.0
+  - 50.0
+  name: ⚠ 注意
+  fill: '#301510'
+  stroke: '#EF4444'
+  stroke_width: '1'
+  bounds_grid:
+  - 12
+  - 4
+  - 3
+  - 1
+  center_ft:
+  - 67.5
+  - 22.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 鐵軌 (軌道區)
+  to: 便利店
+  distance_ft: 40.4
+- from: 鐵軌 (軌道區)
+  to: '9'
+  distance_ft: 37.2
+- from: 鐵軌 (軌道區)
+  to: 便利店
+  distance_ft: 37.2
+- from: 鐵軌 (軌道區)
+  to: '10'
+  distance_ft: 41.6
+- from: 鐵軌 (軌道區)
+  to: 便利店
+  distance_ft: 41.6
+- from: 鐵軌 (軌道區)
+  to: 販賣
+  distance_ft: 44.5
+- from: 鐵軌 (軌道區)
+  to: 販賣
+  distance_ft: 41.6
+- from: 鐵軌 (軌道區)
+  to: 候車長椅
+  distance_ft: 39.1
+- from: 鐵軌 (軌道區)
+  to: 候車長椅
+  distance_ft: 30.4
+- from: 鐵軌 (軌道區)
+  to: 檢票口 (封鎖)
+  distance_ft: 25.5

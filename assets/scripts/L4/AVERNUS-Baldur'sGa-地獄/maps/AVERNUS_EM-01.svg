@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<rect width="800" height="600" fill="#1a1a2e"/>
+<text x="400.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">巴爾德之門內部——探索地圖</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 1</text>
+<rect x="20" y="0.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="800.0" height="600.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<text x="400.0" y="300.0" text-anchor="middle" fill="#aaa" font-size="9">下城區（鐵匠鋪/酒館）</text>
+<text x="20" y="95.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 2</text>
+<rect x="20" y="100.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="200.0" y="100.0" width="400.0" height="100.0" rx="5.0" fill="#0d1a1a" stroke="#10B981" stroke-width="2"/>
+<text x="400.0" y="150.0" text-anchor="middle" fill="#aaa" font-size="9">神殿區（結界/補給）</text>
+<text x="20" y="245.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 3</text>
+<rect x="20" y="250.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="200.0" y="250.0" width="400.0" height="100.0" rx="5.0" fill="#1a1505" stroke="#F59E0B" stroke-width="2"/>
+<text x="400.0" y="300.0" text-anchor="middle" fill="#aaa" font-size="9">下城區（鐵匠鋪/酒館）</text>
+<text x="20" y="395.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 4</text>
+<rect x="20" y="400.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="200.0" y="400.0" width="400.0" height="100.0" rx="5.0" fill="#0d0d1a" stroke="#3B82F6" stroke-width="2"/>
+<text x="400.0" y="450.0" text-anchor="middle" fill="#aaa" font-size="9">貴族區（廢墟/避難所）</text>
+<text x="20" y="495.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 5</text>
+<rect x="20" y="500.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="620.0" y="500.0" width="165.0" height="85.0" rx="4.0" fill="#111" stroke="#333" stroke-width=""/>
+<text x="702.5" y="542.5" text-anchor="middle" fill="#aaa" font-size="9">圖例</text>
+<rect x="200.0" y="550.0" width="400.0" height="100.0" rx="5.0" fill="#1a1020" stroke="#6D28D9" stroke-width="2"/>
+<text x="400.0" y="600.0" text-anchor="middle" fill="#aaa" font-size="9">港口區（冥河接觸點）</text>
+<rect x="20" y="545" width="760" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="570" fill="#aaa" font-size="9">AVERNUS_WM-01 | 大範圍地圖</text>
+<text x="20" y="590" fill="#666" font-size="9">AVERNUS_EM-01 | 探索地圖 </text>
+</svg>

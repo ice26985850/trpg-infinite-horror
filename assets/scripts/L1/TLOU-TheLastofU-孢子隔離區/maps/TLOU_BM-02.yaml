@@ -1,0 +1,206 @@
+map_id: TLOU_BM-02
+map_type: battle
+scenario: '最後生還者·孢子隔離區 / The Last of Us: Quarantine Zone'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 680
+- 420
+title: 火螢實驗室入口
+description: ''
+grid:
+  type: square
+  width: 12
+  height: 8
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 40.0
+  - 40.0
+  total_width_ft: 60
+  total_height_ft: 40
+terrain:
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 360.0
+  - 5.0
+  name: Bloater
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 24
+  - 1
+  center_ft:
+  - 60.0
+  - 2.5
+- bounds_px:
+  - 40.0
+  - 275.0
+  - 360.0
+  - 5.0
+  name: 實驗室大門
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 16
+  - 24
+  - 1
+  center_ft:
+  - 60.0
+  - 82.5
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 5.0
+  - 240.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 1
+  - 16
+  center_ft:
+  - 2.5
+  - 40.0
+- bounds_px:
+  - 395.0
+  - 40.0
+  - 5.0
+  - 240.0
+  name: Run×4
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 24
+  - 0
+  - 1
+  - 16
+  center_ft:
+  - 122.5
+  - 40.0
+- bounds_px:
+  - 200.0
+  - 200.0
+  - 120.0
+  - 70.0
+  name: 實驗室大門
+  fill: '#1a2a30'
+  stroke: '#3B82F6'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 11
+  - 11
+  - 8
+  - 5
+  center_ft:
+  - 75.0
+  - 67.5
+- bounds_px:
+  - 80.0
+  - 80.0
+  - 60.0
+  - 50.0
+  name: 防禦工事
+  fill: '#2a2a30'
+  stroke: '#555'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 3
+  - 3
+  - 4
+  - 3
+  center_ft:
+  - 25.0
+  - 22.5
+- bounds_px:
+  - 500.0
+  - 80.0
+  - 60.0
+  - 50.0
+  name: 補給點
+  fill: '#2a2a30'
+  stroke: '#555'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 31
+  - 3
+  - 4
+  - 3
+  center_ft:
+  - 165.0
+  - 22.5
+- bounds_px:
+  - 200.0
+  - 195.0
+  - 120.0
+  - 5.0
+  name: 進入實驗室!
+  fill: '#00FF88'
+  stroke: '#00FF88'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 11
+  - 10
+  - 8
+  - 1
+  center_ft:
+  - 75.0
+  - 52.5
+spawn_points:
+  players:
+  - px:
+    - 120.0
+    - 420.0
+    name: 玩家入口
+    fill: '#00FF88'
+    grid:
+    - 5
+    - 25
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: Bloater
+  to: 實驗室大門
+  distance_ft: 80.0
+- from: Bloater
+  to: ''
+  distance_ft: 68.6
+- from: Bloater
+  to: Run×4
+  distance_ft: 72.9
+- from: Bloater
+  to: 實驗室大門
+  distance_ft: 66.7
+- from: Bloater
+  to: 防禦工事
+  distance_ft: 40.3
+- from: Bloater
+  to: 補給點
+  distance_ft: 106.9
+- from: Bloater
+  to: 進入實驗室!
+  distance_ft: 52.2
+- from: 實驗室大門
+  to: ''
+  distance_ft: 71.5
+- from: 實驗室大門
+  to: Run×4
+  distance_ft: 75.6
+- from: 實驗室大門
+  to: 實驗室大門
+  distance_ft: 21.2

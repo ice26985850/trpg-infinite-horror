@@ -1,0 +1,176 @@
+map_id: BLAME_WM-01
+map_type: world
+scenario: '探索者·超結構深淵 / BLAME!: Megastructure Abyss'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 超結構各層級 — 垂直剖面
+description: ''
+scale: BLAME_WM-01 | 大範圍地圖 | 1格 ≈ 5m
+regions:
+- bounds:
+  - 360.0
+  - 470.0
+  - 80.0
+  - 60.0
+  fill: '#2e1a3e'
+  stroke: '#8B5CF6'
+  name: 廢棄電梯
+- bounds:
+  - 280.0
+  - 430.0
+  - 70.0
+  - 40.0
+  fill: '#2e1a3e'
+  stroke: '#8B5CF6'
+  name: 廢棄工廠
+- bounds:
+  - 520.0
+  - 380.0
+  - 70.0
+  - 40.0
+  fill: '#301520'
+  stroke: '#EF4444'
+  name: 安全守衛層
+- bounds:
+  - 330.0
+  - 280.0
+  - 70.0
+  - 40.0
+  fill: '#1a2a20'
+  stroke: '#10B981'
+  name: 人類聚落
+- bounds:
+  - 420.0
+  - 340.0
+  - 70.0
+  - 40.0
+  fill: '#1a2a30'
+  stroke: '#3B82F6'
+  name: 淨水器層
+roads:
+- x1: 380.0
+  y1: 500.0
+  x2: 380.0
+  y2: 80.0
+  stroke: '#555'
+  stroke_width: '4'
+  dashed: false
+- x1: 100.0
+  y1: 400.0
+  x2: 700.0
+  y2: 400.0
+  stroke: '#555'
+  stroke_width: '2'
+  dashed: false
+- x1: 150.0
+  y1: 300.0
+  x2: 650.0
+  y2: 300.0
+  stroke: '#555'
+  stroke_width: '2'
+  dashed: false
+- x1: 200.0
+  y1: 180.0
+  x2: 600.0
+  y2: 180.0
+  stroke: '#555'
+  stroke_width: '2'
+  dashed: false
+routes:
+- x1: 440.0
+  y1: 500.0
+  x2: 400.0
+  y2: 460.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+- x1: 400.0
+  y1: 460.0
+  x2: 400.0
+  y2: 80.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+- x1: 635.0
+  y1: 515.0
+  x2: 665.0
+  y2: 515.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+danger_zones:
+- center:
+  - 250.0
+  - 400.0
+  rx: 60.0
+  ry: 40.0
+  name: 重力異常
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 550.0
+  - 320.0
+  rx: 70.0
+  ry: 50.0
+  name: 安全守衛層
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 380.0
+  - 200.0
+  rx: 80.0
+  ry: 60.0
+  name: 矽基領域
+  fill: '#FF0000'
+  stroke: '#FF4444'
+landmarks:
+- center:
+  - 400.0
+  - 525.0
+  radius: 4.0
+  name: (起始點)
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 400.0
+  - 80.0
+  radius: 18.0
+  name: ★ 撤離點
+  fill: none
+  stroke: '#00FF88'
+  dashed: true
+- center:
+  - 400.0
+  - 80.0
+  radius: 7.0
+  name: ★ 撤離點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 558.0
+  radius: 5.0
+  name: 撤離點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 575.0
+  radius: 4.0
+  name: 起始點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+legend:
+- 撤離路線
+- 危險區域
+- 撤離點
+- 起始點

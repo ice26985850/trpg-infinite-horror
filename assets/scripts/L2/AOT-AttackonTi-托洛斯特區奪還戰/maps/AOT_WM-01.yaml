@@ -1,0 +1,403 @@
+map_id: AOT_WM-01
+map_type: world
+scenario: '進擊的巨人·托洛斯特區奪還戰 / Attack on Titan: Battle of Trost District'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 1000
+- 700
+title: 托洛斯特區全景 — 845年瑪利亞之牆陷落 (World Map WM-01)
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 50.0
+  - 80.0
+  - 900.0
+  - 25.0
+  fill: '#6a6a6a'
+  stroke: '#888'
+  name: 瑪利亞之牆 (Wall Maria) — 外側城牆
+- bounds:
+  - 380.0
+  - 75.0
+  - 80.0
+  - 35.0
+  fill: '#ff4444'
+  stroke: '#ff0000'
+  name: E 破洞
+- bounds:
+  - 60.0
+  - 120.0
+  - 880.0
+  - 500.0
+  fill: '#2a3020'
+  stroke: '#4B0082'
+  name: ''
+- bounds:
+  - 760.0
+  - 560.0
+  - 160.0
+  - 30.0
+  fill: '#4a4a8a'
+  stroke: '#6a6aaa'
+  name: 內城門 → 羅塞之牆 (Wall Rose)
+roads:
+- x1: 80.0
+  y1: 150.0
+  x2: 920.0
+  y2: 150.0
+  stroke: '#5a5a4a'
+  stroke_width: '2'
+  dashed: false
+- x1: 80.0
+  y1: 230.0
+  x2: 920.0
+  y2: 230.0
+  stroke: '#5a5a4a'
+  stroke_width: '2'
+  dashed: false
+- x1: 80.0
+  y1: 310.0
+  x2: 920.0
+  y2: 310.0
+  stroke: '#5a5a4a'
+  stroke_width: '2'
+  dashed: false
+- x1: 80.0
+  y1: 390.0
+  x2: 920.0
+  y2: 390.0
+  stroke: '#5a5a4a'
+  stroke_width: '2'
+  dashed: false
+- x1: 80.0
+  y1: 470.0
+  x2: 920.0
+  y2: 470.0
+  stroke: '#5a5a4a'
+  stroke_width: '2'
+  dashed: false
+- x1: 80.0
+  y1: 550.0
+  x2: 920.0
+  y2: 550.0
+  stroke: '#5a5a4a'
+  stroke_width: '2'
+  dashed: false
+- x1: 100.0
+  y1: 130.0
+  x2: 100.0
+  y2: 610.0
+  stroke: '#5a5a4a'
+  stroke_width: '2'
+  dashed: false
+- x1: 200.0
+  y1: 130.0
+  x2: 200.0
+  y2: 610.0
+  stroke: '#5a5a4a'
+  stroke_width: '2'
+  dashed: false
+- x1: 300.0
+  y1: 130.0
+  x2: 300.0
+  y2: 610.0
+  stroke: '#5a5a4a'
+  stroke_width: '2'
+  dashed: false
+- x1: 400.0
+  y1: 130.0
+  x2: 400.0
+  y2: 610.0
+  stroke: '#5a5a4a'
+  stroke_width: '2'
+  dashed: false
+- x1: 500.0
+  y1: 130.0
+  x2: 500.0
+  y2: 610.0
+  stroke: '#5a5a4a'
+  stroke_width: '2'
+  dashed: false
+- x1: 600.0
+  y1: 130.0
+  x2: 600.0
+  y2: 610.0
+  stroke: '#5a5a4a'
+  stroke_width: '2'
+  dashed: false
+- x1: 700.0
+  y1: 130.0
+  x2: 700.0
+  y2: 610.0
+  stroke: '#5a5a4a'
+  stroke_width: '2'
+  dashed: false
+- x1: 800.0
+  y1: 130.0
+  x2: 800.0
+  y2: 610.0
+  stroke: '#5a5a4a'
+  stroke_width: '2'
+  dashed: false
+- x1: 80.0
+  y1: 650.0
+  x2: 280.0
+  y2: 650.0
+  stroke: '#fff'
+  stroke_width: '2'
+  dashed: false
+- x1: 80.0
+  y1: 645.0
+  x2: 80.0
+  y2: 655.0
+  stroke: '#fff'
+  stroke_width: '2'
+  dashed: false
+- x1: 280.0
+  y1: 645.0
+  x2: 280.0
+  y2: 655.0
+  stroke: '#fff'
+  stroke_width: '2'
+  dashed: false
+routes: []
+danger_zones: []
+landmarks:
+- center:
+  - 280.0
+  - 150.0
+  radius: 10.0
+  name: （起始點）
+  fill: '#e74c3c'
+  stroke: '#fff'
+  dashed: false
+- center:
+  - 280.0
+  - 150.0
+  radius: 16.0
+  name: （起始點）
+  fill: none
+  stroke: '#e74c3c'
+  dashed: false
+- center:
+  - 470.0
+  - 300.0
+  radius: 10.0
+  name: 商舖區
+  fill: '#3498db'
+  stroke: '#fff'
+  dashed: false
+- center:
+  - 470.0
+  - 300.0
+  radius: 16.0
+  name: 商舖區
+  fill: none
+  stroke: '#3498db'
+  dashed: false
+- center:
+  - 350.0
+  - 420.0
+  radius: 10.0
+  name: 廣場
+  fill: '#2ecc71'
+  stroke: '#fff'
+  dashed: false
+- center:
+  - 350.0
+  - 420.0
+  radius: 16.0
+  name: 廣場
+  fill: none
+  stroke: '#2ecc71'
+  dashed: false
+- center:
+  - 650.0
+  - 250.0
+  radius: 10.0
+  name: 教堂
+  fill: '#f39c12'
+  stroke: '#fff'
+  dashed: false
+- center:
+  - 650.0
+  - 250.0
+  radius: 16.0
+  name: 教堂
+  fill: none
+  stroke: '#f39c12'
+  dashed: false
+- center:
+  - 420.0
+  - 140.0
+  radius: 10.0
+  name: E 城牆破洞
+  fill: '#ff4444'
+  stroke: '#fff'
+  dashed: false
+- center:
+  - 420.0
+  - 140.0
+  radius: 16.0
+  name: E 城牆破洞
+  fill: none
+  stroke: '#ff4444'
+  dashed: false
+- center:
+  - 750.0
+  - 500.0
+  radius: 10.0
+  name: →羅塞之牆
+  fill: '#9b59b6'
+  stroke: '#fff'
+  dashed: false
+- center:
+  - 750.0
+  - 500.0
+  radius: 16.0
+  name: →羅塞之牆
+  fill: none
+  stroke: '#9b59b6'
+  dashed: false
+- center:
+  - 200.0
+  - 200.0
+  radius: 6.0
+  name: 🔥
+  fill: none
+  stroke: '#e74c3c'
+  dashed: false
+- center:
+  - 350.0
+  - 250.0
+  radius: 6.0
+  name: ''
+  fill: none
+  stroke: '#e74c3c'
+  dashed: false
+- center:
+  - 550.0
+  - 350.0
+  radius: 6.0
+  name: ''
+  fill: none
+  stroke: '#e74c3c'
+  dashed: false
+- center:
+  - 600.0
+  - 450.0
+  radius: 6.0
+  name: ''
+  fill: none
+  stroke: '#e74c3c'
+  dashed: false
+- center:
+  - 300.0
+  - 500.0
+  radius: 6.0
+  name: 🔥
+  fill: none
+  stroke: '#e74c3c'
+  dashed: false
+- center:
+  - 700.0
+  - 350.0
+  radius: 6.0
+  name: ''
+  fill: none
+  stroke: '#e74c3c'
+  dashed: false
+- center:
+  - 800.0
+  - 200.0
+  radius: 6.0
+  name: 平民避難所教堂
+  fill: none
+  stroke: '#e74c3c'
+  dashed: false
+- center:
+  - 450.0
+  - 550.0
+  radius: 6.0
+  name: ''
+  fill: none
+  stroke: '#e74c3c'
+  dashed: false
+- center:
+  - 180.0
+  - 400.0
+  radius: 6.0
+  name: ''
+  fill: none
+  stroke: '#e74c3c'
+  dashed: false
+- center:
+  - 750.0
+  - 450.0
+  radius: 6.0
+  name: 撤離路線
+  fill: none
+  stroke: '#e74c3c'
+  dashed: false
+- center:
+  - 795.0
+  - 137.0
+  radius: 4.0
+  name: 城牆集結點
+  fill: '#e74c3c'
+  stroke: ''
+  dashed: false
+- center:
+  - 795.0
+  - 155.0
+  radius: 4.0
+  name: 主街道商舖區
+  fill: '#3498db'
+  stroke: ''
+  dashed: false
+- center:
+  - 795.0
+  - 173.0
+  radius: 4.0
+  name: 物資據點廣場
+  fill: '#2ecc71'
+  stroke: ''
+  dashed: false
+- center:
+  - 795.0
+  - 191.0
+  radius: 4.0
+  name: 平民避難所教堂
+  fill: '#f39c12'
+  stroke: ''
+  dashed: false
+- center:
+  - 795.0
+  - 209.0
+  radius: 4.0
+  name: 城牆破洞
+  fill: '#ff4444'
+  stroke: ''
+  dashed: false
+- center:
+  - 795.0
+  - 227.0
+  radius: 4.0
+  name: 巨人位置（約50隻）
+  fill: none
+  stroke: '#e74c3c'
+  dashed: false
+legend:
+- 撤離路線
+- →羅塞之牆
+- 內城門 → 羅塞之牆 (Wall Rose)
+- 城牆集結點
+- 主街道商舖區
+- 物資據點廣場
+- 平民避難所教堂
+- 城牆破洞
+- 巨人位置（約50隻）

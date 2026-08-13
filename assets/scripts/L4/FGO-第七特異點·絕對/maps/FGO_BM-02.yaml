@@ -1,0 +1,147 @@
+map_id: FGO_BM-02
+map_type: battle
+scenario: 'Fate/GO·第七特異點·絕對魔獸戰線 / FGO: Absolute Demonic Front Babylonia'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 640
+- 480
+title: BM-02 提亞馬特最終戰
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 80.0
+  - 80.0
+  name: 玩家起始
+  fill: none
+  stroke: '#00FF88'
+  stroke_width: '2'
+  bounds_grid:
+  - 1
+  - 1
+  - 5
+  - 5
+  center_ft:
+  - 17.5
+  - 17.5
+- bounds_px:
+  - 320.0
+  - 280.0
+  - 120.0
+  - 120.0
+  name: 提亞馬特
+  fill: none
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 20
+  - 17
+  - 8
+  - 8
+  center_ft:
+  - 120.0
+  - 105.0
+- bounds_px:
+  - 280.0
+  - 40.0
+  - 80.0
+  - 40.0
+  name: 陸橋（單人通行）
+  fill: '#F59E0B22'
+  stroke: '#F59E0B'
+  stroke_width: '2'
+  bounds_grid:
+  - 17
+  - 1
+  - 5
+  - 3
+  center_ft:
+  - 97.5
+  - 12.5
+- bounds_px:
+  - 40.0
+  - 200.0
+  - 120.0
+  - 80.0
+  name: 吉爾伽美什
+  fill: '#10B98144'
+  stroke: '#10B981'
+  stroke_width: '1'
+  bounds_grid:
+  - 1
+  - 12
+  - 8
+  - 5
+  center_ft:
+  - 25.0
+  - 72.5
+- bounds_px:
+  - 200.0
+  - 120.0
+  - 80.0
+  - 40.0
+  name: 天之鎖（S-03）
+  fill: '#6D28D944'
+  stroke: '#6D28D9'
+  stroke_width: '1'
+  bounds_grid:
+  - 12
+  - 7
+  - 5
+  - 3
+  center_ft:
+  - 72.5
+  - 42.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 玩家起始
+  to: 提亞馬特
+  distance_ft: 134.8
+- from: 玩家起始
+  to: 陸橋（單人通行）
+  distance_ft: 80.2
+- from: 玩家起始
+  to: 吉爾伽美什
+  distance_ft: 55.5
+- from: 玩家起始
+  to: 天之鎖（S-03）
+  distance_ft: 60.4
+- from: 提亞馬特
+  to: 陸橋（單人通行）
+  distance_ft: 95.2
+- from: 提亞馬特
+  to: 吉爾伽美什
+  distance_ft: 100.4
+- from: 提亞馬特
+  to: 天之鎖（S-03）
+  distance_ft: 78.5
+- from: 陸橋（單人通行）
+  to: 吉爾伽美什
+  distance_ft: 94.1
+- from: 陸橋（單人通行）
+  to: 天之鎖（S-03）
+  distance_ft: 39.1
+- from: 吉爾伽美什
+  to: 天之鎖（S-03）
+  distance_ft: 56.2

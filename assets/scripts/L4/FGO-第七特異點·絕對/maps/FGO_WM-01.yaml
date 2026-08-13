@@ -1,0 +1,60 @@
+map_id: FGO_WM-01
+map_type: world
+scenario: 'Fate/GO·第七特異點·絕對魔獸戰線 / FGO: Absolute Demonic Front Babylonia'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 美索不達米亞——絕對魔獸戰線
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 200.0
+  - 50.0
+  - 400.0
+  - 100.0
+  fill: '#0d1a1a'
+  stroke: '#10B981'
+  name: 烏魯克城牆（據點）
+- bounds:
+  - 200.0
+  - 200.0
+  - 400.0
+  - 120.0
+  fill: '#1a1505'
+  stroke: '#F59E0B'
+  name: 平原/魔獸戰線
+- bounds:
+  - 200.0
+  - 370.0
+  - 400.0
+  - 150.0
+  fill: '#1a0505'
+  stroke: '#EF4444'
+  name: 波斯灣（最終）
+roads: []
+routes:
+- x1: 400.0
+  y1: 150.0
+  x2: 400.0
+  y2: 200.0
+  stroke: '#C084FC'
+  stroke_width: '2'
+  dashed: true
+- x1: 400.0
+  y1: 320.0
+  x2: 400.0
+  y2: 370.0
+  stroke: '#C084FC'
+  stroke_width: '2'
+  dashed: true
+danger_zones: []
+landmarks: []
+legend:
+- 圖例
+- 箭頭 = 推薦路線
+- 紅色區域 = 最終目標

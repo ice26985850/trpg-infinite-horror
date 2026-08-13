@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" font-family="Microsoft JhengHei, sans-serif">
+<rect width="900" height="640" fill="#1a1a2e"/>
+<text x="450.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">藤美學園校舍 — 探索地圖</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">3 樓（3F）</text>
+<rect x="20" y="0.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="900.0" height="640.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<text x="450.0" y="320.0" text-anchor="middle" fill="#aaa" font-size="9">樓梯間</text>
+<rect x="20.0" y="0.0" width="860.0" height="140.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="70.0" text-anchor="middle" fill="#aaa" font-size="9">教室 D</text>
+<rect x="0.0" y="0.0" width="900.0" height="640.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<text x="450.0" y="320.0" text-anchor="middle" fill="#aaa" font-size="9">樓梯間</text>
+<rect x="20.0" y="0.0" width="860.0" height="140.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="70.0" text-anchor="middle" fill="#aaa" font-size="9">教室 D</text>
+<rect x="0.0" y="0.0" width="900.0" height="640.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<text x="450.0" y="320.0" text-anchor="middle" fill="#aaa" font-size="9">樓梯間</text>
+<rect x="20.0" y="0.0" width="860.0" height="140.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="70.0" text-anchor="middle" fill="#aaa" font-size="9">教室 D</text>
+<rect x="0.0" y="0.0" width="900.0" height="640.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<text x="450.0" y="320.0" text-anchor="middle" fill="#aaa" font-size="9">樓梯間</text>
+<rect x="20.0" y="65.0" width="860.0" height="150.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="140.0" text-anchor="middle" fill="#aaa" font-size="9">教室 D</text>
+<rect x="35.0" y="80.0" width="100.0" height="60.0" rx="3.0" fill="#1a1030" stroke="#6D28D9" stroke-width="1.5"/>
+<text x="85.0" y="110.0" text-anchor="middle" fill="#aaa" font-size="9">起始教室</text>
+<rect x="155.0" y="80.0" width="70.0" height="60.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="190.0" y="110.0" text-anchor="middle" fill="#aaa" font-size="9">教室 B</text>
+<rect x="240.0" y="80.0" width="70.0" height="60.0" rx="3.0" fill="#1a1030" stroke="#6D28D9" stroke-width=""/>
+<text x="275.0" y="110.0" text-anchor="middle" fill="#aaa" font-size="9">走廊遭遇</text>
+<rect x="330.0" y="80.0" width="50.0" height="30.0" rx="3.0" fill="#162040" stroke="#3B82F6" stroke-width=""/>
+<text x="355.0" y="95.0" text-anchor="middle" fill="#aaa" font-size="9">廁所(C)</text>
+<rect x="400.0" y="80.0" width="70.0" height="60.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="435.0" y="110.0" text-anchor="middle" fill="#aaa" font-size="9">教室 D</text>
+<rect x="490.0" y="80.0" width="50.0" height="150.0" rx="3.0" fill="#162040" stroke="#F59E0B" stroke-width=""/>
+<text x="515.0" y="155.0" text-anchor="middle" fill="#aaa" font-size="9">(B)</text>
+<rect x="560.0" y="80.0" width="70.0" height="60.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="595.0" y="110.0" text-anchor="middle" fill="#aaa" font-size="9">教室 E</text>
+<rect x="650.0" y="80.0" width="70.0" height="60.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="685.0" y="110.0" text-anchor="middle" fill="#aaa" font-size="9">教室 F</text>
+<rect x="740.0" y="80.0" width="120.0" height="60.0" rx="3.0" fill="#1a3020" stroke="#10B981" stroke-width=""/>
+<text x="800.0" y="110.0" text-anchor="middle" fill="#aaa" font-size="9">屋頂(D)</text>
+<text x="20" y="245.0" fill="#8B5CF6" font-size="13" font-weight="bold">2 樓（2F）</text>
+<rect x="20" y="250.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="250.0" width="860.0" height="140.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="320.0" text-anchor="middle" fill="#aaa" font-size="9">樓梯間</text>
+<rect x="20.0" y="250.0" width="860.0" height="140.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="320.0" text-anchor="middle" fill="#aaa" font-size="9">樓梯間</text>
+<rect x="20.0" y="250.0" width="860.0" height="140.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="320.0" text-anchor="middle" fill="#aaa" font-size="9">樓梯間</text>
+<rect x="20.0" y="250.0" width="860.0" height="150.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="325.0" text-anchor="middle" fill="#aaa" font-size="9">樓梯間</text>
+<rect x="35.0" y="265.0" width="100.0" height="60.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="85.0" y="295.0" text-anchor="middle" fill="#aaa" font-size="9">教室 2A</text>
+<rect x="155.0" y="265.0" width="100.0" height="60.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="205.0" y="295.0" text-anchor="middle" fill="#aaa" font-size="9">教室 2B</text>
+<rect x="280.0" y="265.0" width="90.0" height="60.0" rx="3.0" fill="#301520" stroke="#EF4444" stroke-width=""/>
+<text x="325.0" y="295.0" text-anchor="middle" fill="#aaa" font-size="9">保健室(E)</text>
+<rect x="490.0" y="265.0" width="50.0" height="135.0" rx="3.0" fill="#162040" stroke="#F59E0B" stroke-width=""/>
+<text x="515.0" y="332.5" text-anchor="middle" fill="#aaa" font-size="9">樓梯間</text>
+<rect x="560.0" y="265.0" width="130.0" height="60.0" rx="3.0" fill="#1a2a30" stroke="#3B82F6" stroke-width=""/>
+<text x="625.0" y="295.0" text-anchor="middle" fill="#aaa" font-size="9">教職員辦公室(F)</text>
+<rect x="720.0" y="265.0" width="140.0" height="60.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="790.0" y="295.0" text-anchor="middle" fill="#aaa" font-size="9">圖書館</text>
+<text x="20" y="430.0" fill="#8B5CF6" font-size="13" font-weight="bold">1 樓（1F）</text>
+<rect x="20" y="435.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="435.0" width="860.0" height="140.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="435.0" width="860.0" height="140.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="435.0" width="860.0" height="140.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="435.0" width="860.0" height="130.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="35.0" y="450.0" width="120.0" height="50.0" rx="3.0" fill="#301520" stroke="#EF4444" stroke-width=""/>
+<text x="95.0" y="475.0" text-anchor="middle" fill="#aaa" font-size="9">校舍大門</text>
+<rect x="490.0" y="450.0" width="50.0" height="115.0" rx="3.0" fill="#162040" stroke="#F59E0B" stroke-width=""/>
+<rect x="560.0" y="450.0" width="120.0" height="50.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="620.0" y="475.0" text-anchor="middle" fill="#aaa" font-size="9">職員室</text>
+<rect x="720.0" y="450.0" width="140.0" height="50.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="790.0" y="475.0" text-anchor="middle" fill="#aaa" font-size="9">體育館入口</text>
+<text x="20" y="575.0" fill="#8B5CF6" font-size="13" font-weight="bold">HOTD_EM-01 | 探索地圖 | 校舍 1～3F</text>
+<rect x="20" y="580.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="580.0" width="860.0" height="140.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="650.0" text-anchor="middle" fill="#aaa" font-size="9">HOTD_EM-01 | 探索地圖 | 校舍 1～3F</text>
+<rect x="20.0" y="580.0" width="860.0" height="140.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="650.0" text-anchor="middle" fill="#aaa" font-size="9">HOTD_EM-01 | 探索地圖 | 校舍 1～3F</text>
+<rect x="20.0" y="580.0" width="860.0" height="140.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="650.0" text-anchor="middle" fill="#aaa" font-size="9">HOTD_EM-01 | 探索地圖 | 校舍 1～3F</text>
+<rect x="35.0" y="580.0" width="820.0" height="45.0" rx="4.0" fill="#111" stroke="#333" stroke-width=""/>
+<text x="445.0" y="602.5" text-anchor="middle" fill="#aaa" font-size="9">HOTD_EM-01 | 探索地圖 | 校舍 1～3F</text>
+<rect x="20.0" y="585.0" width="860.0" height="40.0" rx="4.0" fill="#111" stroke="#333" stroke-width=""/>
+<text x="450.0" y="605.0" text-anchor="middle" fill="#aaa" font-size="9">HOTD_EM-01 | 探索地圖 | 校舍 1～3F</text>
+<rect x="20.0" y="585.0" width="860.0" height="40.0" rx="4.0" fill="#111" stroke="#333" stroke-width=""/>
+<text x="450.0" y="605.0" text-anchor="middle" fill="#aaa" font-size="9">HOTD_EM-01 | 探索地圖 | 校舍 1～3F</text>
+<rect x="20.0" y="585.0" width="860.0" height="40.0" rx="4.0" fill="#111" stroke="#333" stroke-width=""/>
+<text x="450.0" y="605.0" text-anchor="middle" fill="#aaa" font-size="9">HOTD_EM-01 | 探索地圖 | 校舍 1～3F</text>
+<rect x="140.0" y="596.0" width="14.0" height="12.0" rx="0.0" fill="#EF4444" stroke="#EF4444" stroke-width=""/>
+<text x="147.0" y="602.0" text-anchor="middle" fill="#aaa" font-size="9">危險區域</text>
+<rect x="240.0" y="596.0" width="14.0" height="12.0" rx="0.0" fill="#F59E0B" stroke="#F59E0B" stroke-width=""/>
+<text x="247.0" y="602.0" text-anchor="middle" fill="#aaa" font-size="9">樓梯通道</text>
+<rect x="340.0" y="596.0" width="14.0" height="12.0" rx="0.0" fill="#3B82F6" stroke="#3B82F6" stroke-width=""/>
+<text x="347.0" y="602.0" text-anchor="middle" fill="#aaa" font-size="9">支線觸發點</text>
+<rect x="20" y="585" width="860" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="610" fill="#aaa" font-size="9">危險區域</text>
+<text x="205" y="610" fill="#aaa" font-size="9">HOTD_EM-01 | 探索地圖 | 校舍 1～3F</text>
+<text x="375" y="610" fill="#aaa" font-size="9">HOTD_EM-01 | 探索地圖 | 各層樓梯互通 | 3F 走廊連接屋頂（D）</text>
+<text x="545" y="610" fill="#aaa" font-size="9">HOTD_EM-01 | 探索地圖 | HOTD_EM-01 | 探索地圖 | 各層樓梯互通 | 3F 走廊連接屋頂（D）</text>
+<text x="715" y="610" fill="#aaa" font-size="9">HOTD_EM-01 | 探索地圖 | HOTD_EM-01 | 探索地圖 | 各層樓梯互通 | 3F 走廊連接屋頂（D） | HOTD_EM-01 | 探索地圖 | HOTD_EM-01 | 探索地圖 | 各層樓梯互通 | 3F 走廊連接屋頂（D）</text>
+<text x="20" y="630" fill="#666" font-size="9">HOTD_EM-01 | 探索地圖 | HOTD_EM-01 | 探索地圖 | 各層樓梯互通 | 3F 走廊連接屋頂（D） | HOTD_EM-01 | 探索地圖 | HOTD_EM-01 | 探索地圖 | 各層樓梯互通 | 3F 走廊連接屋頂（D） | HOTD_EM-01 | 探索地圖 | HOTD_EM-01 | 探索地圖 | 各層樓梯互通 | 3F 走廊連接屋頂（D） | HOTD_EM-01 | 探索地圖 | HOTD_EM-01 | 探索地圖 | 各層樓梯互通 | 3F 走廊連接屋頂（D）</text>
+</svg>

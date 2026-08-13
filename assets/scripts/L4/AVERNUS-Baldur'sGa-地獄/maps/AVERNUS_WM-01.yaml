@@ -1,0 +1,60 @@
+map_id: AVERNUS_WM-01
+map_type: world
+scenario: '巴爾德之門·地獄 / Baldur''s Gate: Descent into Avernus'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 阿佛納斯地獄第一層——巴爾德之門全景
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 200.0
+  - 50.0
+  - 400.0
+  - 150.0
+  fill: '#0d1a1a'
+  stroke: '#10B981'
+  name: 神殿區（起始點）
+- bounds:
+  - 200.0
+  - 250.0
+  - 400.0
+  - 150.0
+  fill: '#1a1505'
+  stroke: '#F59E0B'
+  name: 下城區（探索/戰鬥）
+- bounds:
+  - 200.0
+  - 450.0
+  - 400.0
+  - 100.0
+  fill: '#1a0505'
+  stroke: '#EF4444'
+  name: 城市邊緣傳送門（最終）
+roads: []
+routes:
+- x1: 400.0
+  y1: 200.0
+  x2: 400.0
+  y2: 250.0
+  stroke: '#C084FC'
+  stroke_width: '2'
+  dashed: true
+- x1: 400.0
+  y1: 400.0
+  x2: 400.0
+  y2: 450.0
+  stroke: '#C084FC'
+  stroke_width: '2'
+  dashed: true
+danger_zones: []
+landmarks: []
+legend:
+- 圖例
+- 箭頭 = 推薦路線
+- 紅色區域 = 最終目標

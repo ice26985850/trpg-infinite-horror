@@ -1,0 +1,188 @@
+map_id: HG_WM-01
+map_type: world
+scenario: '飢餓遊戲·競技場求生 / The Hunger Games: Arena Survival'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: HG_WM-01 世界地圖
+description: ''
+scale: HG_WM-01 | 大範圍地圖 | 競技場全景 | 1格 = 約50m
+regions:
+- bounds:
+  - 350.0
+  - 265.0
+  - 100.0
+  - 70.0
+  fill: '#2a2a1a'
+  stroke: '#FFAA00'
+  name: 豐饒角
+- bounds:
+  - 80.0
+  - 80.0
+  - 160.0
+  - 100.0
+  fill: '#1a1a2a'
+  stroke: '#888'
+  name: 洞穴區域
+- bounds:
+  - 120.0
+  - 150.0
+  - 80.0
+  - 20.0
+  fill: '#301520'
+  stroke: '#EF4444'
+  name: GCC接線室(S-03)
+- bounds:
+  - 480.0
+  - 400.0
+  - 200.0
+  - 120.0
+  fill: '#1a2a10'
+  stroke: '#666'
+  name: 田野區域
+roads: []
+routes:
+- x1: 100.0
+  y1: 400.0
+  x2: 300.0
+  y2: 410.0
+  stroke: '#3B82F6'
+  stroke_width: '2'
+  dashed: true
+- x1: 520.0
+  y1: 490.0
+  x2: 640.0
+  y2: 490.0
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  dashed: true
+- x1: 400.0
+  y1: 300.0
+  x2: 400.0
+  y2: 240.0
+  stroke: '#00FF88'
+  stroke_width: '1.5'
+  dashed: true
+- x1: 450.0
+  y1: 300.0
+  x2: 520.0
+  y2: 260.0
+  stroke: '#FF4444'
+  stroke_width: '1'
+  dashed: true
+danger_zones:
+- center:
+  - 400.0
+  - 300.0
+  rx: 350.0
+  ry: 260.0
+  name: 豐饒角
+  fill: none
+  stroke: '#4a2a6a'
+- center:
+  - 400.0
+  - 300.0
+  rx: 330.0
+  ry: 240.0
+  name: 豐饒角
+  fill: none
+  stroke: '#FF4444'
+- center:
+  - 580.0
+  - 140.0
+  rx: 30.0
+  ry: 15.0
+  name: 水源點
+  fill: none
+  stroke: '#10B981'
+- center:
+  - 642.0
+  - 562.0
+  rx: 7.0
+  ry: 5.0
+  name: 職業貢品營地
+  fill: '#FF0000'
+  stroke: '#FF4444'
+landmarks:
+- center:
+  - 400.0
+  - 300.0
+  radius: 5.0
+  name: 豐饒角
+  fill: '#FFAA00'
+  stroke: ''
+  dashed: false
+- center:
+  - 400.0
+  - 300.0
+  radius: 45.0
+  name: 豐饒角
+  fill: none
+  stroke: '#aaa'
+  dashed: true
+- center:
+  - 480.0
+  - 280.0
+  radius: 25.0
+  name: 職業貢品營地
+  fill: '#FF0000'
+  stroke: '#FF4444'
+  dashed: false
+- center:
+  - 600.0
+  - 200.0
+  radius: 18.0
+  name: 凱妮絲藏身
+  fill: '#10B981'
+  stroke: '#10B981'
+  dashed: true
+- center:
+  - 250.0
+  - 300.0
+  radius: 12.0
+  name: 比德偽裝處
+  fill: '#F59E0B'
+  stroke: '#F59E0B'
+  dashed: true
+- center:
+  - 100.0
+  - 420.0
+  radius: 8.0
+  name: 變異獵犬閘門
+  fill: '#FF00FF'
+  stroke: '#FF00FF'
+  dashed: false
+- center:
+  - 700.0
+  - 250.0
+  radius: 8.0
+  name: 獵犬閘門
+  fill: '#FF00FF'
+  stroke: '#FF00FF'
+  dashed: false
+- center:
+  - 300.0
+  - 530.0
+  radius: 8.0
+  name: 獵犬閘門
+  fill: '#FF00FF'
+  stroke: '#FF00FF'
+  dashed: false
+- center:
+  - 642.0
+  - 580.0
+  radius: 3.0
+  name: 職業貢品營地
+  fill: '#FF00FF'
+  stroke: ''
+  dashed: false
+legend:
+- (Field--開闊/陷阱密集)
+- 圖 例
+- 豐饒角(物資中心)
+- 職業貢品營地
+- 變異獵犬閘門

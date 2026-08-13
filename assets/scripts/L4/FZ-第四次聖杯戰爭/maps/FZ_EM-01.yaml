@@ -1,0 +1,239 @@
+map_id: FZ_EM-01
+map_type: exploration
+scenario: 'Fate/Zero·第四次聖杯戰爭 / Fate/Zero: The 4th Holy Grail War'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 900
+- 640
+title: 冬木市關鍵地點 — 探索地圖
+description: ''
+floors:
+- name: 樓層 1
+  y: 0.0
+  rooms:
+  - bounds:
+    - 0.0
+    - 0.0
+    - 900.0
+    - 640.0
+    name: (令咒保管/隱藏資訊)
+    fill: '#1a1a2e'
+    stroke: ''
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 20.0
+    - 58.0
+    - 860.0
+    - 130.0
+    name: (SC03強制遭遇)
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 40.0
+    - 72.0
+    - 120.0
+    - 50.0
+    name: 大廳
+    fill: '#1a2a2a'
+    stroke: '#10B981'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 180.0
+    - 72.0
+    - 120.0
+    - 50.0
+    name: 召喚陣之間
+    fill: '#1a1030'
+    stroke: '#6D28D9'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 320.0
+    - 72.0
+    - 100.0
+    - 50.0
+    name: 書齋
+    fill: '#1a2a2a'
+    stroke: '#10B981'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 450.0
+    - 72.0
+    - 150.0
+    - 50.0
+    name: 森林·Caster戰
+    fill: '#301520'
+    stroke: '#EF4444'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 630.0
+    - 72.0
+    - 110.0
+    - 50.0
+    name: 撤退通道
+    fill: '#1a3020'
+    stroke: '#00FF88'
+    stroke_width: ''
+    rx: 3.0
+- name: 樓層 2
+  y: 218.0
+  rooms:
+  - bounds:
+    - 20.0
+    - 218.0
+    - 860.0
+    - 130.0
+    name: (令咒保管/隱藏資訊)
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 40.0
+    - 232.0
+    - 140.0
+    - 50.0
+    name: 教會正堂
+    fill: '#1a2a2a'
+    stroke: '#F59E0B'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 210.0
+    - 232.0
+    - 120.0
+    - 50.0
+    name: 言峰私室
+    fill: '#301520'
+    stroke: '#EF4444'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 360.0
+    - 232.0
+    - 120.0
+    - 50.0
+    name: 地下室
+    fill: '#1a1030'
+    stroke: '#6D28D9'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 510.0
+    - 232.0
+    - 120.0
+    - 50.0
+    name: 墓地
+    fill: '#1a2a2a'
+    stroke: '#888'
+    stroke_width: ''
+    rx: 3.0
+- name: 樓層 3
+  y: 378.0
+  rooms:
+  - bounds:
+    - 20.0
+    - 378.0
+    - 860.0
+    - 130.0
+    name: (安全區)
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 40.0
+    - 392.0
+    - 150.0
+    - 50.0
+    name: 山門
+    fill: '#301520'
+    stroke: '#FF4444'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 220.0
+    - 392.0
+    - 140.0
+    - 50.0
+    name: 大聖杯祭壇
+    fill: '#2E1A3E'
+    stroke: '#FD0304'
+    stroke_width: '2'
+    rx: 3.0
+  - bounds:
+    - 390.0
+    - 392.0
+    - 140.0
+    - 50.0
+    name: 本堂
+    fill: '#1a1030'
+    stroke: '#6D28D9'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 560.0
+    - 392.0
+    - 150.0
+    - 50.0
+    name: 後山·靈脈
+    fill: '#1a2020'
+    stroke: '#888'
+    stroke_width: ''
+    rx: 3.0
+- name: 樓層 4
+  y: 538.0
+  rooms:
+  - bounds:
+    - 20.0
+    - 538.0
+    - 860.0
+    - 85.0
+    name: ''
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 40.0
+    - 550.0
+    - 180.0
+    - 50.0
+    name: Caster工房入口（下水道）
+    fill: '#301520'
+    stroke: '#EF4444'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 260.0
+    - 550.0
+    - 200.0
+    - 50.0
+    name: 兒童監禁處
+    fill: '#301520'
+    stroke: '#EF4444'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 500.0
+    - 550.0
+    - 200.0
+    - 50.0
+    name: 螺湮城教本祭壇
+    fill: '#301520'
+    stroke: '#FF4444'
+    stroke_width: ''
+    rx: 3.0
+connections: []
+legend:
+- FZ_EM-01 | 探索地圖 | 冬木市關鍵區域 A~D
+notes: []

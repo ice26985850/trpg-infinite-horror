@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500" font-family="Microsoft JhengHei, sans-serif">
+<rect width="700" height="500" fill="#1a1a2e"/>
+<text x="350.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">霍格華茲城堡 — 探索地圖 (EM-01)</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 1</text>
+<rect x="20" y="0.0" width="660" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="700.0" height="500.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<rect x="30.0" y="55.0" width="640.0" height="420.0" rx="3.0" fill="#1a1a2e" stroke="#e67e22" stroke-width="1.5"/>
+<rect x="80.0" y="100.0" width="250.0" height="80.0" rx="3.0" fill="#3a3a5a" stroke="#e67e22" stroke-width="1.5"/>
+<text x="205.0" y="140.0" text-anchor="middle" fill="#aaa" font-size="9">A 大廳</text>
+<text x="20" y="205.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 2</text>
+<rect x="20" y="210.0" width="660" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="80.0" y="210.0" width="250.0" height="80.0" rx="3.0" fill="#4a3a4a" stroke="#e67e22" stroke-width="1.5"/>
+<text x="205.0" y="250.0" text-anchor="middle" fill="#aaa" font-size="9">B 圖書館</text>
+<text x="20" y="315.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 3</text>
+<rect x="20" y="320.0" width="660" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="80.0" y="320.0" width="250.0" height="80.0" rx="3.0" fill="#3a5a3a" stroke="#e67e22" stroke-width="1.5"/>
+<text x="205.0" y="360.0" text-anchor="middle" fill="#aaa" font-size="9">C 溫室</text>
+<text x="20" y="490" fill="#666" font-size="9">HP_EM-01 | 探索地圖 </text>
+</svg>

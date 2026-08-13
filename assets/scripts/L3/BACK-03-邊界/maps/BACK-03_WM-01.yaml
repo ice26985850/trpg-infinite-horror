@@ -1,0 +1,73 @@
+map_id: BACK-03_WM-01
+map_type: world
+scenario: '後室·邊界 / Backrooms: Border - Level 94'
+tier: L3
+difficulty: ★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: Level 94 — 動畫王國
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 100.0
+  - 90.0
+  - 600.0
+  - 400.0
+  fill: '#1a1a3e'
+  stroke: '#3a3a6e'
+  name: '[S05-Boss]'
+roads:
+- x1: 400.0
+  y1: 320.0
+  x2: 265.0
+  y2: 212.0
+  stroke: ''
+  stroke_width: '2'
+  dashed: false
+- x1: 400.0
+  y1: 320.0
+  x2: 535.0
+  y2: 212.0
+  stroke: ''
+  stroke_width: '2'
+  dashed: false
+- x1: 400.0
+  y1: 320.0
+  x2: 400.0
+  y2: 380.0
+  stroke: ''
+  stroke_width: '2'
+  dashed: false
+- x1: 400.0
+  y1: 400.0
+  x2: 400.0
+  y2: 280.0
+  stroke: '#cc3344'
+  stroke_width: '2'
+  dashed: false
+- x1: 595.0
+  y1: 548.0
+  x2: 620.0
+  y2: 548.0
+  stroke: ''
+  stroke_width: '2'
+  dashed: false
+routes: []
+danger_zones: []
+landmarks:
+- center:
+  - 400.0
+  - 265.0
+  radius: 50.0
+  name: 王座之間
+  fill: '#cc334410'
+  stroke: '#ff556640'
+  dashed: true
+legend:
+- 安全區/起始點
+- 危險區/戰鬥區
+- 路線

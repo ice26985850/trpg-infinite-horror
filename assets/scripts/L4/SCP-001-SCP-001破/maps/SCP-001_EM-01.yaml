@@ -1,0 +1,92 @@
+map_id: SCP-001_EM-01
+map_type: exploration
+scenario: 'SCP-001 破曉之時 / SCP-001: When Day Breaks'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 地下設施探索——詳細地圖
+description: ''
+floors:
+- name: 樓層 1
+  y: 0.0
+  rooms:
+  - bounds:
+    - 0.0
+    - 0.0
+    - 800.0
+    - 600.0
+    name: ''
+    fill: '#1a1a2e'
+    stroke: ''
+    stroke_width: ''
+    rx: 0.0
+- name: 樓層 2
+  y: 80.0
+  rooms:
+  - bounds:
+    - 100.0
+    - 80.0
+    - 300.0
+    - 100.0
+    name: A區：廢棄公寓地下室
+    fill: '#0d1a1a'
+    stroke: '#10B981'
+    stroke_width: '2'
+    rx: 5.0
+  - bounds:
+    - 450.0
+    - 80.0
+    - 250.0
+    - 100.0
+    name: C區：基金會前哨站
+    fill: '#0d0d1a'
+    stroke: '#3B82F6'
+    stroke_width: '2'
+    rx: 5.0
+- name: 樓層 3
+  y: 240.0
+  rooms:
+  - bounds:
+    - 100.0
+    - 240.0
+    - 300.0
+    - 120.0
+    name: B區：地下鐵路崩塌區
+    fill: '#1a1505'
+    stroke: '#F59E0B'
+    stroke_width: '2'
+    rx: 5.0
+- name: 樓層 4
+  y: 420.0
+  rooms:
+  - bounds:
+    - 100.0
+    - 420.0
+    - 600.0
+    - 120.0
+    name: D區：Site-19 入口防線
+    fill: '#1a0505'
+    stroke: '#EF4444'
+    stroke_width: '2'
+    rx: 5.0
+- name: 樓層 5
+  y: 500.0
+  rooms:
+  - bounds:
+    - 620.0
+    - 500.0
+    - 165.0
+    - 85.0
+    name: 圖例
+    fill: '#111'
+    stroke: '#333'
+    stroke_width: ''
+    rx: 4.0
+connections: []
+legend:
+- SCP-001_WM-01 | 大範圍地圖
+notes: []

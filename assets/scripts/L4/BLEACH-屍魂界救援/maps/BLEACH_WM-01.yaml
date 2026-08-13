@@ -1,0 +1,204 @@
+map_id: BLEACH_WM-01
+map_type: world
+scenario: '死神·屍魂界救援 / Bleach: Soul Society Rescue'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 瀞靈廷 (Seireitei)
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 200.0
+  - 120.0
+  - 400.0
+  - 360.0
+  fill: '#1a1030'
+  stroke: '#8B5CF6'
+  name: (最終目標)
+- bounds:
+  - 230.0
+  - 140.0
+  - 80.0
+  - 50.0
+  fill: '#1a2a30'
+  stroke: '#6D28D9'
+  name: 一番隊
+- bounds:
+  - 340.0
+  - 140.0
+  - 80.0
+  - 50.0
+  fill: '#1a2a30'
+  stroke: '#6D28D9'
+  name: 二番隊
+- bounds:
+  - 450.0
+  - 140.0
+  - 80.0
+  - 50.0
+  fill: '#1a2a30'
+  stroke: '#6D28D9'
+  name: 十一番隊
+- bounds:
+  - 230.0
+  - 220.0
+  - 80.0
+  - 50.0
+  fill: '#301520'
+  stroke: '#EF4444'
+  name: 六番隊/牢房
+- bounds:
+  - 340.0
+  - 220.0
+  - 80.0
+  - 50.0
+  fill: '#1a2a30'
+  stroke: '#6D28D9'
+  name: 四番隊
+- bounds:
+  - 450.0
+  - 220.0
+  - 80.0
+  - 50.0
+  fill: '#1a2a30'
+  stroke: '#6D28D9'
+  name: 八番隊
+- bounds:
+  - 230.0
+  - 350.0
+  - 80.0
+  - 50.0
+  fill: '#1a2a30'
+  stroke: '#6D28D9'
+  name: 十番隊
+- bounds:
+  - 340.0
+  - 350.0
+  - 80.0
+  - 50.0
+  fill: '#1a2a30'
+  stroke: '#6D28D9'
+  name: 十二番隊
+- bounds:
+  - 450.0
+  - 350.0
+  - 80.0
+  - 50.0
+  fill: '#1a2a30'
+  stroke: '#6D28D9'
+  name: 十三番隊
+- bounds:
+  - 350.0
+  - 480.0
+  - 100.0
+  - 25.0
+  fill: '#1a2020'
+  stroke: '#10B981'
+  name: 瀞靈門
+- bounds:
+  - 30.0
+  - 180.0
+  - 140.0
+  - 250.0
+  fill: '#151520'
+  stroke: '#555'
+  name: 志波家
+- bounds:
+  - 50.0
+  - 200.0
+  - 100.0
+  - 60.0
+  fill: '#1a2020'
+  stroke: '#3B82F6'
+  name: 空鶴邸
+- bounds:
+  - 50.0
+  - 280.0
+  - 100.0
+  - 40.0
+  fill: '#1a1030'
+  stroke: '#6D28D9'
+  name: 志波家
+- bounds:
+  - 620.0
+  - 380.0
+  - 150.0
+  - 100.0
+  fill: '#1a2a2a'
+  stroke: '#10B981'
+  name: (訓練場/起始點)
+roads: []
+routes:
+- x1: 680.0
+  y1: 400.0
+  x2: 600.0
+  y2: 400.0
+  stroke: '#C084FC'
+  stroke_width: '2'
+  dashed: true
+- x1: 600.0
+  y1: 400.0
+  x2: 450.0
+  y2: 490.0
+  stroke: '#C084FC'
+  stroke_width: '2'
+  dashed: true
+- x1: 400.0
+  y1: 490.0
+  x2: 400.0
+  y2: 320.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+- x1: 635.0
+  y1: 532.0
+  x2: 665.0
+  y2: 532.0
+  stroke: '#C084FC'
+  stroke_width: '2'
+  dashed: true
+- x1: 635.0
+  y1: 548.0
+  x2: 665.0
+  y2: 548.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+danger_zones:
+- center:
+  - 400.0
+  - 200.0
+  rx: 150.0
+  ry: 60.0
+  name: 二番隊
+  fill: none
+  stroke: '#FFAA00'
+landmarks:
+- center:
+  - 400.0
+  - 280.0
+  radius: 40.0
+  name: 雙殛之丘
+  fill: '#2E1A3E'
+  stroke: '#FF4444'
+  dashed: false
+- center:
+  - 400.0
+  - 280.0
+  radius: 15.0
+  name: 雙殛之丘
+  fill: none
+  stroke: '#FF4444'
+  dashed: true
+legend:
+- 浦原商店
+- (訓練場/起始點)
+- 圖例
+- 潛入路線
+- 最終突入路線
+- 巡邏區域

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+    <path d="M 25 0 L 0 0 0 25" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<rect x="20" y="20" width="760" height="560" fill="url(#grid)"/>
+<rect x="20" y="20" width="760" height="560" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="400.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">車廂內部 — 標準戰鬥地圖</text>
+<text x="25" y="592" fill="#666" font-size="9">TOB_BM-02 | 10×6格（概念） | 1格 = 5ft | 總 50×30ft</text>
+<text x="32.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="82.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="107.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="157.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="182.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="207.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="232.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="257.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="35.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="85.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="110.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="160.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<rect x="40.0" y="60.0" width="720.0" height="350.0" rx="3" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="3"/>
+<rect x="60.0" y="75.0" width="680.0" height="5.0" rx="5" fill="#334" stroke="#444" stroke-width="0.5"/>
+<text x="400.0" y="73.5" text-anchor="middle" fill="#aaa" font-size="8">車廂內部 — 標準戰鬥地圖</text>
+<text x="400.0" y="87.5" text-anchor="middle" fill="#666" font-size="6">(77.5, 12.5)ft</text>
+<rect x="55.0" y="340.0" width="60.0" height="50.0" rx="3" fill="#162040" stroke="#F59E0B" stroke-width="2"/>
+<text x="85.0" y="361.0" text-anchor="middle" fill="#aaa" font-size="8">前方車門</text>
+<text x="85.0" y="375.0" text-anchor="middle" fill="#666" font-size="6">(10.0, 70.0)ft</text>
+<rect x="685.0" y="340.0" width="60.0" height="50.0" rx="3" fill="#162040" stroke="#F59E0B" stroke-width="2"/>
+<text x="715.0" y="361.0" text-anchor="middle" fill="#aaa" font-size="8">後方車門</text>
+<text x="715.0" y="375.0" text-anchor="middle" fill="#666" font-size="6">(140.0, 70.0)ft</text>
+<rect x="55.0" y="435.0" width="20.0" height="15.0" rx="3" fill="#2a2a3e" stroke="#555" stroke-width=""/>
+<text x="65.0" y="438.5" text-anchor="middle" fill="#aaa" font-size="8">乘客座椅（半身掩體）</text>
+<text x="65.0" y="452.5" text-anchor="middle" fill="#666" font-size="6">(7.5, 87.5)ft</text>
+<rect x="55.0" y="458.0" width="20.0" height="5.0" rx="5" fill="#334" stroke="#444" stroke-width=""/>
+<text x="65.0" y="456.5" text-anchor="middle" fill="#aaa" font-size="8">行李架（可攀爬或擷取臨時武器）</text>
+<text x="65.0" y="470.5" text-anchor="middle" fill="#666" font-size="6">(7.5, 92.5)ft</text>
+<rect x="55.0" y="475.0" width="20.0" height="15.0" rx="3" fill="#162040" stroke="#F59E0B" stroke-width=""/>
+<text x="65.0" y="478.5" text-anchor="middle" fill="#aaa" font-size="8">車廂連接口（可開關）</text>
+<text x="65.0" y="492.5" text-anchor="middle" fill="#666" font-size="6">(7.5, 92.5)ft</text>
+<rect x="55.0" y="495.0" width="90.0" height="1.0" rx="5" fill="#3B82F6" stroke="" stroke-width=""/>
+<text x="100.0" y="491.5" text-anchor="middle" fill="#aaa" font-size="8">車廂連接口（可開關）</text>
+<text x="100.0" y="505.5" text-anchor="middle" fill="#666" font-size="6">(15.0, 97.5)ft</text>
+</svg>

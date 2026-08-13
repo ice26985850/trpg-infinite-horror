@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 420" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="500" height="420" fill="#1a1a2e"/>
+<rect x="20" y="20" width="460" height="380" fill="url(#grid)"/>
+<rect x="20" y="20" width="460" height="380" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="250.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">霍格華茲城堡 — 戰鬥地圖 (BM-02)</text>
+<text x="25" y="412" fill="#666" font-size="9">HP_BM-02 | 8×6格（概念） | 1格 = 5ft | 總 40×30ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<rect x="40.0" y="60.0" width="400.0" height="300.0" rx="3" fill="#2a3020" stroke="#e67e22" stroke-width="2"/>
+<text x="240.0" y="206.0" text-anchor="middle" fill="#aaa" font-size="8">BOSS</text>
+<text x="240.0" y="220.0" text-anchor="middle" fill="#666" font-size="6">(72.5, 65.0)ft</text>
+<rect x="200.0" y="100.0" width="150.0" height="150.0" rx="3" fill="#4a3a5a" stroke="#555" stroke-width="1"/>
+<text x="275.0" y="171.0" text-anchor="middle" fill="#aaa" font-size="8">核心區域</text>
+<text x="275.0" y="185.0" text-anchor="middle" fill="#666" font-size="6">(85.0, 50.0)ft</text>
+<rect x="80.0" y="300.0" width="50.0" height="30.0" rx="3" fill="none" stroke="#2ecc71" stroke-width="2"/>
+<text x="105.0" y="311.0" text-anchor="middle" fill="#aaa" font-size="8">起始</text>
+<text x="105.0" y="325.0" text-anchor="middle" fill="#666" font-size="6">(27.5, 100.0)ft</text>
+</svg>

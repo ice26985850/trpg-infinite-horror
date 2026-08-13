@@ -1,0 +1,365 @@
+map_id: HOTD_BM-02
+map_type: battle
+scenario: '學園默示錄·末日校園 / Highschool of the Dead: Academy of the Dead'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 680
+- 420
+title: 藤美商店街停車場 1F
+description: ''
+grid:
+  type: square
+  width: 12
+  height: 8
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20.0
+  - 20.0
+  total_width_ft: 60
+  total_height_ft: 40
+terrain:
+- bounds_px:
+  - 20.0
+  - 20.0
+  - 640.0
+  - 8.0
+  name: 藤美商店街停車場 1F
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 43
+  - 1
+  center_ft:
+  - 107.5
+  - 2.5
+- bounds_px:
+  - 20.0
+  - 392.0
+  - 640.0
+  - 8.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 25
+  - 43
+  - 1
+  center_ft:
+  - 107.5
+  - 127.5
+- bounds_px:
+  - 20.0
+  - 20.0
+  - 8.0
+  - 380.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 1
+  - 25
+  center_ft:
+  - 2.5
+  - 62.5
+- bounds_px:
+  - 652.0
+  - 20.0
+  - 8.0
+  - 380.0
+  name: 上坡道
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 42
+  - 0
+  - 1
+  - 25
+  center_ft:
+  - 212.5
+  - 62.5
+- bounds_px:
+  - 80.0
+  - 80.0
+  - 80.0
+  - 40.0
+  name: 廢棄轎車
+  fill: '#2a2a30'
+  stroke: '#555'
+  stroke_width: ''
+  bounds_grid:
+  - 4
+  - 4
+  - 5
+  - 3
+  center_ft:
+  - 32.5
+  - 27.5
+- bounds_px:
+  - 400.0
+  - 60.0
+  - 80.0
+  - 40.0
+  name: 貨車
+  fill: '#2a2a30'
+  stroke: '#555'
+  stroke_width: ''
+  bounds_grid:
+  - 25
+  - 3
+  - 5
+  - 3
+  center_ft:
+  - 137.5
+  - 22.5
+- bounds_px:
+  - 250.0
+  - 200.0
+  - 80.0
+  - 40.0
+  name: 油罐車
+  fill: '#2a2a20'
+  stroke: '#886600'
+  stroke_width: ''
+  bounds_grid:
+  - 15
+  - 12
+  - 5
+  - 3
+  center_ft:
+  - 87.5
+  - 67.5
+- bounds_px:
+  - 500.0
+  - 250.0
+  - 80.0
+  - 40.0
+  name: SUV
+  fill: '#2a2a30'
+  stroke: '#555'
+  stroke_width: ''
+  bounds_grid:
+  - 32
+  - 15
+  - 5
+  - 3
+  center_ft:
+  - 172.5
+  - 82.5
+- bounds_px:
+  - 100.0
+  - 320.0
+  - 80.0
+  - 40.0
+  name: 摩托車
+  fill: '#2a2a30'
+  stroke: '#555'
+  stroke_width: ''
+  bounds_grid:
+  - 5
+  - 20
+  - 5
+  - 3
+  center_ft:
+  - 37.5
+  - 107.5
+- bounds_px:
+  - 580.0
+  - 120.0
+  - 60.0
+  - 260.0
+  name: 上坡道
+  fill: '#1a2a20'
+  stroke: '#10B981'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 37
+  - 7
+  - 4
+  - 17
+  center_ft:
+  - 195.0
+  - 77.5
+- bounds_px:
+  - 400.0
+  - 350.0
+  - 100.0
+  - 40.0
+  name: 商店街入口
+  fill: '#301520'
+  stroke: '#EF4444'
+  stroke_width: '2'
+  bounds_grid:
+  - 25
+  - 22
+  - 7
+  - 3
+  center_ft:
+  - 142.5
+  - 117.5
+- bounds_px:
+  - 510.0
+  - 160.0
+  - 50.0
+  - 20.0
+  name: 往3F撤離
+  fill: '#00FF88'
+  stroke: '#00FF88'
+  stroke_width: ''
+  bounds_grid:
+  - 33
+  - 9
+  - 3
+  - 1
+  center_ft:
+  - 172.5
+  - 47.5
+- bounds_px:
+  - 505.0
+  - 164.0
+  - 60.0
+  - 20.0
+  name: (172.5, 47.5)ft
+  fill: '#00FF88'
+  stroke: '#00FF88'
+  stroke_width: ''
+  bounds_grid:
+  - 32
+  - 10
+  - 4
+  - 1
+  center_ft:
+  - 170.0
+  - 52.5
+- bounds_px:
+  - 505.0
+  - 168.0
+  - 60.0
+  - 20.0
+  name: (172.5, 47.5)ft
+  fill: '#00FF88'
+  stroke: '#00FF88'
+  stroke_width: ''
+  bounds_grid:
+  - 32
+  - 10
+  - 4
+  - 1
+  center_ft:
+  - 170.0
+  - 52.5
+- bounds_px:
+  - 505.0
+  - 172.0
+  - 60.0
+  - 20.0
+  name: (172.5, 47.5)ft
+  fill: '#00FF88'
+  stroke: '#00FF88'
+  stroke_width: ''
+  bounds_grid:
+  - 32
+  - 10
+  - 4
+  - 1
+  center_ft:
+  - 170.0
+  - 52.5
+spawn_points:
+  players:
+  - px:
+    - 53.333333333333336
+    - 380.0
+    name: 玩家入口
+    fill: '#00FF88'
+    grid:
+    - 2
+    - 24
+  enemies:
+  - px:
+    - 130.0
+    - 60.0
+    radius: 8.0
+    name: 死體
+    grid:
+    - 7
+    - 3
+    distance_from_player_ft: null
+  - px:
+    - 300.0
+    - 130.0
+    radius: 8.0
+    name: 死體
+    grid:
+    - 19
+    - 7
+    distance_from_player_ft: null
+  - px:
+    - 480.0
+    - 100.0
+    radius: 8.0
+    name: 死體
+    grid:
+    - 31
+    - 5
+    distance_from_player_ft: null
+  - px:
+    - 550.0
+    - 330.0
+    radius: 8.0
+    name: 死體
+    grid:
+    - 35
+    - 21
+    distance_from_player_ft: null
+entry_points: []
+boundary: []
+objective:
+  description: 往3F撤離
+  position_px:
+  - 535.0
+  - 186.0
+key_distances:
+- from: 藤美商店街停車場 1F
+  to: ''
+  distance_ft: 125.0
+- from: 藤美商店街停車場 1F
+  to: ''
+  distance_ft: 120.9
+- from: 藤美商店街停車場 1F
+  to: 上坡道
+  distance_ft: 120.9
+- from: 藤美商店街停車場 1F
+  to: 廢棄轎車
+  distance_ft: 79.1
+- from: 藤美商店街停車場 1F
+  to: 貨車
+  distance_ft: 36.1
+- from: 藤美商店街停車場 1F
+  to: 油罐車
+  distance_ft: 68.0
+- from: 藤美商店街停車場 1F
+  to: SUV
+  distance_ft: 103.1
+- from: 藤美商店街停車場 1F
+  to: 摩托車
+  distance_ft: 126.2
+- from: 藤美商店街停車場 1F
+  to: 上坡道
+  distance_ft: 115.2
+- from: 藤美商店街停車場 1F
+  to: 商店街入口
+  distance_ft: 120.2

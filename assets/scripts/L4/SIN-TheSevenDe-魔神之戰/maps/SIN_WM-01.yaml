@@ -1,0 +1,60 @@
+map_id: SIN_WM-01
+map_type: world
+scenario: '七大罪·魔神之戰 / The Seven Deadly Sins: War of the Demon King'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 布里塔尼亞——十誡與七大罪
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 200.0
+  - 50.0
+  - 400.0
+  - 100.0
+  fill: '#0d1a1a'
+  stroke: '#10B981'
+  name: 豬帽子亭（據點）
+- bounds:
+  - 200.0
+  - 200.0
+  - 400.0
+  - 100.0
+  fill: '#1a0505'
+  stroke: '#EF4444'
+  name: 十誡巢穴（敵方）
+- bounds:
+  - 200.0
+  - 350.0
+  - 400.0
+  - 150.0
+  fill: '#1a0505'
+  stroke: '#FF4444'
+  name: 魔神王封印之地（最終）
+roads: []
+routes:
+- x1: 400.0
+  y1: 150.0
+  x2: 400.0
+  y2: 200.0
+  stroke: '#C084FC'
+  stroke_width: '2'
+  dashed: true
+- x1: 400.0
+  y1: 300.0
+  x2: 400.0
+  y2: 350.0
+  stroke: '#C084FC'
+  stroke_width: '2'
+  dashed: true
+danger_zones: []
+landmarks: []
+legend:
+- 圖例
+- 箭頭 = 推薦路線
+- 紅色區域 = 最終目標

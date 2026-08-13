@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" font-family="Microsoft JhengHei, sans-serif">
+<rect width="1000" height="640" fill="#1a1a2e"/>
+<text x="500.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">KTX 列車 15 節車廂平面圖 — 探索地圖</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 1</text>
+<rect x="20" y="0.0" width="960" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="1000.0" height="640.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<text x="500.0" y="320.0" text-anchor="middle" fill="#aaa" font-size="9">TOB_EM-01 | 探索地圖 | 列車 15 節車廂 | 車頭→車尾</text>
+<rect x="20.0" y="40.0" width="960.0" height="80.0" rx="8.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="2"/>
+<text x="500.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">9號車廂</text>
+<rect x="22.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#162040" stroke="#3B82F6" stroke-width="1.5"/>
+<text x="50.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">1號車廂</text>
+<rect x="82.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="110.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">一般</text>
+<rect x="142.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="170.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">一般</text>
+<rect x="202.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="230.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">4號車廂</text>
+<rect x="262.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="290.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">5號車廂</text>
+<rect x="322.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#301520" stroke="#EF4444" stroke-width="2"/>
+<text x="350.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">6號車廂</text>
+<rect x="382.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#301520" stroke="#EF4444" stroke-width="1"/>
+<text x="410.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">7號</text>
+<rect x="442.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#301520" stroke="#EF4444" stroke-width="1"/>
+<text x="470.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">8號</text>
+<rect x="502.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#1a1030" stroke="#F59E0B" stroke-width="1.5"/>
+<text x="530.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">9號車廂</text>
+<rect x="562.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#301520" stroke="#EF4444" stroke-width="2"/>
+<text x="590.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">10號車廂</text>
+<rect x="622.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#1a3020" stroke="#10B981" stroke-width="2"/>
+<text x="650.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">11號</text>
+<rect x="682.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#1a1030" stroke="#F59E0B" stroke-width="1.5"/>
+<text x="710.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">12號車廂</text>
+<rect x="742.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="770.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">13號車廂</text>
+<rect x="802.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="830.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">14號車廂</text>
+<rect x="862.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="890.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">15號車廂</text>
+<text x="20" y="155.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 2</text>
+<rect x="20" y="160.0" width="960" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="160.0" width="320.0" height="170.0" rx="4.0" fill="#0d0d1a" stroke="#333" stroke-width=""/>
+<text x="180.0" y="245.0" text-anchor="middle" fill="#aaa" font-size="9">車頭區域（1～5號車廂）</text>
+<rect x="355.0" y="160.0" width="290.0" height="170.0" rx="4.0" fill="#0d0d1a" stroke="#333" stroke-width=""/>
+<text x="500.0" y="245.0" text-anchor="middle" fill="#aaa" font-size="9">中段感染區（6～10號車廂）</text>
+<rect x="660.0" y="160.0" width="320.0" height="170.0" rx="4.0" fill="#0d0d1a" stroke="#333" stroke-width=""/>
+<text x="820.0" y="245.0" text-anchor="middle" fill="#aaa" font-size="9">車尾區域（11～15號車廂）</text>
+<text x="20" y="285.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 3</text>
+<rect x="20" y="290.0" width="960" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="35.0" y="290.0" width="60.0" height="12.0" rx="2.0" fill="#10B981" stroke="" stroke-width=""/>
+<text x="65.0" y="296.0" text-anchor="middle" fill="#aaa" font-size="9">相對安全</text>
+<rect x="370.0" y="290.0" width="60.0" height="12.0" rx="2.0" fill="#EF4444" stroke="" stroke-width=""/>
+<text x="400.0" y="296.0" text-anchor="middle" fill="#aaa" font-size="9">高度危險</text>
+<rect x="675.0" y="290.0" width="60.0" height="12.0" rx="2.0" fill="#F59E0B" stroke="" stroke-width=""/>
+<text x="705.0" y="296.0" text-anchor="middle" fill="#aaa" font-size="9">暫時安全</text>
+<rect x="20.0" y="345.0" width="960.0" height="65.0" rx="4.0" fill="#111" stroke="#333" stroke-width=""/>
+<text x="500.0" y="377.5" text-anchor="middle" fill="#aaa" font-size="9">TOB_EM-01 | 探索地圖 | 列車 15 節車廂 | 車頭→車尾</text>
+<rect x="130.0" y="363.0" width="14.0" height="12.0" rx="0.0" fill="#EF4444" stroke="#EF4444" stroke-width=""/>
+<text x="137.0" y="369.0" text-anchor="middle" fill="#aaa" font-size="9">感染區</text>
+<rect x="220.0" y="363.0" width="14.0" height="12.0" rx="0.0" fill="#F59E0B" stroke="#F59E0B" stroke-width=""/>
+<text x="227.0" y="369.0" text-anchor="middle" fill="#aaa" font-size="9">NPC所在</text>
+<rect x="310.0" y="363.0" width="14.0" height="12.0" rx="0.0" fill="#162040" stroke="#3B82F6" stroke-width=""/>
+<text x="317.0" y="369.0" text-anchor="middle" fill="#aaa" font-size="9">關鍵地點</text>
+<rect x="20" y="585" width="960" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="610" fill="#aaa" font-size="9">高度危險</text>
+<text x="205" y="610" fill="#aaa" font-size="9">• 11號：起始車廂——輪迴者甦醒點 (S01)</text>
+<text x="375" y="610" fill="#aaa" font-size="9">起始點/安全區</text>
+<text x="545" y="610" fill="#aaa" font-size="9">TOB_EM-01 | 探索地圖 | 列車 15 節車廂 | 車頭→車尾</text>
+<text x="20" y="630" fill="#666" font-size="9">TOB_EM-01 | 探索地圖 </text>
+</svg>

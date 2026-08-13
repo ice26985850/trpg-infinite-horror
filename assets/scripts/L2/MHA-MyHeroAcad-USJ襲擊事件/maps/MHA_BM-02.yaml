@@ -1,0 +1,215 @@
+map_id: MHA_BM-02
+map_type: battle
+scenario: '我的英雄學院·USJ襲擊事件 / My Hero Academia: USJ Incident'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 中央廣場最終戰場 (BM-02) — 14x10 格線 | 1格=5ft
+description: ''
+grid:
+  type: square
+  width: 14
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 70
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 50.0
+  - 50.0
+  - 700.0
+  - 500.0
+  name: 噴泉廣場(中央)
+  fill: '#1a1410'
+  stroke: '#4B0082'
+  stroke_width: '3'
+  bounds_grid:
+  - 2
+  - 2
+  - 47
+  - 33
+  center_ft:
+  - 127.5
+  - 92.5
+- bounds_px:
+  - 50.0
+  - 50.0
+  - 200.0
+  - 150.0
+  name: 城市街景(掩體)
+  fill: '#2a2a3a'
+  stroke: '#9b59b6'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 2
+  - 2
+  - 13
+  - 10
+  center_ft:
+  - 42.5
+  - 35.0
+- bounds_px:
+  - 250.0
+  - 150.0
+  - 50.0
+  - 50.0
+  name: 倒塌路燈(障礙)
+  fill: '#3a2a1a'
+  stroke: '#9b59b6'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 15
+  - 9
+  - 3
+  - 3
+  center_ft:
+  - 82.5
+  - 52.5
+- bounds_px:
+  - 300.0
+  - 200.0
+  - 200.0
+  - 200.0
+  name: 噴泉廣場(中央)
+  fill: '#1a2a4a'
+  stroke: '#9b59b6'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 19
+  - 12
+  - 13
+  - 13
+  center_ft:
+  - 127.5
+  - 92.5
+- bounds_px:
+  - 300.0
+  - 50.0
+  - 100.0
+  - 100.0
+  name: 相澤重傷位置
+  fill: '#e74c3c30'
+  stroke: '#9b59b6'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 19
+  - 2
+  - 7
+  - 7
+  center_ft:
+  - 112.5
+  - 27.5
+- bounds_px:
+  - 350.0
+  - 250.0
+  - 150.0
+  - 150.0
+  name: 腦無起始位置
+  fill: '#e74c3c40'
+  stroke: '#9b59b6'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 22
+  - 15
+  - 10
+  - 10
+  center_ft:
+  - 135.0
+  - 100.0
+- bounds_px:
+  - 550.0
+  - 50.0
+  - 150.0
+  - 150.0
+  name: 死柄木後方位置
+  fill: '#9b59b630'
+  stroke: '#9b59b6'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 35
+  - 2
+  - 10
+  - 10
+  center_ft:
+  - 200.0
+  - 35.0
+- bounds_px:
+  - 600.0
+  - 300.0
+  - 150.0
+  - 150.0
+  name: 建築殘骸(掩體)
+  fill: '#2a2a2a'
+  stroke: '#9b59b6'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 39
+  - 19
+  - 10
+  - 10
+  center_ft:
+  - 220.0
+  - 120.0
+- bounds_px:
+  - 50.0
+  - 400.0
+  - 250.0
+  - 100.0
+  name: 歐爾麥特進場路徑
+  fill: '#3498db20'
+  stroke: '#9b59b6'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 2
+  - 25
+  - 17
+  - 7
+  center_ft:
+  - 52.5
+  - 142.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 噴泉廣場(中央)
+  to: 城市街景(掩體)
+  distance_ft: 102.6
+- from: 噴泉廣場(中央)
+  to: 倒塌路燈(障礙)
+  distance_ft: 60.2
+- from: 噴泉廣場(中央)
+  to: 相澤重傷位置
+  distance_ft: 66.7
+- from: 噴泉廣場(中央)
+  to: 腦無起始位置
+  distance_ft: 10.6
+- from: 噴泉廣場(中央)
+  to: 死柄木後方位置
+  distance_ft: 92.5
+- from: 噴泉廣場(中央)
+  to: 建築殘骸(掩體)
+  distance_ft: 96.5
+- from: 噴泉廣場(中央)
+  to: 歐爾麥特進場路徑
+  distance_ft: 90.1
+- from: 城市街景(掩體)
+  to: 倒塌路燈(障礙)
+  distance_ft: 43.7
+- from: 城市街景(掩體)
+  to: 噴泉廣場(中央)
+  distance_ft: 102.6
+- from: 城市街景(掩體)
+  to: 相澤重傷位置
+  distance_ft: 70.4

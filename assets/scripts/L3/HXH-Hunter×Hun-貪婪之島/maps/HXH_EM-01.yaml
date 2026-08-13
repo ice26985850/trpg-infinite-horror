@@ -1,0 +1,30 @@
+map_id: HXH_EM-01
+map_type: exploration
+scenario: '獵人·貪婪之島 / Hunter × Hunter: Greed Island'
+tier: L3
+difficulty: ★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: HXH_EM-01 探索地圖
+description: ''
+floors:
+- name: 樓層 1
+  y: 0.0
+  rooms:
+  - bounds:
+    - 0.0
+    - 0.0
+    - 390.0
+    - 600.0
+    name: 指定卡片
+    fill: '#0d1030'
+    stroke: ''
+    stroke_width: ''
+    rx: 0.0
+connections: []
+legend:
+- 危險區域
+notes: []

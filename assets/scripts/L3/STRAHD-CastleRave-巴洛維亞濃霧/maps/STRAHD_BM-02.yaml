@@ -1,0 +1,181 @@
+map_id: STRAHD_BM-02
+map_type: battle
+scenario: '鴉閣城·巴洛維亞濃霧 / Castle Ravenloft: The Mists of Barovia'
+tier: L3
+difficulty: ★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: STRAHD_BM-02 戰鬥地圖
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 30.0
+  - 30.0
+  - 740.0
+  - 540.0
+  name: ''
+  fill: none
+  stroke: '#4a4a7e'
+  stroke_width: '2'
+  bounds_grid:
+  - 1
+  - 1
+  - 49
+  - 36
+  center_ft:
+  - 127.5
+  - 95.0
+- bounds_px:
+  - 40.0
+  - 400.0
+  - 120.0
+  - 160.0
+  name: 玩家起始區
+  fill: '#00FF88'
+  stroke: '#00FF88'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 1
+  - 25
+  - 8
+  - 11
+  center_ft:
+  - 25.0
+  - 152.5
+- bounds_px:
+  - 600.0
+  - 40.0
+  - 160.0
+  - 120.0
+  name: 敵方出沒區
+  fill: '#FF4444'
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 39
+  - 1
+  - 11
+  - 8
+  center_ft:
+  - 222.5
+  - 25.0
+- bounds_px:
+  - 300.0
+  - 100.0
+  - 200.0
+  - 40.0
+  name: 宴會長桌
+  fill: '#3a2a4e'
+  stroke: '#6a4a8e'
+  stroke_width: '1'
+  bounds_grid:
+  - 19
+  - 5
+  - 13
+  - 3
+  center_ft:
+  - 127.5
+  - 32.5
+- bounds_px:
+  - 150.0
+  - 250.0
+  - 80.0
+  - 80.0
+  name: 石柱
+  fill: '#3a2a4e'
+  stroke: '#6a4a8e'
+  stroke_width: '1'
+  bounds_grid:
+  - 9
+  - 15
+  - 5
+  - 5
+  center_ft:
+  - 57.5
+  - 87.5
+- bounds_px:
+  - 500.0
+  - 250.0
+  - 80.0
+  - 80.0
+  name: 石柱
+  fill: '#3a2a4e'
+  stroke: '#6a4a8e'
+  stroke_width: '1'
+  bounds_grid:
+  - 32
+  - 15
+  - 5
+  - 5
+  center_ft:
+  - 172.5
+  - 87.5
+- bounds_px:
+  - 350.0
+  - 400.0
+  - 100.0
+  - 60.0
+  name: 王座
+  fill: '#3a2a4e'
+  stroke: '#6a4a8e'
+  stroke_width: '1'
+  bounds_grid:
+  - 22
+  - 25
+  - 7
+  - 4
+  center_ft:
+  - 127.5
+  - 135.0
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: ''
+  to: 玩家起始區
+  distance_ft: 117.5
+- from: ''
+  to: 敵方出沒區
+  distance_ft: 118.0
+- from: ''
+  to: 宴會長桌
+  distance_ft: 62.5
+- from: ''
+  to: 石柱
+  distance_ft: 70.4
+- from: ''
+  to: 石柱
+  distance_ft: 45.6
+- from: ''
+  to: 王座
+  distance_ft: 40.0
+- from: 玩家起始區
+  to: 敵方出沒區
+  distance_ft: 235.1
+- from: 玩家起始區
+  to: 宴會長桌
+  distance_ft: 157.8
+- from: 玩家起始區
+  to: 石柱
+  distance_ft: 72.7
+- from: 玩家起始區
+  to: 石柱
+  distance_ft: 161.2

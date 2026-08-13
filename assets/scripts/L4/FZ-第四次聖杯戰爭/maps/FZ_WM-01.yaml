@@ -1,0 +1,149 @@
+map_id: FZ_WM-01
+map_type: world
+scenario: 'Fate/Zero·第四次聖杯戰爭 / Fate/Zero: The 4th Holy Grail War'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 冬木市 — 第四次聖杯戰爭全圖
+description: ''
+scale: FZ_WM-01 | 大範圍地圖 | 冬木市全景 (1格 ≈ 200m)
+regions:
+- bounds:
+  - 0.0
+  - 250.0
+  - 800.0
+  - 80.0
+  fill: '#1a2a3a'
+  stroke: ''
+  name: 冬木大橋
+- bounds:
+  - 350.0
+  - 275.0
+  - 100.0
+  - 30.0
+  fill: '#334'
+  stroke: '#888'
+  name: 冬木大橋
+- bounds:
+  - 50.0
+  - 55.0
+  - 300.0
+  - 180.0
+  fill: '#151530'
+  stroke: '#6D28D9'
+  name: ''
+- bounds:
+  - 70.0
+  - 70.0
+  - 120.0
+  - 60.0
+  fill: '#1a2a2a'
+  stroke: '#3B82F6'
+  name: 市民會館
+- bounds:
+  - 220.0
+  - 70.0
+  - 110.0
+  - 60.0
+  fill: '#1a1030'
+  stroke: '#6D28D9'
+  name: 海濱公園
+- bounds:
+  - 70.0
+  - 150.0
+  - 120.0
+  - 50.0
+  fill: '#301520'
+  stroke: '#EF4444'
+  name: 凱悅酒店
+- bounds:
+  - 220.0
+  - 150.0
+  - 110.0
+  - 50.0
+  fill: '#1a1030'
+  stroke: '#6D28D9'
+  name: 冬木教會
+- bounds:
+  - 450.0
+  - 55.0
+  - 300.0
+  - 180.0
+  fill: '#151530'
+  stroke: '#6D28D9'
+  name: ''
+- bounds:
+  - 470.0
+  - 70.0
+  - 130.0
+  - 60.0
+  fill: '#1a2a2a'
+  stroke: '#10B981'
+  name: 衛宮邸
+- bounds:
+  - 620.0
+  - 70.0
+  - 110.0
+  - 60.0
+  fill: '#1a2020'
+  stroke: '#F59E0B'
+  name: 遠坂邸
+- bounds:
+  - 470.0
+  - 150.0
+  - 130.0
+  - 50.0
+  fill: '#1a1020'
+  stroke: '#884488'
+  name: 間桐邸
+- bounds:
+  - 620.0
+  - 150.0
+  - 110.0
+  - 50.0
+  fill: '#301520'
+  stroke: '#EF4444'
+  name: 柳洞寺
+- bounds:
+  - 50.0
+  - 380.0
+  - 160.0
+  - 100.0
+  fill: '#1a2a2a'
+  stroke: '#10B981'
+  name: (森林據點/Saber召喚地)
+- bounds:
+  - 550.0
+  - 380.0
+  - 180.0
+  - 100.0
+  fill: '#301520'
+  stroke: '#EF4444'
+  name: (地下水道/兒童綁架處)
+roads: []
+routes:
+- x1: 180.0
+  y1: 410.0
+  x2: 350.0
+  y2: 290.0
+  stroke: '#C084FC'
+  stroke_width: '2'
+  dashed: true
+- x1: 350.0
+  y1: 280.0
+  x2: 620.0
+  y2: 150.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+danger_zones: []
+landmarks: []
+legend:
+- 遠坂邸
+- 柳洞寺
+- Caster地下工房
+- (地下水道/兒童綁架處)

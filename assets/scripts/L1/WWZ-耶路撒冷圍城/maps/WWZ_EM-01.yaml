@@ -1,0 +1,178 @@
+map_id: WWZ_EM-01
+map_type: exploration
+scenario: '末日之戰·耶路撒冷圍城 / World War Z: Siege of Jerusalem'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 探索地圖
+description: ''
+floors:
+- name: 地下1層（B1F）
+  y: 0.0
+  rooms:
+  - bounds:
+    - 0.0
+    - 0.0
+    - 800.0
+    - 600.0
+    name: ''
+    fill: '#1a1a2e'
+    stroke: ''
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 15.0
+    - 60.0
+    - 770.0
+    - 130.0
+    name: (糧水物資)
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 25.0
+    - 75.0
+    - 120.0
+    - 55.0
+    name: 起始大廳
+    fill: '#1a1030'
+    stroke: '#6D28D9'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 165.0
+    - 75.0
+    - 90.0
+    - 55.0
+    name: 通訊室
+    fill: '#1a2a30'
+    stroke: '#3B82F6'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 275.0
+    - 75.0
+    - 80.0
+    - 55.0
+    name: 醫療站
+    fill: '#301520'
+    stroke: '#EF4444'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 375.0
+    - 75.0
+    - 100.0
+    - 55.0
+    name: 儲藏室
+    fill: '#1a2a20'
+    stroke: '#10B981'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 495.0
+    - 75.0
+    - 70.0
+    - 55.0
+    name: 樓梯
+    fill: '#162040'
+    stroke: '#F59E0B'
+    stroke_width: '1.5'
+    rx: 3.0
+- name: 地上1層（1F）
+  y: 220.0
+  rooms:
+  - bounds:
+    - 15.0
+    - 220.0
+    - 770.0
+    - 100.0
+    name: ''
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 25.0
+    - 225.0
+    - 140.0
+    - 50.0
+    name: 避難所大門
+    fill: '#301520'
+    stroke: '#EF4444'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 495.0
+    - 225.0
+    - 70.0
+    - 50.0
+    name: 樓梯
+    fill: '#162040'
+    stroke: '#F59E0B'
+    stroke_width: '1.5'
+    rx: 3.0
+- name: →B1F
+  y: 360.0
+  rooms:
+  - bounds:
+    - 15.0
+    - 360.0
+    - 770.0
+    - 35.0
+    name: ''
+    fill: '#111'
+    stroke: '#333'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 83.0
+    - 371.0
+    - 14.0
+    - 12.0
+    name: 危險區
+    fill: '#EF4444'
+    stroke: '#EF4444'
+    stroke_width: '1'
+    rx: 0.0
+  - bounds:
+    - 143.0
+    - 371.0
+    - 14.0
+    - 12.0
+    name: 通道
+    fill: '#F59E0B'
+    stroke: '#F59E0B'
+    stroke_width: '1'
+    rx: 0.0
+  - bounds:
+    - 193.0
+    - 371.0
+    - 14.0
+    - 12.0
+    name: 支線
+    fill: '#3B82F6'
+    stroke: '#3B82F6'
+    stroke_width: '1'
+    rx: 0.0
+  - bounds:
+    - 243.0
+    - 371.0
+    - 14.0
+    - 12.0
+    name: 物資
+    fill: '#10B981'
+    stroke: '#10B981'
+    stroke_width: '1'
+    rx: 0.0
+connections: []
+legend:
+- 起始點
+- 危險區
+- WWZ_EM-01 | 探索地圖
+notes: []

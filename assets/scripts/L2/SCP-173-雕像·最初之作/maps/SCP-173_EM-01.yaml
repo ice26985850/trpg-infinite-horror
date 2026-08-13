@@ -1,0 +1,150 @@
+map_id: SCP-173_EM-01
+map_type: exploration
+scenario: 'SCP-173·雕像·最初之作 / SCP-173: The Sculpture - The Original'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 680
+- 500
+title: SCP-173·雕像·最初之作 — 探索地圖
+description: ''
+floors:
+- name: 樓層 1
+  y: 0.0
+  rooms:
+  - bounds:
+    - 0.0
+    - 0.0
+    - 680.0
+    - 500.0
+    name: (探索點)
+    fill: '#0d0d0d'
+    stroke: ''
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 30.0
+    - 50.0
+    - 620.0
+    - 420.0
+    name: (探索點)
+    fill: none
+    stroke: '#FCA5A5'
+    stroke_width: '1.5'
+    rx: 0.0
+  - bounds:
+    - 70.0
+    - 80.0
+    - 100.0
+    - 70.0
+    name: 起始區域
+    fill: '#DC2626'
+    stroke: '#F59E0B'
+    stroke_width: '2'
+    rx: 5.0
+  - bounds:
+    - 50.0
+    - 120.0
+    - 580.0
+    - 40.0
+    name: 主要通道
+    fill: '#DC2626'
+    stroke: '#DC2626'
+    stroke_width: '1'
+    rx: 3.0
+  - bounds:
+    - 250.0
+    - 190.0
+    - 120.0
+    - 80.0
+    name: (探索點)
+    fill: '#DC2626'
+    stroke: '#FCA5A5'
+    stroke_width: '1'
+    rx: 5.0
+  - bounds:
+    - 450.0
+    - 190.0
+    - 120.0
+    - 80.0
+    name: 關鍵地點 B
+    fill: '#DC2626'
+    stroke: '#FCA5A5'
+    stroke_width: '1'
+    rx: 5.0
+- name: 樓層 2
+  y: 320.0
+  rooms:
+  - bounds:
+    - 250.0
+    - 320.0
+    - 120.0
+    - 80.0
+    name: 遭遇點
+    fill: '#EF4444'
+    stroke: '#EF4444'
+    stroke_width: '1'
+    rx: 5.0
+  - bounds:
+    - 450.0
+    - 320.0
+    - 120.0
+    - 80.0
+    name: 安全區
+    fill: '#3B82F6'
+    stroke: '#3B82F6'
+    stroke_width: '1'
+    rx: 5.0
+- name: 樓層 3
+  y: 450.0
+  rooms:
+  - bounds:
+    - 30.0
+    - 450.0
+    - 350.0
+    - 40.0
+    name: 安全區
+    fill: '#111'
+    stroke: '#333'
+    stroke_width: ''
+    rx: 4.0
+  - bounds:
+    - 45.0
+    - 460.0
+    - 15.0
+    - 10.0
+    name: 起始點
+    fill: '#F59E0B'
+    stroke: '#F59E0B'
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 110.0
+    - 460.0
+    - 15.0
+    - 10.0
+    name: 危險區域
+    fill: '#EF4444'
+    stroke: '#EF4444'
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 200.0
+    - 460.0
+    - 15.0
+    - 10.0
+    name: 安全區
+    fill: '#3B82F6'
+    stroke: '#3B82F6'
+    stroke_width: ''
+    rx: 0.0
+connections: []
+legend:
+- 起始區域
+- 危險區域
+- 起始點
+- 危險區域
+- SCP-173_EM-01 | 探索地圖 | 1格 ≈ 5m
+notes: []

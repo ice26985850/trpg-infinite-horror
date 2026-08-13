@@ -1,0 +1,147 @@
+map_id: HG_BM-02
+map_type: battle
+scenario: '飢餓遊戲·競技場求生 / The Hunger Games: Arena Survival'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 680
+- 480
+title: 森林據點 -- 追逐戰場
+description: ''
+grid:
+  type: square
+  width: 12
+  height: 8
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20.0
+  - 20.0
+  total_width_ft: 60
+  total_height_ft: 40
+terrain:
+- bounds_px:
+  - 20.0
+  - 20.0
+  - 640.0
+  - 440.0
+  name: 大橡樹
+  fill: '#0a150a'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 43
+  - 29
+  center_ft:
+  - 107.5
+  - 72.5
+- bounds_px:
+  - 460.0
+  - 280.0
+  - 40.0
+  - 40.0
+  name: 空心樹洞
+  fill: none
+  stroke: '#F59E0B'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 29
+  - 17
+  - 3
+  - 3
+  center_ft:
+  - 152.5
+  - 92.5
+- bounds_px:
+  - 530.0
+  - 50.0
+  - 100.0
+  - 30.0
+  name: 職業貢品小隊
+  fill: '#301520'
+  stroke: '#EF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 34
+  - 2
+  - 7
+  - 2
+  center_ft:
+  - 187.5
+  - 15.0
+- bounds_px:
+  - 320.0
+  - 370.0
+  - 50.0
+  - 25.0
+  name: 物資藏匿
+  fill: '#1a2a20'
+  stroke: '#FFAA00'
+  stroke_width: ''
+  bounds_grid:
+  - 20
+  - 23
+  - 3
+  - 2
+  center_ft:
+  - 107.5
+  - 120.0
+- bounds_px:
+  - 50.0
+  - 50.0
+  - 50.0
+  - 50.0
+  name: 玩家
+  fill: none
+  stroke: '#00FF88'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 2
+  - 2
+  - 3
+  - 3
+  center_ft:
+  - 17.5
+  - 17.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 大橡樹
+  to: 空心樹洞
+  distance_ft: 49.2
+- from: 大橡樹
+  to: 職業貢品小隊
+  distance_ft: 98.5
+- from: 大橡樹
+  to: 物資藏匿
+  distance_ft: 47.5
+- from: 大橡樹
+  to: 玩家
+  distance_ft: 105.5
+- from: 空心樹洞
+  to: 職業貢品小隊
+  distance_ft: 85.0
+- from: 空心樹洞
+  to: 物資藏匿
+  distance_ft: 52.7
+- from: 空心樹洞
+  to: 玩家
+  distance_ft: 154.4
+- from: 職業貢品小隊
+  to: 物資藏匿
+  distance_ft: 132.0
+- from: 職業貢品小隊
+  to: 玩家
+  distance_ft: 170.0
+- from: 物資藏匿
+  to: 玩家
+  distance_ft: 136.4

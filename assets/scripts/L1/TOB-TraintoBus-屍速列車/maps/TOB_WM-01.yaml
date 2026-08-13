@@ -1,0 +1,142 @@
+map_id: TOB_WM-01
+map_type: world
+scenario: 屍速列車 / Train to Busan (TOB)
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 900
+- 600
+title: 首爾 → 釜山 KTX 路線圖
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 65.0
+  - 355.0
+  - 110.0
+  - 16.0
+  fill: '#00FF88'
+  stroke: '#00FF88'
+  name: ★ 起始點
+- bounds:
+  - 345.0
+  - 268.0
+  - 110.0
+  - 16.0
+  fill: '#FF0000'
+  stroke: '#EF4444'
+  name: ⚠ 月台已淪陷
+roads: []
+routes:
+- x1: 170.0
+  y1: 305.0
+  x2: 350.0
+  y2: 250.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+- x1: 450.0
+  y1: 235.0
+  x2: 720.0
+  y2: 240.0
+  stroke: '#00FF88'
+  stroke_width: '2'
+  dashed: true
+- x1: 715.0
+  y1: 458.0
+  x2: 745.0
+  y2: 458.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+- x1: 715.0
+  y1: 475.0
+  x2: 745.0
+  y2: 475.0
+  stroke: '#00FF88'
+  stroke_width: '2'
+  dashed: true
+danger_zones:
+- center:
+  - 260.0
+  - 300.0
+  rx: 130.0
+  ry: 60.0
+  name: (車廂 8-12)
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 550.0
+  - 250.0
+  rx: 100.0
+  ry: 50.0
+  name: 大田後感染區
+  fill: '#FF8800'
+  stroke: '#FF8800'
+- center:
+  - 730.0
+  - 498.0
+  rx: 15.0
+  ry: 8.0
+  name: 感染區
+  fill: '#FF0000'
+  stroke: '#FF4444'
+landmarks:
+- center:
+  - 120.0
+  - 320.0
+  radius: 18.0
+  name: 首爾
+  fill: '#2e1a3e'
+  stroke: '#8B5CF6'
+  dashed: false
+- center:
+  - 400.0
+  - 238.0
+  radius: 16.0
+  name: 大田
+  fill: '#2e1a2e'
+  stroke: '#EF4444'
+  dashed: false
+- center:
+  - 780.0
+  - 240.0
+  radius: 18.0
+  name: 釜山
+  fill: '#1a2e1a'
+  stroke: '#10B981'
+  dashed: false
+- center:
+  - 780.0
+  - 278.0
+  radius: 6.0
+  name: 撤離點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 580.0
+  - 248.0
+  radius: 8.0
+  name: 急煞故障點 (T+50)
+  fill: '#FFAA00'
+  stroke: '#FFAA00'
+  dashed: false
+- center:
+  - 730.0
+  - 520.0
+  radius: 5.0
+  name: 安全撤離點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+legend:
+- 終點站 T+120
+- 撤離點
+- 慶尚丘陵
+- 感染擴散方向
+- 撤離路線
+- 感染區
+- 安全撤離點

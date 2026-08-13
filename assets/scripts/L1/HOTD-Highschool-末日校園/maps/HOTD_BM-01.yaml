@@ -1,0 +1,181 @@
+map_id: HOTD_BM-01
+map_type: battle
+scenario: '學園默示錄·末日校園 / Highschool of the Dead: Academy of the Dead'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 680
+- 480
+title: 屋頂戰場
+description: ''
+grid:
+  type: square
+  width: 15
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20.0
+  - 20.0
+  total_width_ft: 75
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 50.0
+  - 40.0
+  - 60.0
+  - 60.0
+  name: 水塔
+  fill: '#334'
+  stroke: '#667'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 2
+  - 1
+  - 4
+  - 4
+  center_ft:
+  - 20.0
+  - 15.0
+- bounds_px:
+  - 550.0
+  - 40.0
+  - 50.0
+  - 30.0
+  name: 通風管
+  fill: '#334'
+  stroke: '#667'
+  stroke_width: ''
+  bounds_grid:
+  - 35
+  - 1
+  - 3
+  - 2
+  center_ft:
+  - 182.5
+  - 10.0
+- bounds_px:
+  - 590.0
+  - 120.0
+  - 40.0
+  - 40.0
+  name: 儲物櫃
+  fill: '#2a2a20'
+  stroke: '#886600'
+  stroke_width: ''
+  bounds_grid:
+  - 38
+  - 7
+  - 3
+  - 3
+  center_ft:
+  - 197.5
+  - 42.5
+- bounds_px:
+  - 300.0
+  - 400.0
+  - 80.0
+  - 60.0
+  name: 樓梯間入口
+  fill: '#162040'
+  stroke: '#F59E0B'
+  stroke_width: '2'
+  bounds_grid:
+  - 19
+  - 25
+  - 5
+  - 4
+  center_ft:
+  - 107.5
+  - 135.0
+- bounds_px:
+  - 120.0
+  - 380.0
+  - 120.0
+  - 70.0
+  name: 玩家起始區
+  fill: none
+  stroke: '#00FF88'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 7
+  - 24
+  - 8
+  - 5
+  center_ft:
+  - 55.0
+  - 132.5
+- bounds_px:
+  - 260.0
+  - 370.0
+  - 30.0
+  - 6.0
+  name: 路障
+  fill: '#FFAA00'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 16
+  - 23
+  - 2
+  - 1
+  center_ft:
+  - 85.0
+  - 117.5
+- bounds_px:
+  - 390.0
+  - 370.0
+  - 30.0
+  - 6.0
+  name: 路障
+  fill: '#FFAA00'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 25
+  - 23
+  - 2
+  - 1
+  center_ft:
+  - 130.0
+  - 117.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 水塔
+  to: 通風管
+  distance_ft: 162.6
+- from: 水塔
+  to: 儲物櫃
+  distance_ft: 179.6
+- from: 水塔
+  to: 樓梯間入口
+  distance_ft: 148.5
+- from: 水塔
+  to: 玩家起始區
+  distance_ft: 122.6
+- from: 水塔
+  to: 路障
+  distance_ft: 121.4
+- from: 水塔
+  to: 路障
+  distance_ft: 150.4
+- from: 通風管
+  to: 儲物櫃
+  distance_ft: 35.8
+- from: 通風管
+  to: 樓梯間入口
+  distance_ft: 145.8
+- from: 通風管
+  to: 玩家起始區
+  distance_ft: 176.8
+- from: 通風管
+  to: 路障
+  distance_ft: 145.1

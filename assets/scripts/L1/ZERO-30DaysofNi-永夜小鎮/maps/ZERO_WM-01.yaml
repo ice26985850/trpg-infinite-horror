@@ -1,0 +1,116 @@
+map_id: ZERO_WM-01
+map_type: world
+scenario: '30 極夜·永夜小鎮 / 30 Days of Night: The Polar Night'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 30 極夜·永夜小鎮 — 大範圍地圖
+description: ''
+scale: ZERO_WM-01 | 大範圍地圖 | 1格 ≈ 100m
+regions:
+- bounds:
+  - 80.0
+  - 80.0
+  - 200.0
+  - 180.0
+  fill: '#6366F1'
+  stroke: '#A5B4FC'
+  name: 起始點
+- bounds:
+  - 420.0
+  - 80.0
+  - 200.0
+  - 180.0
+  fill: '#6366F1'
+  stroke: '#A5B4FC'
+  name: 關鍵地點 2
+roads: []
+routes:
+- x1: 180.0
+  y1: 170.0
+  x2: 300.0
+  y2: 320.0
+  stroke: '#818CF8'
+  stroke_width: '2'
+  dashed: true
+- x1: 300.0
+  y1: 320.0
+  x2: 650.0
+  y2: 400.0
+  stroke: '#818CF8'
+  stroke_width: '2'
+  dashed: true
+danger_zones:
+- center:
+  - 300.0
+  - 400.0
+  rx: 150.0
+  ry: 80.0
+  name: ''
+  fill: '#DC2626'
+  stroke: '#DC2626'
+landmarks:
+- center:
+  - 140.0
+  - 160.0
+  radius: 8.0
+  name: 起始點
+  fill: '#818CF8'
+  stroke: ''
+  dashed: false
+- center:
+  - 200.0
+  - 200.0
+  radius: 6.0
+  name: 關鍵地點 1
+  fill: '#6366F1'
+  stroke: ''
+  dashed: false
+- center:
+  - 480.0
+  - 160.0
+  radius: 6.0
+  name: 關鍵地點 2
+  fill: '#6366F1'
+  stroke: ''
+  dashed: false
+- center:
+  - 650.0
+  - 400.0
+  radius: 20.0
+  name: 撤離點
+  fill: none
+  stroke: '#22D3EE'
+  dashed: true
+- center:
+  - 650.0
+  - 400.0
+  radius: 8.0
+  name: 撤離點
+  fill: '#22D3EE'
+  stroke: ''
+  dashed: false
+- center:
+  - 635.0
+  - 535.0
+  radius: 4.0
+  name: 撤離點
+  fill: '#22D3EE'
+  stroke: ''
+  dashed: false
+- center:
+  - 635.0
+  - 550.0
+  radius: 4.0
+  name: 起始點／關鍵地點
+  fill: '#818CF8'
+  stroke: ''
+  dashed: false
+legend:
+- 撤離點
+- 起始點／關鍵地點
+- 危險區域

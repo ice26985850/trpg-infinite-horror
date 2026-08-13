@@ -1,0 +1,113 @@
+map_id: DBZ_WM-01
+map_type: world
+scenario: '龍珠·那美克星篇 / Dragon Ball Z: Namek Saga'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 那美克星 (Planet Namek) — 全圖
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 330.0
+  - 150.0
+  - 90.0
+  - 35.0
+  fill: '#0a201a'
+  stroke: '#2d8f6b'
+  name: 著陸點
+- bounds:
+  - 180.0
+  - 250.0
+  - 80.0
+  - 30.0
+  fill: '#1f1440'
+  stroke: '#b794f4'
+  name: 莫利村落
+- bounds:
+  - 500.0
+  - 180.0
+  - 100.0
+  - 35.0
+  fill: '#1a0a10'
+  stroke: '#b8305e'
+  name: 弗利薩旗艦
+- bounds:
+  - 170.0
+  - 430.0
+  - 90.0
+  - 40.0
+  fill: '#1f1440'
+  stroke: '#d4a76a'
+  name: 大長老塔
+roads: []
+routes:
+- x1: 330.0
+  y1: 170.0
+  x2: 220.0
+  y2: 260.0
+  stroke: '#3a2a5e'
+  stroke_width: '1.5'
+  dashed: true
+- x1: 330.0
+  y1: 170.0
+  x2: 215.0
+  y2: 440.0
+  stroke: '#3a2a5e'
+  stroke_width: '1'
+  dashed: true
+danger_zones: []
+landmarks:
+- center:
+  - 400.0
+  - 320.0
+  radius: 220.0
+  name: ''
+  fill: '#0a1520'
+  stroke: '#3a5a2e'
+  dashed: false
+- center:
+  - 520.0
+  - 440.0
+  radius: 50.0
+  name: 最終戰場
+  fill: '#2d0000'
+  stroke: '#b8305e'
+  dashed: false
+- center:
+  - 375.0
+  - 170.0
+  radius: 8.0
+  name: 著陸點
+  fill: ''
+  stroke: ''
+  dashed: false
+- center:
+  - 220.0
+  - 268.0
+  radius: 8.0
+  name: 莫利村落
+  fill: ''
+  stroke: ''
+  dashed: false
+- center:
+  - 300.0
+  - 380.0
+  radius: 8.0
+  name: ★
+  fill: ''
+  stroke: ''
+  dashed: false
+- center:
+  - 480.0
+  - 360.0
+  radius: 8.0
+  name: ★
+  fill: ''
+  stroke: ''
+  dashed: false
+legend: []

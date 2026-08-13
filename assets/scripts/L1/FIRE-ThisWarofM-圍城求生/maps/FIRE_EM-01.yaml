@@ -1,0 +1,146 @@
+map_id: FIRE_EM-01
+map_type: exploration
+scenario: '這是我的戰爭·圍城求生 / This War of Mine: Siege Survival'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 探索地圖
+description: ''
+floors:
+- name: 樓層 1
+  y: 0.0
+  rooms:
+  - bounds:
+    - 0.0
+    - 0.0
+    - 800.0
+    - 600.0
+    name: ''
+    fill: '#1a1a2e'
+    stroke: ''
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 15.0
+    - 60.0
+    - 770.0
+    - 150.0
+    name: 休息恢復
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 25.0
+    - 75.0
+    - 100.0
+    - 60.0
+    name: 起居室
+    fill: '#1a1030'
+    stroke: '#6D28D9'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 160.0
+    - 75.0
+    - 80.0
+    - 60.0
+    name: 工作台
+    fill: '#1a2a30'
+    stroke: '#3B82F6'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 280.0
+    - 75.0
+    - 80.0
+    - 60.0
+    name: 廚房
+    fill: '#301520'
+    stroke: '#EF4444'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 400.0
+    - 75.0
+    - 70.0
+    - 60.0
+    name: 床位
+    fill: '#1a2a20'
+    stroke: '#10B981'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 510.0
+    - 75.0
+    - 90.0
+    - 60.0
+    name: 地下室入口
+    fill: '#162040'
+    stroke: '#F59E0B'
+    stroke_width: '1.5'
+    rx: 3.0
+- name: 樓層 2
+  y: 250.0
+  rooms:
+  - bounds:
+    - 15.0
+    - 250.0
+    - 770.0
+    - 35.0
+    name: ''
+    fill: '#111'
+    stroke: '#333'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 83.0
+    - 261.0
+    - 14.0
+    - 12.0
+    name: 危險區
+    fill: '#EF4444'
+    stroke: '#EF4444'
+    stroke_width: '1'
+    rx: 0.0
+  - bounds:
+    - 143.0
+    - 261.0
+    - 14.0
+    - 12.0
+    name: 通道
+    fill: '#F59E0B'
+    stroke: '#F59E0B'
+    stroke_width: '1'
+    rx: 0.0
+  - bounds:
+    - 193.0
+    - 261.0
+    - 14.0
+    - 12.0
+    name: 支線
+    fill: '#3B82F6'
+    stroke: '#3B82F6'
+    stroke_width: '1'
+    rx: 0.0
+  - bounds:
+    - 243.0
+    - 261.0
+    - 14.0
+    - 12.0
+    name: 物資
+    fill: '#10B981'
+    stroke: '#10B981'
+    stroke_width: '1'
+    rx: 0.0
+connections: []
+legend:
+- 起始點
+- 起始點
+- 危險區
+- FIRE_EM-01 | 探索地圖
+notes: []

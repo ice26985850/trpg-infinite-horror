@@ -1,0 +1,401 @@
+map_id: TG_BM-01
+map_type: battle
+scenario: '東京喰種·20區動亂 / Tokyo Ghoul: Ward 20 Uprising'
+tier: L3
+difficulty: ★★★
+viewbox:
+- 0
+- 0
+- 720
+- 520
+title: TG_BM-01 戰鬥地圖
+description: ''
+grid:
+  type: square
+  width: 16
+  height: 12
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20.0
+  - 20.0
+  total_width_ft: 80
+  total_height_ft: 60
+terrain:
+- bounds_px:
+  - 20.0
+  - 20.0
+  - 680.0
+  - 6.0
+  name: 廢棄化工廠——青桐樹據點
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 45
+  - 1
+  center_ft:
+  - 112.5
+  - 2.5
+- bounds_px:
+  - 20.0
+  - 474.0
+  - 680.0
+  - 6.0
+  name: 16×12格 | 3區域推進 → BOSS戰
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 30
+  - 45
+  - 1
+  center_ft:
+  - 112.5
+  - 152.5
+- bounds_px:
+  - 20.0
+  - 20.0
+  - 6.0
+  - 460.0
+  name: 辦公桌
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 1
+  - 31
+  center_ft:
+  - 2.5
+  - 77.5
+- bounds_px:
+  - 694.0
+  - 20.0
+  - 6.0
+  - 460.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 45
+  - 0
+  - 1
+  - 31
+  center_ft:
+  - 227.5
+  - 77.5
+- bounds_px:
+  - 40.0
+  - 80.0
+  - 50.0
+  - 30.0
+  name: 貨箱(掩體)
+  fill: '#2a2a20'
+  stroke: '#886600'
+  stroke_width: ''
+  bounds_grid:
+  - 1
+  - 4
+  - 3
+  - 2
+  center_ft:
+  - 12.5
+  - 25.0
+- bounds_px:
+  - 120.0
+  - 80.0
+  - 50.0
+  - 30.0
+  name: 貨箱(掩體)
+  fill: '#2a2a20'
+  stroke: '#886600'
+  stroke_width: ''
+  bounds_grid:
+  - 7
+  - 4
+  - 3
+  - 2
+  center_ft:
+  - 42.5
+  - 25.0
+- bounds_px:
+  - 40.0
+  - 140.0
+  - 80.0
+  - 40.0
+  name: 廢棄機械
+  fill: '#1a2a3e'
+  stroke: '#555'
+  stroke_width: ''
+  bounds_grid:
+  - 1
+  - 8
+  - 5
+  - 3
+  center_ft:
+  - 17.5
+  - 47.5
+- bounds_px:
+  - 190.0
+  - 90.0
+  - 30.0
+  - 50.0
+  name: 入口
+  fill: '#162040'
+  stroke: '#F59E0B'
+  stroke_width: ''
+  bounds_grid:
+  - 11
+  - 5
+  - 2
+  - 3
+  center_ft:
+  - 60.0
+  - 32.5
+- bounds_px:
+  - 40.0
+  - 260.0
+  - 60.0
+  - 30.0
+  name: 辦公桌
+  fill: '#1a2a3e'
+  stroke: '#555'
+  stroke_width: ''
+  bounds_grid:
+  - 1
+  - 16
+  - 4
+  - 2
+  center_ft:
+  - 15.0
+  - 85.0
+- bounds_px:
+  - 130.0
+  - 260.0
+  - 60.0
+  - 30.0
+  name: 作戰文件(S-01)
+  fill: '#1a1030'
+  stroke: '#6D28D9'
+  stroke_width: ''
+  bounds_grid:
+  - 7
+  - 16
+  - 4
+  - 2
+  center_ft:
+  - 45.0
+  - 85.0
+- bounds_px:
+  - 40.0
+  - 305.0
+  - 160.0
+  - 25.0
+  name: 文件櫃（可掩體+3 AC）
+  fill: '#1a2a3e'
+  stroke: '#555'
+  stroke_width: ''
+  bounds_grid:
+  - 1
+  - 19
+  - 11
+  - 2
+  center_ft:
+  - 32.5
+  - 100.0
+- bounds_px:
+  - 70.0
+  - 340.0
+  - 60.0
+  - 30.0
+  name: ↓ B1實驗室
+  fill: '#162040'
+  stroke: '#EF4444'
+  stroke_width: ''
+  bounds_grid:
+  - 3
+  - 21
+  - 4
+  - 2
+  center_ft:
+  - 25.0
+  - 110.0
+- bounds_px:
+  - 300.0
+  - 80.0
+  - 120.0
+  - 85.0
+  name: HP25 AC8
+  fill: '#301520'
+  stroke: '#EF4444'
+  stroke_width: '2'
+  bounds_grid:
+  - 19
+  - 4
+  - 8
+  - 6
+  center_ft:
+  - 115.0
+  - 35.0
+- bounds_px:
+  - 460.0
+  - 80.0
+  - 120.0
+  - 85.0
+  name: HP25 AC8
+  fill: '#301520'
+  stroke: '#EF4444'
+  stroke_width: '2'
+  bounds_grid:
+  - 29
+  - 4
+  - 8
+  - 6
+  center_ft:
+  - 165.0
+  - 35.0
+- bounds_px:
+  - 300.0
+  - 200.0
+  - 100.0
+  - 20.0
+  name: 武器架(赫子材料)
+  fill: '#2a2a20'
+  stroke: '#886600'
+  stroke_width: ''
+  bounds_grid:
+  - 19
+  - 12
+  - 7
+  - 1
+  center_ft:
+  - 112.5
+  - 62.5
+- bounds_px:
+  - 220.0
+  - 210.0
+  - 160.0
+  - 80.0
+  name: 連接走廊
+  fill: '#0d0d1a'
+  stroke: '#444'
+  stroke_width: ''
+  bounds_grid:
+  - 13
+  - 13
+  - 11
+  - 5
+  center_ft:
+  - 92.5
+  - 77.5
+- bounds_px:
+  - 260.0
+  - 360.0
+  - 160.0
+  - 80.0
+  name: BOSS戰——S級傑森(★★★★)
+  fill: '#301520'
+  stroke: '#EF4444'
+  stroke_width: '3'
+  bounds_grid:
+  - 16
+  - 23
+  - 11
+  - 5
+  center_ft:
+  - 107.5
+  - 127.5
+- bounds_px:
+  - 500.0
+  - 370.0
+  - 80.0
+  - 30.0
+  name: 屋頂破口
+  fill: '#1a3020'
+  stroke: '#10B981'
+  stroke_width: ''
+  bounds_grid:
+  - 32
+  - 23
+  - 5
+  - 2
+  center_ft:
+  - 172.5
+  - 120.0
+- bounds_px:
+  - 460.0
+  - 320.0
+  - 70.0
+  - 15.0
+  name: 赫子殘骸(障礙)
+  fill: '#3a1520'
+  stroke: '#EF4444'
+  stroke_width: ''
+  bounds_grid:
+  - 29
+  - 20
+  - 5
+  - 1
+  center_ft:
+  - 157.5
+  - 102.5
+spawn_points:
+  players:
+  - px:
+    - 68.33333333333333
+    - 490.0
+    name: 玩家入口
+    fill: '#00FF88'
+    grid:
+    - 3
+    - 31
+  - px:
+    - 36.666666666666664
+    - 495.0
+    name: 玩家入口
+    fill: '#00FF88'
+    grid:
+    - 1
+    - 32
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 廢棄化工廠——青桐樹據點
+  to: 16×12格 | 3區域推進 → BOSS戰
+  distance_ft: 150.0
+- from: 廢棄化工廠——青桐樹據點
+  to: 辦公桌
+  distance_ft: 133.1
+- from: 廢棄化工廠——青桐樹據點
+  to: ''
+  distance_ft: 137.3
+- from: 廢棄化工廠——青桐樹據點
+  to: 貨箱(掩體)
+  distance_ft: 102.5
+- from: 廢棄化工廠——青桐樹據點
+  to: 貨箱(掩體)
+  distance_ft: 73.5
+- from: 廢棄化工廠——青桐樹據點
+  to: 廢棄機械
+  distance_ft: 105.1
+- from: 廢棄化工廠——青桐樹據點
+  to: 入口
+  distance_ft: 60.5
+- from: 廢棄化工廠——青桐樹據點
+  to: 辦公桌
+  distance_ft: 127.7
+- from: 廢棄化工廠——青桐樹據點
+  to: 作戰文件(S-01)
+  distance_ft: 106.6
+- from: 廢棄化工廠——青桐樹據點
+  to: 文件櫃（可掩體+3 AC）
+  distance_ft: 126.1

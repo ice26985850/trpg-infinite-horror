@@ -1,0 +1,262 @@
+map_id: IAL_WM-01
+map_type: world
+scenario: '我是傳奇·廢城求生 / I Am Legend: Last Light'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: IAL_WM-01 世界地圖
+description: ''
+scale: IAL_WM-01 | 大範圍地圖 | 曼哈頓廢城全景 | 1格 = 約200m
+regions:
+- bounds:
+  - 0.0
+  - 120.0
+  - 30.0
+  - 400.0
+  fill: '#0a1628'
+  stroke: '#1a3a5a'
+  name: 哈德遜河 (Hudson River)
+- bounds:
+  - 770.0
+  - 100.0
+  - 30.0
+  - 380.0
+  fill: '#0a1628'
+  stroke: '#1a3a5a'
+  name: 東河 (East River)
+- bounds:
+  - 30.0
+  - 80.0
+  - 740.0
+  - 440.0
+  fill: '#1a1a3a'
+  stroke: '#4a2a6a'
+  name: ''
+- bounds:
+  - 580.0
+  - 140.0
+  - 100.0
+  - 60.0
+  fill: '#1a1030'
+  stroke: '#8B5CF6'
+  name: 軍方實驗室
+- bounds:
+  - 60.0
+  - 300.0
+  - 90.0
+  - 55.0
+  fill: '#1a2a30'
+  stroke: '#3B82F6'
+  name: 碼頭倉庫
+- bounds:
+  - 460.0
+  - 380.0
+  - 100.0
+  - 55.0
+  fill: '#1a2a30'
+  stroke: '#F59E0B'
+  name: 廢棄公寓
+- bounds:
+  - 340.0
+  - 220.0
+  - 90.0
+  - 50.0
+  fill: '#2a2a1a'
+  stroke: '#FFAA00'
+  name: 中央車站
+- bounds:
+  - 160.0
+  - 90.0
+  - 200.0
+  - 70.0
+  fill: '#102010'
+  stroke: '#1a5020'
+  name: 中央公園遺跡
+roads:
+- x1: 200.0
+  y1: 80.0
+  x2: 200.0
+  y2: 520.0
+  stroke: '#444'
+  stroke_width: '2'
+  dashed: false
+- x1: 400.0
+  y1: 80.0
+  x2: 400.0
+  y2: 520.0
+  stroke: '#444'
+  stroke_width: '2'
+  dashed: false
+- x1: 600.0
+  y1: 80.0
+  x2: 600.0
+  y2: 520.0
+  stroke: '#444'
+  stroke_width: '2'
+  dashed: false
+- x1: 30.0
+  y1: 200.0
+  x2: 770.0
+  y2: 200.0
+  stroke: '#555'
+  stroke_width: '3'
+  dashed: false
+- x1: 30.0
+  y1: 350.0
+  x2: 770.0
+  y2: 350.0
+  stroke: '#555'
+  stroke_width: '3'
+  dashed: false
+- x1: 30.0
+  y1: 450.0
+  x2: 770.0
+  y2: 450.0
+  stroke: '#444'
+  stroke_width: '2'
+  dashed: false
+routes:
+- x1: 350.0
+  y1: 460.0
+  x2: 550.0
+  y2: 170.0
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  dashed: true
+- x1: 350.0
+  y1: 460.0
+  x2: 100.0
+  y2: 320.0
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  dashed: true
+- x1: 350.0
+  y1: 460.0
+  x2: 490.0
+  y2: 420.0
+  stroke: '#00FF88'
+  stroke_width: '1.5'
+  dashed: true
+- x1: 500.0
+  y1: 410.0
+  x2: 400.0
+  y2: 260.0
+  stroke: '#00FF88'
+  stroke_width: '1.5'
+  dashed: true
+- x1: 320.0
+  y1: 470.0
+  x2: 385.0
+  y2: 240.0
+  stroke: '#F59E0B'
+  stroke_width: '1'
+  dashed: true
+- x1: 630.0
+  y1: 570.0
+  x2: 650.0
+  y2: 570.0
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  dashed: true
+- x1: 630.0
+  y1: 583.0
+  x2: 650.0
+  y2: 583.0
+  stroke: '#00FF88'
+  stroke_width: '1.5'
+  dashed: true
+danger_zones:
+- center:
+  - 480.0
+  - 160.0
+  rx: 70.0
+  ry: 40.0
+  name: ''
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 150.0
+  - 200.0
+  rx: 60.0
+  ry: 35.0
+  name: 變種人巢穴
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 650.0
+  - 400.0
+  rx: 55.0
+  ry: 40.0
+  name: 巢穴
+  fill: '#FF0000'
+  stroke: '#FF4444'
+landmarks:
+- center:
+  - 320.0
+  - 470.0
+  radius: 20.0
+  name: ★ 華盛頓廣場
+  fill: '#1a3020'
+  stroke: '#10B981'
+  dashed: false
+- center:
+  - 320.0
+  - 470.0
+  radius: 5.0
+  name: ★ 華盛頓廣場
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 385.0
+  - 195.0
+  radius: 12.0
+  name: 鐘塔頂層
+  fill: none
+  stroke: '#00FF88'
+  dashed: true
+- center:
+  - 385.0
+  - 195.0
+  radius: 5.0
+  name: 鐘塔頂層
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 140.0
+  - 370.0
+  radius: 8.0
+  name: 安娜(超市B1)
+  fill: '#FF69B4'
+  stroke: '#FF69B4'
+  dashed: true
+- center:
+  - 350.0
+  - 490.0
+  radius: 8.0
+  name: 伊森(灌木隧道)
+  fill: '#87CEEB'
+  stroke: '#87CEEB'
+  dashed: true
+- center:
+  - 635.0
+  - 533.0
+  radius: 4.0
+  name: 起始點/撤離點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+legend:
+- 東河 (East River)
+- (S-01 觸發點)
+- 巢穴
+- 圖 例
+- 起始點/撤離點
+- 變種人巢穴
+- 探索路線
+- 撤離路線

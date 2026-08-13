@@ -1,0 +1,164 @@
+map_id: GOW_BM-01
+map_type: battle
+scenario: '戰神·九界試煉 / God of War: Trial of the Nine Realms'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 640
+- 480
+title: BM-01 亡靈軍團伏擊戰
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 80.0
+  - 80.0
+  name: 玩家起始
+  fill: none
+  stroke: '#00FF88'
+  stroke_width: '2'
+  bounds_grid:
+  - 1
+  - 1
+  - 5
+  - 5
+  center_ft:
+  - 17.5
+  - 17.5
+- bounds_px:
+  - 280.0
+  - 40.0
+  - 80.0
+  - 40.0
+  name: 亡靈×3
+  fill: none
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 17
+  - 1
+  - 5
+  - 3
+  center_ft:
+  - 97.5
+  - 12.5
+- bounds_px:
+  - 280.0
+  - 160.0
+  - 80.0
+  - 40.0
+  name: 亡靈×3
+  fill: none
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 17
+  - 9
+  - 5
+  - 3
+  center_ft:
+  - 97.5
+  - 52.5
+- bounds_px:
+  - 200.0
+  - 280.0
+  - 120.0
+  - 80.0
+  name: 赫爾海姆裂隙
+  fill: '#6D28D922'
+  stroke: '#6D28D9'
+  stroke_width: '2'
+  bounds_grid:
+  - 12
+  - 17
+  - 8
+  - 5
+  center_ft:
+  - 80.0
+  - 97.5
+- bounds_px:
+  - 40.0
+  - 200.0
+  - 80.0
+  - 80.0
+  name: 岩石（掩體）
+  fill: '#66644'
+  stroke: '#666'
+  stroke_width: '1'
+  bounds_grid:
+  - 1
+  - 12
+  - 5
+  - 5
+  center_ft:
+  - 17.5
+  - 72.5
+- bounds_px:
+  - 360.0
+  - 240.0
+  - 120.0
+  - 80.0
+  name: 冰面（困難地形）
+  fill: '#3B82F644'
+  stroke: '#3B82F6'
+  stroke_width: '1'
+  bounds_grid:
+  - 23
+  - 15
+  - 8
+  - 5
+  center_ft:
+  - 135.0
+  - 87.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 玩家起始
+  to: 亡靈×3
+  distance_ft: 80.2
+- from: 玩家起始
+  to: 亡靈×3
+  distance_ft: 87.3
+- from: 玩家起始
+  to: 赫爾海姆裂隙
+  distance_ft: 101.5
+- from: 玩家起始
+  to: 岩石（掩體）
+  distance_ft: 55.0
+- from: 玩家起始
+  to: 冰面（困難地形）
+  distance_ft: 136.8
+- from: 亡靈×3
+  to: 亡靈×3
+  distance_ft: 40.0
+- from: 亡靈×3
+  to: 赫爾海姆裂隙
+  distance_ft: 86.8
+- from: 亡靈×3
+  to: 岩石（掩體）
+  distance_ft: 100.0
+- from: 亡靈×3
+  to: 冰面（困難地形）
+  distance_ft: 83.9
+- from: 亡靈×3
+  to: 赫爾海姆裂隙
+  distance_ft: 48.3

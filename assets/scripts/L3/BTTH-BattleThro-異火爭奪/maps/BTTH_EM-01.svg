@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<rect width="800" height="600" fill="#1a1a2e"/>
+<text x="400.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">龍虎山 — 羅天大醮會場</text>
+<text x="20" y="75.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 1</text>
+<rect x="20" y="80.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="100.0" y="80.0" width="600.0" height="420.0" rx="5.0" fill="#1a1a3e" stroke="#3a3a6e" stroke-width="2"/>
+<text x="400.0" y="290.0" text-anchor="middle" fill="#aaa" font-size="9">[S04-全性巢穴]</text>
+<rect x="20" y="545" width="760" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="570" fill="#aaa" font-size="9">安全區/起始點</text>
+<text x="205" y="570" fill="#aaa" font-size="9">危險區/戰鬥區</text>
+<text x="20" y="590" fill="#666" font-size="9">BTTH_EM-01 | 探索地圖 </text>
+</svg>

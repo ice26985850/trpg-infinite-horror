@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 500" font-family="Microsoft JhengHei, sans-serif">
+<rect width="680" height="500" fill="#1a1a2e"/>
+<text x="340.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">惡靈古堡·蜂巢逃脫 — 探索地圖</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 1</text>
+<rect x="20" y="0.0" width="640" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="680.0" height="500.0" rx="0.0" fill="#0d0d0d" stroke="" stroke-width=""/>
+<text x="340.0" y="250.0" text-anchor="middle" fill="#aaa" font-size="9">(探索點)</text>
+<rect x="30.0" y="50.0" width="620.0" height="420.0" rx="0.0" fill="none" stroke="#FCA5A5" stroke-width="1.5"/>
+<text x="340.0" y="260.0" text-anchor="middle" fill="#aaa" font-size="9">(探索點)</text>
+<rect x="70.0" y="80.0" width="100.0" height="70.0" rx="5.0" fill="#EF4444" stroke="#F59E0B" stroke-width="2"/>
+<text x="120.0" y="115.0" text-anchor="middle" fill="#aaa" font-size="9">起始區域</text>
+<rect x="50.0" y="120.0" width="580.0" height="40.0" rx="3.0" fill="#EF4444" stroke="#EF4444" stroke-width="1"/>
+<text x="340.0" y="140.0" text-anchor="middle" fill="#aaa" font-size="9">主要通道</text>
+<rect x="250.0" y="190.0" width="120.0" height="80.0" rx="5.0" fill="#EF4444" stroke="#FCA5A5" stroke-width="1"/>
+<text x="310.0" y="230.0" text-anchor="middle" fill="#aaa" font-size="9">(探索點)</text>
+<rect x="450.0" y="190.0" width="120.0" height="80.0" rx="5.0" fill="#EF4444" stroke="#FCA5A5" stroke-width="1"/>
+<text x="510.0" y="230.0" text-anchor="middle" fill="#aaa" font-size="9">關鍵地點 B</text>
+<text x="20" y="315.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 2</text>
+<rect x="20" y="320.0" width="640" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="250.0" y="320.0" width="120.0" height="80.0" rx="5.0" fill="#DC2626" stroke="#DC2626" stroke-width="1"/>
+<text x="310.0" y="360.0" text-anchor="middle" fill="#aaa" font-size="9">遭遇點</text>
+<rect x="450.0" y="320.0" width="120.0" height="80.0" rx="5.0" fill="#22D3EE" stroke="#22D3EE" stroke-width="1"/>
+<text x="510.0" y="360.0" text-anchor="middle" fill="#aaa" font-size="9">安全區</text>
+<text x="20" y="445.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 3</text>
+<rect x="20" y="450.0" width="640" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="30.0" y="450.0" width="350.0" height="40.0" rx="4.0" fill="#111" stroke="#333" stroke-width=""/>
+<text x="205.0" y="470.0" text-anchor="middle" fill="#aaa" font-size="9">安全區</text>
+<rect x="45.0" y="460.0" width="15.0" height="10.0" rx="0.0" fill="#F59E0B" stroke="#F59E0B" stroke-width=""/>
+<text x="52.5" y="465.0" text-anchor="middle" fill="#aaa" font-size="9">起始點</text>
+<rect x="110.0" y="460.0" width="15.0" height="10.0" rx="0.0" fill="#DC2626" stroke="#DC2626" stroke-width=""/>
+<text x="117.5" y="465.0" text-anchor="middle" fill="#aaa" font-size="9">危險區域</text>
+<rect x="200.0" y="460.0" width="15.0" height="10.0" rx="0.0" fill="#22D3EE" stroke="#22D3EE" stroke-width=""/>
+<text x="207.5" y="465.0" text-anchor="middle" fill="#aaa" font-size="9">安全區</text>
+<rect x="20" y="445" width="640" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="470" fill="#aaa" font-size="9">起始區域</text>
+<text x="205" y="470" fill="#aaa" font-size="9">危險區域</text>
+<text x="375" y="470" fill="#aaa" font-size="9">起始點</text>
+<text x="545" y="470" fill="#aaa" font-size="9">危險區域</text>
+<text x="715" y="470" fill="#aaa" font-size="9">RE_EM-01 | 探索地圖 | 1格 ≈ 5m</text>
+<text x="20" y="490" fill="#666" font-size="9">RE_EM-01 | 探索地圖 </text>
+</svg>

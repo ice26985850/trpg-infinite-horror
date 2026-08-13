@@ -1,0 +1,41 @@
+map_id: SAO_WM-01
+map_type: world
+scenario: '刀劍神域·艾恩葛朗特 / Sword Art Online: Aincrad'
+tier: L3
+difficulty: ★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: SAO_WM-01 世界地圖
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 120.0
+  - 90.0
+  - 120.0
+  - 22.0
+  fill: '#b8305e'
+  stroke: ''
+  name: 第50層 ★死神
+roads: []
+routes:
+- x1: 260.0
+  y1: 548.0
+  x2: 340.0
+  y2: 530.0
+  stroke: '#b8305e'
+  stroke_width: '1'
+  dashed: true
+danger_zones: []
+landmarks: []
+legend:
+- 玩家出發點 · 安全區域 · 傳送門中心
+- 風林火山本部 · 約第25層
+- 攻略情報交換 · 交易中心
+- 最終場景 · 攻略分水嶺
+- 一般樓層
+- BOSS層(每5層)
+- 最終

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" font-family="Microsoft JhengHei, sans-serif">
+<rect width="900" height="620" fill="#1a1a2e"/>
+<text x="450.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">瀞靈廷內部——探索地圖 (1區)</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 1</text>
+<rect x="20" y="0.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="900.0" height="620.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<text x="450.0" y="310.0" text-anchor="middle" fill="#aaa" font-size="9">(25%朽木白哉/15%其他隊長)</text>
+<rect x="20.0" y="58.0" width="860.0" height="160.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="138.0" text-anchor="middle" fill="#aaa" font-size="9">(3席官+死×2)</text>
+<rect x="35.0" y="70.0" width="120.0" height="60.0" rx="3.0" fill="#301520" stroke="#EF4444" stroke-width="2"/>
+<text x="95.0" y="100.0" text-anchor="middle" fill="#aaa" font-size="9">露琪亞牢房</text>
+<rect x="180.0" y="70.0" width="80.0" height="60.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="220.0" y="100.0" text-anchor="middle" fill="#aaa" font-size="9">牢房 2</text>
+<rect x="280.0" y="70.0" width="80.0" height="60.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="320.0" y="100.0" text-anchor="middle" fill="#aaa" font-size="9">牢房 3</text>
+<rect x="380.0" y="70.0" width="100.0" height="60.0" rx="3.0" fill="#162040" stroke="#F59E0B" stroke-width=""/>
+<text x="430.0" y="100.0" text-anchor="middle" fill="#aaa" font-size="9">守衛室</text>
+<rect x="500.0" y="70.0" width="70.0" height="140.0" rx="3.0" fill="#162040" stroke="#F59E0B" stroke-width=""/>
+<text x="535.0" y="140.0" text-anchor="middle" fill="#aaa" font-size="9">通往中庭</text>
+<rect x="590.0" y="70.0" width="130.0" height="60.0" rx="3.0" fill="#1a1030" stroke="#6D28D9" stroke-width=""/>
+<text x="655.0" y="100.0" text-anchor="middle" fill="#aaa" font-size="9">審問室</text>
+<rect x="740.0" y="70.0" width="120.0" height="60.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="800.0" y="100.0" text-anchor="middle" fill="#aaa" font-size="9">檔案室</text>
+<text x="20" y="243.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 2</text>
+<rect x="20" y="248.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="248.0" width="860.0" height="120.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="308.0" text-anchor="middle" fill="#aaa" font-size="9">(25%朽木白哉/15%其他隊長)</text>
+<rect x="35.0" y="260.0" width="260.0" height="50.0" rx="3.0" fill="#1a2a2a" stroke="#10B981" stroke-width=""/>
+<text x="165.0" y="285.0" text-anchor="middle" fill="#aaa" font-size="9">中庭花園</text>
+<rect x="330.0" y="260.0" width="60.0" height="50.0" rx="3.0" fill="#162040" stroke="#F59E0B" stroke-width=""/>
+<text x="360.0" y="285.0" text-anchor="middle" fill="#aaa" font-size="9">轉角</text>
+<rect x="420.0" y="260.0" width="120.0" height="50.0" rx="3.0" fill="#301520" stroke="#EF4444" stroke-width=""/>
+<text x="480.0" y="285.0" text-anchor="middle" fill="#aaa" font-size="9">隊長級遭遇點</text>
+<rect x="570.0" y="260.0" width="130.0" height="50.0" rx="3.0" fill="#1a2a2a" stroke="#10B981" stroke-width=""/>
+<text x="635.0" y="285.0" text-anchor="middle" fill="#aaa" font-size="9">通道岔路口</text>
+<rect x="730.0" y="260.0" width="130.0" height="50.0" rx="3.0" fill="#1a1030" stroke="#6D28D9" stroke-width=""/>
+<text x="795.0" y="285.0" text-anchor="middle" fill="#aaa" font-size="9">隱蔽小巷</text>
+<text x="20" y="393.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 3</text>
+<rect x="20" y="398.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="398.0" width="860.0" height="110.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="453.0" text-anchor="middle" fill="#aaa" font-size="9">(T+72處刑場)</text>
+<rect x="35.0" y="410.0" width="180.0" height="40.0" rx="3.0" fill="#301520" stroke="#EF4444" stroke-width=""/>
+<text x="125.0" y="430.0" text-anchor="middle" fill="#aaa" font-size="9">白哉最終關卡</text>
+<rect x="250.0" y="410.0" width="100.0" height="40.0" rx="3.0" fill="#162040" stroke="#F59E0B" stroke-width=""/>
+<text x="300.0" y="430.0" text-anchor="middle" fill="#aaa" font-size="9">大階段</text>
+<rect x="400.0" y="410.0" width="100.0" height="40.0" rx="3.0" fill="#1a2a2a" stroke="#10B981" stroke-width=""/>
+<text x="450.0" y="430.0" text-anchor="middle" fill="#aaa" font-size="9">雙殛之丘入口</text>
+<rect x="550.0" y="410.0" width="150.0" height="40.0" rx="3.0" fill="#301520" stroke="#FF4444" stroke-width=""/>
+<text x="625.0" y="430.0" text-anchor="middle" fill="#aaa" font-size="9">總隊長最終防線</text>
+<text x="20" y="533.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 4</text>
+<rect x="20" y="538.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="538.0" width="860.0" height="65.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="35.0" y="548.0" width="180.0" height="40.0" rx="3.0" fill="#1a2a2a" stroke="#10B981" stroke-width=""/>
+<text x="125.0" y="568.0" text-anchor="middle" fill="#aaa" font-size="9">穿界門</text>
+<rect x="250.0" y="548.0" width="200.0" height="40.0" rx="3.0" fill="#1a2a2a" stroke="#10B981" stroke-width=""/>
+<text x="350.0" y="568.0" text-anchor="middle" fill="#aaa" font-size="9">斬魄刀訓練場</text>
+<rect x="20" y="565" width="860" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="590" fill="#aaa" font-size="9">BLEACH_EM-01 | 探索地圖 | 瀞靈廷內部區域 A~D</text>
+<text x="20" y="610" fill="#666" font-size="9">BLEACH_EM-01 | 探索地圖 </text>
+</svg>

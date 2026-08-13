@@ -1,0 +1,16 @@
+map_id: DBZ_EM-01
+map_type: exploration
+scenario: '龍珠·那美克星篇 / Dragon Ball Z: Namek Saga'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: DBZ_EM-01 探索地圖
+description: ''
+floors: []
+connections: []
+legend: []
+notes: []

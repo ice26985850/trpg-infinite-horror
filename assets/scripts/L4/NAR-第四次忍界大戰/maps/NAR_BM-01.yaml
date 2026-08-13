@@ -1,0 +1,215 @@
+map_id: NAR_BM-01
+map_type: battle
+scenario: '火影忍者·第四次忍界大戰 / Naruto: Fourth Great Ninja War'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 海岸阻擊戰 — 白絕前線
+description: ''
+grid:
+  type: square
+  width: 16
+  height: 12
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 80
+  total_height_ft: 60
+terrain:
+- bounds_px:
+  - 40.0
+  - 60.0
+  - 720.0
+  - 120.0
+  name: 海 (白絕登陸方向)
+  fill: '#0a1525'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 1
+  - 3
+  - 48
+  - 8
+  center_ft:
+  - 125.0
+  - 35.0
+- bounds_px:
+  - 100.0
+  - 260.0
+  - 50.0
+  - 50.0
+  name: 前衛1
+  fill: '#0a201a'
+  stroke: '#2d8f6b'
+  stroke_width: '2'
+  bounds_grid:
+  - 5
+  - 16
+  - 3
+  - 3
+  center_ft:
+  - 32.5
+  - 87.5
+- bounds_px:
+  - 200.0
+  - 260.0
+  - 50.0
+  - 50.0
+  name: 前衛2
+  fill: '#0a201a'
+  stroke: '#2d8f6b'
+  stroke_width: '2'
+  bounds_grid:
+  - 12
+  - 16
+  - 3
+  - 3
+  center_ft:
+  - 67.5
+  - 87.5
+- bounds_px:
+  - 500.0
+  - 260.0
+  - 50.0
+  - 50.0
+  name: 前衛3
+  fill: '#0a201a'
+  stroke: '#2d8f6b'
+  stroke_width: '2'
+  bounds_grid:
+  - 32
+  - 16
+  - 3
+  - 3
+  center_ft:
+  - 167.5
+  - 87.5
+- bounds_px:
+  - 100.0
+  - 420.0
+  - 80.0
+  - 40.0
+  name: 後排支援
+  fill: '#0a1525'
+  stroke: '#4a6d8f'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 5
+  - 27
+  - 5
+  - 3
+  center_ft:
+  - 37.5
+  - 142.5
+- bounds_px:
+  - 300.0
+  - 420.0
+  - 80.0
+  - 40.0
+  name: 封印班
+  fill: '#0a1525'
+  stroke: '#4a6d8f'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 19
+  - 27
+  - 5
+  - 3
+  center_ft:
+  - 107.5
+  - 142.5
+- bounds_px:
+  - 330.0
+  - 320.0
+  - 30.0
+  - 30.0
+  name: 爆
+  fill: '#2d1b00'
+  stroke: '#ff8a00'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 21
+  - 20
+  - 2
+  - 2
+  center_ft:
+  - 110.0
+  - 105.0
+- bounds_px:
+  - 450.0
+  - 340.0
+  - 30.0
+  - 30.0
+  name: 爆
+  fill: '#2d1b00'
+  stroke: '#ff8a00'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 29
+  - 21
+  - 2
+  - 2
+  center_ft:
+  - 150.0
+  - 110.0
+- bounds_px:
+  - 0.0
+  - 0.0
+  - 200.0
+  - 170.0
+  name: '每3輪: 刷新2d6隻'
+  fill: '#1a1030'
+  stroke: '#3a2a5e'
+  stroke_width: ''
+  bounds_grid:
+  - -1
+  - -1
+  - 13
+  - 11
+  center_ft:
+  - 27.5
+  - 22.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 海 (白絕登陸方向)
+  to: 前衛1
+  distance_ft: 106.4
+- from: 海 (白絕登陸方向)
+  to: 前衛2
+  distance_ft: 77.9
+- from: 海 (白絕登陸方向)
+  to: 前衛3
+  distance_ft: 67.5
+- from: 海 (白絕登陸方向)
+  to: 後排支援
+  distance_ft: 138.6
+- from: 海 (白絕登陸方向)
+  to: 封印班
+  distance_ft: 108.9
+- from: 海 (白絕登陸方向)
+  to: 爆
+  distance_ft: 71.6
+- from: 海 (白絕登陸方向)
+  to: 爆
+  distance_ft: 79.1
+- from: 海 (白絕登陸方向)
+  to: '每3輪: 刷新2d6隻'
+  distance_ft: 98.3
+- from: 前衛1
+  to: 前衛2
+  distance_ft: 35.0
+- from: 前衛1
+  to: 前衛3
+  distance_ft: 135.0

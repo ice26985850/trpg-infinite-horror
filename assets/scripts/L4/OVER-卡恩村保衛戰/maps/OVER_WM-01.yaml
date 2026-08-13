@@ -1,0 +1,60 @@
+map_id: OVER_WM-01
+map_type: world
+scenario: '不死者之王·卡恩村保衛戰 / Overlord: Defense of Carne Village'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 卡恩村及周邊——王國軍入侵路線
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 200.0
+  - 50.0
+  - 400.0
+  - 100.0
+  fill: '#0d1a1a'
+  stroke: '#10B981'
+  name: 卡恩村（據點）
+- bounds:
+  - 200.0
+  - 220.0
+  - 400.0
+  - 120.0
+  fill: '#1a1505'
+  stroke: '#F59E0B'
+  name: 平原（戰場）
+- bounds:
+  - 200.0
+  - 400.0
+  - 400.0
+  - 120.0
+  fill: '#1a0505'
+  stroke: '#EF4444'
+  name: 王國軍營地
+roads: []
+routes:
+- x1: 400.0
+  y1: 150.0
+  x2: 400.0
+  y2: 220.0
+  stroke: '#C084FC'
+  stroke_width: '2'
+  dashed: true
+- x1: 400.0
+  y1: 340.0
+  x2: 400.0
+  y2: 400.0
+  stroke: '#C084FC'
+  stroke_width: '2'
+  dashed: true
+danger_zones: []
+landmarks: []
+legend:
+- 圖例
+- 箭頭 = 推薦路線
+- 紅色區域 = 最終目標

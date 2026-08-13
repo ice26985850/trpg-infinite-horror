@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="800" height="600" fill="url(#wmgrid)"/>
+<rect x="80.0" y="80.0" width="200.0" height="180.0" rx="5" fill="#10B981" stroke="#6EE7B7" stroke-width="2"/>
+<text x="180.0" y="170.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">起始點</text>
+<rect x="420.0" y="80.0" width="200.0" height="180.0" rx="5" fill="#10B981" stroke="#6EE7B7" stroke-width="2"/>
+<text x="520.0" y="170.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">關鍵地點 2</text>
+<line x1="180.0" y1="170.0" x2="300.0" y2="320.0" stroke="#F59E0B" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="300.0" y1="320.0" x2="650.0" y2="400.0" stroke="#F59E0B" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<ellipse cx="300.0" cy="400.0" rx="150.0" ry="80.0" fill="#EF4444" opacity="0.1" stroke="#EF4444" stroke-width="1"/>
+<circle cx="140.0" cy="160.0" r="8.0" fill="#F59E0B" opacity="0.6"/>
+<circle cx="140.0" cy="160.0" r="8.0" fill="none" stroke="" stroke-width="2"/>
+<text x="140.0" y="147.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ 起始點</text>
+<circle cx="200.0" cy="200.0" r="6.0" fill="#10B981" opacity="0.6"/>
+<circle cx="200.0" cy="200.0" r="6.0" fill="none" stroke="" stroke-width="2"/>
+<text x="200.0" y="189.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ 關鍵地點 1</text>
+<circle cx="480.0" cy="160.0" r="6.0" fill="#10B981" opacity="0.6"/>
+<circle cx="480.0" cy="160.0" r="6.0" fill="none" stroke="" stroke-width="2"/>
+<text x="480.0" y="149.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ 關鍵地點 2</text>
+<circle cx="650.0" cy="400.0" r="20.0" fill="none" stroke="#60A5FA" stroke-width="2" stroke-dasharray="4,2"/>
+<text x="650.0" y="375.0" text-anchor="middle" fill="#60A5FA" font-size="10" font-weight="bold">★ 撤離點</text>
+<circle cx="650.0" cy="400.0" r="8.0" fill="#60A5FA" opacity="0.6"/>
+<circle cx="650.0" cy="400.0" r="8.0" fill="none" stroke="" stroke-width="2"/>
+<text x="650.0" y="387.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ 撤離點</text>
+<circle cx="635.0" cy="535.0" r="4.0" fill="#60A5FA" opacity="0.6"/>
+<circle cx="635.0" cy="535.0" r="4.0" fill="none" stroke="" stroke-width="2"/>
+<text x="635.0" y="526.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ 撤離點</text>
+<circle cx="635.0" cy="550.0" r="4.0" fill="#F59E0B" opacity="0.6"/>
+<circle cx="635.0" cy="550.0" r="4.0" fill="none" stroke="" stroke-width="2"/>
+<text x="635.0" y="541.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ 起始點／關鍵地點</text>
+<rect x="630" y="20" width="150" height="74" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="705" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">圖例</text>
+<text x="640" y="60" fill="#aaa" font-size="9">撤離點</text>
+<text x="640" y="76" fill="#aaa" font-size="9">起始點／關鍵地點</text>
+<text x="640" y="92" fill="#aaa" font-size="9">危險區域</text>
+<text x="20" y="585" fill="#666" font-size="9">ALIEN_WM-01 | 大範圍地圖 | ALIEN_WM-01 | 大範圍地圖 | 1格 ≈ 100m</text>
+</svg>

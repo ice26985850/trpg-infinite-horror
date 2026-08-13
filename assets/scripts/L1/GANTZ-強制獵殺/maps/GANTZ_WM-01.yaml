@@ -1,0 +1,161 @@
+map_id: GANTZ_WM-01
+map_type: world
+scenario: '殺戮都市·強制獵殺 / GANTZ: Mandatory Hunt'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: GANTZ任務地圖 — 東京
+description: ''
+scale: GANTZ_WM-01 | 大範圍地圖 | 1格 ≈ 5m
+regions:
+- bounds:
+  - 360.0
+  - 470.0
+  - 80.0
+  - 60.0
+  fill: '#2e1a3e'
+  stroke: '#8B5CF6'
+  name: GANTZ房間
+- bounds:
+  - 300.0
+  - 430.0
+  - 70.0
+  - 40.0
+  fill: '#1a2a30'
+  stroke: '#3B82F6'
+  name: 住宅區
+- bounds:
+  - 500.0
+  - 350.0
+  - 70.0
+  - 40.0
+  fill: '#2e1a3e'
+  stroke: '#8B5CF6'
+  name: 寺廟
+- bounds:
+  - 350.0
+  - 220.0
+  - 70.0
+  - 40.0
+  fill: '#301520'
+  stroke: '#EF4444'
+  name: 博物館
+roads:
+- x1: 380.0
+  y1: 500.0
+  x2: 380.0
+  y2: 310.0
+  stroke: '#555'
+  stroke_width: '4'
+  dashed: false
+- x1: 100.0
+  y1: 400.0
+  x2: 700.0
+  y2: 400.0
+  stroke: '#555'
+  stroke_width: '2'
+  dashed: false
+- x1: 150.0
+  y1: 280.0
+  x2: 650.0
+  y2: 280.0
+  stroke: '#555'
+  stroke_width: '2'
+  dashed: false
+routes:
+- x1: 440.0
+  y1: 500.0
+  x2: 400.0
+  y2: 460.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+- x1: 400.0
+  y1: 460.0
+  x2: 400.0
+  y2: 380.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+- x1: 635.0
+  y1: 515.0
+  x2: 665.0
+  y2: 515.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+danger_zones:
+- center:
+  - 250.0
+  - 420.0
+  rx: 60.0
+  ry: 50.0
+  name: 蔥星人區域
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 480.0
+  - 320.0
+  rx: 70.0
+  ry: 50.0
+  name: 佛像區域
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 300.0
+  - 200.0
+  rx: 80.0
+  ry: 60.0
+  name: 恐龍區域
+  fill: '#FF0000'
+  stroke: '#FF4444'
+landmarks:
+- center:
+  - 400.0
+  - 525.0
+  radius: 4.0
+  name: (起始點)
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 400.0
+  - 380.0
+  radius: 18.0
+  name: ★ 撤離點
+  fill: none
+  stroke: '#00FF88'
+  dashed: true
+- center:
+  - 400.0
+  - 380.0
+  radius: 7.0
+  name: ★ 撤離點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 558.0
+  radius: 5.0
+  name: 撤離點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 575.0
+  radius: 4.0
+  name: 起始點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+legend:
+- 撤離路線
+- 危險區域
+- 撤離點
+- 起始點

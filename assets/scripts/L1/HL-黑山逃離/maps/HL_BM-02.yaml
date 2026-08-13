@@ -1,0 +1,206 @@
+map_id: HL_BM-02
+map_type: battle
+scenario: '戰慄時空·黑山逃離 / Half-Life: Black Mesa Escape'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 680
+- 420
+title: Lambda實驗室傳送門
+description: ''
+grid:
+  type: square
+  width: 12
+  height: 8
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 40.0
+  - 40.0
+  total_width_ft: 60
+  total_height_ft: 40
+terrain:
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 360.0
+  - 5.0
+  name: 藤壺
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 24
+  - 1
+  center_ft:
+  - 60.0
+  - 2.5
+- bounds_px:
+  - 40.0
+  - 275.0
+  - 360.0
+  - 5.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 16
+  - 24
+  - 1
+  center_ft:
+  - 60.0
+  - 82.5
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 5.0
+  - 240.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 1
+  - 16
+  center_ft:
+  - 2.5
+  - 40.0
+- bounds_px:
+  - 395.0
+  - 40.0
+  - 5.0
+  - 240.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 24
+  - 0
+  - 1
+  - 16
+  center_ft:
+  - 122.5
+  - 40.0
+- bounds_px:
+  - 250.0
+  - 200.0
+  - 100.0
+  - 60.0
+  name: 傳送門
+  fill: '#2a2a20'
+  stroke: '#10B981'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 14
+  - 11
+  - 7
+  - 4
+  center_ft:
+  - 87.5
+  - 65.0
+- bounds_px:
+  - 80.0
+  - 80.0
+  - 60.0
+  - 40.0
+  name: 儀器
+  fill: '#2a2a30'
+  stroke: '#555'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 3
+  - 3
+  - 4
+  - 3
+  center_ft:
+  - 25.0
+  - 22.5
+- bounds_px:
+  - 500.0
+  - 80.0
+  - 60.0
+  - 40.0
+  name: 控制台
+  fill: '#2a2a30'
+  stroke: '#555'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 31
+  - 3
+  - 4
+  - 3
+  center_ft:
+  - 165.0
+  - 22.5
+- bounds_px:
+  - 250.0
+  - 195.0
+  - 100.0
+  - 5.0
+  name: 進入傳送門!
+  fill: '#00FF88'
+  stroke: '#00FF88'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 14
+  - 10
+  - 7
+  - 1
+  center_ft:
+  - 87.5
+  - 52.5
+spawn_points:
+  players:
+  - px:
+    - 500.0
+    - 380.0
+    name: 玩家入口
+    fill: '#00FF88'
+    grid:
+    - 31
+    - 23
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 藤壺
+  to: ''
+  distance_ft: 80.0
+- from: 藤壺
+  to: ''
+  distance_ft: 68.6
+- from: 藤壺
+  to: ''
+  distance_ft: 72.9
+- from: 藤壺
+  to: 傳送門
+  distance_ft: 68.3
+- from: 藤壺
+  to: 儀器
+  distance_ft: 40.3
+- from: 藤壺
+  to: 控制台
+  distance_ft: 106.9
+- from: 藤壺
+  to: 進入傳送門!
+  distance_ft: 57.1
+- from: ''
+  to: ''
+  distance_ft: 71.5
+- from: ''
+  to: ''
+  distance_ft: 75.6
+- from: ''
+  to: 傳送門
+  distance_ft: 32.6

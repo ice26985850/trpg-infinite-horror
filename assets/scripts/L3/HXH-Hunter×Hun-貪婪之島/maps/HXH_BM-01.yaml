@@ -1,0 +1,69 @@
+map_id: HXH_BM-01
+map_type: battle
+scenario: '獵人·貪婪之島 / Hunter × Hunter: Greed Island'
+tier: L3
+difficulty: ★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: HXH_BM-01 戰鬥地圖
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 55.0
+  - 75.0
+  - 610.0
+  - 310.0
+  name: ''
+  fill: '#1a1030'
+  stroke: '#5a3a8e'
+  stroke_width: '3'
+  bounds_grid:
+  - 2
+  - 4
+  - 41
+  - 21
+  center_ft:
+  - 112.5
+  - 72.5
+- bounds_px:
+  - 40.0
+  - 395.0
+  - 730.0
+  - 60.0
+  name: 觀眾席／場外選手區 — 可在此使用念能力輔助場內選手
+  fill: '#0f0f20'
+  stroke: '#2a2a4e'
+  stroke_width: '1'
+  bounds_grid:
+  - 1
+  - 25
+  - 49
+  - 4
+  center_ft:
+  - 127.5
+  - 135.0
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: ''
+  to: 觀眾席／場外選手區 — 可在此使用念能力輔助場內選手
+  distance_ft: 64.3

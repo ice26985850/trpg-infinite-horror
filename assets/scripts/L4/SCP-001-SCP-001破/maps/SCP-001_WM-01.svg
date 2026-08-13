@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="800" height="600" fill="url(#wmgrid)"/>
+<rect x="100.0" y="80.0" width="200.0" height="80.0" rx="5" fill="#0d1a1a" stroke="#10B981" stroke-width="2"/>
+<text x="200.0" y="120.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">廢棄公寓（起始點）</text>
+<rect x="100.0" y="220.0" width="200.0" height="80.0" rx="5" fill="#1a1505" stroke="#F59E0B" stroke-width="2"/>
+<text x="200.0" y="260.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">地下鐵路隧道</text>
+<rect x="400.0" y="220.0" width="200.0" height="80.0" rx="5" fill="#0d0d1a" stroke="#3B82F6" stroke-width="2"/>
+<text x="500.0" y="260.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">基金會前哨站</text>
+<rect x="100.0" y="380.0" width="500.0" height="100.0" rx="5" fill="#1a0505" stroke="#EF4444" stroke-width="2"/>
+<text x="350.0" y="430.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Site-19 地下避難所（最終目標）</text>
+<line x1="200.0" y1="160.0" x2="200.0" y2="220.0" stroke="#C084FC" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="200.0" y1="300.0" x2="400.0" y2="300.0" stroke="#C084FC" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="500.0" y1="300.0" x2="350.0" y2="380.0" stroke="#C084FC" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<rect x="630" y="20" width="150" height="74" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="705" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">圖例</text>
+<text x="640" y="60" fill="#aaa" font-size="9">圖例</text>
+<text x="640" y="76" fill="#aaa" font-size="9">箭頭 = 推薦路線</text>
+<text x="640" y="92" fill="#aaa" font-size="9">紅色區域 = 最終目標</text>
+<text x="20" y="585" fill="#666" font-size="9">SCP-001_WM-01 | 大範圍地圖 | 示意圖</text>
+</svg>

@@ -1,0 +1,164 @@
+map_id: JKR_BM-02
+map_type: battle
+scenario: '地獄樂·神仙島的長生詛咒 / Jigokuraku: Paradise''s Curse'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 600
+- 600
+title: 蓮的主殿最終對決 (BM-02) — 10x10 格線 | 1格=5ft
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 50.0
+  - 50.0
+  - 500.0
+  - 500.0
+  name: 蓮花台座(蓮起始)
+  fill: '#1a1410'
+  stroke: '#4B0082'
+  stroke_width: '3'
+  bounds_grid:
+  - 2
+  - 2
+  - 33
+  - 33
+  center_ft:
+  - 92.5
+  - 92.5
+- bounds_px:
+  - 200.0
+  - 200.0
+  - 200.0
+  - 200.0
+  name: 蓮花台座(蓮起始)
+  fill: '#9b59b640'
+  stroke: '#9b59b6'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 12
+  - 12
+  - 13
+  - 13
+  center_ft:
+  - 92.5
+  - 92.5
+- bounds_px:
+  - 250.0
+  - 300.0
+  - 100.0
+  - 150.0
+  name: 丹之樹核心(弱點)
+  fill: '#e74c3c30'
+  stroke: '#9b59b6'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 15
+  - 19
+  - 7
+  - 10
+  center_ft:
+  - 92.5
+  - 120.0
+- bounds_px:
+  - 50.0
+  - 350.0
+  - 150.0
+  - 200.0
+  name: 坍塌地板(危險區)
+  fill: '#3a1a1a'
+  stroke: '#9b59b6'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 2
+  - 22
+  - 10
+  - 13
+  center_ft:
+  - 35.0
+  - 142.5
+- bounds_px:
+  - 100.0
+  - 100.0
+  - 50.0
+  - 150.0
+  name: 藤蔓立柱(掩體)1
+  fill: '#1a3a2a'
+  stroke: '#9b59b6'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 5
+  - 5
+  - 3
+  - 10
+  center_ft:
+  - 32.5
+  - 50.0
+- bounds_px:
+  - 450.0
+  - 100.0
+  - 50.0
+  - 150.0
+  name: 藤蔓立柱(掩體)2
+  fill: '#1a3a2a'
+  stroke: '#9b59b6'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 29
+  - 5
+  - 3
+  - 10
+  center_ft:
+  - 152.5
+  - 50.0
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 蓮花台座(蓮起始)
+  to: 丹之樹核心(弱點)
+  distance_ft: 27.5
+- from: 蓮花台座(蓮起始)
+  to: 坍塌地板(危險區)
+  distance_ft: 76.2
+- from: 蓮花台座(蓮起始)
+  to: 藤蔓立柱(掩體)1
+  distance_ft: 73.5
+- from: 蓮花台座(蓮起始)
+  to: 藤蔓立柱(掩體)2
+  distance_ft: 73.5
+- from: 蓮花台座(蓮起始)
+  to: 丹之樹核心(弱點)
+  distance_ft: 27.5
+- from: 蓮花台座(蓮起始)
+  to: 坍塌地板(危險區)
+  distance_ft: 76.2
+- from: 蓮花台座(蓮起始)
+  to: 藤蔓立柱(掩體)1
+  distance_ft: 73.5
+- from: 蓮花台座(蓮起始)
+  to: 藤蔓立柱(掩體)2
+  distance_ft: 73.5
+- from: 丹之樹核心(弱點)
+  to: 坍塌地板(危險區)
+  distance_ft: 61.7
+- from: 丹之樹核心(弱點)
+  to: 藤蔓立柱(掩體)1
+  distance_ft: 92.2

@@ -1,0 +1,147 @@
+map_id: WARC_BM-02
+map_type: battle
+scenario: '魔獸世界·燃燒軍團 / Warcraft: The Burning Legion'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 640
+- 480
+title: BM-02 阿克蒙德降臨戰
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 80.0
+  - 80.0
+  name: 玩家起始
+  fill: none
+  stroke: '#00FF88'
+  stroke_width: '2'
+  bounds_grid:
+  - 1
+  - 1
+  - 5
+  - 5
+  center_ft:
+  - 17.5
+  - 17.5
+- bounds_px:
+  - 320.0
+  - 280.0
+  - 80.0
+  - 80.0
+  name: 阿克蒙德
+  fill: none
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 20
+  - 17
+  - 5
+  - 5
+  center_ft:
+  - 112.5
+  - 97.5
+- bounds_px:
+  - 280.0
+  - 40.0
+  - 120.0
+  - 80.0
+  name: 節點3法陣
+  fill: '#EF444422'
+  stroke: '#EF4444'
+  stroke_width: '2'
+  bounds_grid:
+  - 17
+  - 1
+  - 8
+  - 5
+  center_ft:
+  - 105.0
+  - 17.5
+- bounds_px:
+  - 40.0
+  - 280.0
+  - 120.0
+  - 80.0
+  name: 傳送門
+  fill: '#6D28D922'
+  stroke: '#6D28D9'
+  stroke_width: '2'
+  bounds_grid:
+  - 1
+  - 17
+  - 8
+  - 5
+  center_ft:
+  - 25.0
+  - 97.5
+- bounds_px:
+  - 160.0
+  - 160.0
+  - 80.0
+  - 80.0
+  name: 麥迪文屏障
+  fill: '#3B82F644'
+  stroke: '#3B82F6'
+  stroke_width: '1'
+  bounds_grid:
+  - 9
+  - 9
+  - 5
+  - 5
+  center_ft:
+  - 57.5
+  - 57.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 玩家起始
+  to: 阿克蒙德
+  distance_ft: 124.2
+- from: 玩家起始
+  to: 節點3法陣
+  distance_ft: 87.5
+- from: 玩家起始
+  to: 傳送門
+  distance_ft: 80.4
+- from: 玩家起始
+  to: 麥迪文屏障
+  distance_ft: 56.6
+- from: 阿克蒙德
+  to: 節點3法陣
+  distance_ft: 80.4
+- from: 阿克蒙德
+  to: 傳送門
+  distance_ft: 87.5
+- from: 阿克蒙德
+  to: 麥迪文屏障
+  distance_ft: 68.0
+- from: 節點3法陣
+  to: 傳送門
+  distance_ft: 113.1
+- from: 節點3法陣
+  to: 麥迪文屏障
+  distance_ft: 62.1
+- from: 傳送門
+  to: 麥迪文屏障
+  distance_ft: 51.5

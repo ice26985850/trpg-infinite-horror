@@ -1,0 +1,52 @@
+map_id: GRIMGAL_WM-01
+map_type: world
+scenario: '灰與幻想的格林姆迦爾·義勇兵的初陣 / Grimgar: Volunteer Soldier''s First Campaign'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 900
+- 620
+title: 歐魯達納周邊 — 大範圍地圖 (WM-01)
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 200.0
+  - 170.0
+  - 100.0
+  - 60.0
+  fill: '#3a4a3a'
+  stroke: '#2ecc71'
+  name: A 兵團總部
+- bounds:
+  - 550.0
+  - 270.0
+  - 100.0
+  - 60.0
+  fill: '#4a3a2a'
+  stroke: '#2ecc71'
+  name: B 舊礦坑
+- bounds:
+  - 700.0
+  - 450.0
+  - 100.0
+  - 60.0
+  fill: '#3a3a2a'
+  stroke: '#2ecc71'
+  name: C 舊要塞
+- bounds:
+  - 20.0
+  - 540.0
+  - 860.0
+  - 60.0
+  fill: '#1a1e1a'
+  stroke: '#333'
+  name: ''
+roads: []
+routes: []
+danger_zones: []
+landmarks: []
+legend:
+- C 舊要塞

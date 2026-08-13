@@ -1,0 +1,60 @@
+map_id: DUNKEL_WM-01
+map_type: world
+scenario: '暗夜獵殺·維多利亞的惡魔 / Dunkel: Victorian Demon Hunt'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 900
+- 620
+title: 獵魔倫敦 — 大範圍地圖 (WM-01)
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 200.0
+  - 170.0
+  - 100.0
+  - 60.0
+  fill: '#3a3a4a'
+  stroke: '#e74c3c'
+  name: A 獵魔會據點
+- bounds:
+  - 450.0
+  - 370.0
+  - 100.0
+  - 60.0
+  fill: '#2a2a3a'
+  stroke: '#e74c3c'
+  name: B 下水道巢穴
+- bounds:
+  - 700.0
+  - 170.0
+  - 100.0
+  - 60.0
+  fill: '#4a3a3a'
+  stroke: '#e74c3c'
+  name: C 議員宅邸
+- bounds:
+  - 500.0
+  - 470.0
+  - 100.0
+  - 60.0
+  fill: '#2a3a3a'
+  stroke: '#e74c3c'
+  name: D 廢棄教堂
+- bounds:
+  - 20.0
+  - 540.0
+  - 860.0
+  - 60.0
+  fill: '#1a1a1e'
+  stroke: '#333'
+  name: ''
+roads: []
+routes: []
+danger_zones: []
+landmarks: []
+legend:
+- C 議員宅邸

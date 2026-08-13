@@ -1,0 +1,52 @@
+map_id: SERAPH_WM-01
+map_type: world
+scenario: '終結的熾天使·澀谷防衛戰 / Seraph of the End: Battle of Shibuya'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 900
+- 620
+title: 末日澀谷 — 大範圍地圖 (WM-01)
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 250.0
+  - 370.0
+  - 100.0
+  - 60.0
+  fill: '#3a3a4a'
+  stroke: '#e74c3c'
+  name: A 地下據點
+- bounds:
+  - 500.0
+  - 220.0
+  - 100.0
+  - 60.0
+  fill: '#3a2a2a'
+  stroke: '#e74c3c'
+  name: B 澀谷廢墟
+- bounds:
+  - 750.0
+  - 320.0
+  - 100.0
+  - 60.0
+  fill: '#4a3a2a'
+  stroke: '#e74c3c'
+  name: C 澀谷站
+- bounds:
+  - 20.0
+  - 540.0
+  - 860.0
+  - 60.0
+  fill: '#1e1a1a'
+  stroke: '#333'
+  name: ''
+roads: []
+routes: []
+danger_zones: []
+landmarks: []
+legend:
+- C 澀谷站

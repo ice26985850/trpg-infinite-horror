@@ -1,0 +1,60 @@
+map_id: END_WM-01
+map_type: world
+scenario: '奇異博士2·多重宇宙崩潰 / Doctor Strange: Multiverse Collapse'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 多重宇宙崩潰——地球-616維度防線
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 200.0
+  - 50.0
+  - 400.0
+  - 100.0
+  fill: '#0d1a1a'
+  stroke: '#10B981'
+  name: 紐約聖所（據點/節點1）
+- bounds:
+  - 200.0
+  - 200.0
+  - 400.0
+  - 120.0
+  fill: '#0d0d1a'
+  stroke: '#3B82F6'
+  name: 卡瑪泰姬（節點2）
+- bounds:
+  - 200.0
+  - 370.0
+  - 400.0
+  - 150.0
+  fill: '#1a0505'
+  stroke: '#EF4444'
+  name: 旺達戈爾山（最終）
+roads: []
+routes:
+- x1: 400.0
+  y1: 150.0
+  x2: 400.0
+  y2: 200.0
+  stroke: '#C084FC'
+  stroke_width: '2'
+  dashed: true
+- x1: 400.0
+  y1: 320.0
+  x2: 400.0
+  y2: 370.0
+  stroke: '#C084FC'
+  stroke_width: '2'
+  dashed: true
+danger_zones: []
+landmarks: []
+legend:
+- 圖例
+- 箭頭 = 推薦路線
+- 紅色區域 = 最終目標

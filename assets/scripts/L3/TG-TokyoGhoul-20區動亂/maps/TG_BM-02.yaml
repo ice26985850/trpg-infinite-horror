@@ -1,0 +1,367 @@
+map_id: TG_BM-02
+map_type: battle
+scenario: '東京喰種·20區動亂 / Tokyo Ghoul: Ward 20 Uprising'
+tier: L3
+difficulty: ★★★
+viewbox:
+- 0
+- 0
+- 640
+- 440
+title: 20區下水道——追擊戰
+description: ''
+grid:
+  type: square
+  width: 14
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20.0
+  - 20.0
+  total_width_ft: 70
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 20.0
+  - 20.0
+  - 600.0
+  - 8.0
+  name: 20區下水道——追擊戰
+  fill: '#556'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 40
+  - 1
+  center_ft:
+  - 100.0
+  - 2.5
+- bounds_px:
+  - 20.0
+  - 392.0
+  - 600.0
+  - 8.0
+  name: 水域危險
+  fill: '#556'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 25
+  - 40
+  - 1
+  center_ft:
+  - 100.0
+  - 127.5
+- bounds_px:
+  - 20.0
+  - 20.0
+  - 8.0
+  - 380.0
+  name: ''
+  fill: '#556'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 1
+  - 25
+  center_ft:
+  - 2.5
+  - 62.5
+- bounds_px:
+  - 612.0
+  - 20.0
+  - 8.0
+  - 380.0
+  name: ''
+  fill: '#556'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 39
+  - 0
+  - 1
+  - 25
+  center_ft:
+  - 197.5
+  - 62.5
+- bounds_px:
+  - 40.0
+  - 90.0
+  - 140.0
+  - 10.0
+  name: 水管（可攀爬移動）
+  fill: '#445'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 1
+  - 5
+  - 9
+  - 1
+  center_ft:
+  - 27.5
+  - 27.5
+- bounds_px:
+  - 40.0
+  - 130.0
+  - 40.0
+  - 15.0
+  name: 廢棄箱
+  fill: '#1a2a3e'
+  stroke: '#555'
+  stroke_width: ''
+  bounds_grid:
+  - 1
+  - 7
+  - 3
+  - 1
+  center_ft:
+  - 12.5
+  - 37.5
+- bounds_px:
+  - 40.0
+  - 170.0
+  - 140.0
+  - 25.0
+  name: 水流通道（敏捷DC2/失敗1d4HP）
+  fill: '#1a2a3a'
+  stroke: '#3B82F6'
+  stroke_width: '1'
+  bounds_grid:
+  - 1
+  - 10
+  - 9
+  - 2
+  center_ft:
+  - 27.5
+  - 55.0
+- bounds_px:
+  - 220.0
+  - 90.0
+  - 200.0
+  - 80.0
+  name: 鱗赫橫掃覆蓋全通道
+  fill: '#0d0d1a'
+  stroke: '#EF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 13
+  - 5
+  - 13
+  - 5
+  center_ft:
+  - 97.5
+  - 37.5
+- bounds_px:
+  - 230.0
+  - 100.0
+  - 20.0
+  - 15.0
+  name: 伏擊點
+  fill: '#301520'
+  stroke: '#EF4444'
+  stroke_width: ''
+  bounds_grid:
+  - 14
+  - 5
+  - 1
+  - 1
+  center_ft:
+  - 72.5
+  - 27.5
+- bounds_px:
+  - 400.0
+  - 100.0
+  - 20.0
+  - 15.0
+  name: 伏擊點
+  fill: '#301520'
+  stroke: '#EF4444'
+  stroke_width: ''
+  bounds_grid:
+  - 25
+  - 5
+  - 1
+  - 1
+  center_ft:
+  - 127.5
+  - 27.5
+- bounds_px:
+  - 220.0
+  - 200.0
+  - 200.0
+  - 10.0
+  name: 高台（可佔據高地+2DP遠程）
+  fill: '#3B2142'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 13
+  - 12
+  - 13
+  - 1
+  center_ft:
+  - 97.5
+  - 62.5
+- bounds_px:
+  - 250.0
+  - 250.0
+  - 60.0
+  - 15.0
+  name: 崩塌石塊(掩體)
+  fill: '#2a2a20'
+  stroke: '#886600'
+  stroke_width: ''
+  bounds_grid:
+  - 15
+  - 15
+  - 4
+  - 1
+  center_ft:
+  - 85.0
+  - 77.5
+- bounds_px:
+  - 340.0
+  - 250.0
+  - 50.0
+  - 15.0
+  name: 崩塌石塊
+  fill: '#2a2a20'
+  stroke: '#886600'
+  stroke_width: ''
+  bounds_grid:
+  - 21
+  - 15
+  - 3
+  - 1
+  center_ft:
+  - 112.5
+  - 77.5
+- bounds_px:
+  - 470.0
+  - 90.0
+  - 60.0
+  - 120.0
+  name: 甲赫喰種
+  fill: '#2a2a3e'
+  stroke: '#F59E0B'
+  stroke_width: '3'
+  bounds_grid:
+  - 30
+  - 5
+  - 4
+  - 8
+  center_ft:
+  - 160.0
+  - 45.0
+- bounds_px:
+  - 500.0
+  - 300.0
+  - 40.0
+  - 80.0
+  name: 側邊分支
+  fill: '#0d0d1a'
+  stroke: '#444'
+  stroke_width: ''
+  bounds_grid:
+  - 32
+  - 19
+  - 3
+  - 5
+  center_ft:
+  - 167.5
+  - 107.5
+- bounds_px:
+  - 40.0
+  - 300.0
+  - 140.0
+  - 40.0
+  name: 深水區（移動速度減半）
+  fill: '#1a2a3a'
+  stroke: '#3B82F6'
+  stroke_width: '1'
+  bounds_grid:
+  - 1
+  - 19
+  - 9
+  - 3
+  center_ft:
+  - 27.5
+  - 102.5
+- bounds_px:
+  - 160.0
+  - 340.0
+  - 10.0
+  - 50.0
+  name: 梯子→通風井
+  fill: '#886600'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 9
+  - 21
+  - 1
+  - 3
+  center_ft:
+  - 47.5
+  - 112.5
+spawn_points:
+  players:
+  - px:
+    - 48.333333333333336
+    - 380.0
+    name: 玩家入口
+    fill: '#00FF88'
+    grid:
+    - 2
+    - 24
+  - px:
+    - 36.666666666666664
+    - 414.0
+    name: 玩家入口
+    fill: '#00FF88'
+    grid:
+    - 1
+    - 26
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 20區下水道——追擊戰
+  to: 水域危險
+  distance_ft: 125.0
+- from: 20區下水道——追擊戰
+  to: ''
+  distance_ft: 114.5
+- from: 20區下水道——追擊戰
+  to: ''
+  distance_ft: 114.5
+- from: 20區下水道——追擊戰
+  to: 水管（可攀爬移動）
+  distance_ft: 76.7
+- from: 20區下水道——追擊戰
+  to: 廢棄箱
+  distance_ft: 94.2
+- from: 20區下水道——追擊戰
+  to: 水流通道（敏捷DC2/失敗1d4HP）
+  distance_ft: 89.5
+- from: 20區下水道——追擊戰
+  to: 鱗赫橫掃覆蓋全通道
+  distance_ft: 35.1
+- from: 20區下水道——追擊戰
+  to: 伏擊點
+  distance_ft: 37.2
+- from: 20區下水道——追擊戰
+  to: 伏擊點
+  distance_ft: 37.2
+- from: 20區下水道——追擊戰
+  to: 高台（可佔據高地+2DP遠程）
+  distance_ft: 60.1

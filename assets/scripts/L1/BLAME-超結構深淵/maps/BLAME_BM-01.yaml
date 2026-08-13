@@ -1,0 +1,223 @@
+map_id: BLAME_BM-01
+map_type: battle
+scenario: '探索者·超結構深淵 / BLAME!: Megastructure Abyss'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 680
+- 420
+title: 淨水器層級 — 頭目戰
+description: ''
+grid:
+  type: square
+  width: 14
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 40.0
+  - 40.0
+  total_width_ft: 70
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 420.0
+  - 5.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 28
+  - 1
+  center_ft:
+  - 70.0
+  - 2.5
+- bounds_px:
+  - 40.0
+  - 335.0
+  - 420.0
+  - 5.0
+  name: 高階領域
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 20
+  - 28
+  - 1
+  center_ft:
+  - 70.0
+  - 102.5
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 5.0
+  - 300.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 1
+  - 20
+  center_ft:
+  - 2.5
+  - 50.0
+- bounds_px:
+  - 455.0
+  - 40.0
+  - 5.0
+  - 300.0
+  name: 守衛
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 28
+  - 0
+  - 1
+  - 20
+  center_ft:
+  - 142.5
+  - 50.0
+- bounds_px:
+  - 200.0
+  - 160.0
+  - 120.0
+  - 80.0
+  name: 淨水器核心
+  fill: '#1a2a20'
+  stroke: '#10B981'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 11
+  - 8
+  - 8
+  - 5
+  center_ft:
+  - 75.0
+  - 52.5
+- bounds_px:
+  - 80.0
+  - 80.0
+  - 80.0
+  - 50.0
+  name: 管道A
+  fill: '#2a2a30'
+  stroke: '#555'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 3
+  - 3
+  - 5
+  - 3
+  center_ft:
+  - 27.5
+  - 22.5
+- bounds_px:
+  - 450.0
+  - 80.0
+  - 80.0
+  - 50.0
+  name: 管道B
+  fill: '#2a2a30'
+  stroke: '#555'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 27
+  - 3
+  - 5
+  - 3
+  center_ft:
+  - 147.5
+  - 22.5
+- bounds_px:
+  - 250.0
+  - 300.0
+  - 100.0
+  - 20.0
+  name: 高階領域
+  fill: '#301520'
+  stroke: '#EF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 14
+  - 17
+  - 7
+  - 1
+  center_ft:
+  - 87.5
+  - 87.5
+- bounds_px:
+  - 200.0
+  - 155.0
+  - 120.0
+  - 5.0
+  name: 獲取淨水器
+  fill: '#00FF88'
+  stroke: '#00FF88'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 11
+  - 8
+  - 8
+  - 1
+  center_ft:
+  - 75.0
+  - 42.5
+spawn_points:
+  players:
+  - px:
+    - 500.0
+    - 380.0
+    name: 玩家入口
+    fill: '#00FF88'
+    grid:
+    - 31
+    - 23
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: ''
+  to: 高階領域
+  distance_ft: 100.0
+- from: ''
+  to: ''
+  distance_ft: 82.5
+- from: ''
+  to: 守衛
+  distance_ft: 86.7
+- from: ''
+  to: 淨水器核心
+  distance_ft: 50.2
+- from: ''
+  to: 管道A
+  distance_ft: 47.0
+- from: ''
+  to: 管道B
+  distance_ft: 80.0
+- from: ''
+  to: 高階領域
+  distance_ft: 86.8
+- from: ''
+  to: 獲取淨水器
+  distance_ft: 40.3
+- from: 高階領域
+  to: ''
+  distance_ft: 85.5
+- from: 高階領域
+  to: 守衛
+  distance_ft: 89.5

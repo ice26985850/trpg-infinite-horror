@@ -1,0 +1,243 @@
+map_id: AOT_EM-01
+map_type: exploration
+scenario: '進擊的巨人·托洛斯特區奪還戰 / Attack on Titan: Battle of Trost District'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 900
+- 700
+title: 托洛斯特區街區探索圖 (Exploration Map EM-01)
+description: ''
+floors:
+- name: 樓層 1
+  y: 0.0
+  rooms:
+  - bounds:
+    - 0.0
+    - 0.0
+    - 900.0
+    - 700.0
+    name: 平民×1d3
+    fill: '#1a1a2e'
+    stroke: ''
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 50.0
+    - 55.0
+    - 800.0
+    - 20.0
+    name: 瑪利亞之牆 (Wall Maria) 城牆頂部 — 集結點
+    fill: '#4a4a4a'
+    stroke: '#666'
+    stroke_width: '1'
+    rx: 2.0
+  - bounds:
+    - 80.0
+    - 80.0
+    - 160.0
+    - 120.0
+    name: 倒塌商舖
+    fill: '#3a3a2a'
+    stroke: '#6a6a4a'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 260.0
+    - 80.0
+    - 140.0
+    - 100.0
+    name: 藥舖
+    fill: '#3a3a2a'
+    stroke: '#6a6a4a'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 420.0
+    - 80.0
+    - 120.0
+    - 140.0
+    name: 武器店
+    fill: '#3a3a2a'
+    stroke: '#6a6a4a'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 560.0
+    - 80.0
+    - 100.0
+    - 100.0
+    name: 民宅
+    fill: '#3a3a2a'
+    stroke: '#6a6a4a'
+    stroke_width: '1.5'
+    rx: 3.0
+- name: 樓層 2
+  y: 160.0
+  rooms:
+  - bounds:
+    - 150.0
+    - 160.0
+    - 80.0
+    - 30.0
+    name: ⚠ 巨人巡遊
+    fill: none
+    stroke: '#e74c3c'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 70.0
+    - 195.0
+    - 760.0
+    - 25.0
+    name: 主街道 →
+    fill: '#5a5a4a'
+    stroke: '#6a6a5a'
+    stroke_width: '1'
+    rx: 0.0
+  - bounds:
+    - 80.0
+    - 230.0
+    - 200.0
+    - 150.0
+    name: '主街道
+
+      商舖區 B'
+    fill: '#3a3a2a'
+    stroke: '#6a6a4a'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 300.0
+    - 230.0
+    - 180.0
+    - 140.0
+    name: 民宅群
+    fill: '#3a3a2a'
+    stroke: '#6a6a4a'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 500.0
+    - 230.0
+    - 150.0
+    - 150.0
+    name: 廢棄旅館
+    fill: '#3a3a2a'
+    stroke: '#6a6a4a'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 145.0
+    - 256.0
+    - 70.0
+    - 28.0
+    name: NPC
+    fill: '#e74c3c'
+    stroke: ''
+    stroke_width: ''
+    rx: 14.0
+  - bounds:
+    - 645.0
+    - 266.0
+    - 70.0
+    - 28.0
+    name: NPC
+    fill: '#f39c12'
+    stroke: ''
+    stroke_width: ''
+    rx: 14.0
+  - bounds:
+    - 550.0
+    - 300.0
+    - 80.0
+    - 30.0
+    name: 上層可作狙擊點
+    fill: none
+    stroke: '#e74c3c'
+    stroke_width: '1'
+    rx: 4.0
+- name: 樓層 3
+  y: 390.0
+  rooms:
+  - bounds:
+    - 70.0
+    - 390.0
+    - 760.0
+    - 15.0
+    name: '阿爾敏
+
+      （戰術建議）'
+    fill: '#5a5a4a'
+    stroke: '#6a6a5a'
+    stroke_width: '1'
+    rx: 0.0
+  - bounds:
+    - 650.0
+    - 390.0
+    - 80.0
+    - 30.0
+    name: ⚠ 倒塌建築
+    fill: none
+    stroke: '#e74c3c'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 80.0
+    - 410.0
+    - 220.0
+    - 180.0
+    name: '物資據點
+
+      廣場 C'
+    fill: '#3a3a2a'
+    stroke: '#6a6a4a'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 330.0
+    - 420.0
+    - 200.0
+    - 140.0
+    name: '聖瑪利亞
+
+      教堂 D'
+    fill: '#3a3a2a'
+    stroke: '#6a6a4a'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 560.0
+    - 420.0
+    - 150.0
+    - 120.0
+    name: 兵營遺址
+    fill: '#3a3a2a'
+    stroke: '#6a6a4a'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 365.0
+    - 436.0
+    - 70.0
+    - 28.0
+    name: NPC
+    fill: '#3498db'
+    stroke: ''
+    stroke_width: ''
+    rx: 14.0
+  - bounds:
+    - 565.0
+    - 436.0
+    - 70.0
+    - 28.0
+    name: NPC
+    fill: '#2ecc71'
+    stroke: ''
+    stroke_width: ''
+    rx: 14.0
+connections: []
+legend: []
+notes: []

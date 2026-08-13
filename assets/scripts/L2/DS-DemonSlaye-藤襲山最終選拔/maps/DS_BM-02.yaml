@@ -1,0 +1,215 @@
+map_id: DS_BM-02
+map_type: battle
+scenario: '鬼滅之刃·藤襲山最終選拔 / Demon Slayer: Final Selection'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 740
+- 580
+title: 山頂最終戰／古道遭遇 (Battle Map BM-02) — 12×8 格線 | 1格=5ft
+description: ''
+grid:
+  type: square
+  width: 12
+  height: 8
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 60
+  total_height_ft: 40
+terrain:
+- bounds_px:
+  - 40.0
+  - 60.0
+  - 660.0
+  - 440.0
+  name: 石板古道
+  fill: '#2a3a2a'
+  stroke: '#4B0082'
+  stroke_width: '3'
+  bounds_grid:
+  - 1
+  - 3
+  - 44
+  - 29
+  center_ft:
+  - 115.0
+  - 87.5
+- bounds_px:
+  - 315.0
+  - 60.0
+  - 110.0
+  - 440.0
+  name: 石板古道
+  fill: '#5a4a3a'
+  stroke: '#8a7a6a'
+  stroke_width: '1'
+  bounds_grid:
+  - 20
+  - 3
+  - 7
+  - 29
+  center_ft:
+  - 117.5
+  - 87.5
+- bounds_px:
+  - 169.5
+  - 185.5
+  - 16.0
+  - 24.0
+  name: 石燈籠
+  fill: '#6a6a6a'
+  stroke: '#888'
+  stroke_width: '1'
+  bounds_grid:
+  - 10
+  - 11
+  - 1
+  - 2
+  center_ft:
+  - 52.5
+  - 60.0
+- bounds_px:
+  - 554.5
+  - 240.5
+  - 16.0
+  - 24.0
+  name: 石燈籠
+  fill: '#6a6a6a'
+  stroke: '#888'
+  stroke_width: '1'
+  bounds_grid:
+  - 36
+  - 15
+  - 1
+  - 2
+  center_ft:
+  - 182.5
+  - 80.0
+- bounds_px:
+  - 279.5
+  - 405.5
+  - 16.0
+  - 24.0
+  name: 石燈籠
+  fill: '#6a6a6a'
+  stroke: '#888'
+  stroke_width: '1'
+  bounds_grid:
+  - 17
+  - 26
+  - 1
+  - 2
+  center_ft:
+  - 87.5
+  - 135.0
+- bounds_px:
+  - 499.5
+  - 350.5
+  - 16.0
+  - 24.0
+  name: 石燈籠
+  fill: '#6a6a6a'
+  stroke: '#888'
+  stroke_width: '1'
+  bounds_grid:
+  - 32
+  - 22
+  - 1
+  - 2
+  center_ft:
+  - 162.5
+  - 115.0
+- bounds_px:
+  - 40.0
+  - 60.0
+  - 660.0
+  - 15.0
+  name: 崖壁（無法通行）
+  fill: '#4a3a2a'
+  stroke: '#6a5a4a'
+  stroke_width: '1'
+  bounds_grid:
+  - 1
+  - 3
+  - 44
+  - 1
+  center_ft:
+  - 115.0
+  - 17.5
+- bounds_px:
+  - 315.0
+  - 445.0
+  - 110.0
+  - 55.0
+  name: ← 古道入口
+  fill: '#3a2a1a'
+  stroke: '#f39c12'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 20
+  - 28
+  - 7
+  - 4
+  center_ft:
+  - 117.5
+  - 150.0
+- bounds_px:
+  - 320.0
+  - 395.0
+  - 100.0
+  - 45.0
+  name: 玩家起始
+  fill: none
+  stroke: '#2ecc71'
+  stroke_width: '2'
+  bounds_grid:
+  - 20
+  - 25
+  - 7
+  - 3
+  center_ft:
+  - 117.5
+  - 132.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 石板古道
+  to: 石燈籠
+  distance_ft: 68.3
+- from: 石板古道
+  to: 石燈籠
+  distance_ft: 67.9
+- from: 石板古道
+  to: 石燈籠
+  distance_ft: 54.9
+- from: 石板古道
+  to: 石燈籠
+  distance_ft: 54.9
+- from: 石板古道
+  to: 崖壁（無法通行）
+  distance_ft: 70.0
+- from: 石板古道
+  to: ← 古道入口
+  distance_ft: 62.5
+- from: 石板古道
+  to: 玩家起始
+  distance_ft: 45.1
+- from: 石板古道
+  to: 石燈籠
+  distance_ft: 70.6
+- from: 石板古道
+  to: 石燈籠
+  distance_ft: 65.4
+- from: 石板古道
+  to: 石燈籠
+  distance_ft: 56.2

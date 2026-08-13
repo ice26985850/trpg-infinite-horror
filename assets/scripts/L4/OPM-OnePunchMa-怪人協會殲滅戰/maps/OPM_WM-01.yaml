@@ -1,0 +1,131 @@
+map_id: OPM_WM-01
+map_type: world
+scenario: '一拳超人·怪人協會殲滅戰 / One Punch Man: Monster Association Raid'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: (起始點/A級臨時英雄登錄)
+description: ''
+scale: OPM_WM-01 | 大範圍地圖 | OPM_WM-01 | 大範圍地圖 | Z市全域 (1格 ≈ 200m)
+regions:
+- bounds:
+  - 50.0
+  - 40.0
+  - 700.0
+  - 400.0
+  fill: '#151530'
+  stroke: '#6D28D9'
+  name: ''
+- bounds:
+  - 530.0
+  - 60.0
+  - 200.0
+  - 100.0
+  fill: '#1a2a2a'
+  stroke: '#3B82F6'
+  name: (起始點/A級臨時英雄登錄)
+- bounds:
+  - 200.0
+  - 340.0
+  - 100.0
+  - 25.0
+  fill: '#301520'
+  stroke: '#EF4444'
+  name: B1 雜魚層
+- bounds:
+  - 320.0
+  - 340.0
+  - 80.0
+  - 25.0
+  fill: '#301520'
+  stroke: '#FD0304'
+  name: B2 幹部層
+- bounds:
+  - 420.0
+  - 340.0
+  - 100.0
+  - 25.0
+  fill: '#301520'
+  stroke: '#FD0304'
+  name: B3 王座層
+- bounds:
+  - 80.0
+  - 160.0
+  - 120.0
+  - 70.0
+  fill: '#1a2a1a'
+  stroke: '#10B981'
+  name: 地上入口A
+- bounds:
+  - 80.0
+  - 300.0
+  - 120.0
+  - 70.0
+  fill: '#1a2a1a'
+  stroke: '#10B981'
+  name: 地上入口B
+- bounds:
+  - 550.0
+  - 300.0
+  - 120.0
+  - 70.0
+  fill: '#1a2a1a'
+  stroke: '#10B981'
+  name: 地上入口C
+roads: []
+routes:
+- x1: 140.0
+  y1: 370.0
+  x2: 230.0
+  y2: 370.0
+  stroke: '#C084FC'
+  stroke_width: '2'
+  dashed: true
+- x1: 610.0
+  y1: 370.0
+  x2: 500.0
+  y2: 370.0
+  stroke: '#C084FC'
+  stroke_width: '2'
+  dashed: true
+- x1: 600.0
+  y1: 230.0
+  x2: 400.0
+  y2: 310.0
+  stroke: '#FFAA00'
+  stroke_width: '2'
+  dashed: true
+- x1: 70.0
+  y1: 555.0
+  x2: 100.0
+  y2: 555.0
+  stroke: '#C084FC'
+  stroke_width: '2'
+  dashed: true
+danger_zones:
+- center:
+  - 360.0
+  - 310.0
+  rx: 180.0
+  ry: 110.0
+  name: B2 幹部層
+  fill: '#1a0810'
+  stroke: '#FF4444'
+landmarks:
+- center:
+  - 630.0
+  - 200.0
+  radius: 15.0
+  name: ★ 埼玉隨機位置
+  fill: none
+  stroke: '#FFAA00'
+  dashed: true
+legend:
+- ★ 埼玉隨機位置
+- (起始點/A級臨時英雄登錄)
+- 地上入口C
+- 埼玉隨機位置

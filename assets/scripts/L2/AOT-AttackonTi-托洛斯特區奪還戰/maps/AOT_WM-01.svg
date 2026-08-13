@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="1000" height="700" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="1000" height="700" fill="url(#wmgrid)"/>
+<line x1="80.0" y1="150.0" x2="920.0" y2="150.0" stroke="#5a5a4a" stroke-width="2"/>
+<line x1="80.0" y1="230.0" x2="920.0" y2="230.0" stroke="#5a5a4a" stroke-width="2"/>
+<line x1="80.0" y1="310.0" x2="920.0" y2="310.0" stroke="#5a5a4a" stroke-width="2"/>
+<line x1="80.0" y1="390.0" x2="920.0" y2="390.0" stroke="#5a5a4a" stroke-width="2"/>
+<line x1="80.0" y1="470.0" x2="920.0" y2="470.0" stroke="#5a5a4a" stroke-width="2"/>
+<line x1="80.0" y1="550.0" x2="920.0" y2="550.0" stroke="#5a5a4a" stroke-width="2"/>
+<line x1="100.0" y1="130.0" x2="100.0" y2="610.0" stroke="#5a5a4a" stroke-width="2"/>
+<line x1="200.0" y1="130.0" x2="200.0" y2="610.0" stroke="#5a5a4a" stroke-width="2"/>
+<line x1="300.0" y1="130.0" x2="300.0" y2="610.0" stroke="#5a5a4a" stroke-width="2"/>
+<line x1="400.0" y1="130.0" x2="400.0" y2="610.0" stroke="#5a5a4a" stroke-width="2"/>
+<line x1="500.0" y1="130.0" x2="500.0" y2="610.0" stroke="#5a5a4a" stroke-width="2"/>
+<line x1="600.0" y1="130.0" x2="600.0" y2="610.0" stroke="#5a5a4a" stroke-width="2"/>
+<line x1="700.0" y1="130.0" x2="700.0" y2="610.0" stroke="#5a5a4a" stroke-width="2"/>
+<line x1="800.0" y1="130.0" x2="800.0" y2="610.0" stroke="#5a5a4a" stroke-width="2"/>
+<line x1="80.0" y1="650.0" x2="280.0" y2="650.0" stroke="#fff" stroke-width="2"/>
+<line x1="80.0" y1="645.0" x2="80.0" y2="655.0" stroke="#fff" stroke-width="2"/>
+<line x1="280.0" y1="645.0" x2="280.0" y2="655.0" stroke="#fff" stroke-width="2"/>
+<rect x="50.0" y="80.0" width="900.0" height="25.0" rx="5" fill="#6a6a6a" stroke="#888" stroke-width="2"/>
+<text x="500.0" y="92.5" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">瑪利亞之牆 (Wall Maria) — 外側城牆</text>
+<rect x="380.0" y="75.0" width="80.0" height="35.0" rx="5" fill="#ff4444" stroke="#ff0000" stroke-width="2"/>
+<text x="420.0" y="92.5" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">E 破洞</text>
+<rect x="60.0" y="120.0" width="880.0" height="500.0" rx="5" fill="#2a3020" stroke="#4B0082" stroke-width="2"/>
+<rect x="760.0" y="560.0" width="160.0" height="30.0" rx="5" fill="#4a4a8a" stroke="#6a6aaa" stroke-width="2"/>
+<text x="840.0" y="575.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">內城門 → 羅塞之牆 (Wall Rose)</text>
+<circle cx="280.0" cy="150.0" r="10.0" fill="#e74c3c" opacity="0.6"/>
+<circle cx="280.0" cy="150.0" r="10.0" fill="none" stroke="#fff" stroke-width="2"/>
+<text x="280.0" y="135.0" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">★ （起始點）</text>
+<circle cx="280.0" cy="150.0" r="16.0" fill="none" stroke="#e74c3c" stroke-width="2"/>
+<text x="280.0" y="129.0" text-anchor="middle" fill="#e74c3c" font-size="10" font-weight="bold">★ （起始點）</text>
+<circle cx="470.0" cy="300.0" r="10.0" fill="#3498db" opacity="0.6"/>
+<circle cx="470.0" cy="300.0" r="10.0" fill="none" stroke="#fff" stroke-width="2"/>
+<text x="470.0" y="285.0" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">★ 商舖區</text>
+<circle cx="470.0" cy="300.0" r="16.0" fill="none" stroke="#3498db" stroke-width="2"/>
+<text x="470.0" y="279.0" text-anchor="middle" fill="#3498db" font-size="10" font-weight="bold">★ 商舖區</text>
+<circle cx="350.0" cy="420.0" r="10.0" fill="#2ecc71" opacity="0.6"/>
+<circle cx="350.0" cy="420.0" r="10.0" fill="none" stroke="#fff" stroke-width="2"/>
+<text x="350.0" y="405.0" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">★ 廣場</text>
+<circle cx="350.0" cy="420.0" r="16.0" fill="none" stroke="#2ecc71" stroke-width="2"/>
+<text x="350.0" y="399.0" text-anchor="middle" fill="#2ecc71" font-size="10" font-weight="bold">★ 廣場</text>
+<circle cx="650.0" cy="250.0" r="10.0" fill="#f39c12" opacity="0.6"/>
+<circle cx="650.0" cy="250.0" r="10.0" fill="none" stroke="#fff" stroke-width="2"/>
+<text x="650.0" y="235.0" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">★ 教堂</text>
+<circle cx="650.0" cy="250.0" r="16.0" fill="none" stroke="#f39c12" stroke-width="2"/>
+<text x="650.0" y="229.0" text-anchor="middle" fill="#f39c12" font-size="10" font-weight="bold">★ 教堂</text>
+<circle cx="420.0" cy="140.0" r="10.0" fill="#ff4444" opacity="0.6"/>
+<circle cx="420.0" cy="140.0" r="10.0" fill="none" stroke="#fff" stroke-width="2"/>
+<text x="420.0" y="125.0" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">★ E 城牆破洞</text>
+<circle cx="420.0" cy="140.0" r="16.0" fill="none" stroke="#ff4444" stroke-width="2"/>
+<text x="420.0" y="119.0" text-anchor="middle" fill="#ff4444" font-size="10" font-weight="bold">★ E 城牆破洞</text>
+<circle cx="750.0" cy="500.0" r="10.0" fill="#9b59b6" opacity="0.6"/>
+<circle cx="750.0" cy="500.0" r="10.0" fill="none" stroke="#fff" stroke-width="2"/>
+<text x="750.0" y="485.0" text-anchor="middle" fill="#fff" font-size="10" font-weight="bold">★ →羅塞之牆</text>
+<circle cx="750.0" cy="500.0" r="16.0" fill="none" stroke="#9b59b6" stroke-width="2"/>
+<text x="750.0" y="479.0" text-anchor="middle" fill="#9b59b6" font-size="10" font-weight="bold">★ →羅塞之牆</text>
+<circle cx="200.0" cy="200.0" r="6.0" fill="none" stroke="#e74c3c" stroke-width="2"/>
+<text x="200.0" y="189.0" text-anchor="middle" fill="#e74c3c" font-size="10" font-weight="bold">★ 🔥</text>
+<circle cx="350.0" cy="250.0" r="6.0" fill="none" stroke="#e74c3c" stroke-width="2"/>
+<circle cx="550.0" cy="350.0" r="6.0" fill="none" stroke="#e74c3c" stroke-width="2"/>
+<circle cx="600.0" cy="450.0" r="6.0" fill="none" stroke="#e74c3c" stroke-width="2"/>
+<circle cx="300.0" cy="500.0" r="6.0" fill="none" stroke="#e74c3c" stroke-width="2"/>
+<text x="300.0" y="489.0" text-anchor="middle" fill="#e74c3c" font-size="10" font-weight="bold">★ 🔥</text>
+<circle cx="700.0" cy="350.0" r="6.0" fill="none" stroke="#e74c3c" stroke-width="2"/>
+<circle cx="800.0" cy="200.0" r="6.0" fill="none" stroke="#e74c3c" stroke-width="2"/>
+<text x="800.0" y="189.0" text-anchor="middle" fill="#e74c3c" font-size="10" font-weight="bold">★ 平民避難所教堂</text>
+<circle cx="450.0" cy="550.0" r="6.0" fill="none" stroke="#e74c3c" stroke-width="2"/>
+<circle cx="180.0" cy="400.0" r="6.0" fill="none" stroke="#e74c3c" stroke-width="2"/>
+<circle cx="750.0" cy="450.0" r="6.0" fill="none" stroke="#e74c3c" stroke-width="2"/>
+<text x="750.0" y="439.0" text-anchor="middle" fill="#e74c3c" font-size="10" font-weight="bold">★ 撤離路線</text>
+<circle cx="795.0" cy="137.0" r="4.0" fill="#e74c3c" opacity="0.6"/>
+<circle cx="795.0" cy="137.0" r="4.0" fill="none" stroke="" stroke-width="2"/>
+<text x="795.0" y="128.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ 城牆集結點</text>
+<circle cx="795.0" cy="155.0" r="4.0" fill="#3498db" opacity="0.6"/>
+<circle cx="795.0" cy="155.0" r="4.0" fill="none" stroke="" stroke-width="2"/>
+<text x="795.0" y="146.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ 主街道商舖區</text>
+<circle cx="795.0" cy="173.0" r="4.0" fill="#2ecc71" opacity="0.6"/>
+<circle cx="795.0" cy="173.0" r="4.0" fill="none" stroke="" stroke-width="2"/>
+<text x="795.0" y="164.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ 物資據點廣場</text>
+<circle cx="795.0" cy="191.0" r="4.0" fill="#f39c12" opacity="0.6"/>
+<circle cx="795.0" cy="191.0" r="4.0" fill="none" stroke="" stroke-width="2"/>
+<text x="795.0" y="182.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ 平民避難所教堂</text>
+<circle cx="795.0" cy="209.0" r="4.0" fill="#ff4444" opacity="0.6"/>
+<circle cx="795.0" cy="209.0" r="4.0" fill="none" stroke="" stroke-width="2"/>
+<text x="795.0" y="200.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ 城牆破洞</text>
+<circle cx="795.0" cy="227.0" r="4.0" fill="none" stroke="#e74c3c" stroke-width="2"/>
+<text x="795.0" y="218.0" text-anchor="middle" fill="#e74c3c" font-size="10" font-weight="bold">★ 巨人位置（約50隻）</text>
+<rect x="830" y="20" width="150" height="182" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="905" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">圖例</text>
+<text x="840" y="60" fill="#aaa" font-size="9">撤離路線</text>
+<text x="840" y="76" fill="#aaa" font-size="9">→羅塞之牆</text>
+<text x="840" y="92" fill="#aaa" font-size="9">內城門 → 羅塞之牆 (Wall Rose)</text>
+<text x="840" y="108" fill="#aaa" font-size="9">城牆集結點</text>
+<text x="840" y="124" fill="#aaa" font-size="9">主街道商舖區</text>
+<text x="840" y="140" fill="#aaa" font-size="9">物資據點廣場</text>
+<text x="840" y="156" fill="#aaa" font-size="9">平民避難所教堂</text>
+<text x="840" y="172" fill="#aaa" font-size="9">城牆破洞</text>
+<text x="840" y="188" fill="#aaa" font-size="9">巨人位置（約50隻）</text>
+<text x="20" y="685" fill="#666" font-size="9">AOT_WM-01 | 大範圍地圖 | 示意圖</text>
+</svg>

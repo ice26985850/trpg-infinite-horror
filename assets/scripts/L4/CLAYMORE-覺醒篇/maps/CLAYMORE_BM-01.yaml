@@ -1,0 +1,118 @@
+map_id: CLAYMORE_BM-01
+map_type: battle
+scenario: '大劍·覺醒篇 / Claymore: Abyssal Awakening'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 640
+- 480
+title: BM-01 覺醒者山谷戰
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 80.0
+  - 80.0
+  name: 玩家起始
+  fill: none
+  stroke: '#00FF88'
+  stroke_width: '2'
+  bounds_grid:
+  - 1
+  - 1
+  - 5
+  - 5
+  center_ft:
+  - 17.5
+  - 17.5
+- bounds_px:
+  - 280.0
+  - 200.0
+  - 120.0
+  - 80.0
+  name: 覺醒者
+  fill: none
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 17
+  - 12
+  - 8
+  - 5
+  center_ft:
+  - 105.0
+  - 72.5
+- bounds_px:
+  - 40.0
+  - 200.0
+  - 80.0
+  - 80.0
+  name: 克蕾雅（協同DP+2）
+  fill: none
+  stroke: '#00FF88'
+  stroke_width: '2'
+  bounds_grid:
+  - 1
+  - 12
+  - 5
+  - 5
+  center_ft:
+  - 17.5
+  - 72.5
+- bounds_px:
+  - 160.0
+  - 120.0
+  - 80.0
+  - 80.0
+  name: 高地（敏捷DC3）
+  fill: '#3B82F644'
+  stroke: '#3B82F6'
+  stroke_width: '1'
+  bounds_grid:
+  - 9
+  - 7
+  - 5
+  - 5
+  center_ft:
+  - 57.5
+  - 47.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 玩家起始
+  to: 覺醒者
+  distance_ft: 103.4
+- from: 玩家起始
+  to: 克蕾雅（協同DP+2）
+  distance_ft: 55.0
+- from: 玩家起始
+  to: 高地（敏捷DC3）
+  distance_ft: 50.0
+- from: 覺醒者
+  to: 克蕾雅（協同DP+2）
+  distance_ft: 87.5
+- from: 覺醒者
+  to: 高地（敏捷DC3）
+  distance_ft: 53.7
+- from: 克蕾雅（協同DP+2）
+  to: 高地（敏捷DC3）
+  distance_ft: 47.2

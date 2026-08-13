@@ -1,0 +1,304 @@
+map_id: BLEACH_BM-01
+map_type: battle
+scenario: '死神·屍魂界救援 / Bleach: Soul Society Rescue'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 680
+- 460
+title: 六番隊牢房——露琪亞救援戰
+description: ''
+grid:
+  type: square
+  width: 16
+  height: 12
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20.0
+  - 20.0
+  total_width_ft: 80
+  total_height_ft: 60
+terrain:
+- bounds_px:
+  - 20.0
+  - 20.0
+  - 640.0
+  - 5.0
+  name: 六番隊牢房——露琪亞救援戰
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 43
+  - 1
+  center_ft:
+  - 107.5
+  - 2.5
+- bounds_px:
+  - 20.0
+  - 435.0
+  - 640.0
+  - 5.0
+  name: 玩家入口
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 28
+  - 43
+  - 1
+  center_ft:
+  - 107.5
+  - 142.5
+- bounds_px:
+  - 20.0
+  - 20.0
+  - 5.0
+  - 420.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 1
+  - 28
+  center_ft:
+  - 2.5
+  - 70.0
+- bounds_px:
+  - 655.0
+  - 20.0
+  - 5.0
+  - 420.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 42
+  - 0
+  - 1
+  - 28
+  center_ft:
+  - 212.5
+  - 70.0
+- bounds_px:
+  - 180.0
+  - 20.0
+  - 5.0
+  - 280.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 11
+  - 0
+  - 1
+  - 19
+  center_ft:
+  - 57.5
+  - 47.5
+- bounds_px:
+  - 20.0
+  - 180.0
+  - 180.0
+  - 5.0
+  name: 牢房走廊
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 11
+  - 12
+  - 1
+  center_ft:
+  - 30.0
+  - 57.5
+- bounds_px:
+  - 50.0
+  - 40.0
+  - 100.0
+  - 60.0
+  name: 露琪亞牢房
+  fill: '#2E1A3E'
+  stroke: '#EF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 2
+  - 1
+  - 7
+  - 4
+  center_ft:
+  - 27.5
+  - 15.0
+- bounds_px:
+  - 50.0
+  - 195.0
+  - 100.0
+  - 50.0
+  name: 牢房B
+  fill: '#1a1030'
+  stroke: '#555'
+  stroke_width: ''
+  bounds_grid:
+  - 2
+  - 12
+  - 7
+  - 3
+  center_ft:
+  - 27.5
+  - 67.5
+- bounds_px:
+  - 50.0
+  - 270.0
+  - 100.0
+  - 50.0
+  name: 牢房C
+  fill: '#1a1030'
+  stroke: '#555'
+  stroke_width: ''
+  bounds_grid:
+  - 2
+  - 17
+  - 7
+  - 3
+  center_ft:
+  - 27.5
+  - 92.5
+- bounds_px:
+  - 210.0
+  - 40.0
+  - 100.0
+  - 80.0
+  name: 守衛室
+  fill: '#162040'
+  stroke: '#F59E0B'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 13
+  - 1
+  - 7
+  - 5
+  center_ft:
+  - 82.5
+  - 17.5
+- bounds_px:
+  - 20.0
+  - 140.0
+  - 160.0
+  - 40.0
+  name: 牢房走廊
+  fill: '#151525'
+  stroke: '#3a2a5a'
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 8
+  - 11
+  - 3
+  center_ft:
+  - 27.5
+  - 47.5
+- bounds_px:
+  - 400.0
+  - 40.0
+  - 80.0
+  - 60.0
+  name: 副隊長站崗
+  fill: '#301520'
+  stroke: '#EF4444'
+  stroke_width: ''
+  bounds_grid:
+  - 25
+  - 1
+  - 5
+  - 4
+  center_ft:
+  - 137.5
+  - 15.0
+- bounds_px:
+  - 520.0
+  - 40.0
+  - 60.0
+  - 200.0
+  name: 樓梯
+  fill: '#1a2a20'
+  stroke: '#10B981'
+  stroke_width: ''
+  bounds_grid:
+  - 33
+  - 1
+  - 4
+  - 13
+  center_ft:
+  - 175.0
+  - 37.5
+- bounds_px:
+  - 280.0
+  - 380.0
+  - 120.0
+  - 55.0
+  name: 玩家入口
+  fill: none
+  stroke: '#00FF88'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 17
+  - 24
+  - 8
+  - 4
+  center_ft:
+  - 105.0
+  - 130.0
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective:
+  description: (救援目標)
+  position_px:
+  - 100.0
+  - 80.0
+key_distances:
+- from: 六番隊牢房——露琪亞救援戰
+  to: 玩家入口
+  distance_ft: 140.0
+- from: 六番隊牢房——露琪亞救援戰
+  to: ''
+  distance_ft: 124.8
+- from: 六番隊牢房——露琪亞救援戰
+  to: ''
+  distance_ft: 124.8
+- from: 六番隊牢房——露琪亞救援戰
+  to: ''
+  distance_ft: 67.3
+- from: 六番隊牢房——露琪亞救援戰
+  to: 牢房走廊
+  distance_ft: 95.0
+- from: 六番隊牢房——露琪亞救援戰
+  to: 露琪亞牢房
+  distance_ft: 81.0
+- from: 六番隊牢房——露琪亞救援戰
+  to: 牢房B
+  distance_ft: 103.1
+- from: 六番隊牢房——露琪亞救援戰
+  to: 牢房C
+  distance_ft: 120.4
+- from: 六番隊牢房——露琪亞救援戰
+  to: 守衛室
+  distance_ft: 29.2
+- from: 六番隊牢房——露琪亞救援戰
+  to: 牢房走廊
+  distance_ft: 91.8

@@ -1,0 +1,185 @@
+map_id: BACK-01_BM-02
+map_type: battle
+scenario: '後室·入門層級 / The Backrooms: Entry Levels'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 680
+- 480
+title: 戰鬥地圖 2 — 最終場景
+description: ''
+grid:
+  type: square
+  width: 15
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 75
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 20.0
+  - 20.0
+  - 640.0
+  - 440.0
+  name: ''
+  fill: none
+  stroke: '#D97706'
+  stroke_width: '2'
+  bounds_grid:
+  - 0
+  - 0
+  - 43
+  - 29
+  center_ft:
+  - 107.5
+  - 72.5
+- bounds_px:
+  - 50.0
+  - 60.0
+  - 70.0
+  - 35.0
+  name: 掩體
+  fill: '#333'
+  stroke: '#555'
+  stroke_width: ''
+  bounds_grid:
+  - 2
+  - 3
+  - 5
+  - 2
+  center_ft:
+  - 22.5
+  - 20.0
+- bounds_px:
+  - 200.0
+  - 100.0
+  - 60.0
+  - 60.0
+  name: 大型障礙
+  fill: '#223'
+  stroke: '#446'
+  stroke_width: ''
+  bounds_grid:
+  - 12
+  - 5
+  - 4
+  - 4
+  center_ft:
+  - 70.0
+  - 35.0
+- bounds_px:
+  - 350.0
+  - 200.0
+  - 100.0
+  - 30.0
+  name: 障礙物
+  fill: '#331'
+  stroke: '#662'
+  stroke_width: ''
+  bounds_grid:
+  - 22
+  - 12
+  - 7
+  - 2
+  center_ft:
+  - 127.5
+  - 65.0
+- bounds_px:
+  - 120.0
+  - 310.0
+  - 50.0
+  - 80.0
+  name: 結構
+  fill: '#232'
+  stroke: '#454'
+  stroke_width: ''
+  bounds_grid:
+  - 7
+  - 19
+  - 3
+  - 5
+  center_ft:
+  - 42.5
+  - 107.5
+- bounds_px:
+  - 530.0
+  - 370.0
+  - 80.0
+  - 40.0
+  name: 玩家進場路線
+  fill: none
+  stroke: '#06B6D4'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 34
+  - 23
+  - 5
+  - 3
+  center_ft:
+  - 182.5
+  - 122.5
+- bounds_px:
+  - 450.0
+  - 140.0
+  - 80.0
+  - 60.0
+  name: 危險地形
+  fill: '#DC2626'
+  stroke: '#DC2626'
+  stroke_width: '1'
+  bounds_grid:
+  - 29
+  - 8
+  - 5
+  - 4
+  center_ft:
+  - 157.5
+  - 50.0
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective:
+  description: ★ 撤離點
+  position_px:
+  - 580.0
+  - 75.0
+key_distances:
+- from: ''
+  to: 掩體
+  distance_ft: 99.9
+- from: ''
+  to: 大型障礙
+  distance_ft: 53.0
+- from: ''
+  to: 障礙物
+  distance_ft: 21.4
+- from: ''
+  to: 結構
+  distance_ft: 73.8
+- from: ''
+  to: 玩家進場路線
+  distance_ft: 90.1
+- from: ''
+  to: 危險地形
+  distance_ft: 54.8
+- from: 掩體
+  to: 大型障礙
+  distance_ft: 49.8
+- from: 掩體
+  to: 障礙物
+  distance_ft: 114.2
+- from: 掩體
+  to: 結構
+  distance_ft: 89.8
+- from: 掩體
+  to: 玩家進場路線
+  distance_ft: 190.0

@@ -1,0 +1,116 @@
+map_id: SCP-173_WM-01
+map_type: world
+scenario: 'SCP-173·雕像·最初之作 / SCP-173: The Sculpture - The Original'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: SCP-173·雕像·最初之作 — 大範圍地圖
+description: ''
+scale: SCP-173_WM-01 | 大範圍地圖 | 1格 ≈ 100m
+regions:
+- bounds:
+  - 80.0
+  - 80.0
+  - 200.0
+  - 180.0
+  fill: '#DC2626'
+  stroke: '#FCA5A5'
+  name: 起始點
+- bounds:
+  - 420.0
+  - 80.0
+  - 200.0
+  - 180.0
+  fill: '#DC2626'
+  stroke: '#FCA5A5'
+  name: 關鍵地點 2
+roads: []
+routes:
+- x1: 180.0
+  y1: 170.0
+  x2: 300.0
+  y2: 320.0
+  stroke: '#F59E0B'
+  stroke_width: '2'
+  dashed: true
+- x1: 300.0
+  y1: 320.0
+  x2: 650.0
+  y2: 400.0
+  stroke: '#F59E0B'
+  stroke_width: '2'
+  dashed: true
+danger_zones:
+- center:
+  - 300.0
+  - 400.0
+  rx: 150.0
+  ry: 80.0
+  name: ''
+  fill: '#EF4444'
+  stroke: '#EF4444'
+landmarks:
+- center:
+  - 140.0
+  - 160.0
+  radius: 8.0
+  name: 起始點
+  fill: '#F59E0B'
+  stroke: ''
+  dashed: false
+- center:
+  - 200.0
+  - 200.0
+  radius: 6.0
+  name: 關鍵地點 1
+  fill: '#DC2626'
+  stroke: ''
+  dashed: false
+- center:
+  - 480.0
+  - 160.0
+  radius: 6.0
+  name: 關鍵地點 2
+  fill: '#DC2626'
+  stroke: ''
+  dashed: false
+- center:
+  - 650.0
+  - 400.0
+  radius: 20.0
+  name: 撤離點
+  fill: none
+  stroke: '#3B82F6'
+  dashed: true
+- center:
+  - 650.0
+  - 400.0
+  radius: 8.0
+  name: 撤離點
+  fill: '#3B82F6'
+  stroke: ''
+  dashed: false
+- center:
+  - 635.0
+  - 535.0
+  radius: 4.0
+  name: 撤離點
+  fill: '#3B82F6'
+  stroke: ''
+  dashed: false
+- center:
+  - 635.0
+  - 550.0
+  radius: 4.0
+  name: 起始點／關鍵地點
+  fill: '#F59E0B'
+  stroke: ''
+  dashed: false
+legend:
+- 撤離點
+- 起始點／關鍵地點
+- 危險區域

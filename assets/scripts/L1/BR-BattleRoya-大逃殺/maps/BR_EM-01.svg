@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" font-family="Microsoft JhengHei, sans-serif">
+<rect width="800" height="540" fill="#1a1a2e"/>
+<text x="400.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">島嶼森林探索圖 — 探索地圖</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 1</text>
+<rect x="20" y="0.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="800.0" height="540.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<text x="400.0" y="270.0" text-anchor="middle" fill="#aaa" font-size="9">敵對x2</text>
+<rect x="20.0" y="40.0" width="760.0" height="420.0" rx="8.0" fill="#0d1a0d" stroke="#2a4a2a" stroke-width="2"/>
+<text x="400.0" y="250.0" text-anchor="middle" fill="#aaa" font-size="9">敵對x2</text>
+<text x="20" y="115.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 2</text>
+<rect x="20" y="120.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="110.0" y="120.0" width="50.0" height="40.0" rx="3.0" fill="#301a10" stroke="#8B4513" stroke-width="1.5"/>
+<text x="135.0" y="140.0" text-anchor="middle" fill="#aaa" font-size="9">伐木小屋</text>
+<rect x="300.0" y="140.0" width="16.0" height="16.0" rx="2.0" fill="#301520" stroke="#EF4444" stroke-width="1"/>
+<text x="308.0" y="148.0" text-anchor="middle" fill="#aaa" font-size="9">捕獸夾</text>
+<rect x="420.0" y="180.0" width="16.0" height="16.0" rx="2.0" fill="#301520" stroke="#EF4444" stroke-width="1"/>
+<text x="428.0" y="188.0" text-anchor="middle" fill="#aaa" font-size="9">捕獸夾</text>
+<rect x="40.0" y="250.0" width="100.0" height="80.0" rx="4.0" fill="#1a2020" stroke="#888" stroke-width="1.5"/>
+<text x="90.0" y="290.0" text-anchor="middle" fill="#aaa" font-size="9">(S04)</text>
+<rect x="50.0" y="300.0" width="30.0" height="18.0" rx="2.0" fill="#2a2a2a" stroke="#555" stroke-width=""/>
+<text x="65.0" y="309.0" text-anchor="middle" fill="#aaa" font-size="9">漁具倉庫</text>
+<rect x="90.0" y="300.0" width="30.0" height="18.0" rx="2.0" fill="#2a2a2a" stroke="#555" stroke-width=""/>
+<text x="105.0" y="309.0" text-anchor="middle" fill="#aaa" font-size="9">診所</text>
+<rect x="560.0" y="300.0" width="40.0" height="30.0" rx="2.0" fill="#2a2a2a" stroke="#888" stroke-width=""/>
+<text x="580.0" y="315.0" text-anchor="middle" fill="#aaa" font-size="9">軍用掩體</text>
+<text x="20" y="435.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 3</text>
+<rect x="20" y="440.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="550.0" y="440.0" width="220.0" height="80.0" rx="4.0" fill="#111" stroke="#333" stroke-width=""/>
+<rect x="562.0" y="452.0" width="12.0" height="10.0" rx="0.0" fill="#1a3a1a" stroke="#2a5a2a" stroke-width=""/>
+<text x="568.0" y="457.0" text-anchor="middle" fill="#aaa" font-size="9">森林</text>
+<rect x="562.0" y="468.0" width="12.0" height="10.0" rx="0.0" fill="#1a2020" stroke="#888" stroke-width=""/>
+<text x="568.0" y="473.0" text-anchor="middle" fill="#aaa" font-size="9">建築物</text>
+<rect x="20" y="485" width="760" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="510" fill="#aaa" font-size="9">BR_EM-01 | 探索地圖 | 森林 + 廢墟區域</text>
+<text x="20" y="530" fill="#666" font-size="9">BR_EM-01 | 探索地圖 </text>
+</svg>

@@ -1,0 +1,164 @@
+map_id: TOA_BM-01
+map_type: battle
+scenario: '墳墓滅絕·死亡詛咒 / Tomb of Annihilation: The Death Curse'
+tier: L3
+difficulty: ★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: TOA_BM-01 戰鬥地圖
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 30.0
+  - 30.0
+  - 740.0
+  - 540.0
+  name: ''
+  fill: none
+  stroke: '#4a4a7e'
+  stroke_width: '2'
+  bounds_grid:
+  - 1
+  - 1
+  - 49
+  - 36
+  center_ft:
+  - 127.5
+  - 95.0
+- bounds_px:
+  - 40.0
+  - 400.0
+  - 120.0
+  - 160.0
+  name: 玩家起始區
+  fill: '#00FF88'
+  stroke: '#00FF88'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 1
+  - 25
+  - 8
+  - 11
+  center_ft:
+  - 25.0
+  - 152.5
+- bounds_px:
+  - 600.0
+  - 40.0
+  - 160.0
+  - 120.0
+  name: 敵方出沒區
+  fill: '#FF4444'
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 39
+  - 1
+  - 11
+  - 8
+  center_ft:
+  - 222.5
+  - 25.0
+- bounds_px:
+  - 200.0
+  - 150.0
+  - 60.0
+  - 100.0
+  name: 石柱陷阱
+  fill: '#3a2a4e'
+  stroke: '#6a4a8e'
+  stroke_width: '1'
+  bounds_grid:
+  - 12
+  - 9
+  - 4
+  - 7
+  center_ft:
+  - 70.0
+  - 62.5
+- bounds_px:
+  - 400.0
+  - 200.0
+  - 100.0
+  - 40.0
+  name: 落石區
+  fill: '#3a2a4e'
+  stroke: '#6a4a8e'
+  stroke_width: '1'
+  bounds_grid:
+  - 25
+  - 12
+  - 7
+  - 3
+  center_ft:
+  - 142.5
+  - 67.5
+- bounds_px:
+  - 300.0
+  - 350.0
+  - 80.0
+  - 80.0
+  name: 毒氣室
+  fill: '#3a2a4e'
+  stroke: '#6a4a8e'
+  stroke_width: '1'
+  bounds_grid:
+  - 19
+  - 22
+  - 5
+  - 5
+  center_ft:
+  - 107.5
+  - 122.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: ''
+  to: 玩家起始區
+  distance_ft: 117.5
+- from: ''
+  to: 敵方出沒區
+  distance_ft: 118.0
+- from: ''
+  to: 石柱陷阱
+  distance_ft: 66.0
+- from: ''
+  to: 落石區
+  distance_ft: 31.3
+- from: ''
+  to: 毒氣室
+  distance_ft: 34.0
+- from: 玩家起始區
+  to: 敵方出沒區
+  distance_ft: 235.1
+- from: 玩家起始區
+  to: 石柱陷阱
+  distance_ft: 100.6
+- from: 玩家起始區
+  to: 落石區
+  distance_ft: 145.0
+- from: 玩家起始區
+  to: 毒氣室
+  distance_ft: 87.8
+- from: 敵方出沒區
+  to: 石柱陷阱
+  distance_ft: 157.0

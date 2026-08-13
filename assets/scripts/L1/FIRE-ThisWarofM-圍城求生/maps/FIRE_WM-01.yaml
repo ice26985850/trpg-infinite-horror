@@ -1,0 +1,169 @@
+map_id: FIRE_WM-01
+map_type: world
+scenario: '這是我的戰爭·圍城求生 / This War of Mine: Siege Survival'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 圍城波格倫 — 大範圍地圖
+description: ''
+scale: 圍城波格倫 — 大範圍地圖
+regions:
+- bounds:
+  - 110.0
+  - 420.0
+  - 80.0
+  - 60.0
+  fill: '#2e1a3e'
+  stroke: '#8B5CF6'
+  name: 廢棄公寓
+- bounds:
+  - 280.0
+  - 430.0
+  - 70.0
+  - 40.0
+  fill: '#2e1a3e'
+  stroke: '#8B5CF6'
+  name: 軍用倉庫
+- bounds:
+  - 480.0
+  - 350.0
+  - 70.0
+  - 40.0
+  fill: '#1a2a30'
+  stroke: '#3B82F6'
+  name: 廢棄學校
+- bounds:
+  - 380.0
+  - 250.0
+  - 80.0
+  - 40.0
+  fill: '#301520'
+  stroke: '#EF4444'
+  name: 市中心建築
+roads:
+- x1: 80.0
+  y1: 380.0
+  x2: 720.0
+  y2: 380.0
+  stroke: '#555'
+  stroke_width: '6'
+  dashed: false
+- x1: 400.0
+  y1: 80.0
+  x2: 400.0
+  y2: 520.0
+  stroke: '#555'
+  stroke_width: '3'
+  dashed: false
+- x1: 150.0
+  y1: 200.0
+  x2: 650.0
+  y2: 200.0
+  stroke: '#555'
+  stroke_width: '2'
+  dashed: false
+- x1: 100.0
+  y1: 480.0
+  x2: 680.0
+  y2: 120.0
+  stroke: '#555'
+  stroke_width: '1'
+  dashed: false
+routes:
+- x1: 190.0
+  y1: 450.0
+  x2: 375.0
+  y2: 410.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+- x1: 375.0
+  y1: 410.0
+  x2: 600.0
+  y2: 100.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+- x1: 635.0
+  y1: 515.0
+  x2: 665.0
+  y2: 515.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+danger_zones:
+- center:
+  - 300.0
+  - 350.0
+  rx: 80.0
+  ry: 60.0
+  name: 狙擊手區域
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 500.0
+  - 280.0
+  rx: 70.0
+  ry: 50.0
+  name: 叛軍據點
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 200.0
+  - 120.0
+  rx: 60.0
+  ry: 40.0
+  name: 轟炸區
+  fill: '#FF0000'
+  stroke: '#FF4444'
+landmarks:
+- center:
+  - 150.0
+  - 475.0
+  radius: 4.0
+  name: (起始點)
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 600.0
+  - 100.0
+  radius: 18.0
+  name: ★ 撤離點
+  fill: none
+  stroke: '#00FF88'
+  dashed: true
+- center:
+  - 600.0
+  - 100.0
+  radius: 7.0
+  name: ★ 撤離點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 558.0
+  radius: 5.0
+  name: 撤離點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 575.0
+  radius: 4.0
+  name: 起始點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+legend:
+- 停火集結點
+- 撤離路線
+- 危險區域
+- 撤離點
+- 起始點

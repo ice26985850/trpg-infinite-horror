@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<rect x="20" y="20" width="760" height="560" fill="url(#grid)"/>
+<rect x="20" y="20" width="760" height="560" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="400.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">基紐特戰隊 — 對決場</text>
+<text x="25" y="592" fill="#666" font-size="9">DBZ_BM-01 | 16×12格（概念） | 1格 = 5ft | 總 80×60ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="177.5" y="15" text-anchor="middle" fill="#555" font-size="7">11</text>
+<text x="192.5" y="15" text-anchor="middle" fill="#555" font-size="7">12</text>
+<text x="207.5" y="15" text-anchor="middle" fill="#555" font-size="7">13</text>
+<text x="222.5" y="15" text-anchor="middle" fill="#555" font-size="7">14</text>
+<text x="237.5" y="15" text-anchor="middle" fill="#555" font-size="7">15</text>
+<text x="252.5" y="15" text-anchor="middle" fill="#555" font-size="7">16</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<text x="8" y="180.5" text-anchor="middle" fill="#555" font-size="7">K</text>
+<text x="8" y="195.5" text-anchor="middle" fill="#555" font-size="7">L</text>
+<rect x="560.0" y="200.0" width="180.0" height="80.0" rx="3" fill="#1a0a10" stroke="#b8305e" stroke-width="2"/>
+<text x="650.0" y="236.0" text-anchor="middle" fill="#aaa" font-size="8">弗利薩旗艦</text>
+<text x="650.0" y="250.0" text-anchor="middle" fill="#666" font-size="6">(210.0, 72.5)ft</text>
+<rect x="320.0" y="110.0" width="70.0" height="50.0" rx="3" fill="#2d1b4e" stroke="#b8305e" stroke-width="2"/>
+<text x="355.0" y="131.0" text-anchor="middle" fill="#aaa" font-size="8">基紐隊長</text>
+<text x="355.0" y="145.0" text-anchor="middle" fill="#666" font-size="6">(112.5, 37.5)ft</text>
+<rect x="150.0" y="200.0" width="55.0" height="45.0" rx="3" fill="#1f1440" stroke="#4a2d8f" stroke-width="1.5"/>
+<text x="177.5" y="218.5" text-anchor="middle" fill="#aaa" font-size="8">利庫姆</text>
+<text x="177.5" y="232.5" text-anchor="middle" fill="#666" font-size="6">(55.0, 67.5)ft</text>
+<rect x="450.0" y="180.0" width="55.0" height="45.0" rx="3" fill="#1f1440" stroke="#4a2d8f" stroke-width="1.5"/>
+<text x="477.5" y="198.5" text-anchor="middle" fill="#aaa" font-size="8">巴特</text>
+<text x="477.5" y="212.5" text-anchor="middle" fill="#666" font-size="6">(155.0, 62.5)ft</text>
+<rect x="250.0" y="330.0" width="55.0" height="45.0" rx="3" fill="#1f1440" stroke="#4a2d8f" stroke-width="1.5"/>
+<text x="277.5" y="348.5" text-anchor="middle" fill="#aaa" font-size="8">吉斯</text>
+<text x="277.5" y="362.5" text-anchor="middle" fill="#666" font-size="6">(85.0, 112.5)ft</text>
+<rect x="400.0" y="350.0" width="40.0" height="40.0" rx="3" fill="#1f1440" stroke="#ff6600" stroke-width="1.5"/>
+<text x="420.0" y="366.0" text-anchor="middle" fill="#aaa" font-size="8">古杜</text>
+<text x="420.0" y="380.0" text-anchor="middle" fill="#666" font-size="6">(132.5, 117.5)ft</text>
+<rect x="60.0" y="400.0" width="60.0" height="50.0" rx="3" fill="#0a201a" stroke="#2d8f6b" stroke-width="2"/>
+<text x="90.0" y="421.0" text-anchor="middle" fill="#aaa" font-size="8">輪迴者</text>
+<text x="90.0" y="435.0" text-anchor="middle" fill="#666" font-size="6">(25.0, 132.5)ft</text>
+<rect x="0.0" y="0.0" width="210.0" height="190.0" rx="3" fill="#1a1030" stroke="#3a2a5e" stroke-width=""/>
+<text x="105.0" y="91.0" text-anchor="middle" fill="#aaa" font-size="8">4. 基紐隊長(身體交換)</text>
+<text x="105.0" y="105.0" text-anchor="middle" fill="#666" font-size="6">(30.0, 27.5)ft</text>
+<rect x="75.0" y="173.0" width="60" height="20" rx="3" fill="#00FF88" opacity="0.2" stroke="#00FF88"/>
+<text x="105.0" y="187.0" text-anchor="middle" fill="#00FF88" font-size="8">5目標同時追蹤</text>
+</svg>

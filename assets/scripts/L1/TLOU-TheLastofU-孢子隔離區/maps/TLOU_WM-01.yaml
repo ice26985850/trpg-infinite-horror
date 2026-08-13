@@ -1,0 +1,171 @@
+map_id: TLOU_WM-01
+map_type: world
+scenario: '最後生還者·孢子隔離區 / The Last of Us: Quarantine Zone'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 波士頓隔離區 — 大範圍地圖
+description: ''
+scale: TLOU_WM-01 | 大範圍地圖 | 1格 ≈ 5m
+regions:
+- bounds:
+  - 80.0
+  - 450.0
+  - 80.0
+  - 60.0
+  fill: '#2e1a3e'
+  stroke: '#8B5CF6'
+  name: 隔離區哨站
+- bounds:
+  - 250.0
+  - 430.0
+  - 80.0
+  - 50.0
+  fill: '#1a2a30'
+  stroke: '#3B82F6'
+  name: 安全屋
+- bounds:
+  - 450.0
+  - 340.0
+  - 90.0
+  - 50.0
+  fill: '#301520'
+  stroke: '#EF4444'
+  name: 城市廢墟
+- bounds:
+  - 580.0
+  - 250.0
+  - 70.0
+  - 50.0
+  fill: '#e1a3e'
+  stroke: '#8B5CF6'
+  name: 獵人領地
+roads:
+- x1: 80.0
+  y1: 350.0
+  x2: 720.0
+  y2: 350.0
+  stroke: '#555'
+  stroke_width: '6'
+  dashed: false
+- x1: 400.0
+  y1: 80.0
+  x2: 400.0
+  y2: 520.0
+  stroke: '#555'
+  stroke_width: '6'
+  dashed: false
+- x1: 150.0
+  y1: 250.0
+  x2: 650.0
+  y2: 250.0
+  stroke: '#555'
+  stroke_width: '3'
+  dashed: false
+routes:
+- x1: 160.0
+  y1: 480.0
+  x2: 385.0
+  y2: 440.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+- x1: 385.0
+  y1: 440.0
+  x2: 650.0
+  y2: 100.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+- x1: 635.0
+  y1: 515.0
+  x2: 665.0
+  y2: 515.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+danger_zones:
+- center:
+  - 350.0
+  - 300.0
+  rx: 90.0
+  ry: 60.0
+  name: 感染者活躍區
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 550.0
+  - 200.0
+  rx: 70.0
+  ry: 50.0
+  name: 獵人領地
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 200.0
+  - 150.0
+  rx: 65.0
+  ry: 45.0
+  name: 孢子雲區域
+  fill: '#FF0000'
+  stroke: '#FF4444'
+landmarks:
+- center:
+  - 120.0
+  - 505.0
+  radius: 4.0
+  name: (起始點)
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 650.0
+  - 100.0
+  radius: 18.0
+  name: ★ 撤離點
+  fill: none
+  stroke: '#00FF88'
+  dashed: true
+- center:
+  - 650.0
+  - 100.0
+  radius: 7.0
+  name: ★ 撤離點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 380.0
+  - 180.0
+  radius: 24.0
+  name: Bloater出沒
+  fill: '#FFAA00'
+  stroke: '#FFAA00'
+  dashed: false
+- center:
+  - 642.0
+  - 558.0
+  radius: 5.0
+  name: 撤離點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 575.0
+  radius: 4.0
+  name: 起始點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+legend:
+- 火螢實驗室
+- 獵人領地
+- 撤離路線
+- 危險區域
+- 撤離點
+- 起始點

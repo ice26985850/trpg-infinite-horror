@@ -1,0 +1,52 @@
+map_id: CLAY_WM-01
+map_type: world
+scenario: '大劍·覺醒者討伐令 / Claymore: Hunt the Awakened Being'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 900
+- 620
+title: 妖魔橫行大陸 — 大範圍地圖 (WM-01)
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 150.0
+  - 170.0
+  - 100.0
+  - 60.0
+  fill: '#3a4a3a'
+  stroke: '#8e44ad'
+  name: A 組織驛站
+- bounds:
+  - 450.0
+  - 270.0
+  - 100.0
+  - 60.0
+  fill: '#4a3a2a'
+  stroke: '#8e44ad'
+  name: B 受襲村莊
+- bounds:
+  - 700.0
+  - 370.0
+  - 100.0
+  - 60.0
+  fill: '#3a2a3a'
+  stroke: '#8e44ad'
+  name: C 廢棄古城
+- bounds:
+  - 20.0
+  - 540.0
+  - 860.0
+  - 60.0
+  fill: '#1a1e1a'
+  stroke: '#333'
+  name: ''
+roads: []
+routes: []
+danger_zones: []
+landmarks: []
+legend:
+- C 廢棄古城

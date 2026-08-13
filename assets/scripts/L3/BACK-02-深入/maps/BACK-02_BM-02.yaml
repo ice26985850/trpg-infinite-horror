@@ -1,0 +1,31 @@
+map_id: BACK-02_BM-02
+map_type: battle
+scenario: '後室·深入 / Backrooms: Deep Dive'
+tier: L3
+difficulty: ★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: BACK-02_BM-02 戰鬥地圖
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 50
+terrain: []
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}

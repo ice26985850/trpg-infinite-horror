@@ -1,0 +1,169 @@
+map_id: GREEN_WM-01
+map_type: world
+scenario: '綠色地獄·亞馬遜求生 / Green Hell: Amazon Survival'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: 亞馬遜雨林 — 大範圍地圖
+description: ''
+scale: GREEN_WM-01 | 大範圍地圖 | 1格 ≈ 5m
+regions:
+- bounds:
+  - 60.0
+  - 420.0
+  - 80.0
+  - 60.0
+  fill: '#2e1a3e'
+  stroke: '#8B5CF6'
+  name: 墜機點
+- bounds:
+  - 250.0
+  - 420.0
+  - 80.0
+  - 50.0
+  fill: '#1a2a30'
+  stroke: '#3B82F6'
+  name: 河岸營地
+- bounds:
+  - 480.0
+  - 300.0
+  - 80.0
+  - 50.0
+  fill: '#1a2a20'
+  stroke: '#10B981'
+  name: 毒蛙沼澤
+- bounds:
+  - 350.0
+  - 190.0
+  - 70.0
+  - 50.0
+  fill: '#2e1a3e'
+  stroke: '#8B5CF6'
+  name: 土著村落
+roads:
+- x1: 80.0
+  y1: 350.0
+  x2: 720.0
+  y2: 350.0
+  stroke: '#555'
+  stroke_width: '6'
+  dashed: false
+- x1: 400.0
+  y1: 80.0
+  x2: 400.0
+  y2: 520.0
+  stroke: '#555'
+  stroke_width: '3'
+  dashed: false
+- x1: 150.0
+  y1: 250.0
+  x2: 650.0
+  y2: 250.0
+  stroke: '#555'
+  stroke_width: '2'
+  dashed: false
+- x1: 100.0
+  y1: 480.0
+  x2: 680.0
+  y2: 120.0
+  stroke: '#555'
+  stroke_width: '1'
+  dashed: false
+routes:
+- x1: 140.0
+  y1: 450.0
+  x2: 380.0
+  y2: 410.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+- x1: 380.0
+  y1: 410.0
+  x2: 660.0
+  y2: 100.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+- x1: 635.0
+  y1: 515.0
+  x2: 665.0
+  y2: 515.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+danger_zones:
+- center:
+  - 250.0
+  - 350.0
+  rx: 70.0
+  ry: 50.0
+  name: 美洲豹區域
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 450.0
+  - 250.0
+  rx: 80.0
+  ry: 60.0
+  name: 沼澤/疾病
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 300.0
+  - 140.0
+  rx: 60.0
+  ry: 50.0
+  name: 土著領地
+  fill: '#FF0000'
+  stroke: '#FF4444'
+landmarks:
+- center:
+  - 100.0
+  - 475.0
+  radius: 4.0
+  name: (起始點)
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 660.0
+  - 100.0
+  radius: 18.0
+  name: ★ 撤離點
+  fill: none
+  stroke: '#00FF88'
+  dashed: true
+- center:
+  - 660.0
+  - 100.0
+  radius: 7.0
+  name: ★ 撤離點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 558.0
+  radius: 5.0
+  name: 撤離點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 575.0
+  radius: 4.0
+  name: 起始點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+legend:
+- 救援座標
+- 撤離路線
+- 危險區域
+- 撤離點
+- 起始點

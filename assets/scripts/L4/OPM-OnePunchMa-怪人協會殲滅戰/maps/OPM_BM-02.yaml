@@ -1,0 +1,232 @@
+map_id: OPM_BM-02
+map_type: battle
+scenario: '一拳超人·怪人協會殲滅戰 / One Punch Man: Monster Association Raid'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 680
+- 460
+title: B3王座層——怪人王大蛇 最終決戰
+description: ''
+grid:
+  type: square
+  width: 16
+  height: 12
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20.0
+  - 20.0
+  total_width_ft: 80
+  total_height_ft: 60
+terrain:
+- bounds_px:
+  - 20.0
+  - 20.0
+  - 5.0
+  - 420.0
+  name: L
+  fill: '#334'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 1
+  - 28
+  center_ft:
+  - 2.5
+  - 70.0
+- bounds_px:
+  - 655.0
+  - 20.0
+  - 5.0
+  - 420.0
+  name: ''
+  fill: '#334'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 42
+  - 0
+  - 1
+  - 28
+  center_ft:
+  - 212.5
+  - 70.0
+- bounds_px:
+  - 20.0
+  - 20.0
+  - 640.0
+  - 5.0
+  name: B3王座層——怪人王大蛇 最終決戰
+  fill: '#334'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 43
+  - 1
+  center_ft:
+  - 107.5
+  - 2.5
+- bounds_px:
+  - 20.0
+  - 435.0
+  - 640.0
+  - 5.0
+  name: 龍卷(第5輪入場)
+  fill: '#334'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 28
+  - 43
+  - 1
+  center_ft:
+  - 107.5
+  - 142.5
+- bounds_px:
+  - 240.0
+  - 80.0
+  - 200.0
+  - 80.0
+  name: 怪人王·大蛇
+  fill: '#2E1A3E'
+  stroke: '#FD0304'
+  stroke_width: '3'
+  bounds_grid:
+  - 15
+  - 4
+  - 13
+  - 5
+  center_ft:
+  - 107.5
+  - 32.5
+- bounds_px:
+  - 100.0
+  - 350.0
+  - 100.0
+  - 40.0
+  name: 熔岩池
+  fill: '#FF4400'
+  stroke: '#FF4400'
+  stroke_width: ''
+  bounds_grid:
+  - 5
+  - 22
+  - 7
+  - 3
+  center_ft:
+  - 42.5
+  - 117.5
+- bounds_px:
+  - 480.0
+  - 350.0
+  - 100.0
+  - 40.0
+  name: 熔岩池
+  fill: '#FF4400'
+  stroke: '#FF4400'
+  stroke_width: ''
+  bounds_grid:
+  - 31
+  - 22
+  - 7
+  - 3
+  center_ft:
+  - 172.5
+  - 117.5
+- bounds_px:
+  - 40.0
+  - 380.0
+  - 100.0
+  - 40.0
+  name: 玩家進場
+  fill: '#1a3020'
+  stroke: '#10B981'
+  stroke_width: ''
+  bounds_grid:
+  - 1
+  - 24
+  - 7
+  - 3
+  center_ft:
+  - 22.5
+  - 127.5
+- bounds_px:
+  - 400.0
+  - 380.0
+  - 100.0
+  - 40.0
+  name: 傑諾斯/邦古援軍
+  fill: '#1a3020'
+  stroke: '#3B82F6'
+  stroke_width: ''
+  bounds_grid:
+  - 25
+  - 24
+  - 7
+  - 3
+  center_ft:
+  - 142.5
+  - 127.5
+- bounds_px:
+  - 240.0
+  - 380.0
+  - 100.0
+  - 40.0
+  name: 龍卷(第5輪入場)
+  fill: '#1a3020'
+  stroke: '#10B981'
+  stroke_width: ''
+  bounds_grid:
+  - 15
+  - 24
+  - 7
+  - 3
+  center_ft:
+  - 92.5
+  - 127.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: L
+  to: ''
+  distance_ft: 210.0
+- from: L
+  to: B3王座層——怪人王大蛇 最終決戰
+  distance_ft: 124.8
+- from: L
+  to: 龍卷(第5輪入場)
+  distance_ft: 127.6
+- from: L
+  to: 怪人王·大蛇
+  distance_ft: 111.5
+- from: L
+  to: 熔岩池
+  distance_ft: 62.1
+- from: L
+  to: 熔岩池
+  distance_ft: 176.5
+- from: L
+  to: 玩家進場
+  distance_ft: 60.9
+- from: L
+  to: 傑諾斯/邦古援軍
+  distance_ft: 151.3
+- from: L
+  to: 龍卷(第5輪入場)
+  distance_ft: 106.8
+- from: ''
+  to: B3王座層——怪人王大蛇 最終決戰
+  distance_ft: 124.8

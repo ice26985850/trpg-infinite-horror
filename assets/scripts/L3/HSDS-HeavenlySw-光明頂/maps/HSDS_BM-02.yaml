@@ -1,0 +1,116 @@
+map_id: HSDS_BM-02
+map_type: battle
+scenario: '倚天屠龍記·光明頂 / Heavenly Sword: Bright Peak'
+tier: L3
+difficulty: ★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: HSDS_BM-02 戰鬥地圖
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 200.0
+  - 120.0
+  - 400.0
+  - 300.0
+  name: 明教總壇入口
+  fill: '#2a2a4e30'
+  stroke: '#4a4a8e'
+  stroke_width: '1'
+  bounds_grid:
+  - 12
+  - 7
+  - 27
+  - 20
+  center_ft:
+  - 127.5
+  - 85.0
+- bounds_px:
+  - 350.0
+  - 260.0
+  - 100.0
+  - 50.0
+  name: 明教總壇入口
+  fill: '#2a2a4e'
+  stroke: '#5a4a8e'
+  stroke_width: '2'
+  bounds_grid:
+  - 22
+  - 16
+  - 7
+  - 3
+  center_ft:
+  - 127.5
+  - 87.5
+- bounds_px:
+  - 350.0
+  - 420.0
+  - 30.0
+  - 20.0
+  name: 成昆
+  fill: '#cc3344'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 22
+  - 27
+  - 2
+  - 1
+  center_ft:
+  - 115.0
+  - 137.5
+- bounds_px:
+  - 60.0
+  - 460.0
+  - 680.0
+  - 25.0
+  name: '特殊規則: 五大派從各方向同時進攻/防守8輪後張無忌率援軍抵達/成昆潛伏在暗處伺機刺殺明教高層'
+  fill: '#1a1a2eee'
+  stroke: '#3a3a6e'
+  stroke_width: ''
+  bounds_grid:
+  - 3
+  - 29
+  - 45
+  - 2
+  center_ft:
+  - 127.5
+  - 150.0
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+defense_rounds: 8
+key_distances:
+- from: 明教總壇入口
+  to: 成昆
+  distance_ft: 54.0
+- from: 明教總壇入口
+  to: '特殊規則: 五大派從各方向同時進攻/防守8輪後張無忌率援軍抵達/成昆潛伏在暗處伺機刺殺明教高層'
+  distance_ft: 65.0
+- from: 明教總壇入口
+  to: 成昆
+  distance_ft: 51.5
+- from: 明教總壇入口
+  to: '特殊規則: 五大派從各方向同時進攻/防守8輪後張無忌率援軍抵達/成昆潛伏在暗處伺機刺殺明教高層'
+  distance_ft: 62.5
+- from: 成昆
+  to: '特殊規則: 五大派從各方向同時進攻/防守8輪後張無忌率援軍抵達/成昆潛伏在暗處伺機刺殺明教高層'
+  distance_ft: 17.7

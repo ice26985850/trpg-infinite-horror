@@ -1,0 +1,61 @@
+map_id: WITCH_WM-01
+map_type: world
+scenario: '獵魔士·白果園的詛咒 / The Witcher: Curse of White Orchard'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 900
+- 620
+title: 獵魔士·白果園 — 大範圍地圖 (WM-01)
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 350.0
+  - 170.0
+  - 100.0
+  - 60.0
+  fill: '#3a5a20'
+  stroke: '#9b59b6'
+  name: A 白果園村
+- bounds:
+  - 600.0
+  - 270.0
+  - 100.0
+  - 60.0
+  fill: '#4a3a2a'
+  stroke: '#9b59b6'
+  name: B 廢墟塔樓
+- bounds:
+  - 150.0
+  - 350.0
+  - 100.0
+  - 60.0
+  fill: '#2a3a5a'
+  stroke: '#9b59b6'
+  name: C 河岸
+- bounds:
+  - 650.0
+  - 420.0
+  - 100.0
+  - 60.0
+  fill: '#3a3a2a'
+  stroke: '#9b59b6'
+  name: D 森林遺跡
+- bounds:
+  - 20.0
+  - 540.0
+  - 860.0
+  - 60.0
+  fill: '#1a2a1e'
+  stroke: '#333'
+  name: ''
+roads: []
+routes: []
+danger_zones: []
+landmarks: []
+legend:
+- B 廢墟塔樓
+- D 森林遺跡

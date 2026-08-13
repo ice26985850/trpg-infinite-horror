@@ -1,0 +1,198 @@
+map_id: MHA_BM-01
+map_type: battle
+scenario: '我的英雄學院·USJ襲擊事件 / My Hero Academia: USJ Incident'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 700
+- 500
+title: 山火區·廢墟區救援戰 (BM-01) — 12x8 格線 | 1格=5ft
+description: ''
+grid:
+  type: square
+  width: 12
+  height: 8
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 60
+  total_height_ft: 40
+terrain:
+- bounds_px:
+  - 50.0
+  - 50.0
+  - 600.0
+  - 400.0
+  name: 消防栓(可用)
+  fill: '#1a1410'
+  stroke: '#4B0082'
+  stroke_width: '3'
+  bounds_grid:
+  - 2
+  - 2
+  - 40
+  - 27
+  center_ft:
+  - 110.0
+  - 77.5
+- bounds_px:
+  - 50.0
+  - 50.0
+  - 200.0
+  - 200.0
+  name: 燃燒建築(熱傷害)
+  fill: '#3a1a1a'
+  stroke: '#9b59b6'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 2
+  - 2
+  - 13
+  - 13
+  center_ft:
+  - 42.5
+  - 42.5
+- bounds_px:
+  - 150.0
+  - 150.0
+  - 150.0
+  - 100.0
+  name: 火焰幹部x3位置
+  fill: '#e74c3c30'
+  stroke: '#9b59b6'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 9
+  - 9
+  - 10
+  - 7
+  center_ft:
+  - 70.0
+  - 62.5
+- bounds_px:
+  - 300.0
+  - 250.0
+  - 50.0
+  - 50.0
+  name: 消防栓(可用)
+  fill: '#3498db30'
+  stroke: '#9b59b6'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 19
+  - 15
+  - 3
+  - 3
+  center_ft:
+  - 102.5
+  - 82.5
+- bounds_px:
+  - 300.0
+  - 50.0
+  - 100.0
+  - 150.0
+  name: 半倒塌牆壁(掩體)
+  fill: '#2a2a2a'
+  stroke: '#9b59b6'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 19
+  - 2
+  - 7
+  - 10
+  center_ft:
+  - 112.5
+  - 35.0
+- bounds_px:
+  - 400.0
+  - 50.0
+  - 250.0
+  - 200.0
+  name: 廢墟區瓦礫堆
+  fill: '#2a2a3a'
+  stroke: '#9b59b6'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 25
+  - 2
+  - 17
+  - 13
+  center_ft:
+  - 167.5
+  - 42.5
+- bounds_px:
+  - 450.0
+  - 150.0
+  - 150.0
+  - 100.0
+  name: 被困學生x2
+  fill: '#e74c3c20'
+  stroke: '#9b59b6'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 29
+  - 9
+  - 10
+  - 7
+  center_ft:
+  - 170.0
+  - 62.5
+- bounds_px:
+  - 500.0
+  - 300.0
+  - 150.0
+  - 150.0
+  name: 逃生路徑->
+  fill: '#1a3a2e'
+  stroke: '#9b59b6'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 32
+  - 19
+  - 10
+  - 10
+  center_ft:
+  - 185.0
+  - 120.0
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 消防栓(可用)
+  to: 燃燒建築(熱傷害)
+  distance_ft: 76.0
+- from: 消防栓(可用)
+  to: 火焰幹部x3位置
+  distance_ft: 42.7
+- from: 消防栓(可用)
+  to: 消防栓(可用)
+  distance_ft: 9.0
+- from: 消防栓(可用)
+  to: 半倒塌牆壁(掩體)
+  distance_ft: 42.6
+- from: 消防栓(可用)
+  to: 廢墟區瓦礫堆
+  distance_ft: 67.3
+- from: 消防栓(可用)
+  to: 被困學生x2
+  distance_ft: 61.8
+- from: 消防栓(可用)
+  to: 逃生路徑->
+  distance_ft: 86.2
+- from: 燃燒建築(熱傷害)
+  to: 火焰幹部x3位置
+  distance_ft: 34.0
+- from: 燃燒建築(熱傷害)
+  to: 消防栓(可用)
+  distance_ft: 72.1
+- from: 燃燒建築(熱傷害)
+  to: 半倒塌牆壁(掩體)
+  distance_ft: 70.4

@@ -1,0 +1,132 @@
+map_id: ZHE_WM-01
+map_type: world
+scenario: '遮天·九龍拉棺 / Shrouding the Heavens: Nine Dragons Pull Coffin'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: ZHE_WM-01 世界地圖
+description: ''
+scale: 示意圖
+regions:
+- bounds:
+  - 80.0
+  - 60.0
+  - 640.0
+  - 480.0
+  fill: '#0a1a2a'
+  stroke: '#1e3a5f'
+  name: ''
+roads: []
+routes:
+- x1: 420.0
+  y1: 400.0
+  x2: 580.0
+  y2: 280.0
+  stroke: '#FFD700'
+  stroke_width: '2'
+  dashed: true
+- x1: 380.0
+  y1: 430.0
+  x2: 280.0
+  y2: 390.0
+  stroke: '#FFD700'
+  stroke_width: '2'
+  dashed: true
+danger_zones:
+- center:
+  - 600.0
+  - 250.0
+  rx: 100.0
+  ry: 80.0
+  name: 荒古禁地
+  fill: '#FF0000'
+  stroke: '#FF4444'
+landmarks:
+- center:
+  - 400.0
+  - 450.0
+  radius: 12.0
+  name: 墜落地
+  fill: none
+  stroke: '#00FF88'
+  dashed: true
+- center:
+  - 400.0
+  - 450.0
+  radius: 5.0
+  name: 墜落地
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 600.0
+  - 250.0
+  radius: 12.0
+  name: 荒古禁地
+  fill: none
+  stroke: '#FF0000'
+  dashed: true
+- center:
+  - 600.0
+  - 250.0
+  radius: 5.0
+  name: 荒古禁地
+  fill: '#FF0000'
+  stroke: ''
+  dashed: false
+- center:
+  - 150.0
+  - 200.0
+  radius: 12.0
+  name: 太虛聖地
+  fill: none
+  stroke: '#00AAFF'
+  dashed: true
+- center:
+  - 150.0
+  - 200.0
+  radius: 5.0
+  name: 太虛聖地
+  fill: '#00AAFF'
+  stroke: ''
+  dashed: false
+- center:
+  - 300.0
+  - 380.0
+  radius: 12.0
+  name: 凡人城鎮
+  fill: none
+  stroke: '#FFAA00'
+  dashed: true
+- center:
+  - 300.0
+  - 380.0
+  radius: 5.0
+  name: 凡人城鎮
+  fill: '#FFAA00'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 60.0
+  radius: 4.0
+  name: 起始點
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 78.0
+  radius: 4.0
+  name: 目標點
+  fill: '#FFD700'
+  stroke: ''
+  dashed: false
+legend:
+- 禁地危險區
+- 起始點
+- 目標點

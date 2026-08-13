@@ -1,0 +1,223 @@
+map_id: GANTZ_BM-02
+map_type: battle
+scenario: '殺戮都市·強制獵殺 / GANTZ: Mandatory Hunt'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 680
+- 420
+title: 博物館 — 恐龍星人展廳
+description: ''
+grid:
+  type: square
+  width: 12
+  height: 8
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 40.0
+  - 40.0
+  total_width_ft: 60
+  total_height_ft: 40
+terrain:
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 360.0
+  - 5.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 24
+  - 1
+  center_ft:
+  - 60.0
+  - 2.5
+- bounds_px:
+  - 40.0
+  - 275.0
+  - 360.0
+  - 5.0
+  name: 翼龍
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 16
+  - 24
+  - 1
+  center_ft:
+  - 60.0
+  - 82.5
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 5.0
+  - 240.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 1
+  - 16
+  center_ft:
+  - 2.5
+  - 40.0
+- bounds_px:
+  - 395.0
+  - 40.0
+  - 5.0
+  - 240.0
+  name: 三角龍
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 24
+  - 0
+  - 1
+  - 16
+  center_ft:
+  - 122.5
+  - 40.0
+- bounds_px:
+  - 150.0
+  - 180.0
+  - 80.0
+  - 60.0
+  name: 暴龍
+  fill: '#301520'
+  stroke: '#EF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 7
+  - 9
+  - 5
+  - 4
+  center_ft:
+  - 47.5
+  - 55.0
+- bounds_px:
+  - 380.0
+  - 150.0
+  - 80.0
+  - 50.0
+  name: 三角龍
+  fill: '#301520'
+  stroke: '#EF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 23
+  - 7
+  - 5
+  - 3
+  center_ft:
+  - 127.5
+  - 42.5
+- bounds_px:
+  - 250.0
+  - 300.0
+  - 60.0
+  - 40.0
+  name: 翼龍(俯衝)
+  fill: '#301520'
+  stroke: '#EF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 14
+  - 17
+  - 4
+  - 3
+  center_ft:
+  - 80.0
+  - 92.5
+- bounds_px:
+  - 250.0
+  - 100.0
+  - 100.0
+  - 20.0
+  name: 化石陳列區
+  fill: '#1a2a30'
+  stroke: '#555'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 14
+  - 4
+  - 7
+  - 1
+  center_ft:
+  - 87.5
+  - 22.5
+- bounds_px:
+  - 150.0
+  - 175.0
+  - 80.0
+  - 5.0
+  name: 破壞核心
+  fill: '#00FF88'
+  stroke: '#00FF88'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 7
+  - 9
+  - 5
+  - 1
+  center_ft:
+  - 47.5
+  - 47.5
+spawn_points:
+  players:
+  - px:
+    - 400.0
+    - 400.0
+    name: 玩家入口
+    fill: '#00FF88'
+    grid:
+    - 24
+    - 24
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: ''
+  to: 翼龍
+  distance_ft: 80.0
+- from: ''
+  to: ''
+  distance_ft: 68.6
+- from: ''
+  to: 三角龍
+  distance_ft: 72.9
+- from: ''
+  to: 暴龍
+  distance_ft: 54.0
+- from: ''
+  to: 三角龍
+  distance_ft: 78.5
+- from: ''
+  to: 翼龍(俯衝)
+  distance_ft: 92.2
+- from: ''
+  to: 化石陳列區
+  distance_ft: 34.0
+- from: ''
+  to: 破壞核心
+  distance_ft: 46.7
+- from: 翼龍
+  to: ''
+  distance_ft: 71.5
+- from: 翼龍
+  to: 三角龍
+  distance_ft: 75.6

@@ -1,0 +1,146 @@
+map_id: BR_EM-01
+map_type: exploration
+scenario: 大逃殺 / Battle Royale (BR)
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 800
+- 540
+title: 島嶼森林探索圖 — 探索地圖
+description: ''
+floors:
+- name: 樓層 1
+  y: 0.0
+  rooms:
+  - bounds:
+    - 0.0
+    - 0.0
+    - 800.0
+    - 540.0
+    name: 敵對x2
+    fill: '#1a1a2e'
+    stroke: ''
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 20.0
+    - 40.0
+    - 760.0
+    - 420.0
+    name: 敵對x2
+    fill: '#0d1a0d'
+    stroke: '#2a4a2a'
+    stroke_width: '2'
+    rx: 8.0
+- name: 樓層 2
+  y: 120.0
+  rooms:
+  - bounds:
+    - 110.0
+    - 120.0
+    - 50.0
+    - 40.0
+    name: 伐木小屋
+    fill: '#301a10'
+    stroke: '#8B4513'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 300.0
+    - 140.0
+    - 16.0
+    - 16.0
+    name: 捕獸夾
+    fill: '#301520'
+    stroke: '#EF4444'
+    stroke_width: '1'
+    rx: 2.0
+  - bounds:
+    - 420.0
+    - 180.0
+    - 16.0
+    - 16.0
+    name: 捕獸夾
+    fill: '#301520'
+    stroke: '#EF4444'
+    stroke_width: '1'
+    rx: 2.0
+  - bounds:
+    - 40.0
+    - 250.0
+    - 100.0
+    - 80.0
+    name: (S04)
+    fill: '#1a2020'
+    stroke: '#888'
+    stroke_width: '1.5'
+    rx: 4.0
+  - bounds:
+    - 50.0
+    - 300.0
+    - 30.0
+    - 18.0
+    name: 漁具倉庫
+    fill: '#2a2a2a'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 2.0
+  - bounds:
+    - 90.0
+    - 300.0
+    - 30.0
+    - 18.0
+    name: 診所
+    fill: '#2a2a2a'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 2.0
+  - bounds:
+    - 560.0
+    - 300.0
+    - 40.0
+    - 30.0
+    name: 軍用掩體
+    fill: '#2a2a2a'
+    stroke: '#888'
+    stroke_width: ''
+    rx: 2.0
+- name: 樓層 3
+  y: 440.0
+  rooms:
+  - bounds:
+    - 550.0
+    - 440.0
+    - 220.0
+    - 80.0
+    name: ''
+    fill: '#111'
+    stroke: '#333'
+    stroke_width: ''
+    rx: 4.0
+  - bounds:
+    - 562.0
+    - 452.0
+    - 12.0
+    - 10.0
+    name: 森林
+    fill: '#1a3a1a'
+    stroke: '#2a5a2a'
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 562.0
+    - 468.0
+    - 12.0
+    - 10.0
+    name: 建築物
+    fill: '#1a2020'
+    stroke: '#888'
+    stroke_width: ''
+    rx: 0.0
+connections: []
+legend:
+- BR_EM-01 | 探索地圖 | 森林 + 廢墟區域
+notes: []

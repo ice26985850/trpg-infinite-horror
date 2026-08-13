@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" font-family="Microsoft JhengHei, sans-serif">
+<rect width="900" height="640" fill="#1a1a2e"/>
+<text x="450.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">冬木市關鍵地點 — 探索地圖</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 1</text>
+<rect x="20" y="0.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="900.0" height="640.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<text x="450.0" y="320.0" text-anchor="middle" fill="#aaa" font-size="9">(令咒保管/隱藏資訊)</text>
+<rect x="20.0" y="58.0" width="860.0" height="130.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="123.0" text-anchor="middle" fill="#aaa" font-size="9">(SC03強制遭遇)</text>
+<rect x="40.0" y="72.0" width="120.0" height="50.0" rx="3.0" fill="#1a2a2a" stroke="#10B981" stroke-width=""/>
+<text x="100.0" y="97.0" text-anchor="middle" fill="#aaa" font-size="9">大廳</text>
+<rect x="180.0" y="72.0" width="120.0" height="50.0" rx="3.0" fill="#1a1030" stroke="#6D28D9" stroke-width=""/>
+<text x="240.0" y="97.0" text-anchor="middle" fill="#aaa" font-size="9">召喚陣之間</text>
+<rect x="320.0" y="72.0" width="100.0" height="50.0" rx="3.0" fill="#1a2a2a" stroke="#10B981" stroke-width=""/>
+<text x="370.0" y="97.0" text-anchor="middle" fill="#aaa" font-size="9">書齋</text>
+<rect x="450.0" y="72.0" width="150.0" height="50.0" rx="3.0" fill="#301520" stroke="#EF4444" stroke-width=""/>
+<text x="525.0" y="97.0" text-anchor="middle" fill="#aaa" font-size="9">森林·Caster戰</text>
+<rect x="630.0" y="72.0" width="110.0" height="50.0" rx="3.0" fill="#1a3020" stroke="#00FF88" stroke-width=""/>
+<text x="685.0" y="97.0" text-anchor="middle" fill="#aaa" font-size="9">撤退通道</text>
+<text x="20" y="213.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 2</text>
+<rect x="20" y="218.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="218.0" width="860.0" height="130.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="283.0" text-anchor="middle" fill="#aaa" font-size="9">(令咒保管/隱藏資訊)</text>
+<rect x="40.0" y="232.0" width="140.0" height="50.0" rx="3.0" fill="#1a2a2a" stroke="#F59E0B" stroke-width=""/>
+<text x="110.0" y="257.0" text-anchor="middle" fill="#aaa" font-size="9">教會正堂</text>
+<rect x="210.0" y="232.0" width="120.0" height="50.0" rx="3.0" fill="#301520" stroke="#EF4444" stroke-width=""/>
+<text x="270.0" y="257.0" text-anchor="middle" fill="#aaa" font-size="9">言峰私室</text>
+<rect x="360.0" y="232.0" width="120.0" height="50.0" rx="3.0" fill="#1a1030" stroke="#6D28D9" stroke-width=""/>
+<text x="420.0" y="257.0" text-anchor="middle" fill="#aaa" font-size="9">地下室</text>
+<rect x="510.0" y="232.0" width="120.0" height="50.0" rx="3.0" fill="#1a2a2a" stroke="#888" stroke-width=""/>
+<text x="570.0" y="257.0" text-anchor="middle" fill="#aaa" font-size="9">墓地</text>
+<text x="20" y="373.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 3</text>
+<rect x="20" y="378.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="378.0" width="860.0" height="130.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="443.0" text-anchor="middle" fill="#aaa" font-size="9">(安全區)</text>
+<rect x="40.0" y="392.0" width="150.0" height="50.0" rx="3.0" fill="#301520" stroke="#FF4444" stroke-width=""/>
+<text x="115.0" y="417.0" text-anchor="middle" fill="#aaa" font-size="9">山門</text>
+<rect x="220.0" y="392.0" width="140.0" height="50.0" rx="3.0" fill="#2E1A3E" stroke="#FD0304" stroke-width="2"/>
+<text x="290.0" y="417.0" text-anchor="middle" fill="#aaa" font-size="9">大聖杯祭壇</text>
+<rect x="390.0" y="392.0" width="140.0" height="50.0" rx="3.0" fill="#1a1030" stroke="#6D28D9" stroke-width=""/>
+<text x="460.0" y="417.0" text-anchor="middle" fill="#aaa" font-size="9">本堂</text>
+<rect x="560.0" y="392.0" width="150.0" height="50.0" rx="3.0" fill="#1a2020" stroke="#888" stroke-width=""/>
+<text x="635.0" y="417.0" text-anchor="middle" fill="#aaa" font-size="9">後山·靈脈</text>
+<text x="20" y="533.0" fill="#8B5CF6" font-size="13" font-weight="bold">樓層 4</text>
+<rect x="20" y="538.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="538.0" width="860.0" height="85.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="40.0" y="550.0" width="180.0" height="50.0" rx="3.0" fill="#301520" stroke="#EF4444" stroke-width=""/>
+<text x="130.0" y="575.0" text-anchor="middle" fill="#aaa" font-size="9">Caster工房入口（下水道）</text>
+<rect x="260.0" y="550.0" width="200.0" height="50.0" rx="3.0" fill="#301520" stroke="#EF4444" stroke-width=""/>
+<text x="360.0" y="575.0" text-anchor="middle" fill="#aaa" font-size="9">兒童監禁處</text>
+<rect x="500.0" y="550.0" width="200.0" height="50.0" rx="3.0" fill="#301520" stroke="#FF4444" stroke-width=""/>
+<text x="600.0" y="575.0" text-anchor="middle" fill="#aaa" font-size="9">螺湮城教本祭壇</text>
+<rect x="20" y="585" width="860" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="610" fill="#aaa" font-size="9">FZ_EM-01 | 探索地圖 | 冬木市關鍵區域 A~D</text>
+<text x="20" y="630" fill="#666" font-size="9">FZ_EM-01 | 探索地圖 </text>
+</svg>
