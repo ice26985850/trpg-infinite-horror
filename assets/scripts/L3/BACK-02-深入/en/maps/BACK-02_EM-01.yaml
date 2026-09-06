@@ -1,0 +1,31 @@
+map_id: BACK-02_EM-01
+map_type: exploration
+scenario: 'Backrooms: Deep Dive / Backrooms: Deep Dive'
+tier: L3
+difficulty: ★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: Backrooms Level Route Map
+description: ''
+floors:
+- name: Floor 1
+  y: 80.0
+  rooms:
+  - bounds:
+    - 100.0
+    - 80.0
+    - 600.0
+    - 420.0
+    name: Emergency Teleport
+    fill: '#1a1a3e'
+    stroke: '#3a3a6e'
+    stroke_width: '2'
+    rx: 5.0
+connections: []
+legend:
+- Safe Zone/Start Point
+- Danger Zone/Combat Zone
+notes: []

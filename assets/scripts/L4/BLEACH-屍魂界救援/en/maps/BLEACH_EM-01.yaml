@@ -1,0 +1,259 @@
+map_id: BLEACH_EM-01
+map_type: exploration
+scenario: 'Bleach: Soul Society Rescue'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 900
+- 620
+title: Seireitei Interior — Exploration Map (Area 1)
+description: ''
+floors:
+- name: Floor 1
+  y: 0.0
+  rooms:
+  - bounds:
+    - 0.0
+    - 0.0
+    - 900.0
+    - 620.0
+    name: (25% Byakuya / 15% other captain)
+    fill: '#1a1a2e'
+    stroke: ''
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 20.0
+    - 58.0
+    - 860.0
+    - 160.0
+    name: (3 Seated + 2 Shinigami)
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 35.0
+    - 70.0
+    - 120.0
+    - 60.0
+    name: Rukia's Cell
+    fill: '#301520'
+    stroke: '#EF4444'
+    stroke_width: '2'
+    rx: 3.0
+  - bounds:
+    - 180.0
+    - 70.0
+    - 80.0
+    - 60.0
+    name: Cell 2
+    fill: '#1a1030'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 280.0
+    - 70.0
+    - 80.0
+    - 60.0
+    name: Cell 3
+    fill: '#1a1030'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 380.0
+    - 70.0
+    - 100.0
+    - 60.0
+    name: Guard Room
+    fill: '#162040'
+    stroke: '#F59E0B'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 500.0
+    - 70.0
+    - 70.0
+    - 140.0
+    name: To Courtyard
+    fill: '#162040'
+    stroke: '#F59E0B'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 590.0
+    - 70.0
+    - 130.0
+    - 60.0
+    name: Interrogation Room
+    fill: '#1a1030'
+    stroke: '#6D28D9'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 740.0
+    - 70.0
+    - 120.0
+    - 60.0
+    name: Archive Room
+    fill: '#1a1030'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 3.0
+- name: Floor 2
+  y: 248.0
+  rooms:
+  - bounds:
+    - 20.0
+    - 248.0
+    - 860.0
+    - 120.0
+    name: (25% Byakuya / 15% other captain)
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 35.0
+    - 260.0
+    - 260.0
+    - 50.0
+    name: Courtyard Garden
+    fill: '#1a2a2a'
+    stroke: '#10B981'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 330.0
+    - 260.0
+    - 60.0
+    - 50.0
+    name: Corner
+    fill: '#162040'
+    stroke: '#F59E0B'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 420.0
+    - 260.0
+    - 120.0
+    - 50.0
+    name: Captain-Level Encounter Point
+    fill: '#301520'
+    stroke: '#EF4444'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 570.0
+    - 260.0
+    - 130.0
+    - 50.0
+    name: Corridor Junction
+    fill: '#1a2a2a'
+    stroke: '#10B981'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 730.0
+    - 260.0
+    - 130.0
+    - 50.0
+    name: Hidden Alley
+    fill: '#1a1030'
+    stroke: '#6D28D9'
+    stroke_width: ''
+    rx: 3.0
+- name: Floor 3
+  y: 398.0
+  rooms:
+  - bounds:
+    - 20.0
+    - 398.0
+    - 860.0
+    - 110.0
+    name: (T+72 Execution Site)
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 35.0
+    - 410.0
+    - 180.0
+    - 40.0
+    name: Byakuya Final Checkpoint
+    fill: '#301520'
+    stroke: '#EF4444'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 250.0
+    - 410.0
+    - 100.0
+    - 40.0
+    name: Great Stair
+    fill: '#162040'
+    stroke: '#F59E0B'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 400.0
+    - 410.0
+    - 100.0
+    - 40.0
+    name: Sokyoku Hill Entrance
+    fill: '#1a2a2a'
+    stroke: '#10B981'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 550.0
+    - 410.0
+    - 150.0
+    - 40.0
+    name: Captain-Commander Final Defense Line
+    fill: '#301520'
+    stroke: '#FF4444'
+    stroke_width: ''
+    rx: 3.0
+- name: Floor 4
+  y: 538.0
+  rooms:
+  - bounds:
+    - 20.0
+    - 538.0
+    - 860.0
+    - 65.0
+    name: ''
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 35.0
+    - 548.0
+    - 180.0
+    - 40.0
+    name: Senkaimon
+    fill: '#1a2a2a'
+    stroke: '#10B981'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 250.0
+    - 548.0
+    - 200.0
+    - 40.0
+    name: Zanpakuto Training Ground
+    fill: '#1a2a2a'
+    stroke: '#10B981'
+    stroke_width: ''
+    rx: 3.0
+connections: []
+legend:
+- BLEACH_EM-01 | Exploration Map | Seireitei Interior Areas A~D
+notes: []

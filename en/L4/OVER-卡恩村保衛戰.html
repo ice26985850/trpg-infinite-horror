@@ -1,0 +1,656 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Overlord: Defense of Carne Village | OVER-卡恩村保衛戰 | Infinite Terror TRPG Scripts</title>
+<link rel="stylesheet" href="../../assets/style.css"></head>
+<body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../../index.html">中文</a></header>
+<div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
+<main class="container"><h1>Overlord: Defense of Carne Village</h1>
+    <p class="meta">Code: OVER-卡恩村保衛戰 ｜ Source: Overlord (オーバーロード) ｜ Difficulty: ★★★★★ ｜ Players: 3–5 ｜ Duration: 8–12 hrs / 3–4 sessions ｜ Type: Combat / Adventure</p>
+    <p class="nav"><a href="../../index.html">← 劇本總覽</a> ｜ <a href="../../assets/scripts/L4/OVER-卡恩村保衛戰/en/OVER_劇本.md" download>劇本 MD</a> ｜ <a href="../../assets/scripts/L4/OVER-卡恩村保衛戰/en/OVER_NPC名冊.xlsx" download>NPC 名冊</a> ｜ <a href="../../assets/scripts/L4/OVER-卡恩村保衛戰/en/OVER_敵方單位名冊.xlsx" download>敵方名冊</a> ｜ <a href="../../assets/L4_OVER-卡恩村保衛戰_all_en.zip">下載全部（zip）</a></p>
+    <section class="block content"><section class="chap"><h2>一、基本資訊</h2>
+<p>Script Title: Overlord: Defense of Carne Village
+Source Film: Overlord (オーバーロード)
+Difficulty Rating: ★★★★★
+Suggested Players: 3–5
+Estimated Duration: 8–12 hrs / 3–4 sessions
+Prerequisites: Gene Lock Stage III or higher (Stage IV recommended)
+Script Type: Combat / Adventure</p>
+<hr /></section>
+<details class="gm"><summary>🎭 GM 限定：II. Plot Summary (GM Spoilers)</summary><h2>II. Plot Summary (GM Spoilers)</h2>
+<h3>One-Line Summary</h3>
+<blockquote>
+<p>Defend Carne Village against the Kingdom's army and survive under the protection of Lord Ainz — then strike back.</p>
+</blockquote>
+<h3>Full Plot Background</h3>
+<p>The ruler of the Great Tomb of Nazarick — Ainz Ooal Gown — has been awake in this other world for some time. Disguised as the adventurer Momon, he established a foothold at Carne Village. But the Kingdom's nobles see this increasingly prosperous "non-human-controlled zone" as a threat, and dispatch an army to wipe it out.</p>
+<p>The Reincarnators (輪迴者) are "recruited" by Ainz as adventurers to help defend Carne Village. In truth this is Ainz's test of them — he wants to observe how they perform under pressure, to decide whether to treat them as long-term allies... or potential threats.</p>
+<p>The Kingdom army's main force includes the knight orders and the Sunlight Scripture — the church's elite magic unit. If they break through the village defenses, Ainz will step in personally — but that means the Reincarnators failed the test.</p>
+<h3>Plot Structure Type</h3>
+<p><strong>Hybrid</strong>: A defensive battle — three waves of Kingdom army attacks → final boss fight against the Sunlight Scripture commander.</p>
+<hr /></details>
+<section class="chap"><h2>III. Main God Quest</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest Description</td>
+<td>"Help defend Carne Village against the Kingdom army's invasion. Survive at least until reinforcements arrive (24 hours)."</td>
+</tr>
+<tr>
+<td>Main Quest</td>
+<td>Successful defense of Carne Village</td>
+</tr>
+<tr>
+<td>Quest Reward</td>
+<td>A + 10000</td>
+</tr>
+<tr>
+<td>Failure Condition</td>
+<td>Total annihilation / Carne Village falls (Ainz will clean up the battlefield — but the Reincarnators are judged failures and erased)</td>
+</tr>
+<tr>
+<td>Failure Penalty</td>
+<td>Erasure</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>① Earn Ainz's recognition (without letting him act personally): A1 <br>② Keep all village NPCs alive: B1 <br>③ Defeat the Kingdom army commanders (2+): C + 2000</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>IV. Side Quests</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest ID</td>
+<td>S-01</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Adventurer Guild Assistance</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Travel to the nearby Adventurer Guild branch to request reinforcements</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Convince the Adventurer Guild to send support (Manipulation + Social DC 4) or pay a fee (2000 RP / GM decides whether advance payment is allowed)</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Before the Kingdom army's third wave</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>1d3 adventurers join the defense + 800</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Supports the main quest — extra defensive manpower</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest ID</td>
+<td>S-02</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>The Outskirts of Nazarick</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Discover a hidden entrance to Nazarick's first floor outside the village (Perception DC 5)</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Explore Nazarick's outskirts and interact with the guardians — choose to accept or refuse Ainz's "deeper test"</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>If accepted — gain Nazarick equipment (base defense +2 armor / DP+1 weapon / valid in this world). If refused — Ainz still respects the choice but favor drops.</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Supports — gain high-tier equipment</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest ID</td>
+<td>S-03</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Division Within the Kingdom Army</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Capture a Kingdom officer and extract intel — discover there are troops unwilling to fight</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Use the intel to sow defection among dissenting units (Negotiation DC 5 / Manipulation DC 4)</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Before the Kingdom army's third wave</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>1d4 Kingdom soldiers defect and join the defense + B1</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Strongly supports the main quest — reduces the third wave's numbers and adds defensive manpower</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>V. World Setting</h2>
+<h3>Timeline</h3>
+<p>| T+0 hrs | Awaken at Carne Village — Ainz (disguised as Momon) gives the quest |
+| T+2 hrs | Kingdom army scouts appear — first probing attack |
+| T+6 hrs | Second wave: Kingdom knight main force arrives |
+| T+12 hrs | Sunlight Scripture arrives — final defense |
+| T+24 hrs | If defense succeeds — reinforcements arrive / if failed — Ainz personally cleans up |</p>
+<h3>Key Locations</h3>
+<h4>Location A: Carne Village Center (Home Base)</h4>
+<p>A simple rural farming settlement. Wooden fences are the most basic fortification. The well at the village center is the only supply source. The villagers gather fearfully near the village chief's house — they have never experienced real war.</p>
+<h4>Location B: The Plains Outside the Village (Battlefield)</h4>
+<p>Open plains stretch from the village edge. In the distance you can see the Kingdom army's camp tents. The plains have a few natural covers — small hills, bushes, and a shallow stream.</p>
+<h4>Location C: The Village Gate Fence (Defense Line)</h4>
+<p>The village's only fortification. Not sturdy — HP 100 / base defense 10 — but provides cover to defenders (base defense +2). Once the fence is breached, enemies charge straight into the village.</p>
+<h3>World Special Rules</h3>
+<ul>
+<li><strong>Wave System</strong>: The Kingdom army attacks in three waves, 6 hours apart. Between waves you may repair the fence and heal.</li>
+<li><strong>Villager Morale</strong>: The villagers' morale value (starts at 10). Each villager death -2, each breach of the defense line -2. At zero, the villagers flee en masse.</li>
+<li><strong>Ainz's Observation</strong>: Ainz will not fight directly, but he observes the Reincarnators' performance. Outstanding performance (S-rank) grants extra rewards on clear. If forced to act (F-rank), rewards are halved.</li>
+</ul>
+<h3>Main God Restrictions</h3>
+<ul>
+<li>"Do not reveal Ainz's true identity to story characters (a magic-detection effect automatically blocks such dialogue)."</li>
+<li>"If a Reincarnator attacks innocent villagers, Ainz immediately turns hostile."</li>
+</ul>
+<h3>Visual Map System</h3>
+<table>
+<thead>
+<tr>
+<th>Layer</th>
+<th>ID</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Large Map</td>
+<td>WM-01</td>
+<td><code>maps/OVER_WM-01.svg</code></td>
+</tr>
+<tr>
+<td>Exploration Map</td>
+<td>EM-01</td>
+<td><code>maps/OVER_EM-01.svg</code></td>
+</tr>
+<tr>
+<td>Combat Map</td>
+<td>BM-01</td>
+<td><code>maps/OVER_BM-01.svg</code></td>
+</tr>
+<tr>
+<td>Combat Map</td>
+<td>BM-02</td>
+<td><code>maps/OVER_BM-02.svg</code></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VII. Key Scenes</h2>
+<h4>Scene S01: Awakening — The World Descends</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S01</td>
+</tr>
+<tr>
+<td>GM Read-Aloud Text</td>
+<td>"You wake to find yourself lying in the corner of a wooden house. The noise outside the door snaps you alert — a black-haired young man is addressing the villagers. 'I am Momon — an adventurer. The Kingdom's army is approaching, and I need everyone who can fight to help.' He notices you're awake and nods slightly — and in his eyes you catch a glimmer of something not quite human. The Main God whispers in your ear: this 'Momon' is not human."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Ainz / Momon (quest briefing + provides basic equipment); villagers (may help evacuate or organize militia); village chief (provides village map and defensive-point advice); village gate fence (may be reinforced — Strength DC 3 / +30 HP to the fence)</td>
+</tr>
+<tr>
+<td>Encounters</td>
+<td>No immediate combat — guidance phase</td>
+</tr>
+<tr>
+<td>Gene Lock Notes</td>
+<td>None — guidance phase</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Obtain quest intel and decide on a course of action</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VIII. Reward Settlement</h2>
+<h4>Scene S03: Encounter — The Knight Order's Charge</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GM Read-Aloud Text</td>
+<td>"Dust rises on the horizon. The thunder of hooves grows louder — the Kingdom knight order. They form a neat charge formation, lances glinting in the sun. A banner embroidered with a golden lion flies at the front. The lead knight draws his longsword: 'In the King's name — purge these non-human creatures!'"</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Fence (must be held — may set spike traps / Agility + Trap DC 3); stream (knights must cross — may place trip-ropes on the stream bed); villager archers (if organized — deal 1d6 damage per Round)</td>
+</tr>
+<tr>
+<td>Encounters</td>
+<td>Kingdom knights ×1d6+3 (★★) + knight captain ×1 (★★★). Knights have a cavalry-charge bonus (DP+2 first Round). Horses fear fire — using fire magic can force knights off their mounts.</td>
+</tr>
+<tr>
+<td>Gene Lock Notes</td>
+<td><strong>Gene Lock Tip</strong>: Gene Lock Stage III (Resolve DC 4): recommended for handling multiple targets at once — the knight captain's tactical command keeps shifting attack directions, and Gene Lock helps see through the tactics.</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Repel all knights or hold for 8 Rounds</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S08: Final Decisive Battle — Sunlight Scripture — The Last Defense Line</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GM Read-Aloud Text</td>
+<td>"The dust settles. The knights on the plains have retreated — but you know this isn't over. A sacred light illuminates the night sky — the Sunlight Scripture has arrived. White-robed mages array outside the village; their leader — a stern middle-aged man — raises a holy emblem: 'In the name of God, purify these heretics!'"</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Village gate fence (last defense line — HP 100 / base defense 10); the central well water (holy water — effective against dark-corrosion creatures / useless against the Sunlight Scripture); houses (may serve as cover / but villagers are inside — if they collapse, villagers are hurt); Ainz (watching — only uses low-tier magic support / restores 1d4 HP each Round to a random party member)</td>
+</tr>
+<tr>
+<td>Encounters</td>
+<td><strong>Forced boss battle</strong>: Sunlight Scripture commander (★★★★) ×1 + Kingdom army main force (★★★★) ×1 + Sunlight Scripture mages ×1d3 (★★★). The commander has group healing (restores 2d6 HP to all enemies every 2 Rounds) and a Holy Light Cannon (DP 9 / 4d8 radiance / ranged). The Kingdom army main force launches a formation attack (DP+2) below 50% HP.</td>
+</tr>
+<tr>
+<td>Gene Lock Notes</td>
+<td><strong>Gene Lock Tip</strong>: Gene Lock Stage IV (Resolve DC 5): strongly recommended for all members. The Sunlight Scripture's Holy Light Cannon is a precise ranged attack — Stage IV grants perceptual foresight, locating the firing position one Round before the shot and gaining Dodge DC-3.</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Defeat the Sunlight Scripture commander → Kingdom army retreats → script cleared</td>
+</tr>
+</tbody>
+</table>
+<h3>Return Exchange (Script-Specific)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Item</th>
+<th>Cost (Side Quest + Reward Points)</th>
+<th>Effect</th>
+<th>Growth Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>Basic Magic (Tiers 1–3)</td>
+<td>B + 2000</td>
+<td>Intellect (INT) + Arcane (magic) permanently +3; cast Tier 1–3 magic 5× per day (DP+3 / 2d8 elemental)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Undead Servant</td>
+<td>B + 2000</td>
+<td>Summon 2 low-tier undead servants (skeleton warriors, Hit Points (HP) 40) to fight alongside you</td>
+<td>Lv1→Lv2→Lv3: skeleton → zombie → ghoul swarm</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Martial Arts</td>
+<td>B + 2000</td>
+<td>Agility (DEX) + melee permanently +3; gain martial techniques like "Pressure" and "Flow" (2× dodge / counter per Round)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Mid-Tier Magic (Tiers 4–6)</td>
+<td>A + 4000</td>
+<td>Unlock Tier 4–6 magic: area attack (DP+3 / 3d6 elemental, range 20ft)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Alchemist Class</td>
+<td>A + 8000</td>
+<td>Gain "Alchemist" class levels: can craft potions (healing / buffs) and traps</td>
+<td>Lv1→Lv2→Lv3: novice → advanced → master</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>High-Tier Magic (Tiers 7–9)</td>
+<td>A + 4000</td>
+<td>Unlock Tier 7–9 magic: instant-death / space distortion (DP+4, may instant-kill DC 6 targets with HP &lt;50%)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Necromancer Lineage</td>
+<td>AA + 10800</td>
+<td>Gain the "Necromancer" bloodline: undead command +5, immunity to negative status, dark-magic power +2</td>
+<td>Lv1→Lv2→Lv3: Necromancer → Lich → King of the Undead</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Ainz Ooal Gown's Treasure (World Item)</td>
+<td>S + 16000</td>
+<td>Gain 1 "World-Class Item": game-breaking effect (e.g. "Greed and Avarice" — once per script, force-nullify 1 attack / spell)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Super-Tier Magic</td>
+<td>S + 8000</td>
+<td>Gain "Super-Tier Magic": strategic-level destruction (DP+6 / 5d10 elemental, range 60ft, once per script)</td>
+<td>Lv1→Lv2→Lv3: single → continuous → multiple super-tier</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>X. Appendix</h2>
+<ul>
+<li><strong>Maps</strong>: <code>maps/OVER_WM-01.svg</code> ~ <code>OVER_BM-02.svg</code></li>
+<li><strong>NPC / Enemies</strong>: <code>OVER_NPC名冊.xlsx</code>, <code>OVER_敵方單位名冊.xlsx</code></li>
+<li><strong>GM Memo</strong>:</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Reward Type</th>
+<th>Content</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main Quest Complete</td>
+<td>Successful defense of Carne Village</td>
+<td>A + 10000</td>
+</tr>
+<tr>
+<td>Optional Objective ①</td>
+<td>Earn Ainz's recognition (S-rank)</td>
+<td>A1</td>
+</tr>
+<tr>
+<td>Optional Objective ②</td>
+<td>All villagers survive</td>
+<td>B1</td>
+</tr>
+<tr>
+<td>Optional Objective ③</td>
+<td>Defeat 2+ commanders</td>
+<td>C + 2000</td>
+</tr>
+<tr>
+<td>Side Quest S-01</td>
+<td>Adventurer reinforcements</td>
+<td>800</td>
+</tr>
+<tr>
+<td>Side Quest S-02</td>
+<td>Nazarick exploration</td>
+<td>High-tier equipment</td>
+</tr>
+<tr>
+<td>Side Quest S-03</td>
+<td>Subvert enemy troops</td>
+<td>B1</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Kingdom knight (each)</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Sunlight Scripture (each)</td>
+<td>250</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Kingdom army main force</td>
+<td>800</td>
+</tr>
+<tr>
+<td>Special Achievement</td>
+<td>Ainz never acts personally</td>
+<td>1000</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<blockquote>
+<p><strong>Script Code</strong>: OVER <strong>Version</strong>: v1.0 <strong>Format Spec</strong>: v0.4</p>
+</blockquote></section></section>
+    <section class="block"><h2>地圖（YAML＋SVG）</h2><div class="map">
+              <div class="maptitle">OVER_BM-01 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="640" height="480" fill="#1a1a2e"/>
+<rect x="20" y="20" width="600" height="440" fill="url(#grid)"/>
+<rect x="20" y="20" width="600" height="440" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="320.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">BM-01 Kingdom Knights Charge Battle</text>
+<text x="25" y="472" fill="#666" font-size="9">OVER_BM-01 | 10×10cells(concept) | 1cells = 5ft | total 50×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="40.0" y="40.0" width="80.0" height="80.0" rx="3" fill="none" stroke="#00FF88" stroke-width="2"/>
+<text x="80.0" y="76.0" text-anchor="middle" fill="#aaa" font-size="8">Player Start</text>
+<text x="80.0" y="90.0" text-anchor="middle" fill="#666" font-size="6">(17.5, 17.5)ft</text>
+<rect x="320.0" y="40.0" width="80.0" height="80.0" rx="3" fill="none" stroke="#FF4444" stroke-width="1.5"/>
+<text x="360.0" y="76.0" text-anchor="middle" fill="#aaa" font-size="8">Knights ×5</text>
+<text x="360.0" y="90.0" text-anchor="middle" fill="#666" font-size="6">(112.5, 17.5)ft</text>
+<rect x="40.0" y="280.0" width="120.0" height="80.0" rx="3" fill="#F59E0B22" stroke="#F59E0B" stroke-width="2"/>
+<text x="100.0" y="316.0" text-anchor="middle" fill="#aaa" font-size="8">Fence (Defense Line)</text>
+<text x="100.0" y="330.0" text-anchor="middle" fill="#666" font-size="6">(25.0, 97.5)ft</text>
+<rect x="200.0" y="200.0" width="80.0" height="80.0" rx="3" fill="#10B98144" stroke="#10B981" stroke-width="1"/>
+<text x="240.0" y="236.0" text-anchor="middle" fill="#aaa" font-size="8">Villager Militia</text>
+<text x="240.0" y="250.0" text-anchor="middle" fill="#666" font-size="6">(72.5, 72.5)ft</text>
+<rect x="320.0" y="200.0" width="80.0" height="80.0" rx="3" fill="none" stroke="#FF4444" stroke-width="1.5"/>
+<text x="360.0" y="236.0" text-anchor="middle" fill="#aaa" font-size="8">Knight Captain</text>
+<text x="360.0" y="250.0" text-anchor="middle" fill="#666" font-size="6">(112.5, 72.5)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L4/OVER-卡恩村保衛戰/en/maps/OVER_BM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L4/OVER-卡恩村保衛戰/en/maps/OVER_BM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">OVER_BM-02 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="640" height="480" fill="#1a1a2e"/>
+<rect x="20" y="20" width="600" height="440" fill="url(#grid)"/>
+<rect x="20" y="20" width="600" height="440" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="320.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">BM-02 Sunlight Scripture Final Battle</text>
+<text x="25" y="472" fill="#666" font-size="9">OVER_BM-02 | 10×10cells(concept) | 1cells = 5ft | total 50×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="40.0" y="40.0" width="80.0" height="80.0" rx="3" fill="none" stroke="#00FF88" stroke-width="2"/>
+<text x="80.0" y="76.0" text-anchor="middle" fill="#aaa" font-size="8">Player Start</text>
+<text x="80.0" y="90.0" text-anchor="middle" fill="#666" font-size="6">(17.5, 17.5)ft</text>
+<rect x="40.0" y="280.0" width="120.0" height="80.0" rx="3" fill="#F59E0B22" stroke="#F59E0B" stroke-width="2"/>
+<text x="100.0" y="316.0" text-anchor="middle" fill="#aaa" font-size="8">Fence (Final Defense Line)</text>
+<text x="100.0" y="330.0" text-anchor="middle" fill="#666" font-size="6">(25.0, 97.5)ft</text>
+<rect x="320.0" y="40.0" width="80.0" height="80.0" rx="3" fill="none" stroke="#FF4444" stroke-width="1.5"/>
+<text x="360.0" y="76.0" text-anchor="middle" fill="#aaa" font-size="8">Sunlight Scripture Mages ×3</text>
+<text x="360.0" y="90.0" text-anchor="middle" fill="#666" font-size="6">(112.5, 17.5)ft</text>
+<rect x="320.0" y="200.0" width="80.0" height="80.0" rx="3" fill="none" stroke="#FF4444" stroke-width="1.5"/>
+<text x="360.0" y="236.0" text-anchor="middle" fill="#aaa" font-size="8">Commander</text>
+<text x="360.0" y="250.0" text-anchor="middle" fill="#666" font-size="6">(112.5, 72.5)ft</text>
+<rect x="160.0" y="160.0" width="80.0" height="80.0" rx="3" fill="#66644" stroke="#666" stroke-width="1"/>
+<text x="200.0" y="196.0" text-anchor="middle" fill="#aaa" font-size="8">Villager Houses</text>
+<text x="200.0" y="210.0" text-anchor="middle" fill="#666" font-size="6">(57.5, 57.5)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L4/OVER-卡恩村保衛戰/en/maps/OVER_BM-02.yaml" download>yaml</a> <a href="../../assets/scripts/L4/OVER-卡恩村保衛戰/en/maps/OVER_BM-02.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">OVER_EM-01 <span class="maptype">探索地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" font-family="Microsoft JhengHei, sans-serif">
+<rect width="900" height="580" fill="#1a1a2e"/>
+<text x="450.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">Carne Village Defense Line — Detailed Combat Zone</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 1</text>
+<rect x="20" y="0.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="900.0" height="580.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<rect x="20.0" y="53.0" width="860.0" height="140.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="123.0" text-anchor="middle" fill="#aaa" font-size="9">Village Center (Stronghold / Supply)</text>
+<rect x="35.0" y="85.0" width="200.0" height="60.0" rx="3.0" fill="#1a1505" stroke="#F59E0B" stroke-width="1.5"/>
+<text x="135.0" y="115.0" text-anchor="middle" fill="#aaa" font-size="9">Fence (HP 100)</text>
+<rect x="270.0" y="85.0" width="250.0" height="60.0" rx="3.0" fill="#0d1a1a" stroke="#10B981" stroke-width="1.5"/>
+<text x="395.0" y="115.0" text-anchor="middle" fill="#aaa" font-size="9">Village Center (Stronghold / Supply)</text>
+<text x="20" y="218.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 2</text>
+<rect x="20" y="223.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="223.0" width="860.0" height="140.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="20" y="350.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 3</text>
+<rect x="20" y="355.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="35.0" y="355.0" width="200.0" height="60.0" rx="3.0" fill="#0d0d1a" stroke="#3B82F6" stroke-width="1.5"/>
+<text x="135.0" y="385.0" text-anchor="middle" fill="#aaa" font-size="9">Adventurer's Guild (S-01)</text>
+<rect x="270.0" y="355.0" width="250.0" height="60.0" rx="3.0" fill="#1a1020" stroke="#6D28D9" stroke-width="1.5"/>
+<text x="395.0" y="385.0" text-anchor="middle" fill="#aaa" font-size="9">Nazarick Entrance (S-02)</text>
+<rect x="20.0" y="393.0" width="860.0" height="150.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="20" y="620.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 4</text>
+<rect x="20" y="625.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="35.0" y="625.0" width="530.0" height="70.0" rx="3.0" fill="#1a0505" stroke="#EF4444" stroke-width="1.5"/>
+<text x="300.0" y="660.0" text-anchor="middle" fill="#aaa" font-size="9">Kingdom Army Camp (Enemy Rally Point)</text>
+<rect x="20" y="525" width="860" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="550" fill="#aaa" font-size="9">OVER_EM-01 | ExplorationMap</text>
+<text x="20" y="570" fill="#666" font-size="9">OVER_EM-01 | ExplorationMap </text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L4/OVER-卡恩村保衛戰/en/maps/OVER_EM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L4/OVER-卡恩村保衛戰/en/maps/OVER_EM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">OVER_WM-01 <span class="maptype">世界地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="800" height="600" fill="url(#wmgrid)"/>
+<rect x="200.0" y="50.0" width="400.0" height="100.0" rx="5" fill="#0d1a1a" stroke="#10B981" stroke-width="2"/>
+<text x="400.0" y="100.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Carne Village (Stronghold)</text>
+<rect x="200.0" y="220.0" width="400.0" height="120.0" rx="5" fill="#1a1505" stroke="#F59E0B" stroke-width="2"/>
+<text x="400.0" y="280.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Plains (Battlefield)</text>
+<rect x="200.0" y="400.0" width="400.0" height="120.0" rx="5" fill="#1a0505" stroke="#EF4444" stroke-width="2"/>
+<text x="400.0" y="460.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Kingdom Army Camp</text>
+<line x1="400.0" y1="150.0" x2="400.0" y2="220.0" stroke="#C084FC" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="400.0" y1="340.0" x2="400.0" y2="400.0" stroke="#C084FC" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<rect x="630" y="20" width="150" height="74" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="705" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Legend</text>
+<text x="640" y="60" fill="#aaa" font-size="9">Legend</text>
+<text x="640" y="76" fill="#aaa" font-size="9">Arrow = Recommended Route</text>
+<text x="640" y="92" fill="#aaa" font-size="9">Red Zone = Final Objective</text>
+<text x="20" y="585" fill="#666" font-size="9">OVER_WM-01 | largeRangeMap | Schematic</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L4/OVER-卡恩村保衛戰/en/maps/OVER_WM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L4/OVER-卡恩村保衛戰/en/maps/OVER_WM-01.svg" download>svg</a></p>
+            </div></section>
+    <section class="block"><h2>概念圖</h2><div class="gallery"><a href="../../assets/scripts/L4/OVER-卡恩村保衛戰/images/enemy_01_sunlight_scripture.png" target="_blank"><img src="../../assets/scripts/L4/OVER-卡恩村保衛戰/images/enemy_01_sunlight_scripture.png" alt="enemy_01_sunlight_scripture.png"></a><a href="../../assets/scripts/L4/OVER-卡恩村保衛戰/images/npc_01_ainz.png" target="_blank"><img src="../../assets/scripts/L4/OVER-卡恩村保衛戰/images/npc_01_ainz.png" alt="npc_01_ainz.png"></a><a href="../../assets/scripts/L4/OVER-卡恩村保衛戰/images/scene_01_carne_village.png" target="_blank"><img src="../../assets/scripts/L4/OVER-卡恩村保衛戰/images/scene_01_carne_village.png" alt="scene_01_carne_village.png"></a><a href="../../assets/scripts/L4/OVER-卡恩村保衛戰/images/scene_S03_遭遇騎士團的衝鋒.png" target="_blank"><img src="../../assets/scripts/L4/OVER-卡恩村保衛戰/images/scene_S03_遭遇騎士團的衝鋒.png" alt="scene_S03_遭遇騎士團的衝鋒.png"></a><a href="../../assets/scripts/L4/OVER-卡恩村保衛戰/images/scene_S08_最終決戰陽光聖典最終防線.png" target="_blank"><img src="../../assets/scripts/L4/OVER-卡恩村保衛戰/images/scene_S08_最終決戰陽光聖典最終防線.png" alt="scene_S08_最終決戰陽光聖典最終防線.png"></a></div></section>
+    </main>
+<footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

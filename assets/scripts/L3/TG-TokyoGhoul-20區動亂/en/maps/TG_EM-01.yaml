@@ -1,0 +1,375 @@
+map_id: TG_EM-01
+map_type: exploration
+scenario: 'Tokyo Ghoul·20District unrest / Tokyo Ghoul: Ward 20 Uprising'
+tier: L3
+difficulty: ★★★
+viewbox:
+- 0
+- 0
+- 920
+- 680
+title: CCG 20District Branch — Explore the map
+description: ''
+floors:
+- name: 3 Floor（3F）—— Command level
+  y: 0.0
+  rooms:
+  - bounds:
+    - 0.0
+    - 0.0
+    - 920.0
+    - 680.0
+    name: Staircase
+    fill: '#1a1a2e'
+    stroke: ''
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 20.0
+    - 65.0
+    - 880.0
+    - 120.0
+    name: Staircase
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 35.0
+    - 77.0
+    - 100.0
+    - 50.0
+    name: Communication Room
+    fill: '#1a2a3e'
+    stroke: '#3B82F6'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 155.0
+    - 77.0
+    - 120.0
+    - 50.0
+    name: Briefing Room
+    fill: '#1a2a3e'
+    stroke: '#6D28D9'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 295.0
+    - 77.0
+    - 100.0
+    - 50.0
+    name: Branch Director's Office
+    fill: '#1a2a3e'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 420.0
+    - 77.0
+    - 70.0
+    - 95.0
+    name: Staircase
+    fill: '#162040'
+    stroke: '#F59E0B'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 515.0
+    - 77.0
+    - 90.0
+    - 50.0
+    name: Searcher's Office
+    fill: '#1a2a3e'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 625.0
+    - 77.0
+    - 110.0
+    - 50.0
+    name: Archives
+    fill: '#1a1030'
+    stroke: '#6D28D9'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 760.0
+    - 77.0
+    - 120.0
+    - 50.0
+    name: Rooftop helipad
+    fill: '#1a3020'
+    stroke: '#10B981'
+    stroke_width: ''
+    rx: 3.0
+- name: 2 Floor（2F）—— Operations Layer
+  y: 215.0
+  rooms:
+  - bounds:
+    - 20.0
+    - 215.0
+    - 880.0
+    - 120.0
+    name: Staircase
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 35.0
+    - 227.0
+    - 120.0
+    - 50.0
+    name: Kuinke Armory
+    fill: '#2a2010'
+    stroke: '#F59E0B'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 175.0
+    - 227.0
+    - 100.0
+    - 50.0
+    name: Operations Planning Room
+    fill: '#1a2a3e'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 295.0
+    - 227.0
+    - 90.0
+    - 50.0
+    name: Searcher's quarters
+    fill: '#1a2a3e'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 420.0
+    - 227.0
+    - 70.0
+    - 108.0
+    name: Staircase
+    fill: '#162040'
+    stroke: '#F59E0B'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 515.0
+    - 227.0
+    - 100.0
+    - 50.0
+    name: Intelligence Analysis Room
+    fill: '#1a1030'
+    stroke: '#6D28D9'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 640.0
+    - 227.0
+    - 120.0
+    - 50.0
+    name: Infirmary
+    fill: '#1a2a3e'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 780.0
+    - 227.0
+    - 100.0
+    - 50.0
+    name: Training Ground
+    fill: '#1a2a3e'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 3.0
+- name: 1 Floor（1F）—— Entrance Layer
+  y: 365.0
+  rooms:
+  - bounds:
+    - 20.0
+    - 365.0
+    - 880.0
+    - 120.0
+    name: Staircase
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 35.0
+    - 377.0
+    - 140.0
+    - 55.0
+    name: Main entrance hall
+    fill: '#2a3a2a'
+    stroke: '#10B981'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 195.0
+    - 377.0
+    - 90.0
+    - 55.0
+    name: Reception desk
+    fill: '#1a2a3e'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 305.0
+    - 377.0
+    - 90.0
+    - 55.0
+    name: Guard duty room
+    fill: '#1a2a3e'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 420.0
+    - 377.0
+    - 70.0
+    - 108.0
+    name: Staircase
+    fill: '#162040'
+    stroke: '#F59E0B'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 515.0
+    - 377.0
+    - 100.0
+    - 55.0
+    name: Underground Detention Center Entrance
+    fill: '#301520'
+    stroke: '#EF4444'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 640.0
+    - 377.0
+    - 100.0
+    - 55.0
+    name: Underpass entrance
+    fill: '#1a2a3e'
+    stroke: '#3B82F6'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 760.0
+    - 377.0
+    - 120.0
+    - 55.0
+    name: Parking Area/Vehicle Dispatch
+    fill: '#1a2a3e'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 3.0
+- name: TG_EM-01 | Explore the map | CCG 20District Branch 1～3F+accessory
+  y: 520.0
+  rooms:
+  - bounds:
+    - 20.0
+    - 520.0
+    - 880.0
+    - 100.0
+    name: Waste Industrial Zone（E — North-West 1.2km）
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 35.0
+    - 535.0
+    - 160.0
+    - 40.0
+    name: Commercial Street（B — South Bound 500m）
+    fill: '#1a2a2a'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 220.0
+    - 535.0
+    - 160.0
+    - 40.0
+    name: Residential/Antique cafes（C — Eastbound 800m）
+    fill: '#1a2a1a'
+    stroke: '#10B981'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 405.0
+    - 535.0
+    - 160.0
+    - 40.0
+    name: Waste Industrial Zone（E — North-West 1.2km）
+    fill: '#301520'
+    stroke: '#EF4444'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 590.0
+    - 535.0
+    - 140.0
+    - 40.0
+    name: Lower Ground Floor→Sanitary sewer（D）
+    fill: '#162040'
+    stroke: '#C084FC'
+    stroke_width: ''
+    rx: 3.0
+- name: Stairs interconnect | Underground Detention Facility1F(S-03) | tunnel(1F)Connect sewer(D)→Abandoned factory(E)
+  y: 640.0
+  rooms:
+  - bounds:
+    - 35.0
+    - 640.0
+    - 850.0
+    - 30.0
+    name: TG_EM-01 | Explore the map | CCG 20District Branch 1～3F+accessory
+    fill: '#111'
+    stroke: '#333'
+    stroke_width: ''
+    rx: 4.0
+  - bounds:
+    - 130.0
+    - 650.0
+    - 14.0
+    - 10.0
+    name: dangerous territory
+    fill: '#301520'
+    stroke: '#EF4444'
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 230.0
+    - 650.0
+    - 14.0
+    - 10.0
+    name: Vertical channel
+    fill: '#162040'
+    stroke: '#F59E0B'
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 330.0
+    - 650.0
+    - 14.0
+    - 10.0
+    name: Safe Zone/Moderates
+    fill: '#1a3020'
+    stroke: '#10B981'
+    stroke_width: ''
+    rx: 0.0
+connections: []
+legend:
+- Starting point
+- dangerous territory
+- TG_EM-01 | Explore the map | CCG 20District Branch 1～3F+accessory
+notes:
+- Stairs interconnect | Underground Detention Facility1F(S-03) | tunnel(1F)Connect sewer(D)→Abandoned factory(E)

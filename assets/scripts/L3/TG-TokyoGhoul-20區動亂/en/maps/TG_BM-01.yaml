@@ -1,0 +1,401 @@
+map_id: TG_BM-01
+map_type: battle
+scenario: 'Tokyo Ghoul·20District unrest / Tokyo Ghoul: Ward 20 Uprising'
+tier: L3
+difficulty: ★★★
+viewbox:
+- 0
+- 0
+- 720
+- 520
+title: TG_BM-01 Battle Map
+description: ''
+grid:
+  type: square
+  width: 16
+  height: 12
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20.0
+  - 20.0
+  total_width_ft: 80
+  total_height_ft: 60
+terrain:
+- bounds_px:
+  - 20.0
+  - 20.0
+  - 680.0
+  - 6.0
+  name: Abandoned chemical plant——Tung tree stronghold
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 45
+  - 1
+  center_ft:
+  - 112.5
+  - 2.5
+- bounds_px:
+  - 20.0
+  - 474.0
+  - 680.0
+  - 6.0
+  name: 16×12delete | 3Regional Advancement → BOSSBattle
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 30
+  - 45
+  - 1
+  center_ft:
+  - 112.5
+  - 152.5
+- bounds_px:
+  - 20.0
+  - 20.0
+  - 6.0
+  - 460.0
+  name: Desk
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 1
+  - 31
+  center_ft:
+  - 2.5
+  - 77.5
+- bounds_px:
+  - 694.0
+  - 20.0
+  - 6.0
+  - 460.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 45
+  - 0
+  - 1
+  - 31
+  center_ft:
+  - 227.5
+  - 77.5
+- bounds_px:
+  - 40.0
+  - 80.0
+  - 50.0
+  - 30.0
+  name: Crate(Bunker)
+  fill: '#2a2a20'
+  stroke: '#886600'
+  stroke_width: ''
+  bounds_grid:
+  - 1
+  - 4
+  - 3
+  - 2
+  center_ft:
+  - 12.5
+  - 25.0
+- bounds_px:
+  - 120.0
+  - 80.0
+  - 50.0
+  - 30.0
+  name: Crate(Bunker)
+  fill: '#2a2a20'
+  stroke: '#886600'
+  stroke_width: ''
+  bounds_grid:
+  - 7
+  - 4
+  - 3
+  - 2
+  center_ft:
+  - 42.5
+  - 25.0
+- bounds_px:
+  - 40.0
+  - 140.0
+  - 80.0
+  - 40.0
+  name: Waste Machinery
+  fill: '#1a2a3e'
+  stroke: '#555'
+  stroke_width: ''
+  bounds_grid:
+  - 1
+  - 8
+  - 5
+  - 3
+  center_ft:
+  - 17.5
+  - 47.5
+- bounds_px:
+  - 190.0
+  - 90.0
+  - 30.0
+  - 50.0
+  name: INLET
+  fill: '#162040'
+  stroke: '#F59E0B'
+  stroke_width: ''
+  bounds_grid:
+  - 11
+  - 5
+  - 2
+  - 3
+  center_ft:
+  - 60.0
+  - 32.5
+- bounds_px:
+  - 40.0
+  - 260.0
+  - 60.0
+  - 30.0
+  name: Desk
+  fill: '#1a2a3e'
+  stroke: '#555'
+  stroke_width: ''
+  bounds_grid:
+  - 1
+  - 16
+  - 4
+  - 2
+  center_ft:
+  - 15.0
+  - 85.0
+- bounds_px:
+  - 130.0
+  - 260.0
+  - 60.0
+  - 30.0
+  name: Battle Docs(S-01)
+  fill: '#1a1030'
+  stroke: '#6D28D9'
+  stroke_width: ''
+  bounds_grid:
+  - 7
+  - 16
+  - 4
+  - 2
+  center_ft:
+  - 45.0
+  - 85.0
+- bounds_px:
+  - 40.0
+  - 305.0
+  - 160.0
+  - 25.0
+  name: File cabinet（Bunker+3 AC）
+  fill: '#1a2a3e'
+  stroke: '#555'
+  stroke_width: ''
+  bounds_grid:
+  - 1
+  - 19
+  - 11
+  - 2
+  center_ft:
+  - 32.5
+  - 100.0
+- bounds_px:
+  - 70.0
+  - 340.0
+  - 60.0
+  - 30.0
+  name: ↓ B1Laboratory
+  fill: '#162040'
+  stroke: '#EF4444'
+  stroke_width: ''
+  bounds_grid:
+  - 3
+  - 21
+  - 4
+  - 2
+  center_ft:
+  - 25.0
+  - 110.0
+- bounds_px:
+  - 300.0
+  - 80.0
+  - 120.0
+  - 85.0
+  name: HP25 AC8
+  fill: '#301520'
+  stroke: '#EF4444'
+  stroke_width: '2'
+  bounds_grid:
+  - 19
+  - 4
+  - 8
+  - 6
+  center_ft:
+  - 115.0
+  - 35.0
+- bounds_px:
+  - 460.0
+  - 80.0
+  - 120.0
+  - 85.0
+  name: HP25 AC8
+  fill: '#301520'
+  stroke: '#EF4444'
+  stroke_width: '2'
+  bounds_grid:
+  - 29
+  - 4
+  - 8
+  - 6
+  center_ft:
+  - 165.0
+  - 35.0
+- bounds_px:
+  - 300.0
+  - 200.0
+  - 100.0
+  - 20.0
+  name: Arms rack(Hertzian material)
+  fill: '#2a2a20'
+  stroke: '#886600'
+  stroke_width: ''
+  bounds_grid:
+  - 19
+  - 12
+  - 7
+  - 1
+  center_ft:
+  - 112.5
+  - 62.5
+- bounds_px:
+  - 220.0
+  - 210.0
+  - 160.0
+  - 80.0
+  name: Connecting corridor
+  fill: '#0d0d1a'
+  stroke: '#444'
+  stroke_width: ''
+  bounds_grid:
+  - 13
+  - 13
+  - 11
+  - 5
+  center_ft:
+  - 92.5
+  - 77.5
+- bounds_px:
+  - 260.0
+  - 360.0
+  - 160.0
+  - 80.0
+  name: BOSSBattle——SClass Jason(★★★★)
+  fill: '#301520'
+  stroke: '#EF4444'
+  stroke_width: '3'
+  bounds_grid:
+  - 16
+  - 23
+  - 11
+  - 5
+  center_ft:
+  - 107.5
+  - 127.5
+- bounds_px:
+  - 500.0
+  - 370.0
+  - 80.0
+  - 30.0
+  name: Roof breach
+  fill: '#1a3020'
+  stroke: '#10B981'
+  stroke_width: ''
+  bounds_grid:
+  - 32
+  - 23
+  - 5
+  - 2
+  center_ft:
+  - 172.5
+  - 120.0
+- bounds_px:
+  - 460.0
+  - 320.0
+  - 70.0
+  - 15.0
+  name: Hezi Wreckage(Obstacles)
+  fill: '#3a1520'
+  stroke: '#EF4444'
+  stroke_width: ''
+  bounds_grid:
+  - 29
+  - 20
+  - 5
+  - 1
+  center_ft:
+  - 157.5
+  - 102.5
+spawn_points:
+  players:
+  - px:
+    - 68.33333333333333
+    - 490.0
+    name: Player Entrance
+    fill: '#00FF88'
+    grid:
+    - 3
+    - 31
+  - px:
+    - 36.666666666666664
+    - 495.0
+    name: Player Entrance
+    fill: '#00FF88'
+    grid:
+    - 1
+    - 32
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: Abandoned chemical plant——Tung tree stronghold
+  to: 16×12delete | 3Regional Advancement → BOSSBattle
+  distance_ft: 150.0
+- from: Abandoned chemical plant——Tung tree stronghold
+  to: Desk
+  distance_ft: 133.1
+- from: Abandoned chemical plant——Tung tree stronghold
+  to: ''
+  distance_ft: 137.3
+- from: Abandoned chemical plant——Tung tree stronghold
+  to: Crate(Bunker)
+  distance_ft: 102.5
+- from: Abandoned chemical plant——Tung tree stronghold
+  to: Crate(Bunker)
+  distance_ft: 73.5
+- from: Abandoned chemical plant——Tung tree stronghold
+  to: Waste Machinery
+  distance_ft: 105.1
+- from: Abandoned chemical plant——Tung tree stronghold
+  to: INLET
+  distance_ft: 60.5
+- from: Abandoned chemical plant——Tung tree stronghold
+  to: Desk
+  distance_ft: 127.7
+- from: Abandoned chemical plant——Tung tree stronghold
+  to: Battle Docs(S-01)
+  distance_ft: 106.6
+- from: Abandoned chemical plant——Tung tree stronghold
+  to: File cabinet（Bunker+3 AC）
+  distance_ft: 126.1

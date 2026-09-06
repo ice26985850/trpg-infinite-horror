@@ -1,0 +1,147 @@
+map_id: OVER_BM-02
+map_type: battle
+scenario: 'Karn Village Defense War'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 640
+- 480
+title: BM-02 Sunlight Scripture Final Battle
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 80.0
+  - 80.0
+  name: Player Start
+  fill: none
+  stroke: '#00FF88'
+  stroke_width: '2'
+  bounds_grid:
+  - 1
+  - 1
+  - 5
+  - 5
+  center_ft:
+  - 17.5
+  - 17.5
+- bounds_px:
+  - 40.0
+  - 280.0
+  - 120.0
+  - 80.0
+  name: Fence (Final Defense Line)
+  fill: '#F59E0B22'
+  stroke: '#F59E0B'
+  stroke_width: '2'
+  bounds_grid:
+  - 1
+  - 17
+  - 8
+  - 5
+  center_ft:
+  - 25.0
+  - 97.5
+- bounds_px:
+  - 320.0
+  - 40.0
+  - 80.0
+  - 80.0
+  name: Sunlight Scripture Mages ×3
+  fill: none
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 20
+  - 1
+  - 5
+  - 5
+  center_ft:
+  - 112.5
+  - 17.5
+- bounds_px:
+  - 320.0
+  - 200.0
+  - 80.0
+  - 80.0
+  name: Commander
+  fill: none
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 20
+  - 12
+  - 5
+  - 5
+  center_ft:
+  - 112.5
+  - 72.5
+- bounds_px:
+  - 160.0
+  - 160.0
+  - 80.0
+  - 80.0
+  name: Villager Houses
+  fill: '#66644'
+  stroke: '#666'
+  stroke_width: '1'
+  bounds_grid:
+  - 9
+  - 9
+  - 5
+  - 5
+  center_ft:
+  - 57.5
+  - 57.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: 玩家起始
+  to: Fence (Final Defense Line)
+  distance_ft: 80.4
+- from: 玩家起始
+  to: Sunlight Scripture Mages ×3
+  distance_ft: 95.0
+- from: 玩家起始
+  to: Commander
+  distance_ft: 109.8
+- from: 玩家起始
+  to: Villager Houses
+  distance_ft: 56.6
+- from: 柵欄（最後防線）
+  to: Sunlight Scripture Mages ×3
+  distance_ft: 118.6
+- from: 柵欄（最後防線）
+  to: Commander
+  distance_ft: 91.0
+- from: 柵欄（最後防線）
+  to: Villager Houses
+  distance_ft: 51.5
+- from: 陽光聖典法師×3
+  to: Commander
+  distance_ft: 55.0
+- from: 陽光聖典法師×3
+  to: Villager Houses
+  distance_ft: 68.0
+- from: 指揮官
+  to: Villager Houses
+  distance_ft: 57.0

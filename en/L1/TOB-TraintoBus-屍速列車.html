@@ -1,0 +1,1311 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Train to Busan / 屍速列車 | TOB-TraintoBus-屍速列車 | Infinite Terror TRPG Scripts</title>
+<link rel="stylesheet" href="../../assets/style.css"></head>
+<body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../../index.html">中文</a></header>
+<div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
+<main class="container"><h1>Train to Busan / 屍速列車</h1>
+    <p class="meta">Code: TOB-TraintoBus-屍速列車 ｜ Source: Train to Busan (2016) ｜ Difficulty: ★ ｜ Players: 3–6 ｜ Duration: 3–4 hours / 1–2 sessions ｜ Type: Survival / Escape</p>
+    <p class="nav"><a href="../../index.html">← 劇本總覽</a> ｜ <a href="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/en/TOB-TraintoBus-屍速列車_劇本.md" download>劇本 MD</a> ｜ <a href="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/en/TOB-TraintoBus-屍速列車_NPC名冊.xlsx" download>NPC 名冊</a> ｜ <a href="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/en/TOB-TraintoBus-屍速列車_敵方單位名冊.xlsx" download>敵方名冊</a> ｜ <a href="../../assets/L1_TOB-TraintoBus-屍速列車_all_en.zip">下載全部（zip）</a></p>
+    <section class="block content"><section class="chap"><h2>一、基本資訊</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Script Title</td>
+<td>Train to Busan / 屍速列車</td>
+</tr>
+<tr>
+<td>Source Film</td>
+<td><em>Train to Busan</em> (2016)</td>
+</tr>
+<tr>
+<td>Difficulty Rating</td>
+<td>★</td>
+</tr>
+<tr>
+<td>Suggested Players</td>
+<td>3–6</td>
+</tr>
+<tr>
+<td>Estimated Duration</td>
+<td>3–4 hours / 1–2 sessions</td>
+</tr>
+<tr>
+<td>Prerequisite</td>
+<td>None (suitable for newly-risen Reincarnators)</td>
+</tr>
+<tr>
+<td>Script Type</td>
+<td>Survival / Escape</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<details class="gm"><summary>🎭 GM 限定：II. Plot Summary (GM Only)</summary><h2>II. Plot Summary (GM Only)</h2>
+<h3>One-Line Summary</h3>
+<blockquote>
+<p>An unknown virus breaks out aboard the KTX high-speed train from Seoul to Busan; the infected frenziedly chase and bite the living. The Reincarnator must organize survivors in the sealed cars, break through the infected, and survive until the train reaches Busan.</p>
+</blockquote>
+<h3>Full Plot Background</h3>
+<p>The world is modern Korea, 2016. An unknown virus leaks from a Seoul bio-lab; the infected convert within seconds into frenzied, sprinting "Infected". The Infected are extremely sensitive to sound and light, act violently without reason, and cannot open doors. A bitten person inevitably converts within ~30 seconds, with no known immunity.</p>
+<p>The Reincarnator enters <strong>30 minutes</strong> after the train departs Seoul Station. The outbreak has not yet happened in the cars, but a passenger in Car 10 is about to turn — the Reincarnator is in Car 11. The train travels south at 300km/h; next station Daejeon is ~40 minutes away.</p>
+<p>GM Note: The core pressure of this script comes from <strong>spatial confinement</strong> (a high-speed train you cannot flee), <strong>infection spread speed</strong> (convert 30s after bite), and <strong>resource scarcity</strong> (only passengers' personal items in cars). Combat is not the only way out — effectively organizing passengers, controlling car doors, and using the broadcast system to lure the Infected are key.</p>
+<h3>Plot Structure Type</h3>
+<p><strong>Hybrid</strong>: The train interior is linear progression (car to car), but each car scene offers multiple passage methods (combat breakthrough / stealth bypass / sound-light lure).</p>
+<hr /></details>
+<section class="chap"><h2>III. Main God's Quest</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest Description</td>
+<td>"Survive until the train reaches Busan Station. At least 1 Reincarnator must survive."</td>
+</tr>
+<tr>
+<td>Main Quest</td>
+<td>Survive ~4 hours (game time) aboard the KTX, with at least 1 Reincarnator surviving to Busan Station</td>
+</tr>
+<tr>
+<td>Quest Reward</td>
+<td>D+1200</td>
+</tr>
+<tr>
+<td>Failure Condition</td>
+<td>Total wipeout / no Reincarnator survives when train reaches Busan Station</td>
+</tr>
+<tr>
+<td>Failure Penalty</td>
+<td>Erasure</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>① Rescue 5+ passengers (each beyond 5 gives +100, 10 gives extra +D1): max +500+D1 <br>② Clear all Infected in the cars (all 15 cars): +300</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>IV. Side Quests</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-01</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Daejeon Station Resupply</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Choose to disembark and explore the platform when the train stops at Daejeon</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Break through the infected platform, reach the station convenience store for supplies (drinking water ×10, First Aid Kit ×5, baseball bat ×2, megaphone ×1)</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Train auto-departs 10 minutes after stopping; missing it equals a first-tier failure (Erasure)</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>D+400</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Supportive — gain key supplies and broadcast-lure tools, greatly improving later car-breakthrough success</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>If choosing not to disembark, supply scarcity shows in later scenes (S04: −1 DP per car when crossing)</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-02</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Cross Infected Cars to Rescue Survivors</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Receive a phone distress signal from Car 6 passengers (20 min before Daejeon)</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Break backward from Car 11 through 5 infected cars to rescue 3 passengers trapped in the Car 6 restroom (including a pregnant woman — related character Seong-kyeong)</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Must complete before reaching Daejeon (~20 min), else Infected flood the restroom area from parking vibration</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>D+600</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Supportive — rescue adds to Optional Obj ① count (+3 passengers), gains interior intel (front car layout)</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Can be bypassed (skipped), but loses important intel and morale bonus</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-03</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Assist the Conductor to Restart the Train</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>After Daejeon, the train emergency-brakes and faults, needing system restart</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Escort the conductor from Car 3 to the front cab (ahead of Car 1), cross 2 infected cars, perform INT+Computer Check (Difficulty (DC) 3) to restart the system in the cab. Must defend the cab door for 5 rounds</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>During restart, 1d4 Infected pour in from behind the cab each round (cumulative)</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>D+800</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Core — if not completed the train cannot continue, main quest fails directly</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>The conductor is a non-combat NPC (HP 10, Base Defense (DEF) 2); if the conductor dies, a Reincarnator must perform the restart Check (DC 5) personally</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>V. World Setting</h2>
+<h3>Timeline</h3>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T+0 min</td>
+<td>Reincarnators awaken in Car 11. All passengers normal.</td>
+</tr>
+<tr>
+<td>T+10 min</td>
+<td>First infected outbreak in Car 10 (a woman convulses then turns). Infection breaks out in car.</td>
+</tr>
+<tr>
+<td>T+15 min</td>
+<td>Train broadcast still works; crew tries to calm passengers ("Please stay in place, do not move").</td>
+</tr>
+<tr>
+<td>T+30 min</td>
+<td>Phone signal cuts. Infected spread to Cars 8–12 (over half the train).</td>
+</tr>
+<tr>
+<td>T+40 min</td>
+<td>Train arrives at Daejeon Station. Platform overrun (15+ Infected). Train stops 10 min.</td>
+</tr>
+<tr>
+<td>T+50 min</td>
+<td>Train leaves Daejeon. Obstacle on track ahead, emergency brake.</td>
+</tr>
+<tr>
+<td>T+55 min</td>
+<td>Emergency brake. Restart plot triggers (S-03). If not restarted, Infected fully occupy all cars in ~1 hour.</td>
+</tr>
+<tr>
+<td>T+120 min</td>
+<td>Train arrives at Busan Station. If a Reincarnator survives in Cars 1–3, safe disembark and clear.</td>
+</tr>
+</tbody>
+</table>
+<h3>Key Locations</h3>
+<h4>Location A: Car 11 (Starting Point)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Car 11 — Standard Seating Car</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>KTX standard car: rows of velvet seats, overhead luggage racks, rural scenery flying past the windows. ~20 passengers, some dozing, some on phones. Faint coffee scent in the air. Display above the door: "Next: Daejeon 40km".</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Luggage rack (random travel bags ×3: mineral water ×2, magazine ×1, baseball cap ×1, tissues ×2), crew cart (canned coffee ×3, snacks ×2), passenger personal items (theft requires DEX+Sleight of Hand Check DC 2)</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>No immediate threat (Car 10 outbreak at T+10 min)</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>Front (toward locomotive) → Car 10, rear (toward tail) → Car 12</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>EM-01 (train overview)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location B: Car 10 — First Outbreak</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Car 10 — Infection Outbreak Point</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Chaos in the car: seats knocked askew, dragged blood on the floor, luggage scattered. In the center, a woman mid-conversion — body convulsing violently, eyes rolled back, fingers bent at unnatural angles.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Dropped items (businessman's briefcase: phone ×1 no signal, business card, pen), student backpack (textbook, triangle ruler as临时 weapon 1d3 piercing)</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>T+10 min first outbreak: 1 converting Infected (Round 1 only convulses no action, after Round 2 conversion attacks nearest target). After T+15 min, 1d6+2 Infected in car</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>Front → Car 9, rear → Car 11</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>EM-01 (Car 10 marked)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location C: Car 6 — Distress Signal</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Car 6 — Survivors Trapped</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Front half of car occupied by Infected (~4), rear half relatively safe. Near the restroom, faint knocking — three passengers locked themselves in, sending a distress signal by phone.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>3 survivors in restroom, First Aid Kit ×1 under business-class seat (restores 1d8 HP)</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>4 Infected in front half; approaching the restroom may draw more from sound (extra 1d3)</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>Front → Car 5 (business class), rear → Car 7</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>EM-01 (mid-train car marked)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location D: Daejeon Station Platform</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Daejeon Station Platform — Resupply Point</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>The train slowly stops. No normal travelers on the platform — only overturned luggage, toppled convenience-store shelves, and infection-crowds running at unnatural postures. The vending machine behind glass still hums rhythmically.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Convenience store (S-01 trigger): drinking water ×10, First Aid Kit ×5, baseball bat ×2 (1d6 bludgeoning), megaphone ×1 (lure Infected remotely, radius 30m), batteries ×6. Vending machine (smash requires STR Check DC 2, gain 3 drinks)</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>8–12 Infected wander the platform. Loud noise (breaking glass or gunfire) draws extra 1d8 (2 pour in from outside per round)</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>After disembarking only platform area explorable (gates locked). Train auto-departs after 10 min</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>BM-01 (Daejeon platform 12×8 grid battlefield)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location E: Car 1 — Train Cab</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Train Cab — Final Stronghold</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Narrow cab, dashboard indicator lights flicker in the dim. Through the front windshield, rails flee backward at 300km/h. The conductor's comm manual lies on the copilot seat.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Drive console (S-03 restart point), conductor's comm manual (records all car statuses and broadcast operation), First Aid box ×1</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>After S-03 triggers, restart needs INT+Computer Check DC 3, during which 1d4 Infected pour in from the rear corridor each round</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>Rear → Car 2. Cab has only one door (single defense point)</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>BM-02 (car interior 10×6 grid battlefield)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location F: Busan Station — Clear &amp; Extract</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Busan Station — Final Extraction Point</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>The train slowly pulls into Busan Station. No Infected on the platform — the military has set a defense line here, soldiers with guns at the ready. Through the window you see the Main God's white light flickering at the platform's end.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>None (clearing location, no exploration needed)</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>If Infected remain after Car 4, a final surge hits in the last 5 minutes before Busan (Car 4 → Car 1 direction, 1d8 Infected break through)</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>Terminal station</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>WM-01 (route endpoint marked)</td>
+</tr>
+</tbody>
+</table>
+<h3>World Special Rules</h3>
+<ul>
+<li><strong>Infection Mechanism</strong>: No immunity after being bitten by an Infected — inevitably converts to a normal Infected after 30 seconds (1 round). The converted Reincarnator character immediately falls under GM control as an enemy unit.</li>
+<li><strong>Sound-Light Sensitivity</strong>: Infected have an abnormal sensitivity radius of <strong>9m</strong> (about one and a half standard cars). Gunshot / explosion (attract radius 30m), shout (15m), normal conversation (5m, doubled to 10m in sealed car). Throwables (water bottle, backpack) or the broadcast system can create remote noise to lure Infected (DEX+Athletics Check DC 1–3 by distance).</li>
+<li><strong>Car Door Mechanism</strong>: Electric sliding doors between KTX cars normally work (button switch). Forced manual opening needs DEX+Athletics Check DC 1. While a door is open, Infected pour from that door into the current car. A car is considered "fully occupied" after ~20 Infected.</li>
+<li><strong>Train Broadcast System</strong>: Operable from the cab or crew control panel. Plays a high-frequency alarm in a designated car, attracting Infected from that car and adjacent cars (max 2 uses, 3 rounds each).</li>
+<li><strong>Fatigue System</strong>: Every 5 consecutive combat rounds in an infected car requires an Endurance (CON) Check DC 2; failure gives all action Checks DP−1 (cumulative, max −3). Resting 15 min in a safe car clears 1 fatigue layer.</li>
+</ul>
+<h3>Main God Restrictions</h3>
+<ul>
+<li>"Prohibited from revealing the existence of Main God Space to plot characters"</li>
+<li>"Supernatural abilities (magic, psionics, etc.) banned in this world"</li>
+<li>"Do not open exterior car doors when train speed exceeds 80km/h" (jumping equals suicide)</li>
+</ul>
+<h3>Visual Map System</h3>
+<table>
+<thead>
+<tr>
+<th>Layer</th>
+<th>Code</th>
+<th>Content</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>World Map</td>
+<td>WM-01</td>
+<td>Seoul → Busan KTX route map, with Daejeon marked and infection-spread interval</td>
+<td><code>maps/TOB_WM-01.svg</code></td>
+</tr>
+<tr>
+<td>Exploration Map</td>
+<td>EM-01</td>
+<td>Train 15-car floor plan, with each car's status, restrooms, cab marked</td>
+<td><code>maps/TOB_EM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-01</td>
+<td>Daejeon platform (12×8 grid, with convenience store, vending machine, rails, stair entrance)</td>
+<td><code>maps/TOB_BM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-02</td>
+<td>Standard car interior battle map (10×6 grid, with seat arrangement, luggage-rack cover, door positions)</td>
+<td><code>maps/TOB_BM-02.svg</code></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VI. Characters &amp; Enemy Units (Managed in Separate Excel)</h2>
+<blockquote>
+<p>⚠ NPC and enemy unit data, see the following separate Excel files:
+- <strong>NPC Roster</strong>: <code>TOB-TraintoBus-屍速列車_NPC名冊.xlsx</code>
+- <strong>Enemy Unit Roster</strong>: <code>TOB-TraintoBus-屍速列車_敵方單位名冊.xlsx</code></p>
+<p>Both Excel files contain two sheets, "Roster" and "Blank Template", with the first column reserved for character art.</p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>VII. Key Scenes</h2>
+<h3>Scene Structure Notes</h3>
+<p>This script is <strong>hybrid</strong>: Phase One (train normal → before Daejeon) is free car exploration; Phase Two (after Daejeon → Busan) shifts to scene-by-scene progression.</p>
+<hr />
+<h3>Phase One: Train Interior (T+0–T+40 min)</h3>
+<h4>Scene S01: Awakening — A Peaceful Journey</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S01</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>A Peaceful Journey</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Script start</td>
+</tr>
+<tr>
+<td>GM Read-Aloud</td>
+<td>"You open your eyes in the comfortable seat of a high-speed train. Outside, Korean suburb scenery retreats fast under the afternoon sun. The car's AC hums; occasional low passenger chatter. It looks like an ordinary journey — until you notice the black watch on your wrist, displaying cold glowing text: 'Survive until the train reaches Busan Station. At least 1 must live.'"</td>
+</tr>
+<tr>
+<td>Interactive</td>
+<td>Observe car (Perception (WIS)+Investigation Check DC 1: notice a woman in Car 10 with abnormally pale face), talk to NPC (Seok-woo in Car 9, Sang-hwa and Seong-kyeong in Car 12), check watch (countdown ~4 hours)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>No immediate threat</td>
+</tr>
+<tr>
+<td>Gene Lock Note</td>
+<td>None — intro phase</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Stay in Car 11 to observe → T+10 min Car 10 auto-outbreak; explore other cars → contact NPCs and gain intel earlier, but may be in a more dangerous zone at T+10 min</td>
+</tr>
+<tr>
+<td>Transition</td>
+<td>T+10 min, first Infected appears in Car 10</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S02: Outbreak — The First Wave</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S02</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>The First Wave — Panic Spreads</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>T+10 min, Car 10 auto-triggers</td>
+</tr>
+<tr>
+<td>GM Read-Aloud</td>
+<td>"A shrill scream tears the car's calm. Car 10's door bursts open — a woman in a suit stumbles into the connector, neck bent at impossible angle, a tearing roar from her mouth. Behind her, Car 10 passengers flee in panic. Someone screams, someone pounds the door — then a bitten passenger convulses violently. 30 seconds later, he too chases others."</td>
+</tr>
+<tr>
+<td>Interactive</td>
+<td>Close car door (DEX+Athletics Check DC 1, can isolate Car 10 direction), assist passengers (each passenger needs Grace (CHA)+Social Check DC 1–2, calm and guide to safe car), broadcast for help (INT+Computer Check DC 2, try contacting cab)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Car 10 has 1d8+4 converting or converted Infected. Reach the connector (front of Car 11) within 1 round. Each bitten passenger +1 infection count</td>
+</tr>
+<tr>
+<td>Gene Lock Note</td>
+<td>If choosing frontal defense to stop spread: suggested Gene Lock stage — Stage 1 (optional). Open Gene Lock Stage 1 (Resolve Check DC 2), gain Initiative +3, attack DP+2, enough to lock the door before spread. Side effect: 1d4 Mental</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Lock door and retreat → back to Car 11 or further rear (safer but lose front supplies); organize defense and confront → hold connector (extra combat reward, stop northward spread); rush toward locomotive regardless → must cross Car 10 (high-risk fast breakthrough)</td>
+</tr>
+<tr>
+<td>Transition</td>
+<td>Combat ends or successfully retreat to safe car</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S03: Distress — Survivors in Car 6</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S03</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>A Call for Help From Ahead</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>T+20 min, auto-receive phone text (if Reincarnator holds a phone)</td>
+</tr>
+<tr>
+<td>GM Read-Aloud</td>
+<td>"The phone screen suddenly lights — a text from an unknown number: 'We're trapped in the Car 6 restroom, those things are outside. Please, help. There's a pregnant woman.' Signal is one bar, but you clearly see the last line: 'The train is shaking, the door won't hold.'"</td>
+</tr>
+<tr>
+<td>Interactive</td>
+<td>Decide whether to rescue (trigger S-02), probe front-car intel (map EM-01 shows Car 7–10 infection distribution)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>After S-02 triggers, must cross 5 cars (10→9→8→7→6), each with 1d6+1 Infected. May meet Runner Infected (★★) en route</td>
+</tr>
+<tr>
+<td>Gene Lock Note</td>
+<td>If executing S-02: suggested Gene Lock stage — Stage 1 (strongly advised, DP penalty per car offset by Gene Lock). Open Stage 1 at the 3rd car for combat endurance</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Execute rescue → S-02 begins; abandon rescue → lose intel and potential manpower, continue other plot</td>
+</tr>
+<tr>
+<td>Transition</td>
+<td>Rescue complete / abandonment decided</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S04: Stop — The Daejeon Choice</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S04</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Daejeon Station — Brief Respite or Deadly Trap</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>T+40 min, train stops at Daejeon</td>
+</tr>
+<tr>
+<td>GM Read-Aloud</td>
+<td>"The train screeches, speed slowly dropping. Through the window, Daejeon platform — a modern glass-curtain station hall, dead silent. A few skewed figures run at unnatural postures on the platform. The convenience-store neon still flickers, but inside is a mess. The broadcast intones mechanically: 'Train stopping, dwell time 10 minutes —'. Ten minutes. Disembark to scavenge, or stay in the car?"</td>
+</tr>
+<tr>
+<td>Interactive</td>
+<td>Choose to disembark → trigger S-01 "Daejeon Resupply"; stay aboard → defend car entrances/exits from platform Infected</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Platform has 8–12 Infected. ~1d6+2 around the convenience store. Loud noise (break glass, gunfire) draws extra 1d8 (2 per round)</td>
+</tr>
+<tr>
+<td>Gene Lock Note</td>
+<td>If executing S-01: suggested Gene Lock stage — Stage 1 (optional). Platform is relatively open; choose stealth route (DEX+Stealth Check DC 2, success get supplies without combat). If combat necessary, Stage 1 gives enough mobility</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Disembark to explore → S-01, strict return time limit (10 min = 10 rounds, ~2 grid moves per round); stay aboard → save time but lose key supplies (megaphone unobtainable)</td>
+</tr>
+<tr>
+<td>Transition</td>
+<td>Train departs Daejeon (T+50 min)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>Phase Two: The Desperate Sprint (T+50–T+120 min)</h3>
+<h4>Scene S05: Emergency Brake — Train Fault</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S05</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Emergency Brake — Obstacle Ahead</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>T+50 min, ~10 min after leaving Daejeon</td>
+</tr>
+<tr>
+<td>GM Read-Aloud</td>
+<td>"The train lurches — emergency braking throws everyone forward. Outside, overturned freight cars and abandoned car wrecks straddle the rails. The dashboard erupts in piercing alarms, then — the engine dies. In the silence, neighboring cars carry the Infected's ominous snarl. The conductor's voice comes over the broadcast, trembling: 'Train fault... need to restart the system, I'm in Car 3. Someone help me...'"</td>
+</tr>
+<tr>
+<td>Interactive</td>
+<td>Probe Car 3 status (Listen Check judges infection spread), assess restart time (INT+Science Check DC 2, success learns ~10 rounds needed), decide hold position</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>After stop, all Infected in cars slowly move toward noisy cars (1 car per 5 rounds). Brake may shake open some unlatched doors (GM rolls 1d6, 1-3 a loosened door opens)</td>
+</tr>
+<tr>
+<td>Gene Lock Note</td>
+<td>Refer to when S-03 executes</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Execute S-03 → escort conductor to cab; abandon conductor → must restart personally (DC 5), and cannot use train broadcast</td>
+</tr>
+<tr>
+<td>Transition</td>
+<td>Decide whether to execute S-03</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S06: Cross Infected Cars — The Desperate Road to the Cab</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S06</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Cross Infected Cars</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Begin executing S-03, move from current position toward locomotive</td>
+</tr>
+<tr>
+<td>GM Read-Aloud</td>
+<td>"The moment the car door opens, a hot wave of blood and sweat hits. The car interior — no longer a space for human passengers, but an Infected nest. They cling to seats, ceiling, luggage racks at unpredictable postures. Hearing the door slide, all heads turn to you at the same instant."</td>
+</tr>
+<tr>
+<td>Interactive</td>
+<td>Choose breakthrough method: combat breakthrough (frontal clash, 1d6+1 Infected per car + possible Runner ★★), stealth breakthrough (DEX+Stealth Check DC 2–3, success cross a car without combat), lure breakthrough (use broadcast / throwable to draw Infected to one end then bypass from other, DEX+Athletics Check DC 2)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Cross 3 cars to cab. Each config: normal Infected (★) 2–7, Runner (★★) 1 (30% per car), Swarm (★★) 1 group (1 car chance). Cab door defense 5 rounds, 1d4 Infected cumulative per round</td>
+</tr>
+<tr>
+<td>Gene Lock Note</td>
+<td><strong>Gene Lock Hint</strong>: The last car (to cab) strongly advises Stage 1. 5 rounds defense without Gene Lock support drains team resources hugely. Open Stage 1 (Resolve Check DC 3) for attack DP+2, Initiative +3, move +1 grid/round, lasting 5 rounds, exactly matching defense duration. Side effect: 1d6 Mental after 2 rounds</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Usually no choice — must push to cab. Can choose which cars use which method</td>
+</tr>
+<tr>
+<td>Transition</td>
+<td>Arrive at cab and successfully restart train system</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S07: Final Defense — Dawn at Busan Station</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S07</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>The Last Kilometer</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>After restart, approaching Busan Station (T+120 min)</td>
+</tr>
+<tr>
+<td>GM Read-Aloud</td>
+<td>"The train restarts, engine roar loud in the silent cars. Ahead — through the cab windshield — Busan Station platform approaches. On it, camo-clad soldiers set a defense line. An officer raises a megaphone: 'All arriving passengers disembark immediately! This is a safe zone!' But on your watch, the quest is not done — the last wave of Infected crosses the cars, charging the cab. Just hold a little longer..."</td>
+</tr>
+<tr>
+<td>Interactive</td>
+<td>Defend cab last 5 rounds (1d8 Infected pour from rear cars each round), protect key NPC (if conductor alive, prioritize his survival)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Last 5-round surge: Round 1 1d8, Round 2 1d8, Round 3 2d6 (cumulative no retreat), Round 4 1d8+2 mixed with 1 Runner (★★), Round 5 1d8. Total ~25–50 Infected</td>
+</tr>
+<tr>
+<td>Gene Lock Note</td>
+<td><strong>Gene Lock Hint</strong>: Last 5-round surge. Suggested Gene Lock stage — Stage 1 (strongly advised, especially Round 3 cumulative wave). Cumulative count can peak 15+ simultaneously present. If a team member is Gene Lock Stage 2 (not generally expected here), can open it this scene for full-field suppression. Stage 1 side effect: 1d6 Mental after combat, and check fatigue from consecutive fights</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Frontal defense (all confront) → huge cost but rich reward (kill all incoming); contract defense (abandon some space but still hold cab) → cheaper but more Infected remain; if conductor learned to drive → open broadcast early to lure Infected toward tail (INT+Computer Check DC 3)</td>
+</tr>
+<tr>
+<td>Transition</td>
+<td>Train fully stopped, platform military controls scene, Reincarnator alive and in front section → clear</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VIII. Multi-Team Competition Rules</h2>
+<blockquote>
+<p>This script does not involve multi-team competition. This section is left blank.</p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>IX. Reward Settlement</h2>
+<table>
+<thead>
+<tr>
+<th>Reward Type</th>
+<th>Content</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main Quest</td>
+<td>Survive until train reaches Busan, at least 1 alive</td>
+<td>D+1200</td>
+</tr>
+<tr>
+<td>Optional Obj ①</td>
+<td>Rescue 5+ passengers (5 +100/each, 10 extra +D1)</td>
+<td>max +500+D1</td>
+</tr>
+<tr>
+<td>Optional Obj ②</td>
+<td>Clear all Infected in cars (all 15 cars)</td>
+<td>+300</td>
+</tr>
+<tr>
+<td>Side Quest S-01</td>
+<td>Daejeon Resupply</td>
+<td>D+400</td>
+</tr>
+<tr>
+<td>Side Quest S-02</td>
+<td>Cross infected cars to rescue (Car 6 survivors)</td>
+<td>D+600</td>
+</tr>
+<tr>
+<td>Side Quest S-03</td>
+<td>Assist conductor to restart train</td>
+<td>D+800</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Normal Infected (each)</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Runner (each)</td>
+<td>25</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Swarm (each group)</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Exploration Reward</td>
+<td>Successfully lure and avoid 3+ cars via broadcast</td>
+<td>200</td>
+</tr>
+<tr>
+<td>Special Achievement</td>
+<td>No one bitten (zero-infection clear)</td>
+<td>500</td>
+</tr>
+<tr>
+<td>Special Achievement</td>
+<td>Successfully protect Seok-woo and Sang-hwa alive to endpoint</td>
+<td>200</td>
+</tr>
+<tr>
+<td>Roleplay</td>
+<td>At GM discretion (fear, sacrifice, unity, etc.)</td>
+<td>0–300</td>
+</tr>
+</tbody>
+</table>
+<h3>Theoretical Maximum Reward</h3>
+<blockquote>
+<p>Main: D×1+1200 points
+Optional ① (10 passengers): D×1+500 points
+Optional ② (full clear): 300 points
+S-01: D×1+400 / S-02: D×1+600 / S-03: D×1+800
+Kills (~60 normal, 5 runner, 3 swarm): 600+125+180 = 905
+Exploration (broadcast lure): 200 / Zero infection: 500 / NPC survival: 200 / Roleplay: 300</p>
+<p>= <strong>D5+5605</strong></p>
+</blockquote>
+<h3>Return Exchange (Script-Specific)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Item</th>
+<th>Cost (side + reward points)</th>
+<th>Effect</th>
+<th>Growth Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>Emergency Medicine</td>
+<td>D+500</td>
+<td>Skill: Medicine (First Aid) Check +2, instant bleed-stop (negate 1 infection)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Train Combat Arts</td>
+<td>D+500</td>
+<td>Skill: narrow-space (car / corridor) attack +1, damage +1</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Infected Virus Antibody</td>
+<td>D+500</td>
+<td>Augment (passive): permanent immunity to this world's viral infection, not limited to this script</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Horde Breakthrough Art</td>
+<td>C+1000</td>
+<td>Skill: +1 move through running horde, shove enemies ignoring opportunity attacks</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Train Dispatch Knowledge</td>
+<td>C+1000</td>
+<td>Skill: operate KTX onboard systems, plan stops and decoupling (Engineering Check +1)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Baseball Power Strike</td>
+<td>C+1000</td>
+<td>Skill: bat-class blunt weapon attack +1, damage +1</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Terminal Immune Bloodline</td>
+<td>C+2000</td>
+<td>Bloodline: stacks with antibody, blood can make temporary vaccine, protect one ally from infection (once per battle)</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>X. Appendix</h2>
+<ul>
+<li><strong>Maps</strong>: See <code>maps/</code> directory: <code>TOB_WM-01.svg</code>, <code>TOB_EM-01.svg</code>, <code>TOB_BM-01.svg</code>, <code>TOB_BM-02.svg</code></li>
+<li><strong>Special Rules Addendum</strong>: Infection Mechanism, Sound-Light Sensitivity, Car Door Mechanism, Train Broadcast System (see "V. World Setting → World Special Rules")</li>
+<li><strong>GM Memo</strong>:</li>
+<li><strong>Common Stuck Points</strong>: Players may fear disembarking at Daejeon, causing extreme supply shortage. Solution — provide enough temporary weapons (fire extinguisher, safety hammer) during car exploration.</li>
+<li><strong>Difficulty Up</strong>: Increase Runner (★★) count (1–2 per car), double Daejeon platform Infected, add 1 Runner per round in final surge.</li>
+<li><strong>Difficulty Down</strong>: Infection conversion time extended from 30s to 1 min (2 rounds), add emergency lever inside car doors to lock directly (no Check), halve Daejeon platform Infected.</li>
+<li><strong>Player Unconventional Actions</strong>: If players try "all hide in restroom and wait", remind the Main God watch has a movement-range limit — must be near the front cab to be judged "arrived at Busan".</li>
+<li><strong>Pacing Control</strong>: This script is very fast-paced; GM should strictly control each car's combat time (suggest 2–3 quick rounds per car) to maintain panic pressure.</li>
+<li><strong>Reference Materials</strong>: <em>Train to Busan</em> (2016) full film, KTX interior structure diagram.</li>
+</ul>
+<hr />
+<blockquote>
+<p><strong>Script Code</strong>: TOB
+<strong>Version</strong>: v1.0
+<strong>Format Spec</strong>: v0.4</p>
+</blockquote></section></section>
+    <section class="block"><h2>地圖（YAML＋SVG）</h2><div class="map">
+              <div class="maptitle">TOB_BM-01 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="680" height="480" fill="#1a1a2e"/>
+<rect x="20" y="20" width="640" height="440" fill="url(#grid)"/>
+<rect x="20" y="20" width="640" height="440" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="340.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Daejeon Station Platform — Battle Map</text>
+<text x="25" y="472" fill="#666" font-size="9">TOB_BM-01 | 12x8 grid(concept) | 1 grid = 5ft | total 60×40ft</text>
+<text x="40.0" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="80.0" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="120.0" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="160.0" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="200.0" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="240.0" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="280.0" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="320.0" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="360.0" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="400.0" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="440.0" y="15" text-anchor="middle" fill="#555" font-size="7">11</text>
+<text x="480.0" y="15" text-anchor="middle" fill="#555" font-size="7">12</text>
+<text x="8" y="43.0" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="83.0" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="123.0" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="163.0" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="203.0" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="243.0" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="283.0" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="323.0" text-anchor="middle" fill="#555" font-size="7">H</text>
+<rect x="40.0" y="360.0" width="480.0" height="20.0" rx="5" fill="#2a2a2a" stroke="" stroke-width=""/>
+<text x="280.0" y="366.0" text-anchor="middle" fill="#aaa" font-size="8">Rail Tracks (Track Area)</text>
+<text x="280.0" y="380.0" text-anchor="middle" fill="#666" font-size="6">(30.0, 42.5)ft</text>
+<rect x="40.0" y="340.0" width="480.0" height="20.0" rx="5" fill="#F59E0B" stroke="" stroke-width=""/>
+<text x="280.0" y="346.0" text-anchor="middle" fill="#aaa" font-size="8">Train Stop Position</text>
+<text x="280.0" y="360.0" text-anchor="middle" fill="#666" font-size="6">(30.0, 42.5)ft</text>
+<rect x="360.0" y="60.0" width="100.0" height="80.0" rx="3" fill="#162040" stroke="#3B82F6" stroke-width="2"/>
+<text x="410.0" y="96.0" text-anchor="middle" fill="#aaa" font-size="8">Convenience Store</text>
+<text x="410.0" y="110.0" text-anchor="middle" fill="#666" font-size="6">(45.0, 5.0)ft</text>
+<rect x="370.0" y="65.0" width="30.0" height="5.0" rx="5" fill="#555" stroke="" stroke-width=""/>
+<text x="385.0" y="63.5" text-anchor="middle" fill="#aaa" font-size="8">9</text>
+<text x="385.0" y="77.5" text-anchor="middle" fill="#666" font-size="6">(42.5, 7.5)ft</text>
+<rect x="370.0" y="85.0" width="30.0" height="5.0" rx="5" fill="#555" stroke="" stroke-width=""/>
+<text x="385.0" y="83.5" text-anchor="middle" fill="#aaa" font-size="8">Convenience Store</text>
+<text x="385.0" y="97.5" text-anchor="middle" fill="#666" font-size="6">(42.5, 7.5)ft</text>
+<rect x="420.0" y="65.0" width="30.0" height="5.0" rx="5" fill="#555" stroke="" stroke-width=""/>
+<text x="435.0" y="63.5" text-anchor="middle" fill="#aaa" font-size="8">10</text>
+<text x="435.0" y="77.5" text-anchor="middle" fill="#666" font-size="6">(52.5, 7.5)ft</text>
+<rect x="420.0" y="85.0" width="30.0" height="5.0" rx="5" fill="#555" stroke="" stroke-width=""/>
+<text x="435.0" y="83.5" text-anchor="middle" fill="#aaa" font-size="8">Convenience Store</text>
+<text x="435.0" y="97.5" text-anchor="middle" fill="#666" font-size="6">(52.5, 7.5)ft</text>
+<rect x="60.0" y="80.0" width="15.0" height="25.0" rx="3" fill="#334" stroke="#666" stroke-width=""/>
+<text x="67.5" y="88.5" text-anchor="middle" fill="#aaa" font-size="8">Vendor</text>
+<text x="67.5" y="102.5" text-anchor="middle" fill="#666" font-size="6">(2.5, 7.5)ft</text>
+<rect x="80.0" y="80.0" width="15.0" height="25.0" rx="3" fill="#334" stroke="#666" stroke-width=""/>
+<text x="87.5" y="88.5" text-anchor="middle" fill="#aaa" font-size="8">Vendor</text>
+<text x="87.5" y="102.5" text-anchor="middle" fill="#666" font-size="6">(7.5, 7.5)ft</text>
+<rect x="60.0" y="120.0" width="60.0" height="10.0" rx="5" fill="#444" stroke="" stroke-width=""/>
+<text x="90.0" y="121.0" text-anchor="middle" fill="#aaa" font-size="8">Waiting Bench</text>
+<text x="90.0" y="135.0" text-anchor="middle" fill="#666" font-size="6">(5.0, 12.5)ft</text>
+<rect x="180.0" y="120.0" width="60.0" height="10.0" rx="5" fill="#444" stroke="" stroke-width=""/>
+<text x="210.0" y="121.0" text-anchor="middle" fill="#aaa" font-size="8">Waiting Bench</text>
+<text x="210.0" y="135.0" text-anchor="middle" fill="#666" font-size="6">(25.0, 12.5)ft</text>
+<rect x="200.0" y="160.0" width="80.0" height="15.0" rx="5" fill="#301520" stroke="#EF4444" stroke-width="1.5"/>
+<text x="240.0" y="163.5" text-anchor="middle" fill="#aaa" font-size="8">Ticket Gate (Blocked)</text>
+<text x="240.0" y="177.5" text-anchor="middle" fill="#666" font-size="6">(25.0, 17.5)ft</text>
+<rect x="400.0" y="280.0" width="50.0" height="25.0" rx="3" fill="#162040" stroke="#F59E0B" stroke-width=""/>
+<text x="425.0" y="288.5" text-anchor="middle" fill="#aaa" font-size="8">Stairs ↑</text>
+<text x="425.0" y="302.5" text-anchor="middle" fill="#666" font-size="6">(47.5, 32.5)ft</text>
+<rect x="540.0" y="210.0" width="120.0" height="50.0" rx="3" fill="#301510" stroke="#EF4444" stroke-width="1"/>
+<text x="600.0" y="231.0" text-anchor="middle" fill="#aaa" font-size="8">⚠ Caution</text>
+<text x="600.0" y="245.0" text-anchor="middle" fill="#666" font-size="6">(67.5, 22.5)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/en/maps/TOB_BM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/en/maps/TOB_BM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">TOB_BM-02 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse">
+    <path d="M 25 0 L 0 0 0 25" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<rect x="20" y="20" width="760" height="560" fill="url(#grid)"/>
+<rect x="20" y="20" width="760" height="560" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="400.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Car Interior — Standard Battle Map</text>
+<text x="25" y="592" fill="#666" font-size="9">TOB_BM-02 | 10x6 grid(concept) | 1 grid = 5ft | total 50×30ft</text>
+<text x="32.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="82.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="107.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="157.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="182.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="207.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="232.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="257.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="35.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="85.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="110.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="160.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<rect x="40.0" y="60.0" width="720.0" height="350.0" rx="3" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="3"/>
+<rect x="60.0" y="75.0" width="680.0" height="5.0" rx="5" fill="#334" stroke="#444" stroke-width="0.5"/>
+<text x="400.0" y="73.5" text-anchor="middle" fill="#aaa" font-size="8">Car Interior — Standard Battle Map</text>
+<text x="400.0" y="87.5" text-anchor="middle" fill="#666" font-size="6">(77.5, 12.5)ft</text>
+<rect x="55.0" y="340.0" width="60.0" height="50.0" rx="3" fill="#162040" stroke="#F59E0B" stroke-width="2"/>
+<text x="85.0" y="361.0" text-anchor="middle" fill="#aaa" font-size="8">Front Door</text>
+<text x="85.0" y="375.0" text-anchor="middle" fill="#666" font-size="6">(10.0, 70.0)ft</text>
+<rect x="685.0" y="340.0" width="60.0" height="50.0" rx="3" fill="#162040" stroke="#F59E0B" stroke-width="2"/>
+<text x="715.0" y="361.0" text-anchor="middle" fill="#aaa" font-size="8">Rear Door</text>
+<text x="715.0" y="375.0" text-anchor="middle" fill="#666" font-size="6">(140.0, 70.0)ft</text>
+<rect x="55.0" y="435.0" width="20.0" height="15.0" rx="3" fill="#2a2a3e" stroke="#555" stroke-width=""/>
+<text x="65.0" y="438.5" text-anchor="middle" fill="#aaa" font-size="8">Passenger Seats (Half Cover)</text>
+<text x="65.0" y="452.5" text-anchor="middle" fill="#666" font-size="6">(7.5, 87.5)ft</text>
+<rect x="55.0" y="458.0" width="20.0" height="5.0" rx="5" fill="#334" stroke="#444" stroke-width=""/>
+<text x="65.0" y="456.5" text-anchor="middle" fill="#aaa" font-size="8">Luggage Rack (Climbable or grab makeshift weapon)</text>
+<text x="65.0" y="470.5" text-anchor="middle" fill="#666" font-size="6">(7.5, 92.5)ft</text>
+<rect x="55.0" y="475.0" width="20.0" height="15.0" rx="3" fill="#162040" stroke="#F59E0B" stroke-width=""/>
+<text x="65.0" y="478.5" text-anchor="middle" fill="#aaa" font-size="8">Car Coupling (Openable)</text>
+<text x="65.0" y="492.5" text-anchor="middle" fill="#666" font-size="6">(7.5, 92.5)ft</text>
+<rect x="55.0" y="495.0" width="90.0" height="1.0" rx="5" fill="#3B82F6" stroke="" stroke-width=""/>
+<text x="100.0" y="491.5" text-anchor="middle" fill="#aaa" font-size="8">Car Coupling (Openable)</text>
+<text x="100.0" y="505.5" text-anchor="middle" fill="#666" font-size="6">(15.0, 97.5)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/en/maps/TOB_BM-02.yaml" download>yaml</a> <a href="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/en/maps/TOB_BM-02.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">TOB_EM-01 <span class="maptype">探索地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" font-family="Microsoft JhengHei, sans-serif">
+<rect width="1000" height="640" fill="#1a1a2e"/>
+<text x="500.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">KTX Train 15-Car Floor Plan — Exploration Map</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 1</text>
+<rect x="20" y="0.0" width="960" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="1000.0" height="640.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<text x="500.0" y="320.0" text-anchor="middle" fill="#aaa" font-size="9">TOB_EM-01 | Exploration Map | Train 15 Cars | Front→Rear</text>
+<rect x="20.0" y="40.0" width="960.0" height="80.0" rx="8.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="2"/>
+<text x="500.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">Car 9</text>
+<rect x="22.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#162040" stroke="#3B82F6" stroke-width="1.5"/>
+<text x="50.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">Car 1</text>
+<rect x="82.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="110.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">Normal</text>
+<rect x="142.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="170.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">Normal</text>
+<rect x="202.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="230.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">Car 4</text>
+<rect x="262.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="290.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">Car 5</text>
+<rect x="322.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#301520" stroke="#EF4444" stroke-width="2"/>
+<text x="350.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">Car 6</text>
+<rect x="382.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#301520" stroke="#EF4444" stroke-width="1"/>
+<text x="410.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">No. 7</text>
+<rect x="442.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#301520" stroke="#EF4444" stroke-width="1"/>
+<text x="470.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">No. 8</text>
+<rect x="502.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#1a1030" stroke="#F59E0B" stroke-width="1.5"/>
+<text x="530.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">Car 9</text>
+<rect x="562.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#301520" stroke="#EF4444" stroke-width="2"/>
+<text x="590.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">Car 10</text>
+<rect x="622.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#1a3020" stroke="#10B981" stroke-width="2"/>
+<text x="650.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">No. 11</text>
+<rect x="682.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#1a1030" stroke="#F59E0B" stroke-width="1.5"/>
+<text x="710.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">Car 12</text>
+<rect x="742.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="770.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">Car 13</text>
+<rect x="802.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="830.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">Car 14</text>
+<rect x="862.0" y="42.0" width="56.0" height="76.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="890.0" y="80.0" text-anchor="middle" fill="#aaa" font-size="9">Car 15</text>
+<text x="20" y="155.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 2</text>
+<rect x="20" y="160.0" width="960" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="160.0" width="320.0" height="170.0" rx="4.0" fill="#0d0d1a" stroke="#333" stroke-width=""/>
+<text x="180.0" y="245.0" text-anchor="middle" fill="#aaa" font-size="9">Front Section (Cars 1–5)</text>
+<rect x="355.0" y="160.0" width="290.0" height="170.0" rx="4.0" fill="#0d0d1a" stroke="#333" stroke-width=""/>
+<text x="500.0" y="245.0" text-anchor="middle" fill="#aaa" font-size="9">Mid-section Infection Zone (Cars 6–10)</text>
+<rect x="660.0" y="160.0" width="320.0" height="170.0" rx="4.0" fill="#0d0d1a" stroke="#333" stroke-width=""/>
+<text x="820.0" y="245.0" text-anchor="middle" fill="#aaa" font-size="9">Rear Section (Cars 11–15)</text>
+<text x="20" y="285.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 3</text>
+<rect x="20" y="290.0" width="960" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="35.0" y="290.0" width="60.0" height="12.0" rx="2.0" fill="#10B981" stroke="" stroke-width=""/>
+<text x="65.0" y="296.0" text-anchor="middle" fill="#aaa" font-size="9">Relatively Safe</text>
+<rect x="370.0" y="290.0" width="60.0" height="12.0" rx="2.0" fill="#EF4444" stroke="" stroke-width=""/>
+<text x="400.0" y="296.0" text-anchor="middle" fill="#aaa" font-size="9">High Danger</text>
+<rect x="675.0" y="290.0" width="60.0" height="12.0" rx="2.0" fill="#F59E0B" stroke="" stroke-width=""/>
+<text x="705.0" y="296.0" text-anchor="middle" fill="#aaa" font-size="9">Temporarily Safe</text>
+<rect x="20.0" y="345.0" width="960.0" height="65.0" rx="4.0" fill="#111" stroke="#333" stroke-width=""/>
+<text x="500.0" y="377.5" text-anchor="middle" fill="#aaa" font-size="9">TOB_EM-01 | Exploration Map | Train 15 Cars | Front→Rear</text>
+<rect x="130.0" y="363.0" width="14.0" height="12.0" rx="0.0" fill="#EF4444" stroke="#EF4444" stroke-width=""/>
+<text x="137.0" y="369.0" text-anchor="middle" fill="#aaa" font-size="9">Infection Zone</text>
+<rect x="220.0" y="363.0" width="14.0" height="12.0" rx="0.0" fill="#F59E0B" stroke="#F59E0B" stroke-width=""/>
+<text x="227.0" y="369.0" text-anchor="middle" fill="#aaa" font-size="9">NPC Location</text>
+<rect x="310.0" y="363.0" width="14.0" height="12.0" rx="0.0" fill="#162040" stroke="#3B82F6" stroke-width=""/>
+<text x="317.0" y="369.0" text-anchor="middle" fill="#aaa" font-size="9">Key Location</text>
+<rect x="20" y="585" width="960" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="610" fill="#aaa" font-size="9">High Danger</text>
+<text x="205" y="610" fill="#aaa" font-size="9">• Car 11: Starting Car — Reincarnator Awakening Point (S01)</text>
+<text x="375" y="610" fill="#aaa" font-size="9">Start / Safe Zone</text>
+<text x="545" y="610" fill="#aaa" font-size="9">TOB_EM-01 | Exploration Map | Train 15 Cars | Front→Rear</text>
+<text x="20" y="630" fill="#666" font-size="9">TOB_EM-01 | Exploration Map </text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/en/maps/TOB_EM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/en/maps/TOB_EM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">TOB_WM-01 <span class="maptype">世界地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="900" height="600" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="900" height="600" fill="url(#wmgrid)"/>
+<rect x="65.0" y="355.0" width="110.0" height="16.0" rx="5" fill="#00FF88" stroke="#00FF88" stroke-width="2"/>
+<text x="120.0" y="363.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">★ Start Point</text>
+<rect x="345.0" y="268.0" width="110.0" height="16.0" rx="5" fill="#FF0000" stroke="#EF4444" stroke-width="2"/>
+<text x="400.0" y="276.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">⚠ Platform Overrun</text>
+<line x1="170.0" y1="305.0" x2="350.0" y2="250.0" stroke="#FF4444" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="450.0" y1="235.0" x2="720.0" y2="240.0" stroke="#00FF88" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="715.0" y1="458.0" x2="745.0" y2="458.0" stroke="#FF4444" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="715.0" y1="475.0" x2="745.0" y2="475.0" stroke="#00FF88" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<ellipse cx="260.0" cy="300.0" rx="130.0" ry="60.0" fill="#FF0000" opacity="0.1" stroke="#FF4444" stroke-width="1"/>
+<text x="325.0" y="300.0" fill="#FF4444" font-size="9">(Cars 8-12)</text>
+<ellipse cx="550.0" cy="250.0" rx="100.0" ry="50.0" fill="#FF8800" opacity="0.1" stroke="#FF8800" stroke-width="1"/>
+<text x="600.0" y="250.0" fill="#FF4444" font-size="9">Post-Daejeon Infection Zone</text>
+<ellipse cx="730.0" cy="498.0" rx="15.0" ry="8.0" fill="#FF0000" opacity="0.1" stroke="#FF4444" stroke-width="1"/>
+<text x="737.5" y="498.0" fill="#FF4444" font-size="9">Infection Zone</text>
+<circle cx="120.0" cy="320.0" r="18.0" fill="#2e1a3e" opacity="0.6"/>
+<circle cx="120.0" cy="320.0" r="18.0" fill="none" stroke="#8B5CF6" stroke-width="2"/>
+<text x="120.0" y="297.0" text-anchor="middle" fill="#8B5CF6" font-size="10" font-weight="bold">★ Seoul</text>
+<circle cx="400.0" cy="238.0" r="16.0" fill="#2e1a2e" opacity="0.6"/>
+<circle cx="400.0" cy="238.0" r="16.0" fill="none" stroke="#EF4444" stroke-width="2"/>
+<text x="400.0" y="217.0" text-anchor="middle" fill="#EF4444" font-size="10" font-weight="bold">★ Daejeon</text>
+<circle cx="780.0" cy="240.0" r="18.0" fill="#1a2e1a" opacity="0.6"/>
+<circle cx="780.0" cy="240.0" r="18.0" fill="none" stroke="#10B981" stroke-width="2"/>
+<text x="780.0" y="217.0" text-anchor="middle" fill="#10B981" font-size="10" font-weight="bold">★ Busan</text>
+<circle cx="780.0" cy="278.0" r="6.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="780.0" cy="278.0" r="6.0" fill="none" stroke="" stroke-width="2"/>
+<text x="780.0" y="267.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Extraction Point</text>
+<circle cx="580.0" cy="248.0" r="8.0" fill="#FFAA00" opacity="0.6"/>
+<circle cx="580.0" cy="248.0" r="8.0" fill="none" stroke="#FFAA00" stroke-width="2"/>
+<text x="580.0" y="235.0" text-anchor="middle" fill="#FFAA00" font-size="10" font-weight="bold">★ Emergency Brake Failure Point (T+50)</text>
+<circle cx="730.0" cy="520.0" r="5.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="730.0" cy="520.0" r="5.0" fill="none" stroke="" stroke-width="2"/>
+<text x="730.0" y="510.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Safe Extraction Point</text>
+<rect x="730" y="20" width="150" height="146" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="805" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Legend</text>
+<text x="740" y="60" fill="#aaa" font-size="9">Terminal Station T+120</text>
+<text x="740" y="76" fill="#aaa" font-size="9">Extraction Point</text>
+<text x="740" y="92" fill="#aaa" font-size="9">Gyeongsang Hills</text>
+<text x="740" y="108" fill="#aaa" font-size="9">Infection Spread Direction</text>
+<text x="740" y="124" fill="#aaa" font-size="9">Extraction Route</text>
+<text x="740" y="140" fill="#aaa" font-size="9">Infection Zone</text>
+<text x="740" y="156" fill="#aaa" font-size="9">Safe Extraction Point</text>
+<text x="20" y="585" fill="#666" font-size="9">TOB_WM-01 | Wide-area Map | Schematic</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/en/maps/TOB_WM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/en/maps/TOB_WM-01.svg" download>svg</a></p>
+            </div></section>
+    <section class="block"><h2>概念圖</h2><div class="gallery"><a href="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/images/enemy_01_infected.png" target="_blank"><img src="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/images/enemy_01_infected.png" alt="enemy_01_infected.png"></a><a href="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/images/npc_01_seokwoo.png" target="_blank"><img src="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/images/npc_01_seokwoo.png" alt="npc_01_seokwoo.png"></a><a href="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/images/scene_01_train_car.png" target="_blank"><img src="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/images/scene_01_train_car.png" alt="scene_01_train_car.png"></a><a href="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/images/scene_S02_爆發_第一波感染者.png" target="_blank"><img src="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/images/scene_S02_爆發_第一波感染者.png" alt="scene_S02_爆發_第一波感染者.png"></a><a href="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/images/scene_S03_求救_第6號車廂的倖存者.png" target="_blank"><img src="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/images/scene_S03_求救_第6號車廂的倖存者.png" alt="scene_S03_求救_第6號車廂的倖存者.png"></a><a href="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/images/scene_S04_停靠_大田站的選擇.png" target="_blank"><img src="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/images/scene_S04_停靠_大田站的選擇.png" alt="scene_S04_停靠_大田站的選擇.png"></a><a href="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/images/scene_S05_急煞_列車故障.png" target="_blank"><img src="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/images/scene_S05_急煞_列車故障.png" alt="scene_S05_急煞_列車故障.png"></a><a href="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/images/scene_S06_穿越感染車廂_通往駕駛室的決死之路.png" target="_blank"><img src="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/images/scene_S06_穿越感染車廂_通往駕駛室的決死之路.png" alt="scene_S06_穿越感染車廂_通往駕駛室的決死之路.png"></a><a href="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/images/scene_S07_最終防線_釜山站的曙光.png" target="_blank"><img src="../../assets/scripts/L1/TOB-TraintoBus-屍速列車/images/scene_S07_最終防線_釜山站的曙光.png" alt="scene_S07_最終防線_釜山站的曙光.png"></a></div></section>
+    </main>
+<footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

@@ -1,0 +1,640 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Seraph of the End: Battle of Shibuya | SERAPH-Seraphofth-澀谷防衛戰 | Infinite Terror TRPG Scripts</title>
+<link rel="stylesheet" href="../../assets/style.css"></head>
+<body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../../index.html">中文</a></header>
+<div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
+<main class="container"><h1>Seraph of the End: Battle of Shibuya</h1>
+    <p class="meta">Code: SERAPH-Seraphofth-澀谷防衛戰 ｜ Source: Seraph of the End (終わりのセラフ) ｜ Difficulty: ★★ ｜ Players: 3–5 ｜ Duration: 4–6 hrs ｜ Type: Survival / Defense / Combat</p>
+    <p class="nav"><a href="../../index.html">← 劇本總覽</a> ｜ <a href="../../assets/scripts/L2/SERAPH-Seraphofth-澀谷防衛戰/en/SERAPH_澀谷防衛戰_劇本.md" download>劇本 MD</a> ｜ <a href="../../assets/scripts/L2/SERAPH-Seraphofth-澀谷防衛戰/en/SERAPH_NPC名冊.xlsx" download>NPC 名冊</a> ｜ <a href="../../assets/scripts/L2/SERAPH-Seraphofth-澀谷防衛戰/en/SERAPH_敵方單位名冊.xlsx" download>敵方名冊</a> ｜ <a href="../../assets/L2_SERAPH-Seraphofth-澀谷防衛戰_all_en.zip">下載全部（zip）</a></p>
+    <section class="block content"><section class="chap"><h2>一、基本資訊</h2>
+<p>Script Title: Seraph of the End: Battle of Shibuya
+Source Film: Seraph of the End (終わりのセラフ)
+Difficulty Rating: ★★
+Suggested Players: 3–5
+Estimated Duration: 4–6 hrs
+Prerequisites: Recommended 1–2 prior scripts
+Script Type: Survival / Defense / Combat</p>
+<hr /></section>
+<details class="gm"><summary>🎭 GM 限定：II. Plot Summary (GM Only)</summary><h2>II. Plot Summary (GM Only)</h2>
+<h3>One-Line Summary</h3>
+<blockquote>
+<p>The Reincarnators (輪迴者), as Imperial Demon Army soldiers, protect the Shibuya human stronghold in the vampire apocalypse.</p>
+</blockquote>
+<h3>Full Plot Background</h3>
+<p>The year 2020, vampires rule the world. The Reincarnators are dropped into the Imperial Demon Army's Shibuya stronghold to protect 500 human survivors from attacks by the vampire noble Ferid.</p>
+<h3>Plot Structure Type</h3>
+<p><strong>Hybrid: stronghold briefing → ruins exploration → defense battle</strong></p>
+<hr /></details>
+<section class="chap"><h2>III. Main God's Quest</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest Description</td>
+<td>Protect the Shibuya human stronghold. Repel the vampire attack.</td>
+</tr>
+<tr>
+<td>Main Quest</td>
+<td>Ensure stronghold survivors ≥300. Repel Ferid.</td>
+</tr>
+<tr>
+<td>Quest Reward</td>
+<td>D+1800</td>
+</tr>
+<tr>
+<td>Failure Condition</td>
+<td>Stronghold falls / commander dies</td>
+</tr>
+<tr>
+<td>Failure Penalty</td>
+<td>Erased</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>Kill Ferid: +800.</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>IV. Side Quests</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-01</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Vampire Patrol</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Ruins recon</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Vampires (★★, 1d2+1 individuals). High-speed movement + blood drain + superhuman physique. Weakness: sunlight / demon curse / silver. Gather intel for tactical advantage.</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>T+2</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>D+500 (complete intel +300)</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Intelligence gathering</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Bite requires Stamina DC3 against toxin.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-02</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Noble Ferid</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Main vampire offensive</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Ferid (★★★). Teleport + noble blood-sword DP8 + area blood drain + pressure. Weakness: arrogance, sunlight, demon-curse binding.</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>T+5</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>C+1200 (kill + extra C+500)</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Core threat</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Retreats below 30% HP.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-03</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Progenitor Descends (Hidden)</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>After killing Ferid</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Third Progenitor Krul (★★★★) plot encounter. Progenitor pressure: Will save DC4, failure 2d8 mental + stun 1 round. Survive to succeed.</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Plot</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>C+800 + curse mark</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>The price of the kill</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Cannot be fought — pure survival ordeal.</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>V. World Setting</h2>
+<h3>Timeline</h3>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T+0</td>
+<td>Awaken at stronghold. Guren's briefing.</td>
+</tr>
+<tr>
+<td>T+1</td>
+<td>Ruins recon.</td>
+</tr>
+<tr>
+<td>T+2</td>
+<td>Advance party S-01.</td>
+</tr>
+<tr>
+<td>T+3</td>
+<td>Defense battle wave one.</td>
+</tr>
+<tr>
+<td>T+4</td>
+<td>Ferid personally engages S-02.</td>
+</tr>
+<tr>
+<td>T+6</td>
+<td>Safety confirmed, return.</td>
+</tr>
+</tbody>
+</table>
+<h3>Key Locations</h3>
+<h4>Location A: Shibuya Underground Stronghold</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Shibuya Underground Stronghold</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>An abandoned subway station converted into a fortress.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Command room, equipment depot, medical room</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>Elevator → surface</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>WM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location B: Shibuya Ruins</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Shibuya Ruins</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A shattered intersection with cracked screens.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Recon, scavenge supplies, find high ground</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>Vampire patrols</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>Stronghold → station</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>EM-01, BM-01</td>
+</tr>
+</tbody>
+</table>
+<h3>World Special Rules</h3>
+<ul>
+<li><strong>Demon Curse Equipment</strong>: Initiative +2, ×2 vs vampires. 5 charges.</li>
+<li><strong>Vampire Sunlight</strong>: 2d6 per round. Regeneration: 3 HP/round (nobles 5).</li>
+<li><strong>Bite Transformation</strong>: Stamina DC3.</li>
+</ul>
+<h3>Main God Restrictions</h3>
+<ul>
+<li>"Do not reveal the Main God"</li>
+<li>"No supernatural use inside the stronghold"</li>
+<li>"Do not harm survivors"</li>
+</ul>
+<h3>Visual Map System</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>ID</th>
+<th>Content</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>World Map</td>
+<td>WM-01</td>
+<td>Shibuya panorama</td>
+<td><code>maps/SERAPH_WM-01.svg</code></td>
+</tr>
+<tr>
+<td>Exploration Map</td>
+<td>EM-01</td>
+<td>Ruins</td>
+<td><code>maps/SERAPH_EM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-01</td>
+<td>Intersection</td>
+<td><code>maps/SERAPH_BM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-02</td>
+<td>Stronghold defense line</td>
+<td><code>maps/SERAPH_BM-02.svg</code></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VI. Characters &amp; Enemy Units (Managed in Separate Excel)</h2>
+<blockquote>
+<p>NPC and enemy unit data are in the following separate Excel files:
+- <strong>NPC Roster</strong>: <code>SERAPH_NPC名冊.xlsx</code>
+- <strong>Enemy Unit Roster</strong>: <code>SERAPH_敵方單位名冊.xlsx</code></p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>VII. NPC Design Depth Guide</h2>
+<h4>Guren Ichinose</h4>
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>Design Guide</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Core Trait</td>
+<td>A calm commander, hiding a fanaticism against vampires.</td>
+</tr>
+<tr>
+<td>Combat Role</td>
+<td>DP7 demon-curse blade.</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VIII. Key Scenes</h2>
+<h3>S01: The Underground Fortress</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Environment</td>
+<td>"Fluorescent lights hum. Concrete walls and iron doors. Guren stands at the doorway — 'Without me, you wouldn't survive an hour.'"</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>IX. Multi-Team Competition Rules</h2>
+<blockquote>
+<p>This script does not involve multi-team competition. This section is left blank.</p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>X. Reward Settlement</h2>
+<table>
+<thead>
+<tr>
+<th>Reward Type</th>
+<th>Content</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main Quest Complete</td>
+<td>Stronghold survival rate ≥60%</td>
+<td>D+1800</td>
+</tr>
+<tr>
+<td>S-01</td>
+<td>Recon + intel</td>
+<td>D×1 + up to 800</td>
+</tr>
+<tr>
+<td>S-02</td>
+<td>Repel Ferid</td>
+<td>C+1200</td>
+</tr>
+<tr>
+<td>S-03</td>
+<td>Krul encounter</td>
+<td>C+800</td>
+</tr>
+</tbody>
+</table>
+<h3>Theoretical Maximum Yield</h3>
+<blockquote>
+<p>D×2 + C×3 + up to 4600</p>
+</blockquote>
+<h3>Return Exchange (Script-Limited)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Item</th>
+<th>Cost (Side + Reward pts)</th>
+<th>Effect</th>
+<th>Growth Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>Demon Curse Weapon (Weapon)</td>
+<td>D+500</td>
+<td>Implant a demon into the weapon (demon curse): ×2 damage vs vampires, weapon gains 1d6 demon bite.</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Vampire Antibody (Passive)</td>
+<td>D+500</td>
+<td>Gain vampire-serum antibody: toxin resist +3, −2 to blood-drain and charm.</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Vampire Biology Knowledge (Knowledge)</td>
+<td>D+500</td>
+<td>Learn vampire weaknesses (sunlight / holy implements / heart): +2 DP identifying vampires, +3 DP hitting weaknesses.</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Demon Curse Weapon · Complete (Ability)</td>
+<td>B+2000</td>
+<td>Implant the demon into yourself (demon-curse soldier): arm weaponized (2d8 slashing, ×3 vs vampires), can devour demons to enhance, regenerate 2 HP/round.</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Vampire Bloodline · Quarter (Bloodline)</td>
+<td>B+3600</td>
+<td>Awaken quarter-vampire: Agility (DEX) +2, regenerate 1 HP/round, night vision, still keeps weakness to holy and sunlight.</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Moon of the Imperial Demon (Ability / Bloodline)</td>
+<td>B+3600</td>
+<td>Inherit "Moon of the Imperial Demon": become a higher vampire (HP 100), all attributes +2, deploy blood wings to fly, control blood as weapon (2d6).</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Blade of the End (Holy Implement / Weapon)</td>
+<td>B+2000</td>
+<td>Gain a vampire-slaying holy sword: 3d8 holy damage vs vampires, pierces regeneration, instant death on heart hit.</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>XI. Appendix</h2>
+<ul>
+<li><strong>Maps</strong>: See <code>maps/</code> for <code>SERAPH_WM-01.svg</code>, <code>SERAPH_EM-01.svg</code>, <code>SERAPH_BM-01.svg</code>, <code>SERAPH_BM-02.svg</code></li>
+<li><strong>GM Memo</strong>:
+  Fear of vampires → Guren applies pressure. Equipment depleted → resupply at stronghold. Difficulty → adjust vampire count.</li>
+</ul>
+<hr />
+<blockquote>
+<p><strong>Script Code</strong>: SERAPH
+<strong>Version</strong>: v1.0
+<strong>Format Spec</strong>: v0.4</p>
+</blockquote></section></section>
+    <section class="block"><h2>地圖（YAML＋SVG）</h2><div class="map">
+              <div class="maptitle">SERAPH_BM-01 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 520" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="600" height="520" fill="#1a1a2e"/>
+<rect x="20" y="20" width="560" height="480" fill="url(#grid)"/>
+<rect x="20" y="20" width="560" height="480" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="300.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Apocalypse Shibuya — Battle Map (BM-01)</text>
+<text x="25" y="512" fill="#666" font-size="9">SERAPH_BM-01 | 10×8Cell (concept) | 1Cell = 5ft | Total 50×40ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<rect x="40.0" y="60.0" width="500.0" height="400.0" rx="3" fill="#2a3020" stroke="#e74c3c" stroke-width="2"/>
+<rect x="80.0" y="100.0" width="200.0" height="150.0" rx="3" fill="#5a3a3a" stroke="#555" stroke-width="1"/>
+<text x="180.0" y="171.0" text-anchor="middle" fill="#aaa" font-size="8">Building / Cover</text>
+<text x="180.0" y="185.0" text-anchor="middle" fill="#666" font-size="6">(52.5, 50.0)ft</text>
+<rect x="340.0" y="250.0" width="150.0" height="120.0" rx="3" fill="#5a3a3a" stroke="#555" stroke-width="1"/>
+<text x="415.0" y="306.0" text-anchor="middle" fill="#aaa" font-size="8">Building</text>
+<text x="415.0" y="320.0" text-anchor="middle" fill="#666" font-size="6">(130.0, 95.0)ft</text>
+<rect x="100.0" y="420.0" width="60.0" height="30.0" rx="3" fill="none" stroke="#2ecc71" stroke-width="2"/>
+<text x="130.0" y="431.0" text-anchor="middle" fill="#aaa" font-size="8">Start</text>
+<text x="130.0" y="445.0" text-anchor="middle" fill="#666" font-size="6">(35.0, 140.0)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L2/SERAPH-Seraphofth-澀谷防衛戰/en/maps/SERAPH_BM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L2/SERAPH-Seraphofth-澀谷防衛戰/en/maps/SERAPH_BM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">SERAPH_BM-02 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 420" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="500" height="420" fill="#1a1a2e"/>
+<rect x="20" y="20" width="460" height="380" fill="url(#grid)"/>
+<rect x="20" y="20" width="460" height="380" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="250.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Apocalypse Shibuya — Battle Map (BM-02)</text>
+<text x="25" y="412" fill="#666" font-size="9">SERAPH_BM-02 | 8×6Cell (concept) | 1Cell = 5ft | Total 40×30ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<rect x="40.0" y="60.0" width="400.0" height="300.0" rx="3" fill="#2a3020" stroke="#e74c3c" stroke-width="2"/>
+<text x="240.0" y="206.0" text-anchor="middle" fill="#aaa" font-size="8">BOSS</text>
+<text x="240.0" y="220.0" text-anchor="middle" fill="#666" font-size="6">(72.5, 65.0)ft</text>
+<rect x="200.0" y="100.0" width="150.0" height="150.0" rx="3" fill="#5a3a3a" stroke="#555" stroke-width="1"/>
+<text x="275.0" y="171.0" text-anchor="middle" fill="#aaa" font-size="8">Core Area</text>
+<text x="275.0" y="185.0" text-anchor="middle" fill="#666" font-size="6">(85.0, 50.0)ft</text>
+<rect x="80.0" y="300.0" width="50.0" height="30.0" rx="3" fill="none" stroke="#2ecc71" stroke-width="2"/>
+<text x="105.0" y="311.0" text-anchor="middle" fill="#aaa" font-size="8">Start</text>
+<text x="105.0" y="325.0" text-anchor="middle" fill="#666" font-size="6">(27.5, 100.0)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L2/SERAPH-Seraphofth-澀谷防衛戰/en/maps/SERAPH_BM-02.yaml" download>yaml</a> <a href="../../assets/scripts/L2/SERAPH-Seraphofth-澀谷防衛戰/en/maps/SERAPH_BM-02.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">SERAPH_EM-01 <span class="maptype">探索地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500" font-family="Microsoft JhengHei, sans-serif">
+<rect width="700" height="500" fill="#1a1a2e"/>
+<text x="350.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">Apocalypse Shibuya — Exploration Map (EM-01)</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 1</text>
+<rect x="20" y="0.0" width="660" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="700.0" height="500.0" rx="0.0" fill="#1e1a1a" stroke="" stroke-width=""/>
+<rect x="30.0" y="55.0" width="640.0" height="420.0" rx="3.0" fill="#1e1a1a" stroke="#e74c3c" stroke-width="1.5"/>
+<rect x="80.0" y="100.0" width="250.0" height="80.0" rx="3.0" fill="#3a3a4a" stroke="#e74c3c" stroke-width="1.5"/>
+<text x="205.0" y="140.0" text-anchor="middle" fill="#aaa" font-size="9">A Underground Outpost</text>
+<text x="20" y="205.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 2</text>
+<rect x="20" y="210.0" width="660" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="80.0" y="210.0" width="250.0" height="80.0" rx="3.0" fill="#3a2a2a" stroke="#e74c3c" stroke-width="1.5"/>
+<text x="205.0" y="250.0" text-anchor="middle" fill="#aaa" font-size="9">B Shibuya Ruins</text>
+<text x="20" y="315.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 3</text>
+<rect x="20" y="320.0" width="660" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="80.0" y="320.0" width="250.0" height="80.0" rx="3.0" fill="#4a3a2a" stroke="#e74c3c" stroke-width="1.5"/>
+<text x="205.0" y="360.0" text-anchor="middle" fill="#aaa" font-size="9">C Shibuya Station</text>
+<text x="20" y="490" fill="#666" font-size="9">SERAPH_EM-01 | Exploration Map </text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L2/SERAPH-Seraphofth-澀谷防衛戰/en/maps/SERAPH_EM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L2/SERAPH-Seraphofth-澀谷防衛戰/en/maps/SERAPH_EM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">SERAPH_WM-01 <span class="maptype">世界地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="900" height="620" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="900" height="620" fill="url(#wmgrid)"/>
+<rect x="250.0" y="370.0" width="100.0" height="60.0" rx="5" fill="#3a3a4a" stroke="#e74c3c" stroke-width="2"/>
+<text x="300.0" y="400.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">A Underground Outpost</text>
+<rect x="500.0" y="220.0" width="100.0" height="60.0" rx="5" fill="#3a2a2a" stroke="#e74c3c" stroke-width="2"/>
+<text x="550.0" y="250.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">B Shibuya Ruins</text>
+<rect x="750.0" y="320.0" width="100.0" height="60.0" rx="5" fill="#4a3a2a" stroke="#e74c3c" stroke-width="2"/>
+<text x="800.0" y="350.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">C Shibuya Station</text>
+<rect x="20.0" y="540.0" width="860.0" height="60.0" rx="5" fill="#1e1a1a" stroke="#333" stroke-width="2"/>
+<rect x="730" y="20" width="150" height="38" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="805" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Legend</text>
+<text x="740" y="60" fill="#aaa" font-size="9">C Shibuya Station</text>
+<text x="20" y="605" fill="#666" font-size="9">SERAPH_WM-01 | Large-Scale Map | Schematic</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L2/SERAPH-Seraphofth-澀谷防衛戰/en/maps/SERAPH_WM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L2/SERAPH-Seraphofth-澀谷防衛戰/en/maps/SERAPH_WM-01.svg" download>svg</a></p>
+            </div></section>
+    <section class="block"><h2>概念圖</h2><div class="gallery"><a href="../../assets/scripts/L2/SERAPH-Seraphofth-澀谷防衛戰/images/enemy_01_ferid_bathory.png" target="_blank"><img src="../../assets/scripts/L2/SERAPH-Seraphofth-澀谷防衛戰/images/enemy_01_ferid_bathory.png" alt="enemy_01_ferid_bathory.png"></a><a href="../../assets/scripts/L2/SERAPH-Seraphofth-澀谷防衛戰/images/enemy_02_ferid.png" target="_blank"><img src="../../assets/scripts/L2/SERAPH-Seraphofth-澀谷防衛戰/images/enemy_02_ferid.png" alt="enemy_02_ferid.png"></a><a href="../../assets/scripts/L2/SERAPH-Seraphofth-澀谷防衛戰/images/enemy_03_krul.png" target="_blank"><img src="../../assets/scripts/L2/SERAPH-Seraphofth-澀谷防衛戰/images/enemy_03_krul.png" alt="enemy_03_krul.png"></a><a href="../../assets/scripts/L2/SERAPH-Seraphofth-澀谷防衛戰/images/npc_01_guren_ichinose.png" target="_blank"><img src="../../assets/scripts/L2/SERAPH-Seraphofth-澀谷防衛戰/images/npc_01_guren_ichinose.png" alt="npc_01_guren_ichinose.png"></a><a href="../../assets/scripts/L2/SERAPH-Seraphofth-澀谷防衛戰/images/scene_01_shibuya_ruins.png" target="_blank"><img src="../../assets/scripts/L2/SERAPH-Seraphofth-澀谷防衛戰/images/scene_01_shibuya_ruins.png" alt="scene_01_shibuya_ruins.png"></a></div></section>
+    </main>
+<footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

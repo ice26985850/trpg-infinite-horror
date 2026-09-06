@@ -1,0 +1,320 @@
+map_id: OPM_EM-01
+map_type: exploration
+scenario: 'One Punch Man: Monster Association Extermination War'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 900
+- 640
+title: Monster Association Underground Base — Exploration Map
+description: ''
+floors:
+- name: 樓層 1
+  y: 0.0
+  rooms:
+  - bounds:
+    - 0.0
+    - 0.0
+    - 900.0
+    - 640.0
+    name: A-Class Hero Protection Point
+    fill: '#1a1a2e'
+    stroke: ''
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 20.0
+    - 0.0
+    - 860.0
+    - 140.0
+    name: Monster Association Underground Base — Exploration Map
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 0.0
+    - 0.0
+    - 900.0
+    - 640.0
+    name: A-Class Hero Protection Point
+    fill: '#1a1a2e'
+    stroke: ''
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 20.0
+    - 60.0
+    - 860.0
+    - 140.0
+    name: (Search Point)
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 35.0
+    - 72.0
+    - 140.0
+    - 50.0
+    name: Entrance Hall
+    fill: '#1a2a2a'
+    stroke: '#10B981'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 200.0
+    - 72.0
+    - 120.0
+    - 50.0
+    name: Tiger-class Guards ×5
+    fill: '#301520'
+    stroke: '#EF4444'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 350.0
+    - 72.0
+    - 100.0
+    - 50.0
+    name: Supply Storage Room
+    fill: '#1a1030'
+    stroke: '#6D28D9'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 480.0
+    - 72.0
+    - 80.0
+    - 50.0
+    name: Elevator
+    fill: '#162040'
+    stroke: '#F59E0B'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 590.0
+    - 72.0
+    - 140.0
+    - 50.0
+    name: Monitoring Room
+    fill: '#301520'
+    stroke: '#EF4444'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 760.0
+    - 72.0
+    - 100.0
+    - 50.0
+    name: Ventilation Duct
+    fill: '#1a1030'
+    stroke: '#6D28D9'
+    stroke_width: ''
+    rx: 3.0
+- name: 樓層 2
+  y: 230.0
+  rooms:
+  - bounds:
+    - 20.0
+    - 230.0
+    - 860.0
+    - 140.0
+    name: A-Class Hero Protection Point
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 20.0
+    - 230.0
+    - 860.0
+    - 170.0
+    name: A-Class Hero Protection Point
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 35.0
+    - 244.0
+    - 130.0
+    - 50.0
+    name: Executive Conference Room
+    fill: '#1a1030'
+    stroke: '#6D28D9'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 190.0
+    - 244.0
+    - 130.0
+    - 50.0
+    name: Black SpermZone
+    fill: '#301520'
+    stroke: '#FD0304'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 345.0
+    - 244.0
+    - 130.0
+    - 50.0
+    name: Wandering EmperorZone
+    fill: '#301520'
+    stroke: '#FD0304'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 500.0
+    - 244.0
+    - 80.0
+    - 50.0
+    name: Elevator
+    fill: '#162040'
+    stroke: '#F59E0B'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 610.0
+    - 244.0
+    - 130.0
+    - 50.0
+    name: Elder CentipedeZone
+    fill: '#301520'
+    stroke: '#FD0304'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 768.0
+    - 244.0
+    - 95.0
+    - 50.0
+    name: Safe Room
+    fill: '#1a3020'
+    stroke: '#00FF88'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 35.0
+    - 310.0
+    - 130.0
+    - 40.0
+    name: Bang / Genos Position
+    fill: '#1a3020'
+    stroke: '#10B981'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 190.0
+    - 310.0
+    - 130.0
+    - 40.0
+    name: KINGPosition
+    fill: '#1a3020'
+    stroke: '#10B981'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 345.0
+    - 310.0
+    - 130.0
+    - 40.0
+    name: A-Class Hero Protection Point
+    fill: '#1a2020'
+    stroke: '#888'
+    stroke_width: ''
+    rx: 3.0
+- name: 樓層 3
+  y: 430.0
+  rooms:
+  - bounds:
+    - 20.0
+    - 430.0
+    - 860.0
+    - 140.0
+    name: ''
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 20.0
+    - 430.0
+    - 860.0
+    - 110.0
+    name: ''
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 35.0
+    - 442.0
+    - 200.0
+    - 50.0
+    name: Monster King Orochi's Throne
+    fill: '#2E1A3E'
+    stroke: '#FD0304'
+    stroke_width: '2'
+    rx: 3.0
+  - bounds:
+    - 280.0
+    - 442.0
+    - 150.0
+    - 50.0
+    name: SykesObservation Room
+    fill: '#301520'
+    stroke: '#EF4444'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 470.0
+    - 442.0
+    - 120.0
+    - 50.0
+    name: Hero Breakthrough Point
+    fill: '#1a3020'
+    stroke: '#10B981'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 630.0
+    - 442.0
+    - 120.0
+    - 50.0
+    name: Saitama Arrival Point
+    fill: '#1a2020'
+    stroke: '#FFAA00'
+    stroke_width: ''
+    rx: 3.0
+  - bounds:
+    - 760.0
+    - 442.0
+    - 100.0
+    - 50.0
+    name: Saitama Counter
+    fill: '#111'
+    stroke: '#FF4444'
+    stroke_width: ''
+    rx: 4.0
+- name: 樓層 4
+  y: 585.0
+  rooms:
+  - bounds:
+    - 20.0
+    - 585.0
+    - 860.0
+    - 40.0
+    name: ''
+    fill: '#111'
+    stroke: '#333'
+    stroke_width: ''
+    rx: 4.0
+connections: []
+legend:
+- OPM_EM-01 | 探索地圖 | B1~B3 怪人協會地下基地
+- OPM_EM-01 | 探索地圖
+notes: []

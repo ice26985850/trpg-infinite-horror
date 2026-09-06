@@ -1,0 +1,147 @@
+map_id: DESTINY_BM-02
+map_type: battle
+scenario: 'Fate / A Night of Repose · The Fifth Holy Grail War / Fate/stay night: The Fifth Holy Grail War'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 640
+- 480
+title: 'BM-02 Grail Descent: Final Battle'
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 80.0
+  - 80.0
+  name: Player Start
+  fill: none
+  stroke: '#00FF88'
+  stroke_width: '2'
+  bounds_grid:
+  - 1
+  - 1
+  - 5
+  - 5
+  center_ft:
+  - 17.5
+  - 17.5
+- bounds_px:
+  - 280.0
+  - 280.0
+  - 80.0
+  - 80.0
+  name: Grail Vessel
+  fill: '#FF444422'
+  stroke: '#FF4444'
+  stroke_width: '2'
+  bounds_grid:
+  - 17
+  - 17
+  - 5
+  - 5
+  center_ft:
+  - 97.5
+  - 97.5
+- bounds_px:
+  - 320.0
+  - 40.0
+  - 80.0
+  - 80.0
+  name: Berserker
+  fill: none
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 20
+  - 1
+  - 5
+  - 5
+  center_ft:
+  - 112.5
+  - 17.5
+- bounds_px:
+  - 40.0
+  - 160.0
+  - 120.0
+  - 80.0
+  name: Corrupted Mud Zone
+  fill: '#6D28D944'
+  stroke: '#6D28D9'
+  stroke_width: '1'
+  bounds_grid:
+  - 1
+  - 9
+  - 8
+  - 5
+  center_ft:
+  - 25.0
+  - 57.5
+- bounds_px:
+  - 200.0
+  - 160.0
+  - 80.0
+  - 80.0
+  name: Magic Circle
+  fill: '#3B82F644'
+  stroke: '#3B82F6'
+  stroke_width: '1'
+  bounds_grid:
+  - 12
+  - 9
+  - 5
+  - 5
+  center_ft:
+  - 72.5
+  - 57.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: Player Start
+  to: Grail Vessel
+  distance_ft: 113.1
+- from: Player Start
+  to: Berserker
+  distance_ft: 95.0
+- from: Player Start
+  to: Corrupted Mud Zone
+  distance_ft: 40.7
+- from: Player Start
+  to: Magic Circle
+  distance_ft: 68.0
+- from: Grail Vessel
+  to: Berserker
+  distance_ft: 81.4
+- from: Grail Vessel
+  to: Corrupted Mud Zone
+  distance_ft: 82.8
+- from: Grail Vessel
+  to: Magic Circle
+  distance_ft: 47.2
+- from: Berserker
+  to: Corrupted Mud Zone
+  distance_ft: 96.2
+- from: Berserker
+  to: Magic Circle
+  distance_ft: 56.6
+- from: Corrupted Mud Zone
+  to: Magic Circle
+  distance_ft: 47.5

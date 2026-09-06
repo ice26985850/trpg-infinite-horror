@@ -1,0 +1,52 @@
+map_id: BAKI_WM-01
+map_type: world
+scenario: 'Baki · Underground Tournament / Baki: Underground Tournament'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 900
+- 620
+title: Underground Arena — World Map (WM-01)
+description: ''
+scale: Underground Arena — World Map (WM-01)
+regions:
+- bounds:
+  - 450.0
+  - 320.0
+  - 100.0
+  - 60.0
+  fill: '#3a3a2a'
+  stroke: '#f39c12'
+  name: A Circular Arena
+- bounds:
+  - 250.0
+  - 170.0
+  - 100.0
+  - 60.0
+  fill: '#4a4a3a'
+  stroke: '#f39c12'
+  name: B Fighter Locker Room
+- bounds:
+  - 600.0
+  - 170.0
+  - 100.0
+  - 60.0
+  fill: '#3a4a4a'
+  stroke: '#f39c12'
+  name: C Spectator Stands
+- bounds:
+  - 20.0
+  - 540.0
+  - 860.0
+  - 60.0
+  fill: '#1e1a1a'
+  stroke: '#333'
+  name: ''
+roads: []
+routes: []
+danger_zones: []
+landmarks: []
+legend:
+- C Spectator Stands

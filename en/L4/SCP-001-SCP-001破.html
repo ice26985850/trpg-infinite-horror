@@ -1,0 +1,618 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SCP-001: When Day Breaks | SCP-001-SCP-001破 | Infinite Terror TRPG Scripts</title>
+<link rel="stylesheet" href="../../assets/style.css"></head>
+<body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../../index.html">中文</a></header>
+<div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
+<main class="container"><h1>SCP-001: When Day Breaks</h1>
+    <p class="meta">Code: SCP-001-SCP-001破 ｜ Source: SCP Foundation — SCP-001 &quot;When Day Breaks&quot; Proposal ｜ Difficulty: ★★★★★ ｜ Players: 3–5 ｜ Duration: 8–12 hrs / 3–4 sessions ｜ Type: Survival / Infiltration / Horror</p>
+    <p class="nav"><a href="../../index.html">← 劇本總覽</a> ｜ <a href="../../assets/scripts/L4/SCP-001-SCP-001破/en/SCP-001_劇本.md" download>劇本 MD</a> ｜ <a href="../../assets/scripts/L4/SCP-001-SCP-001破/en/SCP-001_NPC名冊.xlsx" download>NPC 名冊</a> ｜ <a href="../../assets/scripts/L4/SCP-001-SCP-001破/en/SCP-001_敵方單位名冊.xlsx" download>敵方名冊</a> ｜ <a href="../../assets/L4_SCP-001-SCP-001破_all_en.zip">下載全部（zip）</a></p>
+    <section class="block content"><section class="chap"><h2>一、基本資訊</h2>
+<p>Script Title: SCP-001: When Day Breaks
+Source Film: SCP Foundation — SCP-001 "When Day Breaks" Proposal
+Difficulty Rating: ★★★★★
+Suggested Players: 3–5
+Estimated Duration: 8–12 hrs / 3–4 sessions
+Prerequisites: Gene Lock Stage III or higher
+Script Type: Survival / Infiltration / Horror</p>
+<hr /></section>
+<details class="gm"><summary>🎭 GM 限定：II. Plot Summary (GM Spoilers)</summary><h2>II. Plot Summary (GM Spoilers)</h2>
+<h3>One-Line Summary</h3>
+<blockquote>
+<p>The sunlight melts every creature exposed to it — the Reincarnators (輪迴者) must cross the city in total darkness to reach an underground shelter, evading both the sunlight and the pursuit of deformed flesh-masses.</p>
+</blockquote>
+<h3>Full Plot Background</h3>
+<p>One morning the sun rises — but this time its light is no longer warm. Any creature exposed to the sunlight melts within minutes into formless masses of flesh (SCP-001-A). These masses, once human, actively hunt survivors to drag them into the sunlight and "assimilate" them. Civilization collapses within hours.</p>
+<p>The Reincarnators awaken in the basement of an abandoned building. The Main God requires them to cross the city and reach the underground shelter — Site-19, the only confirmed facility that blocks the SCP-001 effect — within 48 hours. Along the way they must travel through dark tunnels, subways, and sewers, evading sunlight seepage points and the flesh-masses' pursuit.</p>
+<h3>Plot Structure Type</h3>
+<p><strong>Hybrid</strong>: Free exploration of escape routes + act-by-act triggered flesh-mass encounters.</p>
+<hr /></details>
+<section class="chap"><h2>III. Main God Quest</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest Description</td>
+<td>"Reach the underground shelter Site-19 without ever touching sunlight. Time limit: 48 hours."</td>
+</tr>
+<tr>
+<td>Main Quest</td>
+<td>Arrive at the Site-19 underground shelter</td>
+</tr>
+<tr>
+<td>Quest Reward</td>
+<td>A + 12000</td>
+</tr>
+<tr>
+<td>Failure Condition</td>
+<td>Total annihilation / any team member exposed to sunlight for more than 1 minute</td>
+</tr>
+<tr>
+<td>Failure Penalty</td>
+<td>Erasure (transformed into an SCP-001-A instance)</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>① Rescue at least 3 civilian survivors: C + 1000 <br>② Study the SCP-001 effect (collect 3 samples): B1 <br>③ Kill the flesh-mass behemoth: A1</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>IV. Side Quests</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest ID</td>
+<td>S-01</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Survivor Rescue</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Hear a distress signal in the subway tunnel (Perception DC 3)</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Rescue 5 trapped civilians from a collapsed platform and lead them safely to the next station</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>1 hour — flesh-mass is seeping in from above</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>+300 to the whole team per civilian rescued</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Supports the main quest — civilians provide hidden-route intel</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest ID</td>
+<td>S-02</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Foundation Leftover Supplies</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Discover an abandoned SCP Foundation outpost</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Crack the access system (Intellect + Tech DC 4) and enter the supply warehouse for night-vision gear and anti-radiation drugs</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>Night-vision goggles (Perception check DC-2 in darkness) + anti-radiation ×3</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Supports — greatly improves survival in the dark</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest ID</td>
+<td>S-03</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Anomaly Research</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Use the sample-collection tool (gained in S-02) to collect 3 SCP-001-A samples</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Collect tissue samples from different flesh-mass aggregates (Agility + Stealth DC 4 per sample)</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Before the main quest ends</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>B + analysis of SCP-001 weakness (DP+2 against flesh-mass attacks)</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Supports — learn the enemy's weakness</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>V. World Setting</h2>
+<h3>Timeline</h3>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T+0 hrs</td>
+<td>Awaken in the basement. Sunlight still outside the window</td>
+</tr>
+<tr>
+<td>T+6 hrs</td>
+<td>Must leave the starting building (insufficient supplies). Sunset — but the SCP-001 effect persists at night</td>
+</tr>
+<tr>
+<td>T+12 hrs</td>
+<td>Flesh-mass aggregates begin patrolling underground</td>
+</tr>
+<tr>
+<td>T+24 hrs</td>
+<td>Large flesh-mass behemoth appears</td>
+</tr>
+<tr>
+<td>T+48 hrs</td>
+<td>Site-19 shelter auto-locks — quest deadline</td>
+</tr>
+</tbody>
+</table>
+<h3>Key Locations</h3>
+<h4>Abandoned Building Basement (Start Point)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Abandoned Apartment Basement</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A dim underground space. The windows are boarded up, but faint golden light leaks through the cracks — the most lethal thing there is. A few curled-up corpses litter the floor; they fled here during their melting, but too late.</td>
+</tr>
+<tr>
+<td>Explorable Content</td>
+<td>Supply crate (flashlights ×3 / batteries ×10 / first-aid kits ×2); map (marks nearby subway entrances); radio (receives Site-19's broadcast — closes after 48 hours)</td>
+</tr>
+<tr>
+<td>Relations to Other Locations</td>
+<td>Back door → subway tunnel</td>
+</tr>
+</tbody>
+</table>
+<h3>World Special Rules</h3>
+<ul>
+<li><strong>Sunlight = Death</strong>: Any exposure to sunlight for 1 Round = 1d10 radiance damage; from the 2nd Round onward, transformation begins (permanent loss of control, character becomes an NPC enemy).</li>
+<li><strong>Dark Survival</strong>: Moving in total darkness requires Perception DC 3 to orient. Flashlights have a battery limit (consumes 1 cell per hour / 10 cells total).</li>
+<li><strong>Flesh-Mass Assimilation</strong>: Touch from SCP-001-A stacks assimilation value — each layer of assimilation value = DP-1 + 1d4 mental damage per Round. Accumulating 5 layers = transformation.</li>
+</ul>
+<h3>Visual Map System</h3>
+<table>
+<thead>
+<tr>
+<th>Layer</th>
+<th>ID</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Large Map</td>
+<td>WM-01</td>
+<td><code>maps/SCP-001_WM-01.svg</code></td>
+</tr>
+<tr>
+<td>Exploration Map</td>
+<td>EM-01</td>
+<td><code>maps/SCP-001_EM-01.svg</code></td>
+</tr>
+<tr>
+<td>Combat Map</td>
+<td>BM-01</td>
+<td><code>maps/SCP-001_BM-01.svg</code></td>
+</tr>
+<tr>
+<td>Combat Map</td>
+<td>BM-02</td>
+<td><code>maps/SCP-001_BM-02.svg</code></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VII. Key Scenes</h2>
+<h4>Scene S01: Awakening in Darkness</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GM Read-Aloud Text</td>
+<td>"You wake in total blackness. The air is thick with the sweet-rotten stench of spoiled meat. A faint beam of light shoots through a gap in the boards overhead — golden, warm light, but your instinct screams: that is death. The radio crackles intermittently: 'Site-19... the shelter will close in 48 hours... requesting all surviving personnel...'"</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S08: Site-19 Final Defense Line</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GM Read-Aloud Text</td>
+<td>"The shelter entrance is right before you — a massive steel blast door embedded in the rock wall, beside it a long-abandoned guard post. But you are not the only ones who want in. A gigantic flesh-mass aggregate blocks the door — fused from hundreds of melted human bodies, countless faces screaming on its surface."</td>
+</tr>
+<tr>
+<td>Encounters</td>
+<td><strong>Forced boss battle</strong>: Flesh-Mass Behemoth (★★★★★). HP 200 / base defense 14 / DP 10. Special ability: every 2 Rounds splits off 1d3 small flesh-masses (★★). The behemoth's touch stacks assimilation value. Weakness: ×2 damage from fire.</td>
+</tr>
+<tr>
+<td>Gene Lock Notes</td>
+<td>Gene Lock Stage IV (Resolve DC 5): can predict the behemoth's split timing and interrupt it 1 Round beforehand.</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VIII. Reward Settlement</h2>
+<table>
+<thead>
+<tr>
+<th>Reward Type</th>
+<th>Content</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main Quest Complete</td>
+<td>Arrive at Site-19</td>
+<td>A + 12000</td>
+</tr>
+<tr>
+<td>Optional Objective ①</td>
+<td>Rescue 3+ civilians</td>
+<td>C + 1000</td>
+</tr>
+<tr>
+<td>Optional Objective ②</td>
+<td>Collect 3 samples</td>
+<td>B1</td>
+</tr>
+<tr>
+<td>Optional Objective ③</td>
+<td>Kill the flesh-mass behemoth</td>
+<td>A1</td>
+</tr>
+<tr>
+<td>Side Quest S-01</td>
+<td>Civilian rescue</td>
+<td>900–1500</td>
+</tr>
+<tr>
+<td>Side Quest S-02</td>
+<td>Foundation supplies</td>
+<td>Night-vision goggles + drugs</td>
+</tr>
+<tr>
+<td>Side Quest S-03</td>
+<td>Anomaly research</td>
+<td>B1</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>X. Appendix</h2>
+<blockquote>
+<p><strong>Script Code</strong>: SCP-001 <strong>Version</strong>: v1.0 <strong>Format Spec</strong>: v0.4</p>
+</blockquote>
+<h3>Return Exchange (Script-Specific)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Item</th>
+<th>Cost (Side Quest + Reward Points)</th>
+<th>Effect</th>
+<th>Growth Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>Foundation Training</td>
+<td>B + 2000</td>
+<td>Agility (DEX) + Tactics, Perception (WIS) + Recon permanently +3; can identify anomaly signs (anomaly Perception DC-1)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Memetic Resistance</td>
+<td>B + 2000</td>
+<td>Gain "meme / cognitive hazard" resistance: sanity check DC-3, immune to mid-tier memetic indoctrination, can quarantine 1 cognitive hazard once</td>
+<td>Lv1→Lv2→Lv3: basic → enhanced → conceptual immunity</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Standard Containment Kit</td>
+<td>B + 2000</td>
+<td>Gain an upgraded containment kit: Scranton tranquilizer gun (DP+3, paralyze 1d3 Rounds) + portable reality-stabilization anchor (anomaly activity -2 nearby)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Mobile Task Force Rank</td>
+<td>A + 8000</td>
+<td>Gain "MTF" command authority: may call Foundation fire support once (area strike DP+3)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Reality Bending (Type-Green)</td>
+<td>A + 4000</td>
+<td>Gain "reality bender" ability: rewrite reality by will (once per Round, force-pass 1 DC 5 check)</td>
+<td>Lv1→Lv2→Lv3: weak warp → psionic field → local rule rewrite</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Safe-Class Anomaly Item</td>
+<td>A + 4000</td>
+<td>Gain 1 Safe-class anomaly item (random effect DP+3, e.g. SCP-500 healing pill)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>SCP-001 "Gate Guardian" Shard</td>
+<td>S + 8000</td>
+<td>Gain a "Gate Guardian" shard: unleash holy flame (DP+5 / 3d10 sacred, ×2 vs anomalies), at a devastating cost</td>
+<td>Lv1→Lv2→Lv3: shard → prototype → incomplete Gate Guardian</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>O5 Council Clearance</td>
+<td>AA + 12000</td>
+<td>Gain "O5-level" clearance: may access all Foundation data (Knowledge +3), forcibly requisition resources (2× per script)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Broken God · Church of the Machine</td>
+<td>AA + 12000</td>
+<td>Gain a "Broken God" faith link: mechanized flesh (Hit Points (HP) +60, metal armor base defense +3, regen +5 / Round)</td>
+<td>Lv1→Lv2→Lv3: faith → Machine-God Body → complete form</td>
+</tr>
+</tbody>
+</table></section></section>
+    <section class="block"><h2>地圖（YAML＋SVG）</h2><div class="map">
+              <div class="maptitle">SCP-001_BM-01 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="640" height="480" fill="#1a1a2e"/>
+<rect x="20" y="20" width="600" height="440" fill="url(#grid)"/>
+<rect x="20" y="20" width="600" height="440" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="320.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">BM-01 Subway Ambush Battle</text>
+<text x="25" y="472" fill="#666" font-size="9">SCP-001_BM-01 | 10×10cells(concept) | 1cells = 5ft | total 50×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="40.0" y="200.0" width="80.0" height="80.0" rx="3" fill="none" stroke="#00FF88" stroke-width="2"/>
+<text x="80.0" y="236.0" text-anchor="middle" fill="#aaa" font-size="8">PlayersStart</text>
+<text x="80.0" y="250.0" text-anchor="middle" fill="#666" font-size="6">(17.5, 72.5)ft</text>
+<rect x="280.0" y="200.0" width="120.0" height="80.0" rx="3" fill="#F59E0B22" stroke="#F59E0B" stroke-width="2"/>
+<text x="340.0" y="236.0" text-anchor="middle" fill="#aaa" font-size="8">Collapsed Platform</text>
+<text x="340.0" y="250.0" text-anchor="middle" fill="#666" font-size="6">(105.0, 72.5)ft</text>
+<rect x="200.0" y="40.0" width="80.0" height="80.0" rx="3" fill="none" stroke="#FF4444" stroke-width="1.5"/>
+<text x="240.0" y="76.0" text-anchor="middle" fill="#aaa" font-size="8">Small Flesh Mass ×3</text>
+<text x="240.0" y="90.0" text-anchor="middle" fill="#666" font-size="6">(72.5, 17.5)ft</text>
+<rect x="360.0" y="320.0" width="80.0" height="80.0" rx="3" fill="none" stroke="#FF4444" stroke-width="1.5"/>
+<text x="400.0" y="356.0" text-anchor="middle" fill="#aaa" font-size="8">Flesh Mass Aggregation</text>
+<text x="400.0" y="370.0" text-anchor="middle" fill="#666" font-size="6">(127.5, 112.5)ft</text>
+<rect x="40.0" y="40.0" width="80.0" height="80.0" rx="3" fill="#3B82F644" stroke="#3B82F6" stroke-width="1"/>
+<text x="80.0" y="76.0" text-anchor="middle" fill="#aaa" font-size="8">Tunnel Entrance</text>
+<text x="80.0" y="90.0" text-anchor="middle" fill="#666" font-size="6">(17.5, 17.5)ft</text>
+<rect x="120.0" y="360.0" width="160.0" height="80.0" rx="3" fill="#66644" stroke="#666" stroke-width="1"/>
+<text x="200.0" y="396.0" text-anchor="middle" fill="#aaa" font-size="8">Abandoned Train (Cover)</text>
+<text x="200.0" y="410.0" text-anchor="middle" fill="#666" font-size="6">(62.5, 127.5)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L4/SCP-001-SCP-001破/en/maps/SCP-001_BM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L4/SCP-001-SCP-001破/en/maps/SCP-001_BM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">SCP-001_BM-02 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="640" height="480" fill="#1a1a2e"/>
+<rect x="20" y="20" width="600" height="440" fill="url(#grid)"/>
+<rect x="20" y="20" width="600" height="440" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="320.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">BM-02 Site-19 Final Defense Line</text>
+<text x="25" y="472" fill="#666" font-size="9">SCP-001_BM-02 | 10×10cells(concept) | 1cells = 5ft | total 50×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="40.0" y="40.0" width="80.0" height="80.0" rx="3" fill="none" stroke="#00FF88" stroke-width="2"/>
+<text x="80.0" y="76.0" text-anchor="middle" fill="#aaa" font-size="8">PlayersStart</text>
+<text x="80.0" y="90.0" text-anchor="middle" fill="#666" font-size="6">(17.5, 17.5)ft</text>
+<rect x="280.0" y="40.0" width="80.0" height="80.0" rx="3" fill="#F59E0B22" stroke="#F59E0B" stroke-width="2"/>
+<text x="320.0" y="76.0" text-anchor="middle" fill="#aaa" font-size="8">Blast Door Control Console</text>
+<text x="320.0" y="90.0" text-anchor="middle" fill="#666" font-size="6">(97.5, 17.5)ft</text>
+<rect x="280.0" y="360.0" width="80.0" height="80.0" rx="3" fill="#3B82F622" stroke="#3B82F6" stroke-width="2"/>
+<text x="320.0" y="396.0" text-anchor="middle" fill="#aaa" font-size="8">Site-19 Entrance</text>
+<text x="320.0" y="410.0" text-anchor="middle" fill="#666" font-size="6">(97.5, 127.5)ft</text>
+<rect x="360.0" y="200.0" width="120.0" height="120.0" rx="3" fill="none" stroke="#FF4444" stroke-width="1.5"/>
+<text x="420.0" y="256.0" text-anchor="middle" fill="#aaa" font-size="8">Flesh Mass Behemoth</text>
+<text x="420.0" y="270.0" text-anchor="middle" fill="#666" font-size="6">(135.0, 80.0)ft</text>
+<rect x="40.0" y="200.0" width="120.0" height="80.0" rx="3" fill="#66644" stroke="#666" stroke-width="1"/>
+<text x="100.0" y="236.0" text-anchor="middle" fill="#aaa" font-size="8">Guard Booth (Cover)</text>
+<text x="100.0" y="250.0" text-anchor="middle" fill="#666" font-size="6">(25.0, 72.5)ft</text>
+<rect x="160.0" y="360.0" width="80.0" height="80.0" rx="3" fill="#10B98144" stroke="#10B981" stroke-width="1"/>
+<text x="200.0" y="396.0" text-anchor="middle" fill="#aaa" font-size="8">Weapon Crate</text>
+<text x="200.0" y="410.0" text-anchor="middle" fill="#666" font-size="6">(57.5, 127.5)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L4/SCP-001-SCP-001破/en/maps/SCP-001_BM-02.yaml" download>yaml</a> <a href="../../assets/scripts/L4/SCP-001-SCP-001破/en/maps/SCP-001_BM-02.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">SCP-001_EM-01 <span class="maptype">探索地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<rect width="800" height="600" fill="#1a1a2e"/>
+<text x="400.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">Underground Facility Exploration — Detailed Map</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 1</text>
+<rect x="20" y="0.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="800.0" height="600.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<text x="20" y="75.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 2</text>
+<rect x="20" y="80.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="100.0" y="80.0" width="300.0" height="100.0" rx="5.0" fill="#0d1a1a" stroke="#10B981" stroke-width="2"/>
+<text x="250.0" y="130.0" text-anchor="middle" fill="#aaa" font-size="9">AZone:Abandoned Apartment Basement</text>
+<rect x="450.0" y="80.0" width="250.0" height="100.0" rx="5.0" fill="#0d0d1a" stroke="#3B82F6" stroke-width="2"/>
+<text x="575.0" y="130.0" text-anchor="middle" fill="#aaa" font-size="9">CZone:Foundation Outpost</text>
+<text x="20" y="235.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 3</text>
+<rect x="20" y="240.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="100.0" y="240.0" width="300.0" height="120.0" rx="5.0" fill="#1a1505" stroke="#F59E0B" stroke-width="2"/>
+<text x="250.0" y="300.0" text-anchor="middle" fill="#aaa" font-size="9">BZone:Subway Collapse Zone</text>
+<text x="20" y="415.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 4</text>
+<rect x="20" y="420.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="100.0" y="420.0" width="600.0" height="120.0" rx="5.0" fill="#1a0505" stroke="#EF4444" stroke-width="2"/>
+<text x="400.0" y="480.0" text-anchor="middle" fill="#aaa" font-size="9">DZone:Site-19 Entrance Defense Line</text>
+<text x="20" y="495.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 5</text>
+<rect x="20" y="500.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="620.0" y="500.0" width="165.0" height="85.0" rx="4.0" fill="#111" stroke="#333" stroke-width=""/>
+<text x="702.5" y="542.5" text-anchor="middle" fill="#aaa" font-size="9">Legend</text>
+<rect x="20" y="545" width="760" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="570" fill="#aaa" font-size="9">SCP-001_WM-01 | largeRangeMap</text>
+<text x="20" y="590" fill="#666" font-size="9">SCP-001_EM-01 | ExplorationMap </text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L4/SCP-001-SCP-001破/en/maps/SCP-001_EM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L4/SCP-001-SCP-001破/en/maps/SCP-001_EM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">SCP-001_WM-01 <span class="maptype">世界地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="800" height="600" fill="url(#wmgrid)"/>
+<rect x="100.0" y="80.0" width="200.0" height="80.0" rx="5" fill="#0d1a1a" stroke="#10B981" stroke-width="2"/>
+<text x="200.0" y="120.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Abandoned Apartment (Start Point)</text>
+<rect x="100.0" y="220.0" width="200.0" height="80.0" rx="5" fill="#1a1505" stroke="#F59E0B" stroke-width="2"/>
+<text x="200.0" y="260.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Subway Tunnel</text>
+<rect x="400.0" y="220.0" width="200.0" height="80.0" rx="5" fill="#0d0d1a" stroke="#3B82F6" stroke-width="2"/>
+<text x="500.0" y="260.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Foundation Outpost</text>
+<rect x="100.0" y="380.0" width="500.0" height="100.0" rx="5" fill="#1a0505" stroke="#EF4444" stroke-width="2"/>
+<text x="350.0" y="430.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Site-19 Underground Shelter (Final Objective)</text>
+<line x1="200.0" y1="160.0" x2="200.0" y2="220.0" stroke="#C084FC" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="200.0" y1="300.0" x2="400.0" y2="300.0" stroke="#C084FC" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="500.0" y1="300.0" x2="350.0" y2="380.0" stroke="#C084FC" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<rect x="630" y="20" width="150" height="74" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="705" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Legend</text>
+<text x="640" y="60" fill="#aaa" font-size="9">Legend</text>
+<text x="640" y="76" fill="#aaa" font-size="9">Arrow = Recommended Route</text>
+<text x="640" y="92" fill="#aaa" font-size="9">Red Zone = Final Objective</text>
+<text x="20" y="585" fill="#666" font-size="9">SCP-001_WM-01 | largeRangeMap | Schematic</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L4/SCP-001-SCP-001破/en/maps/SCP-001_WM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L4/SCP-001-SCP-001破/en/maps/SCP-001_WM-01.svg" download>svg</a></p>
+            </div></section>
+    <section class="block"><h2>概念圖</h2><div class="gallery"><a href="../../assets/scripts/L4/SCP-001-SCP-001破/images/enemy_01_flesh_colossus.png" target="_blank"><img src="../../assets/scripts/L4/SCP-001-SCP-001破/images/enemy_01_flesh_colossus.png" alt="enemy_01_flesh_colossus.png"></a><a href="../../assets/scripts/L4/SCP-001-SCP-001破/images/npc_01_alan.png" target="_blank"><img src="../../assets/scripts/L4/SCP-001-SCP-001破/images/npc_01_alan.png" alt="npc_01_alan.png"></a><a href="../../assets/scripts/L4/SCP-001-SCP-001破/images/npc_02_SCP001_01.png" target="_blank"><img src="../../assets/scripts/L4/SCP-001-SCP-001破/images/npc_02_SCP001_01.png" alt="npc_02_SCP001_01.png"></a><a href="../../assets/scripts/L4/SCP-001-SCP-001破/images/scene_01_breaking_dawn.png" target="_blank"><img src="../../assets/scripts/L4/SCP-001-SCP-001破/images/scene_01_breaking_dawn.png" alt="scene_01_breaking_dawn.png"></a><a href="../../assets/scripts/L4/SCP-001-SCP-001破/images/scene_S08_Site19最終防線.png" target="_blank"><img src="../../assets/scripts/L4/SCP-001-SCP-001破/images/scene_S08_Site19最終防線.png" alt="scene_S08_Site19最終防線.png"></a></div></section>
+    </main>
+<footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

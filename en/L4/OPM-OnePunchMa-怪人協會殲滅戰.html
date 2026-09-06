@@ -1,0 +1,1177 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>One Punch Man: Monster Association Raid | OPM-OnePunchMa-怪人協會殲滅戰 | Infinite Terror TRPG Scripts</title>
+<link rel="stylesheet" href="../../assets/style.css"></head>
+<body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../../index.html">中文</a></header>
+<div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
+<main class="container"><h1>One Punch Man: Monster Association Raid</h1>
+    <p class="meta">Code: OPM-OnePunchMa-怪人協會殲滅戰 ｜ Source: One Punch Man — Monster Association Arc ｜ Difficulty: ★★★★★ ｜ Players: 3–5 ｜ Duration: 8–10 hrs / 3–4 sessions ｜ Type: Raid / Timed Battle / Story</p>
+    <p class="nav"><a href="../../index.html">← 劇本總覽</a> ｜ <a href="../../assets/scripts/L4/OPM-OnePunchMa-怪人協會殲滅戰/en/OPM_一拳超人_劇本.md" download>劇本 MD</a> ｜ <a href="../../assets/scripts/L4/OPM-OnePunchMa-怪人協會殲滅戰/en/OPM_NPC名冊.xlsx" download>NPC 名冊</a> ｜ <a href="../../assets/scripts/L4/OPM-OnePunchMa-怪人協會殲滅戰/en/OPM_敵方單位名冊.xlsx" download>敵方名冊</a> ｜ <a href="../../assets/L4_OPM-OnePunchMa-怪人協會殲滅戰_all_en.zip">下載全部（zip）</a></p>
+    <section class="block content"><section class="chap"><h2>一、基本資訊</h2>
+<p>Script Title: One Punch Man: Monster Association Raid
+Source Film: One Punch Man — Monster Association Arc
+Difficulty Rating: ★★★★★
+Suggested Players: 3–5
+Estimated Duration: 8–10 hrs / 3–4 sessions
+Prerequisites: Gene Lock Stage III or higher (Stage IV recommended)
+Script Type: Raid / Timed Battle / Story</p>
+<hr /></section>
+<details class="gm"><summary>🎭 GM 限定：II. Plot Summary (GM Spoilers)</summary><h2>II. Plot Summary (GM Spoilers)</h2>
+<h3>One-Line Summary</h3>
+<blockquote>
+<p>The Monster Association has built a vast underground base beneath Z-City. The Reincarnators (輪迴者), as temporary S/A-Class Heroes of the Hero Association, must descend into the base and eliminate the monster threat before Saitama arrives.</p>
+</blockquote>
+<h3>Full Plot Background</h3>
+<p>Z-City — the metropolis with the highest monster appearance rate. The Monster Association has built a multi-level base deep underground (B1–B3), gathering a large number of Tiger- to Dragon-level monsters, led by the Monster King, Orochi. The Hero Association assembles S-Class and A-Class heroes for a raid.</p>
+<p>The Reincarnators are dropped into this world by the Main God and join the raid as temporary A/S-Class Heroes. However, the biggest variable is not the monsters — but the bald hero, <strong>Saitama</strong>. Saitama can solve any problem with a single punch, but he is currently lost in the underground maze. The time pressure is this: Saitama may arrive at any moment; once he strikes, all monsters are one-shot, and the Reincarnators lose their chance to prove themselves.</p>
+<h3>Plot Structure Type</h3>
+<p><strong>Hybrid (Timed Battle)</strong>: Each underground level advances linearly, but within each level there are multiple optional rooms and routes. Saitama's arrival probability increases every Round — providing constant time pressure.</p>
+<hr /></details>
+<section class="chap"><h2>III. Main God Quest</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest Description</td>
+<td>"Survive in the Monster Association's underground base and defeat at least 1 Dragon-level monster. Note: Saitama will arrive on the scene during the battle."</td>
+</tr>
+<tr>
+<td>Main Quest</td>
+<td>Defeat at least 1 Dragon-level monster</td>
+</tr>
+<tr>
+<td>Quest Reward</td>
+<td>A + 10000</td>
+</tr>
+<tr>
+<td>Failure Condition</td>
+<td>Total annihilation / failure to defeat any Dragon-level monster before Saitama arrives</td>
+</tr>
+<tr>
+<td>Failure Penalty</td>
+<td>Erasure</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>① Defeat the Monster King, Orochi: S-Rank Side Quest ×1 <br>② Protect 3 A-Class Heroes and keep them alive: B + 3000 <br>③ Complete all main combat before Saitama arrives (defeat 2+ Dragon-level + defeat Orochi): extra B1</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>IV. Side Quests</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest ID</td>
+<td>S-01</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Saitama's Navigator</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Encounter the lost Saitama in the underground base (random / 10% chance per Scene after reaching B2)</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Point Saitama in the correct direction — or deliberately misdirect him to buy time</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Immediate</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>Point the correct way: Saitama's gratitude (no material reward, but gain a "Saitama's Promise" — may summon him at a critical moment / once used, Saitama's arrival rate becomes 100% but only once); deliberate misdirection: delays Saitama by 5 Rounds but requires a Manipulation + Deception DC 3 check (failure means Saitama notices and heads straight for the battlefield)</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Saitama arrival-time management — to fight more monsters you must delay Saitama</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest ID</td>
+<td>S-02</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>KING's Escort</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Encounter KING (the bluffing S-Class hero) on B2</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Protect KING from having his ordinary-human identity exposed to the monsters, and exploit his "KING Engine" to intimidate monsters</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Until KING safely withdraws or Saitama arrives</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>C + 500</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>KING's intimidation can make 1d6 Tiger/Ghost-level monsters retreat (no combat / no reward but saves resources)</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest ID</td>
+<td>S-03</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Essence of Martial Arts</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Fight alongside Bang and receive his martial-arts instruction (Bang recognizes your potential via Perception DC 3)</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Under Bang's guidance, use the Water Stream Rock Smashing Fist to defeat at least 3 monsters</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Must be completed in a Scene where Bang is present (Bang operates on B2–B3)</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>Permanent melee skill +1 (valid only in this world / converts to 800 equivalent after return)</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Melee skill enhancement — directly helps subsequent monster battles</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>V. World Setting</h2>
+<h3>Timeline</h3>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T+0 Round</td>
+<td>Reincarnators awaken at the Monster Association B1 entrance</td>
+</tr>
+<tr>
+<td>T+3 Rounds</td>
+<td>Other Hero Association members begin entering the underground base</td>
+</tr>
+<tr>
+<td>T+5 Rounds</td>
+<td>Saitama begins "searching for the battlefield" from somewhere (initial arrival rate 0%)</td>
+</tr>
+<tr>
+<td>+10% per Round</td>
+<td>Saitama's arrival probability accumulates (at 100% Saitama is guaranteed to appear)</td>
+</tr>
+<tr>
+<td>Saitama 100%</td>
+<td>Saitama arrives — all monsters in the current Scene are one-shot (no reward) and the Scene ends immediately</td>
+</tr>
+</tbody>
+</table>
+<h3>Key Locations</h3>
+<h4>Location A: B1 Entrance Level</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>B1: Monster Association Entrance Level</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A wide underground tunnel; the concrete walls are covered with monster claw marks. The fluorescent lights overhead flicker; from afar come the low roars of beasts and the clang of metal. Multiple room entrances line both sides of the tunnel.</td>
+</tr>
+<tr>
+<td>Explorable Content</td>
+<td>Entrance hall (starting point — observe security cameras / Intellect + Computer DC 3 to hack and obtain the B2 map); supply storage (search yields 1d3 first-aid kits / restores 1d8 HP); ventilation ducts (stealth route / Agility + Stealth DC 3 to skip half the combat on this level)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>5 Tiger-level monsters (entrance guards / SC01 forced encounter) + random patrol (roll 1d6 per area: 1–3 = 1d4 trash monsters / 4–5 = 1d2 Tiger-level / 6 = 1 Ghost-level)</td>
+</tr>
+<tr>
+<td>Relations to Other Locations</td>
+<td>Central elevator → B2 (lower level)</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>EM-01 (B1 level), BM-01 (B1 defense battle)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location B: B2 Executive Level</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>B2: Monster Association Executive Level</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A far broader space than B1. At the center is a council-hall-like area — where the Monster Association's executives once met. Monster Association insignia are pasted on the walls; smashed equipment and corpses (both monsters and heroes) litter the floor.</td>
+</tr>
+<tr>
+<td>Explorable Content</td>
+<td>Executive meeting room (Investigation DC 3 yields the Monster Association's plans and member roster); Black Sperm zone (Dragon-level boss); Elder Centipede zone (Dragon-level boss / massive); Psykos' observation room (Intellect + Occultism DC 4 to remotely disrupt other monsters' command chain / lower all B2 monsters' DP by 1); safe room (may rest and recover here / use first-aid kits with no check limit)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td><strong>At least 1 Dragon-level monster</strong> (random or by chosen route — see encounter table) + 1d3 Ghost-level monsters + random Tiger-level patrol. Bang and Genos are active on this level. KING is also here (in bluffing mode).</td>
+</tr>
+<tr>
+<td>Relations to Other Locations</td>
+<td>Elevator → B3 (deepest level / throne)</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>EM-01 (B2 level)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location C: B3 Throne Level</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>B3: Monster King Orochi's Throne</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A gigantic underground cavern. At its center, a rock platform rises to hold the Monster King's throne — built from twisted metal and monster bones. Magma flows through the crevices around the platform, bathing the whole space in dark red. The Monster King, Orochi, slowly rises from the throne; multiple dragon heads writhe in the firelight.</td>
+</tr>
+<tr>
+<td>Explorable Content</td>
+<td>Orochi's throne (final boss battle); Psykos' observation room (Intellect + Occultism DC 4 to remotely disrupt other monsters' command / lower all B2 monsters' DP by 1); magma pool (environmental damage 1d6 fire / per Round / can be exploited for extra damage)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td><strong>Final boss</strong>: Monster King Orochi (★★★★★+) + Psykos (★★★★ / optional objective). Orochi has extremely high HP (300), multi-head attacks with 3 actions per Round; below 50% HP enters second form (regen +15 / DP+2 / form change grants random resistances).</td>
+</tr>
+<tr>
+<td>Relations to Other Locations</td>
+<td>This is the deepest level — defeating Orochi completes the quest</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>EM-01 (B3 level), BM-02 (throne decisive battle)</td>
+</tr>
+</tbody>
+</table>
+<h3>World Special Rules</h3>
+<ul>
+<li><strong>Saitama Time Pressure (core rule)</strong>:</li>
+<li>Initial arrival rate: 0%</li>
+<li>Each combat Round elapsed: Saitama's arrival rate +10%</li>
+<li>At 100% arrival rate: Saitama appears at the start of the current Scene</li>
+<li>Saitama's arrival = all enemies in that Scene are one-shot (no reward) + Scene ends immediately</li>
+<li>
+<p>Players may influence Saitama's arrival time via S-01</p>
+</li>
+<li>
+<p><strong>Hero Rank Bonuses</strong>:</p>
+</li>
+<li>As temporary A/S-Class Heroes, the Reincarnators gain these passive bonuses:</li>
+<li>S-Class: base Armor Class (AC) +2</li>
+<li>
+<p>A-Class: Hit Points (HP) +10</p>
+</li>
+<li>
+<p><strong>Disaster Level Equivalents</strong>:</p>
+</li>
+<li>Tiger-level (★★★): threatens a city block — roughly equal to a powerful enhanced human</li>
+<li>Ghost-level (★★★★): threatens a city — roughly equal to a small army</li>
+<li>Dragon-level (★★★★★): threatens several cities — a single entity can destroy a city</li>
+<li>Above Dragon / Monster King (★★★★★+): threatens human civilization</li>
+</ul>
+<h3>Main God Restrictions</h3>
+<ul>
+<li>"Do not reveal the existence of the Main God Space to story characters."</li>
+<li>"Saitama cannot be harmed or controlled by any means — he is part of the rules, not a defeatable enemy."</li>
+<li>"The Hero Association's point system — defeating monsters grants Hero Points; after return, every 100 points = 100."</li>
+</ul>
+<h3>Visual Map System</h3>
+<table>
+<thead>
+<tr>
+<th>Layer</th>
+<th>ID</th>
+<th>Content</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Large Map</td>
+<td>WM-01</td>
+<td>Full Z-City map — Hero Association HQ / Monster Association underground base / Saitama's route</td>
+<td><code>maps/OPM_WM-01.svg</code></td>
+</tr>
+<tr>
+<td>Exploration Map</td>
+<td>EM-01</td>
+<td>B1–B3 underground base cross-section (entrance / executive / throne levels)</td>
+<td><code>maps/OPM_EM-01.svg</code></td>
+</tr>
+<tr>
+<td>Combat Map</td>
+<td>BM-01</td>
+<td>B1 entrance defense battle (16×12 grid, trash + Ghost-level guards)</td>
+<td><code>maps/OPM_BM-01.svg</code></td>
+</tr>
+<tr>
+<td>Combat Map</td>
+<td>BM-02</td>
+<td>B3 throne-level final battle (16×12 grid, Orochi multi-phase / magma / Saitama arrival point)</td>
+<td><code>maps/OPM_BM-02.svg</code></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VI. Characters &amp; Enemy Units (Managed in Separate Excel)</h2>
+<blockquote>
+<p>The following characters are in the standalone Excel files:
+- <strong>NPC Roster</strong>: <code>OPM_NPC名冊.xlsx</code>
+- <strong>Enemy Unit Roster</strong>: <code>OPM_敵方單位名冊.xlsx</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Character</th>
+<th>Faction</th>
+<th>Type</th>
+<th>Key Stats</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Saitama</td>
+<td>Plot Device</td>
+<td>Strongest Hero</td>
+<td>HP 999 / any attack deals 99999 damage (one-shot)</td>
+</tr>
+<tr>
+<td>Genos</td>
+<td>Ally / S-Class</td>
+<td>Cyborg</td>
+<td>HP 120 / base defense 20 / Incineration Cannon DP+4 area</td>
+</tr>
+<tr>
+<td>Tatsumaki</td>
+<td>Ally / S-Class</td>
+<td>Esper</td>
+<td>HP 80 / base defense 24 / psychic DP+5 area</td>
+</tr>
+<tr>
+<td>KING</td>
+<td>Ally / Mid-tier</td>
+<td>Bluffer</td>
+<td>HP 45 / deception 15 / KING Engine intimidation</td>
+</tr>
+<tr>
+<td>Bang</td>
+<td>Ally / S-Class</td>
+<td>Martial Artist</td>
+<td>HP 100 / base defense 22 / Water Stream Rock Smashing Fist DP+4</td>
+</tr>
+<tr>
+<td>Monster King Orochi</td>
+<td>Enemy</td>
+<td>Final Boss</td>
+<td>HP 300 / base defense 26 / multi-head attacks / regeneration</td>
+</tr>
+<tr>
+<td>Black Sperm</td>
+<td>Enemy</td>
+<td>Dragon-level</td>
+<td>HP 180 / split + merge</td>
+</tr>
+<tr>
+<td>Elder Centipede</td>
+<td>Enemy</td>
+<td>Dragon-level</td>
+<td>HP 250 / giant crush</td>
+</tr>
+<tr>
+<td>Psykos</td>
+<td>Enemy</td>
+<td>Dragon-level</td>
+<td>HP 80 / light-beam barrage</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VII. Key Scenes</h2>
+<h3>Scene Structure Notes</h3>
+<p>This script is a <strong>timed hybrid</strong> — linear progression B1→B2→B3, but each level has multiple optional routes. Saitama's arrival rate provides constant time pressure — the longer you stall, the higher the chance of an automatic victory (but no kill rewards).</p>
+<hr />
+<h3>Act One: Breach (B1)</h3>
+<h4>Scene S01: Underground Infiltration</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S01</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Monster Territory</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Script start</td>
+</tr>
+<tr>
+<td>GM Read-Aloud Text</td>
+<td>"You drop from a flash of teleport light, your feet landing on rough concrete. Before you is a dim underground tunnel — the Monster Association's entrance. A security camera's red light blinks overhead. Not far off come the sounds of chaotic footsteps and monster roars — they've spotted you. A message pops up on your wristwatch: 'Objective: Monster Association underground base. Defeat at least 1 Dragon-level monster. Note: Saitama is en route — arrival time unknown.'"</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Security cameras (Intellect + Computer DC 3 to hack — disable this level's surveillance / obtain part of the B2 map); ventilation duct entrance (Agility + Stealth DC 3 to bypass 50% of guards); radio (communicate with the Hero Association — may request support but costs Rounds)</td>
+</tr>
+<tr>
+<td>Encounters</td>
+<td><strong>SC01 forced battle</strong>: 5 Tiger-level monsters (★★★) + endless trash (1d4 trash monsters / ★★ pour in from behind every 3 Rounds)</td>
+</tr>
+<tr>
+<td>Gene Lock Notes</td>
+<td><strong>Gene Lock Tip</strong>: Gene Lock Stage III recommended (Resolve DC 4). Tiger-level monsters are numerous; Stage III's combat intuition can identify priority targets (pick off the weakest Tigers one by one). If the team has ample resources, you may choose not to open Gene Lock to conserve mental energy.</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Frontal breakthrough (fastest / direct combat) vs ventilation-duct infiltration (medium speed / skips half the encounters / no reward) vs system hack (slowest / gains info advantage and map / later Scenes' Perception DC-1)</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Clear the B1 guards or successfully infiltrate to the central elevator</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S02: Central Corridor — Reinforcement Interception</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S02</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Unending Reinforcements</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Arrive at the corridor before the B1 central elevator</td>
+</tr>
+<tr>
+<td>GM Read-Aloud Text</td>
+<td>"The central corridor is a straight concrete hallway, its end a massive freight elevator down to B2. But the corridor is blocked midway — behind a steel barricade stands a tall Ghost-level monster whose body seems made of metal. More trash monsters keep pouring in from the vents on both sides. This is the Monster Association's defensive line — break through it to go deeper."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Barricade (can serve as cover, base defense +2 / can be destroyed, HP 40); vents (source of trash — can be plugged / Strength DC 4 to close each vent); elevator control panel (Intellect + Computer DC 3 to bypass the safety lock and call the elevator directly)</td>
+</tr>
+<tr>
+<td>Encounters</td>
+<td><strong>Ghost-level monster "Steel Guard"</strong> ×1 (★★★★) + Tiger-level monsters ×3 (★★★) + trash monsters (1d3 pour from vents every 2 Rounds)</td>
+</tr>
+<tr>
+<td>Gene Lock Notes</td>
+<td><strong>Gene Lock Tip</strong>: The Steel Guard's physical defense is very high (base defense 18 / physical damage halved). Gene Lock Stage III+ recommended — sense the weak point (Intellect + Science DC 3 / Stage III lowers to DC 2) to find the fragile joints (hits ignore the damage halving).</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Defeat the Steel Guard or call the elevator and protect the elevator door for 3 Rounds until it arrives</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>Act Two: Executive Level (B2)</h3>
+<h4>Scene S03: Rendezvous with Hero Allies</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S03</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>The Heroes' Battle Line</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Arrive at B2 via elevator</td>
+</tr>
+<tr>
+<td>GM Read-Aloud Text</td>
+<td>"The elevator doors open and the clamor of battle hits you. B2 is far bigger than above — practically an underground fortress. Not far off, you see S-Class hero Bang using the Water Stream Rock Smashing Fist to drop three Ghost-level monsters at once. The young cyborg Genos sweeps a swarm of trash with his Incineration Cannon. And in a corner — KING is... his heartbeat (the KING Engine) gives a pack of monsters pause."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Bang (may request cooperation — triggers S-03 martial-arts instruction / may also ask him to assist against a specific boss); Genos (provides intel — B2 boss distribution); KING (S-02 trigger point — protect him / exploit his intimidation); command comms (contact Tatsumaki on the surface — may request her support but costs Rounds)</td>
+</tr>
+<tr>
+<td>Encounters</td>
+<td>Optional — this is a relatively safe rally point. Active combat surrounds you (you may join or bypass). Each Round spent here = Saitama arrival rate +10%.</td>
+</tr>
+<tr>
+<td>Gene Lock Notes</td>
+<td>None — social Scene</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Request Bang's martial-arts instruction → triggers S-03 + gains Bang's assistance (Bang intervenes against a single boss); request Genos' intel → gain B2 boss weakness info (later combat Perception check DC-1); protect KING → triggers S-02; set out directly → saves time (skips this Scene's turn cost)</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Finish socializing or decide on a route</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S04: Dragon-Level Boss Battle (Choose Route)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S04</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>A True Monster</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Enter a B2 Dragon-level monster's zone (choose 1 of 3: Black Sperm / Elder Centipede / Psykos)</td>
+</tr>
+<tr>
+<td>GM Read-Aloud Text (Black Sperm route)</td>
+<td>"This zone is eerily silent. Then you notice — the walls are moving. No, those aren't walls. Hundreds of tiny black particles surge from every direction, converging into a human shape. Black Sperm grins: 'Another hero come to die. Let me think — how many pieces should I split you into to make it interesting?'"</td>
+</tr>
+<tr>
+<td>GM Read-Aloud Text (Psykos route)</td>
+<td>"At the end of a long corridor, a figure in a ragged cloak stands under a spotlight. He raises a hand — countless light points swirl in his palm. 'The gods have told me. Today, there will be light.' The next second, dozens of light beams fire from his hands at once, turning the whole corridor into bullet-hell."</td>
+</tr>
+<tr>
+<td>GM Read-Aloud Text (Elder Centipede route)</td>
+<td>"The ground trembles. The wall ahead suddenly collapses — a mountain-sized centipede rises from the rubble. Each armored segment gleams metallic; its sharp mandibles click with a chilling sound. This is Elder Centipede — one of the Monster Association's largest combat forces."</td>
+</tr>
+<tr>
+<td>Encounters</td>
+<td>Varies by route — see the Enemy Unit Roster. Common thread: each Dragon-level (★★★★★) is a primary threat requiring teamwork to defeat.</td>
+</tr>
+<tr>
+<td>Gene Lock Notes</td>
+<td><strong>Gene Lock Tip</strong>: Gene Lock Stage IV strongly recommended (Resolve DC 5). Each Dragon-level has special abilities to counter — Black Sperm's splitting needs fast clearing of small units (area attacks most effective), Psykos' ranged barrage needs constant dodging (Agility + Athletics DC 4), Elder Centipede's giant size needs weak-point excavation (Perception + Science DC 4). Opening Stage IV grants tactical intuition — automatically identifies one weak point.</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Defeat this Dragon-level → satisfies Main Quest condition (if this is the first Dragon-level defeated) + may continue deeper or choose to retreat; skip → saves time but must find another Dragon-level (at least 1 must be defeated); request ally assistance → Bang or Genos may intervene (costs social capital / each assisting S-Class hero reduces your reward in this battle by 30%)</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>At least 1 Dragon-level defeated (Main Quest progress achieved) + decide whether to continue deeper</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>Act Three: The Deepest Level (B3)</h3>
+<h4>Scene S05: Descent to the Throne — Orochi's Challenge</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S05</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>The Monster King's Wrath</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Descend from B2 elevator to B3</td>
+</tr>
+<tr>
+<td>GM Read-Aloud Text</td>
+<td>"The elevator descends to an incredible depth. The moment the doors open, scorching air rushes at you. In the gigantic underground cavern, magma boils in the cracks, dyeing the whole space blood-red. Atop the central rock platform stands a throne of twisted metal and bones. The Monster King, Orochi, slowly rises from it — multiple dragon heads turn toward you in the firelight at once. 'More ants come. Is this the full strength of the Hero Association? Disappointing.'"</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Orochi's throne (final boss); Psykos' observation room (optional objective — defeat her to cripple the Monster Association's command / afterwards all monsters DP-1); magma pool (environmental hazard / Agility DC 3 to avoid falling in / can be used tactically — shove a monster in for 2d6 fire damage per Round); Tatsumaki's comms (may call Tatsumaki support here / requires 2 Rounds of waiting / Saitama arrival rate +20%); Saitama's arrival point (corner / Saitama breaks straight through the wall)</td>
+</tr>
+<tr>
+<td>Encounters</td>
+<td><strong>Optional ultimate boss battle</strong>: Monster King Orochi (★★★★★+) + Psykos (★★★★). Orochi's multi-head attacks give 3 actions per Round, HP 300. Below 50% HP enters second form (regen +15 HP per Round / DP+2 / form change grants random resistances). If Saitama's arrival rate hits 100%, Saitama appears within 1d3 Rounds and one-punches all enemies.</td>
+</tr>
+<tr>
+<td>Gene Lock Notes</td>
+<td><strong>Gene Lock Tip</strong>: Strongly recommend all members open and maintain Gene Lock Stage IV (Resolve DC 5). Orochi's attack patterns are varied — multi-head attacks can hit different targets simultaneously, energy cannon is an area attack requiring Agility DC 4 to dodge, and after form change he adapts to your attack patterns. Stage IV intuition lets you predict Orochi's next-Round target (to protect teammates). Constant time pressure: Saitama arrival rate +10% per Round — you must decide quickly: stall for Saitama's automatic win vs output fast for kill rewards.</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Defeat Orochi → S-Rank Side Quest ×1 + perfect script clear; wait for Saitama → Saitama one-shots Orochi (no reward) + Main Quest still complete (if at least 1 Dragon-level already defeated); request Tatsumaki support → costs 2 Rounds + Tatsumaki assists (psychic DP+5 / control effects)</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Orochi defeated (or Saitama arrives) → script cleared</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VIII. Multi-Team Competition Rules</h2>
+<blockquote>
+<p>This script does not involve multi-team competition. This section is left blank.</p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>IX. Reward Settlement</h2>
+<table>
+<thead>
+<tr>
+<th>Reward Type</th>
+<th>Content</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main Quest Complete</td>
+<td>Defeat at least 1 Dragon-level monster</td>
+<td>A + 10000</td>
+</tr>
+<tr>
+<td>Optional Objective ①</td>
+<td>Defeat the Monster King Orochi</td>
+<td>S-Rank Side Quest ×1</td>
+</tr>
+<tr>
+<td>Optional Objective ②</td>
+<td>Protect 3 A-Class Heroes alive</td>
+<td>B + 3000</td>
+</tr>
+<tr>
+<td>Optional Objective ③</td>
+<td>Complete all combat before Saitama arrives</td>
+<td>extra B1</td>
+</tr>
+<tr>
+<td>Side Quest S-01</td>
+<td>Navigate for Saitama</td>
+<td>Saitama's Promise (one-time advantage)</td>
+</tr>
+<tr>
+<td>Side Quest S-02</td>
+<td>Protect KING</td>
+<td>C + 500</td>
+</tr>
+<tr>
+<td>Side Quest S-03</td>
+<td>Bang's martial-arts training</td>
+<td>Melee skill +1 (800 after return)</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Trash monster (each)</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Tiger-level monster (each)</td>
+<td>200</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Ghost-level monster (each)</td>
+<td>500</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Dragon-level monster (each)</td>
+<td>2000</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Monster King Orochi</td>
+<td>5000 + S-Rank Side Quest ×1 (Optional Objective ①)</td>
+</tr>
+<tr>
+<td>Special Achievement</td>
+<td>Cleared before Saitama arrives</td>
+<td>2000</td>
+</tr>
+<tr>
+<td>Special Achievement</td>
+<td>Clear with no team deaths</td>
+<td>1500</td>
+</tr>
+<tr>
+<td>Special Achievement</td>
+<td>KING's Approval</td>
+<td>200</td>
+</tr>
+<tr>
+<td>Roleplay</td>
+<td>At GM's discretion</td>
+<td>0–500</td>
+</tr>
+</tbody>
+</table>
+<h3>Theoretical Maximum Reward</h3>
+<blockquote>
+<p>Main Quest: A ×1 + 10000 points
+Optional ① (defeat Orochi): S ×1
+Optional ② (protect 3 A-Class heroes): B ×1 + 3000
+Optional ③ (all before Saitama): B ×1
+S-02 (KING): C ×1 + 500 / S-03 (Bang training): 800
+Kills (assume B1 5 Tiger/10 trash/2 Ghost + B2 1 Dragon/2 Ghost/5 Tiger/10 trash + B3 Orochi/Psykos/3 Tiger): 5000 (Orochi) + 2000 (Dragon) + 4×500 (Ghost) = 9000 + 10×200 (Tiger) = 2000 + 20×50 (trash) = 1000 + 2000 + 1000 = 15000 points
+Special achievements: 3700 points</p>
+<p>= <strong>S-Rank Side Quest ×1 + A + B2 + C + 33000</strong></p>
+</blockquote>
+<h3>Return Exchange (Script-Specific)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Item</th>
+<th>Cost (Side Quest + Reward Points)</th>
+<th>Effect</th>
+<th>Growth Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>King's Luck</td>
+<td>B + 2000</td>
+<td>Passive: 2× per battle, may reroll any failed check (take the better result), and gains an aura bonus on "intimidation" checks</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Monster Cells (weakened · Monsterization)</td>
+<td>B + 2000</td>
+<td>Gain monster cells: limited-time half-monster form (Strength (STR) +2, base defense +2, 2× per day, 3 Rounds each), regen +5 / Round</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Hero Association Suit</td>
+<td>B + 2000</td>
+<td>Gain enhanced hero suit: base defense +2, Charisma (CHA) +2, and a "hero recognition" passive (civilian aid DC-1)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Incineration Cannon (weakened)</td>
+<td>A + 4000</td>
+<td>Gain energy-attack ability (DP+2 / area / 2d8 energy, usable once per 3 Rounds)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Essence of Martial Arts (Water Stream Rock Smashing Fist)</td>
+<td>A + 4000</td>
+<td>Melee skill permanently +3; gain a counter-attack ability (each successful dodge allows an immediate melee counter / 1 per Round)</td>
+<td>Lv1→Lv2→Lv3: Water Stream Rock Smashing Fist → Water Stream Rock Smashing Fist·Modified → Infinite Water Flow · Instant Prison Kill</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Serious Sense</td>
+<td>A + 4000</td>
+<td>Perception (WIS) + Sense (danger awareness) permanently +2; may predict enemy attacks</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Hero Intuition</td>
+<td>S + 8000</td>
+<td>Perception (WIS) + Sense (danger awareness) permanently +2; gain "perception prediction" ability</td>
+<td>Lv1→Lv2→Lv3: Danger Foresight → Combat Instinct → "Serious" Mode Preparation</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Hero Constitution</td>
+<td>S + 8000</td>
+<td>Permanent Endurance +1, Strength (STR) +1 (breaks human limit to 6)</td>
+<td>Lv1→Lv2→Lv3: Beyond Human Limits → Monster-class → Dragon-class Physique</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Monster Association · Disaster Core</td>
+<td>AA + 10800</td>
+<td>Gain Disaster Level "Dragon" core: Hit Points (HP) +50, regen +10 / Round, at the cost of sanity erosion</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>X. Appendix</h2>
+<ul>
+<li><strong>Maps</strong>: See <code>OPM_WM-01.svg</code>, <code>OPM_EM-01.svg</code>, <code>OPM_BM-01.svg</code>, <code>OPM_BM-02.svg</code> in the <code>maps/</code> directory</li>
+<li><strong>NPC / Enemy Data</strong>: See <code>OPM_NPC名冊.xlsx</code> and <code>OPM_敵方單位名冊.xlsx</code></li>
+<li><strong>Special Rules Supplement</strong>: Saitama time pressure, hero rank bonuses, disaster levels (see "V. World Setting → World Special Rules")</li>
+<li><strong>GM Memo</strong>:</li>
+<li><strong>Common Stuck Point</strong>: Players may choose to wait for Saitama to solve everything rather than fight themselves. Solution — make clear that "Saitama's one-shot grants no kill rewards" + time pressure (Saitama may hit 100% as early as B1, leaving almost no chance to kill anything). Balance: give enough time to fight but not too much.</li>
+<li><strong>Difficulty Up</strong>: Make all Dragon-level monsters appear simultaneously (imagine Black Sperm + Psykos + Elder Centipede attacking at once), keep Psykos' command system intact (all monsters DP+1), raise Saitama's arrival rate to +15% per Round (instead of +10%).</li>
+<li><strong>Difficulty Down</strong>: Keep Bang and Genos assisting at all times, let KING's intimidation work on Dragon-level (chance to retreat), remove Saitama time pressure (but this loses the script's signature).</li>
+<li><strong>Players' Unconventional Actions</strong>: If players try to "find Saitama directly and follow him" — GM ruling: Saitama moves randomly through the underground maze, tracking difficulty DC 5 (Perception + Investigation). Even if found, Saitama asks confusedly, "Where is this? Got a supermarket sale flyer?" then keeps wandering.</li>
+<li><strong>References</strong>: One Punch Man manga chapters 78–94 (Monster Association Arc), anime Season 2 episodes 1–12.</li>
+</ul>
+<hr />
+<blockquote>
+<p><strong>Script Code</strong>: OPM
+<strong>Version</strong>: v1.0
+<strong>Format Spec</strong>: v0.4</p>
+</blockquote></section></section>
+    <section class="block"><h2>地圖（YAML＋SVG）</h2><div class="map">
+              <div class="maptitle">OPM_BM-01 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 460" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="680" height="460" fill="#1a1a2e"/>
+<rect x="20" y="20" width="640" height="420" fill="url(#grid)"/>
+<rect x="20" y="20" width="640" height="420" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="340.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">B1 Fodder Floor — Entrance Defense Battle</text>
+<text x="25" y="452" fill="#666" font-size="9">OPM_BM-01 | 16×12cells(concept) | 1cells = 5ft | total 80×60ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="177.5" y="15" text-anchor="middle" fill="#555" font-size="7">11</text>
+<text x="192.5" y="15" text-anchor="middle" fill="#555" font-size="7">12</text>
+<text x="207.5" y="15" text-anchor="middle" fill="#555" font-size="7">13</text>
+<text x="222.5" y="15" text-anchor="middle" fill="#555" font-size="7">14</text>
+<text x="237.5" y="15" text-anchor="middle" fill="#555" font-size="7">15</text>
+<text x="252.5" y="15" text-anchor="middle" fill="#555" font-size="7">16</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<text x="8" y="180.5" text-anchor="middle" fill="#555" font-size="7">K</text>
+<text x="8" y="195.5" text-anchor="middle" fill="#555" font-size="7">L</text>
+<rect x="20.0" y="20.0" width="5.0" height="420.0" rx="3" fill="#334" stroke="" stroke-width=""/>
+<text x="22.5" y="226.0" text-anchor="middle" fill="#aaa" font-size="8">L</text>
+<text x="22.5" y="240.0" text-anchor="middle" fill="#666" font-size="6">(2.5, 70.0)ft</text>
+<rect x="655.0" y="20.0" width="5.0" height="420.0" rx="3" fill="#334" stroke="" stroke-width=""/>
+<rect x="20.0" y="20.0" width="640.0" height="5.0" rx="5" fill="#334" stroke="" stroke-width=""/>
+<text x="340.0" y="18.5" text-anchor="middle" fill="#aaa" font-size="8">B1 Fodder Floor — Entrance Defense Battle</text>
+<text x="340.0" y="32.5" text-anchor="middle" fill="#666" font-size="6">(107.5, 2.5)ft</text>
+<rect x="20.0" y="435.0" width="640.0" height="5.0" rx="5" fill="#334" stroke="" stroke-width=""/>
+<text x="340.0" y="433.5" text-anchor="middle" fill="#aaa" font-size="8">Player Entry Zone</text>
+<text x="340.0" y="447.5" text-anchor="middle" fill="#666" font-size="6">(107.5, 142.5)ft</text>
+<rect x="250.0" y="20.0" width="5.0" height="200.0" rx="3" fill="#334" stroke="" stroke-width=""/>
+<rect x="430.0" y="20.0" width="5.0" height="200.0" rx="3" fill="#334" stroke="" stroke-width=""/>
+<text x="432.5" y="116.0" text-anchor="middle" fill="#aaa" font-size="8">Tiger ×2</text>
+<text x="432.5" y="130.0" text-anchor="middle" fill="#666" font-size="6">(137.5, 32.5)ft</text>
+<rect x="250.0" y="380.0" width="180.0" height="30.0" rx="5" fill="#1a2a2a" stroke="#10B981" stroke-width=""/>
+<text x="340.0" y="391.0" text-anchor="middle" fill="#aaa" font-size="8">Entrance Corridor</text>
+<text x="340.0" y="405.0" text-anchor="middle" fill="#666" font-size="6">(105.0, 125.0)ft</text>
+<rect x="250.0" y="410.0" width="180.0" height="25.0" rx="5" fill="none" stroke="#00FF88" stroke-width="1.5"/>
+<text x="340.0" y="418.5" text-anchor="middle" fill="#aaa" font-size="8">Player Entry Zone</text>
+<text x="340.0" y="432.5" text-anchor="middle" fill="#666" font-size="6">(105.0, 135.0)ft</text>
+<rect x="100.0" y="100.0" width="480.0" height="240.0" rx="3" fill="#0d0d1a" stroke="#4a2a6a" stroke-width=""/>
+<rect x="120.0" y="180.0" width="60.0" height="30.0" rx="3" fill="#334" stroke="#667" stroke-width=""/>
+<text x="150.0" y="191.0" text-anchor="middle" fill="#aaa" font-size="8">Rubble Pile</text>
+<text x="150.0" y="205.0" text-anchor="middle" fill="#666" font-size="6">(45.0, 60.0)ft</text>
+<rect x="450.0" y="160.0" width="60.0" height="30.0" rx="3" fill="#334" stroke="#667" stroke-width=""/>
+<text x="480.0" y="171.0" text-anchor="middle" fill="#aaa" font-size="8">Rebar</text>
+<text x="480.0" y="185.0" text-anchor="middle" fill="#666" font-size="6">(155.0, 50.0)ft</text>
+<rect x="280.0" y="300.0" width="60.0" height="20.0" rx="5" fill="#334" stroke="#667" stroke-width=""/>
+<text x="310.0" y="306.0" text-anchor="middle" fill="#aaa" font-size="8">Container</text>
+<text x="310.0" y="320.0" text-anchor="middle" fill="#666" font-size="6">(95.0, 97.5)ft</text>
+<rect x="580.0" y="300.0" width="50.0" height="50.0" rx="3" fill="#1a2a20" stroke="#10B981" stroke-width="2"/>
+<text x="605.0" y="321.0" text-anchor="middle" fill="#aaa" font-size="8">Elevator ↓B2</text>
+<text x="605.0" y="335.0" text-anchor="middle" fill="#666" font-size="6">(192.5, 102.5)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L4/OPM-OnePunchMa-怪人協會殲滅戰/en/maps/OPM_BM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L4/OPM-OnePunchMa-怪人協會殲滅戰/en/maps/OPM_BM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">OPM_BM-02 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 460" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="680" height="460" fill="#1a1a2e"/>
+<rect x="20" y="20" width="640" height="420" fill="url(#grid)"/>
+<rect x="20" y="20" width="640" height="420" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="340.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">B3 Throne Floor — Monster King Orochi Final Decisive Battle</text>
+<text x="25" y="452" fill="#666" font-size="9">OPM_BM-02 | 16×12cells(concept) | 1cells = 5ft | total 80×60ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="177.5" y="15" text-anchor="middle" fill="#555" font-size="7">11</text>
+<text x="192.5" y="15" text-anchor="middle" fill="#555" font-size="7">12</text>
+<text x="207.5" y="15" text-anchor="middle" fill="#555" font-size="7">13</text>
+<text x="222.5" y="15" text-anchor="middle" fill="#555" font-size="7">14</text>
+<text x="237.5" y="15" text-anchor="middle" fill="#555" font-size="7">15</text>
+<text x="252.5" y="15" text-anchor="middle" fill="#555" font-size="7">16</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<text x="8" y="180.5" text-anchor="middle" fill="#555" font-size="7">K</text>
+<text x="8" y="195.5" text-anchor="middle" fill="#555" font-size="7">L</text>
+<rect x="20.0" y="20.0" width="5.0" height="420.0" rx="3" fill="#334" stroke="" stroke-width=""/>
+<text x="22.5" y="226.0" text-anchor="middle" fill="#aaa" font-size="8">L</text>
+<text x="22.5" y="240.0" text-anchor="middle" fill="#666" font-size="6">(2.5, 70.0)ft</text>
+<rect x="655.0" y="20.0" width="5.0" height="420.0" rx="3" fill="#334" stroke="" stroke-width=""/>
+<rect x="20.0" y="20.0" width="640.0" height="5.0" rx="5" fill="#334" stroke="" stroke-width=""/>
+<text x="340.0" y="18.5" text-anchor="middle" fill="#aaa" font-size="8">B3 Throne Floor — Monster King Orochi Final Decisive Battle</text>
+<text x="340.0" y="32.5" text-anchor="middle" fill="#666" font-size="6">(107.5, 2.5)ft</text>
+<rect x="20.0" y="435.0" width="640.0" height="5.0" rx="5" fill="#334" stroke="" stroke-width=""/>
+<text x="340.0" y="433.5" text-anchor="middle" fill="#aaa" font-size="8">Tornado(5RoundEntry)</text>
+<text x="340.0" y="447.5" text-anchor="middle" fill="#666" font-size="6">(107.5, 142.5)ft</text>
+<rect x="240.0" y="80.0" width="200.0" height="80.0" rx="3" fill="#2E1A3E" stroke="#FD0304" stroke-width="3"/>
+<text x="340.0" y="116.0" text-anchor="middle" fill="#aaa" font-size="8">Monster King Orochi</text>
+<text x="340.0" y="130.0" text-anchor="middle" fill="#666" font-size="6">(107.5, 32.5)ft</text>
+<rect x="100.0" y="350.0" width="100.0" height="40.0" rx="3" fill="#FF4400" stroke="#FF4400" stroke-width=""/>
+<text x="150.0" y="366.0" text-anchor="middle" fill="#aaa" font-size="8">Lava Pool</text>
+<text x="150.0" y="380.0" text-anchor="middle" fill="#666" font-size="6">(42.5, 117.5)ft</text>
+<rect x="480.0" y="350.0" width="100.0" height="40.0" rx="3" fill="#FF4400" stroke="#FF4400" stroke-width=""/>
+<text x="530.0" y="366.0" text-anchor="middle" fill="#aaa" font-size="8">Lava Pool</text>
+<text x="530.0" y="380.0" text-anchor="middle" fill="#666" font-size="6">(172.5, 117.5)ft</text>
+<rect x="40.0" y="380.0" width="100.0" height="40.0" rx="3" fill="#1a3020" stroke="#10B981" stroke-width=""/>
+<text x="90.0" y="396.0" text-anchor="middle" fill="#aaa" font-size="8">Player Entry</text>
+<text x="90.0" y="410.0" text-anchor="middle" fill="#666" font-size="6">(22.5, 127.5)ft</text>
+<rect x="400.0" y="380.0" width="100.0" height="40.0" rx="3" fill="#1a3020" stroke="#3B82F6" stroke-width=""/>
+<text x="450.0" y="396.0" text-anchor="middle" fill="#aaa" font-size="8">Genos / Bang Reinforcements</text>
+<text x="450.0" y="410.0" text-anchor="middle" fill="#666" font-size="6">(142.5, 127.5)ft</text>
+<rect x="240.0" y="380.0" width="100.0" height="40.0" rx="3" fill="#1a3020" stroke="#10B981" stroke-width=""/>
+<text x="290.0" y="396.0" text-anchor="middle" fill="#aaa" font-size="8">Tornado(5RoundEntry)</text>
+<text x="290.0" y="410.0" text-anchor="middle" fill="#666" font-size="6">(92.5, 127.5)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L4/OPM-OnePunchMa-怪人協會殲滅戰/en/maps/OPM_BM-02.yaml" download>yaml</a> <a href="../../assets/scripts/L4/OPM-OnePunchMa-怪人協會殲滅戰/en/maps/OPM_BM-02.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">OPM_EM-01 <span class="maptype">探索地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" font-family="Microsoft JhengHei, sans-serif">
+<rect width="900" height="640" fill="#1a1a2e"/>
+<text x="450.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">Monster Association Underground Base — Exploration Map</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 1</text>
+<rect x="20" y="0.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="900.0" height="640.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<text x="450.0" y="320.0" text-anchor="middle" fill="#aaa" font-size="9">A-Class Hero Protection Point</text>
+<rect x="20.0" y="0.0" width="860.0" height="140.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="70.0" text-anchor="middle" fill="#aaa" font-size="9">Monster Association Underground Base — Exploration Map</text>
+<rect x="0.0" y="0.0" width="900.0" height="640.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<text x="450.0" y="320.0" text-anchor="middle" fill="#aaa" font-size="9">A-Class Hero Protection Point</text>
+<rect x="20.0" y="60.0" width="860.0" height="140.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="130.0" text-anchor="middle" fill="#aaa" font-size="9">(Search Point)</text>
+<rect x="35.0" y="72.0" width="140.0" height="50.0" rx="3.0" fill="#1a2a2a" stroke="#10B981" stroke-width=""/>
+<text x="105.0" y="97.0" text-anchor="middle" fill="#aaa" font-size="9">Entrance Hall</text>
+<rect x="200.0" y="72.0" width="120.0" height="50.0" rx="3.0" fill="#301520" stroke="#EF4444" stroke-width=""/>
+<text x="260.0" y="97.0" text-anchor="middle" fill="#aaa" font-size="9">Tiger-class Guards ×5</text>
+<rect x="350.0" y="72.0" width="100.0" height="50.0" rx="3.0" fill="#1a1030" stroke="#6D28D9" stroke-width=""/>
+<text x="400.0" y="97.0" text-anchor="middle" fill="#aaa" font-size="9">Supply Storage Room</text>
+<rect x="480.0" y="72.0" width="80.0" height="50.0" rx="3.0" fill="#162040" stroke="#F59E0B" stroke-width=""/>
+<text x="520.0" y="97.0" text-anchor="middle" fill="#aaa" font-size="9">Elevator</text>
+<rect x="590.0" y="72.0" width="140.0" height="50.0" rx="3.0" fill="#301520" stroke="#EF4444" stroke-width=""/>
+<text x="660.0" y="97.0" text-anchor="middle" fill="#aaa" font-size="9">Monitoring Room</text>
+<rect x="760.0" y="72.0" width="100.0" height="50.0" rx="3.0" fill="#1a1030" stroke="#6D28D9" stroke-width=""/>
+<text x="810.0" y="97.0" text-anchor="middle" fill="#aaa" font-size="9">Ventilation Duct</text>
+<text x="20" y="225.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 2</text>
+<rect x="20" y="230.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="230.0" width="860.0" height="140.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="300.0" text-anchor="middle" fill="#aaa" font-size="9">A-Class Hero Protection Point</text>
+<rect x="20.0" y="230.0" width="860.0" height="170.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="315.0" text-anchor="middle" fill="#aaa" font-size="9">A-Class Hero Protection Point</text>
+<rect x="35.0" y="244.0" width="130.0" height="50.0" rx="3.0" fill="#1a1030" stroke="#6D28D9" stroke-width=""/>
+<text x="100.0" y="269.0" text-anchor="middle" fill="#aaa" font-size="9">Executive Conference Room</text>
+<rect x="190.0" y="244.0" width="130.0" height="50.0" rx="3.0" fill="#301520" stroke="#FD0304" stroke-width=""/>
+<text x="255.0" y="269.0" text-anchor="middle" fill="#aaa" font-size="9">Black SpermZone</text>
+<rect x="345.0" y="244.0" width="130.0" height="50.0" rx="3.0" fill="#301520" stroke="#FD0304" stroke-width=""/>
+<text x="410.0" y="269.0" text-anchor="middle" fill="#aaa" font-size="9">Wandering EmperorZone</text>
+<rect x="500.0" y="244.0" width="80.0" height="50.0" rx="3.0" fill="#162040" stroke="#F59E0B" stroke-width=""/>
+<text x="540.0" y="269.0" text-anchor="middle" fill="#aaa" font-size="9">Elevator</text>
+<rect x="610.0" y="244.0" width="130.0" height="50.0" rx="3.0" fill="#301520" stroke="#FD0304" stroke-width=""/>
+<text x="675.0" y="269.0" text-anchor="middle" fill="#aaa" font-size="9">Elder CentipedeZone</text>
+<rect x="768.0" y="244.0" width="95.0" height="50.0" rx="3.0" fill="#1a3020" stroke="#00FF88" stroke-width=""/>
+<text x="815.5" y="269.0" text-anchor="middle" fill="#aaa" font-size="9">Safe Room</text>
+<rect x="35.0" y="310.0" width="130.0" height="40.0" rx="3.0" fill="#1a3020" stroke="#10B981" stroke-width=""/>
+<text x="100.0" y="330.0" text-anchor="middle" fill="#aaa" font-size="9">Bang / Genos Position</text>
+<rect x="190.0" y="310.0" width="130.0" height="40.0" rx="3.0" fill="#1a3020" stroke="#10B981" stroke-width=""/>
+<text x="255.0" y="330.0" text-anchor="middle" fill="#aaa" font-size="9">KINGPosition</text>
+<rect x="345.0" y="310.0" width="130.0" height="40.0" rx="3.0" fill="#1a2020" stroke="#888" stroke-width=""/>
+<text x="410.0" y="330.0" text-anchor="middle" fill="#aaa" font-size="9">A-Class Hero Protection Point</text>
+<text x="20" y="425.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 3</text>
+<rect x="20" y="430.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="430.0" width="860.0" height="140.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="430.0" width="860.0" height="110.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="35.0" y="442.0" width="200.0" height="50.0" rx="3.0" fill="#2E1A3E" stroke="#FD0304" stroke-width="2"/>
+<text x="135.0" y="467.0" text-anchor="middle" fill="#aaa" font-size="9">Monster King Orochi's Throne</text>
+<rect x="280.0" y="442.0" width="150.0" height="50.0" rx="3.0" fill="#301520" stroke="#EF4444" stroke-width=""/>
+<text x="355.0" y="467.0" text-anchor="middle" fill="#aaa" font-size="9">SykesObservation Room</text>
+<rect x="470.0" y="442.0" width="120.0" height="50.0" rx="3.0" fill="#1a3020" stroke="#10B981" stroke-width=""/>
+<text x="530.0" y="467.0" text-anchor="middle" fill="#aaa" font-size="9">Hero Breakthrough Point</text>
+<rect x="630.0" y="442.0" width="120.0" height="50.0" rx="3.0" fill="#1a2020" stroke="#FFAA00" stroke-width=""/>
+<text x="690.0" y="467.0" text-anchor="middle" fill="#aaa" font-size="9">Saitama Arrival Point</text>
+<rect x="760.0" y="442.0" width="100.0" height="50.0" rx="4.0" fill="#111" stroke="#FF4444" stroke-width=""/>
+<text x="810.0" y="467.0" text-anchor="middle" fill="#aaa" font-size="9">Saitama Counter</text>
+<text x="20" y="580.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 4</text>
+<rect x="20" y="585.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="585.0" width="860.0" height="40.0" rx="4.0" fill="#111" stroke="#333" stroke-width=""/>
+<rect x="20" y="585" width="860" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="610" fill="#aaa" font-size="9">OPM_EM-01 | ExplorationMap | B1~B3 Monster Association Underground Base</text>
+<text x="205" y="610" fill="#aaa" font-size="9">OPM_EM-01 | ExplorationMap</text>
+<text x="20" y="630" fill="#666" font-size="9">OPM_EM-01 | ExplorationMap </text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L4/OPM-OnePunchMa-怪人協會殲滅戰/en/maps/OPM_EM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L4/OPM-OnePunchMa-怪人協會殲滅戰/en/maps/OPM_EM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">OPM_WM-01 <span class="maptype">世界地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="800" height="600" fill="url(#wmgrid)"/>
+<rect x="50.0" y="40.0" width="700.0" height="400.0" rx="5" fill="#151530" stroke="#6D28D9" stroke-width="2"/>
+<rect x="530.0" y="60.0" width="200.0" height="100.0" rx="5" fill="#1a2a2a" stroke="#3B82F6" stroke-width="2"/>
+<text x="630.0" y="110.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">(Start Point / A-Class Temporary Hero Registration)</text>
+<rect x="200.0" y="340.0" width="100.0" height="25.0" rx="5" fill="#301520" stroke="#EF4444" stroke-width="2"/>
+<text x="250.0" y="352.5" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">B1 Fodder Floor</text>
+<rect x="320.0" y="340.0" width="80.0" height="25.0" rx="5" fill="#301520" stroke="#FD0304" stroke-width="2"/>
+<text x="360.0" y="352.5" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">B2 Executive Floor</text>
+<rect x="420.0" y="340.0" width="100.0" height="25.0" rx="5" fill="#301520" stroke="#FD0304" stroke-width="2"/>
+<text x="470.0" y="352.5" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">B3 Throne Floor</text>
+<rect x="80.0" y="160.0" width="120.0" height="70.0" rx="5" fill="#1a2a1a" stroke="#10B981" stroke-width="2"/>
+<text x="140.0" y="195.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Surface Entrance A</text>
+<rect x="80.0" y="300.0" width="120.0" height="70.0" rx="5" fill="#1a2a1a" stroke="#10B981" stroke-width="2"/>
+<text x="140.0" y="335.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Surface Entrance B</text>
+<rect x="550.0" y="300.0" width="120.0" height="70.0" rx="5" fill="#1a2a1a" stroke="#10B981" stroke-width="2"/>
+<text x="610.0" y="335.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Surface Entrance C</text>
+<line x1="140.0" y1="370.0" x2="230.0" y2="370.0" stroke="#C084FC" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="610.0" y1="370.0" x2="500.0" y2="370.0" stroke="#C084FC" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="600.0" y1="230.0" x2="400.0" y2="310.0" stroke="#FFAA00" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="70.0" y1="555.0" x2="100.0" y2="555.0" stroke="#C084FC" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<ellipse cx="360.0" cy="310.0" rx="180.0" ry="110.0" fill="#1a0810" opacity="0.1" stroke="#FF4444" stroke-width="1"/>
+<text x="450.0" y="310.0" fill="#FF4444" font-size="9">B2 Executive Floor</text>
+<circle cx="630.0" cy="200.0" r="15.0" fill="none" stroke="#FFAA00" stroke-width="2" stroke-dasharray="4,2"/>
+<text x="630.0" y="180.0" text-anchor="middle" fill="#FFAA00" font-size="10" font-weight="bold">★ ★ Saitama Random Position</text>
+<rect x="630" y="20" width="150" height="92" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="705" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Legend</text>
+<text x="640" y="60" fill="#aaa" font-size="9">★ Saitama Random Position</text>
+<text x="640" y="76" fill="#aaa" font-size="9">(Start Point / A-Class Temporary Hero Registration)</text>
+<text x="640" y="92" fill="#aaa" font-size="9">Surface Entrance C</text>
+<text x="640" y="108" fill="#aaa" font-size="9">Saitama Random Position</text>
+<text x="20" y="585" fill="#666" font-size="9">OPM_WM-01 | largeRangeMap | OPM_WM-01 | largeRangeMap | OPM_WM-01 | largeRangeMap | Z-CityRegion (1cells ≈ 200m)</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L4/OPM-OnePunchMa-怪人協會殲滅戰/en/maps/OPM_WM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L4/OPM-OnePunchMa-怪人協會殲滅戰/en/maps/OPM_WM-01.svg" download>svg</a></p>
+            </div></section>
+    <section class="block"><h2>概念圖</h2><div class="gallery"><a href="../../assets/scripts/L4/OPM-OnePunchMa-怪人協會殲滅戰/images/enemy_01_orochi.png" target="_blank"><img src="../../assets/scripts/L4/OPM-OnePunchMa-怪人協會殲滅戰/images/enemy_01_orochi.png" alt="enemy_01_orochi.png"></a><a href="../../assets/scripts/L4/OPM-OnePunchMa-怪人協會殲滅戰/images/npc_01_saitama.png" target="_blank"><img src="../../assets/scripts/L4/OPM-OnePunchMa-怪人協會殲滅戰/images/npc_01_saitama.png" alt="npc_01_saitama.png"></a><a href="../../assets/scripts/L4/OPM-OnePunchMa-怪人協會殲滅戰/images/npc_02_OPM_01.png" target="_blank"><img src="../../assets/scripts/L4/OPM-OnePunchMa-怪人協會殲滅戰/images/npc_02_OPM_01.png" alt="npc_02_OPM_01.png"></a><a href="../../assets/scripts/L4/OPM-OnePunchMa-怪人協會殲滅戰/images/scene_01_orochi_throne.png" target="_blank"><img src="../../assets/scripts/L4/OPM-OnePunchMa-怪人協會殲滅戰/images/scene_01_orochi_throne.png" alt="scene_01_orochi_throne.png"></a><a href="../../assets/scripts/L4/OPM-OnePunchMa-怪人協會殲滅戰/images/scene_S02_中央通道增援截擊.png" target="_blank"><img src="../../assets/scripts/L4/OPM-OnePunchMa-怪人協會殲滅戰/images/scene_S02_中央通道增援截擊.png" alt="scene_S02_中央通道增援截擊.png"></a><a href="../../assets/scripts/L4/OPM-OnePunchMa-怪人協會殲滅戰/images/scene_S03_英雄友軍的會合.png" target="_blank"><img src="../../assets/scripts/L4/OPM-OnePunchMa-怪人協會殲滅戰/images/scene_S03_英雄友軍的會合.png" alt="scene_S03_英雄友軍的會合.png"></a><a href="../../assets/scripts/L4/OPM-OnePunchMa-怪人協會殲滅戰/images/scene_S04_龍級BOSS戰選擇路線.png" target="_blank"><img src="../../assets/scripts/L4/OPM-OnePunchMa-怪人協會殲滅戰/images/scene_S04_龍級BOSS戰選擇路線.png" alt="scene_S04_龍級BOSS戰選擇路線.png"></a><a href="../../assets/scripts/L4/OPM-OnePunchMa-怪人協會殲滅戰/images/scene_S05_降臨王座大蛇的挑戰.png" target="_blank"><img src="../../assets/scripts/L4/OPM-OnePunchMa-怪人協會殲滅戰/images/scene_S05_降臨王座大蛇的挑戰.png" alt="scene_S05_降臨王座大蛇的挑戰.png"></a></div></section>
+    </main>
+<footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

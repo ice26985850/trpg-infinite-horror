@@ -1,0 +1,1467 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tokyo Ghoul: Ward 20 Uprising | TG-TokyoGhoul-20區動亂 | Infinite Terror TRPG Scripts</title>
+<link rel="stylesheet" href="../../assets/style.css"></head>
+<body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../../index.html">中文</a></header>
+<div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
+<main class="container"><h1>Tokyo Ghoul: Ward 20 Uprising</h1>
+    <p class="meta">Code: TG-TokyoGhoul-20區動亂 ｜ Source: Tokyo Ghoul (《東京喰種》) ｜ Difficulty: ★★★ ｜ Players: 3–5 ｜ Duration: 5–7 hours / 2–3 sessions ｜ Type: Investigation / Combat / Faction Choice</p>
+    <p class="nav"><a href="../../index.html">← 劇本總覽</a> ｜ <a href="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/en/TG-TokyoGhoul-20區動亂_劇本.md" download>劇本 MD</a> ｜ <a href="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/en/TG_NPC名冊.xlsx" download>NPC 名冊</a> ｜ <a href="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/en/TG_敵方單位名冊.xlsx" download>敵方名冊</a> ｜ <a href="../../assets/L3_TG-TokyoGhoul-20區動亂_all_en.zip">下載全部（zip）</a></p>
+    <section class="block content"><section class="chap"><h2>一、基本資訊</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Script Title</td>
+<td>Tokyo Ghoul: Ward 20 Uprising</td>
+</tr>
+<tr>
+<td>Source Film</td>
+<td>Tokyo Ghoul (《東京喰種》)</td>
+</tr>
+<tr>
+<td>Difficulty Rating</td>
+<td>★★★</td>
+</tr>
+<tr>
+<td>Suggested Players</td>
+<td>3–5</td>
+</tr>
+<tr>
+<td>Estimated Duration</td>
+<td>5–7 hours / 2–3 sessions</td>
+</tr>
+<tr>
+<td>Prerequisites</td>
+<td>Recommended at least 1 script of ★★★ or below; Reincarnators' (輪迴者) average attribute (ATT) no lower than 4</td>
+</tr>
+<tr>
+<td>Script Type</td>
+<td>Investigation / Combat / Faction Choice</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<details class="gm"><summary>🎭 GM 限定：二、劇情概要（GM 限定）</summary><h2>二、劇情概要（GM 限定）</h2>
+<h3>One-Line Summary</h3>
+<blockquote>
+<p>The Reincarnators (輪迴者) are dropped into Ward 20 as temporary CCG investigators. Aogiri Tree is about to launch an extermination campaign; all-out Ghoul-vs-human conflict is imminent. Amid clashes of kagune and quinque, you must choose—stand with humanity to destroy the Ghouls, or betray the CCG once you learn the truth?</p>
+</blockquote>
+<h3>Full Story Background</h3>
+<p>The world is near-future Tokyo. Human society appears peaceful on the surface, but beneath it lurks a subhuman species that feeds on human flesh—the Ghoul (喰種). Ghouls possess physical prowess far beyond humans and a biological weapon called the "kagune" (赫子), and can survive only on human flesh and coffee. The CCG (Commission of Counter Ghoul / Ghoul Countermeasures Bureau) is the government agency dedicated to fighting Ghouls, wielding weapons called "quinque" (庫因克) forged from Ghoul kagune.</p>
+<p>Ward 20 is among Tokyo's most Ghoul-active districts—calm on the surface, but with undercurrents surging below. The Ghoul militant organization "Aogiri Tree" (青桐樹) plans to launch an extermination campaign here, intending to destroy the CCG's Ward 20 branch.</p>
+<p>The Reincarnators (輪迴者) enter 48 hours before Aogiri Tree's campaign. The CCG headquarters temporarily assigns them as "Special Investigators" to the Ward 20 branch, to help suppress the coming Ghoul offensive. But as the investigation deepens, players will discover the CCG is not monolithic—some investigators are more terrifying than the Ghouls.</p>
+<p><strong>Core Conflict</strong>: The Reincarnators (輪迴者) must navigate among three factions—the CCG (human order), Aogiri Tree (Ghoul radicals), and Anteiku (Ghoul moderates / antique coffee shop).</p>
+<h3>Story Structure Type</h3>
+<p><strong>Hybrid</strong>: Opens with free exploration (Ward 20 street patrol, clue investigation) → mid-game act-by-act progression (Aogiri attack, sewer chase) → finale stronghold battle.</p>
+<hr /></details>
+<section class="chap"><h2>三、主神任務</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mission Brief</td>
+<td>"Survive in Ward 20 for 7 days. Take part in Aogiri Tree's extermination campaign and kill at least 1 S-rated Ghoul."</td>
+</tr>
+<tr>
+<td>Main Quest</td>
+<td>Survive 168 hours (7 days), and during Aogiri Tree's campaign the team must collectively kill at least 1 S-rate or higher Ghoul</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>C+2500</td>
+</tr>
+<tr>
+<td>Failure Condition</td>
+<td>Total party wipe / fail to kill an S-rated Ghoul within 7 days</td>
+</tr>
+<tr>
+<td>Failure Penalty</td>
+<td>Erasure</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>① Kill 3 different Ghoul types (any 3 of Ukaku/Koukaku/Rinkaku/Bikaku): extra C1 <br>② Protect civilian evacuation: 300 each; protecting 5 cumulative grants extra D1 (cap 5)</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>四、支線劇情</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest ID</td>
+<td>S-01</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Investigate Aogiri Stronghold</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Discover abnormal Ghoul activity while patrolling Ward 20 (Perception + Investigation check, DC 3), or gain intel from Anteiku coffee shop</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Infiltrate Aogiri Tree's temporary stronghold in Ward 20's abandoned factory; obtain their extermination-campaign plan documents</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Complete within 72 hours (Aogiri relocates after T+72)</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>800 + unlocks detailed intel on S-rated Ghoul Jason (including weaknesses). If intel is given to CCG, gain extra quinque enhancement permit (attack check +1)</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Supports—learn Aogiri's troop deployment early; choose favorable tactical position in the campaign</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>May encounter Anteiku members (Kaneki Ken or Touka Kirishima) during infiltration. Can merge with S-03—if you help Ghouls against corrupt investigators, you gain stronghold intel from the Ghoul side as reward</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest ID</td>
+<td>S-02</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Escort Civilians Out of Combat Zone</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Auto-triggers after Aogiri attack begins (T+48)</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Ward 20 commercial street drawn into the combat zone. Escort trapped civilians (5–8) through the zone to the CCG safe shelter (about 1.5 km away)</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>6 hours (T+48 to T+54)</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>300 per civilian escorted alive. All alive: extra 500.</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Supports—counts toward optional objective ②</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Random Ghoul encounters on route. Panicking civilians attract Ghoul attention (noise radius 30 m). Use quinque or force to maintain civilian order</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest ID</td>
+<td>S-03</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Oppose Corrupt CCG Investigator</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Investigation reveals a senior CCG investigator (Shinohara Special-Class) conducting inhumane experiments: weaponizing live-captured Ghouls into quinque, and massacring知情 civilians to destroy evidence</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Choose: (A) Report the corrupt investigator (gather evidence, Intellect + Investigation check, DC 4), assist CCG internal investigation → gain official CCG investigator status and equipment resupply (B) Help the Ghoul side expose the truth, confront the corrupt investigator directly → shift to Ghoul faction, gain Anteiku's trust, can recruit Kaneki Ken or Touka Kirishima to fight</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Must choose before T+96 hours</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>(A) CCG trust +50, quinque enhancement ×1 (B) Anteiku favor +80, kagune analysis data (attack DP+1 vs Ghoul enemies)</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Core branch—determines final stronghold battle's faction and available resources</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>This is the script's moral turning point. Choosing A or B does not affect main-quest completion (just kill the S-rated Ghoul), but affects final battle difficulty and experience</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>五、世界設定</h2>
+<h3>Timeline</h3>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T+0 hours</td>
+<td>Reincarnators (輪迴者) report to CCG Ward 20 branch. Receive briefing and basic quinque training</td>
+</tr>
+<tr>
+<td>T+12 hours</td>
+<td>Complete first patrol. Choose investigation route: commercial street (dense civilians) / abandoned factory zone (Ghoul signs) / residential zone (Anteiku location)</td>
+</tr>
+<tr>
+<td>T+24 hours</td>
+<td>First Ghoul encounter (forced combat). Different Ghoul types by route chosen</td>
+</tr>
+<tr>
+<td>T+36 hours</td>
+<td>CCG discovers intel leak—someone leaked Ward 20 branch defense layout to Aogiri</td>
+</tr>
+<tr>
+<td>T+48 hours</td>
+<td><strong>Aogiri Tree launches attack</strong>. Many Ghouls assault CCG Ward 20 branch and surrounding commercial zone. S-02 triggers</td>
+</tr>
+<tr>
+<td>T+60 hours</td>
+<td>First attack wave ends. CCG Ward 20 branch partially destroyed. Aogiri retreat route found in sewers</td>
+</tr>
+<tr>
+<td>T+72 hours</td>
+<td>Aogiri stronghold location confirmed (if S-01 done, advanced to T+48). Anteiku members begin acting</td>
+</tr>
+<tr>
+<td>T+96 hours</td>
+<td>CCG main force (including Arima Kishou, Amon Koutarou) arrives at Ward 20 as reinforcement. S-rated Ghoul Jason sighted</td>
+</tr>
+<tr>
+<td>T+120 hours</td>
+<td>CCG launches counteroffensive—"Aogiri Extermination Campaign" officially begins</td>
+</tr>
+<tr>
+<td>T+144 hours</td>
+<td>Final stronghold battle. Duel with S-rated Ghoul</td>
+</tr>
+<tr>
+<td>T+168 hours</td>
+<td>Mission deadline. If S-rated Ghoul killed, wristwatch shows extraction-point coordinates</td>
+</tr>
+</tbody>
+</table>
+<h3>Key Locations</h3>
+<h4>Location A: CCG Ward 20 Branch (Starting Point)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>CCG Ward 20 Branch Building</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A seven-story government building, drab and plain outside. The first-floor lobby has an RC-cell detection gate (all entrants must pass). Basement holds the quinque armory and detention facilities. Wanted posters of Ghouls of all ratings line the walls.</td>
+</tr>
+<tr>
+<td>Explorable Content</td>
+<td>Quinque armory (initial 1 basic quinque issued), briefing room (mission intel), comms room (contact other branches), basement detention (holds 1 captured low-rate Ghoul; Intellect + Sense check DC 2 for intel), archive room (investigate CCG internal records)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Initially safe. After T+48 attacked by Aogiri (many Ghouls flood floors 1–3)</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>Front door → Ward 20 main street (B), underground passage → sewer entrance (D), rooftop → overlook surrounding area</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>EM-01 (CCG branch floors 1–3 floor plan)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location B: Ward 20 Commercial Street</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Ward 20 Commercial Street (Heiwa-dori)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A bustling shopping street mixing izakaya, bookstores, convenience stores, and small apartments. Daytime liveliness hides nighttime danger. RC-cell detection scanners occasionally seen at street corners.</td>
+</tr>
+<tr>
+<td>Explorable Content</td>
+<td>Various shops (food, daily goods), apartment blocks (civilian shelter), alleys (Ghouls or informants may lurk in shadows), convenience store (civilian gathering point when S-02 triggers)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Night: 30% chance of 1d2 normal Ghouls (foraging). T+48: combat zone, 1d3 Ghouls per block</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>North → CCG branch (A), East → residential zone (C), west alleys → abandoned factory zone direction</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>EM-01 (marks commercial street and surroundings)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location C: Residential Zone / Anteiku</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Residential Zone · Anteiku Coffee (古董咖啡廳)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A quiet residential street on Ward 20's edge. An old-fashioned coffee shop named "Anteiku" hides at the corner. Push the door; coffee aroma hits you. The manager is a kindly middle-aged man; the servers look like ordinary college students. But look closer—they have no RC-cell detection gate pass records.</td>
+</tr>
+<tr>
+<td>Explorable Content</td>
+<td>Inside café (open days): talk with manager Yoshimura (Perception + Sense check DC 3 to sense true identity), interact with Kaneki Ken and Touka Kirishima. Second floor is Ghoul safe house (not public; enter only after gaining trust)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>If Reincarnators (輪迴者) enter hostile: all are Ghouls (★★★–★★★★). Peaceful negotiation gains intel and support</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>South → commercial street (B), underground passage → sewer network</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>EM-01 (residential zone location marked)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location D: Sewer Network</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Ward 20 Sewer Network</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A dark, damp underground labyrinth of intersecting concrete tunnels. Occasionally kagune-scarred claw marks on the walls. This is the Ghouls' main movement route—no RC gates, no sunlight. Only dripping water and distant low breathing.</td>
+</tr>
+<tr>
+<td>Explorable Content</td>
+<td>Ghoul activity traces (Perception + Investigation check DC 2: track movement direction), abandoned supply crates (random loot), hidden forks leading to Aogiri stronghold</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Check every 30 min exploration: 1-3 no encounter, 4-5 normal Ghoul 1d2, 6 Aogiri patrol (★★×2)</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>Connects CCG branch (A), residential (C), abandoned factory zone → Aogiri stronghold (E)</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>BM-02 (sewer chase battle)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location E: Abandoned Factory / Aogiri Stronghold</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Abandoned Chemical Factory — Aogiri Tree Ward 20 Temporary Stronghold</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A three-story abandoned chemical factory in Ward 20's industrial zone. Graffiti covers the outer walls; all windows shattered. Inside: warehouse zone, office zone, and underground lab (blood-processing facility). Aogiri members gather here, preparing the extermination campaign.</td>
+</tr>
+<tr>
+<td>Explorable Content</td>
+<td>S-01 objective (campaign plan documents in second-floor office), blood vault (Ghoul food supply), armory (Aogiri reserve weapons)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Outside patrol: Ghoul ×3 (★★). Inside: Aogiri members ×4 (★★–★★★). Underground lab: S-rated Ghoul Jason (★★★★)—final battle</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>Via sewers (D) connects all over Ward 20. Surface route requires breaching the industrial-zone wall</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>BM-01 (factory stronghold battle)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location F: CCG Headquarters (Central Ward)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>CCG Headquarters Building (Central Ward)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A grand building in central Tokyo, the CCG's core command hub. Heavily guarded, three RC-cell detection gates. Special-Class investigator nameplates on the wall—Arima Kishou ranked first. Investigators hurry down corridors; tension fills the air.</td>
+</tr>
+<tr>
+<td>Explorable Content</td>
+<td>Reachable after T+96. Can request advanced quinque (needs CCG trust 50+), meet Arima Kishou or Amon Koutarou (gain tactical intel and support)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>No combat (safe zone)</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>Armored personnel carriers go straight to Ward 20 front line.</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>WM-01 (all Tokyo, marks CCG HQ and Ward 20)</td>
+</tr>
+</tbody>
+</table>
+<h3>World Special Rules</h3>
+<ul>
+<li><strong>Four Kagune Types</strong>: Ghouls divide by kagune (赫子) into four types—<strong>Ukaku (羽赫)</strong>: speed type, ranged kagune shots, Agility +2 but Endurance check DC+1; <strong>Koukaku (甲赫)</strong>: defense type, heavy armored kagune, base defense +3 but initiative −2; <strong>Rinkaku (鱗赫)</strong>: strength type, tentacle kagune, damage +2 but own defense −2; <strong>Bikaku (尾赫)</strong>: balanced type, tail kagune, no bonus or penalty</li>
+<li><strong>Quinque Weapon System</strong>: Anti-Ghoul weapons forged from Ghoul kagune. Deal <strong>×2 damage</strong> to Ghoul-type enemies. Quinque tiers: C-tier (base attack DP+1, initial issue), B-tier (damage +1d6, needs CCG trust 30), A-tier (attack DP+3 and damage ×1.5, needs CCG trust 60 or promotion after killing 10 Ghouls)</li>
+<li><strong>RC-Cell Detection Gate</strong>: At all CCG facility entrances. Triggers alarm when a Ghoul passes (unless Composure + Conceal check DC 4 to suppress RC-cell activity). Reincarnators (輪迴者) can be flagged "non-human" by the gate (if carrying live Ghoul tissue or kagune samples, need DC 3 conceal check)</li>
+<li><strong>Ghoul Regeneration</strong>: All Ghouls auto-recover 1d6 HP at the start of each round, unless hit by quinque or RC-cell inhibitor (the round they are hit by quinque does not trigger regeneration)</li>
+<li><strong>Cannibal Instinct</strong>: When a Ghoul's HP drops below 30%, it enters a berserk state (kagune attack DP+2, base defense −2, cannot rationally negotiate). If a berserk Ghoul kills its target, it feeds on the spot and recovers 2d8 HP</li>
+</ul>
+<h3>Lord God (主神) Restrictions</h3>
+<ul>
+<li>"Forbidden to reveal the existence of the Lord God (主神) space to plot characters"</li>
+<li>"Supernatural abilities outside this world's system (magic, spiritual power, etc.) are disabled here. Enhancement-type abilities (e.g. Gene Lock / 基因鎖) work normally"</li>
+<li>"If you actively help Ghouls attack innocent civilians, −1000 per instance"</li>
+<li>"RC-cell detection gates count as mid-tier threat-sense; Gene Lock (基因鎖) Stage 1+ can notice anomalies (need Composure + Conceal check DC 3 to pass without suspicion)"</li>
+</ul>
+<h3>Visualized Map System</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>ID</th>
+<th>Content</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>World Map</td>
+<td>WM-01</td>
+<td>All of Tokyo Ward 20 and surroundings—CCG branch, commercial street, residential zone, abandoned factory, sewer entrances, CCG HQ (Central Ward)</td>
+<td><code>maps/TG_WM-01.svg</code></td>
+</tr>
+<tr>
+<td>Exploration Map</td>
+<td>EM-01</td>
+<td>CCG Ward 20 branch floors 1–3 + underground passage + major nearby facilities, includes Ward 20 street layout</td>
+<td><code>maps/TG_EM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-01</td>
+<td>Aogiri abandoned-factory stronghold (16×12 grid, with warehouse/office/underground lab/kagune obstacles/blood tanks)</td>
+<td><code>maps/TG_BM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-02</td>
+<td>Sewer chase battle (14×10 grid, with narrow passages/water-flow obstacles/dark ambush points/collapse zones)</td>
+<td><code>maps/TG_BM-02.svg</code></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>六、角色與敵方單位（獨立 Excel 管理）</h2>
+<blockquote>
+<p>⚠️ NPC and enemy-unit data, see the following standalone Excel files:
+- <strong>NPC Roster</strong>: <code>TG_NPC名冊.xlsx</code>
+- <strong>Enemy Unit Roster</strong>: <code>TG_敵方單位名冊.xlsx</code></p>
+<p>Both Excel files contain "Roster" and "Blank Template" sheets; the first column is reserved for character art.</p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>七、關鍵場景</h2>
+<h3>Scene Structure Note</h3>
+<p>This script uses a <strong>Hybrid</strong>: Phase 1 (T+0–T+48) is free investigation and patrol; Phase 2 (T+48–T+168) progresses act-by-act to the final stronghold battle.</p>
+<hr />
+<h3>Phase 1: Free Investigation (T+0–T+48 hours)</h3>
+<h4>Scene S01: CCG Check-In</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S01</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Special Investigator — Check-In</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Script start</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"As a white light fades, you find yourself in the lobby of a gray building. Your black wristwatch vibrates, displaying cold text: 'Survive 7 days. Kill at least 1 S-rated Ghoul.' The lobby screen loops: 'CCG Ward 20 Branch—Guardians of Humanity.' A middle-aged man in a black suit approaches, expression grave."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Front desk (check-in, get temporary investigator ID), RC-cell detection gate (first pass triggers plot—if Reincarnator (輪迴者) has non-human enhancement traces, flagged 'under observation'), quinque armory window (claim initial C-tier quinque)</td>
+</tr>
+<tr>
+<td>Encounters</td>
+<td>No immediate combat</td>
+</tr>
+<tr>
+<td>Gene Lock (基因鎖) Note</td>
+<td>None—this scene is the onboarding phase</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Comply with CCG process (normal) → S02; refuse/attempt escape → treated as suspect, triggers alert (4 CCG investigators ★★ surround); conceal truth with disguise → need Composure + Conceal check DC 2</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Complete check-in and accept first patrol assignment</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S02: First Patrol</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S02</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Ward 20 in the Night</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Accept patrol assignment</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"Ward 20's night is more real than its day. Neon signs flicker in damp air; from the alley depths comes not a cat's meow—but a suppressed wheezing. Your quinque trembles faintly in its case, as if sensing something. The corner RC gate's green light blinks, but you know some things machines cannot detect."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Three patrol routes: Commercial street—many civilians, much intel, but combat risks civilian casualties (−300/person); Factory zone—highest encounter rate but earliest Aogiri signs; Residential—discover Anteiku, trigger first contact with Kaneki</td>
+</tr>
+<tr>
+<td>Encounters</td>
+<td>Night patrol has one forced Ghoul encounter (type by route): Commercial → Bikaku foraging Ghoul (★★); Factory → Aogiri scouts ×2 (★★); Residential → no combat (discover Anteiku)</td>
+</tr>
+<tr>
+<td>Gene Lock (基因鎖) Note</td>
+<td>If team lacks enough quinque when encountering Ghoul: suggested Gene Lock (基因鎖) Stage 1. Opening Stage 1 (Resolve check DC 2) senses kagune attack precursors, initiative +2, evasion DP+1</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Each route independently unfolds later→ affects encounter type, intel quality, NPC relations</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Complete first patrol and return to CCG branch to report</td>
+</tr>
+</tbody>
+</table>
+<h4>Scenes S03–S05: Deep Investigation Period</h4>
+<blockquote>
+<p>The following scenes have no fixed order; they trigger by player choice:</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Scene</th>
+<th>Location</th>
+<th>Trigger</th>
+<th>Core Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S03</td>
+<td>Anteiku (C)</td>
+<td>Enter residential zone and discover café</td>
+<td>Contact Kaneki Ken, Touka Kirishima. Perception + Sense check DC 2 senses café members are non-human. Choose peaceful negotiation or combat. Peaceful route gains Ghoul-perspective Ward 20 intel—corrupt CCG investigators run inhumane experiments</td>
+</tr>
+<tr>
+<td>S04</td>
+<td>Abandoned factory zone</td>
+<td>Choose factory route or arrive via sewers</td>
+<td>Discover Aogiri activity signs. Perception + Investigation check DC 3 finds stronghold location (S-01 trigger)</td>
+</tr>
+<tr>
+<td>S05</td>
+<td>CCG basement detention</td>
+<td>Investigate within branch</td>
+<td>Can interrogate captured Ghoul. Intellect + Intimidation check DC 3 gains Aogiri attack-time intel. If learned corrupt-investigator info from Anteiku, can find illegal-experiment evidence here</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>Phase 2: Act-by-Act Progression (T+48–T+168 hours)</h3>
+<h4>Scene S06: Aogiri Attack</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S06</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Red Night — Aogiri Comes</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Auto-triggers at T+48</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"The alarm tears through the night's silence. Outside, dozens of black shapes drop from the sky—humanoids wrapped in kagune. Ukaku ranged attacks pour like red light-rain on the CCG branch's outer wall. The lobby RC gate flickers madly then explodes. The broadcast issues its last order: 'All investigators—combat configuration! Repeat, all investigators—' then screams and static."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>CCG branch defense positions (choose hold or retreat route), armory (grab B-tier quinque in the chaos, needs Agility + Sleight check DC 2, but discovery lowers CCG trust), underground escape passage (to sewers for safe evacuation)</td>
+</tr>
+<tr>
+<td>Encounters</td>
+<td>Three waves: Wave 1 (T+48)—normal Ghouls ×8 flood main door and 1st-floor windows. Wave 2 (T+49)—Aogiri assault team ×6 (★★★ mixed) drop from rooftop. Wave 3 (T+50)—A-rated Ghouls ×2 (★★★) as commanders</td>
+</tr>
+<tr>
+<td>Gene Lock (基因鎖) Note</td>
+<td><strong>Gene Lock (基因鎖) Hint</strong>: suggested Stage 2 (strongly advised). Three consecutive waves, ~16 enemy units total. Wave 2 Aogiri assault team has tactical coordination (+2 DP when focus-firing one target). Opening Stage 2 (Resolve check DC 3) gains: melee DP+3, ranged DP+3, initiative +5, all-defense +3, for 5 rounds. Liberation side effect: 2d8 mental damage after, STR/AGI −1 for 12 hours</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Hold branch building → high morale, faster CCG main reinforcement (T+96 → T+72), but higher losses; retreat via sewers → safe but lose CCG trust (−30). If assist civilians during retreat → S-02 triggers</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Three waves end or choose retreat</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S07: Sewer Chase</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S07</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Underground Labyrinth</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Track into sewers after Aogiri retreat, or trigger when moving via underground passage</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"Flashlight beams sway on damp concrete walls. The sewer reeks of rust and decay. Fresh blood and kagune scratches occasionally mark the walls—Aogiri's retreat route lies ahead. But rustling in the dark reminds you: you are not the only hunters."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Track traces (Perception + Investigation check DC 2; success shortens chase and reduces encounters), water-flow channel (use current to move fast, but Agility + Athletics check DC 2; failure washes you into deep water, lose 1d4 HP), dark hiding spots (Ghoul ambush positions—early discovery enables counter-ambush for initiative advantage)</td>
+</tr>
+<tr>
+<td>Encounters</td>
+<td>Three segments: entrance—Aogiri rear guard ×3 (★★) ambush; middle—Rinkaku Ghoul ×1 (★★★) using narrow-corridor advantage; end—door to stronghold guarded by Koukaku Ghoul ×1 (★★★, high defense)</td>
+</tr>
+<tr>
+<td>Gene Lock (基因鎖) Note</td>
+<td>Middle Rinkaku in enclosed space: suggested Stage 1. Rinkaku covers the whole corridor in tight space, but Stage 1 lets you read kagune attack rhythm (Sense DP+3) and counter in the gaps</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Frontal chase (three consecutive fights) vs stealth infiltration (Agility + Hide group check DC 3; success skips first two fights straight to stronghold entrance) vs use current to cross fast (Agility check, high risk but fastest)</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Arrive at Aogiri stronghold entrance (E) or lose the target</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S08: Faction Choice</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S08</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Gray Zone — The Moment of Choice</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Complete S-03 (corrupt investigator investigation) or auto-trigger at T+96</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"You hold a CCG internal document. In the photos, Ghouls—men, women, old, young—strapped to operating tables, live-extracted kagune being processed into quinque. This is not justice; it is slaughter. But on the other side, you have seen Ghouls attack innocent civilians in the street. This world has no pure black and white—only gray, and the choice you must make."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>CCG upper echelon (report corruption—Intellect + Social check DC 3; success suspends the corrupt investigator), Anteiku (seek Ghoul cooperation—Grace + Social check DC 3; gain Kaneki Ken or Touka Kirishima as battle ally), middle path (stay neutral, report neither nor aid Ghouls—safe but lose both sides' extra resources)</td>
+</tr>
+<tr>
+<td>Encounters</td>
+<td>Choose (A) report route: corrupt investigator (★★★ human combat unit, uses quinque) privately seeks the Reincarnators (輪迴者) to "talk"—may trigger combat (unless CCG trust &gt;70, then corrupt one is arrested directly). Choose (B) aid Ghoul route: help Anteiku members infiltrate CCG branch to steal experiment evidence—1 daytime infiltration mission</td>
+</tr>
+<tr>
+<td>Gene Lock (基因鎖) Note</td>
+<td>If confronting corrupt investigator directly: he uses A-tier quinque (attack DP+3, damage ×1.5); suggested Stage 2. Opening Stage 2 briefly matches A-tier quinque combat power</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>(A) Report → CCG route (regular-army resources, Arima support, but final battle fights all Ghouls including Anteiku); (B) Aid Ghoul → Ghoul route (Kaneki fights, easier stronghold infiltration, but hostile to CCG); (C) Neutral → hardest route (insufficient resources both sides)</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Make faction choice</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S09: Final Stronghold Battle</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S09</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Factory Bloodbath — S-Rate Extermination</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>CCG launches counteroffensive (T+120) or Reincarnators (輪迴者) attack stronghold proactively</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"The abandoned factory's outer wall is riddled with holes—marks of quinque-kagune clashes everywhere. The air reeks of blood and chemical solvent. Through broken windows you see inside: huge blood tanks glow dark red; dozens of Aogiri members gathering. And in the deepest underground lab—a masked figure wielding a massive kagune waits. That is Jason. S-rate. Your prey."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Factory structure (three floors—attack from different routes: frontal assault / rooftop infiltration / underground-pipe sneak), blood tanks (destroying them weakens Ghoul regeneration—regen HP from 1d6 to 0), kagune obstacles (Koukaku armor fragments as temporary cover +2 base defense)</td>
+</tr>
+<tr>
+<td>Encounters</td>
+<td><strong>Zone 1</strong> (warehouse): normal Ghouls ×6 (★★) + Aogiri members ×2 (★★★ Ukaku ranged support) <strong>Zone 2</strong> (office): A-rated Ghoul ×1 (★★★ Koukaku defense commander) + Aogiri elite ×4 (★★★) <strong>Zone 3</strong> (underground lab): S-rated Ghoul Jason (★★★★ Rinkaku) + berserk after defeat (HP&lt;30%: attacks twice/round, damage ×1.5, doubled regen—must kill within 2 rounds or full recovery)</td>
+</tr>
+<tr>
+<td>Gene Lock (基因鎖) Note</td>
+<td><strong>Gene Lock (基因鎖) Hint</strong>: suggested Stage 2 (necessary). Final battle ~14–18 enemy units + S-rate BOSS. S-rated Jason (HP 60, base defense 12, base attack DP=12, regen 1d8/round, Rinkaku tentacles hit up to 3 targets at once). Opening Stage 2 is the baseline. Stage 2 max lasts 8 rounds—if battle not ended in 8 rounds, gain 3d8 mental damage + all attributes −2 for 24 hours (extremely dangerous). If team has Stage 3: Stage 3 lasts whole battle, DP+5, initiative +8, auto-succeed Agility checks vs attacks (DC 5 and below)</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>By faction choice (S08) decide resources—CCG route: Arima Kishou (★★★★★ ranged support, 3d8 quinque damage to BOSS every 3 rounds), Amon Koutarou (★★★★ frontline fire-sharing). Ghoul route: Kaneki Ken (★★★★ half-kakuja), Touka Kirishima (★★★ Ukaku ranged support). Neutral route: no NPC support, but can kill in the chaos (harder but not pursued by either side)</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Kill S-rated Ghoul Jason → main quest complete. Wristwatch shows extraction coordinates (auto-shown at T+168)</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S10: Extraction</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S10</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Home — But at What Cost</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Main quest complete and survive to T+168</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"Above the ruins, the wristwatch finally lights its familiar cold glow: 'Mission complete. Extraction coordinates updated.' You look around—the CCG branch is rubble, the factory collapses in firelight, the street's blood unknown whether Ghoul's or human's. You made choices and paid prices. Now—time to go home."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Extraction-point tracking (wristwatch navigation, about 2 km)</td>
+</tr>
+<tr>
+<td>Encounters</td>
+<td>No forced combat (if neutral route + not cleared all zones, may meet 1d3 wandering residual Ghouls)</td>
+</tr>
+<tr>
+<td>Gene Lock (基因鎖) Note</td>
+<td>None—this scene is the wrap-up phase</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>No branch</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>All surviving Reincarnators (輪迴者) reach extraction point → script cleared</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>八、多隊競賽規則</h2>
+<blockquote>
+<p>This script does not involve multi-team competition. This section left blank.</p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>九、獎勵結算</h2>
+<table>
+<thead>
+<tr>
+<th>Reward Type</th>
+<th>Content</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main Quest Complete</td>
+<td>Survive 7 days + kill S-rated Ghoul</td>
+<td>C+2500</td>
+</tr>
+<tr>
+<td>Optional Objective ①</td>
+<td>Kill 3 different Ghoul types (any 3 of Ukaku/Koukaku/Rinkaku/Bikaku)</td>
+<td>C1</td>
+</tr>
+<tr>
+<td>Optional Objective ②</td>
+<td>Protect civilians (300 each, 5 cumulative grants extra D1, cap 5)</td>
+<td>max 1500+D1</td>
+</tr>
+<tr>
+<td>Side S-01</td>
+<td>Investigate Aogiri stronghold</td>
+<td>800</td>
+</tr>
+<tr>
+<td>Side S-02</td>
+<td>Escort civilians from combat zone</td>
+<td>5×300=1500 + all alive 500 = max 2000</td>
+</tr>
+<tr>
+<td>Side S-03</td>
+<td>Oppose CCG corruption (A or B route)</td>
+<td>500</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Normal Ghoul (each)</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>A-rated Ghoul (each)</td>
+<td>200</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Aogiri member (each)</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>S-rated Ghoul Jason</td>
+<td>1000</td>
+</tr>
+<tr>
+<td>Special Achievement</td>
+<td>Gain both CCG and Anteiku trust (very hard)</td>
+<td>500</td>
+</tr>
+<tr>
+<td>Special Achievement</td>
+<td>Kill S-rated Ghoul without Gene Lock (基因鎖)</td>
+<td>1000</td>
+</tr>
+<tr>
+<td>Special Achievement</td>
+<td>Persuade Kaneki Ken to aid humanity</td>
+<td>300</td>
+</tr>
+<tr>
+<td>Roleplay</td>
+<td>GM discretion</td>
+<td>0–500</td>
+</tr>
+</tbody>
+</table>
+<h3>Theoretical Maximum Gain</h3>
+<blockquote>
+<p>Main: C ×1 + 2500
+Optional ①: C ×1
+Optional ② (5 civilians): D ×1 + 1500
+S-01: 800 / S-02: 2000 / S-03: 500
+Kills (~15 normal×50 + 3 A-rate×200 + 8 Aogiri×100 + S-rate×1000): 3150
+Special achievements (all): 1800
+Roleplay: 500</p>
+<p>= <strong>C2 + D + 12750</strong></p>
+</blockquote>
+<h3>Return Exchange (Script-Specific)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Exchange Item</th>
+<th>Cost (Side + Reward Points)</th>
+<th>Effect</th>
+<th>Growth Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>RC-Cell Inhibitor Formula (Item)</td>
+<td>C+1000</td>
+<td>Craft Ghoul-regen-inhibiting potion (3/script, costs Intellect + Science check DC3)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Quinque Enhancement Training (Skill)</td>
+<td>C+1000</td>
+<td>+2 damage with quinque-class weapons, any script</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Anteiku Membership Card (Item)</td>
+<td>C+1000</td>
+<td>In any urban world find similar safe house (Luck check DC2)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Kagune Control · Basic (Method)</td>
+<td>C+1000</td>
+<td>Master Rc-cell kagune deploy—generate simple kagune claw (attack DP+2) 3/script</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Common</td>
+<td>Kagune Sense (Passive)</td>
+<td>B+2000</td>
+<td>Perception +1 (permanent), sense hidden non-human beings within 30 ft</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Common</td>
+<td>Ghoul Bloodline (Bloodline)</td>
+<td>B+3600</td>
+<td>Gain Ghoul bloodline—kagune armament (attack DP+4), high-speed regen (2d6/round), physical resist</td>
+<td>Can repurchase A-tier (A+7200)</td>
+</tr>
+<tr>
+<td>Common</td>
+<td>Quinque Forging (Knowledge)</td>
+<td>B+2000</td>
+<td>Gain quinque forging knowledge—craft own quinque (attack DP+3, vs Ghoul special)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Kakuja · Complete Form (Form)</td>
+<td>A+4000</td>
+<td>Fully awaken Kakuja—full-body kagune (base defense +6, attack DP+6, regen 3d6/round)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Ghoul Eye (Title)</td>
+<td>A+7200</td>
+<td>Gain One-Eyed Ghoul eye—see through kagune flow, initiative +2 vs Ghoul/otherworldly (downgraded to A-tier, prestige +1)</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></section>
+<section class="chap"><h2>十、附錄</h2>
+<ul>
+<li><strong>Maps</strong>: See <code>maps/</code> directory: <code>TG_WM-01.svg</code>, <code>TG_EM-01.svg</code>, <code>TG_BM-01.svg</code>, <code>TG_BM-02.svg</code></li>
+<li><strong>Special Rules Supplement</strong>: Four kagune types, quinque weapon system, RC-cell detection gate, Ghoul regeneration, cannibal instinct (see "五、世界設定 → World Special Rules")</li>
+<li><strong>GM Memo</strong>:</li>
+<li><strong>Common Stuck Point 1</strong>: Players may fail to find Aogiri stronghold. Solution—via Anteiku's intel network (Kaneki proactively gives clues), or CCG intel team provides rough direction at T+72</li>
+<li><strong>Common Stuck Point 2</strong>: Players hesitate at faction choice. Solution—at T+96 set an unavoidable event: corrupt investigator publicly executes innocent Ghouls (including child Ghouls), forcing players to take a stand</li>
+<li><strong>Difficulty Up</strong>: Jason berserk HP threshold raised to 50% (triggers at HP&lt;30%), regen from 1d8 to 2d6, add 1 A-rated Ghoul adjutant alongside BOSS</li>
+<li><strong>Difficulty Down</strong>: lower Jason regen (1d8→1d4), optional ① changed to kill 2 different types, shorten Gene Lock (基因鎖) liberation side-effect time (12h→6h)</li>
+<li><strong>Unconventional Player Actions</strong>: If players try to "flee Ward 20 before Aogiri attack" → remind main quest requires "survive 7 days in Ward 20" and "take part in Aogiri extermination"; leaving Ward 20 fails the quest. If players try to "assassinate Arima Kishou for the strongest quinque" → warn Arima is CCG's strongest (★★★★★), solo survival rate extremely low; allowed but not advised</li>
+<li><strong>Anteiku Members' Duality</strong>: Kaneki can be foe or friend—if players attack the café without understanding, Kaneki retaliates as half-kakuja (★★★★). If peaceful, Kaneki is a strong ally in the final battle</li>
+<li><strong>Reference</strong>: Tokyo Ghoul anime seasons 1–2, manga vols 1–14 (Ward 20 arc and Aogiri arc)</li>
+</ul>
+<hr />
+<blockquote>
+<p><strong>Script Code</strong>: TG
+<strong>Version</strong>: v1.0
+<strong>Format Spec</strong>: v0.4</p>
+</blockquote></section></section>
+    <section class="block"><h2>地圖（YAML＋SVG）</h2><div class="map">
+              <div class="maptitle">TG_BM-01 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 520" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="720" height="520" fill="#1a1a2e"/>
+<rect x="20" y="20" width="680" height="480" fill="url(#grid)"/>
+<rect x="20" y="20" width="680" height="480" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="360.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">TG_BM-01 Battle Map</text>
+<text x="25" y="512" fill="#666" font-size="9">TG_BM-01 | 16×12delete（conceptualize） | 1delete = 5ft | L_STATISTIC_TOTAL_COLUMN 80×60ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="177.5" y="15" text-anchor="middle" fill="#555" font-size="7">11</text>
+<text x="192.5" y="15" text-anchor="middle" fill="#555" font-size="7">12</text>
+<text x="207.5" y="15" text-anchor="middle" fill="#555" font-size="7">13</text>
+<text x="222.5" y="15" text-anchor="middle" fill="#555" font-size="7">14</text>
+<text x="237.5" y="15" text-anchor="middle" fill="#555" font-size="7">15</text>
+<text x="252.5" y="15" text-anchor="middle" fill="#555" font-size="7">16</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<text x="8" y="180.5" text-anchor="middle" fill="#555" font-size="7">K</text>
+<text x="8" y="195.5" text-anchor="middle" fill="#555" font-size="7">L</text>
+<rect x="20.0" y="20.0" width="680.0" height="6.0" rx="5" fill="#667" stroke="" stroke-width=""/>
+<text x="360.0" y="19.0" text-anchor="middle" fill="#aaa" font-size="8">Abandoned chemical plant——Tung tree stronghold</text>
+<text x="360.0" y="33.0" text-anchor="middle" fill="#666" font-size="6">(112.5, 2.5)ft</text>
+<rect x="20.0" y="474.0" width="680.0" height="6.0" rx="5" fill="#667" stroke="" stroke-width=""/>
+<text x="360.0" y="473.0" text-anchor="middle" fill="#aaa" font-size="8">16×12delete | 3Regional Advancement → BOSSBattle</text>
+<text x="360.0" y="487.0" text-anchor="middle" fill="#666" font-size="6">(112.5, 152.5)ft</text>
+<rect x="20.0" y="20.0" width="6.0" height="460.0" rx="3" fill="#667" stroke="" stroke-width=""/>
+<text x="23.0" y="246.0" text-anchor="middle" fill="#aaa" font-size="8">Desk</text>
+<text x="23.0" y="260.0" text-anchor="middle" fill="#666" font-size="6">(2.5, 77.5)ft</text>
+<rect x="694.0" y="20.0" width="6.0" height="460.0" rx="3" fill="#667" stroke="" stroke-width=""/>
+<rect x="40.0" y="80.0" width="50.0" height="30.0" rx="3" fill="#2a2a20" stroke="#886600" stroke-width=""/>
+<text x="65.0" y="91.0" text-anchor="middle" fill="#aaa" font-size="8">Crate(Bunker)</text>
+<text x="65.0" y="105.0" text-anchor="middle" fill="#666" font-size="6">(12.5, 25.0)ft</text>
+<rect x="120.0" y="80.0" width="50.0" height="30.0" rx="3" fill="#2a2a20" stroke="#886600" stroke-width=""/>
+<text x="145.0" y="91.0" text-anchor="middle" fill="#aaa" font-size="8">Crate(Bunker)</text>
+<text x="145.0" y="105.0" text-anchor="middle" fill="#666" font-size="6">(42.5, 25.0)ft</text>
+<rect x="40.0" y="140.0" width="80.0" height="40.0" rx="3" fill="#1a2a3e" stroke="#555" stroke-width=""/>
+<text x="80.0" y="156.0" text-anchor="middle" fill="#aaa" font-size="8">Waste Machinery</text>
+<text x="80.0" y="170.0" text-anchor="middle" fill="#666" font-size="6">(17.5, 47.5)ft</text>
+<rect x="190.0" y="90.0" width="30.0" height="50.0" rx="3" fill="#162040" stroke="#F59E0B" stroke-width=""/>
+<text x="205.0" y="111.0" text-anchor="middle" fill="#aaa" font-size="8">INLET</text>
+<text x="205.0" y="125.0" text-anchor="middle" fill="#666" font-size="6">(60.0, 32.5)ft</text>
+<rect x="40.0" y="260.0" width="60.0" height="30.0" rx="3" fill="#1a2a3e" stroke="#555" stroke-width=""/>
+<text x="70.0" y="271.0" text-anchor="middle" fill="#aaa" font-size="8">Desk</text>
+<text x="70.0" y="285.0" text-anchor="middle" fill="#666" font-size="6">(15.0, 85.0)ft</text>
+<rect x="130.0" y="260.0" width="60.0" height="30.0" rx="3" fill="#1a1030" stroke="#6D28D9" stroke-width=""/>
+<text x="160.0" y="271.0" text-anchor="middle" fill="#aaa" font-size="8">Battle Docs(S-01)</text>
+<text x="160.0" y="285.0" text-anchor="middle" fill="#666" font-size="6">(45.0, 85.0)ft</text>
+<rect x="40.0" y="305.0" width="160.0" height="25.0" rx="5" fill="#1a2a3e" stroke="#555" stroke-width=""/>
+<text x="120.0" y="313.5" text-anchor="middle" fill="#aaa" font-size="8">File cabinet（Bunker+3 AC）</text>
+<text x="120.0" y="327.5" text-anchor="middle" fill="#666" font-size="6">(32.5, 100.0)ft</text>
+<rect x="70.0" y="340.0" width="60.0" height="30.0" rx="3" fill="#162040" stroke="#EF4444" stroke-width=""/>
+<text x="100.0" y="351.0" text-anchor="middle" fill="#aaa" font-size="8">↓ B1Laboratory</text>
+<text x="100.0" y="365.0" text-anchor="middle" fill="#666" font-size="6">(25.0, 110.0)ft</text>
+<rect x="300.0" y="80.0" width="120.0" height="85.0" rx="3" fill="#301520" stroke="#EF4444" stroke-width="2"/>
+<text x="360.0" y="118.5" text-anchor="middle" fill="#aaa" font-size="8">HP25 AC8</text>
+<text x="360.0" y="132.5" text-anchor="middle" fill="#666" font-size="6">(115.0, 35.0)ft</text>
+<rect x="460.0" y="80.0" width="120.0" height="85.0" rx="3" fill="#301520" stroke="#EF4444" stroke-width="2"/>
+<text x="520.0" y="118.5" text-anchor="middle" fill="#aaa" font-size="8">HP25 AC8</text>
+<text x="520.0" y="132.5" text-anchor="middle" fill="#666" font-size="6">(165.0, 35.0)ft</text>
+<rect x="300.0" y="200.0" width="100.0" height="20.0" rx="5" fill="#2a2a20" stroke="#886600" stroke-width=""/>
+<text x="350.0" y="206.0" text-anchor="middle" fill="#aaa" font-size="8">Arms rack(Hertzian material)</text>
+<text x="350.0" y="220.0" text-anchor="middle" fill="#666" font-size="6">(112.5, 62.5)ft</text>
+<rect x="220.0" y="210.0" width="160.0" height="80.0" rx="3" fill="#0d0d1a" stroke="#444" stroke-width=""/>
+<text x="300.0" y="246.0" text-anchor="middle" fill="#aaa" font-size="8">Connecting corridor</text>
+<text x="300.0" y="260.0" text-anchor="middle" fill="#666" font-size="6">(92.5, 77.5)ft</text>
+<rect x="260.0" y="360.0" width="160.0" height="80.0" rx="3" fill="#301520" stroke="#EF4444" stroke-width="3"/>
+<text x="340.0" y="396.0" text-anchor="middle" fill="#aaa" font-size="8">BOSSBattle——SClass Jason(★★★★)</text>
+<text x="340.0" y="410.0" text-anchor="middle" fill="#666" font-size="6">(107.5, 127.5)ft</text>
+<rect x="500.0" y="370.0" width="80.0" height="30.0" rx="3" fill="#1a3020" stroke="#10B981" stroke-width=""/>
+<text x="540.0" y="381.0" text-anchor="middle" fill="#aaa" font-size="8">Roof breach</text>
+<text x="540.0" y="395.0" text-anchor="middle" fill="#666" font-size="6">(172.5, 120.0)ft</text>
+<rect x="460.0" y="320.0" width="70.0" height="15.0" rx="5" fill="#3a1520" stroke="#EF4444" stroke-width=""/>
+<text x="495.0" y="323.5" text-anchor="middle" fill="#aaa" font-size="8">Hezi Wreckage(Obstacles)</text>
+<text x="495.0" y="337.5" text-anchor="middle" fill="#666" font-size="6">(157.5, 102.5)ft</text>
+<polygon points="58.33333333333333,482.0 78.33333333333333,490.0 58.33333333333333,498.0" fill="#00FF88"/>
+<text x="73.33333333333333" y="504.0" fill="#00FF88" font-size="8">Player Entrance</text>
+<polygon points="26.666666666666664,487.0 46.666666666666664,495.0 26.666666666666664,503.0" fill="#00FF88"/>
+<text x="41.666666666666664" y="509.0" fill="#00FF88" font-size="8">Player Entrance</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/en/maps/TG_BM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/en/maps/TG_BM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">TG_BM-02 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 440" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="640" height="440" fill="#1a1a2e"/>
+<rect x="20" y="20" width="600" height="400" fill="url(#grid)"/>
+<rect x="20" y="20" width="600" height="400" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="320.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">20District sewer——Pursuit</text>
+<text x="25" y="432" fill="#666" font-size="9">TG_BM-02 | 14×10delete（conceptualize） | 1delete = 5ft | L_STATISTIC_TOTAL_COLUMN 70×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="177.5" y="15" text-anchor="middle" fill="#555" font-size="7">11</text>
+<text x="192.5" y="15" text-anchor="middle" fill="#555" font-size="7">12</text>
+<text x="207.5" y="15" text-anchor="middle" fill="#555" font-size="7">13</text>
+<text x="222.5" y="15" text-anchor="middle" fill="#555" font-size="7">14</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="20.0" y="20.0" width="600.0" height="8.0" rx="5" fill="#556" stroke="" stroke-width=""/>
+<text x="320.0" y="20.0" text-anchor="middle" fill="#aaa" font-size="8">20District sewer——Pursuit</text>
+<text x="320.0" y="34.0" text-anchor="middle" fill="#666" font-size="6">(100.0, 2.5)ft</text>
+<rect x="20.0" y="392.0" width="600.0" height="8.0" rx="5" fill="#556" stroke="" stroke-width=""/>
+<text x="320.0" y="392.0" text-anchor="middle" fill="#aaa" font-size="8">Water hazards</text>
+<text x="320.0" y="406.0" text-anchor="middle" fill="#666" font-size="6">(100.0, 127.5)ft</text>
+<rect x="20.0" y="20.0" width="8.0" height="380.0" rx="3" fill="#556" stroke="" stroke-width=""/>
+<rect x="612.0" y="20.0" width="8.0" height="380.0" rx="3" fill="#556" stroke="" stroke-width=""/>
+<rect x="40.0" y="90.0" width="140.0" height="10.0" rx="5" fill="#445" stroke="" stroke-width=""/>
+<text x="110.0" y="91.0" text-anchor="middle" fill="#aaa" font-size="8">Water pipe（Climbable Movement）</text>
+<text x="110.0" y="105.0" text-anchor="middle" fill="#666" font-size="6">(27.5, 27.5)ft</text>
+<rect x="40.0" y="130.0" width="40.0" height="15.0" rx="3" fill="#1a2a3e" stroke="#555" stroke-width=""/>
+<text x="60.0" y="133.5" text-anchor="middle" fill="#aaa" font-size="8">Trash</text>
+<text x="60.0" y="147.5" text-anchor="middle" fill="#666" font-size="6">(12.5, 37.5)ft</text>
+<rect x="40.0" y="170.0" width="140.0" height="25.0" rx="5" fill="#1a2a3a" stroke="#3B82F6" stroke-width="1"/>
+<text x="110.0" y="178.5" text-anchor="middle" fill="#aaa" font-size="8">Water flow passage（AGIDC2/Loss1d4HP）</text>
+<text x="110.0" y="192.5" text-anchor="middle" fill="#666" font-size="6">(27.5, 55.0)ft</text>
+<rect x="220.0" y="90.0" width="200.0" height="80.0" rx="3" fill="#0d0d1a" stroke="#EF4444" stroke-width="1.5"/>
+<text x="320.0" y="126.0" text-anchor="middle" fill="#aaa" font-size="8">Scale sweep covers all passages</text>
+<text x="320.0" y="140.0" text-anchor="middle" fill="#666" font-size="6">(97.5, 37.5)ft</text>
+<rect x="230.0" y="100.0" width="20.0" height="15.0" rx="3" fill="#301520" stroke="#EF4444" stroke-width=""/>
+<text x="240.0" y="103.5" text-anchor="middle" fill="#aaa" font-size="8">Ambush Point</text>
+<text x="240.0" y="117.5" text-anchor="middle" fill="#666" font-size="6">(72.5, 27.5)ft</text>
+<rect x="400.0" y="100.0" width="20.0" height="15.0" rx="3" fill="#301520" stroke="#EF4444" stroke-width=""/>
+<text x="410.0" y="103.5" text-anchor="middle" fill="#aaa" font-size="8">Ambush Point</text>
+<text x="410.0" y="117.5" text-anchor="middle" fill="#666" font-size="6">(127.5, 27.5)ft</text>
+<rect x="220.0" y="200.0" width="200.0" height="10.0" rx="5" fill="#3B2142" stroke="" stroke-width=""/>
+<text x="320.0" y="201.0" text-anchor="middle" fill="#aaa" font-size="8">Gaotai County（Capture Heights+2DPRemote）</text>
+<text x="320.0" y="215.0" text-anchor="middle" fill="#666" font-size="6">(97.5, 62.5)ft</text>
+<rect x="250.0" y="250.0" width="60.0" height="15.0" rx="5" fill="#2a2a20" stroke="#886600" stroke-width=""/>
+<text x="280.0" y="253.5" text-anchor="middle" fill="#aaa" font-size="8">Collapsing Stone(Bunker)</text>
+<text x="280.0" y="267.5" text-anchor="middle" fill="#666" font-size="6">(85.0, 77.5)ft</text>
+<rect x="340.0" y="250.0" width="50.0" height="15.0" rx="5" fill="#2a2a20" stroke="#886600" stroke-width=""/>
+<text x="365.0" y="253.5" text-anchor="middle" fill="#aaa" font-size="8">Collapsing Stone</text>
+<text x="365.0" y="267.5" text-anchor="middle" fill="#666" font-size="6">(112.5, 77.5)ft</text>
+<rect x="470.0" y="90.0" width="60.0" height="120.0" rx="3" fill="#2a2a3e" stroke="#F59E0B" stroke-width="3"/>
+<text x="500.0" y="146.0" text-anchor="middle" fill="#aaa" font-size="8">Armored Hexophagus</text>
+<text x="500.0" y="160.0" text-anchor="middle" fill="#666" font-size="6">(160.0, 45.0)ft</text>
+<rect x="500.0" y="300.0" width="40.0" height="80.0" rx="3" fill="#0d0d1a" stroke="#444" stroke-width=""/>
+<text x="520.0" y="336.0" text-anchor="middle" fill="#aaa" font-size="8">Side Branch</text>
+<text x="520.0" y="350.0" text-anchor="middle" fill="#666" font-size="6">(167.5, 107.5)ft</text>
+<rect x="40.0" y="300.0" width="140.0" height="40.0" rx="5" fill="#1a2a3a" stroke="#3B82F6" stroke-width="1"/>
+<text x="110.0" y="316.0" text-anchor="middle" fill="#aaa" font-size="8">Deep Water（Movement speed halved）</text>
+<text x="110.0" y="330.0" text-anchor="middle" fill="#666" font-size="6">(27.5, 102.5)ft</text>
+<rect x="160.0" y="340.0" width="10.0" height="50.0" rx="3" fill="#886600" stroke="" stroke-width=""/>
+<text x="165.0" y="361.0" text-anchor="middle" fill="#aaa" font-size="8">Ladder→Ventilation shaft</text>
+<text x="165.0" y="375.0" text-anchor="middle" fill="#666" font-size="6">(47.5, 112.5)ft</text>
+<polygon points="38.333333333333336,372.0 58.333333333333336,380.0 38.333333333333336,388.0" fill="#00FF88"/>
+<text x="53.333333333333336" y="394.0" fill="#00FF88" font-size="8">Player Entrance</text>
+<polygon points="26.666666666666664,406.0 46.666666666666664,414.0 26.666666666666664,422.0" fill="#00FF88"/>
+<text x="41.666666666666664" y="428.0" fill="#00FF88" font-size="8">Player Entrance</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/en/maps/TG_BM-02.yaml" download>yaml</a> <a href="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/en/maps/TG_BM-02.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">TG_EM-01 <span class="maptype">探索地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 680" font-family="Microsoft JhengHei, sans-serif">
+<rect width="920" height="680" fill="#1a1a2e"/>
+<text x="460.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">CCG 20District Branch — Explore the map</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">3 Floor（3F）—— Command level</text>
+<rect x="20" y="0.0" width="880" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="920.0" height="680.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<text x="460.0" y="340.0" text-anchor="middle" fill="#aaa" font-size="9">Staircase</text>
+<rect x="20.0" y="65.0" width="880.0" height="120.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="460.0" y="125.0" text-anchor="middle" fill="#aaa" font-size="9">Staircase</text>
+<rect x="35.0" y="77.0" width="100.0" height="50.0" rx="3.0" fill="#1a2a3e" stroke="#3B82F6" stroke-width=""/>
+<text x="85.0" y="102.0" text-anchor="middle" fill="#aaa" font-size="9">Communication Room</text>
+<rect x="155.0" y="77.0" width="120.0" height="50.0" rx="3.0" fill="#1a2a3e" stroke="#6D28D9" stroke-width=""/>
+<text x="215.0" y="102.0" text-anchor="middle" fill="#aaa" font-size="9">Briefing Room</text>
+<rect x="295.0" y="77.0" width="100.0" height="50.0" rx="3.0" fill="#1a2a3e" stroke="#555" stroke-width=""/>
+<text x="345.0" y="102.0" text-anchor="middle" fill="#aaa" font-size="9">Branch Director's Office</text>
+<rect x="420.0" y="77.0" width="70.0" height="95.0" rx="3.0" fill="#162040" stroke="#F59E0B" stroke-width=""/>
+<text x="455.0" y="124.5" text-anchor="middle" fill="#aaa" font-size="9">Staircase</text>
+<rect x="515.0" y="77.0" width="90.0" height="50.0" rx="3.0" fill="#1a2a3e" stroke="#555" stroke-width=""/>
+<text x="560.0" y="102.0" text-anchor="middle" fill="#aaa" font-size="9">Searcher's Office</text>
+<rect x="625.0" y="77.0" width="110.0" height="50.0" rx="3.0" fill="#1a1030" stroke="#6D28D9" stroke-width=""/>
+<text x="680.0" y="102.0" text-anchor="middle" fill="#aaa" font-size="9">Archives</text>
+<rect x="760.0" y="77.0" width="120.0" height="50.0" rx="3.0" fill="#1a3020" stroke="#10B981" stroke-width=""/>
+<text x="820.0" y="102.0" text-anchor="middle" fill="#aaa" font-size="9">Rooftop helipad</text>
+<text x="20" y="210.0" fill="#8B5CF6" font-size="13" font-weight="bold">2 Floor（2F）—— Operations Layer</text>
+<rect x="20" y="215.0" width="880" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="215.0" width="880.0" height="120.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="460.0" y="275.0" text-anchor="middle" fill="#aaa" font-size="9">Staircase</text>
+<rect x="35.0" y="227.0" width="120.0" height="50.0" rx="3.0" fill="#2a2010" stroke="#F59E0B" stroke-width=""/>
+<text x="95.0" y="252.0" text-anchor="middle" fill="#aaa" font-size="9">Kuinke Armory</text>
+<rect x="175.0" y="227.0" width="100.0" height="50.0" rx="3.0" fill="#1a2a3e" stroke="#555" stroke-width=""/>
+<text x="225.0" y="252.0" text-anchor="middle" fill="#aaa" font-size="9">Operations Planning Room</text>
+<rect x="295.0" y="227.0" width="90.0" height="50.0" rx="3.0" fill="#1a2a3e" stroke="#555" stroke-width=""/>
+<text x="340.0" y="252.0" text-anchor="middle" fill="#aaa" font-size="9">Searcher's quarters</text>
+<rect x="420.0" y="227.0" width="70.0" height="108.0" rx="3.0" fill="#162040" stroke="#F59E0B" stroke-width=""/>
+<text x="455.0" y="281.0" text-anchor="middle" fill="#aaa" font-size="9">Staircase</text>
+<rect x="515.0" y="227.0" width="100.0" height="50.0" rx="3.0" fill="#1a1030" stroke="#6D28D9" stroke-width=""/>
+<text x="565.0" y="252.0" text-anchor="middle" fill="#aaa" font-size="9">Intelligence Analysis Room</text>
+<rect x="640.0" y="227.0" width="120.0" height="50.0" rx="3.0" fill="#1a2a3e" stroke="#555" stroke-width=""/>
+<text x="700.0" y="252.0" text-anchor="middle" fill="#aaa" font-size="9">Infirmary</text>
+<rect x="780.0" y="227.0" width="100.0" height="50.0" rx="3.0" fill="#1a2a3e" stroke="#555" stroke-width=""/>
+<text x="830.0" y="252.0" text-anchor="middle" fill="#aaa" font-size="9">Training Ground</text>
+<text x="20" y="360.0" fill="#8B5CF6" font-size="13" font-weight="bold">1 Floor（1F）—— Entrance Layer</text>
+<rect x="20" y="365.0" width="880" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="365.0" width="880.0" height="120.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="460.0" y="425.0" text-anchor="middle" fill="#aaa" font-size="9">Staircase</text>
+<rect x="35.0" y="377.0" width="140.0" height="55.0" rx="3.0" fill="#2a3a2a" stroke="#10B981" stroke-width=""/>
+<text x="105.0" y="404.5" text-anchor="middle" fill="#aaa" font-size="9">Main entrance hall</text>
+<rect x="195.0" y="377.0" width="90.0" height="55.0" rx="3.0" fill="#1a2a3e" stroke="#555" stroke-width=""/>
+<text x="240.0" y="404.5" text-anchor="middle" fill="#aaa" font-size="9">Reception desk</text>
+<rect x="305.0" y="377.0" width="90.0" height="55.0" rx="3.0" fill="#1a2a3e" stroke="#555" stroke-width=""/>
+<text x="350.0" y="404.5" text-anchor="middle" fill="#aaa" font-size="9">Guard duty room</text>
+<rect x="420.0" y="377.0" width="70.0" height="108.0" rx="3.0" fill="#162040" stroke="#F59E0B" stroke-width=""/>
+<text x="455.0" y="431.0" text-anchor="middle" fill="#aaa" font-size="9">Staircase</text>
+<rect x="515.0" y="377.0" width="100.0" height="55.0" rx="3.0" fill="#301520" stroke="#EF4444" stroke-width=""/>
+<text x="565.0" y="404.5" text-anchor="middle" fill="#aaa" font-size="9">Underground Detention Center Entrance</text>
+<rect x="640.0" y="377.0" width="100.0" height="55.0" rx="3.0" fill="#1a2a3e" stroke="#3B82F6" stroke-width=""/>
+<text x="690.0" y="404.5" text-anchor="middle" fill="#aaa" font-size="9">Underpass entrance</text>
+<rect x="760.0" y="377.0" width="120.0" height="55.0" rx="3.0" fill="#1a2a3e" stroke="#555" stroke-width=""/>
+<text x="820.0" y="404.5" text-anchor="middle" fill="#aaa" font-size="9">Parking Area/Vehicle Dispatch</text>
+<text x="20" y="515.0" fill="#8B5CF6" font-size="13" font-weight="bold">TG_EM-01 | Explore the map | CCG 20District Branch 1～3F+accessory</text>
+<rect x="20" y="520.0" width="880" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="520.0" width="880.0" height="100.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="460.0" y="570.0" text-anchor="middle" fill="#aaa" font-size="9">Waste Industrial Zone（E — North-West 1.2km）</text>
+<rect x="35.0" y="535.0" width="160.0" height="40.0" rx="3.0" fill="#1a2a2a" stroke="#555" stroke-width=""/>
+<text x="115.0" y="555.0" text-anchor="middle" fill="#aaa" font-size="9">Commercial Street（B — South Bound 500m）</text>
+<rect x="220.0" y="535.0" width="160.0" height="40.0" rx="3.0" fill="#1a2a1a" stroke="#10B981" stroke-width=""/>
+<text x="300.0" y="555.0" text-anchor="middle" fill="#aaa" font-size="9">Residential/Antique cafes（C — Eastbound 800m）</text>
+<rect x="405.0" y="535.0" width="160.0" height="40.0" rx="3.0" fill="#301520" stroke="#EF4444" stroke-width=""/>
+<text x="485.0" y="555.0" text-anchor="middle" fill="#aaa" font-size="9">Waste Industrial Zone（E — North-West 1.2km）</text>
+<rect x="590.0" y="535.0" width="140.0" height="40.0" rx="3.0" fill="#162040" stroke="#C084FC" stroke-width=""/>
+<text x="660.0" y="555.0" text-anchor="middle" fill="#aaa" font-size="9">Lower Ground Floor→Sanitary sewer（D）</text>
+<text x="20" y="635.0" fill="#8B5CF6" font-size="13" font-weight="bold">Stairs interconnect | Underground Detention Facility1F(S-03) | tunnel(1F)Connect sewer(D)→Abandoned factory(E)</text>
+<rect x="20" y="640.0" width="880" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="35.0" y="640.0" width="850.0" height="30.0" rx="4.0" fill="#111" stroke="#333" stroke-width=""/>
+<text x="460.0" y="655.0" text-anchor="middle" fill="#aaa" font-size="9">TG_EM-01 | Explore the map | CCG 20District Branch 1～3F+accessory</text>
+<rect x="130.0" y="650.0" width="14.0" height="10.0" rx="0.0" fill="#301520" stroke="#EF4444" stroke-width=""/>
+<text x="137.0" y="655.0" text-anchor="middle" fill="#aaa" font-size="9">dangerous territory</text>
+<rect x="230.0" y="650.0" width="14.0" height="10.0" rx="0.0" fill="#162040" stroke="#F59E0B" stroke-width=""/>
+<text x="237.0" y="655.0" text-anchor="middle" fill="#aaa" font-size="9">Vertical channel</text>
+<rect x="330.0" y="650.0" width="14.0" height="10.0" rx="0.0" fill="#1a3020" stroke="#10B981" stroke-width=""/>
+<text x="337.0" y="655.0" text-anchor="middle" fill="#aaa" font-size="9">Safe Zone/Moderates</text>
+<rect x="20" y="625" width="880" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="650" fill="#aaa" font-size="9">Starting point</text>
+<text x="205" y="650" fill="#aaa" font-size="9">dangerous territory</text>
+<text x="375" y="650" fill="#aaa" font-size="9">TG_EM-01 | Explore the map | CCG 20District Branch 1～3F+accessory</text>
+<text x="20" y="670" fill="#666" font-size="9">TG_EM-01 | Explore the map | Stairs interconnect | Underground Detention Facility1F(S-03) | tunnel(1F)Connect sewer(D)→Abandoned factory(E)</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/en/maps/TG_EM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/en/maps/TG_EM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">TG_WM-01 <span class="maptype">世界地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="900" height="640" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="900" height="640" fill="url(#wmgrid)"/>
+<line x1="100.0" y1="350.0" x2="800.0" y2="350.0" stroke="#555" stroke-width="5"/>
+<line x1="450.0" y1="80.0" x2="450.0" y2="580.0" stroke="#555" stroke-width="4"/>
+<line x1="200.0" y1="200.0" x2="700.0" y2="200.0" stroke="#444" stroke-width="3"/>
+<line x1="200.0" y1="500.0" x2="700.0" y2="500.0" stroke="#444" stroke-width="3"/>
+<line x1="700.0" y1="80.0" x2="700.0" y2="580.0" stroke="#444" stroke-width="2"/>
+<rect x="60.0" y="50.0" width="780.0" height="530.0" rx="5" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<rect x="370.0" y="130.0" width="160.0" height="100.0" rx="5" fill="#1a2a3e" stroke="#8B5CF6" stroke-width="2"/>
+<text x="450.0" y="180.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">（Starting point A — T+0）</text>
+<rect x="390.0" y="193.0" width="55.0" height="15.0" rx="5" fill="#2a3a4e" stroke="#6D28D9" stroke-width="2"/>
+<text x="417.5" y="200.5" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Armory</text>
+<rect x="455.0" y="193.0" width="55.0" height="15.0" rx="5" fill="#2a3a4e" stroke="#6D28D9" stroke-width="2"/>
+<text x="482.5" y="200.5" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">United Nations Detention Unit</text>
+<rect x="230.0" y="270.0" width="200.0" height="140.0" rx="5" fill="#1a2a2a" stroke="#555" stroke-width="2"/>
+<text x="330.0" y="340.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Bookselling</text>
+<rect x="245.0" y="325.0" width="55.0" height="20.0" rx="5" fill="#2a1a2e" stroke="#6D28D9" stroke-width="2"/>
+<text x="272.5" y="335.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Izakaya</text>
+<rect x="310.0" y="325.0" width="55.0" height="20.0" rx="5" fill="#2a1a2e" stroke="#6D28D9" stroke-width="2"/>
+<text x="337.5" y="335.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Bookselling</text>
+<rect x="375.0" y="325.0" width="45.0" height="20.0" rx="5" fill="#2a1a2e" stroke="#6D28D9" stroke-width="2"/>
+<text x="397.5" y="335.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Convenience store</text>
+<rect x="500.0" y="420.0" width="180.0" height="130.0" rx="5" fill="#1a2a1a" stroke="#10B981" stroke-width="2"/>
+<text x="590.0" y="485.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Antique cafes (Anteiku)</text>
+<rect x="520.0" y="478.0" width="140.0" height="35.0" rx="5" fill="#1a3020" stroke="#10B981" stroke-width="2"/>
+<text x="590.0" y="495.5" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Antique cafes (Anteiku)</text>
+<rect x="80.0" y="420.0" width="160.0" height="120.0" rx="5" fill="#301520" stroke="#EF4444" stroke-width="2"/>
+<text x="160.0" y="480.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">（E — Tung tree stronghold）</text>
+<rect x="95.0" y="480.0" width="130.0" height="30.0" rx="5" fill="#3a1520" stroke="#EF4444" stroke-width="2"/>
+<text x="160.0" y="495.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Abandoned chemical plant</text>
+<rect x="680.0" y="80.0" width="150.0" height="80.0" rx="5" fill="#1a2a3e" stroke="#3B82F6" stroke-width="2"/>
+<text x="755.0" y="120.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">（F — T+96Reinforcement）</text>
+<line x1="160.0" y1="540.0" x2="330.0" y2="410.0" stroke="#8B5CF6" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="160.0" y1="540.0" x2="450.0" y2="230.0" stroke="#8B5CF6" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="330.0" y1="410.0" x2="590.0" y2="550.0" stroke="#8B5CF6" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="680.0" y1="120.0" x2="535.0" y2="185.0" stroke="#3B82F6" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="695.0" y1="516.0" x2="735.0" y2="516.0" stroke="#EF4444" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<ellipse cx="160.0" cy="500.0" rx="90.0" ry="80.0" fill="#FF0000" opacity="0.1" stroke="#EF4444" stroke-width="1"/>
+<text x="205.0" y="500.0" fill="#FF4444" font-size="9">Abandoned chemical plant</text>
+<circle cx="450.0" cy="230.0" r="6.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="450.0" cy="230.0" r="6.0" fill="none" stroke="" stroke-width="2"/>
+<circle cx="702.0" cy="562.0" r="5.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="702.0" cy="562.0" r="5.0" fill="none" stroke="" stroke-width="2"/>
+<text x="702.0" y="552.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Starting point/Safe Zone</text>
+<rect x="730" y="20" width="150" height="128" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="805" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Legend</text>
+<text x="740" y="60" fill="#aaa" font-size="9">（F — T+96Reinforcement）</text>
+<text x="740" y="76" fill="#aaa" font-size="9">Sewer line</text>
+<text x="740" y="92" fill="#aaa" font-size="9">dangerous territory</text>
+<text x="740" y="108" fill="#aaa" font-size="9">Starting point/Safe Zone</text>
+<text x="740" y="124" fill="#aaa" font-size="9">A moderate ghoul stronghold</text>
+<text x="740" y="140" fill="#aaa" font-size="9">CCGfacility</text>
+<text x="20" y="625" fill="#666" font-size="9">TG_WM-01 | Large area map | TG_WM-01 | Large area map | 1delete ≈ 200m</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/en/maps/TG_WM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/en/maps/TG_WM-01.svg" download>svg</a></p>
+            </div></section>
+    <section class="block"><h2>概念圖</h2><div class="gallery"><a href="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/images/enemy_01_ghoul.png" target="_blank"><img src="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/images/enemy_01_ghoul.png" alt="enemy_01_ghoul.png"></a><a href="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/images/npc_01_kaneki.png" target="_blank"><img src="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/images/npc_01_kaneki.png" alt="npc_01_kaneki.png"></a><a href="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/images/scene_01_20th_ward_alley.png" target="_blank"><img src="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/images/scene_01_20th_ward_alley.png" alt="scene_01_20th_ward_alley.png"></a><a href="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/images/scene_S02_首次巡邏.png" target="_blank"><img src="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/images/scene_S02_首次巡邏.png" alt="scene_S02_首次巡邏.png"></a><a href="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/images/scene_S03_合併場景.png" target="_blank"><img src="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/images/scene_S03_合併場景.png" alt="scene_S03_合併場景.png"></a><a href="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/images/scene_S04_合併場景.png" target="_blank"><img src="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/images/scene_S04_合併場景.png" alt="scene_S04_合併場景.png"></a><a href="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/images/scene_S05_合併場景.png" target="_blank"><img src="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/images/scene_S05_合併場景.png" alt="scene_S05_合併場景.png"></a><a href="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/images/scene_S06_青桐樹襲擊.png" target="_blank"><img src="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/images/scene_S06_青桐樹襲擊.png" alt="scene_S06_青桐樹襲擊.png"></a><a href="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/images/scene_S07_下水道追擊.png" target="_blank"><img src="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/images/scene_S07_下水道追擊.png" alt="scene_S07_下水道追擊.png"></a><a href="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/images/scene_S08_陣營抉擇.png" target="_blank"><img src="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/images/scene_S08_陣營抉擇.png" alt="scene_S08_陣營抉擇.png"></a><a href="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/images/scene_S09_最終據點戰.png" target="_blank"><img src="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/images/scene_S09_最終據點戰.png" alt="scene_S09_最終據點戰.png"></a><a href="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/images/scene_S10_撤離.png" target="_blank"><img src="../../assets/scripts/L3/TG-TokyoGhoul-20區動亂/images/scene_S10_撤離.png" alt="scene_S10_撤離.png"></a></div></section>
+    </main>
+<footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

@@ -1,0 +1,907 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Far Cry 5: Hope County Collapse | FREECRY5-希望郡末日 | Infinite Terror TRPG Scripts</title>
+<link rel="stylesheet" href="../../assets/style.css"></head>
+<body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../../index.html">中文</a></header>
+<div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
+<main class="container"><h1>Far Cry 5: Hope County Collapse</h1>
+    <p class="meta">Code: FREECRY5-希望郡末日 ｜ Source: Far Cry 5 ｜ Difficulty: ★ ｜ Players: 3–5 ｜ Duration: 4–6 hrs ｜ Type: Survival / Infiltration / Militia Uprising</p>
+    <p class="nav"><a href="../../index.html">← 劇本總覽</a> ｜ <a href="../../assets/scripts/L1/FREECRY5-希望郡末日/en/FREECRY5_劇本.md" download>劇本 MD</a> ｜ <a href="../../assets/scripts/L1/FREECRY5-希望郡末日/en/FREECRY5_NPC名冊.xlsx" download>NPC 名冊</a> ｜ <a href="../../assets/scripts/L1/FREECRY5-希望郡末日/en/FREECRY5_敵方單位名冊.xlsx" download>敵方名冊</a> ｜ <a href="../../assets/L1_FREECRY5-希望郡末日_all_en.zip">下載全部（zip）</a></p>
+    <section class="block content"><section class="chap"><h2>一、基本資訊</h2>
+<p>Script Title: Far Cry 5: Hope County Collapse
+Source Film: Far Cry 5
+Difficulty Rating: ★
+Suggested Players: 3–5
+Estimated Duration: 4–6 hrs
+Prerequisite: None
+Script Type: Survival / Infiltration / Militia Uprising</p>
+<hr /></section>
+<details class="gm"><summary>🎭 GM 限定：II. Plot Summary (GM Spoilers)</summary><h2>II. Plot Summary (GM Spoilers)</h2>
+<blockquote>
+<p>Hope County, Montana, is wholly controlled by the cult "Eden's Gate." The cult leader Joseph Seed calls himself the Prophet; his family of "Heralds" — Jacob (military), Faith (drug-induced hypnosis), and John (brainwashing judgment) — each controls a region. The Reincarnators, as civilians trapped in Hope County, must organize the local militia and rise up.</p>
+</blockquote>
+<h3>One-Line Summary</h3>
+<blockquote>
+<p>Organize a militia uprising in a cult-controlled town, topple the three Heralds, and overthrow the cult leader.</p>
+</blockquote>
+<hr /></details>
+<section class="chap"><h2>III. Lord God's Mission</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mission Brief</td>
+<td>"Hope County has fallen to Eden's Gate. Overthrow the three Heralds — Jacob, Faith, John — and ultimately defeat or stop Joseph Seed."</td>
+</tr>
+<tr>
+<td>Main Objective</td>
+<td>Defeat at least two of the three Heralds, and defeat or stop Joseph Seed in the finale</td>
+</tr>
+<tr>
+<td>Mission Reward</td>
+<td>D+1200</td>
+</tr>
+<tr>
+<td>Failure Condition</td>
+<td>Total party wipe / all militia strongholds destroyed</td>
+</tr>
+<tr>
+<td>Failure Penalty</td>
+<td>Deduct 500</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>① Liberate all three regions (defeat all three Heralds) → extra D1; <br>② Recruit at least 5 militia specialists → whole party +500</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>IV. Side Quests</h2>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Quest Name</th>
+<th>Trigger</th>
+<th>Quest Detail</th>
+<th>Time Limit</th>
+<th>Reward</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S-01</td>
+<td>Whitetail Mountain Militia Camp</td>
+<td>Arrive at Jacob's region</td>
+<td>Liberate the wolf-kennel prison controlled by Jacob; free the brainwashed militia captives</td>
+<td>None</td>
+<td>D+600</td>
+</tr>
+<tr>
+<td>S-02</td>
+<td>Bliss Flower Fields</td>
+<td>Arrive at Faith's region</td>
+<td>Destroy the Bliss flower (hypnotic drug) plantation; cut off Faith's mental control over residents</td>
+<td>None</td>
+<td>D+500</td>
+</tr>
+<tr>
+<td>S-03</td>
+<td>John's Baptism</td>
+<td>Arrive at John's region</td>
+<td>Infiltrate John's fortress church; sabotage the brainwashing judgment court</td>
+<td>None</td>
+<td>D+800</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>V. World Setting</h2>
+<h3>Timeline</h3>
+<blockquote>
+<p>Modern day, Hope County, Montana. Eden's Gate has severed all outside communication; the outside world believes this is just normal isolation for a remote town.</p>
+</blockquote>
+<h3>Key Locations</h3>
+<ul>
+<li><strong>Holland Valley (John's region)</strong>: church, farmland, bunker brainwashing facility</li>
+<li><strong>Henbane River (Faith's region)</strong>: Bliss flower fields, riverside suspension bridge, hallucination swamp</li>
+<li><strong>Whitetail Mountains (Jacob's region)</strong>: militarized wolf-kennel prison, sniper towers, training camp</li>
+<li><strong>Joseph's Church</strong>: the cult leader's main cathedral; entrance unlocked after defeating the three Heralds</li>
+<li><strong>Hope County Sheriff's Office</strong>: militia home base, armory and medical station</li>
+</ul>
+<h3>World Special Rules</h3>
+<ul>
+<li><strong>Militia Recruitment</strong>: after completing side quests or liberating outposts, you may recruit NPC militia (each provides a +1 DP assistance bonus).</li>
+<li><strong>Weapon Acquisition</strong>: outposts contain random weapons (pistol / rifle / bow / explosives) that must be found through exploration.</li>
+<li><strong>Cult Bounty</strong>: each time a Herald is defeated, patrol density in the remaining regions doubles.</li>
+</ul>
+<h3>Lord God Restrictions</h3>
+<ul>
+<li>Do not reveal the existence of the Lord God's space to plot characters.</li>
+<li>Tech weapons beyond 2020 levels are disabled in this world.</li>
+</ul>
+<hr /></section>
+<section class="chap"><h2>VI. NPC Design (see Excel for details)</h2>
+<table>
+<thead>
+<tr>
+<th>NPC</th>
+<th>Interaction Depth</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mary May</td>
+<td>Deep</td>
+<td>Bar owner / Militia organizer</td>
+</tr>
+<tr>
+<td>Hurk Drubman</td>
+<td>Deep</td>
+<td>Retired Marine / Firearms instructor</td>
+</tr>
+<tr>
+<td>Joseph Seed</td>
+<td>Enemy</td>
+<td>Cult leader / Final Boss</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VII. Key Scenes</h2>
+<h3>S01 — Awakening at the Sheriff's Office</h3>
+<blockquote>
+<p><strong>GM reads aloud</strong>: "You wake from unconsciousness. The sheriff's office glass is shattered; burning farmhouses glow outside. Posters of Joseph Seed's sermons plaster the walls — 'Sinners shall be judged.'"</p>
+</blockquote>
+<p><strong>Interactable</strong>: weapon cabinet (random firearms), map (shows Hope County panorama), radio (attempt outside distress call, Intellect + Computer DC3)</p>
+<table>
+<thead>
+<tr>
+<th>Cutscene Condition</th>
+<th>Choose a Herald region to head to</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3>S02 — Regional Cleansing Battle (pick one of three routes)</h3>
+<blockquote>
+<p><strong>Genetic Lock hint</strong>: Suggested Genetic Lock stage — not yet opened. This scene can be completed without opening Genetic Lock.</p>
+</blockquote>
+<p><strong>Branch</strong>: ① Go to John's region (brainwashing court) ② Go to Faith's region (hallucination swamp) ③ Go to Jacob's region (military prison)</p>
+<h3>S03 — Herald Showdown</h3>
+<blockquote>
+<p><strong>GM reads aloud</strong>: "The Herald falls. The sky over Hope County seems a little clearer — but the church bells begin to toll. Joseph knows you've come."</p>
+</blockquote>
+<p><strong>Genetic Lock hint</strong>: Suggested Genetic Lock stage — not yet opened. Can also be completed without it.</p>
+<h3>S04 — Final Confrontation at the Cult Leader's Church</h3>
+<blockquote>
+<p><strong>GM reads aloud</strong>: "The church basement is no sanctuary. Joseph stands before the altar, behind him row upon row of wooden crates packed with explosives. 'God said — all this is a test.'"</p>
+</blockquote>
+<p><strong>Encounter</strong>: Joseph Seed (★★★, HP 28, Defense 4, Melee 3, Firearms 4)
+<strong>Branch</strong>: ① Defeat Joseph (frontal combat) ② Persuade Joseph to surrender (Interaction check DC4)</p>
+<table>
+<thead>
+<tr>
+<th>Cutscene Condition</th>
+<th>Joseph defeated or surrendered → main objective complete</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VIII. Multi-Team Rules</h2>
+<blockquote>
+<p>None (this script is single-team PvE).</p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>IX. Reward Settlement</h2>
+<table>
+<thead>
+<tr>
+<th>Reward Type</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main</td>
+<td>D+1200</td>
+</tr>
+<tr>
+<td>Side</td>
+<td>Up to D3 + 1900</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>Up to D + 500</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Cultist 10 / Herald 200 / Joseph 400</td>
+</tr>
+</tbody>
+</table>
+<h3>Theoretical Maximum Gain</h3>
+<p>D×4 + ~4000</p>
+<h3>Return Exchange (script-limited)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Item</th>
+<th>Cost (Side + Reward Points)</th>
+<th>Effect</th>
+<th>Growth Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>Bliss Resistance</td>
+<td>D+500</td>
+<td>Modification (passive): permanent immunity to "Bliss" hallucinogenic state; Charisma (CHA) resistance to brainwashing +2</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Hope County Hunting Knowledge</td>
+<td>D+500</td>
+<td>Skill: wilderness survival and trap checks +2; identify cult patrol routes</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Militia Command</td>
+<td>D+500</td>
+<td>Skill: when leading resistance militia, allies' attack +1; can call airstrike once per script</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Liberator Martial Arts</td>
+<td>C+1000</td>
+<td>Skill: unarmed and melee attack +1; disarm cultists success rate +2</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Angel Swarm Control</td>
+<td>C+1000</td>
+<td>Modification (passive): control Eden's Gate "angel" swarm for recon (30m) or brief enemy confusion</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Rotorcraft Pilot</td>
+<td>C+1000</td>
+<td>Skill: pilot helicopter / fixed-wing; aerial maneuver Agility (DEX) +2</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Seed Family Bloodline</td>
+<td>C+2000</td>
+<td>Bloodline: "Herald" physique, Base Defense +1, Bliss resistance +1, leadership Charisma (CHA) +1</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>X. Appendix</h2>
+<h3>GM Memo</h3>
+<ul>
+<li>The three Herald regions can be tackled in any order; each liberation raises difficulty.</li>
+<li>Joseph's storyline may be delayed at the GM's judgment — if players are fatigued after the three Heralds, insert a short rest scene.</li>
+<li>Emphasize the town's sense of confinement and the cult's oppressive atmosphere.</li>
+</ul></section></section>
+    <section class="block"><h2>地圖（YAML＋SVG）</h2><div class="map">
+              <div class="maptitle">FREECRY5_BM-01 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 460" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="560" height="460" fill="#1a1a2e"/>
+<rect x="20" y="20" width="520" height="420" fill="url(#grid)"/>
+<rect x="20" y="20" width="520" height="420" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="280.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Battle Map 10x8</text>
+<text x="25" y="452" fill="#666" font-size="9">FREECRY5_BM-01 | 10×10grid (concept) | 1 grid = 5ft | total 50×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="30.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="330.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="380.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="330.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="380.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="130.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="155.0" y="51.0" text-anchor="middle" fill="#aaa" font-size="8">▲Battle MapBM-01</text>
+<text x="155.0" y="65.0" text-anchor="middle" fill="#666" font-size="6">(42.5, 12.5)ft</text>
+<rect x="130.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="130.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="130.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="130.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="130.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="130.0" y="330.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="130.0" y="380.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="180.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="205.0" y="51.0" text-anchor="middle" fill="#aaa" font-size="8">▲Battle MapBM-01</text>
+<text x="205.0" y="65.0" text-anchor="middle" fill="#666" font-size="6">(62.5, 12.5)ft</text>
+<rect x="180.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="180.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="180.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="180.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="205.0" y="251.0" text-anchor="middle" fill="#aaa" font-size="8">Enemy</text>
+<text x="205.0" y="265.0" text-anchor="middle" fill="#666" font-size="6">(62.5, 77.5)ft</text>
+<rect x="180.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="205.0" y="301.0" text-anchor="middle" fill="#aaa" font-size="8">Enemy</text>
+<text x="205.0" y="315.0" text-anchor="middle" fill="#666" font-size="6">(62.5, 92.5)ft</text>
+<rect x="180.0" y="330.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="180.0" y="380.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="255.0" y="51.0" text-anchor="middle" fill="#aaa" font-size="8">Battle Map 10x8</text>
+<text x="255.0" y="65.0" text-anchor="middle" fill="#666" font-size="6">(77.5, 12.5)ft</text>
+<rect x="230.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="255.0" y="101.0" text-anchor="middle" fill="#aaa" font-size="8">Bunker</text>
+<text x="255.0" y="115.0" text-anchor="middle" fill="#666" font-size="6">(77.5, 27.5)ft</text>
+<rect x="230.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="255.0" y="251.0" text-anchor="middle" fill="#aaa" font-size="8">Enemy</text>
+<text x="255.0" y="265.0" text-anchor="middle" fill="#666" font-size="6">(77.5, 77.5)ft</text>
+<rect x="230.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="255.0" y="301.0" text-anchor="middle" fill="#aaa" font-size="8">Enemy</text>
+<text x="255.0" y="315.0" text-anchor="middle" fill="#666" font-size="6">(77.5, 92.5)ft</text>
+<rect x="230.0" y="330.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="380.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="305.0" y="51.0" text-anchor="middle" fill="#aaa" font-size="8">Battle Map 10x8</text>
+<text x="305.0" y="65.0" text-anchor="middle" fill="#666" font-size="6">(92.5, 12.5)ft</text>
+<rect x="280.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="305.0" y="101.0" text-anchor="middle" fill="#aaa" font-size="8">Bunker</text>
+<text x="305.0" y="115.0" text-anchor="middle" fill="#666" font-size="6">(92.5, 27.5)ft</text>
+<rect x="280.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="305.0" y="151.0" text-anchor="middle" fill="#aaa" font-size="8">Bunker</text>
+<text x="305.0" y="165.0" text-anchor="middle" fill="#666" font-size="6">(92.5, 42.5)ft</text>
+<rect x="280.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="330.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="380.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="330.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="330.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="355.0" y="101.0" text-anchor="middle" fill="#aaa" font-size="8">Bunker</text>
+<text x="355.0" y="115.0" text-anchor="middle" fill="#666" font-size="6">(112.5, 27.5)ft</text>
+<rect x="330.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="355.0" y="151.0" text-anchor="middle" fill="#aaa" font-size="8">Bunker</text>
+<text x="355.0" y="165.0" text-anchor="middle" fill="#666" font-size="6">(112.5, 42.5)ft</text>
+<rect x="330.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="355.0" y="201.0" text-anchor="middle" fill="#aaa" font-size="8">Our Side</text>
+<text x="355.0" y="215.0" text-anchor="middle" fill="#666" font-size="6">(112.5, 62.5)ft</text>
+<rect x="330.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="355.0" y="251.0" text-anchor="middle" fill="#aaa" font-size="8">Our Side</text>
+<text x="355.0" y="265.0" text-anchor="middle" fill="#666" font-size="6">(112.5, 77.5)ft</text>
+<rect x="330.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="330.0" y="330.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="330.0" y="380.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="405.0" y="201.0" text-anchor="middle" fill="#aaa" font-size="8">Our Side</text>
+<text x="405.0" y="215.0" text-anchor="middle" fill="#666" font-size="6">(127.5, 62.5)ft</text>
+<rect x="380.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="405.0" y="251.0" text-anchor="middle" fill="#aaa" font-size="8">Our Side</text>
+<text x="405.0" y="265.0" text-anchor="middle" fill="#666" font-size="6">(127.5, 77.5)ft</text>
+<rect x="380.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="330.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="380.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="430.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="430.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="430.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="430.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="430.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="430.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="430.0" y="330.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="430.0" y="380.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="330.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="380.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="28.0" y="28.0" width="504.0" height="404.0" rx="3" fill="none" stroke="#4B0082" stroke-width="2"/>
+<text x="280.0" y="226.0" text-anchor="middle" fill="#aaa" font-size="8">Enemy</text>
+<text x="280.0" y="240.0" text-anchor="middle" fill="#666" font-size="6">(90.0, 72.5)ft</text>
+<rect x="300.0" y="100.0" width="100.0" height="40.0" rx="3" fill="#7f8c8d" stroke="#95a5a6" stroke-width="1"/>
+<text x="350.0" y="116.0" text-anchor="middle" fill="#aaa" font-size="8">Bunker</text>
+<text x="350.0" y="130.0" text-anchor="middle" fill="#666" font-size="6">(112.5, 32.5)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/FREECRY5-希望郡末日/en/maps/FREECRY5_BM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L1/FREECRY5-希望郡末日/en/maps/FREECRY5_BM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">FREECRY5_BM-02 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 360" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="460" height="360" fill="#1a1a2e"/>
+<rect x="20" y="20" width="420" height="320" fill="url(#grid)"/>
+<rect x="20" y="20" width="420" height="320" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="230.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Battle Map 8x6</text>
+<text x="25" y="352" fill="#666" font-size="9">FREECRY5_BM-02 | 10×10grid (concept) | 1 grid = 5ft | total 50×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="30.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="105.0" y="151.0" text-anchor="middle" fill="#aaa" font-size="8">Obstacle</text>
+<text x="105.0" y="165.0" text-anchor="middle" fill="#666" font-size="6">(27.5, 42.5)ft</text>
+<rect x="80.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="130.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="155.0" y="51.0" text-anchor="middle" fill="#aaa" font-size="8">▲Battle MapBM-02</text>
+<text x="155.0" y="65.0" text-anchor="middle" fill="#666" font-size="6">(42.5, 12.5)ft</text>
+<rect x="130.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="155.0" y="101.0" text-anchor="middle" fill="#aaa" font-size="8">Obstacle</text>
+<text x="155.0" y="115.0" text-anchor="middle" fill="#666" font-size="6">(42.5, 27.5)ft</text>
+<rect x="130.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="155.0" y="151.0" text-anchor="middle" fill="#aaa" font-size="8">Obstacle</text>
+<text x="155.0" y="165.0" text-anchor="middle" fill="#666" font-size="6">(42.5, 42.5)ft</text>
+<rect x="130.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="155.0" y="201.0" text-anchor="middle" fill="#aaa" font-size="8">BOSS</text>
+<text x="155.0" y="215.0" text-anchor="middle" fill="#666" font-size="6">(42.5, 62.5)ft</text>
+<rect x="130.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="130.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="180.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="205.0" y="51.0" text-anchor="middle" fill="#aaa" font-size="8">▲Battle MapBM-02</text>
+<text x="205.0" y="65.0" text-anchor="middle" fill="#666" font-size="6">(62.5, 12.5)ft</text>
+<rect x="180.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="180.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="205.0" y="151.0" text-anchor="middle" fill="#aaa" font-size="8">BOSS</text>
+<text x="205.0" y="165.0" text-anchor="middle" fill="#666" font-size="6">(62.5, 42.5)ft</text>
+<rect x="180.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="205.0" y="201.0" text-anchor="middle" fill="#aaa" font-size="8">BOSS</text>
+<text x="205.0" y="215.0" text-anchor="middle" fill="#666" font-size="6">(62.5, 62.5)ft</text>
+<rect x="180.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="180.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="255.0" y="51.0" text-anchor="middle" fill="#aaa" font-size="8">Battle Map 8x6</text>
+<text x="255.0" y="65.0" text-anchor="middle" fill="#666" font-size="6">(77.5, 12.5)ft</text>
+<rect x="230.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="305.0" y="201.0" text-anchor="middle" fill="#aaa" font-size="8">Our Side</text>
+<text x="305.0" y="215.0" text-anchor="middle" fill="#666" font-size="6">(92.5, 62.5)ft</text>
+<rect x="280.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="305.0" y="251.0" text-anchor="middle" fill="#aaa" font-size="8">Our Side</text>
+<text x="305.0" y="265.0" text-anchor="middle" fill="#666" font-size="6">(92.5, 77.5)ft</text>
+<rect x="280.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="330.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="330.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="330.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="330.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="355.0" y="201.0" text-anchor="middle" fill="#aaa" font-size="8">Our Side</text>
+<text x="355.0" y="215.0" text-anchor="middle" fill="#666" font-size="6">(112.5, 62.5)ft</text>
+<rect x="330.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="355.0" y="251.0" text-anchor="middle" fill="#aaa" font-size="8">Our Side</text>
+<text x="355.0" y="265.0" text-anchor="middle" fill="#666" font-size="6">(112.5, 77.5)ft</text>
+<rect x="330.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="28.0" y="28.0" width="404.0" height="304.0" rx="3" fill="none" stroke="#4B0082" stroke-width="2"/>
+<text x="230.0" y="176.0" text-anchor="middle" fill="#aaa" font-size="8">BOSS</text>
+<text x="230.0" y="190.0" text-anchor="middle" fill="#666" font-size="6">(72.5, 55.0)ft</text>
+<rect x="150.0" y="100.0" width="40.0" height="80.0" rx="3" fill="#7f8c8d" stroke="#95a5a6" stroke-width="1"/>
+<text x="170.0" y="136.0" text-anchor="middle" fill="#aaa" font-size="8">Obstacle</text>
+<text x="170.0" y="150.0" text-anchor="middle" fill="#666" font-size="6">(52.5, 37.5)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/FREECRY5-希望郡末日/en/maps/FREECRY5_BM-02.yaml" download>yaml</a> <a href="../../assets/scripts/L1/FREECRY5-希望郡末日/en/maps/FREECRY5_BM-02.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">FREECRY5_EM-01 <span class="maptype">探索地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 560" font-family="Microsoft JhengHei, sans-serif">
+<rect width="660" height="560" fill="#1a1a2e"/>
+<text x="330.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">Exploration Map</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 1</text>
+<rect x="20" y="0.0" width="620" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="660.0" height="560.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<text x="330.0" y="280.0" text-anchor="middle" fill="#aaa" font-size="9">Militia Camp</text>
+<rect x="28.0" y="28.0" width="604.0" height="504.0" rx="0.0" fill="none" stroke="#4B0082" stroke-width="2"/>
+<text x="330.0" y="280.0" text-anchor="middle" fill="#aaa" font-size="9">Militia Camp</text>
+<rect x="30.0" y="30.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="55.0" y="55.0" text-anchor="middle" fill="#aaa" font-size="9">Church</text>
+<rect x="80.0" y="30.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="105.0" y="55.0" text-anchor="middle" fill="#aaa" font-size="9">Church</text>
+<rect x="130.0" y="30.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="155.0" y="55.0" text-anchor="middle" fill="#aaa" font-size="9">▲Exploration Zone</text>
+<rect x="180.0" y="30.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="205.0" y="55.0" text-anchor="middle" fill="#aaa" font-size="9">▲Exploration Zone</text>
+<rect x="230.0" y="30.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="255.0" y="55.0" text-anchor="middle" fill="#aaa" font-size="9">▲Exploration Zone</text>
+<rect x="280.0" y="30.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="305.0" y="55.0" text-anchor="middle" fill="#aaa" font-size="9">Exploration Map</text>
+<rect x="330.0" y="30.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="355.0" y="55.0" text-anchor="middle" fill="#aaa" font-size="9">Exploration Map</text>
+<rect x="380.0" y="30.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="405.0" y="55.0" text-anchor="middle" fill="#aaa" font-size="9">Farmland</text>
+<rect x="430.0" y="30.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="30.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="530.0" y="30.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="580.0" y="30.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="60.0" y="70.0" width="200.0" height="200.0" rx="0.0" fill="#333" stroke="#555" stroke-width="1"/>
+<rect x="320.0" y="70.0" width="200.0" height="200.0" rx="0.0" fill="#333" stroke="#555" stroke-width="1"/>
+<rect x="30.0" y="80.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="55.0" y="105.0" text-anchor="middle" fill="#aaa" font-size="9">Church</text>
+<rect x="80.0" y="80.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="105.0" y="105.0" text-anchor="middle" fill="#aaa" font-size="9">Church</text>
+<rect x="130.0" y="80.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="155.0" y="105.0" text-anchor="middle" fill="#aaa" font-size="9">Church</text>
+<rect x="180.0" y="80.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="205.0" y="105.0" text-anchor="middle" fill="#aaa" font-size="9">▲Exploration Zone</text>
+<rect x="230.0" y="80.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="80.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="305.0" y="105.0" text-anchor="middle" fill="#aaa" font-size="9">Farmland</text>
+<rect x="330.0" y="80.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="355.0" y="105.0" text-anchor="middle" fill="#aaa" font-size="9">Farmland</text>
+<rect x="380.0" y="80.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="405.0" y="105.0" text-anchor="middle" fill="#aaa" font-size="9">Farmland</text>
+<rect x="430.0" y="80.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="80.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="530.0" y="80.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="580.0" y="80.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="130.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="55.0" y="155.0" text-anchor="middle" fill="#aaa" font-size="9">Church</text>
+<rect x="80.0" y="130.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="105.0" y="155.0" text-anchor="middle" fill="#aaa" font-size="9">Church</text>
+<rect x="130.0" y="130.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="155.0" y="155.0" text-anchor="middle" fill="#aaa" font-size="9">Church</text>
+<rect x="180.0" y="130.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="130.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="130.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="305.0" y="155.0" text-anchor="middle" fill="#aaa" font-size="9">Farmland</text>
+<rect x="330.0" y="130.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="355.0" y="155.0" text-anchor="middle" fill="#aaa" font-size="9">Farmland</text>
+<rect x="380.0" y="130.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="405.0" y="155.0" text-anchor="middle" fill="#aaa" font-size="9">Farmland</text>
+<rect x="430.0" y="130.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="130.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="530.0" y="130.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="580.0" y="130.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="180.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="180.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="130.0" y="180.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="180.0" y="180.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="180.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="180.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="330.0" y="180.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="180.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="430.0" y="180.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="180.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="530.0" y="180.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="580.0" y="180.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="230.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="230.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="130.0" y="230.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="180.0" y="230.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="230.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="230.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="330.0" y="230.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="230.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="430.0" y="230.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="230.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="530.0" y="230.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="580.0" y="230.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="280.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="55.0" y="305.0" text-anchor="middle" fill="#aaa" font-size="9">Bunker</text>
+<rect x="80.0" y="280.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="105.0" y="305.0" text-anchor="middle" fill="#aaa" font-size="9">Bunker</text>
+<rect x="130.0" y="280.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="155.0" y="305.0" text-anchor="middle" fill="#aaa" font-size="9">Bunker</text>
+<rect x="180.0" y="280.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="280.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="280.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="305.0" y="305.0" text-anchor="middle" fill="#aaa" font-size="9">Militia Camp</text>
+<rect x="330.0" y="280.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="355.0" y="305.0" text-anchor="middle" fill="#aaa" font-size="9">Militia Camp</text>
+<rect x="380.0" y="280.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="405.0" y="305.0" text-anchor="middle" fill="#aaa" font-size="9">Militia Camp</text>
+<rect x="430.0" y="280.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="280.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="530.0" y="280.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="580.0" y="280.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="60.0" y="300.0" width="200.0" height="200.0" rx="0.0" fill="#333" stroke="#555" stroke-width="1"/>
+<rect x="30.0" y="330.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="55.0" y="355.0" text-anchor="middle" fill="#aaa" font-size="9">Bunker</text>
+<rect x="80.0" y="330.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="105.0" y="355.0" text-anchor="middle" fill="#aaa" font-size="9">Bunker</text>
+<rect x="130.0" y="330.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="155.0" y="355.0" text-anchor="middle" fill="#aaa" font-size="9">Bunker</text>
+<rect x="180.0" y="330.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="330.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="330.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="305.0" y="355.0" text-anchor="middle" fill="#aaa" font-size="9">Militia Camp</text>
+<rect x="330.0" y="330.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="355.0" y="355.0" text-anchor="middle" fill="#aaa" font-size="9">Militia Camp</text>
+<rect x="380.0" y="330.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="405.0" y="355.0" text-anchor="middle" fill="#aaa" font-size="9">Militia Camp</text>
+<rect x="430.0" y="330.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="330.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="530.0" y="330.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="580.0" y="330.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="380.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="55.0" y="405.0" text-anchor="middle" fill="#aaa" font-size="9">Bunker</text>
+<rect x="80.0" y="380.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="105.0" y="405.0" text-anchor="middle" fill="#aaa" font-size="9">Bunker</text>
+<rect x="130.0" y="380.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="180.0" y="380.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="380.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="380.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="330.0" y="380.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="355.0" y="405.0" text-anchor="middle" fill="#aaa" font-size="9">Militia Camp</text>
+<rect x="380.0" y="380.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="405.0" y="405.0" text-anchor="middle" fill="#aaa" font-size="9">Militia Camp</text>
+<rect x="430.0" y="380.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="380.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="530.0" y="380.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="580.0" y="380.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="430.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="430.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="130.0" y="430.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="180.0" y="430.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="430.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="430.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="330.0" y="430.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="430.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="430.0" y="430.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="430.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="530.0" y="430.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="580.0" y="430.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="480.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="480.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="130.0" y="480.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="180.0" y="480.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="480.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="480.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="330.0" y="480.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="480.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="430.0" y="480.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="480.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="530.0" y="480.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="580.0" y="480.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="20" y="550" fill="#666" font-size="9">FREECRY5_EM-01 | Exploration Map </text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/FREECRY5-希望郡末日/en/maps/FREECRY5_EM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L1/FREECRY5-希望郡末日/en/maps/FREECRY5_EM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">FREECRY5_WM-01 <span class="maptype">世界地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 560" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="660" height="560" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="660" height="560" fill="url(#wmgrid)"/>
+<rect x="30.0" y="30.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="30.0" y="80.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="30.0" y="130.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="30.0" y="180.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="30.0" y="230.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="30.0" y="280.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="30.0" y="330.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="30.0" y="380.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="30.0" y="430.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="30.0" y="480.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="80.0" y="30.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="80.0" y="80.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<text x="105.0" y="105.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">JohnZone</text>
+<rect x="80.0" y="130.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="80.0" y="180.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="80.0" y="230.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<text x="105.0" y="255.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">FaithZone</text>
+<rect x="80.0" y="280.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<text x="105.0" y="305.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">FaithZone</text>
+<rect x="80.0" y="330.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="80.0" y="380.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="80.0" y="430.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<text x="105.0" y="455.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">JacobZone</text>
+<rect x="80.0" y="480.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="130.0" y="30.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="130.0" y="80.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<text x="155.0" y="105.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">JohnZone</text>
+<rect x="130.0" y="130.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="130.0" y="180.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="130.0" y="230.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="130.0" y="280.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="130.0" y="330.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="130.0" y="380.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="130.0" y="430.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<text x="155.0" y="455.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">JacobZone</text>
+<rect x="130.0" y="480.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="180.0" y="30.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<text x="205.0" y="55.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">▲Hope County Widespread</text>
+<rect x="180.0" y="80.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="180.0" y="130.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="180.0" y="180.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="180.0" y="230.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="180.0" y="280.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="180.0" y="330.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="180.0" y="380.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="180.0" y="430.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="180.0" y="480.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="230.0" y="30.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="230.0" y="80.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="230.0" y="130.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="230.0" y="180.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="230.0" y="230.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="230.0" y="280.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="230.0" y="330.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="230.0" y="380.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="230.0" y="430.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="230.0" y="480.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="280.0" y="30.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<text x="305.0" y="55.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Wide-area Map</text>
+<rect x="280.0" y="80.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="280.0" y="130.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="280.0" y="180.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="280.0" y="230.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="280.0" y="280.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="280.0" y="330.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="280.0" y="380.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="280.0" y="430.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="280.0" y="480.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="330.0" y="30.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<text x="355.0" y="55.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Wide-area Map</text>
+<rect x="330.0" y="80.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="330.0" y="130.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="330.0" y="180.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="330.0" y="230.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="330.0" y="280.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<text x="355.0" y="305.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">→ Joseph's Church</text>
+<rect x="330.0" y="330.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="330.0" y="380.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="330.0" y="430.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="330.0" y="480.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="380.0" y="30.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="380.0" y="80.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="380.0" y="130.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="380.0" y="180.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="380.0" y="230.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="380.0" y="280.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="380.0" y="330.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="380.0" y="380.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="380.0" y="430.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="380.0" y="480.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="430.0" y="30.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="430.0" y="80.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="430.0" y="130.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="430.0" y="180.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="430.0" y="230.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="430.0" y="280.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="430.0" y="330.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="430.0" y="380.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="430.0" y="430.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="430.0" y="480.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="480.0" y="30.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="480.0" y="80.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="480.0" y="130.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="480.0" y="180.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="480.0" y="230.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="480.0" y="280.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="480.0" y="330.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="480.0" y="380.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="480.0" y="430.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="480.0" y="480.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="530.0" y="30.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="530.0" y="80.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="530.0" y="130.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="530.0" y="180.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="530.0" y="230.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="530.0" y="280.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="530.0" y="330.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="530.0" y="380.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="530.0" y="430.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="530.0" y="480.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="580.0" y="30.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="580.0" y="80.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="580.0" y="130.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="580.0" y="180.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="580.0" y="230.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="580.0" y="280.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="580.0" y="330.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="580.0" y="380.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="580.0" y="430.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="580.0" y="480.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="28.0" y="28.0" width="604.0" height="504.0" rx="5" fill="none" stroke="#4B0082" stroke-width="2"/>
+<text x="330.0" y="280.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">→ Joseph's Church</text>
+<rect x="80.0" y="60.0" width="200.0" height="150.0" rx="5" fill="#333" stroke="#4B0082" stroke-width="2"/>
+<rect x="80.0" y="240.0" width="200.0" height="150.0" rx="5" fill="#333" stroke="#4B0082" stroke-width="2"/>
+<rect x="80.0" y="420.0" width="200.0" height="150.0" rx="5" fill="#333" stroke="#4B0082" stroke-width="2"/>
+<text x="20" y="545" fill="#666" font-size="9">FREECRY5_WM-01 | Wide-area Map | Schematic</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/FREECRY5-希望郡末日/en/maps/FREECRY5_WM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L1/FREECRY5-希望郡末日/en/maps/FREECRY5_WM-01.svg" download>svg</a></p>
+            </div></section>
+    <section class="block"><h2>概念圖</h2><div class="gallery"><a href="../../assets/scripts/L1/FREECRY5-希望郡末日/images/enemy_01_joseph.png" target="_blank"><img src="../../assets/scripts/L1/FREECRY5-希望郡末日/images/enemy_01_joseph.png" alt="enemy_01_joseph.png"></a><a href="../../assets/scripts/L1/FREECRY5-希望郡末日/images/npc_01_marymay.png" target="_blank"><img src="../../assets/scripts/L1/FREECRY5-希望郡末日/images/npc_01_marymay.png" alt="npc_01_marymay.png"></a><a href="../../assets/scripts/L1/FREECRY5-希望郡末日/images/npc_02_FREECRY5_01.png" target="_blank"><img src="../../assets/scripts/L1/FREECRY5-希望郡末日/images/npc_02_FREECRY5_01.png" alt="npc_02_FREECRY5_01.png"></a><a href="../../assets/scripts/L1/FREECRY5-希望郡末日/images/scene_01_church.png" target="_blank"><img src="../../assets/scripts/L1/FREECRY5-希望郡末日/images/scene_01_church.png" alt="scene_01_church.png"></a></div></section>
+    </main>
+<footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

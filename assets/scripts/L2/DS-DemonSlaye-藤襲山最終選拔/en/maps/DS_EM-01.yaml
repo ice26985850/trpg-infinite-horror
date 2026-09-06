@@ -1,0 +1,75 @@
+map_id: DS_EM-01
+map_type: exploration
+scenario: 'Demon Slayer · Final Selection / Demon Slayer: Final Selection'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 900
+- 700
+title: Mt. Fujikasane Forest Exploration Map (Exploration Map EM-01)
+description: ''
+floors:
+- name: Floor 1
+  y: 0.0
+  rooms:
+  - bounds:
+    - 0.0
+    - 0.0
+    - 900.0
+    - 700.0
+    name: ▲
+    fill: '#1a1a2e'
+    stroke: ''
+    stroke_width: ''
+    rx: 0.0
+- name: Floor 2
+  y: 80.0
+  rooms:
+  - bounds:
+    - 50.0
+    - 80.0
+    - 800.0
+    - 570.0
+    name: ▲
+    fill: '#1e3a2f'
+    stroke: '#4B0082'
+    stroke_width: '2'
+    rx: 8.0
+- name: Floor 3
+  y: 288.0
+  rooms:
+  - bounds:
+    - 320.0
+    - 288.0
+    - 60.0
+    - 24.0
+    name: NPC Tanjiro
+    fill: '#4a90d9'
+    stroke: ''
+    stroke_width: ''
+    rx: 12.0
+  - bounds:
+    - 570.0
+    - 338.0
+    - 60.0
+    - 24.0
+    name: NPC Zenitsu
+    fill: '#f1c40f'
+    stroke: ''
+    stroke_width: ''
+    rx: 12.0
+  - bounds:
+    - 620.0
+    - 388.0
+    - 60.0
+    - 24.0
+    name: NPC Inosuke
+    fill: '#e74c3c'
+    stroke: ''
+    stroke_width: ''
+    rx: 12.0
+connections: []
+legend: []
+notes: []

@@ -1,0 +1,1209 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Hunger Games: Arena Survival | HG-TheHungerG-競技場求生 | Infinite Terror TRPG Scripts</title>
+<link rel="stylesheet" href="../../assets/style.css"></head>
+<body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../../index.html">中文</a></header>
+<div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
+<main class="container"><h1>The Hunger Games: Arena Survival</h1>
+    <p class="meta">Code: HG-TheHungerG-競技場求生 ｜ Source: The Hunger Games ｜ Difficulty: ★ ｜ Players: 3–6 (note: Reincarnators enter as 2–4 &quot;Tributes&quot;; the remaining 1–2 may take &quot;backstage support&quot; roles or ally Tributes in a friendly entry) ｜ Duration: 4–6 hrs / 1–2 sessions ｜ Type: Survival / Competition / Social Game</p>
+    <p class="nav"><a href="../../index.html">← 劇本總覽</a> ｜ <a href="../../assets/scripts/L1/HG-TheHungerG-競技場求生/en/HG_劇本.md" download>劇本 MD</a> ｜ <a href="../../assets/scripts/L1/HG-TheHungerG-競技場求生/en/HG_NPC名冊.xlsx" download>NPC 名冊</a> ｜ <a href="../../assets/scripts/L1/HG-TheHungerG-競技場求生/en/HG_敵方單位名冊.xlsx" download>敵方名冊</a> ｜ <a href="../../assets/L1_HG-TheHungerG-競技場求生_all_en.zip">下載全部（zip）</a></p>
+    <section class="block content"><section class="chap"><h2>一、基本資訊</h2>
+<p>Script Title: The Hunger Games: Arena Survival
+Source Film: The Hunger Games
+Difficulty Rating: ★
+Suggested Players: 3–6 (note: Reincarnators enter as 2–4 "Tributes"; the remaining 1–2 may take "backstage support" roles or ally Tributes in a friendly entry)
+Estimated Duration: 4–6 hrs / 1–2 sessions
+Prerequisite: None (suitable for newcomers to the Reincarnation cycle)
+Script Type: Survival / Competition / Social Game</p>
+<hr /></section>
+<details class="gm"><summary>🎭 GM 限定：II. Plot Summary (GM Spoilers)</summary><h2>II. Plot Summary (GM Spoilers)</h2>
+<h3>One-Line Summary</h3>
+<blockquote>
+<p>The 74th Hunger Games — 24 Tributes, one arena, only the last 6 alive return to the Lord God's space. The Reincarnators are thrown into this lethal duel as Tributes from a "new district," facing both Career Tribute hunts and alliance betrayal amid forests, rivers, caves, and artificial disasters.</p>
+</blockquote>
+<h3>Full Plot Background</h3>
+<p>The setting is the near-future dystopia of Panem. The Capitol rules twelve administrative districts and, every year, holds the "Hunger Games" — drawing one boy and one girl from each district, 24 Tributes total, thrown into a man-made arena to slaughter one another — to cement its control. The entire process is broadcast live nationwide by cameras.</p>
+<p>The 74th Games' arena is mixed forest/grassland terrain, with a "Cornucopia" at the center — a giant metal structure piled with weapons and supplies. Rivers, caves, dense woods, and open fields surround it, but every zone has artificial traps placed by the Game Control Center (GCC).</p>
+<p>The Reincarnators enter 1 hour before the Games begin — they wake in the underground prep room of the Tribute Tower, just finished with styling and the opening parade. Their wristwatch shows the mission. The next hour is a strategy meeting with mentor Haymitch, then they are sent up glass tubes to be launched into the arena.</p>
+<p>GM note: threats here come from three layers — ① the other 23 Tributes (especially the Career Tributes from Districts 1–2), ② the arena's artificial traps (disasters, fire walls, floods), and ③ resource scarcity and alliance-trust crises. Social maneuvering outweighs pure combat.</p>
+<h3>Story Structure Type</h3>
+<p><strong>Hybrid</strong>: Phase 1 is Tribute Tower prep (pre-battle strategy and socializing), Phase 2 is the arena opening (Cornucopia supply scramble), Phase 3 advances scene by scene (forest stronghold → manhunt → final showdown).</p>
+<hr /></details>
+<section class="chap"><h2>III. Lord God's Mission</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mission Brief</td>
+<td>"Survive the 74th Hunger Games until only 6 Tributes remain in the arena (including yourself)."</td>
+</tr>
+<tr>
+<td>Main Objective</td>
+<td>Survive until the arena population drops to 6, then the Lord God auto-transfers all surviving Reincarnators</td>
+</tr>
+<tr>
+<td>Mission Reward</td>
+<td>D+1500</td>
+</tr>
+<tr>
+<td>Failure Condition</td>
+<td>Total party wipe / dying before the population drops to 6</td>
+</tr>
+<tr>
+<td>Failure Penalty</td>
+<td>Erasure</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>① Survive as the last 1 (only your side remains): extra D1 <br>② Ally with at least 2 Tributes and have all survive to the end: +500 (allied Tributes must also survive to the end to earn this)</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>IV. Side Quests</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-01</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Sponsor Airdrop Grab</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Accumulate enough "audience favor" during the Games (see "World Rules → Sponsor System")</td>
+</tr>
+<tr>
+<td>Quest Detail</td>
+<td>Obtain at least 3 sponsor airdrops (dropped by silver parachute; landing spot chosen by mentor). Each airdrop requires accumulated favor from standout performance. Airdrop supplies are fixed (see table); landing attracts nearby Tributes (200m visibility).</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Complete 3 airdrops before the Games end</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>600 (200 per drop; 3 drops +600 total = 1200)</td>
+</tr>
+<tr>
+<td>Relation to Main Plot</td>
+<td>Support — airdrops directly boost survival</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Airdrop table (random 1d4): 1 = first-aid kit (heal 2d8 HP) + purified water ×3; 2 = tactical dagger (1d6 pierce) + rope (climb DP+2); 3 = firebomb ×2 (2d6 fire, radius 3m); 4 = night-vision goggles (no night DP penalty) + rations ×3</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-02</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Defeat the Career Tribute Squad</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Encounter the 4-person Career squad (led by Cato) from Districts 1–2 and wipe them out or force retreat</td>
+</tr>
+<tr>
+<td>Quest Detail</td>
+<td>The Career squad is led by Cato (Dist. 2, ★★★), with Clove (Dist. 2, ★★), Marvel (Dist. 1, ★★), Glimmer (Dist. 1, ★★) — 4 total. Professionally trained killers with fine gear (spear, sword, dagger), they camp by the Cornucopia as "gatekeepers" hunting others.</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>None — but handle mid-Games (Days 3–5); later they may be weakened by other factors</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>1000 (wipeout; forced retreat 600) + 200 per Career Tribute killed</td>
+</tr>
+<tr>
+<td>Relation to Main Plot</td>
+<td>Core competition — removing the strongest rivals sharply cuts mid/late risk</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Careers patrol the Cornucopia by day, camp at the forest edge by night. Exploit their "professional pride" (rivalry) to sow discord. If allied with Katniss, she has extra revenge motive against this squad (killing them is essential for her).</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-03</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Sabotage the Game Control Trap System</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Find the "GCC wiring room" at the arena edge (Intellect + Investigation DC3; usually hidden deep in a cave or cliff crevice)</td>
+</tr>
+<tr>
+<td>Quest Detail</td>
+<td>The GCC controls the arena's disaster system (fire walls, flood valves, poison vents) via underground lines. Sabotaging the room can: ① permanently disable all traps in a zone (Intellect + Science DC3); ② make a zone's traps "misfire" — attacking Capitol surveillance drones (Intellect + Computer DC4).</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>None — but each sabotage triggers a GCC alarm (2h later the Capitol sends "Cleaners," special units, to clear the zone)</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>800 + all Tributes in the sabotaged trap zone lose trap cover</td>
+</tr>
+<tr>
+<td>Relation to Main Plot</td>
+<td>Support — reduces late random-damage risk; can draw Cleaners toward enemy Tributes</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>The wiring room is guarded by 2 auto-turrets (★). If found after Day 5, Cleaners are already active (threat +1).</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>V. World Setting</h2>
+<h3>Timeline</h3>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T-1h</td>
+<td>Reincarnators wake in the Tribute Tower underground prep room. Mentor Haymitch gives a 1-hour strategy briefing. Watch shows mission.</td>
+</tr>
+<tr>
+<td>T+0</td>
+<td>Arena opens — all Tributes launched from glass tubes around the Cornucopia (60s cannot leave tube or it explodes). After countdown, supply scramble begins.</td>
+</tr>
+<tr>
+<td>T+4h</td>
+<td>Opening-day combat ends — first cannon (about 5–8 Tributes dead). Arena boundary first shown (force-field wall).</td>
+</tr>
+<tr>
+<td>T+24h</td>
+<td>Day 1 ends — dead are projected on the sky. Day-1 deaths about 6–10.</td>
+</tr>
+<tr>
+<td>T+48h</td>
+<td>Day 2 — GCC deploys artificial traps (fire wall, poison mist); first silver-parachute airdrop appears.</td>
+</tr>
+<tr>
+<td>T+72h</td>
+<td>Day 3 — GCC starts "arena shrink" — boundary force-field wall slowly moves inward, forcing survivors toward center. Career squad begins active hunting.</td>
+</tr>
+<tr>
+<td>T+96h</td>
+<td>Day 4 — if S-03 wiring room sabotaged, Cleaners deploy. If not, GCC opens flood valves (submerging river-zone lowlands).</td>
+</tr>
+<tr>
+<td>T+120h</td>
+<td>Day 5 — "final showdown" trigger condition met (population below 8). GCC releases Mutts — gene-modified wolf creatures chasing survivors to the Cornucopia.</td>
+</tr>
+<tr>
+<td>T+variable</td>
+<td>When surviving Tributes drop to 6, Games end — 0 or 1 cannon; Lord God transfer mark appears atop the Cornucopia.</td>
+</tr>
+</tbody>
+</table>
+<h3>Key Locations</h3>
+<h4>Location A: Tribute Tower Underground Prep Room (Start)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Tribute Tower Underground Prep Room</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A space-age pure-white room, seamless metal walls and floor. Screens show the live arena map and contestant portraits. Glass launch tubes stand in a row at the room's center — transparent cylinders on metal platforms. You wear your arena outfit; your wristwatch glows faintly under the fluorescent light.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Screen control panel (view arena map once, other Tributes' profiles), weapon rack (training wooden swords ×2 1d3 blunt, rope ×1, first-aid kit ×1 — note: real weapons only at the Cornucopia), Haymitch's private liquor bottle (bargaining prop or 1d4 fire attack).</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>No immediate combat (pre-battle prep phase).</td>
+</tr>
+<tr>
+<td>Links to Other Locations</td>
+<td>Via lift platform to arena launch tubes → Scene S02.</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>EM-01 (Tribute Tower and Training Center)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location B: Cornucopia (Arena Core)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Cornucopia</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A giant metal structure shaped like a curved horn, rising from open grassland at the arena center. Its surface glares in the sun. Inside are piled weapons, backpacks, food — prizes for the fastest of the 24 Tributes. Ringed 60 feet out are 24 launch disks. Countdown is running.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Inner arsenal: spear ×3 (1d10 pierce), short sword ×2 (1d8 slash), battle axe ×1 (1d12 slash), bow ×2 (with 12 arrows, 1d8 pierce), dagger ×5 (1d6 pierce), backpack ×8 (water, food, rope, first-aid randomized); outer scattered supplies (far from core but safe): canned food ×3, sleeping bag ×1, small knife ×1 (1d4 pierce).</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>S02 opening: all 24 Tributes rush the Cornucopia after countdown. At least 5–8 die in the first volley (cannon). Career squad (Cato + 3) controls the Cornucopia entrance.</td>
+</tr>
+<tr>
+<td>Links to Other Locations</td>
+<td>NE → forest (300m), SW → river (200m), NW → caves (500m), SE → fields (400m).</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>WM-01 (arena panorama), BM-01 (Cornucopia start zone)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location C: Forest Stronghold</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Forest Stronghold</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Tall pines and oaks weave into dense woodland. Sunlight filters to dappled spots. The stream offers clean water — but also other Tributes' drawing point. Tree platforms give hidden perches, avoiding ground-patrolling Careers. At night, Capitol's mutant Tracker Jackers patrol the forest.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Stream (1 water unit/day, fish traps — Intellect + Survival DC2, success yields food ×1), hollow tree hollow (can be a hideout — Craft DC2, gives Hide DP+3), herbs (Intellect + Survival DC2, identify styptic and fever herbs — each heals 1d4 HP or clears poison).</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Patrol: by day every 2h 20% chance of 1d3 normal Tributes (★); by night every hour 30% chance of Career squad patrol (1d2). If allied with Katniss, she is very active here (her home turf).</td>
+</tr>
+<tr>
+<td>Links to Other Locations</td>
+<td>South → Cornucopia (300m), West → river (200m), North → caves (400m).</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>EM-01 (forest zone), BM-02 (forest stronghold chase battlefield)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location D: Cave Zone</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Cave Zone</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Natural caves in rock cliffs, expanded by Capitol engineers into a semi-artificial maze. Cold and damp inside, but excellent defense — only one entrance. Echoes amplify every footstep. Names of past dead are carved in stone on the walls.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Deep cave water (seepage — 1 water unit/day), GCC wiring-room entrance (S-03 — Intellect + Investigation DC3 to find the iron door behind a waterfall), crystal veins (glowing minerals — light source but reveals position).</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Cave guards: 2 auto-turrets (★) guard the wiring-room entrance (on alarm, fire 1d8+2 pierce per round, range 30m). Bats inside — if a group is woken, they burst from the entrance, exposing player position in the sky projection.</td>
+</tr>
+<tr>
+<td>Links to Other Locations</td>
+<td>South → forest (400m), SE → Cornucopia (500m), cave deep underground river → arena boundary force-field wall.</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>EM-01 (arena terrain), BM-02 (cave wiring room)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location E: River Zone</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>River Zone</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A gentle river ~10m wide crosses the arena's south. Gravel banks and low shrubs on both sides. Clear water; shallows can be waded (waist-deep), center deep needs swimming or flotsam. Across is open field — no cover, a natural archer duel ground.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Upstream (rich fish — Survival DC1 to catch), midstream (submerged bridge ruins — underwater a prior Games corpse with a rusty short sword 1d6-1 slash and waterproof tinder), downstream (swampy — Hide +2 but move halved; GCC flood valve — sabotage needs Intellect + Science DC3).</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Both banks: 2d4 normal Tributes may be met drawing water; Day-4 flood if S-03 not done submerges the zone — deep water needs Swim DC2, and Capitol water snakes ×3 added (★ HP10 venomous bite 1d4 pierce + 1d6 toxin, Endurance DC3).</td>
+</tr>
+<tr>
+<td>Links to Other Locations</td>
+<td>NNE → Cornucopia (200m), NNW → forest (200m), South → force-field boundary.</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>WM-01 (arena panorama river mark)</td>
+</tr>
+</tbody>
+</table>
+<h3>World Special Rules</h3>
+<ul>
+<li><strong>Sponsor System</strong>:</li>
+<li>Performance is rated "Spectacle Score" (GM judges, 1–10): successful combat (+2), healing ally (+1), tactical trick (+3), showing humanity (sympathy +2), killing a Career (+5).</li>
+<li>Accumulate 10 → mentor may request 1 airdrop. Item decided by GM 1d4 (see S-01 table).</li>
+<li>
+<p>Silver parachute descends, 2 rounds to land (Reincarnators and enemies see simultaneously). The drop is marked in the survivors' sky projection (visible arena-wide).</p>
+</li>
+<li>
+<p><strong>Arena Ecology</strong>:</p>
+</li>
+<li>Forest: Hide DP+2 (canopy cover); every 8h random encounter 20% (normal/Career/Tracker Jacker).</li>
+<li>River: unlimited water; shallow move -1; open banks (no cover).</li>
+<li>Cave: Defense Base Defense+2 (single entrance); GCC monitoring weakest (stealth DP+2, unseen by Capitol).</li>
+<li>
+<p>Field: open ground — ranged DP+2 (no block), Hide DP-4 (almost no cover), highest trap density (fire wall / mines).</p>
+</li>
+<li>
+<p><strong>GCC Disasters</strong>:</p>
+</li>
+<li>Fire Wall: a 50m-wide fire wall creeps (5m/round); crossing deals 3d6 fire (Agility + Athletics DC3 to pass through gaps).</li>
+<li>Flood Valve (Day 4): raises river zone water 3m; shallows become deep (Swim DC2); Capitol water snakes added.</li>
+<li>Poison Mist: covers radius 50m, 1d4 toxin/round (Endurance DC2 to hold breath but not stop skin absorption — still 1 damage/round).</li>
+<li>
+<p>Mutant Hounds (Day 5): gene-modified wolf creatures — track a specific Tribute (GCC locks via sky projection) until target dead. HP20, Agility 8, bite 2d6+2 pierce.</p>
+</li>
+<li>
+<p><strong>Nightly Dead Projection</strong>:</p>
+</li>
+<li>After each sunset, GCC projects the day's dead photos and districts on the sky dome. National anthem plays. All Tributes must stop — customary mourning time.</li>
+<li>A Reincarnator moving during projection is marked "disrespectful" by GCC; next day trap-focus chance ×2.</li>
+<li>
+<p>During projection you can see who died (watch also updates the count).</p>
+</li>
+<li>
+<p><strong>Fatigue System</strong>:</p>
+</li>
+<li>Every 24h without rest needs Endurance check (DC2); failure loses 2 DP. Resting in forest stronghold or cave (cover / ally watch) recovers normally; in open field or near Cornucopia — resting needs a night watch or 50% encounter chance.</li>
+</ul>
+<h3>Lord God Restrictions</h3>
+<ul>
+<li>"Do not reveal the Lord God's space to plot characters."</li>
+<li>"No weapons beyond this world's tech level" (this world ~ year 2100 — above modern but no supernatural) — Genetic Lock is exempt (human potential, not tech).</li>
+<li>"When killing an enemy Tribute, confirm they are truly hostile" (no indiscriminate slaughter — Capitol audience resents it, lowering sponsor favor).</li>
+</ul>
+<h3>Visual Map System</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Code</th>
+<th>Content</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wide-area Map</td>
+<td>WM-01</td>
+<td>Arena panorama (Cornucopia, forest, river, caves, fields, GCC wiring room, force-field boundary)</td>
+<td><code>maps/HG_WM-01.svg</code></td>
+</tr>
+<tr>
+<td>Exploration Map</td>
+<td>EM-01</td>
+<td>Tribute Tower and arena launch zone (training center, prep room, tube layout, Cornucopia surroundings)</td>
+<td><code>maps/HG_EM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-01</td>
+<td>Cornucopia start zone (15×10 grid, 24 launch positions, weapon crates, cover, escape routes)</td>
+<td><code>maps/HG_BM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-02</td>
+<td>Forest stronghold chase battlefield (12×8 grid, tree cover, stream, hollow-tree hiding spots, Career patrol routes)</td>
+<td><code>maps/HG_BM-02.svg</code></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VI. Characters &amp; Enemy Units (managed in separate Excel)</h2>
+<blockquote>
+<p>NPC and enemy unit data are in the separate Excel files below:
+- <strong>NPC Roster</strong>: <code>HG_NPC名冊.xlsx</code>
+- <strong>Enemy Unit Roster</strong>: <code>HG_敵方單位名冊.xlsx</code></p>
+<p>Both Excel files contain a "Roster" sheet and a "Blank Template" sheet; the first column is reserved for the character portrait.</p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>VII. Key Scenes</h2>
+<h3>Scene Structure</h3>
+<p>This script is <strong>Hybrid</strong>: Phase 1 Tribute Tower prep (pre-battle strategy), Phase 2 arena opening (Cornucopia scramble), Phase 3 scene-by-scene advance (forest stronghold → Career hunt → final showdown).</p>
+<hr />
+<h3>Phase 1: Pre-Battle Prep (T-1h ~ T+0)</h3>
+<h4>Scene S01: Tribute Underground Prep Room</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S01</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Tribute Underground Prep Room — The Last Peaceful Meal</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Script start</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"White. Everything you see is pure white — metal walls, glowing floor, curved ceiling. Before you, a transparent table holds a lavish Capitol breakfast: roast chicken, vivid desserts, fruit of strange fragrance. Orange liquid in a glass still fizzes. It all looks like five-star hotel room service — except the row of upright glass launch tubes at the room's center, and the still metal platforms inside. Wall screens loop an arena overhead view. Your watch chimes: 'Survive the 74th Hunger Games until 6 Tributes remain.'"</td>
+</tr>
+<tr>
+<td>Interactable Elements</td>
+<td>Screen info (Intellect + Investigation DC2, get 60% arena terrain detail, enemy Tribute list with district specialties); negotiate with mentor Haymitch (see NPC table — strategy tips, airdrop priority, hidden-supply clues); styling team (choose outfit look — affects initial audience favor +0~3); enemy Tribute intro videos (Perception + Sense DC2, judge which are potential allies, which are Career killers).</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>No combat (prep phase).</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td>None — info-gathering and strategy phase.</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Deep talk with Haymitch (get "Career weaknesses" — unlock tactics) vs skip to arena (lose strategy edge but save real time) vs try pre-contact with friendly-district Tributes (Katniss/Peeta) (Charisma + Social DC3, success = verbal pre-alliance — non-binding).</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Enter the glass launch tube; countdown starts (launched in 60s).</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>Phase 2: Arena Opening (T+0)</h3>
+<h4>Scene S02: Cornucopia — First Blood</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S02</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Cornucopia — First Blood</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Launched from tubes into the arena (T+0)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"Sunlight stabs your eyes. You stand on a metal disk, waist-high grass around. Sixty feet ahead, a curved giant metal horn rises from the grass — glare bouncing off its smooth surface. The horn's mouth is piled with weapons, backpacks, food, like mythic overflowing treasure. To your left, right, across — on 23 other disks stand the same bewildered, taut young faces. The overhead countdown reads: '10…9…8…' A woman's voice calmly intones over the arena speakers: 'May the odds be ever in your favor.'"</td>
+</tr>
+<tr>
+<td>Interactable Elements</td>
+<td>Around the tubes (each has a basic backpack — water, ration ×1, small knife 1d4 pierce — 5 feet away); during countdown observe other Tributes (Perception + Investigation DC1, judge who rushes the Cornucopia, who flees to forest); cannot leave tube in the 60s before countdown ends — or ankle-bomb detonates (3d10 explosion, 30ft radius, instant death).</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td><strong>After the 60s countdown</strong>: about 8–12 Tributes rush the Cornucopia — bloody scramble at once. GM rolls 1d8+4 for opening deaths (cannon). Career squad (4: Cato, Clove, Marvel, Glimmer) holds the entrance. Katniss grabs a distant backpack then flees to forest. Peeta hides pretending to be a rock.</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td><strong>Genetic Lock hint</strong>: if rushing the Cornucopia — suggest Genetic Lock Tier 1 (Resolve DC2), gaining Initiative +3, +1 move/grid per round, combat DP+1. Side effect: 1d4 mental damage after combat. Note: opening-battle GL side effect lowers Perception -2 for the next hour (hurts exploration).</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Rush Cornucopia for weapons (high risk — Careers + melee, may die instantly) vs grab nearby backpack then flee to forest (standard route, highest survival) vs flee to river or field (low competition but few supplies) vs stay at tube playing dead (marked "coward" by Capitol cameras — lose all sponsor favor and GCC targets you after Day-1 cannon).</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>All surviving Reincarnators leave the Cornucopia core (beyond 150ft radius) or the opening cannon stops.</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S03: First Night — Names in the Sky</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S03</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>First Night — The Dead's Names in the Sky</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>First sunset (Day 1 end)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"The sun sinks behind the arena dome. The sky goes blue to deep purple, then black velvet. Then the anthem — Panem's national anthem, grand and sorrowful. Faces project on the dome: the girl from District 8, the boy from 5, the two from 10… their names and districts linger five seconds, then extinguish into eternal dark. Some you saw alive today you'll never see again."</td>
+</tr>
+<tr>
+<td>Interactable Elements</td>
+<td>Observe the dead list (record dead Tributes and districts — analyze remaining enemies and potential allies); check if sky projection matches watch count (Intellect + Investigation DC2, spot rare GCC hidden survivors); organize watch (choose order — affects rest quality and night encounter chance).</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>No immediate combat (customary ceasefire during projection). But 30 min after, night activity begins: forest 20% chance of 1d2 normal Tributes or a Tracker Jacker nest (★).</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td>None — rest and observation phase.</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Hold stronghold till dawn (standard) → S04; night-move to better stronghold (high risk — night encounter doubles but can reposition while others rest) vs night-sneak near other camps to scout (Agility + Stealth DC3).</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Dawn (Day 2 begins).</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>Phase 3: Hunt and Showdown (T+24 ~ end)</h3>
+<h4>Scene S04: Alliances and Betrayal in the Forest</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S04</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Alliances and Betrayal in the Forest</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Active in the forest on Days 2–4</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Depends on target — if Katniss: "A bowstring draws taut from the brush. A braided girl half-crouches behind a trunk, arrow aimed your way. Thinner than at the opening parade, but harder-eyed. 'Don't move. What district are you?'" / if Career squad: "Four figures step from the trees, marching like an army. The blond leader shoulders a bloodied spear — Cato. He grins at the girl beside him: 'Look, another lost one.'"</td>
+</tr>
+<tr>
+<td>Interactable Elements</td>
+<td>Negotiate with Katniss (Presence + Social DC2, temporary alliance — share supplies/info, but she won't fully trust until favor 60+); with Peeta (more sympathetic — Presence + Social DC1 to ally, but he can't fight — only helps with disguise); encounter Career squad (choose: fight S-02 / fake surrender then betray / quick retreat / sow discord — Charisma + Manipulation DC4, turn 1 Career temporarily neutral).</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>If alliance goes smoothly — no combat. If negotiation fails — triggers combat or chase by degree: Katniss (if hostile) suppresses with ranged then retreats (no clinging); Career squad attacks all (4 vs X) — among the most dangerous battles.</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td><strong>Genetic Lock hint</strong>: if fighting the Career squad — strongly suggest Genetic Lock Tier 1 (Resolve DC3), whole-party combat DP+2, Initiative +3. This is positional warfare — use forest terrain (tree cover, brush snares) to offset gear gap. A sniper-type can, under GL, headshot-weaken Cato with ranged DP+5. Side effect: 1d6 mental damage.</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Ally route (with Katniss/Peeta vs Careers — unlocks Optional ②) vs lone-wolf route (no alliance, let Tributes exhaust each other — but too few to complete Optional ②) vs join Careers (Manipulation + Social DC5, short-term gear edge, but no trust inside — they'll betray you last).</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Complete at least 1 alliance or repel Careers, or abandon the forest for another location.</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S05: Final Showdown — Night of the Mutant Hounds</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S05</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Final Showdown — Night of the Mutant Hounds</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Day 5, when surviving Tributes drop below 8 (if not yet below 8, auto-triggers at Day-5 sunset)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"The dome plays a recording — the Capitol audience's collective roar: 'Fight! Fight! Fight!' Then heavy thuds of metal gates opening around the arena. Not one — dozens at once. From forest, caves, fields, mutant hounds pour out — not wolves, but twisted gene-monsters, fur like wire, eyes like camera lenses, each tracking a specific Tribute's scent. They don't stop, don't tire, until prey falls or dawn."</td>
+</tr>
+<tr>
+<td>Interactable Elements</td>
+<td>Find shelter (cave entrance or hollow tree blocks hounds — but each round 1 hound digs in — Endurance DC3 wooden structure): needs continuous reinforcing; climb Cornucopia top (Agility + Athletics DC3, scale the metal shell to avoid ground hounds — but exposed to all Tributes' view); use sound to lure (throw objects to draw your hounds toward enemy Tributes — Agility + Athletics DC2); night airdrop (if favor enough and Haymitch alive — request a last airdrop in the final battle — always weapon or firebomb).</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Each Reincarnator tracked by 1d3 Mutant Hounds (★★ HP20 Agility 8 bite 2d6+2 pierce — special: lock-on, won't switch target until it or the hound dies). Meanwhile other survivors (Katniss's group, remnant Careers) also converge on the Cornucopia — a three- even four-way melee.</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td><strong>Genetic Lock hint</strong>: final battle suggests GL Tier 1 as base (Resolve DC3). If Cato (★★★) and hounds are present together — consider GL Tier 2 (Resolve DC5) — all-action DP+3, one "limit-break" action (e.g., jump ×3 distance, hit 3 targets, shatter hound bone). Side effect: 2d6 mental damage + 1h coma after (allies must protect).</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Defensive (hold position till hounds dead or dawn) vs active (use hound-tracking to draw packs at enemy Tributes — high risk, high tactics) vs final charge (straight for Cornucopia top — at 6 remaining, the Lord God transfer mark appears there).</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Surviving Tributes drop to 6 → Games auto-end, Lord God transfers all surviving Reincarnators.</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VIII. Multi-Team Rules</h2>
+<blockquote>
+<p>This script's special nature: "all Tributes are competitors" — Reincarnators not on the same team are technically also rivals (but the Lord God transfers by team as the survival unit).</p>
+</blockquote>
+<p>If multiple Reincarnator teams compete:
+- Each team judged independently for survival — Team A with 3 alive (among the 6 remaining) clears all 3; Team B wiped fails.
+- Optional ② "ally 2 Tributes" — if the ally is another team's Reincarnator, it counts.
+- Harming fellow-team Reincarnators — judged "betrayal" by the Lord God, deducts 2000 reward points (if insufficient, erased after return).</p>
+<hr /></section>
+<section class="chap"><h2>IX. Reward Settlement</h2>
+<table>
+<thead>
+<tr>
+<th>Reward Type</th>
+<th>Content</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main Clear</td>
+<td>Survive until 6 Tributes remain</td>
+<td>D+1500</td>
+</tr>
+<tr>
+<td>Optional ①</td>
+<td>Survive as last 1 (your side)</td>
+<td>D1</td>
+</tr>
+<tr>
+<td>Optional ②</td>
+<td>Ally 2 Tributes, all survive to end</td>
+<td>500</td>
+</tr>
+<tr>
+<td>Side S-01</td>
+<td>Sponsor Airdrop Grab (3×)</td>
+<td>1200 (200×3 + 600 cumulative)</td>
+</tr>
+<tr>
+<td>Side S-02</td>
+<td>Defeat Career Squad (wipeout)</td>
+<td>1000 + 200 each = 1800 total</td>
+</tr>
+<tr>
+<td>Side S-03</td>
+<td>Sabotage GCC Trap System</td>
+<td>800</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Normal Tribute (each)</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Career Tribute (each, incl. S-02)</td>
+<td>200</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Mutant Hound (each)</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Capitol Water Snake (each)</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Exploration Reward</td>
+<td>Discover all 5 key locations</td>
+<td>150</td>
+</tr>
+<tr>
+<td>Special Achievement</td>
+<td>No-Wound Clear (no party member below 50% HP)</td>
+<td>300</td>
+</tr>
+<tr>
+<td>Special Achievement</td>
+<td>Katniss favor 80+</td>
+<td>200</td>
+</tr>
+<tr>
+<td>Special Achievement</td>
+<td>No Betrayed Ally (didn't strike ally first)</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Roleplay</td>
+<td>At GM's discretion</td>
+<td>0–300</td>
+</tr>
+</tbody>
+</table>
+<h3>Theoretical Maximum Gain</h3>
+<blockquote>
+<p>Main: D×1 + 1500
+Optional ① (last one): D×1
+Optional ② (allied survival): 500
+S-01: 1200 / S-02: 1800 / S-03: 800
+Kills (~11 normal ×100 + 4 Career ×200 + 5 hounds ×50 + 3 snakes ×20 ≈ 2210)
+Exploration: 150 / No-Wound: 300 / Favor: 200 / No-Betray: 100 / Roleplay: 300</p>
+<p>= <strong>D2 + 8060</strong></p>
+</blockquote>
+<h3>Return Exchange (script-limited)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Item</th>
+<th>Cost (Side + Reward Points)</th>
+<th>Effect</th>
+<th>Growth Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>Starvation Endurance</td>
+<td>D+500</td>
+<td>Modification (passive): Endurance check DC-2 with no food; water need halved</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Jungle Camouflage</td>
+<td>D+500</td>
+<td>Skill: Agility (DEX) + Stealth check +2 (natural env doubles +4)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Arena Survival Instinct</td>
+<td>D+500</td>
+<td>Modification (passive): Perception (WIS) + danger sense +2, sense hostile targets within 30m</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Sponsor Network</td>
+<td>D+1000</td>
+<td>Title: future scripts' initial favor +10 (all NPCs); occasional supply requests</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Bow Mastery</td>
+<td>C+1000</td>
+<td>Skill: bow attack +1, hit damage +1, headshot extra 1d4</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Tribute-Trained Bloodline</td>
+<td>C+1000</td>
+<td>Bloodline: Capitol tribute conditioning; all physical attributes +1, arena adaptation +1</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>President's Viewing Right</td>
+<td>C+1000</td>
+<td>Title: intervene in "game rules," once per battle briefly change zone environment (GM adjudicates)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Victor Title</td>
+<td>C+1000</td>
+<td>Title: arena settlement reward +10%, intimidate same-tier enemies +2</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>X. Appendix</h2>
+<ul>
+<li><strong>Maps</strong>: See <code>maps/</code> for <code>HG_WM-01.svg</code>, <code>HG_EM-01.svg</code>, <code>HG_BM-01.svg</code>, <code>HG_BM-02.svg</code></li>
+<li><strong>Special Rules Supplement</strong>: Sponsor System, Arena Ecology, GCC Disaster mechanics, Nightly Dead Projection (see "V. World Setting → World Special Rules").</li>
+<li><strong>GM Memo</strong>:</li>
+<li><strong>Common Stuck Points</strong>: Players may wipe in the opening Cornucopia scramble. Fix — in S01 prep, have Haymitch strongly suggest the "grab backpack and run" route, and show the Careers' gear edge (spear 1d10 vs knife 1d4).</li>
+<li><strong>Difficulty Up</strong>: Careers to 6 (add Dist. 3–4); trap density doubles (trigger every 4h); Mutts track 2/human instead of 1d3.</li>
+<li><strong>Difficulty Down</strong>: Cornucopia opening deaths halved (1d4+2); Careers reduced to 3 (remove Dist. 1 girl); GCC trap trigger chance -50%.</li>
+<li><strong>Unconventional Player Actions</strong>: if players "hide in the cave depths forever," remind — GCC moves the force-field wall inward, ultimately herding all Tributes to center, and they won't earn Optional ①/②. If players "incite all Tributes to revolt against the Capitol" — note this is the 74th's theme but inter-Tribute trust is very weak (needs 60+ favor each); the Capitol answers revolt with concentrated disaster bombing.</li>
+<li><strong>References</strong>: <em>The Hunger Games</em> film 1 (2012), <em>The Hunger Games</em> novel 1 (Suzanne Collins, 2008).</li>
+</ul>
+<hr />
+<blockquote>
+<p><strong>Script Code</strong>: HG
+<strong>Version</strong>: v1.0
+<strong>Format Spec</strong>: v0.4</p>
+</blockquote></section></section>
+    <section class="block"><h2>地圖（YAML＋SVG）</h2><div class="map">
+              <div class="maptitle">HG_BM-01 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 520" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="680" height="520" fill="#1a1a2e"/>
+<rect x="20" y="20" width="640" height="480" fill="url(#grid)"/>
+<rect x="20" y="20" width="640" height="480" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="340.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Cornucopia Start Zone -- Opening Supply Scramble</text>
+<text x="25" y="512" fill="#666" font-size="9">HG_BM-01 | 15×10grid (concept) | 1 grid = 5ft | total 75×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="177.5" y="15" text-anchor="middle" fill="#555" font-size="7">11</text>
+<text x="192.5" y="15" text-anchor="middle" fill="#555" font-size="7">12</text>
+<text x="207.5" y="15" text-anchor="middle" fill="#555" font-size="7">13</text>
+<text x="222.5" y="15" text-anchor="middle" fill="#555" font-size="7">14</text>
+<text x="237.5" y="15" text-anchor="middle" fill="#555" font-size="7">15</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="240.0" y="180.0" width="200.0" height="140.0" rx="3" fill="#2a2a1a" stroke="#FFAA00" stroke-width="3"/>
+<text x="340.0" y="246.0" text-anchor="middle" fill="#aaa" font-size="8">Cornucopia</text>
+<text x="340.0" y="260.0" text-anchor="middle" fill="#666" font-size="6">(107.5, 67.5)ft</text>
+<rect x="290.0" y="320.0" width="100.0" height="30.0" rx="5" fill="#1a1a10" stroke="#FFAA00" stroke-width="1.5"/>
+<text x="340.0" y="331.0" text-anchor="middle" fill="#aaa" font-size="8">Entrance (Career Tribute Guard)</text>
+<text x="340.0" y="345.0" text-anchor="middle" fill="#666" font-size="6">(107.5, 100.0)ft</text>
+<rect x="260.0" y="260.0" width="40.0" height="8.0" rx="5" fill="#888" stroke="" stroke-width=""/>
+<text x="280.0" y="260.0" text-anchor="middle" fill="#aaa" font-size="8">Spearx3</text>
+<text x="280.0" y="274.0" text-anchor="middle" fill="#666" font-size="6">(87.5, 77.5)ft</text>
+<rect x="320.0" y="260.0" width="40.0" height="8.0" rx="5" fill="#888" stroke="" stroke-width=""/>
+<text x="340.0" y="260.0" text-anchor="middle" fill="#aaa" font-size="8">Short Swordx2</text>
+<text x="340.0" y="274.0" text-anchor="middle" fill="#666" font-size="6">(107.5, 77.5)ft</text>
+<rect x="380.0" y="260.0" width="40.0" height="8.0" rx="5" fill="#888" stroke="" stroke-width=""/>
+<text x="400.0" y="260.0" text-anchor="middle" fill="#aaa" font-size="8">Battle Axe</text>
+<text x="400.0" y="274.0" text-anchor="middle" fill="#666" font-size="6">(127.5, 77.5)ft</text>
+<rect x="280.0" y="275.0" width="50.0" height="8.0" rx="5" fill="#888" stroke="" stroke-width=""/>
+<text x="305.0" y="275.0" text-anchor="middle" fill="#aaa" font-size="8">Bow(12pcs)</text>
+<text x="305.0" y="289.0" text-anchor="middle" fill="#666" font-size="6">(92.5, 82.5)ft</text>
+<rect x="350.0" y="275.0" width="70.0" height="8.0" rx="5" fill="#888" stroke="" stroke-width=""/>
+<text x="385.0" y="275.0" text-anchor="middle" fill="#aaa" font-size="8">Backpackx8</text>
+<text x="385.0" y="289.0" text-anchor="middle" fill="#666" font-size="6">(122.5, 82.5)ft</text>
+<rect x="450.0" y="290.0" width="30.0" height="8.0" rx="5" fill="#555" stroke="" stroke-width=""/>
+<rect x="200.0" y="370.0" width="30.0" height="8.0" rx="5" fill="#555" stroke="" stroke-width=""/>
+<text x="215.0" y="370.0" text-anchor="middle" fill="#aaa" font-size="8">D6</text>
+<text x="215.0" y="384.0" text-anchor="middle" fill="#666" font-size="6">(65.0, 112.5)ft</text>
+<rect x="500.0" y="260.0" width="30.0" height="8.0" rx="5" fill="#555" stroke="" stroke-width=""/>
+<text x="515.0" y="260.0" text-anchor="middle" fill="#aaa" font-size="8">D3</text>
+<text x="515.0" y="274.0" text-anchor="middle" fill="#666" font-size="6">(165.0, 77.5)ft</text>
+<rect x="400.0" y="120.0" width="120.0" height="35.0" rx="5" fill="#301520" stroke="#EF4444" stroke-width="1.5"/>
+<text x="460.0" y="133.5" text-anchor="middle" fill="#aaa" font-size="8">Career Tribute Squad 4Person</text>
+<text x="460.0" y="147.5" text-anchor="middle" fill="#666" font-size="6">(145.0, 30.0)ft</text>
+<rect x="210.0" y="115.0" width="100.0" height="20.0" rx="5" fill="#1a3020" stroke="#10B981" stroke-width="1"/>
+<text x="260.0" y="121.0" text-anchor="middle" fill="#aaa" font-size="8">Katniss D12</text>
+<text x="260.0" y="135.0" text-anchor="middle" fill="#666" font-size="6">(82.5, 27.5)ft</text>
+<rect x="250.0" y="50.0" width="180.0" height="25.0" rx="5" fill="#000" stroke="#FF4444" stroke-width="2"/>
+<text x="340.0" y="58.5" text-anchor="middle" fill="#aaa" font-size="8">00:60 Countdown</text>
+<text x="340.0" y="72.5" text-anchor="middle" fill="#666" font-size="6">(105.0, 10.0)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/HG-TheHungerG-競技場求生/en/maps/HG_BM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L1/HG-TheHungerG-競技場求生/en/maps/HG_BM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">HG_BM-02 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="680" height="480" fill="#1a1a2e"/>
+<rect x="20" y="20" width="640" height="440" fill="url(#grid)"/>
+<rect x="20" y="20" width="640" height="440" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="340.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Forest Stronghold -- Chase Battlefield</text>
+<text x="25" y="472" fill="#666" font-size="9">HG_BM-02 | 12×8grid (concept) | 1 grid = 5ft | total 60×40ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="177.5" y="15" text-anchor="middle" fill="#555" font-size="7">11</text>
+<text x="192.5" y="15" text-anchor="middle" fill="#555" font-size="7">12</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<rect x="20.0" y="20.0" width="640.0" height="440.0" rx="3" fill="#0a150a" stroke="" stroke-width=""/>
+<text x="340.0" y="236.0" text-anchor="middle" fill="#aaa" font-size="8">Great Oak</text>
+<text x="340.0" y="250.0" text-anchor="middle" fill="#666" font-size="6">(107.5, 72.5)ft</text>
+<rect x="460.0" y="280.0" width="40.0" height="40.0" rx="3" fill="none" stroke="#F59E0B" stroke-width="1.5"/>
+<text x="480.0" y="296.0" text-anchor="middle" fill="#aaa" font-size="8">Hollow Tree Hollow</text>
+<text x="480.0" y="310.0" text-anchor="middle" fill="#666" font-size="6">(152.5, 92.5)ft</text>
+<rect x="530.0" y="50.0" width="100.0" height="30.0" rx="5" fill="#301520" stroke="#EF4444" stroke-width="1.5"/>
+<text x="580.0" y="61.0" text-anchor="middle" fill="#aaa" font-size="8">Career Tribute Squad</text>
+<text x="580.0" y="75.0" text-anchor="middle" fill="#666" font-size="6">(187.5, 15.0)ft</text>
+<rect x="320.0" y="370.0" width="50.0" height="25.0" rx="3" fill="#1a2a20" stroke="#FFAA00" stroke-width=""/>
+<text x="345.0" y="378.5" text-anchor="middle" fill="#aaa" font-size="8">Hidden Supplies</text>
+<text x="345.0" y="392.5" text-anchor="middle" fill="#666" font-size="6">(107.5, 120.0)ft</text>
+<rect x="50.0" y="50.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#00FF88" stroke-width="1.5"/>
+<text x="75.0" y="71.0" text-anchor="middle" fill="#aaa" font-size="8">Player</text>
+<text x="75.0" y="85.0" text-anchor="middle" fill="#666" font-size="6">(17.5, 17.5)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/HG-TheHungerG-競技場求生/en/maps/HG_BM-02.yaml" download>yaml</a> <a href="../../assets/scripts/L1/HG-TheHungerG-競技場求生/en/maps/HG_BM-02.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">HG_EM-01 <span class="maptype">探索地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" font-family="Microsoft JhengHei, sans-serif">
+<rect width="900" height="640" fill="#1a1a2e"/>
+<text x="450.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">Tribute Tower -- Arena Start Zone</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 1</text>
+<rect x="20" y="0.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="900.0" height="640.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<text x="450.0" y="320.0" text-anchor="middle" fill="#aaa" font-size="9">D12</text>
+<rect x="20.0" y="65.0" width="860.0" height="140.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="135.0" text-anchor="middle" fill="#aaa" font-size="9">Fisheries/Power Tribute</text>
+<rect x="35.0" y="78.0" width="180.0" height="55.0" rx="3.0" fill="#1a1030" stroke="#10B981" stroke-width="1.5"/>
+<text x="125.0" y="105.5" text-anchor="middle" fill="#aaa" font-size="9">12Zone Prep Room</text>
+<rect x="235.0" y="78.0" width="120.0" height="55.0" rx="3.0" fill="#1a1030" stroke="#FF4444" stroke-width="1.5"/>
+<text x="295.0" y="105.5" text-anchor="middle" fill="#aaa" font-size="9">1/2Zone Prep Room</text>
+<rect x="375.0" y="78.0" width="120.0" height="55.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="435.0" y="105.5" text-anchor="middle" fill="#aaa" font-size="9">3/4/5Zone Prep Room</text>
+<rect x="515.0" y="78.0" width="120.0" height="55.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="575.0" y="105.5" text-anchor="middle" fill="#aaa" font-size="9">6/7/8Zone Prep Room</text>
+<rect x="655.0" y="78.0" width="120.0" height="55.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="715.0" y="105.5" text-anchor="middle" fill="#aaa" font-size="9">9/10/11Zone Prep Room</text>
+<rect x="785.0" y="78.0" width="80.0" height="55.0" rx="3.0" fill="#162040" stroke="#F59E0B" stroke-width=""/>
+<text x="825.0" y="105.5" text-anchor="middle" fill="#aaa" font-size="9">Lift Platform</text>
+<rect x="55.0" y="120.0" width="60.0" height="10.0" rx="2.0" fill="#10B981" stroke="" stroke-width=""/>
+<text x="85.0" y="125.0" text-anchor="middle" fill="#aaa" font-size="9">Styling Design Zone</text>
+<text x="20" y="225.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 2</text>
+<rect x="20" y="230.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="230.0" width="860.0" height="100.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="280.0" text-anchor="middle" fill="#aaa" font-size="9">Trap Identification Zone</text>
+<rect x="35.0" y="242.0" width="80.0" height="50.0" rx="3.0" fill="#1a1030" stroke="#666" stroke-width=""/>
+<text x="75.0" y="267.0" text-anchor="middle" fill="#aaa" font-size="9">Weapon Training Ground</text>
+<rect x="130.0" y="242.0" width="80.0" height="50.0" rx="3.0" fill="#1a1030" stroke="#666" stroke-width=""/>
+<text x="170.0" y="267.0" text-anchor="middle" fill="#aaa" font-size="9">Survival Skill Zone</text>
+<rect x="225.0" y="242.0" width="80.0" height="50.0" rx="3.0" fill="#1a1030" stroke="#666" stroke-width=""/>
+<text x="265.0" y="267.0" text-anchor="middle" fill="#aaa" font-size="9">Camouflage Paint Zone</text>
+<rect x="320.0" y="242.0" width="80.0" height="50.0" rx="3.0" fill="#1a1030" stroke="#666" stroke-width=""/>
+<text x="360.0" y="267.0" text-anchor="middle" fill="#aaa" font-size="9">Knot-Tying Zone</text>
+<rect x="415.0" y="242.0" width="80.0" height="50.0" rx="3.0" fill="#1a1030" stroke="#666" stroke-width=""/>
+<text x="455.0" y="267.0" text-anchor="middle" fill="#aaa" font-size="9">Trap Identification Zone</text>
+<rect x="510.0" y="242.0" width="80.0" height="50.0" rx="3.0" fill="#1a1030" stroke="#666" stroke-width=""/>
+<text x="550.0" y="267.0" text-anchor="middle" fill="#aaa" font-size="9">Heavy Object Throw Zone</text>
+<rect x="605.0" y="242.0" width="80.0" height="50.0" rx="3.0" fill="#1a1030" stroke="#666" stroke-width=""/>
+<text x="645.0" y="267.0" text-anchor="middle" fill="#aaa" font-size="9">Arena Model Room</text>
+<text x="20" y="360.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 3</text>
+<rect x="20" y="365.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="365.0" width="860.0" height="200.0" rx="4.0" fill="#0d0d1a" stroke="#6D28D9" stroke-width="1.5"/>
+<text x="450.0" y="465.0" text-anchor="middle" fill="#aaa" font-size="9">(Weapon+Supply Pile)</text>
+<rect x="480.0" y="388.0" width="100.0" height="50.0" rx="3.0" fill="#FF0000" stroke="#FF4444" stroke-width="1"/>
+<text x="530.0" y="413.0" text-anchor="middle" fill="#aaa" font-size="9">Career Tribute</text>
+<rect x="360.0" y="400.0" width="160.0" height="100.0" rx="15.0" fill="#2a2a1a" stroke="#FFAA00" stroke-width="3"/>
+<text x="440.0" y="450.0" text-anchor="middle" fill="#aaa" font-size="9">Cornucopia</text>
+<text x="20" y="565.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 4</text>
+<rect x="20" y="570.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="35.0" y="570.0" width="820.0" height="55.0" rx="4.0" fill="#111" stroke="#333" stroke-width=""/>
+<text x="445.0" y="597.5" text-anchor="middle" fill="#aaa" font-size="9">HG_EM-01 | Exploration Map | Tribute Tower--Arena</text>
+<rect x="50.0" y="582.0" width="14.0" height="10.0" rx="0.0" fill="#2a2a1a" stroke="#FFAA00" stroke-width=""/>
+<text x="57.0" y="587.0" text-anchor="middle" fill="#aaa" font-size="9">Cornucopia(Supply Stockpile)</text>
+<rect x="170.0" y="582.0" width="14.0" height="10.0" rx="0.0" fill="#FF0000" stroke="#FF4444" stroke-width=""/>
+<text x="177.0" y="587.0" text-anchor="middle" fill="#aaa" font-size="9">Career Tribute Control Zone</text>
+<rect x="20" y="585" width="860" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="610" fill="#aaa" font-size="9">HG_EM-01 | Exploration Map | Tribute Tower--Arena</text>
+<text x="20" y="630" fill="#666" font-size="9">HG_EM-01 | Exploration Map </text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/HG-TheHungerG-競技場求生/en/maps/HG_EM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L1/HG-TheHungerG-競技場求生/en/maps/HG_EM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">HG_WM-01 <span class="maptype">世界地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="800" height="600" fill="url(#wmgrid)"/>
+<rect x="350.0" y="265.0" width="100.0" height="70.0" rx="5" fill="#2a2a1a" stroke="#FFAA00" stroke-width="2"/>
+<text x="400.0" y="300.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Cornucopia</text>
+<rect x="80.0" y="80.0" width="160.0" height="100.0" rx="5" fill="#1a1a2a" stroke="#888" stroke-width="2"/>
+<text x="160.0" y="130.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Cave Zone</text>
+<rect x="120.0" y="150.0" width="80.0" height="20.0" rx="5" fill="#301520" stroke="#EF4444" stroke-width="2"/>
+<text x="160.0" y="160.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">GCCWiring Room(S-03)</text>
+<rect x="480.0" y="400.0" width="200.0" height="120.0" rx="5" fill="#1a2a10" stroke="#666" stroke-width="2"/>
+<text x="580.0" y="460.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Field Zone</text>
+<line x1="100.0" y1="400.0" x2="300.0" y2="410.0" stroke="#3B82F6" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="520.0" y1="490.0" x2="640.0" y2="490.0" stroke="#FF4444" stroke-width="1.5" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="400.0" y1="300.0" x2="400.0" y2="240.0" stroke="#00FF88" stroke-width="1.5" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="450.0" y1="300.0" x2="520.0" y2="260.0" stroke="#FF4444" stroke-width="1" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<ellipse cx="400.0" cy="300.0" rx="350.0" ry="260.0" fill="none" opacity="0.1" stroke="#4a2a6a" stroke-width="1"/>
+<text x="575.0" y="300.0" fill="#FF4444" font-size="9">Cornucopia</text>
+<ellipse cx="400.0" cy="300.0" rx="330.0" ry="240.0" fill="none" opacity="0.1" stroke="#FF4444" stroke-width="1"/>
+<text x="565.0" y="300.0" fill="#FF4444" font-size="9">Cornucopia</text>
+<ellipse cx="580.0" cy="140.0" rx="30.0" ry="15.0" fill="none" opacity="0.1" stroke="#10B981" stroke-width="1"/>
+<text x="595.0" y="140.0" fill="#FF4444" font-size="9">Water Source Point</text>
+<ellipse cx="642.0" cy="562.0" rx="7.0" ry="5.0" fill="#FF0000" opacity="0.1" stroke="#FF4444" stroke-width="1"/>
+<text x="645.5" y="562.0" fill="#FF4444" font-size="9">Career Tribute Camp</text>
+<circle cx="400.0" cy="300.0" r="5.0" fill="#FFAA00" opacity="0.6"/>
+<circle cx="400.0" cy="300.0" r="5.0" fill="none" stroke="" stroke-width="2"/>
+<text x="400.0" y="290.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Cornucopia</text>
+<circle cx="400.0" cy="300.0" r="45.0" fill="none" stroke="#aaa" stroke-width="2" stroke-dasharray="4,2"/>
+<text x="400.0" y="250.0" text-anchor="middle" fill="#aaa" font-size="10" font-weight="bold">★ Cornucopia</text>
+<circle cx="480.0" cy="280.0" r="25.0" fill="#FF0000" opacity="0.6"/>
+<circle cx="480.0" cy="280.0" r="25.0" fill="none" stroke="#FF4444" stroke-width="2"/>
+<text x="480.0" y="250.0" text-anchor="middle" fill="#FF4444" font-size="10" font-weight="bold">★ Career Tribute Camp</text>
+<circle cx="600.0" cy="200.0" r="18.0" fill="#10B981" opacity="0.6"/>
+<circle cx="600.0" cy="200.0" r="18.0" fill="none" stroke="#10B981" stroke-width="2" stroke-dasharray="4,2"/>
+<text x="600.0" y="177.0" text-anchor="middle" fill="#10B981" font-size="10" font-weight="bold">★ Katniss Hideout</text>
+<circle cx="250.0" cy="300.0" r="12.0" fill="#F59E0B" opacity="0.6"/>
+<circle cx="250.0" cy="300.0" r="12.0" fill="none" stroke="#F59E0B" stroke-width="2" stroke-dasharray="4,2"/>
+<text x="250.0" y="283.0" text-anchor="middle" fill="#F59E0B" font-size="10" font-weight="bold">★ Peeta Disguise Spot</text>
+<circle cx="100.0" cy="420.0" r="8.0" fill="#FF00FF" opacity="0.6"/>
+<circle cx="100.0" cy="420.0" r="8.0" fill="none" stroke="#FF00FF" stroke-width="2"/>
+<text x="100.0" y="407.0" text-anchor="middle" fill="#FF00FF" font-size="10" font-weight="bold">★ Mutant Hound Gate</text>
+<circle cx="700.0" cy="250.0" r="8.0" fill="#FF00FF" opacity="0.6"/>
+<circle cx="700.0" cy="250.0" r="8.0" fill="none" stroke="#FF00FF" stroke-width="2"/>
+<text x="700.0" y="237.0" text-anchor="middle" fill="#FF00FF" font-size="10" font-weight="bold">★ Hound Gate</text>
+<circle cx="300.0" cy="530.0" r="8.0" fill="#FF00FF" opacity="0.6"/>
+<circle cx="300.0" cy="530.0" r="8.0" fill="none" stroke="#FF00FF" stroke-width="2"/>
+<text x="300.0" y="517.0" text-anchor="middle" fill="#FF00FF" font-size="10" font-weight="bold">★ Hound Gate</text>
+<circle cx="642.0" cy="580.0" r="3.0" fill="#FF00FF" opacity="0.6"/>
+<circle cx="642.0" cy="580.0" r="3.0" fill="none" stroke="" stroke-width="2"/>
+<text x="642.0" y="572.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Career Tribute Camp</text>
+<rect x="630" y="20" width="150" height="110" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="705" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Legend</text>
+<text x="640" y="60" fill="#aaa" font-size="9">(Field--Open/Dense Traps)</text>
+<text x="640" y="76" fill="#aaa" font-size="9">Map Legend</text>
+<text x="640" y="92" fill="#aaa" font-size="9">Cornucopia(Supply Center)</text>
+<text x="640" y="108" fill="#aaa" font-size="9">Career Tribute Camp</text>
+<text x="640" y="124" fill="#aaa" font-size="9">Mutant Hound Gate</text>
+<text x="20" y="585" fill="#666" font-size="9">HG_WM-01 | Wide-area Map | HG_WM-01 | Wide-area Map | Arena Panorama | 1grid = ~50m</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/HG-TheHungerG-競技場求生/en/maps/HG_WM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L1/HG-TheHungerG-競技場求生/en/maps/HG_WM-01.svg" download>svg</a></p>
+            </div></section>
+    <section class="block"><h2>概念圖</h2><div class="gallery"><a href="../../assets/scripts/L1/HG-TheHungerG-競技場求生/images/enemy_01_career.png" target="_blank"><img src="../../assets/scripts/L1/HG-TheHungerG-競技場求生/images/enemy_01_career.png" alt="enemy_01_career.png"></a><a href="../../assets/scripts/L1/HG-TheHungerG-競技場求生/images/npc_01_katniss.png" target="_blank"><img src="../../assets/scripts/L1/HG-TheHungerG-競技場求生/images/npc_01_katniss.png" alt="npc_01_katniss.png"></a><a href="../../assets/scripts/L1/HG-TheHungerG-競技場求生/images/scene_01_cornucopia.png" target="_blank"><img src="../../assets/scripts/L1/HG-TheHungerG-競技場求生/images/scene_01_cornucopia.png" alt="scene_01_cornucopia.png"></a><a href="../../assets/scripts/L1/HG-TheHungerG-競技場求生/images/scene_S02_豐饒角.png" target="_blank"><img src="../../assets/scripts/L1/HG-TheHungerG-競技場求生/images/scene_S02_豐饒角.png" alt="scene_S02_豐饒角.png"></a><a href="../../assets/scripts/L1/HG-TheHungerG-競技場求生/images/scene_S03_首次夜幕_死者投影.png" target="_blank"><img src="../../assets/scripts/L1/HG-TheHungerG-競技場求生/images/scene_S03_首次夜幕_死者投影.png" alt="scene_S03_首次夜幕_死者投影.png"></a><a href="../../assets/scripts/L1/HG-TheHungerG-競技場求生/images/scene_S04_森林中的聯盟與背叛.png" target="_blank"><img src="../../assets/scripts/L1/HG-TheHungerG-競技場求生/images/scene_S04_森林中的聯盟與背叛.png" alt="scene_S04_森林中的聯盟與背叛.png"></a><a href="../../assets/scripts/L1/HG-TheHungerG-競技場求生/images/scene_S05_最終對決_變異獵犬之夜.png" target="_blank"><img src="../../assets/scripts/L1/HG-TheHungerG-競技場求生/images/scene_S05_最終對決_變異獵犬之夜.png" alt="scene_S05_最終對決_變異獵犬之夜.png"></a></div></section>
+    </main>
+<footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

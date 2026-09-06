@@ -1,0 +1,69 @@
+map_id: SCP-079_BM-01
+map_type: battle
+scenario: 'SCP-079·OldAIConnection pipe / SCP: Old AI - Site Takeover'
+tier: L3
+difficulty: ★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: SCP-079_BM-01 Battle Map
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 350.0
+  - 140.0
+  - 100.0
+  - 200.0
+  name: Server enclosures
+  fill: '#2a1a3e'
+  stroke: '#4a3a6e'
+  stroke_width: '2'
+  bounds_grid:
+  - 22
+  - 8
+  - 7
+  - 13
+  center_ft:
+  - 127.5
+  - 72.5
+- bounds_px:
+  - 60.0
+  - 450.0
+  - 680.0
+  - 25.0
+  name: 'Special: HostingA/B/CRequires continuous eye contact per roundSCP-173Otherwise it will move./GMEach round of secret dice decisionsSCP-173Position'
+  fill: '#1a1a2eee'
+  stroke: '#3a3a6e'
+  stroke_width: ''
+  bounds_grid:
+  - 3
+  - 29
+  - 45
+  - 2
+  center_ft:
+  - 127.5
+  - 150.0
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: Server enclosures
+  to: 'Special: HostingA/B/CRequires continuous eye contact per roundSCP-173Otherwise it will move./GMEach round of secret dice decisionsSCP-173Position'
+  distance_ft: 77.5

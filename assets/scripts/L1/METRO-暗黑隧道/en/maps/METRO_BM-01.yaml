@@ -1,0 +1,223 @@
+map_id: METRO_BM-01
+map_type: battle
+scenario: 'Metro 2033: Dark Tunnels / Metro 2033: Dark Tunnels'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 680
+- 420
+title: Abandoned Arsenal Station
+description: ''
+grid:
+  type: square
+  width: 14
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 40.0
+  - 40.0
+  total_width_ft: 70
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 420.0
+  - 5.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 28
+  - 1
+  center_ft:
+  - 70.0
+  - 2.5
+- bounds_px:
+  - 40.0
+  - 335.0
+  - 420.0
+  - 5.0
+  name: Dark Ones' Domain
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 20
+  - 28
+  - 1
+  center_ft:
+  - 70.0
+  - 102.5
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 5.0
+  - 300.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 1
+  - 20
+  center_ft:
+  - 2.5
+  - 50.0
+- bounds_px:
+  - 455.0
+  - 40.0
+  - 5.0
+  - 300.0
+  name: Stealth ×2
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 28
+  - 0
+  - 1
+  - 20
+  center_ft:
+  - 142.5
+  - 50.0
+- bounds_px:
+  - 100.0
+  - 60.0
+  - 80.0
+  - 60.0
+  name: Weapon Rack A
+  fill: '#2a2a30'
+  stroke: '#555'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 4
+  - 1
+  - 5
+  - 4
+  center_ft:
+  - 32.5
+  - 15.0
+- bounds_px:
+  - 400.0
+  - 60.0
+  - 80.0
+  - 60.0
+  name: Weapon Rack B
+  fill: '#2a2a30'
+  stroke: '#555'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 24
+  - 1
+  - 5
+  - 4
+  center_ft:
+  - 132.5
+  - 15.0
+- bounds_px:
+  - 250.0
+  - 200.0
+  - 100.0
+  - 60.0
+  name: Ammo Depot Core
+  fill: '#2e1a3e'
+  stroke: '#8B5CF6'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 14
+  - 11
+  - 7
+  - 4
+  center_ft:
+  - 87.5
+  - 65.0
+- bounds_px:
+  - 250.0
+  - 300.0
+  - 100.0
+  - 20.0
+  name: Dark Ones' Domain
+  fill: '#301520'
+  stroke: '#EF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 14
+  - 17
+  - 7
+  - 1
+  center_ft:
+  - 87.5
+  - 87.5
+- bounds_px:
+  - 250.0
+  - 195.0
+  - 100.0
+  - 5.0
+  name: Arsenal Core
+  fill: '#00FF88'
+  stroke: '#00FF88'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 14
+  - 10
+  - 7
+  - 1
+  center_ft:
+  - 87.5
+  - 52.5
+spawn_points:
+  players:
+  - px:
+    - 500.0
+    - 380.0
+    name: Player Entrance
+    fill: '#00FF88'
+    grid:
+    - 31
+    - 23
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: ''
+  to: Dark Ones' Domain
+  distance_ft: 100.0
+- from: ''
+  to: ''
+  distance_ft: 82.5
+- from: ''
+  to: Stealth ×2
+  distance_ft: 86.7
+- from: ''
+  to: Weapon Rack A
+  distance_ft: 39.5
+- from: ''
+  to: Weapon Rack B
+  distance_ft: 63.7
+- from: ''
+  to: Ammo Depot Core
+  distance_ft: 64.9
+- from: ''
+  to: Dark Ones' Domain
+  distance_ft: 86.8
+- from: ''
+  to: Arsenal Core
+  distance_ft: 53.0
+- from: Dark Ones' Domain
+  to: ''
+  distance_ft: 85.5
+- from: Dark Ones' Domain
+  to: Stealth ×2
+  distance_ft: 89.5

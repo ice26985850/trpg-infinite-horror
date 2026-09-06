@@ -1,0 +1,1195 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Battle Royale | BR-BattleRoya-大逃殺 | Infinite Terror TRPG Scripts</title>
+<link rel="stylesheet" href="../../assets/style.css"></head>
+<body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../../index.html">中文</a></header>
+<div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
+<main class="container"><h1>Battle Royale</h1>
+    <p class="meta">Code: BR-BattleRoya-大逃殺 ｜ Source: Battle Royale (2000) ｜ Difficulty: ★ ｜ Players: 3–5 ｜ Duration: 4–5 hrs ｜ Type: Battle Royale / Survival Competition</p>
+    <p class="nav"><a href="../../index.html">← 劇本總覽</a> ｜ <a href="../../assets/scripts/L1/BR-BattleRoya-大逃殺/en/BR_大逃殺_劇本.md" download>劇本 MD</a> ｜ <a href="../../assets/scripts/L1/BR-BattleRoya-大逃殺/en/BR_NPC名冊.xlsx" download>NPC 名冊</a> ｜ <a href="../../assets/scripts/L1/BR-BattleRoya-大逃殺/en/BR_敵方單位名冊.xlsx" download>敵方名冊</a> ｜ <a href="../../assets/L1_BR-BattleRoya-大逃殺_all_en.zip">下載全部（zip）</a></p>
+    <section class="block content"><section class="chap"><h2>一、基本資訊</h2>
+<p>Script Title: Battle Royale
+Source Film: Battle Royale (2000)
+Difficulty Rating: ★
+Suggested Players: 3–5
+Estimated Duration: 4–5 hrs
+Script Type: Battle Royale / Survival Competition</p>
+<hr /></section>
+<details class="gm"><summary>🎭 GM 限定：II. Plot Summary (GM Spoilers)</summary><h2>II. Plot Summary (GM Spoilers)</h2>
+<h3>One-Line Summary</h3>
+<blockquote>
+<p>42 high-school students and 6 Reincarnators are sent to a lone island, forced under the "BR Act" to kill each other for 3 days — only the last one (or team) walks away alive. But the Reincarnators have another way out: the Lord God's mission is not killing but survival.</p>
+</blockquote>
+<h3>Full Plot Background</h3>
+<blockquote>
+<p>The world is modern Japan (near-future fiction). The Japanese government passed the "BR Act," randomly selecting one high-school class each year and sending them to a lone island for 3 days of mutual slaughter — each participant wears a remotely detonatable collar, the forbidden zone expands every 6 hours, and rule-breakers die instantly.</p>
+</blockquote>
+<p>The Reincarnators enter just as the game begins — in the school hall at the island's center, where 42 students have just woken from knockout gas and are listening to the rules. 6 Reincarnators are disguised by the Lord God as transfer students inserted into the class. Everyone is issued a random weapon backpack.</p>
+<p>GM note: this script is completely different from Train to Busan — the core pressure comes from <strong>human-versus-human conflict</strong>, not zombies. Every NPC student has their own personality, motive, and strategy. Some ally, some betray, some break down. The real challenge is judging which students to trust, when to fight, when to flee, when to cooperate.</p>
+<h3>Story Structure Type</h3>
+<p><strong>Hybrid</strong>: free exploration across the whole island, but the forbidden zone's expansion every 6 hours creates linear pressure, ultimately pointing to the beach finale.</p>
+<hr /></details>
+<section class="chap"><h2>III. Lord God's Mission</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mission Brief</td>
+<td>"Survive 3 days. Defeat at least 3 hostile participants (students or other contestants)."</td>
+</tr>
+<tr>
+<td>Main Objective</td>
+<td>Survive on the island for a full 3 days (game time), defeating (killing or disarming into retreat) at least 3 hostile participants (non-Reincarnator allies) along the way</td>
+</tr>
+<tr>
+<td>Mission Reward</td>
+<td>D+1500</td>
+</tr>
+<tr>
+<td>Failure Condition</td>
+<td>Total party wipe / failing to meet the minimum defeat count within the 3-day limit</td>
+</tr>
+<tr>
+<td>Failure Penalty</td>
+<td>Erasure</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>① Survive to the final 5 (become one of the last surviving minority): extra D1 <br>② Unite 3 students in an alliance that holds with no betrayal until day 3 ends: +500</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>IV. Side Quests</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest ID</td>
+<td>S-01</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Weapon Stash</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Discover the entrance to an abandoned military bunker on the island (Intellect+Investigation check, DC2; or trigger a random event while exploring)</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Enter the bunker, crack a simple combination lock (Intellect+Computers check, DC2), obtain the advanced weapon crate: pistol ×1 (2d6 dmg, ammo ×6), shotgun ×1 (3d6 spread, ammo ×4), grenades ×2 (3d6 area), medkits ×3 (restore 2d8 HP)</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>None (but the location becomes unreachable after the forbidden zone expands there)</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>D+600</td>
+</tr>
+<tr>
+<td>Relation to Main</td>
+<td>Support — greatly boosts combat power, improves later survival odds</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>1 armed student hiding inside (★) must be dealt with before taking the weapons</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest ID</td>
+<td>S-02</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Sabotage the Forbidden-Zone Control System</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Find the comms tower at the island's northeast corner (auto-discovered while exploring)</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Infiltrate the comms tower and sabotage the forbidden-zone control system (Intellect+Science check, DC3, or brute force requiring Strength+Melee check, DC3). On success, the forbidden zone stops expanding for the next 12 hours (extends safe exploration time)</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Must be completed before Day 2 noon 12:00 (before the zone expands to the comms tower)</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>D+500</td>
+</tr>
+<tr>
+<td>Relation to Main</td>
+<td>Support — buy more time to explore and ally</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>2 armed students guard the tower (★); after sabotage the game authority (military) may dispatch a drone recon (adds a T+36hr patrol encounter)</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest ID</td>
+<td>S-03</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Defeat the Transfer Student — Kazuo Kiriyama</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>All Day 3, Kazuo Kiriyama (★★★) patrols and hunts the island's core</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Find and defeat Kazuo Kiriyama — the script's hidden boss. He wields a submachine gun (2d6+2 dmg, 3-target burst) and a katana (2d6 slash), a cold-blooded psychopathic killer</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>All Day 3 (before the final beach battle)</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>D+1000</td>
+</tr>
+<tr>
+<td>Relation to Main</td>
+<td>Optional — defeating him greatly reduces later hostile threat (Kiriyama is the island's strongest unit), and his weapons can be looted</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>High-difficulty fight; advise the party to open Genetic Lock Stage 1 on everyone first. Kiriyama will not ally or be persuaded</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>V. World Setting</h2>
+<h3>Timeline</h3>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Day 1 08:00</td>
+<td>Game starts. All participants (incl. 6 Reincarnators) wake in the hall, hear the rules. Random weapon issue.</td>
+</tr>
+<tr>
+<td>Day 1 08:30</td>
+<td>Everyone expelled from school into the island wilds. First forbidden zone set: A-1 (1km around school).</td>
+</tr>
+<tr>
+<td>Day 1 12:00</td>
+<td>First death-report broadcast. Eliminated list aired island-wide.</td>
+</tr>
+<tr>
+<td>Day 1 16:00</td>
+<td>Forbidden zone first expansion: adds B-2 (northwest forest).</td>
+</tr>
+<tr>
+<td>Day 1 22:00</td>
+<td>Forbidden zone second expansion: adds C-3 (south coast).</td>
+</tr>
+<tr>
+<td>Day 2 06:00</td>
+<td>Forbidden zone third expansion: adds D-4 (island-center lake). 6th-hour rhythm continues.</td>
+</tr>
+<tr>
+<td>Day 2 12:00</td>
+<td>Comms tower added to forbidden zone (unreachable if S-02 incomplete).</td>
+</tr>
+<tr>
+<td>Day 2 16:00</td>
+<td>Forbidden zone expands: adds E-5 (east dock). ~20 contestants remain.</td>
+</tr>
+<tr>
+<td>Day 2 22:00</td>
+<td>Forbidden zone expands: adds F-6 (forest depths). ~12–15 remain.</td>
+</tr>
+<tr>
+<td>Day 3 06:00</td>
+<td>Forbidden zone shrinks to only beach and part of forest. ~6–8 alive.</td>
+</tr>
+<tr>
+<td>Day 3 12:00</td>
+<td>Final forbidden zone: only the beach. Final battle begins.</td>
+</tr>
+<tr>
+<td>Day 3 18:00</td>
+<td>Game ends. If more than 1 alive → all collars detonate. Lord God mission judged at T+72h</td>
+</tr>
+</tbody>
+</table>
+<h3>Key Locations</h3>
+<h4>Location A: School Hall (Start)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Island School Hall — Game Start</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>An old rural-school gymnasium hall. Fluorescent tubes buzz; white tape on the floor marks each person's standing number. The projector screen at the front plays the BR rules video. Beside you stand 42 uniformed high-schoolers, faces ranging from confused to terrified.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Reincarnator weapon backpack (random issue on leaving), classroom interior (weapon reserves: 23 pistols, 3 shotguns, and random weapons like binoculars, pot lids, paper fans), rulebook (BR Act summary, initial forbidden-zone map)</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>No immediate combat (but grabbing others' weapons may trigger early conflict)</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>Exit → island wilds (forbidden zone A-1 takes effect immediately on leaving, no return)</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>WM-01 (full island map, school marked as center)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location B: Island Forest</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Island Forest — Main Exploration Area</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Subtropical forest, medium density, ~20m visibility. Abandoned logging trails and small clearings. Bird calls mask occasional distant gunshots. Abandoned weapons or combat traces may be found on the ground.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Abandoned logging cabin (40% chance of basic supplies: water, rations, bandages 1d3 each), hunter-trap traces (Intellect+Investigation check, DC1, spot and avoid), hiding students (30% chance of 1d2 random students)</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>Armed student (★, 30% chance, in pairs of 2) or trap-type student (★, 20% chance of stepping on a bear trap, 2d4 pierce dmg and immobile 1 round)</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>Connects school → lighthouse → ruins → beach. Island center</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>EM-01 (forest+ruins exploration map, with hidden explore points)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location C: Lighthouse</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Lighthouse — Elevated Stronghold</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>An old white lighthouse stands on the cliff at the island's northeast. ~15m tall; the top lamp no longer works but the structure is sound. From the top you can see ~70% of the island — an excellent recon and defense point.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Lighthouse manager room (binoculars ×1, radio transceiver ×1 to monitor island broadcasts, first-aid kit ×1, water ×2), top observation deck (Intellect+Perception check, DC1, reveals full island map and marks 3 current contestant positions)</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>2 hostile students defend the lighthouse keeper's hut (armed student ★). S-02 comms tower is 500m east of the lighthouse</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>Lighthouse → east comms tower (S-02) → coastline leads to beach</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>BM-01 (lighthouse stronghold defense, 9×12 grid)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location D: Abandoned Village Ruins</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Abandoned Village Ruins — Exploration Area</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A small abandoned fishing village on the island's southwest. A few wooden houses half-collapsed; sea wind whines through broken window frames. A dry well sits at the village center. Faded posters on the wall, dated 1985.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Fishing-gear warehouse (fishing rods ×2 as temp staff 1d4 blunt, fishing net ×1 as temp trap slowing enemies 1 round), abandoned clinic (medical supplies ×2, old scalpel ×1 1d3 pierce), well (dry well bottom can hide items or people — Agility check, DC2, to climb down)</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>1d4+1 students may hide in the village (alignment random per GM), 40% hostile, 30% neutral, 30% ally-able</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>Island southwest, reachable via forest trail. ~2km from beach</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>EM-01 (forest+ruins exploration map)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location E: Beach — Final Battle Zone</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Beach — Final Battlefield</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Sand beach on the island's south, a half-arc ~500m long. Tide laps the shore; coral shards and driftwood scatter the sand. An abandoned dock extends ~30m into the sea on the east. At sunset the water turns blood-red — the Lord God's white light shimmers quietly at the dock's end.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Driftwood (temp blunt weapon 1d4), abandoned dock (gaps under planks to hide, needs Agility+Stealth check, DC2), old fishing-boat wreck (half cover, +2 Base Defense)</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>Day 3 finale: remaining 5–8 NPC contestants converge here. May include Shuya Nanahara (neutral), Shogo Kawada (friendly), Mitsuko Souma (hostile ★★), Kazuo Kiriyama (hostile ★★★), other remaining students. Very high-density PvP</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>Game endpoint. The only safe zone after Day 3 morning expansion</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>BM-02 (beach finale, 14×10 grid)</td>
+</tr>
+</tbody>
+</table>
+<h3>World Special Rules</h3>
+<ul>
+<li><strong>Random Weapon Issue</strong>: At start each Reincarnator rolls 1d6 for a weapon backpack: 1=pistol (2d6, ammo ×6), 2=crossbow (1d8+2, bolts ×8), 3=cleaver (1d6 slash), 4=nunchaku (1d4 blunt), 5=binoculars+map (not a weapon, but grants full island map intel), 6=no weapon (can take from others). Reincarnators may trade weapons.</li>
+<li><strong>Forbidden-Zone System</strong>: A new forbidden zone every 6 hours (island divided into A-1~F-6 six zones). Inside a forbidden zone = collar detonates within 5 minutes (instant death). Zone ranges are broadcast island-wide by the loudspeaker at each expansion, with the dead's number list. GM should announce the current safe zone via broadcast at each expansion.</li>
+<li><strong>Collar System</strong>: Each contestant's collar has: (a) GPS tracking (authority can track position), (b) eavesdropping (authority hears conversations), (c) auto-detonate in forbidden zone, (d) any removal attempt detonates immediately. Reincarnators cannot remove collars (not an option this script), but S-02 can temporarily slow zone progression.</li>
+<li><strong>Death Broadcast Every 6 Hours</strong>: The island loudspeaker plays the dead contestants' number list every 6 hours. Players can infer remaining count, who's alive, and which zones are dangerous.</li>
+</ul>
+<h3>Lord God Restrictions</h3>
+<ul>
+<li>"Do not reveal the existence of the Lord God space to story characters."</li>
+<li>"Supernatural abilities (magic, psionics, etc.) are forbidden in this world."</li>
+<li>"Collars cannot be removed; attempting removal equals abandoning the mission (instant erasure)."</li>
+<li>"The game authority (military) cannot be attacked or threatened — they are off-island, monitoring via satellite."</li>
+</ul>
+<h3>Visual Map System</h3>
+<table>
+<thead>
+<tr>
+<th>Layer</th>
+<th>Map ID</th>
+<th>Content</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wide-area Map</td>
+<td>WM-01</td>
+<td>Full island map, with forbidden-zone changes (A-1~F-6), school, lighthouse, ruins, beach, comms tower</td>
+<td><code>maps/BR_WM-01.svg</code></td>
+</tr>
+<tr>
+<td>Exploration Map</td>
+<td>EM-01</td>
+<td>Forest exploration map + ruins markings, with hidden explore points, logging cabin, fishing-village location</td>
+<td><code>maps/BR_EM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-01</td>
+<td>Lighthouse stronghold defense (9×12 grid, with lighthouse structure, comms tower, cliff boundary)</td>
+<td><code>maps/BR_BM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-02</td>
+<td>Beach finale (14×10 grid, with dock, boat cover, coral-reef terrain, tidal line)</td>
+<td><code>maps/BR_BM-02.svg</code></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VI. Characters &amp; Enemy Units (separate Excel)</h2>
+<blockquote>
+<p>⚠ NPC and enemy unit data, see these separate Excel files:
+- <strong>NPC Roster</strong>: <code>BR_NPC名冊.xlsx</code>
+- <strong>Enemy Unit Roster</strong>: <code>BR_敵方單位名冊.xlsx</code></p>
+<p>Both Excel files contain "Roster" and "Blank Template" sheets; the first column is reserved for character portraits.</p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>VII. Key Scenes</h2>
+<h3>Scene Structure</h3>
+<p>This script uses a <strong>Hybrid</strong> structure: free exploration of the whole island for 2.5 days after start, then Day 3's final forbidden zone forces all survivors to converge on the beach for the finale.</p>
+<hr />
+<h3>Phase 1: Survival &amp; Exploration (Day 1–Day 2)</h3>
+<h4>Scene S01: Awakening — Rules Briefing</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S01</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Welcome to Battle Royale</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Script start</td>
+</tr>
+<tr>
+<td>GM Read-Aloud</td>
+<td>"You open your eyes from a dizzy spell. The harsh fluorescent light makes you squint. You're in an old school gym hall, packed with Japanese high-schoolers in dark-blue uniforms. On the screen ahead, a flamboyantly dressed woman explains something horrifying in a sweet voice: 'Only the last person — or group — may leave this island alive. Good luck, everyone!' Your black wristwatch lights up too: 'Survive 3 days. Defeat at least 3 hostile participants.'"</td>
+</tr>
+<tr>
+<td>Interactive</td>
+<td>Observe other students (Perception+Investigation check, DC1: identify key figures — calm Shogo Kawada, expressionless Kazuo Kiriyama, resolute Shuya Nanahara), collect weapon backpack (random 1d6), read rulebook (learn forbidden-zone and collar mechanics)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>No immediate combat. But provoking Kiriyama or Souma triggers their hostility immediately (they remember, prioritize hunting that Reincarnator later)</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td>None — tutorial phase</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>After leaving the hall, choose direction: (a) follow Nanahara/Noriko into the forest (friendly start), (b) act alone exploring the island, (c) ambush other contestants near school (combat route)</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Leaving the school hall</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S02: Forest Exploration — Ally or Fight</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S02</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Choices in the Forest</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Enter the island forest area</td>
+</tr>
+<tr>
+<td>GM Read-Aloud</td>
+<td>"The island forest is denser than you expected. Tall subtropical trees block the sun; only a few light shafts slant in. The air smells of damp earth and rotting leaves. Not far off — you hear low voices in the brush and the faint clink of metal. Friend or foe, you can't tell."</td>
+</tr>
+<tr>
+<td>Interactive</td>
+<td>Track footprints (Intellect+Investigation check, DC2: track other contestants), find water (Perception+Survival check, DC1), explore logging cabin (40% chance of supplies)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>1d6 determines forest encounter: 1-2 none, 3 meet 1d2 neutral students, 4 trap (bear trap), 5 meet 2 hostile armed students (★), 6 discover military bunker entrance (triggers S-01)</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td>If hostile armed students encountered: Genetic Lock stage — optional (not yet necessary). Forest has enough cover; environmental advantage needs no lock</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Actively hunt contestants → faster 3-defeat goal; avoid everyone and gather supplies → stockpile resources</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>First forbidden-zone expansion broadcast (Day 1 16:00)</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S03: Lighthouse — Air Superiority</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S03</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Lighthouse Contest</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Reach the island's northeast lighthouse</td>
+</tr>
+<tr>
+<td>GM Read-Aloud</td>
+<td>"The white lighthouse stands at the cliff's edge, sea wind creaking its rusted weathervane. From here you see most of the island — forest, ruins, beach, like an unrolled chessboard. The lighthouse door is ajar, metal clashing from within. Someone is already here."</td>
+</tr>
+<tr>
+<td>Interactive</td>
+<td>Climb lighthouse (optional stealth route: Agility+Stealth check, DC2), recon from top (Intellect+Perception check, DC1, mark 3 contestant positions), explore comms tower (S-02 trigger)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>2 armed students (★) hold the lighthouse. 2 armed students (★) hold the comms tower. 500m apart, can be handled separately</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td>If facing 2 armed students together: advise Genetic Lock stage — Stage 1 (optional). Tight interior; lock gives +3 initiative to suppress first. If party has ranged weapons, snipe from outside, no lock needed</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Capture lighthouse as stronghold → safe base and island intel, S-02 tower within walking distance; abandon lighthouse → stay mobile in forest</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Stronghold taken or abandoned</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S04: Ruins Exploration — Supplies &amp; Survivors</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S04</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Life in the Ruins</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Reach the island's southwest abandoned fishing village</td>
+</tr>
+<tr>
+<td>GM Read-Aloud</td>
+<td>"The abandoned fishing village lies quiet in the afternoon sun. A few wooden houses tilt on the sandy soil, paint peeling. Wind through broken windows makes a low moan — no, that's not wind. That's someone sobbing."</td>
+</tr>
+<tr>
+<td>Interactive</td>
+<td>Search buildings (each 30% chance of supplies), talk to hiding students (1d4+1 here, random alignment), investigate dry well (Intellect+Investigation check, DC2, find hideout and possible supplies)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>1d4+1 students in the village. 40% hostile, may trigger skirmish. Also Mitsuko Souma (★★) may pass through here on Day 2 patrol (50% chance)</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td>If facing Souma (★★): advise Genetic Lock stage — Stage 1 (strongly advised). Souma is highly mobile and sneaky; lock's +3 initiative offsets her initiative edge. She has HP18, Defense 4, Melee+4 for sneak attacks</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Ally with village students → progress on optional goal ②; clear ruins for supplies → prep for finale</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Day 2 ends, forbidden zone approaching</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>Phase 2: Final Showdown (Day 3)</h3>
+<h4>Scene S05: Contraction — The Forbidden Zone's Last Ultimatum</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S05</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Nowhere to Run</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Day 3 morning 06:00, forbidden-zone expansion broadcast</td>
+</tr>
+<tr>
+<td>GM Read-Aloud</td>
+<td>"The loudspeaker's harsh tone again — your third time hearing the death list. The woman's voice finishes a long string of numbers, then adds: 'Now, the safe zone is only the beach and 500m around it. All participants in forbidden zones — five-minute countdown.' Distant screams, then — silence."</td>
+</tr>
+<tr>
+<td>Interactive</td>
+<td>Tally current resources and allies, decide route to beach (avoid hostile contestants still on the periphery)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>On the way to the beach may meet Kazuo Kiriyama (★★★, patrols Day 3 all day). Each hour on the island 40% chance of meeting other contestants (1d3, random alignment)</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td>Kiriyama (★★★) is the script's strongest enemy. Advise at least 3 Reincarnators with Stage 1 lock to challenge together. His SMG hits 3 targets; Melee 4 + Firearms 5 dual threat makes him dangerous near and far. Party must coordinate to spread his fire</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Go to beach with allied NPCs → support in finale; act alone → mobile but underpowered</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Reach the beach safe zone</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S06: Final Battle — Beach Bloodbath</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S06</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Finish Line at Sunset</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Day 3 afternoon, reach the beach area</td>
+</tr>
+<tr>
+<td>GM Read-Aloud</td>
+<td>"The sunset dyes the sea dark red. Coral shards and tide-washed driftwood scatter the beach. The abandoned dock reaches into the sea — at its end, a soft white light flickers steadily, the way home. But you're not alone. Survivors from across the island walk in from different directions, every hand gripping a weapon. The sea wind carries a rusty smell of blood."</td>
+</tr>
+<tr>
+<td>Interactive</td>
+<td>Dock (Lord God transit point — but only activates if you survive to the final 5), boat wreck (cover +2 Base Defense), reef terrain (half cover)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Finale may include: Shuya Nanahara (neutral/friendly, HP24, pistol 2d6), Shogo Kawada (friendly, HP30, shotgun 3d6), Mitsuko Souma (hostile ★★, HP18, cleaver+traps), Kazuo Kiriyama (hostile ★★★, HP25, SMG+katana), remaining 1d4+1 random students. Complex multi-sided melee</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td><strong>Genetic Lock Tip</strong>: Final battle. Advise Genetic Lock stage — all Stage 1 (strongly advised). Multi-sided melee needs enough mobility and attack. If 3 rounds of side-effects have accumulated on lock users, rotate opening to spread pressure. If any Stage 2 Reincarnator exists, open it here for decisive advantage (script is ★ difficulty so Stage 2 not expected, but possible if players carry over characters)</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Total-annihilation route (defeat all hostile contestants → optional goal ①, survive to final 5); diplomacy route (ally Nanahara/Kawada into a 5-person coalition, avoid large battle — but must persuade all allies, Presence+Social check, DC3); stealth route (hide under the dock until the last moment, Agility+Stealth check, DC3, avoid most combat)</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Game-end judgment — Day 3 18:00, if survivors ≤5 and include a Reincarnator, clear</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VIII. Multi-Team Competition Rules</h2>
+<blockquote>
+<p>This script does not involve multi-team competition. This section is left blank.</p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>IX. Reward Settlement</h2>
+<table>
+<thead>
+<tr>
+<th>Reward Type</th>
+<th>Content</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main Clear</td>
+<td>Survive 3 days, defeat at least 3 hostile participants</td>
+<td>D+1500</td>
+</tr>
+<tr>
+<td>Optional ①</td>
+<td>Survive to final 5</td>
+<td>D1</td>
+</tr>
+<tr>
+<td>Optional ②</td>
+<td>Unite 3 students in alliance with no betrayal</td>
+<td>+500</td>
+</tr>
+<tr>
+<td>Side S-01</td>
+<td>Weapon Stash</td>
+<td>D+600</td>
+</tr>
+<tr>
+<td>Side S-02</td>
+<td>Sabotage Forbidden-Zone Control</td>
+<td>D+500</td>
+</tr>
+<tr>
+<td>Side S-03</td>
+<td>Defeat Kazuo Kiriyama</td>
+<td>D+1000</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Armed student (★) each</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Trap-type student (★) each</td>
+<td>25</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Mitsuko Souma (★★)</td>
+<td>200</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Kazuo Kiriyama (★★★)</td>
+<td>500</td>
+</tr>
+<tr>
+<td>Exploration Reward</td>
+<td>Discover all 5 key locations</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Special Achievement</td>
+<td>All allied students survive at clear</td>
+<td>300</td>
+</tr>
+<tr>
+<td>Special Achievement</td>
+<td>No unprovoked attacks on any non-hostile student (zero innocent kills)</td>
+<td>200</td>
+</tr>
+<tr>
+<td>Roleplay</td>
+<td>GM discretion (trust, betrayal, sacrifice, etc.)</td>
+<td>0–300</td>
+</tr>
+</tbody>
+</table>
+<h3>Theoretical Maximum</h3>
+<blockquote>
+<p>Main: D×1+1500
+Optional ①: D
+Optional ②: 500
+S-01: D×1+600 / S-02: D×1+500 / S-03: D×1+1000
+Kills (~6 armed, 3 trap, Souma, Kiriyama): 180+75+200+500 = 955
+Exploration: 100 / Allied survival: 300 / Zero innocent: 200 / Roleplay: 300</p>
+<p>= <strong>D5+5955</strong></p>
+</blockquote>
+<h3>Return Exchange (script-exclusive)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Item</th>
+<th>Cost (side + bonus points)</th>
+<th>Effect</th>
+<th>Growth Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>Collar-Removal Knowledge</td>
+<td>D+500</td>
+<td>Intellect (INT) + Craft check to attempt removing the explosive collar (DC per GM)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Mental Fortitude Enhancement</td>
+<td>D+500</td>
+<td>Mod (passive): permanently immune to fear states and HP loss from will opposition</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Battle Royale Survival Instinct</td>
+<td>D+500</td>
+<td>Mod (passive): +2 to survival checks in resource-poor environments, +1 initiative on first round</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Transfer-Student Combat Arts</td>
+<td>C+1000</td>
+<td>Skill: melee weapon attack +1, damage +1 (crit range slightly widens in crisis)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Zone-Contraction Prediction</td>
+<td>C+1000</td>
+<td>Skill: predict next "danger zone" range, plan route ahead (Perception WIS+2)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Former Self-Defense Officer Lineage</td>
+<td>C+1000</td>
+<td>Lineage: gain military literacy, +1 to all weapon hits, +1 Base Defense under tactical cover</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Last Survivor Title</td>
+<td>C+1000</td>
+<td>Title: +10% settlement bonus points for solo survival, +2 to intimidate same-tier enemies</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>X. Appendix</h2>
+<ul>
+<li><strong>Maps</strong>: See <code>maps/</code> — <code>BR_WM-01.svg</code>, <code>BR_EM-01.svg</code>, <code>BR_BM-01.svg</code>, <code>BR_BM-02.svg</code></li>
+<li><strong>Special Rules Addendum</strong>: Random weapon issue, forbidden-zone system, collar mechanics (see "V. World Setting → World Special Rules")</li>
+<li><strong>GM Memo</strong>:</li>
+<li><strong>Common Stuck Points</strong>: Players may be too passive to ally or fight. Fix — gradually raise pressure via death broadcasts so players realize inaction gets them cornered by the zone.</li>
+<li><strong>Difficulty Up</strong>: Increase Kiriyama's appearance frequency (patrol from Day 2), shorten zone interval to 4 hours, add a hidden hostile student (★★, with explosives).</li>
+<li><strong>Difficulty Down</strong>: Downgrade Kiriyama to ★★, remove trap students' bear traps (replace with rope trap 1d4 dmg), increase supply discovery rate.</li>
+<li><strong>Unconventional Player Actions</strong>: If players try to "fake death to fool the authority" — collars monitor heartbeats, so this fails. GM can call it out via broadcast ("We know who's still breathing").</li>
+<li><strong>NPC Behavior Memo</strong>: Shogo Kawada is the most reliable ally — a former champion who knows the rules and inwardly loathes the system. Shuya Nanahara is devoted to protecting Noriko Nakagawa; if she's hurt he loses reason. Kazuo Kiriyama cannot be negotiated, allied, or persuaded.</li>
+<li><strong>References</strong>: Battle Royale (2000) film and original novel.</li>
+</ul>
+<hr />
+<blockquote>
+<p><strong>Script Code</strong>: BR
+<strong>Version</strong>: v1.0
+<strong>Format Spec</strong>: v0.4</p>
+</blockquote></section></section>
+    <section class="block"><h2>地圖（YAML＋SVG）</h2><div class="map">
+              <div class="maptitle">BR_BM-01 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 540" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+    <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="680" height="540" fill="#1a1a2e"/>
+<rect x="20" y="20" width="640" height="500" fill="url(#grid)"/>
+<rect x="20" y="20" width="640" height="500" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="340.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Lighthouse Stronghold Defense</text>
+<text x="25" y="532" fill="#666" font-size="9">BR_BM-01 | 9x12 grid (concept) | 1 grid = 5ft | total 45x60ft</text>
+<text x="35.0" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="65.0" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="95.0" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="125.0" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="155.0" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="185.0" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="215.0" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="245.0" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="275.0" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="8" y="38.0" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="68.0" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="98.0" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="128.0" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="158.0" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="188.0" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="218.0" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="248.0" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="278.0" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="308.0" text-anchor="middle" fill="#555" font-size="7">J</text>
+<text x="8" y="338.0" text-anchor="middle" fill="#555" font-size="7">K</text>
+<text x="8" y="368.0" text-anchor="middle" fill="#555" font-size="7">L</text>
+<rect x="100.0" y="100.0" width="90.0" height="180.0" rx="3" fill="#1a2a30" stroke="#3B82F6" stroke-width="2.5"/>
+<text x="145.0" y="186.0" text-anchor="middle" fill="#aaa" font-size="8">Manager-room Door</text>
+<text x="145.0" y="200.0" text-anchor="middle" fill="#666" font-size="6">(17.5, 25.0)ft</text>
+<rect x="110.0" y="170.0" width="70.0" height="20.0" rx="5" fill="#2a2a3e" stroke="#555" stroke-width=""/>
+<text x="145.0" y="176.0" text-anchor="middle" fill="#aaa" font-size="8">Manager-room Door</text>
+<text x="145.0" y="190.0" text-anchor="middle" fill="#666" font-size="6">(20.0, 22.5)ft</text>
+<rect x="110.0" y="215.0" width="70.0" height="20.0" rx="5" fill="#2a2a3e" stroke="#555" stroke-width=""/>
+<text x="145.0" y="221.0" text-anchor="middle" fill="#aaa" font-size="8">Tower-base Entrance</text>
+<text x="145.0" y="235.0" text-anchor="middle" fill="#666" font-size="6">(20.0, 32.5)ft</text>
+<rect x="120.0" y="255.0" width="50.0" height="20.0" rx="3" fill="#162040" stroke="#F59E0B" stroke-width="1.5"/>
+<text x="145.0" y="261.0" text-anchor="middle" fill="#aaa" font-size="8">Entrance</text>
+<text x="145.0" y="275.0" text-anchor="middle" fill="#666" font-size="6">(20.0, 37.5)ft</text>
+<rect x="230.0" y="55.0" width="30.0" height="70.0" rx="3" fill="#2a2a2a" stroke="#F59E0B" stroke-width="1.5"/>
+<text x="245.0" y="86.0" text-anchor="middle" fill="#aaa" font-size="8">S-02</text>
+<text x="245.0" y="100.0" text-anchor="middle" fill="#666" font-size="6">(37.5, 5.0)ft</text>
+<rect x="225.0" y="125.0" width="40.0" height="20.0" rx="3" fill="#162040" stroke="#F59E0B" stroke-width=""/>
+<text x="245.0" y="131.0" text-anchor="middle" fill="#aaa" font-size="8">Control Room</text>
+<text x="245.0" y="145.0" text-anchor="middle" fill="#666" font-size="6">(32.5, 17.5)ft</text>
+<rect x="175.0" y="240.0" width="20.0" height="5.0" rx="5" fill="#FFAA00" stroke="" stroke-width=""/>
+<text x="185.0" y="238.5" text-anchor="middle" fill="#aaa" font-size="8">Barricade</text>
+<text x="185.0" y="252.5" text-anchor="middle" fill="#666" font-size="6">(27.5, 37.5)ft</text>
+<rect x="175.0" y="330.0" width="20.0" height="5.0" rx="5" fill="#FFAA00" stroke="" stroke-width=""/>
+<text x="185.0" y="328.5" text-anchor="middle" fill="#aaa" font-size="8">Barricade</text>
+<text x="185.0" y="342.5" text-anchor="middle" fill="#666" font-size="6">(27.5, 52.5)ft</text>
+<rect x="55.0" y="280.0" width="20.0" height="10.0" rx="3" fill="#334" stroke="#555" stroke-width=""/>
+<text x="65.0" y="281.0" text-anchor="middle" fill="#aaa" font-size="8">Bunker</text>
+<text x="65.0" y="295.0" text-anchor="middle" fill="#666" font-size="6">(7.5, 42.5)ft</text>
+<rect x="55.0" y="310.0" width="20.0" height="10.0" rx="3" fill="#334" stroke="#555" stroke-width=""/>
+<text x="65.0" y="311.0" text-anchor="middle" fill="#aaa" font-size="8">Bunker</text>
+<text x="65.0" y="325.0" text-anchor="middle" fill="#666" font-size="6">(7.5, 47.5)ft</text>
+<rect x="130.0" y="300.0" width="50.0" height="40.0" rx="3" fill="none" stroke="#00FF88" stroke-width="1.5"/>
+<text x="155.0" y="316.0" text-anchor="middle" fill="#aaa" font-size="8">Player Defense Zone</text>
+<text x="155.0" y="330.0" text-anchor="middle" fill="#666" font-size="6">(20.0, 47.5)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/BR-BattleRoya-大逃殺/en/maps/BR_BM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L1/BR-BattleRoya-大逃殺/en/maps/BR_BM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">BR_BM-02 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 620" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
+    <path d="M 22 0 L 0 0 0 22" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="820" height="620" fill="#1a1a2e"/>
+<rect x="20" y="20" width="780" height="580" fill="url(#grid)"/>
+<rect x="20" y="20" width="780" height="580" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="410.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Beach Final Battle</text>
+<text x="25" y="612" fill="#666" font-size="9">BR_BM-02 | 14x10 grid (concept) | 1 grid = 5ft | total 70x50ft</text>
+<text x="31.0" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="53.0" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="75.0" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="97.0" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="119.0" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="141.0" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="163.0" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="185.0" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="207.0" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="229.0" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="251.0" y="15" text-anchor="middle" fill="#555" font-size="7">11</text>
+<text x="273.0" y="15" text-anchor="middle" fill="#555" font-size="7">12</text>
+<text x="295.0" y="15" text-anchor="middle" fill="#555" font-size="7">13</text>
+<text x="317.0" y="15" text-anchor="middle" fill="#555" font-size="7">14</text>
+<text x="8" y="34.0" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="56.0" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="78.0" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="100.0" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="122.0" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="144.0" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="166.0" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="188.0" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="210.0" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="232.0" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="30.0" y="30.0" width="308.0" height="20.0" rx="5" fill="#0d2a3e" stroke="" stroke-width=""/>
+<text x="184.0" y="36.0" text-anchor="middle" fill="#aaa" font-size="8">Sea (Ocean)</text>
+<text x="184.0" y="50.0" text-anchor="middle" fill="#666" font-size="6">(35.0, -2.5)ft</text>
+<rect x="30.0" y="280.0" width="308.0" height="40.0" rx="5" fill="#2a2a1a" stroke="" stroke-width=""/>
+<text x="184.0" y="296.0" text-anchor="middle" fill="#aaa" font-size="8"><- Player Entry Direction (from Forest)</text>
+<text x="184.0" y="310.0" text-anchor="middle" fill="#666" font-size="6">(35.0, 55.0)ft</text>
+<rect x="140.0" y="44.0" width="30.0" height="70.0" rx="3" fill="#3a2a1a" stroke="#F59E0B" stroke-width="1.5"/>
+<text x="155.0" y="75.0" text-anchor="middle" fill="#aaa" font-size="8">Dock</text>
+<text x="155.0" y="89.0" text-anchor="middle" fill="#666" font-size="6">(27.5, 7.5)ft</text>
+<rect x="250.0" y="120.0" width="50.0" height="25.0" rx="3" fill="#2a2a2a" stroke="#888" stroke-width="1"/>
+<text x="275.0" y="128.5" text-anchor="middle" fill="#aaa" font-size="8">Fishing-boat Wreck</text>
+<text x="275.0" y="142.5" text-anchor="middle" fill="#666" font-size="6">(55.0, 17.5)ft</text>
+<rect x="60.0" y="160.0" width="30.0" height="6.0" rx="5" fill="#5a4a3a" stroke="#888" stroke-width=""/>
+<text x="75.0" y="159.0" text-anchor="middle" fill="#aaa" font-size="8">Driftwood</text>
+<text x="75.0" y="173.0" text-anchor="middle" fill="#666" font-size="6">(7.5, 27.5)ft</text>
+<rect x="180.0" y="190.0" width="40.0" height="6.0" rx="5" fill="#5a4a3a" stroke="#888" stroke-width=""/>
+<rect x="80.0" y="220.0" width="25.0" height="5.0" rx="5" fill="#5a4a3a" stroke="#888" stroke-width=""/>
+<text x="92.5" y="218.5" text-anchor="middle" fill="#aaa" font-size="8">Driftwood</text>
+<text x="92.5" y="232.5" text-anchor="middle" fill="#666" font-size="6">(12.5, 42.5)ft</text>
+<rect x="140.0" y="90.0" width="20.0" height="8.0" rx="3" fill="#1a2020" stroke="#333" stroke-width=""/>
+<text x="150.0" y="90.0" text-anchor="middle" fill="#aaa" font-size="8">Hideout Beneath Dock</text>
+<text x="150.0" y="104.0" text-anchor="middle" fill="#666" font-size="6">(27.5, 12.5)ft</text>
+<rect x="30.0" y="290.0" width="308.0" height="20.0" rx="5" fill="none" stroke="#00FF88" stroke-width="1"/>
+<text x="184.0" y="296.0" text-anchor="middle" fill="#aaa" font-size="8"><- Player Entry Direction (from Forest)</text>
+<text x="184.0" y="310.0" text-anchor="middle" fill="#666" font-size="6">(35.0, 57.5)ft</text>
+<rect x="360.0" y="230.0" width="170.0" height="80.0" rx="3" fill="#301520" stroke="#EF4444" stroke-width="1"/>
+<text x="445.0" y="266.0" text-anchor="middle" fill="#aaa" font-size="8">Possible Enemy Roster</text>
+<text x="445.0" y="280.0" text-anchor="middle" fill="#666" font-size="6">(95.0, 50.0)ft</text>
+<rect x="345.0" y="362.0" width="60" height="20" rx="3" fill="#00FF88" opacity="0.2" stroke="#00FF88"/>
+<text x="375.0" y="376.0" text-anchor="middle" fill="#00FF88" font-size="8">• The dock is the only extraction point - reach it no matter the distance</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/BR-BattleRoya-大逃殺/en/maps/BR_BM-02.yaml" download>yaml</a> <a href="../../assets/scripts/L1/BR-BattleRoya-大逃殺/en/maps/BR_BM-02.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">BR_EM-01 <span class="maptype">探索地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" font-family="Microsoft JhengHei, sans-serif">
+<rect width="800" height="540" fill="#1a1a2e"/>
+<text x="400.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">Island Forest Exploration Map - Exploration Map</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 1</text>
+<rect x="20" y="0.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="800.0" height="540.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<text x="400.0" y="270.0" text-anchor="middle" fill="#aaa" font-size="9">Hostile x2</text>
+<rect x="20.0" y="40.0" width="760.0" height="420.0" rx="8.0" fill="#0d1a0d" stroke="#2a4a2a" stroke-width="2"/>
+<text x="400.0" y="250.0" text-anchor="middle" fill="#aaa" font-size="9">Hostile x2</text>
+<text x="20" y="115.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 2</text>
+<rect x="20" y="120.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="110.0" y="120.0" width="50.0" height="40.0" rx="3.0" fill="#301a10" stroke="#8B4513" stroke-width="1.5"/>
+<text x="135.0" y="140.0" text-anchor="middle" fill="#aaa" font-size="9">Logging Cabin</text>
+<rect x="300.0" y="140.0" width="16.0" height="16.0" rx="2.0" fill="#301520" stroke="#EF4444" stroke-width="1"/>
+<text x="308.0" y="148.0" text-anchor="middle" fill="#aaa" font-size="9">Bear Trap</text>
+<rect x="420.0" y="180.0" width="16.0" height="16.0" rx="2.0" fill="#301520" stroke="#EF4444" stroke-width="1"/>
+<text x="428.0" y="188.0" text-anchor="middle" fill="#aaa" font-size="9">Bear Trap</text>
+<rect x="40.0" y="250.0" width="100.0" height="80.0" rx="4.0" fill="#1a2020" stroke="#888" stroke-width="1.5"/>
+<text x="90.0" y="290.0" text-anchor="middle" fill="#aaa" font-size="9">(S04)</text>
+<rect x="50.0" y="300.0" width="30.0" height="18.0" rx="2.0" fill="#2a2a2a" stroke="#555" stroke-width=""/>
+<text x="65.0" y="309.0" text-anchor="middle" fill="#aaa" font-size="9">Fishing-gear Warehouse</text>
+<rect x="90.0" y="300.0" width="30.0" height="18.0" rx="2.0" fill="#2a2a2a" stroke="#555" stroke-width=""/>
+<text x="105.0" y="309.0" text-anchor="middle" fill="#aaa" font-size="9">Clinic</text>
+<rect x="560.0" y="300.0" width="40.0" height="30.0" rx="2.0" fill="#2a2a2a" stroke="#888" stroke-width=""/>
+<text x="580.0" y="315.0" text-anchor="middle" fill="#aaa" font-size="9">Military Bunker</text>
+<text x="20" y="435.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 3</text>
+<rect x="20" y="440.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="550.0" y="440.0" width="220.0" height="80.0" rx="4.0" fill="#111" stroke="#333" stroke-width=""/>
+<rect x="562.0" y="452.0" width="12.0" height="10.0" rx="0.0" fill="#1a3a1a" stroke="#2a5a2a" stroke-width=""/>
+<text x="568.0" y="457.0" text-anchor="middle" fill="#aaa" font-size="9">Forest</text>
+<rect x="562.0" y="468.0" width="12.0" height="10.0" rx="0.0" fill="#1a2020" stroke="#888" stroke-width=""/>
+<text x="568.0" y="473.0" text-anchor="middle" fill="#aaa" font-size="9">Building</text>
+<rect x="20" y="485" width="760" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="510" fill="#aaa" font-size="9">BR_EM-01 | Exploration Map | Forest + Ruins Area</text>
+<text x="20" y="530" fill="#666" font-size="9">BR_EM-01 | Exploration Map </text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/BR-BattleRoya-大逃殺/en/maps/BR_EM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L1/BR-BattleRoya-大逃殺/en/maps/BR_EM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">BR_WM-01 <span class="maptype">世界地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="800" height="600" fill="url(#wmgrid)"/>
+<rect x="310.0" y="280.0" width="80.0" height="60.0" rx="5" fill="#2e1a3e" stroke="#8B5CF6" stroke-width="2"/>
+<text x="350.0" y="310.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">School Hall</text>
+<rect x="550.0" y="150.0" width="40.0" height="30.0" rx="5" fill="#1a2a30" stroke="#3B82F6" stroke-width="2"/>
+<text x="570.0" y="165.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Lighthouse</text>
+<rect x="610.0" y="140.0" width="30.0" height="20.0" rx="5" fill="#162040" stroke="#F59E0B" stroke-width="2"/>
+<text x="625.0" y="150.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Comms Tower</text>
+<rect x="90.0" y="380.0" width="60.0" height="50.0" rx="5" fill="#1a2a2a" stroke="#888" stroke-width="2"/>
+<text x="120.0" y="405.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Abandoned Fishing Village</text>
+<rect x="440.0" y="360.0" width="30.0" height="20.0" rx="5" fill="#2a2a2a" stroke="#888" stroke-width="2"/>
+<text x="455.0" y="370.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Military Bunker</text>
+<ellipse cx="350.0" cy="320.0" rx="280.0" ry="200.0" fill="#1a2a1a" opacity="0.1" stroke="#2a4a2a" stroke-width="1"/>
+<text x="490.0" y="320.0" fill="#FF4444" font-size="9">(S01 Start)</text>
+<ellipse cx="350.0" cy="320.0" rx="280.0" ry="200.0" fill="none" opacity="0.1" stroke="#4a6a4a" stroke-width="1"/>
+<text x="490.0" y="320.0" fill="#FF4444" font-size="9">(S01 Start)</text>
+<ellipse cx="350.0" cy="500.0" rx="150.0" ry="35.0" fill="#2a2a1a" opacity="0.1" stroke="#F59E0B" stroke-width="1"/>
+<text x="425.0" y="500.0" fill="#FF4444" font-size="9">Beach - Final Battlefield</text>
+<ellipse cx="350.0" cy="310.0" rx="100.0" ry="80.0" fill="#FF0000" opacity="0.1" stroke="#EF4444" stroke-width="1"/>
+<text x="400.0" y="310.0" fill="#FF4444" font-size="9">School Hall</text>
+<ellipse cx="180.0" cy="220.0" rx="90.0" ry="60.0" fill="#FF0000" opacity="0.1" stroke="#EF4444" stroke-width="1"/>
+<text x="225.0" y="220.0" fill="#FF4444" font-size="9">Forbidden Zone B-2 (Day 1 16:00)</text>
+<ellipse cx="350.0" cy="480.0" rx="120.0" ry="40.0" fill="#FF0000" opacity="0.1" stroke="#EF4444" stroke-width="1"/>
+<text x="410.0" y="480.0" fill="#FF4444" font-size="9">Forbidden Zone C-3 (Day 1 22:00)</text>
+<ellipse cx="250.0" cy="340.0" rx="70.0" ry="45.0" fill="#FF0000" opacity="0.1" stroke="#EF4444" stroke-width="1"/>
+<text x="285.0" y="340.0" fill="#FF4444" font-size="9">Forbidden Zone D-4 (Day 2 06:00)</text>
+<ellipse cx="520.0" cy="280.0" rx="60.0" ry="45.0" fill="#FF0000" opacity="0.1" stroke="#EF4444" stroke-width="1"/>
+<text x="550.0" y="280.0" fill="#FF4444" font-size="9">Forbidden Zone E-5 (Day 2 16:00)</text>
+<ellipse cx="220.0" cy="200.0" rx="100.0" ry="60.0" fill="#FF0000" opacity="0.1" stroke="#EF4444" stroke-width="1"/>
+<text x="270.0" y="200.0" fill="#FF4444" font-size="9">Forbidden Zone F-6 (Day 2 22:00)</text>
+<ellipse cx="35.0" cy="60.0" rx="12.0" ry="6.0" fill="#FF0000" opacity="0.1" stroke="#EF4444" stroke-width="1"/>
+<text x="41.0" y="60.0" fill="#FF4444" font-size="9">Forbidden Zone</text>
+<circle cx="350.0" cy="332.0" r="4.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="350.0" cy="332.0" r="4.0" fill="none" stroke="" stroke-width="2"/>
+<text x="350.0" y="323.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ (S01 Start)</text>
+<circle cx="350.0" cy="525.0" r="5.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="350.0" cy="525.0" r="5.0" fill="none" stroke="" stroke-width="2"/>
+<text x="350.0" y="515.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Beach - Final Battlefield</text>
+<circle cx="34.0" cy="122.0" r="5.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="34.0" cy="122.0" r="5.0" fill="none" stroke="" stroke-width="2"/>
+<text x="34.0" y="112.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Extraction Point / Safe Zone</text>
+<rect x="630" y="20" width="150" height="38" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="705" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Legend</text>
+<text x="640" y="60" fill="#aaa" font-size="9">Lighthouse</text>
+<text x="20" y="585" fill="#666" font-size="9">BR_WM-01 | Wide-area Map | Schematic</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/BR-BattleRoya-大逃殺/en/maps/BR_WM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L1/BR-BattleRoya-大逃殺/en/maps/BR_WM-01.svg" download>svg</a></p>
+            </div></section>
+    <section class="block"><h2>概念圖</h2><div class="gallery"><a href="../../assets/scripts/L1/BR-BattleRoya-大逃殺/images/enemy_01_kiriyama.png" target="_blank"><img src="../../assets/scripts/L1/BR-BattleRoya-大逃殺/images/enemy_01_kiriyama.png" alt="enemy_01_kiriyama.png"></a><a href="../../assets/scripts/L1/BR-BattleRoya-大逃殺/images/npc_01_shuya.png" target="_blank"><img src="../../assets/scripts/L1/BR-BattleRoya-大逃殺/images/npc_01_shuya.png" alt="npc_01_shuya.png"></a><a href="../../assets/scripts/L1/BR-BattleRoya-大逃殺/images/scene_01_school_gym.png" target="_blank"><img src="../../assets/scripts/L1/BR-BattleRoya-大逃殺/images/scene_01_school_gym.png" alt="scene_01_school_gym.png"></a><a href="../../assets/scripts/L1/BR-BattleRoya-大逃殺/images/scene_S02_森林探索_結盟或戰鬥.png" target="_blank"><img src="../../assets/scripts/L1/BR-BattleRoya-大逃殺/images/scene_S02_森林探索_結盟或戰鬥.png" alt="scene_S02_森林探索_結盟或戰鬥.png"></a><a href="../../assets/scripts/L1/BR-BattleRoya-大逃殺/images/scene_S03_燈塔_制空權.png" target="_blank"><img src="../../assets/scripts/L1/BR-BattleRoya-大逃殺/images/scene_S03_燈塔_制空權.png" alt="scene_S03_燈塔_制空權.png"></a><a href="../../assets/scripts/L1/BR-BattleRoya-大逃殺/images/scene_S04_廢墟探索_物資與倖存者.png" target="_blank"><img src="../../assets/scripts/L1/BR-BattleRoya-大逃殺/images/scene_S04_廢墟探索_物資與倖存者.png" alt="scene_S04_廢墟探索_物資與倖存者.png"></a><a href="../../assets/scripts/L1/BR-BattleRoya-大逃殺/images/scene_S05_收縮_禁區的最後通牒.png" target="_blank"><img src="../../assets/scripts/L1/BR-BattleRoya-大逃殺/images/scene_S05_收縮_禁區的最後通牒.png" alt="scene_S05_收縮_禁區的最後通牒.png"></a><a href="../../assets/scripts/L1/BR-BattleRoya-大逃殺/images/scene_S06_最終決戰_海灘血戰.png" target="_blank"><img src="../../assets/scripts/L1/BR-BattleRoya-大逃殺/images/scene_S06_最終決戰_海灘血戰.png" alt="scene_S06_最終決戰_海灘血戰.png"></a></div></section>
+    </main>
+<footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

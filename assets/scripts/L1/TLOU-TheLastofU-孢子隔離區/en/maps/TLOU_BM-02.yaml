@@ -1,0 +1,206 @@
+map_id: TLOU_BM-02
+map_type: battle
+scenario: 'The Last of Us: Quarantine Zone / The Last of Us: Quarantine Zone'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 680
+- 420
+title: Firefly Lab Entrance
+description: ''
+grid:
+  type: square
+  width: 12
+  height: 8
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 40.0
+  - 40.0
+  total_width_ft: 60
+  total_height_ft: 40
+terrain:
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 360.0
+  - 5.0
+  name: Bloater
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 24
+  - 1
+  center_ft:
+  - 60.0
+  - 2.5
+- bounds_px:
+  - 40.0
+  - 275.0
+  - 360.0
+  - 5.0
+  name: Laboratory Gate
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 16
+  - 24
+  - 1
+  center_ft:
+  - 60.0
+  - 82.5
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 5.0
+  - 240.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 1
+  - 16
+  center_ft:
+  - 2.5
+  - 40.0
+- bounds_px:
+  - 395.0
+  - 40.0
+  - 5.0
+  - 240.0
+  name: Run×4
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 24
+  - 0
+  - 1
+  - 16
+  center_ft:
+  - 122.5
+  - 40.0
+- bounds_px:
+  - 200.0
+  - 200.0
+  - 120.0
+  - 70.0
+  name: Laboratory Gate
+  fill: '#1a2a30'
+  stroke: '#3B82F6'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 11
+  - 11
+  - 8
+  - 5
+  center_ft:
+  - 75.0
+  - 67.5
+- bounds_px:
+  - 80.0
+  - 80.0
+  - 60.0
+  - 50.0
+  name: Fortification
+  fill: '#2a2a30'
+  stroke: '#555'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 3
+  - 3
+  - 4
+  - 3
+  center_ft:
+  - 25.0
+  - 22.5
+- bounds_px:
+  - 500.0
+  - 80.0
+  - 60.0
+  - 50.0
+  name: Supply Point
+  fill: '#2a2a30'
+  stroke: '#555'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 31
+  - 3
+  - 4
+  - 3
+  center_ft:
+  - 165.0
+  - 22.5
+- bounds_px:
+  - 200.0
+  - 195.0
+  - 120.0
+  - 5.0
+  name: Enter Lab!
+  fill: '#00FF88'
+  stroke: '#00FF88'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 11
+  - 10
+  - 8
+  - 1
+  center_ft:
+  - 75.0
+  - 52.5
+spawn_points:
+  players:
+  - px:
+    - 120.0
+    - 420.0
+    name: Player Entrance
+    fill: '#00FF88'
+    grid:
+    - 5
+    - 25
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: Bloater
+  to: Laboratory Gate
+  distance_ft: 80.0
+- from: Bloater
+  to: ''
+  distance_ft: 68.6
+- from: Bloater
+  to: Run×4
+  distance_ft: 72.9
+- from: Bloater
+  to: Laboratory Gate
+  distance_ft: 66.7
+- from: Bloater
+  to: Fortification
+  distance_ft: 40.3
+- from: Bloater
+  to: Supply Point
+  distance_ft: 106.9
+- from: Bloater
+  to: Enter Lab!
+  distance_ft: 52.2
+- from: Laboratory Gate
+  to: ''
+  distance_ft: 71.5
+- from: Laboratory Gate
+  to: Run×4
+  distance_ft: 75.6
+- from: Laboratory Gate
+  to: Laboratory Gate
+  distance_ft: 21.2

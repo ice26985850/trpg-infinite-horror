@@ -1,0 +1,1663 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hunter × Hunter: Greed Island | HXH-Hunter×Hun-貪婪之島 | Infinite Terror TRPG Scripts</title>
+<link rel="stylesheet" href="../../assets/style.css"></head>
+<body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../../index.html">中文</a></header>
+<div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
+<main class="container"><h1>Hunter × Hunter: Greed Island</h1>
+    <p class="meta">Code: HXH-Hunter×Hun-貪婪之島 ｜ Source: HUNTER×HUNTER (manga/anime) — Greed Island arc ｜ Difficulty: ★★★★ ｜ Players: 3–5 ｜ Duration: 48–84 hrs (in-game time) ｜ Type: Competitive / Survival / Collection</p>
+    <p class="nav"><a href="../../index.html">← 劇本總覽</a> ｜ <a href="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/en/HXH-Hunter×Hun-貪婪之島_劇本.md" download>劇本 MD</a> ｜ <a href="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/en/HXH_NPC名冊.xlsx" download>NPC 名冊</a> ｜ <a href="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/en/HXH_敵方單位名冊.xlsx" download>敵方名冊</a> ｜ <a href="../../assets/L3_HXH-Hunter×Hun-貪婪之島_all_en.zip">下載全部（zip）</a></p>
+    <section class="block content"><section class="chap"><h2>一、基本資訊</h2>
+<p>Script Title: Hunter × Hunter: Greed Island
+Source Film: HUNTER×HUNTER (manga/anime) — Greed Island arc
+Difficulty Rating: ★★★★
+Suggested Players: 3–5
+Estimated Duration: 48–84 hrs (in-game time)
+Script Type: Competitive / Survival / Collection
+Gene Lock Stage: Stage 3 (Gene Lock III)
+Prerequisite: Complete at least 2 scripts of ★★ difficulty or higher</p>
+<hr /></section>
+<details class="gm"><summary>🎭 GM 限定：二、Story Summary (GM Only)</summary><h2>二、Story Summary (GM Only)</h2>
+<h3>One-Line Summary</h3>
+<blockquote>
+<p>The legendary Hunter-only game "Greed Island" — equal parts paradise and hell. Reincarnators (轮回者) are dropped into an arena where Nen (念能力) users slaughter one another; they must collect the required cards, evade the Bomber's hunt, and find the only way out of the game.</p>
+</blockquote>
+<h3>Full Story Background</h3>
+<p>The time period is unspecified (the Hunter world). Greed Island is a materialized game world created by the Nen user "Ging Freecss" together with his companions, located on a remote island in the real world. Entrants are teleported in via a dedicated console (JoyStation) using Nen. Everything inside the game — items, monsters, NPCs — is constructed from Nen.</p>
+<p>Game rules:
+1. Collect 100 specified spell cards to clear the game; a clear winner may take 3 cards back to the real world.
+2. Players may steal cards from one another (using the "Peep" or "Rob" spell cards).
+3. Death ends the game (and means real-world death).</p>
+<p>The Reincarnators enter roughly two weeks after Gon and Killua enter the game. By now the Bomber Genthru has formed an alliance and begun systematically hunting other players. Biscuit has already started training Gon and Killua at Antokiba City.</p>
+<p>The core challenges of this script:
+- <strong>Card Collection</strong>: Understand the game rules and spell system.
+- <strong>Nen Confrontation</strong>: Against enemies of different Nen categories, you must grasp the six-school counter relationships.
+- <strong>Resource Management</strong>: Spell cards have limited uses and cannot be spent endlessly.
+- <strong>Genthru Threat</strong>: The Bomber gang actively hunts players holding rare cards.</p>
+<h3>Story Structure Type</h3>
+<p><strong>Hybrid</strong>: The first 48 hours after entering the game are free exploration (you may choose to team up with Gon or act alone), after which the story advances scene by scene toward the Bomber's final battle.</p>
+<hr /></details>
+<section class="chap"><h2>三、Lord God Mission (Main Quest)</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mission Brief</td>
+<td>"Within Greed Island, collect at least 30 specified cards (see Appendix: Card List), survive the threat of the Bomber Genthru, and reach the clear-point teleporter."</td>
+</tr>
+<tr>
+<td>Main Objective</td>
+<td>Collect at least 30 specified cards + survive until the clear-point teleporter opens</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>B +5000</td>
+</tr>
+<tr>
+<td>Failure Condition</td>
+<td>Total party wipe / fail to collect 30 specified cards / fail to reach the teleporter after the Genthru battle</td>
+</tr>
+<tr>
+<td>Failure Penalty</td>
+<td>Erasure</td>
+</tr>
+<tr>
+<td>Optional Goals</td>
+<td>① Collect 50+ cards: extra +2000 <br>② Protect at least 2 canon protagonists alive to clear: +1000 <br>③ Collect all 100 specified cards: A1 (does not stack with the 50-card reward)</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>四、Side Quests</h2>
+<h3>Side Quest S-01: Defeat the Bomber Genthru</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side ID</td>
+<td>S-01</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Disarm the Time Bomb</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Automatically triggered after Genthru installs "Countdown" (Life-Force Sound) on a Reincarnator or ally</td>
+</tr>
+<tr>
+<td>Objective</td>
+<td>Defeat Genthru's true body, or disarm all bombs by "grabbing Genthru and saying 'Got the Bomber!'"</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Within 60 minutes (game time) of bomb installation</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>B1</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Optional — defeating Genthru is one of the clear prerequisites</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Genthru's "A Handful of Gunpowder" deals very high damage (5d6 fire) and is extremely dangerous in melee. Recommended: first understand his Nen mechanics (Materialization "Countdown" + Emission "A Handful of Gunpowder" + "A Small Handful of Gunpowder") before planning tactics</td>
+</tr>
+</tbody>
+</table>
+<h3>Side Quest S-02: Defeat Razor — Dodgeball Showdown</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side ID</td>
+<td>S-02</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Razor's Trial</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Travel to Razor's Gym and challenge Razor</td>
+</tr>
+<tr>
+<td>Objective</td>
+<td>Participate in an 8-vs-8 Nen dodgeball match. Rules: hit by the ball = out (you may catch the ball or use Nen defense); off-field players may support on-field players with Nen</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Match limited to 30 rounds</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>B + card "SS-1 A Strip of Beach"</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Supportive — obtain a rare card (counts toward collection) and earn Razor's recognition</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Razor is an Emission-type Nen user; his Nen beast "Number 13 Devil" can control multiple Nen balls at once. The dodgeball match is the ultimate test of team coordination and Nen defense</td>
+</tr>
+</tbody>
+</table>
+<h3>Side Quest S-03: Collect 50+ Cards</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side ID</td>
+<td>S-03</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Card Hunter</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>None (passively accumulates)</td>
+</tr>
+<tr>
+<td>Objective</td>
+<td>Collect more than 50 cards from the specified list</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Before the Genthru final battle</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>2000</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Supportive — over-fulfills the main objective</td>
+</tr>
+</tbody>
+</table>
+<h3>Side Quest S-04: Defeat the Bomber's Henchmen</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side ID</td>
+<td>S-04</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Clip Their Wings</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Triggered when encountering the Bomber's henchmen (Bara, Sub)</td>
+</tr>
+<tr>
+<td>Objective</td>
+<td>Defeat Genthru's two henchmen</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>1500 each</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Supportive — weaken the Bomber gang and lower final-battle difficulty</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>五、World Settings</h2>
+<h3>Nen System (World Special Rule I: Nen)</h3>
+<p>When Reincarnators enter this world, the Lord God forcibly opens their aura nodes (similar to the Hunter world's "Nen initiation"), granting basic Nen usage eligibility. All Reincarnators gain:</p>
+<h4>The Four Basic Nen Techniques</h4>
+<table>
+<thead>
+<tr>
+<th>Nen Technique</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ten (纏)</td>
+<td>Constant. Grants base Nen defense bonus successes equal to the Resolve (決心) attribute (stacks with Ken). No check required</td>
+</tr>
+<tr>
+<td>Zetsu (絕)</td>
+<td>Technique to suppress aura. Agility + Stealth checks gain DP+3. Requires 1 standard action to activate, lasts the scene</td>
+</tr>
+<tr>
+<td>Ren (練)</td>
+<td>Release large amounts of aura. Attack checks DP+2, but own base defense -2 (defense weakens as aura is externalized). Lasts 1 scene</td>
+</tr>
+<tr>
+<td>Hatsu (發)</td>
+<td>Personal finisher. Each Reincarnator may develop one Hatsu in a Nen category. See Nen-category rules below</td>
+</tr>
+</tbody>
+</table>
+<h4>Nen Defense — Ken (堅)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mechanism</td>
+<td>As a reaction, spend 1 Nen pool point to gain defense bonus successes equal to Melee skill level, lasting 1 round</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>When stacked with Ten, advanced Nen users' total defense bonus successes can reach 5–7, greatly reducing the risk of instant death</td>
+</tr>
+</tbody>
+</table>
+<h4>Nen Pool</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maximum</td>
+<td>Resolve × 2 + 10</td>
+</tr>
+<tr>
+<td>Recovery</td>
+<td>Recover 3 points at end of each scene; using Zetsu meditation (Resolve check, DC 2, takes 10 minutes) recovers Resolve-attribute points</td>
+</tr>
+<tr>
+<td>Cost</td>
+<td>Ken: 1 point/use; Hatsu: by skill; Nen attack enhancement: 1 point per +2 DP</td>
+</tr>
+</tbody>
+</table>
+<h4>Six Nen Categories</h4>
+<p>Upon entering the game, the GM must perform a Water Divination check (Power + Perception check, DC 2) to determine each Reincarnator's Nen category. Different categories grant DP bonuses in their domain:</p>
+<table>
+<thead>
+<tr>
+<th>Nen Category</th>
+<th>Trait</th>
+<th>Skill DP Bonus</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Enhancement (強化系)</td>
+<td>Enhance self or objects</td>
+<td>Power-related checks DP+2, melee damage +3</td>
+</tr>
+<tr>
+<td>Transmutation (變化系)</td>
+<td>Change aura's nature</td>
+<td>Agility-related checks DP+2, may convert aura to elemental attributes</td>
+</tr>
+<tr>
+<td>Conjuration (具現化系)</td>
+<td>Materialize aura into objects</td>
+<td>Craft-related checks DP+2, may create items with special effects</td>
+</tr>
+<tr>
+<td>Emission (放出系)</td>
+<td>Shoot aura outward</td>
+<td>Firearm/ranged attacks DP+2, Nen ball range ×2</td>
+</tr>
+<tr>
+<td>Manipulation (操作系)</td>
+<td>Control objects or creatures</td>
+<td>Control-related checks DP+2, may control enemies (Intelligence contest)</td>
+</tr>
+<tr>
+<td>Specialization (特質系)</td>
+<td>Unique, unclassifiable abilities</td>
+<td>Custom special ability (GM approval), all-attribute checks DP+1</td>
+</tr>
+</tbody>
+</table>
+<h4>Nen Category Counters</h4>
+<pre><code>Enhancement ──beats──&gt; Transmutation ──beats──&gt; Conjuration ──beats──&gt; Emission ──beats──&gt; Manipulation ──beats──&gt; Specialization ──beats──&gt; Enhancement
+</code></pre>
+<p>The countered side's Nen attack checks DP-2, Nen defense bonus successes -1.</p>
+<h4>Hatsu (發) — Personal Finisher</h4>
+<p>Each Reincarnator may design one Hatsu matching their Nen category. Examples:
+- Enhancement: "Hard" (Ko) — concentrate all aura into the fist, single melee hit damage +5, costs 3 Nen
+- Transmutation: "Thunder Palm" — convert aura to lightning, attack deals 3d6 lightning damage, costs 2 Nen
+- Emission: "Nen Ball Barrage" — fire 1d3 Nen balls, each dealing 2d4+2 damage, costs 3 Nen</p>
+<h3>Spell Card System (World Special Rule II)</h3>
+<p>Inside Greed Island there are two types of cards: <strong>Specified Cards</strong> (100 total, numbered 000–099) and <strong>Spell Cards</strong> (re-obtainable, with per-use limits).</p>
+<h4>Common Spell Cards</h4>
+<table>
+<thead>
+<tr>
+<th>Spell</th>
+<th>Effect</th>
+<th>Acquisition Difficulty</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Accompany (同行)</td>
+<td>Teleport instantly to a designated player or NPC</td>
+<td>DC2, 3 uses per card</td>
+</tr>
+<tr>
+<td>Magnetic Force (磁力)</td>
+<td>Teleport to the last place visited via Accompany</td>
+<td>DC1, 5 uses per card</td>
+</tr>
+<tr>
+<td>Listening (竊聽)</td>
+<td>Peek at all cards held by a designated player</td>
+<td>DC2, 2 uses per card</td>
+</tr>
+<tr>
+<td>Peep (偷窺)</td>
+<td>See one card held by a designated player</td>
+<td>DC0, 10 uses per card</td>
+</tr>
+<tr>
+<td>Rob (搶奪)</td>
+<td>Randomly seize 1 card held by a designated player</td>
+<td>DC3, 1 use per card</td>
+</tr>
+<tr>
+<td>City Flight (城內飛行)</td>
+<td>Fly within the current town</td>
+<td>DC1, 5 uses per card</td>
+</tr>
+<tr>
+<td>Leave (離開)</td>
+<td>Teleport to the starting plains</td>
+<td>DC0, 10 uses per card</td>
+</tr>
+<tr>
+<td>Holy Water (聖水)</td>
+<td>Restore all HP, but usable only once</td>
+<td>DC2, 1 use per card</td>
+</tr>
+</tbody>
+</table>
+<p>Spell cards can be bought from magic shops in each town or earned by completing NPC quests.</p>
+<h4>How to Obtain Specified Cards</h4>
+<ul>
+<li>Complete NPC quests</li>
+<li>Defeat specific monsters (refresh once per month)</li>
+<li>Acquire from other players (trade or rob)</li>
+</ul>
+<h4>Cardification</h4>
+<p>Physical items in-game can be turned into collectible cards via the "Book" spell (placed in the card book), and materialized for use via the "Gain" spell.</p>
+<hr />
+<h3>Timeline</h3>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T+0 hr</td>
+<td>Reincarnators teleported to the starting plains. Watch displays card list and basic rules</td>
+</tr>
+<tr>
+<td>T+2 hr</td>
+<td>If heading to Antokiba City, witness Biscuit training Gon and Killua</td>
+</tr>
+<tr>
+<td>T+12 hr</td>
+<td>Bomber gang begins operating around Magic City; other-player casualties spike</td>
+</tr>
+<tr>
+<td>T+24 hr</td>
+<td>Explosion heard from the south — Bomber attacked a player gathering</td>
+</tr>
+<tr>
+<td>T+36 hr</td>
+<td>Biscuit finishes Gon's first training phase, proactively invites Reincarnators to cooperate</td>
+</tr>
+<tr>
+<td>T+48 hr</td>
+<td>Genthru broadcasts to all players: surrender cards or receive "Countdown"</td>
+</tr>
+<tr>
+<td>T+60 hr</td>
+<td>Razor Gym unlocks (need 15+ cards collected or Gon's referral)</td>
+</tr>
+<tr>
+<td>T+72 hr</td>
+<td>Genthru begins systematically hunting remaining players. If Reincarnators have enough cards, Genthru locks onto them</td>
+</tr>
+<tr>
+<td>T+84 hr</td>
+<td>Clear-point teleporter opens: 30+ cards collected + Genthru defeated/disarmed</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>Key Locations</h3>
+<h4>Location A: Starting Plains (Start Point)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Starting Plains</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A vast green plain under blue sky and white clouds; a white castle (Antokiba) visible in the distance. A blonde NPC woman in white robes (Ida) smiles and approaches: "Welcome to Greed Island. I'm your beginner guide." A giant game-rules billboard floats in the air.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Receive tutorial (card system intro), gain starter spell cards ×3 (Accompany ×1, Leave ×1, Book ×1), gain an empty card book</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>Walk north ~2 hr → Antokiba City (B); Accompany can instantly reach any known player</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>WM-01 (Greed Island world map)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location B: Antokiba City</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Antokiba City (Antokiba)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A white marble castle with a magic shop, card exchange, and info tavern. Players sometimes trade cards or discuss strategy on the streets. From the castle-center training ground comes the sound of shattering rock — someone is training Nen.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Magic shop (buy spell cards, random restock), card exchange (trade specified cards with players), info tavern (pay 1 card for intel on Bomber's movements), training ground (meet Gon/Killua/Biscuit)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Friendly players (trade), hostile players (rob cards, ★★)</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>Magnetic Force returns here; City Flight moves quickly between facilities; exit east → Magic City (C)</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>EM-01 (Antokiba floor plan)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location C: Magic City Masadora</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Magic City Masadora (Masadora)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A far larger, more prosperous city than Antokiba. Shops selling every spell card line the streets; only the rarest, highest-tier spells are bought here. Players using "City Flight" occasionally streak overhead. A bounty board stands in the central plaza — Genthru's wanted poster pinned at the top.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>High-end magic shop (all spell cards buyable — but rare-spell stock is tiny, needs luck or restock wait), bounty board (accept other players' posted quests), card appraisal (identify unknown cards), underground black market (illicit card acquisition, very high risk)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Bomber henchmen (★★★), hostile player gangs (★★★), informants (NPC)</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>West → Antokiba (B); northwest → Razor Gym (D); Accompany reaches instantly</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>EM-01 (Masadora downtown map)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location D: Razor Gym</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Razor Gym</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A giant circular gym stands on the wilderness. At the entrance stands a tall man in sunglasses (Razor) holding an ordinary-looking but overwhelmingly imposing dodgeball. Inside is a standard dodgeball court, but the floor and walls are pocked with craters — traces of past battles.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Challenge Razor to dodgeball (triggers S-02), observe other players' challenges (learn Razor's Nen patterns), gym lounge (free HP and Nen-pool recovery)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Razor (★★★★☆), Razor's Nen beast "Number 13 Devil" (★★★ ×7)</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>Requires 15 specified cards to unlock (or Gon-team referral); Magnetic Force returns here</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>BM-01 (dodgeball court)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location E: Genthru Stronghold — Abandoned Mine</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Abandoned Mine (Genthru Stronghold)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>An abandoned mine at Greed Island's southeast edge. The tunnels are dark and damp, but firelight glows deep inside — Genthru's gang built a temporary base here. Photos of players they defeated are pasted on the walls, labeled "failed to disarm" or "dead."</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Genthru's card stock (defeating him yields many specified cards), imprisoned players (rescue for intel or card thanks), trap disarm (Intelligence + Investigation check, DC 3, failure triggers Nen trap dealing 3d6 damage)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Genthru (★★★★, final battle raised to ★★★★★), henchman Bara (★★★), henchman Sub (★★★)</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>After Genthru installs "Countdown," this location auto-unlocks (watch shows coordinates)</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>BM-02 (mine interior battlefield)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location F: Clear-Point Teleporter</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Greed Island Clear-Point Teleporter</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A stone arch at the island's northern tip. Once 30 specified cards are collected, a white vortex appears in the arch's center — the Lord God's teleport mark. Genthru has planted many "A Handful of Gunpowder" detonation points here.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>None — this is the endpoint scene</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Genthru final battle (★★★★★) — Genthru built the final defense line here, trying to stop anyone from clearing</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>From abandoned mine (E) via Accompany or 4-hr walk; Magnetic Force needs a prior mark</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>BM-02 (clear-point battlefield)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>Lord God Restrictions</h3>
+<ul>
+<li>"Do not reveal the existence of the Lord God Space to story characters."</li>
+<li>"Cards may not be taken out of this world — all cards auto-return to the card book on exit."</li>
+<li>"Nen retains 50% power after leaving this world (DP bonus halved), to be gradually restored in later scripts."</li>
+<li>"Killing an innocent player (not self-defense, not in combat) deducts 500 each time."</li>
+<li>"Weapons exceeding the Hunter world's tech level are forbidden (roughly 1990s level, Nen users excepted)."</li>
+</ul>
+<h3>Visual Map System</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>ID</th>
+<th>Content</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>World Map</td>
+<td>WM-01</td>
+<td>Greed Island full map: Starting Plains / Antokiba / Masadora / Razor Gym / Mine / Teleporter marked</td>
+<td><code>maps/HXH_WM-01.svg</code></td>
+</tr>
+<tr>
+<td>Exploration Map</td>
+<td>EM-01</td>
+<td>Antokiba + Masadora downtown floor plan</td>
+<td><code>maps/HXH_EM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-01</td>
+<td>Razor Gym — dodgeball court (12×6 grid)</td>
+<td><code>maps/HXH_BM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-02</td>
+<td>Abandoned mine interior (14×10 grid) + clear-point teleporter (8×8 grid)</td>
+<td><code>maps/HXH_BM-02.svg</code></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>六、Characters &amp; Enemy Units (managed in separate Excel)</h2>
+<blockquote>
+<p>NPC and enemy unit data see the following separate Excel files:
+- <strong>NPC Roster</strong>: <code>HXH_NPC名冊.xlsx</code>
+- <strong>Enemy Unit Roster</strong>: <code>HXH_敵方單位名冊.xlsx</code></p>
+<p>Both Excel files contain a "Roster (名冊)" sheet and a "Blank Template" sheet; the first column is reserved for character art.</p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>七、Key Scenes</h2>
+<h3>Scene Structure</h3>
+<p>This script is <strong>hybrid</strong>: the first 48 hours let Reincarnators freely choose exploration routes (parallel scenes S01–S06), after which the story auto-advances to the Bomber final battle (S07–S10).</p>
+<hr />
+<h3>Phase One: Free Exploration (0–48 hr)</h3>
+<p>The following scenes open in no fixed order; Reincarnators trigger them by choice:</p>
+<hr />
+<h4>Scene S01: Welcome to Greed Island</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S01</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Game Start</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Script start</td>
+</tr>
+<tr>
+<td>GM Read-Aloud</td>
+<td>"The blinding white light fades; you stand on an endless green plain. The sky is an unreal, crystalline blue; a breeze carries the scent of fresh grass. A red giant bird flies overhead, crying strangely — this is not Earth. Your black wristwatch vibrates, and a line of text appears: 'Greed Island. Collect 30 specified cards. Survive. Find the exit.' Not far off, a blonde woman smiles as she walks toward you."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Ida (beginner mentor NPC, teaches card system and rules), aerial billboard (rules summary; Intelligence + Knowledge check, DC 1 to memorize all basic rules), Water Divination kit (from Ida, for Nen-category identification)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>No combat — pure tutorial scene</td>
+</tr>
+<tr>
+<td>Gene Lock</td>
+<td><strong>Gene Lock Hint</strong>: This is a guidance phase; Gene Lock intervention is not advised. But warn players — in Greed Island "death is real death," more dangerous than typical scripts. Prepare before departure.</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Accept full tutorial (10 min game time, gain starter spell cards ×3 + Nen-category ID) → head to Antokiba; skip tutorial → depart directly but lack key cards and Nen info</td>
+</tr>
+<tr>
+<td>Transition</td>
+<td>Complete tutorial or choose to skip</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4>Scene S02: Antokiba — The Nen Training Ground</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S02</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Meeting "Stone"</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Arrive at Antokiba training ground</td>
+</tr>
+<tr>
+<td>GM Read-Aloud</td>
+<td>"A loud boom comes from the training-ground sand — a rock taller than a man explodes, rubble flying. Through the dust, a spiky-haired boy clenches his fist, palms still steaming. Behind him stands a blonde twin-tailed girl — she looks about ten, yet scans you with a sharpness beyond her years. 'Newbie?' the girl says, not really asking. 'Know how to use Nen?'"</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Gon (dialogue, may spar — Enhancement novice but stunning potential), Killua (dialogue, extremely alert — Perception + Sense check, DC 3 to earn trust), Biscuit (dialogue, may request training — grants Nen-pool max +4, any Nen technique DP+1, takes 12 hr game time)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Optional spar with Gon (friendly): Gon (★★★) uses "Rock-Paper-Scissors: Rock" (Enhancement punch, 4d6 blunt); spar is non-lethal (auto-stops at HP 1)</td>
+</tr>
+<tr>
+<td>Gene Lock</td>
+<td><strong>Gene Lock Hint</strong>: Sparring Gon is a great Nen-training opportunity. Biscuit can assess the Reincarnator's Nen category and give expert guidance. If training accepted: Gene Lock Stage — Stage 2+ masters advanced Nen application (Hatsu) fast, shortening training to 6 hr. Gene Lock III can learn Nen tactical thinking from Biscuit.</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Accept Biscuit's training → spend 12 hr for Nen enhancement but lose free-explore time; politely refuse → keep time advantage but lose power gain; trade cards with Gon/Killua → gain card intel network</td>
+</tr>
+<tr>
+<td>Transition</td>
+<td>Leave training ground after dialogue and (optional) training</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4>Scene S03: Masadora — The Card Hunter's Battlefield</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S03</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>The Magic-Shop-Street Trap</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Arrive at Magic City Masadora</td>
+</tr>
+<tr>
+<td>GM Read-Aloud</td>
+<td>"Masadora's streets are ten times busier than Antokiba's. Spell cards glitter in shop windows, priced 100 to 10000 Jenny. A small crowd gathers at the central plaza around a billboard, murmuring. You catch fragments — 'Bomber,' 'five more dead,' 'A Handful of Gunpowder.' In the crowd, two hooded figures quietly watch every passing player."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Magic shop (buy spell cards — restocks daily; roll 1d6: 1-2 common spells ample, 3-4 rare spell ×1, 5-6 super-rare spell ×1), bounty board (accept other players' card-collection quests, complete for specified cards), hooded duo (Bomber henchmen Bara and Sub — if caught holding 10+ specified cards, triggers S-04 assault)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>50% chance of hostile player roadblock robbery (★★★, holding 5–10 specified cards); 10% chance of Bara/Sub targeting (if Reincarnator used "Peep" or "Listening" exposing card count)</td>
+</tr>
+<tr>
+<td>Gene Lock</td>
+<td><strong>Gene Lock Hint</strong>: On meeting hostile players or Bomber henchmen: Gene Lock Stage — Stage 2 advised. Enemies are all Nen users with Nen defense (Ken) and Nen attack. Gene Lock II grants ability to identify enemy Nen category (Perception + Investigation check, DC 2; success reveals enemy category for counter strategy).</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>High-profile action (buy rare spells, show cards publicly) → attract Bomber, faster main advance but higher risk; low-profile (buy little, hide cards) → safe but slower collection; actively hunt Bomber intel → unlock abandoned-mine location early</td>
+</tr>
+<tr>
+<td>Transition</td>
+<td>Leave Masadora</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4>Scene S04: Encounter the Bomber's Henchmen</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S04</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>The Hunted Prey</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Hold 10+ specified cards and exposed in Masadora, or actively hunt the Bomber</td>
+</tr>
+<tr>
+<td>GM Read-Aloud</td>
+<td>"'Stop.' — Two figures flash from the alley mouth, one burly, one thin and tall. They lower their hoods, smiling maliciously. 'The card count on you — we confirmed it from the guild intel network. Hand them over nicely, and you avoid pain.' The burly one extends his right hand; a twisted aura — his Nen — condenses in his palm."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Bara (Emission — fires homing Nen balls, 3d6 damage), Sub (Manipulation — controls environment objects to attack, Intelligence contest DC 3)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Bara (★★★) ×1 + Sub (★★★) ×1. If battle exceeds 5 rounds, 30% chance Genthru arrives (★★★★ → BOSS battle triggers early)</td>
+</tr>
+<tr>
+<td>Gene Lock</td>
+<td><strong>Gene Lock Hint</strong>: Gene Lock Stage — Stage 2 to 3 advised. Bara's Emission Nen balls can't be fully blocked by Ken (half penetration); watch positioning: Agility + Athletics check, DC 3 to fully dodge. Sub's Manipulation needs Intelligence contest — Intelligence + Resolve check, DC 3 to resist. Gene Lock III can fight both at once without multi-target penalty.</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Defeat head-on → loot their cards (gain 5–10 specified cards), triggers S-04 reward; choose to hand over cards → avoid battle but lose collected cards; call Gon/Killua support (if affinity enough) → gain combat aid</td>
+</tr>
+<tr>
+<td>Transition</td>
+<td>Defeat or escape successfully</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4>Scene S05: Razor's Trial — Dodgeball Deathmatch</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S05</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Eight-vs-Eight Deathmatch</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>After collecting 15 cards, Razor Gym unlocks, or Gon-team invites you to dodgeball</td>
+</tr>
+<tr>
+<td>GM Read-Aloud</td>
+<td>"Razor stands at court center, tossing an ordinary dodgeball in one hand. Each toss cuts the air — not an ordinary ball, but an Emission-enhanced Nen ball. 'Rules are simple: eight vs eight. Hit by the ball, you're out. You can use Nen defense, you can catch.' He pushes his sunglasses, grinning. 'Off-field people can support on-field with Nen — but no cheating. My referee is Number 13 Devil.' You see seven figures identical to Razor step out from behind him."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Razor (★★★★☆, Emission — Nen ball damage 4d6+3), Number 13 Devil ×7 (★★★, each different Nen — pass enhancement, defense enhancement, speed enhancement, clone interference, etc.)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Dodgeball match — 8 vs 8, 30-round limit. Each round: Razor team picks 1 target to throw (Nen attack check DP=8–12), Reincarnator team makes a Constitution contest (Athletics + Endurance or Athletics + Agility check, DC 4). Successful catch (Athletics + Agility check, DC 5) knocks the enemy pitcher out.</td>
+</tr>
+<tr>
+<td>Gene Lock</td>
+<td><strong>Gene Lock Hint</strong>: Strongly advised Gene Lock Stage — III. Razor's Nen balls are extremely fast and homing (Emission special). Gene Lock III can predict ball trajectory (Perception + Investigation check DP+3), greatly raising dodge and catch rates. Below Stage II, catching Razor's full-power throw is near impossible.</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Challenge head-on → triggers S-02 side quest, gain card + B on success; spectate only → observe Razor's combat pattern for final battle prep, but lose rare-card reward; assist Gon's team → if Gon is on-field, joint catch tactic (DP+2)</td>
+</tr>
+<tr>
+<td>Transition</td>
+<td>Match ends (win/loss/time-out). Loss doesn't kill but bars re-challenge</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>Phase Two: Scene-by-Scene Advance (48–84 hr)</h3>
+<hr />
+<h4>Scene S06: Genthru's Ultimatum</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S06</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>The Bomber's Declaration</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Auto-triggers at T+48 hr (wherever the Reincarnator is)</td>
+</tr>
+<tr>
+<td>GM Read-Aloud</td>
+<td>"The watch screen flickers; a forced broadcast pops up — a voice message: 'Good evening, players of Greed Island. I'm Genthru — some call me the Bomber. From now, all players holding 10+ specified cards, surrender them all to Masadora central plaza within 24 hours. Those who won't cooperate —' a low laugh, 'I'll pay a personal visit.' The message ends. You feel nearby players stir — panic spreading."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Watch (replay broadcast; Intelligence + Investigation check, DC 2 to analyze Genthru's voice traits — he's moving), nearby players (persuade to ally against Genthru; Grace + Social check, DC 3 success recruits 1d3 friendly players of ★★~★★★ power)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>No immediate combat — but if Reincarnator is in Masadora, Bara and Sub arrive to patrol within 1 hr of broadcast</td>
+</tr>
+<tr>
+<td>Gene Lock</td>
+<td><strong>Gene Lock Hint</strong>: This is a strategic-planning scene. Gene Lock III Reincarnators can do advanced intel analysis here (Perception + Investigation check, DC 3): success deduces Genthru's "Countdown" trigger (needs touch target + speak keyword + show materialized bomb). This intel is critical for the final battle.</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Surrender cards → avoid conflict but may fail collection; refuse and prep (enter S07); go to mine for proactive strike (skip S07 into S08 pre-final outpost, but lose prep time); try allying with other players → gain combat support</td>
+</tr>
+<tr>
+<td>Transition</td>
+<td>Auto-advances after decision</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4>Scene S07: The Bomber Strikes</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S07</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Countdown</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Triggers 4–12 hr after refusing to surrender cards (Genthru uses Listening spell to locate Reincarnator)</td>
+</tr>
+<tr>
+<td>GM Read-Aloud</td>
+<td>"A spatial distortion — not illusion; someone used the 'Accompany' spell. Three figures appear from nowhere fifty meters away. The leader is burly, bald, round glasses, deceptively gentle smile but cold eyes. Behind him stand a burly man and a thin tall man — the two you saw in Masadora. 'Refusing my kindness wasn't wise.' Genthru extends his hand; strange black-red gas leaks from his fingertips — the Materialization 'Countdown.' 'Let's play a game. I plant the bomb on you; if within the time limit you catch me and say "Got the Bomber!", the bomb disarms. Otherwise —' he snaps his fingers, 'boom.'"</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Genthru (★★★★★ — Materialization + Emission dual. Skills: Countdown (Materialization, installs timed bomb on touched target), A Handful of Gunpowder (Emission, concentrates aura in palm for explosion, 5d6 fire, melee range), A Small Handful of Gunpowder (quick version, 2d6 fire, mid-range 10m))</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Genthru first tries to install "Countdown" — needs melee touch and successful Agility + Melee check (DC 3, target's Agility + Athletics contest). On success, instantly triggers S-01 side quest. After install, Genthru retreats immediately (Accompany spell), leaving Reincarnators to hunt him within the time limit.</td>
+</tr>
+<tr>
+<td>Gene Lock</td>
+<td><strong>Gene Lock Hint</strong>: Strongly advised Gene Lock Stage — III. Genthru's "A Handful of Gunpowder" is close-range AoE — even with Ken, 50% damage penetrates. Gene Lock III key uses: (1) predict Gunpowder release timing (Perception + Investigation check, DC 4, success lets you retreat 5m before blast, avoiding damage); (2) organize team counterattack — split Genthru's attention so he can't face multiple directions; (3) identify Countdown disarm — when Genthru installs (don't wait for finish), shout "Got the Bomber!" to nullify (needs knowledge from Biscuit)</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Prevent install (Agility + Stealth full-team check, DC 4, Genthru DP-2) → avoid bomb threat but lose S-01 side chance; pursue immediately after install (Accompany to track Genthru) → triggers S08; seek Gon-team cooperation after install → gain support but spend precious countdown time</td>
+</tr>
+<tr>
+<td>Transition</td>
+<td>Enter S08 after encounter</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4>Scene S08: Final Battle — Mine Showdown</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S08</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Bomb Defusal</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Pursue Genthru to the abandoned mine (E)</td>
+</tr>
+<tr>
+<td>GM Read-Aloud</td>
+<td>"Torches in the mine depths cast flickering shadows on blast craters in the walls. The air reeks of powder — Genthru has planted several 'A Handful of Gunpowder' detonation points here. 'Didn't think you'd really follow.' Genthru steps slowly from the tunnel's end, his glasses reflecting firelight. 'Good. Then I won't hold back — blow it all away!' Both hands ignite at once — Gunpowder activates, detonation points across the tunnel start blinking!"</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Detonation points ×4 (Nen traps on tunnel walls — 1 random per round, 3m range, 4d6 fire, disarm via Intelligence + Investigation check, DC 2), mine cart (push over as cover, +3 defense bonus vs fire), support pillar (destroy for cave-in, 6d6 blunt to all in range — hurts enemy and self)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Genthru (★★★★★) — HP 85, base defense 8 (+Ken 4 = 12). Skill loop: every 3 rounds uses A Handful of Gunpowder (5m AoE all 5d6 fire), each round may use A Small Handful (single 2d6 fire, mid-range), Countdown (if undisarmed, countdown -1/round, target dies at zero). Henchmen Bara (★★★), Sub (★★★) join here if not defeated.</td>
+</tr>
+<tr>
+<td>Gene Lock</td>
+<td><strong>Gene Lock Hint</strong>: Must be Gene Lock Stage — III. This is the script's most dangerous battle. Stage III tactics: (1) spread out — avoid whole team hit by one Gunpowder; (2) rotate Ken (Nen-pool management crucial, max 2 Ken/round each); (3) prioritize disarming detonation points — each disarmed reduces Genthru's Gunpowder damage by 1d6; (4) only way to disarm Countdown — use Accompany to teleport Genthru to open ground, then collective pin (3+ simultaneous Grapple checks); (5) Nen counter — Genthru is Materialization + Emission, Enhancement Reincarnators get extra penetration vs his Nen defense (countered ×2)</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Frontal fight → defeat Genthru triggers S-01 reward + disarm Countdown; sneak attack (Stealth DC 4, success = unprotected first-round hit) → high risk high reward; lure tactic (use mine traps against Genthru — collapse pillar then Accompany to escape, leave Genthru in cave-in) → creative solution, GM should encourage but roll for success rate</td>
+</tr>
+<tr>
+<td>Transition</td>
+<td>Genthru defeated and "Got the Bomber!" said → disarm all Countdown → enter S09</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4>Scene S09: The Clear-Point Teleporter</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S09</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>The Road Home</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Defeat Genthru + collect 30+ specified cards</td>
+</tr>
+<tr>
+<td>GM Read-Aloud</td>
+<td>"The stone arch stands at the island's northern tip, gilded by sunset. The moment you step into its range, your card book glows — cards fly one by one into the arch's stone seams. As the last specified card slots in, a pure-white vortex cracks open at the arch's center. The watch vibrates, cold text appears: 'Mission complete. Teleport gate open, valid 10 minutes.' Your body is wrapped in white light. Through the vortex, you seem to see the Lord God Plaza's light orb — the way home."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Teleport gate (enter to return to Lord God Space), Gon/Killua/Biscuit (farewell — if not here, cleared early)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>If Genthru not fully defeated (only repelled), triggers his desperate counterattack here — he detonates all pre-planted points around the arch. AoE all 8d6 fire (Agility + Athletics check, DC 4 halves). Must rush into the gate — safe on entry.</td>
+</tr>
+<tr>
+<td>Gene Lock</td>
+<td>None — this is an emotional closing scene, no Gene Lock needed.</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Enter gate immediately → clear. Stay 10 min (farewell with companions, enjoy sunset, final island scan) → gain extra 200 roleplay points on return, but mind the gate timer.</td>
+</tr>
+<tr>
+<td>Transition</td>
+<td>Enter gate → script cleared</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>八、Multi-Team Competition Rules</h2>
+<p>If running this script in multi-team mode (2–3 Reincarnator teams in Greed Island at once):</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Competition Mode</td>
+<td>Competitive coexistence — teams may cooperate or conflict</td>
+</tr>
+<tr>
+<td>Victory Condition</td>
+<td>First team to collect 30 cards and defeat Genthru gains extra C+1000</td>
+</tr>
+<tr>
+<td>Mutual Attack Rules</td>
+<td>Reincarnators may attack each other, but each kill of another team's Reincarnator: attacker deducts 2000. Encourage competition but punish lethal conflict</td>
+</tr>
+<tr>
+<td>Card Transfer</td>
+<td>Defeated Reincarnator (HP&lt;1 but alive) — their card-book cards may be transferred by victor (via "Rob" spell or direct handover)</td>
+</tr>
+<tr>
+<td>GM Adjustment</td>
+<td>Raise specified-card requirement from 30 to 50; increase spell-card shop restock frequency</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>九、Reward Settlement</h2>
+<table>
+<thead>
+<tr>
+<th>Reward Type</th>
+<th>Content</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main Clear</td>
+<td>30+ cards + survive + reach teleporter</td>
+<td>B+5000</td>
+</tr>
+<tr>
+<td>Optional ①</td>
+<td>Collect 50+</td>
+<td>+2000</td>
+</tr>
+<tr>
+<td>Optional ②</td>
+<td>Protect canon protagonists alive</td>
+<td>+1000</td>
+</tr>
+<tr>
+<td>Optional ③</td>
+<td>Collect all 100</td>
+<td>A1 (replaces 50-card reward)</td>
+</tr>
+<tr>
+<td>Side S-01</td>
+<td>Defeat Genthru</td>
+<td>B1</td>
+</tr>
+<tr>
+<td>Side S-02</td>
+<td>Defeat Razor (dodgeball)</td>
+<td>B1</td>
+</tr>
+<tr>
+<td>Side S-04</td>
+<td>Defeat Bomber henchmen (each)</td>
+<td>1500/person (max 3000)</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Common Greed Island monster</td>
+<td>50–200/each</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Hostile player (by tier)</td>
+<td>100–500/each</td>
+</tr>
+<tr>
+<td>Exploration Reward</td>
+<td>Discover all 6 key locations</td>
+<td>300</td>
+</tr>
+<tr>
+<td>Special Achieve</td>
+<td>Catch Razor's full-power throw in dodgeball</td>
+<td>500</td>
+</tr>
+<tr>
+<td>Special Achieve</td>
+<td>Flawless mine final battle</td>
+<td>500</td>
+</tr>
+<tr>
+<td>Special Achieve</td>
+<td>Complete all training with Biscuit</td>
+<td>300</td>
+</tr>
+<tr>
+<td>Roleplay</td>
+<td>GM discretion</td>
+<td>0–500</td>
+</tr>
+</tbody>
+</table>
+<h3>Theoretical Max Yield (single team)</h3>
+<blockquote>
+<p>Main: B ×1 +5000
+Optional ③ (100 cards): A ×1
+S-01: B ×1
+S-02: B ×1
+S-04 (2 people): 3000
+Monster kills (~20): ~2000
+Exploration: 300 / Razor catch: 500 / Flawless mine: 500 / Training complete: 300 / Roleplay: 500</p>
+<p>= <strong>A ×1 + B ×3 + 12100</strong></p>
+</blockquote>
+<h3>Return Exchange (script-limited)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Exchange Item</th>
+<th>Cost (Side+Reward pts)</th>
+<th>Effect</th>
+<th>Growth Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>Spell Card — Accompany (item)</td>
+<td>C+1000</td>
+<td>Gain 1 permanent Accompany spell card (3 uses/script)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Spell Card — Holy Water (item)</td>
+<td>C+1000</td>
+<td>Gain 1 one-time Holy Water spell (restore all HP instantly)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Card Book (empty) (item)</td>
+<td>C+1000</td>
+<td>Gain empty card book, collect special items in later scripts</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Zetsu Control (skill)</td>
+<td>C+1000</td>
+<td>Master "Zetsu" — fully conceal aura, Stealth/Sneak checks DP+3</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Permanent Nen Retention (craft)</td>
+<td>B+2000</td>
+<td>Nen power outside this script restored to 100% (default 50% after exit)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Nen Aptitude Expansion (craft)</td>
+<td>B+2000</td>
+<td>Learn a second Nen category's abilities (cross-category DP bonus -1)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Hatsu Evolution (craft)</td>
+<td>B+2000</td>
+<td>Custom Nen gains one advanced effect (e.g. larger range, damage +2d6)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Nen Beast · Conjuration (Nen)</td>
+<td>A+4000</td>
+<td>Conjuration awakening — create 1 "Nen Beast" ally (HP 50, attack 2d6), 2/script</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Restriction &amp; Vow · Extreme (Nen)</td>
+<td>A+4000</td>
+<td>Pledge "Restriction &amp; Vow" — trade heavy vow for burst: single Nen ability damage ×2 in-script, but failure penalty doubled</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></section>
+<section class="chap"><h2>十、Appendix</h2>
+<h3>Specified Card List (excerpt: 30 mandatory-to-collect)</h3>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Card Name</th>
+<th>Tier</th>
+<th>Acquisition</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>000</td>
+<td>Ruler's Blessing</td>
+<td>SS</td>
+<td>Auto-gain after collecting all 99</td>
+<td>Clear-required card</td>
+</tr>
+<tr>
+<td>001</td>
+<td>A Strip of Dense Forest</td>
+<td>SS</td>
+<td>Defeat Razor (dodgeball)</td>
+<td>Summon primeval forest entrance</td>
+</tr>
+<tr>
+<td>002</td>
+<td>A Strip of Coastline</td>
+<td>SS</td>
+<td>Win dodgeball vs Razor</td>
+<td>Summon private beach entrance</td>
+</tr>
+<tr>
+<td>003</td>
+<td>Spring Kettle</td>
+<td>A</td>
+<td>Masadora underground maze Boss drop</td>
+<td>Produces 1000 L pure water daily</td>
+</tr>
+<tr>
+<td>004</td>
+<td>Golden Dictionary</td>
+<td>A</td>
+<td>Magic City bookstore quest</td>
+<td>Auto-translate any language</td>
+</tr>
+<tr>
+<td>005</td>
+<td>Divine Mallet</td>
+<td>A</td>
+<td>Abandoned mine depths Boss drop</td>
+<td>Enhancement Nen DP+3</td>
+</tr>
+<tr>
+<td>006</td>
+<td>Magic Beauty Liquid</td>
+<td>B</td>
+<td>Antokiba drugstore quest</td>
+<td>Permanent Charm +2</td>
+</tr>
+<tr>
+<td>007</td>
+<td>Pregnant Stone</td>
+<td>B</td>
+<td>Random NPC quest</td>
+<td>Special quest item</td>
+</tr>
+<tr>
+<td>008</td>
+<td>Sleeping Girl</td>
+<td>B</td>
+<td>Random plains encounter</td>
+<td>Summon NPC for recovery service</td>
+</tr>
+<tr>
+<td>009</td>
+<td>Secret Cloak</td>
+<td>A</td>
+<td>Defeat invisible-type monster</td>
+<td>Hide DP+5</td>
+</tr>
+<tr>
+<td>010–030</td>
+<td>(partly omitted, GM may expand)</td>
+<td>B–D</td>
+<td>Various acquisition</td>
+<td>Various functions</td>
+</tr>
+<tr>
+<td>031–099</td>
+<td>(advanced collection)</td>
+<td>C–H</td>
+<td>Island-wide exploration</td>
+<td>Various functions</td>
+</tr>
+</tbody>
+</table>
+<p>Full card list see <code>HXH_卡片目錄.xlsx</code> (if made) or GM designs from source.</p>
+<h3>Maps</h3>
+<p>See the SVG map files under <code>maps/</code>:
+- <code>HXH_WM-01.svg</code> — Greed Island world map
+- <code>HXH_EM-01.svg</code> — Antokiba &amp; Masadora exploration map
+- <code>HXH_BM-01.svg</code> — Razor Gym dodgeball court
+- <code>HXH_BM-02.svg</code> — Abandoned mine interior &amp; clear-point teleporter battlefield</p>
+<h3>GM Memo</h3>
+<ul>
+<li><strong>Common Stuck Point 1</strong>: Players may not understand the Nen system — fix: Biscuit as training mentor explains the six categories and counters in detail. Also provide a simplified "six-category chart" item in the tutorial scene.</li>
+<li><strong>Common Stuck Point 2</strong>: Genthru's "A Handful of Gunpowder" damage may instakill players — fix: provide intel beforehand (Biscuit can explain Genthru's weakness — Gunpowder needs prep time; break his gesture to interrupt). In the mine battle, provide disarmable detonation points to spread his damage output.</li>
+<li><strong>Difficulty Up</strong>: Genthru final battle HP to 120, Gunpowder damage to 6d6, raise his Nen-pool cap (more Gunpowder uses). Or double mine detonation-point count.</li>
+<li><strong>Difficulty Down</strong>: Genthru HP to 60, Gunpowder to 4d6, Ken defense fully blocks fire damage (default half penetration). Or let Gon-team fight throughout.</li>
+<li><strong>Player Unconventional Actions</strong>: If players try "Accompany Genthru to an unreachable place," remind them Genthru also has spell cards and can counter-teleport. But creative spell tactics (e.g. teleport Genthru to Razor Gym for Razor to handle) should be encouraged with a reasonable success rate.</li>
+<li><strong>Card Collection Pace</strong>: GM must provide card opportunities timely, ensuring Reincarnators collect at least 30 within 84 hr. Suggest ~1 card opportunity per 2 hr game time.</li>
+</ul>
+<h3>References</h3>
+<ul>
+<li>HUNTER×HUNTER manga/anime: Greed Island arc (vol. 13–18 / ep. 59–75)</li>
+<li>Nen six-category chart (source vol. 6)</li>
+<li>Greed Island card catalog (source vol. 13 appendix)</li>
+</ul>
+<hr />
+<blockquote>
+<p><strong>Script Code</strong>: HXH
+<strong>Version</strong>: v1.0
+<strong>Format Spec</strong>: v0.4</p>
+</blockquote></section></section>
+    <section class="block"><h2>地圖（YAML＋SVG）</h2><div class="map">
+              <div class="maptitle">HXH_BM-01 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<rect x="20" y="20" width="760" height="560" fill="url(#grid)"/>
+<rect x="20" y="20" width="760" height="560" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="400.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">HXH_BM-01 Battle Map</text>
+<text x="25" y="592" fill="#666" font-size="9">HXH_BM-01 | 10×10delete（conceptualize） | 1delete = 5ft | L_STATISTIC_TOTAL_COLUMN 50×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="55.0" y="75.0" width="610.0" height="310.0" rx="3" fill="#1a1030" stroke="#5a3a8e" stroke-width="3"/>
+<rect x="40.0" y="395.0" width="730.0" height="60.0" rx="5" fill="#0f0f20" stroke="#2a2a4e" stroke-width="1"/>
+<text x="405.0" y="421.0" text-anchor="middle" fill="#aaa" font-size="8">Audience／Off-court zone — Here you can use mindfulness abilities to support players in the arena</text>
+<text x="405.0" y="435.0" text-anchor="middle" fill="#666" font-size="6">(127.5, 135.0)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/en/maps/HXH_BM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/en/maps/HXH_BM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">HXH_BM-02 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<rect x="20" y="20" width="760" height="560" fill="url(#grid)"/>
+<rect x="20" y="20" width="760" height="560" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="400.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">HXH_BM-02 Battle Map</text>
+<text x="25" y="592" fill="#666" font-size="9">HXH_BM-02 | 10×10delete（conceptualize） | 1delete = 5ft | L_STATISTIC_TOTAL_COLUMN 50×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="12.0" y="67.0" width="496.0" height="356.0" rx="3" fill="#0d0818" stroke="#3a2a5e" stroke-width="2"/>
+<text x="260.0" y="241.0" text-anchor="middle" fill="#aaa" font-size="8">Tipping Point</text>
+<text x="260.0" y="255.0" text-anchor="middle" fill="#666" font-size="6">(77.5, 75.0)ft</text>
+<rect x="522.0" y="97.0" width="326.0" height="326.0" rx="3" fill="#0d0818" stroke="#4a3a8e" stroke-width="2"/>
+<text x="685.0" y="256.0" text-anchor="middle" fill="#aaa" font-size="8">Portal</text>
+<text x="685.0" y="270.0" text-anchor="middle" fill="#666" font-size="6">(220.0, 80.0)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/en/maps/HXH_BM-02.yaml" download>yaml</a> <a href="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/en/maps/HXH_BM-02.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">HXH_EM-01 <span class="maptype">探索地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<rect width="800" height="600" fill="#1a1a2e"/>
+<text x="400.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">HXH_EM-01 Explore the map</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 1</text>
+<rect x="20" y="0.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="390.0" height="600.0" rx="0.0" fill="#0d1030" stroke="" stroke-width=""/>
+<text x="195.0" y="300.0" text-anchor="middle" fill="#aaa" font-size="9">Assign Cards</text>
+<rect x="20" y="545" width="760" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="570" fill="#aaa" font-size="9">dangerous territory</text>
+<text x="20" y="590" fill="#666" font-size="9">HXH_EM-01 | Explore the map </text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/en/maps/HXH_EM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/en/maps/HXH_EM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">HXH_WM-01 <span class="maptype">世界地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="800" height="600" fill="url(#wmgrid)"/>
+<line x1="200.0" y1="230.0" x2="150.0" y2="130.0" stroke="" stroke-width=""/>
+<line x1="150.0" y1="130.0" x2="450.0" y2="160.0" stroke="" stroke-width=""/>
+<line x1="450.0" y1="160.0" x2="600.0" y2="300.0" stroke="" stroke-width=""/>
+<line x1="450.0" y1="160.0" x2="550.0" y2="450.0" stroke="" stroke-width=""/>
+<line x1="550.0" y1="450.0" x2="250.0" y2="420.0" stroke="" stroke-width=""/>
+<line x1="200.0" y1="230.0" x2="250.0" y2="420.0" stroke="" stroke-width=""/>
+<line x1="590.0" y1="552.0" x2="630.0" y2="552.0" stroke="" stroke-width="" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<ellipse cx="380.0" cy="320.0" rx="280.0" ry="200.0" fill="" opacity="0.1" stroke="" stroke-width="1"/>
+<ellipse cx="200.0" cy="230.0" rx="60.0" ry="40.0" fill="" opacity="0.1" stroke="" stroke-width="1"/>
+<text x="230.0" y="230.0" fill="#FF4444" font-size="9">Start Plain
+(Starting point)</text>
+<ellipse cx="150.0" cy="130.0" rx="55.0" ry="35.0" fill="" opacity="0.1" stroke="" stroke-width="1"/>
+<text x="177.5" y="130.0" fill="#FF4444" font-size="9">Andonibal City
+(Antokiba)</text>
+<ellipse cx="450.0" cy="160.0" rx="65.0" ry="45.0" fill="" opacity="0.1" stroke="" stroke-width="1"/>
+<text x="482.5" y="160.0" fill="#FF4444" font-size="9">Martha Dora
+(Masadora)</text>
+<ellipse cx="600.0" cy="300.0" rx="55.0" ry="40.0" fill="" opacity="0.1" stroke="" stroke-width="1"/>
+<text x="627.5" y="300.0" fill="#FF4444" font-size="9">Lei Zha Stadium
+(Razor's Gym)</text>
+<ellipse cx="550.0" cy="450.0" rx="50.0" ry="35.0" fill="" opacity="0.1" stroke="" stroke-width="1"/>
+<text x="575.0" y="450.0" fill="#FF4444" font-size="9">Abandoned Mine
+(Gansu stronghold)</text>
+<ellipse cx="250.0" cy="420.0" rx="45.0" ry="30.0" fill="" opacity="0.1" stroke="" stroke-width="1"/>
+<text x="272.5" y="420.0" fill="#FF4444" font-size="9">Passage Point
+(Exit Portal)</text>
+<ellipse cx="500.0" cy="380.0" rx="120.0" ry="80.0" fill="" opacity="0.1" stroke="" stroke-width="1"/>
+<text x="560.0" y="380.0" fill="#FF4444" font-size="9">⚠ Bomb Magic Active Area</text>
+<circle cx="595.0" cy="535.0" r="5.0" fill="none" stroke="" stroke-width="2"/>
+<text x="595.0" y="525.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Legend</text>
+<circle cx="685.0" cy="535.0" r="5.0" fill="none" stroke="" stroke-width="2"/>
+<text x="685.0" y="525.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Danger Zone</text>
+<circle cx="685.0" cy="555.0" r="5.0" fill="none" stroke="" stroke-width="2"/>
+<text x="685.0" y="545.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Key locations</text>
+<rect x="630" y="20" width="150" height="56" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="705" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Legend</text>
+<text x="640" y="60" fill="#aaa" font-size="9">Lei Zha Stadium
+(Razor's Gym)</text>
+<text x="640" y="76" fill="#aaa" font-size="9">[S05]</text>
+<text x="20" y="585" fill="#666" font-size="9">HXH_WM-01 | Large area map | Illustration</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/en/maps/HXH_WM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/en/maps/HXH_WM-01.svg" download>svg</a></p>
+            </div></section>
+    <section class="block"><h2>概念圖</h2><div class="gallery"><a href="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/images/enemy_01_genthru.png" target="_blank"><img src="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/images/enemy_01_genthru.png" alt="enemy_01_genthru.png"></a><a href="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/images/npc_01_bisky.png" target="_blank"><img src="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/images/npc_01_bisky.png" alt="npc_01_bisky.png"></a><a href="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/images/npc_02_HXH_01.png" target="_blank"><img src="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/images/npc_02_HXH_01.png" alt="npc_02_HXH_01.png"></a><a href="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/images/scene_01_greed_island.png" target="_blank"><img src="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/images/scene_01_greed_island.png" alt="scene_01_greed_island.png"></a><a href="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/images/scene_S02_安多尼拔_念的訓練場.png" target="_blank"><img src="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/images/scene_S02_安多尼拔_念的訓練場.png" alt="scene_S02_安多尼拔_念的訓練場.png"></a><a href="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/images/scene_S03_瑪莎多拉_卡片獵人的戰場.png" target="_blank"><img src="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/images/scene_S03_瑪莎多拉_卡片獵人的戰場.png" alt="scene_S03_瑪莎多拉_卡片獵人的戰場.png"></a><a href="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/images/scene_S04_遭遇炸彈魔手下.png" target="_blank"><img src="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/images/scene_S04_遭遇炸彈魔手下.png" alt="scene_S04_遭遇炸彈魔手下.png"></a><a href="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/images/scene_S05_磊札的試煉_躲避球死鬥.png" target="_blank"><img src="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/images/scene_S05_磊札的試煉_躲避球死鬥.png" alt="scene_S05_磊札的試煉_躲避球死鬥.png"></a><a href="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/images/scene_S06_甘舒的通牒.png" target="_blank"><img src="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/images/scene_S06_甘舒的通牒.png" alt="scene_S06_甘舒的通牒.png"></a><a href="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/images/scene_S07_炸彈魔來襲.png" target="_blank"><img src="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/images/scene_S07_炸彈魔來襲.png" alt="scene_S07_炸彈魔來襲.png"></a><a href="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/images/scene_S08_最終戰_礦坑決戰.png" target="_blank"><img src="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/images/scene_S08_最終戰_礦坑決戰.png" alt="scene_S08_最終戰_礦坑決戰.png"></a><a href="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/images/scene_S09_通關傳送點.png" target="_blank"><img src="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/images/scene_S09_通關傳送點.png" alt="scene_S09_通關傳送點.png"></a><a href="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/images/scene_S10_回歸主神廣場.png" target="_blank"><img src="../../assets/scripts/L3/HXH-Hunter×Hun-貪婪之島/images/scene_S10_回歸主神廣場.png" alt="scene_S10_回歸主神廣場.png"></a></div></section>
+    </main>
+<footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

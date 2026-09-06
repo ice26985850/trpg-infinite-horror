@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" font-family="Microsoft JhengHei, sans-serif">
+<rect width="900" height="640" fill="#1a1a2e"/>
+<text x="450.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">Tribute Tower -- Arena Start Zone</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 1</text>
+<rect x="20" y="0.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="900.0" height="640.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<text x="450.0" y="320.0" text-anchor="middle" fill="#aaa" font-size="9">D12</text>
+<rect x="20.0" y="65.0" width="860.0" height="140.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="135.0" text-anchor="middle" fill="#aaa" font-size="9">Fisheries/Power Tribute</text>
+<rect x="35.0" y="78.0" width="180.0" height="55.0" rx="3.0" fill="#1a1030" stroke="#10B981" stroke-width="1.5"/>
+<text x="125.0" y="105.5" text-anchor="middle" fill="#aaa" font-size="9">12Zone Prep Room</text>
+<rect x="235.0" y="78.0" width="120.0" height="55.0" rx="3.0" fill="#1a1030" stroke="#FF4444" stroke-width="1.5"/>
+<text x="295.0" y="105.5" text-anchor="middle" fill="#aaa" font-size="9">1/2Zone Prep Room</text>
+<rect x="375.0" y="78.0" width="120.0" height="55.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="435.0" y="105.5" text-anchor="middle" fill="#aaa" font-size="9">3/4/5Zone Prep Room</text>
+<rect x="515.0" y="78.0" width="120.0" height="55.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="575.0" y="105.5" text-anchor="middle" fill="#aaa" font-size="9">6/7/8Zone Prep Room</text>
+<rect x="655.0" y="78.0" width="120.0" height="55.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width=""/>
+<text x="715.0" y="105.5" text-anchor="middle" fill="#aaa" font-size="9">9/10/11Zone Prep Room</text>
+<rect x="785.0" y="78.0" width="80.0" height="55.0" rx="3.0" fill="#162040" stroke="#F59E0B" stroke-width=""/>
+<text x="825.0" y="105.5" text-anchor="middle" fill="#aaa" font-size="9">Lift Platform</text>
+<rect x="55.0" y="120.0" width="60.0" height="10.0" rx="2.0" fill="#10B981" stroke="" stroke-width=""/>
+<text x="85.0" y="125.0" text-anchor="middle" fill="#aaa" font-size="9">Styling Design Zone</text>
+<text x="20" y="225.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 2</text>
+<rect x="20" y="230.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="230.0" width="860.0" height="100.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="280.0" text-anchor="middle" fill="#aaa" font-size="9">Trap Identification Zone</text>
+<rect x="35.0" y="242.0" width="80.0" height="50.0" rx="3.0" fill="#1a1030" stroke="#666" stroke-width=""/>
+<text x="75.0" y="267.0" text-anchor="middle" fill="#aaa" font-size="9">Weapon Training Ground</text>
+<rect x="130.0" y="242.0" width="80.0" height="50.0" rx="3.0" fill="#1a1030" stroke="#666" stroke-width=""/>
+<text x="170.0" y="267.0" text-anchor="middle" fill="#aaa" font-size="9">Survival Skill Zone</text>
+<rect x="225.0" y="242.0" width="80.0" height="50.0" rx="3.0" fill="#1a1030" stroke="#666" stroke-width=""/>
+<text x="265.0" y="267.0" text-anchor="middle" fill="#aaa" font-size="9">Camouflage Paint Zone</text>
+<rect x="320.0" y="242.0" width="80.0" height="50.0" rx="3.0" fill="#1a1030" stroke="#666" stroke-width=""/>
+<text x="360.0" y="267.0" text-anchor="middle" fill="#aaa" font-size="9">Knot-Tying Zone</text>
+<rect x="415.0" y="242.0" width="80.0" height="50.0" rx="3.0" fill="#1a1030" stroke="#666" stroke-width=""/>
+<text x="455.0" y="267.0" text-anchor="middle" fill="#aaa" font-size="9">Trap Identification Zone</text>
+<rect x="510.0" y="242.0" width="80.0" height="50.0" rx="3.0" fill="#1a1030" stroke="#666" stroke-width=""/>
+<text x="550.0" y="267.0" text-anchor="middle" fill="#aaa" font-size="9">Heavy Object Throw Zone</text>
+<rect x="605.0" y="242.0" width="80.0" height="50.0" rx="3.0" fill="#1a1030" stroke="#666" stroke-width=""/>
+<text x="645.0" y="267.0" text-anchor="middle" fill="#aaa" font-size="9">Arena Model Room</text>
+<text x="20" y="360.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 3</text>
+<rect x="20" y="365.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="365.0" width="860.0" height="200.0" rx="4.0" fill="#0d0d1a" stroke="#6D28D9" stroke-width="1.5"/>
+<text x="450.0" y="465.0" text-anchor="middle" fill="#aaa" font-size="9">(Weapon+Supply Pile)</text>
+<rect x="480.0" y="388.0" width="100.0" height="50.0" rx="3.0" fill="#FF0000" stroke="#FF4444" stroke-width="1"/>
+<text x="530.0" y="413.0" text-anchor="middle" fill="#aaa" font-size="9">Career Tribute</text>
+<rect x="360.0" y="400.0" width="160.0" height="100.0" rx="15.0" fill="#2a2a1a" stroke="#FFAA00" stroke-width="3"/>
+<text x="440.0" y="450.0" text-anchor="middle" fill="#aaa" font-size="9">Cornucopia</text>
+<text x="20" y="565.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 4</text>
+<rect x="20" y="570.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="35.0" y="570.0" width="820.0" height="55.0" rx="4.0" fill="#111" stroke="#333" stroke-width=""/>
+<text x="445.0" y="597.5" text-anchor="middle" fill="#aaa" font-size="9">HG_EM-01 | Exploration Map | Tribute Tower--Arena</text>
+<rect x="50.0" y="582.0" width="14.0" height="10.0" rx="0.0" fill="#2a2a1a" stroke="#FFAA00" stroke-width=""/>
+<text x="57.0" y="587.0" text-anchor="middle" fill="#aaa" font-size="9">Cornucopia(Supply Stockpile)</text>
+<rect x="170.0" y="582.0" width="14.0" height="10.0" rx="0.0" fill="#FF0000" stroke="#FF4444" stroke-width=""/>
+<text x="177.0" y="587.0" text-anchor="middle" fill="#aaa" font-size="9">Career Tribute Control Zone</text>
+<rect x="20" y="585" width="860" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="610" fill="#aaa" font-size="9">HG_EM-01 | Exploration Map | Tribute Tower--Arena</text>
+<text x="20" y="630" fill="#666" font-size="9">HG_EM-01 | Exploration Map </text>
+</svg>

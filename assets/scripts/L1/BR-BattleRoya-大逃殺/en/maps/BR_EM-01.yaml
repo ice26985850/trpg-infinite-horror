@@ -1,0 +1,146 @@
+map_id: BR_EM-01
+map_type: exploration
+scenario: Battle Royale / Battle Royale (BR)
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 800
+- 540
+title: Island Forest Exploration Map - Exploration Map
+description: ''
+floors:
+- name: Floor 1
+  y: 0.0
+  rooms:
+  - bounds:
+    - 0.0
+    - 0.0
+    - 800.0
+    - 540.0
+    name: Hostile x2
+    fill: '#1a1a2e'
+    stroke: ''
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 20.0
+    - 40.0
+    - 760.0
+    - 420.0
+    name: Hostile x2
+    fill: '#0d1a0d'
+    stroke: '#2a4a2a'
+    stroke_width: '2'
+    rx: 8.0
+- name: Floor 2
+  y: 120.0
+  rooms:
+  - bounds:
+    - 110.0
+    - 120.0
+    - 50.0
+    - 40.0
+    name: Logging Cabin
+    fill: '#301a10'
+    stroke: '#8B4513'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 300.0
+    - 140.0
+    - 16.0
+    - 16.0
+    name: Bear Trap
+    fill: '#301520'
+    stroke: '#EF4444'
+    stroke_width: '1'
+    rx: 2.0
+  - bounds:
+    - 420.0
+    - 180.0
+    - 16.0
+    - 16.0
+    name: Bear Trap
+    fill: '#301520'
+    stroke: '#EF4444'
+    stroke_width: '1'
+    rx: 2.0
+  - bounds:
+    - 40.0
+    - 250.0
+    - 100.0
+    - 80.0
+    name: (S04)
+    fill: '#1a2020'
+    stroke: '#888'
+    stroke_width: '1.5'
+    rx: 4.0
+  - bounds:
+    - 50.0
+    - 300.0
+    - 30.0
+    - 18.0
+    name: Fishing-gear Warehouse
+    fill: '#2a2a2a'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 2.0
+  - bounds:
+    - 90.0
+    - 300.0
+    - 30.0
+    - 18.0
+    name: Clinic
+    fill: '#2a2a2a'
+    stroke: '#555'
+    stroke_width: ''
+    rx: 2.0
+  - bounds:
+    - 560.0
+    - 300.0
+    - 40.0
+    - 30.0
+    name: Military Bunker
+    fill: '#2a2a2a'
+    stroke: '#888'
+    stroke_width: ''
+    rx: 2.0
+- name: Floor 3
+  y: 440.0
+  rooms:
+  - bounds:
+    - 550.0
+    - 440.0
+    - 220.0
+    - 80.0
+    name: ''
+    fill: '#111'
+    stroke: '#333'
+    stroke_width: ''
+    rx: 4.0
+  - bounds:
+    - 562.0
+    - 452.0
+    - 12.0
+    - 10.0
+    name: Forest
+    fill: '#1a3a1a'
+    stroke: '#2a5a2a'
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 562.0
+    - 468.0
+    - 12.0
+    - 10.0
+    name: Building
+    fill: '#1a2020'
+    stroke: '#888'
+    stroke_width: ''
+    rx: 0.0
+connections: []
+legend:
+- BR_EM-01 | Exploration Map | Forest + Ruins Area
+notes: []

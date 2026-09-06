@@ -1,0 +1,60 @@
+map_id: BASIL_WM-01
+map_type: world
+scenario: 'Black Butler · The Truth of Jack the Ripper / Black Butler: The Truth of Jack the Ripper'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 900
+- 620
+title: Victorian London — World Map (WM-01)
+description: ''
+scale: Schematic
+regions:
+- bounds:
+  - 250.0
+  - 120.0
+  - 100.0
+  - 60.0
+  fill: '#3a3a4a'
+  stroke: '#c0392b'
+  name: A Phantomhive Mansion
+- bounds:
+  - 450.0
+  - 270.0
+  - 100.0
+  - 60.0
+  fill: '#3a2a2a'
+  stroke: '#c0392b'
+  name: B Whitechapel District
+- bounds:
+  - 650.0
+  - 170.0
+  - 100.0
+  - 60.0
+  fill: '#4a4a3a'
+  stroke: '#c0392b'
+  name: C Noble District
+- bounds:
+  - 500.0
+  - 450.0
+  - 100.0
+  - 60.0
+  fill: '#2a2a3a'
+  stroke: '#c0392b'
+  name: D Abandoned Church
+- bounds:
+  - 20.0
+  - 540.0
+  - 860.0
+  - 60.0
+  fill: '#1a1a1e'
+  stroke: '#333'
+  name: ''
+roads: []
+routes: []
+danger_zones: []
+landmarks: []
+legend:
+- C Noble District

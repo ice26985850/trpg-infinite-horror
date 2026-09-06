@@ -1,0 +1,677 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Battle Through the Heavens: Strange Fire | BTTH-BattleThro-異火爭奪 | Infinite Terror TRPG Scripts</title>
+<link rel="stylesheet" href="../../assets/style.css"></head>
+<body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../../index.html">中文</a></header>
+<div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
+<main class="container"><h1>Battle Through the Heavens: Strange Fire</h1>
+    <p class="meta">Code: BTTH-BattleThro-異火爭奪 ｜ Source: Battle Through the Heavens: Strange Fire (original) ｜ Difficulty: ★★★★ ｜ Players: 3–5 ｜ Duration: 5–7 hrs / 2–3 sessions ｜ Type: Combat / Investigation / Survival</p>
+    <p class="nav"><a href="../../index.html">← 劇本總覽</a> ｜ <a href="../../assets/scripts/L3/BTTH-BattleThro-異火爭奪/en/BTTH-BattleThro-異火爭奪_劇本.md" download>劇本 MD</a> ｜ <a href="../../assets/scripts/L3/BTTH-BattleThro-異火爭奪/en/BTTH-BattleThro-異火爭奪_NPC名冊.xlsx" download>NPC 名冊</a> ｜ <a href="../../assets/scripts/L3/BTTH-BattleThro-異火爭奪/en/BTTH-BattleThro-異火爭奪_敵方單位名冊.xlsx" download>敵方名冊</a> ｜ <a href="../../assets/L3_BTTH-BattleThro-異火爭奪_all_en.zip">下載全部（zip）</a></p>
+    <section class="block content"><section class="chap"><h2>一、基本資訊</h2>
+<p>Script Title: Battle Through the Heavens: Strange Fire
+Source Film: Battle Through the Heavens: Strange Fire (original)
+Difficulty Rating: ★★★★
+Suggested Players: 3–5
+Estimated Duration: 5–7 hrs / 2–3 sessions
+Script Type: Combat / Investigation / Survival
+Prerequisite: Recommended at least one completed script of ★★★ or below; average team Attribute not below 4</p>
+<hr /></section>
+<details class="gm"><summary>🎭 GM 限定：二、Plot Summary (GM Only)</summary><h2>二、Plot Summary (GM Only)</h2>
+<h3>One-line Summary</h3>
+<blockquote>
+<p>Reincarnators (RC) enter the Dou Qi Continent as alchemists. Learning the location of the Strange Fire "Green Lotus Core Flame," they descend into the underground lava world to seize it, while evading the pursuit of Hall of Souls envoys.</p>
+</blockquote>
+<h3>Full Story Background</h3>
+<p>The Dou Qi Continent is a world whose power system is "Dou Qi" — nine tiers from Dou Zhe to Dou Di. On this continent, "Strange Fires" are the rarest existence — flame spirits naturally born of heaven and earth, each with world-destroying power. If an alchemist refines a Strange Fire, their pill-craft leaps qualitatively.</p>
+<p>This script is set on the desert border of the Gama Empire — the Alchemist Guild receives intel that the legendary Strange Fire "Green Lotus Core Flame" has been found in the underground lava world deep in the Tagor Desert. This fire ranks 19th on the Strange Fire list — not the strongest, but a priceless treasure to any alchemist.</p>
+<p>However — the mysterious dark organization "Hall of Souls" is also tracking this fire. The Hall of Souls is one of the most feared powers on the continent, specializing in capturing powerful souls and collecting Strange Fires. They have dispatched envoys to the Tagor Desert, intending to seize the fire before the Alchemist Guild.</p>
+<p>The Reincarnators join the expedition as mercenaries specially recruited by the Alchemist Guild — their task is to find and refine the Green Lotus Core Flame before the Hall of Souls, then escape the Hall's pursuit with the fire.</p>
+<h3>Story Structure Type</h3>
+<p>Act-by-act: desert-border preparation → descend into the underground lava world → Strange Fire refining ritual → Hall of Souls interception Boss fight → escape pursuit.</p>
+<hr /></details>
+<section class="chap"><h2>三、Main God Quest</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest Description</td>
+<td>"Travel to the underground lava world of the Tagor Desert and obtain the Green Lotus Core Flame before the Hall of Souls. After successfully refining or safely preserving the fire, shake off the Hall's pursuit."</td>
+</tr>
+<tr>
+<td>Main Quest</td>
+<td>Descend into the underground lava world of the Tagor Desert, find and obtain the Green Lotus Core Flame before the Hall of Souls envoys. After success, evade the Hall's pursuit and return safely.</td>
+</tr>
+<tr>
+<td>Quest Reward</td>
+<td>B+5000</td>
+</tr>
+<tr>
+<td>Failure Condition</td>
+<td>Total party wipe / Strange Fire seized by the Hall of Souls / refining failure causes the fire to rampage</td>
+</tr>
+<tr>
+<td>Failure Penalty</td>
+<td>Erasure</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>① Collect lava samples without special protection (END DC4): 400 <br>② Defeat all members of the Hall of Souls advance team: 600 <br>③ Perfectly refine the fire (no rampage risk): 500</td>
+</tr>
+</tbody>
+</table>
+<h3>Party-size Compatibility</h3>
+<ul>
+<li>With 3 players, enemy count reduced by 30%</li>
+<li>With 5 players, enemy count increased by 50% or add 1 reinforcement wave</li>
+<li>With 3 players, check Difficulty (DC) reduced by 1</li>
+</ul>
+<hr /></section>
+<section class="chap"><h2>四、Side Quests</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-01</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Desert Camp Supplies</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Before departure, explore the desert-border town (PER + Investigation DC2)</td>
+</tr>
+<tr>
+<td>Objective</td>
+<td>In the town, gather desert expedition supplies — Fireproof Potion ×3 (halves fire damage for 2 rounds), Lava Crystal (lowers rampage risk DC-2 when refining), ancient explorer's notes (record secret passages of the underground world)</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Before departing into the desert</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>400 + supplies</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Supports the main quest</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-02</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Rescue the Captured Alchemist</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Near the underground lava world entrance, discover signs of a struggle (PER DC2)</td>
+</tr>
+<tr>
+<td>Objective</td>
+<td>An Alchemist Guild advance-team member was captured by the Hall of Souls — being interrogated for the fire's exact location. Rescuing him yields the fire's exact coordinates and Hall of Souls deployment intel</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Within 30 minutes of entering the underground world — otherwise the alchemist is taken away</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>500 + precise fire location (saves exploration time) + Hall of Souls strength intel</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Supports the main quest — provides key intel</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>五、World Setting</h2>
+<h3>Timeline</h3>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T+0</td>
+<td>Arrive at the desert-border town. Meet the Alchemist Guild expedition. Gather intel and supplies</td>
+</tr>
+<tr>
+<td>T+3 rounds</td>
+<td>Depart across the Tagor Desert. Desert hazards — sandstorms and desert magic-beasts</td>
+</tr>
+<tr>
+<td>T+8 rounds</td>
+<td>Find the underground lava world entrance. Discover Hall of Souls advance-team traces (triggers S-02)</td>
+</tr>
+<tr>
+<td>T+12 rounds</td>
+<td>Descend into the lava world. Core area — where the Green Lotus Core Flame lies. Begin the refining ritual (requires 6 rounds of sustained checks)</td>
+</tr>
+<tr>
+<td>T+18 rounds</td>
+<td>Hall of Souls envoy arrives with the main force. Must handle the Hall's attack while refining completes</td>
+</tr>
+<tr>
+<td>T+24 rounds</td>
+<td>Withdraw — escape the underground world with the fire, shaking off the Hall's pursuit</td>
+</tr>
+</tbody>
+</table>
+<h3>Key Locations</h3>
+<h4>Desert-border Town (Starting Point)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Desert-border Town (Starting Point)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A border town half-buried by yellow sand — the only inn gathers adventurers and mercenaries from everywhere. The air is dry and hot; fine sand drifts in through the plank-wall cracks. The Alchemist Guild expedition occupies the inn's largest table — a yellowed desert map spread across it.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Guild expedition (mission briefing + basic alchemy tools), desert market (buy expedition supplies — S-01 trigger), mercenary guild (can hire 1-2 Dou Zhe-level guards ★ to assist — but guards dwindle in the lava world from extreme heat), herb shop (collect auxiliary herbs for refining — Refining check DP+1)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>Town east gate → Tagor Desert → underground lava world entrance</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>WM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Underground Lava World (Core Scene)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Underground Lava World (Core Scene)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"A giant fissure leading to the earth's core — the lava's red light illuminates the entire cavern. Heat waves distort the air — every breath is like swallowing flame. At the center of the lava lake, a cyan flame burns gracefully atop the lava — needing no fuel, burning purely. This is the Green Lotus Core Flame — 19th on the Strange Fire list."</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Fire core (Green Lotus Core Flame — surrounded by lava — END + Will check DC4 to endure heat and approach), refining array (ancient stone-carved refining formation — refining requires 6 rounds INT + Alchemy DC4), lava lake edge (collect Lava Crystals — S-01 supply), ancient altar (may record the fire's origin and refining secrets — INT + Occult DC3)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Lava Beast ×3 (★★ lurks in lava — ambushes the approaching — 1d6+3 fire/physical). Refining ritual round 4: Hall of Souls advance team ×4 (★★★ dark Dou Qi users) bursts in from the entrance. Round 6: Hall of Souls envoy (★★★★ Dou Huang-level — prioritizes interrupting the refining ritual). If S-02 completed, early warning — gain 1 round of prep time</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>Successful refining → escape with the fire → desert withdrawal</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>BM-01</td>
+</tr>
+</tbody>
+</table>
+<h3>World Special Rules</h3>
+<ul>
+<li><strong>Dou Qi System</strong>: The power tiers of the Dou Qi Continent — Dou Zhe → Dou Shi → Da Dou Shi → Dou Ling → Dou Wang → Dou Huang → Dou Zong → Dou Zun → Dou Sheng → Dou Di. Reincarnators' Attributes roughly correspond to Dou Ling through Dou Huang level.</li>
+<li><strong>Strange Fire Refining</strong>: Refining a Strange Fire requires 6 rounds of sustained checks (INT + Alchemy DC4). Each failed round triggers rampage risk — Rampage check DC3 (uses Will save). Perfect refine (no failures) → achieves optional objective ③. After refining, the fire can be used in combat (fire damage 3d6+5, ignores non-magical defense).</li>
+<li><strong>Hall of Souls Traits</strong>: Hall of Souls envoys use dark Dou Qi — their attacks carry soul-corrosion (each hit requires Will save DC3 or take 1d4 soul damage — soul damage only recovers through rest). Hall members wear bone masks — their identity mark.</li>
+</ul>
+<h3>Main God Restrictions</h3>
+<ul>
+<li>"Revealing the existence of the Main God space to story characters is forbidden"</li>
+<li>"Any enhancement ability may be used in this world — but when cast it is treated as a special Dou technique"</li>
+<li>"If you actively hand the Strange Fire to the Hall of Souls — immediate quest failure and Erasure"</li>
+<li>"Do not attack Alchemist Guild members"</li>
+</ul>
+<h3>Visual Map System</h3>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Code</th>
+<th>Content</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Regional Map</td>
+<td>WM-01</td>
+<td>Tagor Desert full map — town, desert, underground lava world entrance</td>
+<td><code>maps/BTTH_WM-01.svg</code></td>
+</tr>
+<tr>
+<td>Exploration Map</td>
+<td>EM-01</td>
+<td>Underground lava world passages — lava river, refining array, Hall of Souls ambush positions</td>
+<td><code>maps/BTTH_EM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-01</td>
+<td>Lava world core Strange Fire refining battlefield 24×14 cells — refining array, lava lake, ancient altar</td>
+<td><code>maps/BTTH_BM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-02</td>
+<td>Desert escape battle — Hall of Souls pursuit vs cover-and-withdraw</td>
+<td><code>maps/BTTH_BM-02.svg</code></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>六、Characters and Enemy Units (Managed in Separate Excel)</h2>
+<blockquote>
+<p>NPC and enemy unit data — see the following separate Excel files:
+- <strong>NPC Roster</strong>: <code>BTTH-BattleThro-異火爭奪_NPC名冊.xlsx</code>
+- <strong>Enemy Unit Roster</strong>: <code>BTTH-BattleThro-異火爭奪_敵方單位名冊.xlsx</code></p>
+<p>Both Excel files contain a "Roster" page and a "Blank Template" page; the first column is reserved for character art.</p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>七、Key Scenes</h2>
+<h3>Scene Structure Note</h3>
+<p>This script uses <strong>act-by-act: desert-border preparation → descend into the underground lava world → Strange Fire refining ritual → Hall of Souls interception Boss fight → escape pursuit.</strong></p>
+<h3>Opening</h3>
+<h4>Scene S01: Desert Town — Departure Prep</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S01</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Desert Town — Departure Prep</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Start of script</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"The border town of the Tagor Desert radiates dry heat — a mix of camel dung and spice. The Alchemist Guild's banner hangs most prominently in the inn — several robe-clad pharmacists huddle over a huge map in heated discussion."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Alchemist Guild expedition leader (mission briefing + desert map), market (S-01 supply collection), mercenary guild (can hire guards), herb shop (refining auxiliary herbs)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Gene Lock Related</td>
+<td>No special Gene Lock requirement</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>① Depart well-prepared (gather all supplies and intel) → lowers later difficulty ② Depart fast to gain time → may arrive before the Hall of Souls but underprepared</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Leave town → cross the desert (enter S02)</td>
+</tr>
+</tbody>
+</table>
+<h3>Core Scene</h3>
+<h4>Scene S03: Lava World — Strange Fire Refining</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S03</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Lava World — Strange Fire Refining</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Arrive at the underground lava world core</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"The entire underground world is bathed in the lava's red glow. Hot air distorts everything — even time seems to slow here. The cyan flame burns quietly at the lava lake's center — beautiful and deadly. As you approach, you feel the pure energy within the fire — the most primal power between heaven and earth."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Refining array (begin Strange Fire refining — 6 rounds of checks), Lava Crystal (use lowers refining DC-2), Fireproof Potion (use halves fire environment damage for 2 rounds), refining auxiliary herbs (refining DP+1 per portion — up to 3 stack)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Lava Beast ×3 (★★ ambush lurk). Round 4: Hall of Souls advance team bursts in. Round 6: Hall of Souls envoy Boss fight. Must refine and fight simultaneously — each round assign 1 person to the refining check (lead refiner), others defend</td>
+</tr>
+<tr>
+<td>Gene Lock Related</td>
+<td>### Gene Lock Hint<br>- <strong>Strongly Suggested Gene Lock Stage 2 or 3</strong><br>- <strong>Stage 2</strong>: Heat adaptation + Refining DP+2<br>- <strong>Stage 3</strong>: Can resonate with the fire — Refining DC-2 + rampage controllable<br>- <strong>Liberation Side Effect</strong>: After refining, 2d6 mental damage + dehydration state (all Attributes −1 within 12 hours)</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>① Accelerate refining at full speed (use all auxiliary items) → fast but resource-draining ② Clear the Hall of Souls threat first then refine → safe but may miss the refining window</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Successful refining → withdraw with the fire (enter S04 escape battle)</td>
+</tr>
+</tbody>
+</table>
+<h3>Gene Lock Hint</h3>
+<ul>
+<li><strong>Strongly Suggested Gene Lock Stage 2 or 3</strong></li>
+<li><strong>Stage 2</strong>: Heat adaptation + Refining DP+2</li>
+<li><strong>Stage 3</strong>: Can resonate with the fire — Refining DC-2 + rampage controllable</li>
+<li><strong>Liberation Side Effect</strong>: After refining, 2d6 mental damage + dehydration state (all Attributes −1 within 12 hours)</li>
+</ul>
+<hr /></section>
+<section class="chap"><h2>八、Reward Settlement</h2>
+<table>
+<thead>
+<tr>
+<th>Reward Type</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main Quest Complete</td>
+<td>B+5000</td>
+</tr>
+<tr>
+<td>Side Quests Complete</td>
+<td>S-01 Supplies: 400 / S-02 Rescue: 500</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>Lava Sampling: 400 / Defeat Advance Team: 600 / Perfect Refine: 500</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Hall of Souls Envoy 1000 / Hall of Souls Advance-team Member 300</td>
+</tr>
+<tr>
+<td>Special Achievement</td>
+<td>Refine the fire without Fireproof Potion (bare refine): B-tier upgraded to A</td>
+</tr>
+<tr>
+<td>Return Exchange</td>
+<td>Green Lotus Core Flame (B-tier 3000) / Alchemy Basics (D-tier 500) / Dou Qi Foundation (C-tier 1200)</td>
+</tr>
+</tbody>
+</table>
+<h3>Return Exchange (Script-limited)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Exchange Item</th>
+<th>Cost (Side + Reward Points)</th>
+<th>Effect</th>
+<th>Growth Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>Alchemy Basics (Knowledge)</td>
+<td>C+1000</td>
+<td>Gain alchemy foundation — Craft (Alchemy) check DC3 to brew low-tier recovery pill (restores 2d8 HP), 3× per script</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Dou Qi Sense (Passive)</td>
+<td>C+1000</td>
+<td>Sense surrounding Dou Qi fluctuations — Recon check DP+2; see through hidden Dou Zhe</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Green Lotus Core Flame Seed (Strange Fire)</td>
+<td>C+1000</td>
+<td>Gain a faint Strange Fire seed — attacks add 1d6 fire damage; effective vs ice/poison constitutions</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Dou Qi Foundation (Passive)</td>
+<td>C+1000</td>
+<td>Condense Dou Qi within — STR +1, CON +1</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Burning Art Manual (Technique)</td>
+<td>B+2000</td>
+<td>Gain the "Burning Art" technique — devour Strange Fires to raise Dou Qi cap; fire-attribute skill damage +2d6</td>
+<td>Can repurchase A-tier Strange Fire Devour (A+4000)</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Strange Fire · Bone Chilling Flame (Strange Fire)</td>
+<td>B+2000</td>
+<td>Subdue the Bone Chilling Flame — attacks add 2d6 ice-fire dual attribute; can form "Cold Fire Shield" base defense +3</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Yao Lao Inheritance (Knowledge)</td>
+<td>B+2000</td>
+<td>Gain grandmaster alchemist inheritance — Craft (Alchemy) check DC-2; can brew mid-tier pills (revive a near-dead teammate once per script)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Pure Lotus Demon Fire · Complete (Strange Fire)</td>
+<td>A+4000</td>
+<td>Subdue the high-ranked Pure Lotus Demon Fire — attacks add 4d6 demon fire; can deploy "Demon Fire Space" to trap enemies (enemy AGI-3)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Dou Sheng Bloodline (Bloodline)</td>
+<td>A+7200</td>
+<td>Gain Dou Sheng-level bloodline — all Attributes +2; Dou Qi externalizes as "Dou Qi Armor" base defense +3 (downgraded to A-tier Dou Sheng inheritance)</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></section>
+<section class="chap"><h2>九、Appendix</h2>
+<ul>
+<li><strong>Maps</strong>: All map files are stored in the <code>maps/</code> subdirectory, archived by the three-tier system: Regional Map (WM), Exploration Map (EM), Battle Map (BM).</li>
+<li><strong>GM Memo</strong>:</li>
+<li>Confirm players' Gene Lock stage before opening; adjust encounter difficulty accordingly</li>
+<li>If players take completely unexpected actions, use side quests as buffer</li>
+<li>For a 3-person party, provide 1 supportive NPC to aid combat</li>
+<li>For a 5-person party, add 1 reinforcement wave in the boss fight to delay pressure</li>
+</ul>
+<hr />
+<blockquote>
+<p>Version: v0.1 | Format Spec v0.4 | D10 Dice Pool System</p>
+</blockquote></section></section>
+    <section class="block"><h2>地圖（YAML＋SVG）</h2><div class="map">
+              <div class="maptitle">BTTH_BM-01 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<rect x="20" y="20" width="760" height="560" fill="url(#grid)"/>
+<rect x="20" y="20" width="760" height="560" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="400.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Mount Longhu — Luotian Dajiao Venue</text>
+<text x="25" y="592" fill="#666" font-size="9">BTTH_BM-01 | 10×10cells (concept) | 1cell = 5ft | Total 50×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="100.0" y="80.0" width="600.0" height="420.0" rx="3" fill="#1a1a3e" stroke="#3a3a6e" stroke-width="2"/>
+<text x="400.0" y="286.0" text-anchor="middle" fill="#aaa" font-size="8">[S04-Quanxing Lair]</text>
+<text x="400.0" y="300.0" text-anchor="middle" fill="#666" font-size="6">(125.0, 90.0)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/BTTH-BattleThro-異火爭奪/en/maps/BTTH_BM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L3/BTTH-BattleThro-異火爭奪/en/maps/BTTH_BM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">BTTH_BM-02 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<rect x="20" y="20" width="760" height="560" fill="url(#grid)"/>
+<rect x="20" y="20" width="760" height="560" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="400.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Mount Longhu — Luotian Dajiao Venue</text>
+<text x="25" y="592" fill="#666" font-size="9">BTTH_BM-02 | 10×10cells (concept) | 1cell = 5ft | Total 50×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="100.0" y="80.0" width="600.0" height="420.0" rx="3" fill="#1a1a3e" stroke="#3a3a6e" stroke-width="2"/>
+<text x="400.0" y="286.0" text-anchor="middle" fill="#aaa" font-size="8">[S04-Quanxing Lair]</text>
+<text x="400.0" y="300.0" text-anchor="middle" fill="#666" font-size="6">(125.0, 90.0)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/BTTH-BattleThro-異火爭奪/en/maps/BTTH_BM-02.yaml" download>yaml</a> <a href="../../assets/scripts/L3/BTTH-BattleThro-異火爭奪/en/maps/BTTH_BM-02.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">BTTH_EM-01 <span class="maptype">探索地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<rect width="800" height="600" fill="#1a1a2e"/>
+<text x="400.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">Mount Longhu — Luotian Dajiao Venue</text>
+<text x="20" y="75.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 1</text>
+<rect x="20" y="80.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="100.0" y="80.0" width="600.0" height="420.0" rx="5.0" fill="#1a1a3e" stroke="#3a3a6e" stroke-width="2"/>
+<text x="400.0" y="290.0" text-anchor="middle" fill="#aaa" font-size="9">[S04-Quanxing Lair]</text>
+<rect x="20" y="545" width="760" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="570" fill="#aaa" font-size="9">Safe Zone/Start Point</text>
+<text x="205" y="570" fill="#aaa" font-size="9">Danger Zone/Combat Zone</text>
+<text x="20" y="590" fill="#666" font-size="9">BTTH_EM-01 | Exploration Map </text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/BTTH-BattleThro-異火爭奪/en/maps/BTTH_EM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L3/BTTH-BattleThro-異火爭奪/en/maps/BTTH_EM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">BTTH_WM-01 <span class="maptype">世界地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="800" height="600" fill="url(#wmgrid)"/>
+<line x1="400.0" y1="180.0" x2="400.0" y2="130.0" stroke="" stroke-width="2"/>
+<line x1="400.0" y1="205.0" x2="400.0" y2="250.0" stroke="#cc3344" stroke-width="2"/>
+<line x1="595.0" y1="548.0" x2="620.0" y2="548.0" stroke="" stroke-width="2"/>
+<rect x="100.0" y="80.0" width="600.0" height="420.0" rx="5" fill="#1a1a3e" stroke="#3a3a6e" stroke-width="2"/>
+<text x="400.0" y="290.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">[S04-Quanxing Lair]</text>
+<circle cx="400.0" cy="262.0" r="40.0" fill="#cc334410" opacity="0.6"/>
+<circle cx="400.0" cy="262.0" r="40.0" fill="none" stroke="#ff556640" stroke-width="2" stroke-dasharray="4,2"/>
+<text x="400.0" y="217.0" text-anchor="middle" fill="#ff556640" font-size="10" font-weight="bold">★ Back-Mountain Forbidden Ground</text>
+<rect x="630" y="20" width="150" height="74" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="705" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Legend</text>
+<text x="640" y="60" fill="#aaa" font-size="9">Safe Zone/Start Point</text>
+<text x="640" y="76" fill="#aaa" font-size="9">Danger Zone/Combat Zone</text>
+<text x="640" y="92" fill="#aaa" font-size="9">Route</text>
+<text x="20" y="585" fill="#666" font-size="9">BTTH_WM-01 | Regional Map | Schematic</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/BTTH-BattleThro-異火爭奪/en/maps/BTTH_WM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L3/BTTH-BattleThro-異火爭奪/en/maps/BTTH_WM-01.svg" download>svg</a></p>
+            </div></section>
+    <section class="block"><h2>概念圖</h2><div class="gallery"><a href="../../assets/scripts/L3/BTTH-BattleThro-異火爭奪/images/enemy_01_soul_palace_emissary.png" target="_blank"><img src="../../assets/scripts/L3/BTTH-BattleThro-異火爭奪/images/enemy_01_soul_palace_emissary.png" alt="enemy_01_soul_palace_emissary.png"></a><a href="../../assets/scripts/L3/BTTH-BattleThro-異火爭奪/images/npc_01_xiao_yan.png" target="_blank"><img src="../../assets/scripts/L3/BTTH-BattleThro-異火爭奪/images/npc_01_xiao_yan.png" alt="npc_01_xiao_yan.png"></a><a href="../../assets/scripts/L3/BTTH-BattleThro-異火爭奪/images/npc_02_BTTH_01.png" target="_blank"><img src="../../assets/scripts/L3/BTTH-BattleThro-異火爭奪/images/npc_02_BTTH_01.png" alt="npc_02_BTTH_01.png"></a><a href="../../assets/scripts/L3/BTTH-BattleThro-異火爭奪/images/scene_01_magma_flame.png" target="_blank"><img src="../../assets/scripts/L3/BTTH-BattleThro-異火爭奪/images/scene_01_magma_flame.png" alt="scene_01_magma_flame.png"></a><a href="../../assets/scripts/L3/BTTH-BattleThro-異火爭奪/images/scene_S03_岩漿世界_異火煉化.png" target="_blank"><img src="../../assets/scripts/L3/BTTH-BattleThro-異火爭奪/images/scene_S03_岩漿世界_異火煉化.png" alt="scene_S03_岩漿世界_異火煉化.png"></a></div></section>
+    </main>
+<footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

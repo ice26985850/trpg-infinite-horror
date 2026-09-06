@@ -1,0 +1,30 @@
+map_id: HXH_EM-01
+map_type: exploration
+scenario: 'Hunter·Island of Greed / Hunter × Hunter: Greed Island'
+tier: L3
+difficulty: ★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: HXH_EM-01 Explore the map
+description: ''
+floors:
+- name: Floor 1
+  y: 0.0
+  rooms:
+  - bounds:
+    - 0.0
+    - 0.0
+    - 390.0
+    - 600.0
+    name: Assign Cards
+    fill: '#0d1030'
+    stroke: ''
+    stroke_width: ''
+    rx: 0.0
+connections: []
+legend:
+- dangerous territory
+notes: []

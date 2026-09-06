@@ -1,0 +1,92 @@
+map_id: SCP-001_EM-01
+map_type: exploration
+scenario: 'SCP-001: The Breach of SCP-001'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: Underground Facility Exploration — Detailed Map
+description: ''
+floors:
+- name: 樓層 1
+  y: 0.0
+  rooms:
+  - bounds:
+    - 0.0
+    - 0.0
+    - 800.0
+    - 600.0
+    name: ''
+    fill: '#1a1a2e'
+    stroke: ''
+    stroke_width: ''
+    rx: 0.0
+- name: 樓層 2
+  y: 80.0
+  rooms:
+  - bounds:
+    - 100.0
+    - 80.0
+    - 300.0
+    - 100.0
+    name: AZone:Abandoned Apartment Basement
+    fill: '#0d1a1a'
+    stroke: '#10B981'
+    stroke_width: '2'
+    rx: 5.0
+  - bounds:
+    - 450.0
+    - 80.0
+    - 250.0
+    - 100.0
+    name: CZone:Foundation Outpost
+    fill: '#0d0d1a'
+    stroke: '#3B82F6'
+    stroke_width: '2'
+    rx: 5.0
+- name: 樓層 3
+  y: 240.0
+  rooms:
+  - bounds:
+    - 100.0
+    - 240.0
+    - 300.0
+    - 120.0
+    name: BZone:Subway Collapse Zone
+    fill: '#1a1505'
+    stroke: '#F59E0B'
+    stroke_width: '2'
+    rx: 5.0
+- name: 樓層 4
+  y: 420.0
+  rooms:
+  - bounds:
+    - 100.0
+    - 420.0
+    - 600.0
+    - 120.0
+    name: DZone:Site-19 Entrance Defense Line
+    fill: '#1a0505'
+    stroke: '#EF4444'
+    stroke_width: '2'
+    rx: 5.0
+- name: 樓層 5
+  y: 500.0
+  rooms:
+  - bounds:
+    - 620.0
+    - 500.0
+    - 165.0
+    - 85.0
+    name: Legend
+    fill: '#111'
+    stroke: '#333'
+    stroke_width: ''
+    rx: 4.0
+connections: []
+legend:
+- SCP-001_WM-01 | 大範圍地圖
+notes: []

@@ -1,0 +1,74 @@
+map_id: DS-SOUL_WM-01
+map_type: world
+scenario: 'Dark Souls: Undead Pilgrimage / Dark Souls: Undead Pilgrimage'
+tier: L3
+difficulty: ★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: Lordran (Lordran)
+description: ''
+scale: Schematic
+regions:
+- bounds:
+  - 50.0
+  - 70.0
+  - 700.0
+  - 450.0
+  fill: '#1a1a3e'
+  stroke: '#3a3a6e'
+  name: '[S03-Boss]'
+roads:
+- x1: 400.0
+  y1: 380.0
+  x2: 250.0
+  y2: 232.0
+  stroke: ''
+  stroke_width: '2'
+  dashed: false
+- x1: 250.0
+  y1: 232.0
+  x2: 400.0
+  y2: 265.0
+  stroke: ''
+  stroke_width: '2'
+  dashed: false
+- x1: 400.0
+  y1: 265.0
+  x2: 550.0
+  y2: 232.0
+  stroke: '#cc3344'
+  stroke_width: '2'
+  dashed: false
+- x1: 595.0
+  y1: 548.0
+  x2: 620.0
+  y2: 548.0
+  stroke: ''
+  stroke_width: '2'
+  dashed: false
+routes: []
+danger_zones: []
+landmarks:
+- center:
+  - 400.0
+  - 290.0
+  radius: 200.0
+  name: '[S03-Boss]'
+  fill: '#2a1a3e30'
+  stroke: '#4a3a6e'
+  dashed: true
+- center:
+  - 400.0
+  - 265.0
+  radius: 40.0
+  name: Undead Church
+  fill: '#cc334415'
+  stroke: '#ff556640'
+  dashed: true
+legend:
+- Safe Zone/Start Point
+- Danger Zone/Combat Zone
+- Route

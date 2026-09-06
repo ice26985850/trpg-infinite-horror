@@ -1,0 +1,249 @@
+map_id: FZ_BM-02
+map_type: battle
+scenario: 'Fate/Zero: The 4th Holy Grail War / Fate/Zero·第四次聖杯戰爭'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 680
+- 460
+title: Ryudou Temple · Final Battle
+description: ''
+grid:
+  type: square
+  width: 16
+  height: 12
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20.0
+  - 20.0
+  total_width_ft: 80
+  total_height_ft: 60
+terrain:
+- bounds_px:
+  - 20.0
+  - 20.0
+  - 640.0
+  - 420.0
+  name: (Descent Altar)
+  fill: '#151020'
+  stroke: '#4a2a6a'
+  stroke_width: '1'
+  bounds_grid:
+  - 0
+  - 0
+  - 43
+  - 28
+  center_ft:
+  - 107.5
+  - 70.0
+- bounds_px:
+  - 240.0
+  - 30.0
+  - 200.0
+  - 60.0
+  name: Ryudou Temple Main Hall
+  fill: '#1a2a2a'
+  stroke: '#F59E0B'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 15
+  - 1
+  - 13
+  - 4
+  center_ft:
+  - 107.5
+  - 15.0
+- bounds_px:
+  - 260.0
+  - 160.0
+  - 160.0
+  - 80.0
+  name: Greater Grail
+  fill: '#2E1A3E'
+  stroke: '#FD0304'
+  stroke_width: '2.5'
+  bounds_grid:
+  - 16
+  - 9
+  - 11
+  - 5
+  center_ft:
+  - 107.5
+  - 57.5
+- bounds_px:
+  - 280.0
+  - 240.0
+  - 120.0
+  - 30.0
+  name: Stage
+  fill: '#334'
+  stroke: '#888'
+  stroke_width: ''
+  bounds_grid:
+  - 17
+  - 15
+  - 8
+  - 2
+  center_ft:
+  - 105.0
+  - 80.0
+- bounds_px:
+  - 200.0
+  - 380.0
+  - 40.0
+  - 30.0
+  name: Sanmon Gate
+  fill: '#301520'
+  stroke: '#EF4444'
+  stroke_width: ''
+  bounds_grid:
+  - 12
+  - 24
+  - 3
+  - 2
+  center_ft:
+  - 67.5
+  - 125.0
+- bounds_px:
+  - 80.0
+  - 280.0
+  - 80.0
+  - 35.0
+  name: Saber Team
+  fill: '#1a3020'
+  stroke: '#10B981'
+  stroke_width: ''
+  bounds_grid:
+  - 4
+  - 17
+  - 5
+  - 2
+  center_ft:
+  - 32.5
+  - 90.0
+- bounds_px:
+  - 400.0
+  - 120.0
+  - 80.0
+  - 35.0
+  name: Archer (Golden)
+  fill: '#301520'
+  stroke: '#FD0304'
+  stroke_width: ''
+  bounds_grid:
+  - 25
+  - 7
+  - 5
+  - 2
+  center_ft:
+  - 137.5
+  - 40.0
+- bounds_px:
+  - 520.0
+  - 280.0
+  - 80.0
+  - 35.0
+  name: Rider Team (Alliable)
+  fill: '#1a2020'
+  stroke: '#F59E0B'
+  stroke_width: ''
+  bounds_grid:
+  - 33
+  - 17
+  - 5
+  - 2
+  center_ft:
+  - 177.5
+  - 90.0
+- bounds_px:
+  - 80.0
+  - 120.0
+  - 80.0
+  - 35.0
+  name: Player Team
+  fill: '#1a1030'
+  stroke: '#6D28D9'
+  stroke_width: ''
+  bounds_grid:
+  - 4
+  - 7
+  - 5
+  - 2
+  center_ft:
+  - 32.5
+  - 40.0
+- bounds_px:
+  - 500.0
+  - 60.0
+  - 80.0
+  - 35.0
+  name: Berserker
+  fill: '#301520'
+  stroke: '#FD0304'
+  stroke_width: ''
+  bounds_grid:
+  - 32
+  - 3
+  - 5
+  - 2
+  center_ft:
+  - 172.5
+  - 20.0
+- bounds_px:
+  - 250.0
+  - 100.0
+  - 80.0
+  - 35.0
+  name: Lancer Team
+  fill: '#1a2020'
+  stroke: '#F59E0B'
+  stroke_width: ''
+  bounds_grid:
+  - 15
+  - 5
+  - 5
+  - 2
+  center_ft:
+  - 87.5
+  - 30.0
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: (Descent Altar)
+  to: Ryudou Temple Main Hall
+  distance_ft: 55.0
+- from: (Descent Altar)
+  to: Greater Grail
+  distance_ft: 12.5
+- from: (Descent Altar)
+  to: Stage
+  distance_ft: 10.3
+- from: (Descent Altar)
+  to: Sanmon Gate
+  distance_ft: 68.0
+- from: (Descent Altar)
+  to: Saber Team
+  distance_ft: 77.6
+- from: (Descent Altar)
+  to: Archer (Golden)
+  distance_ft: 42.4
+- from: (Descent Altar)
+  to: Rider Team (Alliable)
+  distance_ft: 72.8
+- from: (Descent Altar)
+  to: Player Team
+  distance_ft: 80.8
+- from: (Descent Altar)
+  to: Berserker
+  distance_ft: 82.0
+- from: (Descent Altar)
+  to: Lancer Team
+  distance_ft: 44.7

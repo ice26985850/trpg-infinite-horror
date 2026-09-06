@@ -1,0 +1,699 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Call of Cthulhu: Shadow Over Innsmouth | LOVEC-CallofCthu-印斯茅斯的陰影 | Infinite Terror TRPG Scripts</title>
+<link rel="stylesheet" href="../../assets/style.css"></head>
+<body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../../index.html">中文</a></header>
+<div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
+<main class="container"><h1>Call of Cthulhu: Shadow Over Innsmouth</h1>
+    <p class="meta">Code: LOVEC-CallofCthu-印斯茅斯的陰影 ｜ Source: Call of Cthulhu ｜ Difficulty: ★★ ｜ Players: 3–5 ｜ Duration: 4–6 hrs ｜ Type: Investigation / Horror / Escape</p>
+    <p class="nav"><a href="../../index.html">← 劇本總覽</a> ｜ <a href="../../assets/scripts/L2/LOVEC-CallofCthu-印斯茅斯的陰影/en/LOVEC_印斯茅斯的陰影_劇本.md" download>劇本 MD</a> ｜ <a href="../../assets/scripts/L2/LOVEC-CallofCthu-印斯茅斯的陰影/en/LOVEC_NPC名冊.xlsx" download>NPC 名冊</a> ｜ <a href="../../assets/scripts/L2/LOVEC-CallofCthu-印斯茅斯的陰影/en/LOVEC_敵方單位名冊.xlsx" download>敵方名冊</a> ｜ <a href="../../assets/L2_LOVEC-CallofCthu-印斯茅斯的陰影_all_en.zip">下載全部（zip）</a></p>
+    <section class="block content"><section class="chap"><h2>一、基本資訊</h2>
+<p>Script Title: Call of Cthulhu: Shadow Over Innsmouth
+Source Film: Call of Cthulhu
+Difficulty Rating: ★★
+Suggested Players: 3–5
+Estimated Duration: 4–6 hrs
+Prerequisites: Recommended 1–2 prior scripts
+Script Type: Investigation / Horror / Escape</p>
+<hr /></section>
+<details class="gm"><summary>🎭 GM 限定：II. Plot Summary (GM Only)</summary><h2>II. Plot Summary (GM Only)</h2>
+<h3>One-Line Summary</h3>
+<blockquote>
+<p>The Reincarnators (輪迴者) investigate the terrifying truth of the Deep Ones in Innsmouth and try to escape this cursed town.</p>
+</blockquote>
+<h3>Full Plot Background</h3>
+<p>In 1928, on the New England coast, lies Innsmouth — a forgotten fishing port. Its residents are visibly abnormal: bulging eyes, flattened noses, grey-green skin. The Reincarnators are dropped here by the Main God (主神) to investigate a series of disappearances — several travelers vanished near Innsmouth, the last being a young student named Robert Olmstead. The town hides an unspeakable secret: the Deep One cult, the Order of Dagon, and Cthulhu sleeping on the seabed.</p>
+<h3>Plot Structure Type</h3>
+<p><strong>Hybrid</strong></p>
+<hr /></details>
+<section class="chap"><h2>III. Main God's Quest</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest Description</td>
+<td>Investigate the truth of Innsmouth and escape the town. Survive.</td>
+</tr>
+<tr>
+<td>Main Quest</td>
+<td>Gather enough evidence to expose the existence of the Deep Ones, then escape Innsmouth under the cult's encirclement. Alternatively, destroy the Dagon shrine to halt the summoning.</td>
+</tr>
+<tr>
+<td>Quest Reward</td>
+<td>D+1800</td>
+</tr>
+<tr>
+<td>Failure Condition</td>
+<td>Total party wipe / captured by the cult / Cthulhu awakened</td>
+</tr>
+<tr>
+<td>Failure Penalty</td>
+<td>Erased</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>Collect a complete Deep One dossier: +400. Avoid alerting the entire town: +300.</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>IV. Side Quests</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-01</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>The Deep Ones — Terror of the Harbor</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Investigate the docks</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Deep Ones (★, 1d3+2 individuals) — half-human, half-fish monsters. DP5 Claw (1d8+2 slashing), concealment underwater, +2 DP in water. Weakness: bright light (DP−1), dry environment (1d4 dehydration damage per round). They come ashore to hunt investigators.</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Ongoing encounter</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>+200 per wave repelled. Gain Deep One scales (material for a water-breathing potion).</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Primary obstacle</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Deep Ones appear throughout Innsmouth — docks / reefs / abandoned warehouses.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-02</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Dagon — Priest of the Deep</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Infiltrate the Order of Dagon shrine</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Dagon (★★★) — the colossal lord of the Deep Ones, a fish-shaped monster over 5m tall. DP7 Slam (2d6+4 blunt), DP6 Tentacle (1d10+3 + grapple), Power of the Ocean (regenerates 5 HP per round near shore). Weakness: fire / explosion, weakened away from water. The shrine lies in a cliffside sea cave — the summoning ritual must be interrupted during the ceremony.</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Before T+5</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>C+1200 + Dagon's Heart (redeemable for ocean-related enhancements)</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Core threat — stop the summoning</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Dagon guards the ritual array that summons Cthulhu. Defeating Dagon = halting the summoning.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-03</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Cthulhu's Murmur — The Unnameable Terror</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Plot encounter after Dagon is defeated</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Dagon's death sends a brief tremor through the seabed — Cthulhu (★★★★★ plot) briefly touches the players in dreams. All make a Will save, DC5; failure deals 2d8 mental damage and inflicts temporary madness (1d3 hours). This is not a fight — it is Cthulhu's final murmur before slumber. Surviving is victory.</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Plot encounter</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>Survive: B+2000. Gain the mark of "Cthulhu's Gaze" — in future Cthulhu-related scripts, SAN checks start at −1 (an RP cost and a mark).</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Hidden ultimate encounter</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Cannot be fought — a pure survival ordeal. The GM should evoke Cthulhu's unnameable nature rather than describe it concretely.</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>V. World Setting</h2>
+<h3>Timeline</h3>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T+0</td>
+<td>Awaken at the Innsmouth bus station. Drizzling rain.</td>
+</tr>
+<tr>
+<td>T+0.5</td>
+<td>Investigate the inn — find a missing person's notes.</td>
+</tr>
+<tr>
+<td>T+1</td>
+<td>Dock investigation — first Deep One encounter.</td>
+</tr>
+<tr>
+<td>T+2</td>
+<td>Deeper investigation — abandoned church / library / cult traces.</td>
+</tr>
+<tr>
+<td>T+3</td>
+<td>Discover the shrine's location. Decide: infiltrate or flee.</td>
+</tr>
+<tr>
+<td>T+4</td>
+<td>Shrine infiltration — confront Dagon.</td>
+</tr>
+<tr>
+<td>T+5</td>
+<td>Cthulhu's murmur. Escape the town.</td>
+</tr>
+<tr>
+<td>T+6</td>
+<td>Safely reach the neighboring town. Main God return.</td>
+</tr>
+</tbody>
+</table>
+<h3>Key Locations</h3>
+<h4>Location A: Innsmouth Inn</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Innsmouth Inn</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A damp, dilapidated inn with grey-green walls. The owner's eyes dart away, his skin oddly colored.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Missing person's room (notes + clues), question the owner</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>The whole town</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>WM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location B: Docks and Reefs</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Docks and Reefs</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>An abandoned dock with wrecked fishing boats. The seawater carries an unnatural stench. Humanoid shadows move on the reefs.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Investigate the boat hull, search abandoned warehouses</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>Deep Ones (★)</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>Shrine</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>EM-01, BM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location C: Cliffside Shrine</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Cliffside Shrine</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A natural cave converted into a shrine. Twisted reliefs on the walls — fish-men kneeling before a giant figure. At the center, an abyssal altar.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Destroy the ritual array, search cult records</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>Dagon (★★★) + Deep One priest</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>Docks</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>BM-02</td>
+</tr>
+</tbody>
+</table>
+<h3>World Special Rules</h3>
+<ul>
+<li><strong>Sanity (SAN)</strong>: This script introduces the SAN concept. Initial SAN = Willpower (WIL) ×5. Each supernatural-terror encounter requires a SAN check (Will save); failure costs 1d4–1d10 SAN. SAN reaching zero → permanent madness.</li>
+<li><strong>Deep One Disguise</strong>: Most Innsmouth residents carry Deep One blood — identifiable via Perception + Investigation, DC2.</li>
+<li><strong>Call of the Ocean</strong>: Near the shore, those with low Willpower (WIL ≤2) hear the ocean's whisper — tempting them toward the sea.</li>
+</ul>
+<h3>Main God Restrictions</h3>
+<ul>
+<li>"Do not reveal the existence of the Main God Space"</li>
+<li>"1928 technology level restriction"</li>
+<li>"Using the supernatural before the cult → immediately triggers a town-wide assault"</li>
+</ul>
+<h3>Visual Map System</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>ID</th>
+<th>Content</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>World Map</td>
+<td>WM-01</td>
+<td>Innsmouth coastline</td>
+<td><code>maps/LOVEC_WM-01.svg</code></td>
+</tr>
+<tr>
+<td>Exploration Map</td>
+<td>EM-01</td>
+<td>Innsmouth town</td>
+<td><code>maps/LOVEC_EM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-01</td>
+<td>Dock encounter</td>
+<td><code>maps/LOVEC_BM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-02</td>
+<td>Cliffside shrine</td>
+<td><code>maps/LOVEC_BM-02.svg</code></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VI. Characters &amp; Enemy Units (Managed in Separate Excel)</h2>
+<blockquote>
+<p>NPC and enemy unit data are in the following separate Excel files:
+- <strong>NPC Roster</strong>: <code>LOVEC_NPC名冊.xlsx</code>
+- <strong>Enemy Unit Roster</strong>: <code>LOVEC_敵方單位名冊.xlsx</code></p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>VII. NPC Design Depth Guide</h2>
+<h4>Zadok Allen — The Drunk Truth</h4>
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>Design Guide</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Core Trait</td>
+<td>The only old drunk in town who dares speak the truth. Knows the Deep One secret but is tortured by fear.</td>
+</tr>
+<tr>
+<td>Interaction Level</td>
+<td>Mid — buying him a drink yields key intel, but he panics after saying too much.</td>
+</tr>
+<tr>
+<td>Key Line</td>
+<td>"Those ain't human… they ain't! They mate with them things down in the sea… and what comes of it… dear God…"</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VIII. Key Scenes</h2>
+<h3>S01: The Rain of Innsmouth</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S01</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>The Cursed Fishing Port</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Script start</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"The bus stops in a grey little town. Rain taps the windows — but this rain smells wrong, of seawater's salt and something more rotten. The buildings are long decayed, most windows broken. The people on the street… they walk strangely, as if unused to two legs. The oldest among them turns to look at you — and his eyes do not blink."</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>IX. Multi-Team Competition Rules</h2>
+<blockquote>
+<p>This script does not involve multi-team competition. This section is left blank.</p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>X. Reward Settlement</h2>
+<table>
+<thead>
+<tr>
+<th>Reward Type</th>
+<th>Content</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main Quest Complete</td>
+<td>Investigate and escape</td>
+<td>D+1800</td>
+</tr>
+<tr>
+<td>S-01</td>
+<td>Repel Deep Ones</td>
+<td>200 pts / wave</td>
+</tr>
+<tr>
+<td>S-02</td>
+<td>Defeat Dagon</td>
+<td>C+1200</td>
+</tr>
+<tr>
+<td>S-03</td>
+<td>Survive Cthulhu encounter</td>
+<td>B+2000</td>
+</tr>
+</tbody>
+</table>
+<h3>Theoretical Maximum Yield</h3>
+<blockquote>
+<p>D×2 + C×1 + B×1 + up to 5200</p>
+</blockquote>
+<h3>Return Exchange (Script-Limited)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Item</th>
+<th>Cost (Side + Reward pts)</th>
+<th>Effect</th>
+<th>Growth Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>SAN Enhancement (Passive)</td>
+<td>D+500</td>
+<td>Permanently raise Sanity (SAN) cap +10; +1 DP on saves against mental attacks.</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Elder Sign Engraving (Item / Knowledge)</td>
+<td>D+500</td>
+<td>Gain an Elder Sign totem: within 20 ft, Outer God / extraplanar creatures' attack DP −3; can seal extraplanar portals.</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Diluted Deep One Bloodline (Bloodline / Passive)</td>
+<td>D+600</td>
+<td>Breathe underwater + swim speed ×2; slight fish-like appearance; can fight underwater without penalty.</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Cthulhu Mythos Knowledge (Knowledge / Passive)</td>
+<td>B+2000</td>
+<td>Learn forbidden knowledge: +3 DP identifying mythos creatures, understand their weaknesses, cast 1 mythos spell (once per script); costs a SAN check.</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Full Deep One Bloodline (Bloodline)</td>
+<td>B+3600</td>
+<td>Full transformation: breathe underwater, swim ×3, scale armor (base Defense +2), can command sea monsters (1 per script).</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Star-Spawn Pact (Bloodline / Ability)</td>
+<td>B+3600</td>
+<td>Bond with a Star-Spawn: summon 1 stellar wisp (HP 40) to aid; gain "Unnameable" aura (area fear, DC4); costs 1d6 SAN per use.</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Dreamlands Passage (Ability)</td>
+<td>B+2000</td>
+<td>Enter the Dreamlands: briefly cross reality's veil, once per script ignore terrain and move 40 ft, leaving combat.</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>XI. Appendix</h2>
+<ul>
+<li><strong>Maps</strong>: See <code>maps/</code> for <code>LOVEC_WM-01.svg</code>, <code>LOVEC_EM-01.svg</code>, <code>LOVEC_BM-01.svg</code>, <code>LOVEC_BM-02.svg</code></li>
+<li><strong>GM Memo</strong>:
+  Stuck → Zadok provides intel. SAN management → offer a brief safe zone to recover. Difficulty → adjust Deep One count and SAN loss.</li>
+</ul>
+<hr />
+<blockquote>
+<p><strong>Script Code</strong>: LOVEC
+<strong>Version</strong>: v1.0
+<strong>Format Spec</strong>: v0.4</p>
+</blockquote></section></section>
+    <section class="block"><h2>地圖（YAML＋SVG）</h2><div class="map">
+              <div class="maptitle">LOVEC_BM-01 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 520" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="600" height="520" fill="#1a1a2e"/>
+<rect x="20" y="20" width="560" height="480" fill="url(#grid)"/>
+<rect x="20" y="20" width="560" height="480" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="300.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Innsmouth Harbor — Battle Map (BM-01)</text>
+<text x="25" y="512" fill="#666" font-size="9">LOVEC_BM-01 | 10×8Cell (concept) | 1Cell = 5ft | Total 50×40ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<rect x="40.0" y="60.0" width="500.0" height="400.0" rx="3" fill="#2a3020" stroke="#9b59b6" stroke-width="2"/>
+<rect x="80.0" y="100.0" width="200.0" height="150.0" rx="3" fill="#3a5a5a" stroke="#555" stroke-width="1"/>
+<text x="180.0" y="171.0" text-anchor="middle" fill="#aaa" font-size="8">Building / Cover</text>
+<text x="180.0" y="185.0" text-anchor="middle" fill="#666" font-size="6">(52.5, 50.0)ft</text>
+<rect x="340.0" y="250.0" width="150.0" height="120.0" rx="3" fill="#3a5a5a" stroke="#555" stroke-width="1"/>
+<text x="415.0" y="306.0" text-anchor="middle" fill="#aaa" font-size="8">Building</text>
+<text x="415.0" y="320.0" text-anchor="middle" fill="#666" font-size="6">(130.0, 95.0)ft</text>
+<rect x="100.0" y="420.0" width="60.0" height="30.0" rx="3" fill="none" stroke="#2ecc71" stroke-width="2"/>
+<text x="130.0" y="431.0" text-anchor="middle" fill="#aaa" font-size="8">Start</text>
+<text x="130.0" y="445.0" text-anchor="middle" fill="#666" font-size="6">(35.0, 140.0)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L2/LOVEC-CallofCthu-印斯茅斯的陰影/en/maps/LOVEC_BM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L2/LOVEC-CallofCthu-印斯茅斯的陰影/en/maps/LOVEC_BM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">LOVEC_BM-02 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 420" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="500" height="420" fill="#1a1a2e"/>
+<rect x="20" y="20" width="460" height="380" fill="url(#grid)"/>
+<rect x="20" y="20" width="460" height="380" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="250.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Innsmouth Harbor — Battle Map (BM-02)</text>
+<text x="25" y="412" fill="#666" font-size="9">LOVEC_BM-02 | 8×6Cell (concept) | 1Cell = 5ft | Total 40×30ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<rect x="40.0" y="60.0" width="400.0" height="300.0" rx="3" fill="#2a3020" stroke="#9b59b6" stroke-width="2"/>
+<text x="240.0" y="206.0" text-anchor="middle" fill="#aaa" font-size="8">BOSS</text>
+<text x="240.0" y="220.0" text-anchor="middle" fill="#666" font-size="6">(72.5, 65.0)ft</text>
+<rect x="200.0" y="100.0" width="150.0" height="150.0" rx="3" fill="#3a5a5a" stroke="#555" stroke-width="1"/>
+<text x="275.0" y="171.0" text-anchor="middle" fill="#aaa" font-size="8">Core Area</text>
+<text x="275.0" y="185.0" text-anchor="middle" fill="#666" font-size="6">(85.0, 50.0)ft</text>
+<rect x="80.0" y="300.0" width="50.0" height="30.0" rx="3" fill="none" stroke="#2ecc71" stroke-width="2"/>
+<text x="105.0" y="311.0" text-anchor="middle" fill="#aaa" font-size="8">Start</text>
+<text x="105.0" y="325.0" text-anchor="middle" fill="#666" font-size="6">(27.5, 100.0)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L2/LOVEC-CallofCthu-印斯茅斯的陰影/en/maps/LOVEC_BM-02.yaml" download>yaml</a> <a href="../../assets/scripts/L2/LOVEC-CallofCthu-印斯茅斯的陰影/en/maps/LOVEC_BM-02.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">LOVEC_EM-01 <span class="maptype">探索地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500" font-family="Microsoft JhengHei, sans-serif">
+<rect width="700" height="500" fill="#1a1a2e"/>
+<text x="350.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">Innsmouth Harbor — Exploration Map (EM-01)</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 1</text>
+<rect x="20" y="0.0" width="660" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="700.0" height="500.0" rx="0.0" fill="#0a1a1e" stroke="" stroke-width=""/>
+<rect x="30.0" y="55.0" width="640.0" height="420.0" rx="3.0" fill="#0a1a1e" stroke="#9b59b6" stroke-width="1.5"/>
+<rect x="80.0" y="100.0" width="250.0" height="80.0" rx="3.0" fill="#3a4a3a" stroke="#9b59b6" stroke-width="1.5"/>
+<text x="205.0" y="140.0" text-anchor="middle" fill="#aaa" font-size="9">A Inn</text>
+<text x="20" y="205.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 2</text>
+<rect x="20" y="210.0" width="660" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="80.0" y="210.0" width="250.0" height="80.0" rx="3.0" fill="#3a3a4a" stroke="#9b59b6" stroke-width="1.5"/>
+<text x="205.0" y="250.0" text-anchor="middle" fill="#aaa" font-size="9">B Dock</text>
+<text x="20" y="315.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 3</text>
+<rect x="20" y="320.0" width="660" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="80.0" y="320.0" width="250.0" height="80.0" rx="3.0" fill="#3a2a4a" stroke="#9b59b6" stroke-width="1.5"/>
+<text x="205.0" y="360.0" text-anchor="middle" fill="#aaa" font-size="9">C Cliff Shrine</text>
+<text x="20" y="490" fill="#666" font-size="9">LOVEC_EM-01 | Exploration Map </text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L2/LOVEC-CallofCthu-印斯茅斯的陰影/en/maps/LOVEC_EM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L2/LOVEC-CallofCthu-印斯茅斯的陰影/en/maps/LOVEC_EM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">LOVEC_WM-01 <span class="maptype">世界地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="900" height="620" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="900" height="620" fill="url(#wmgrid)"/>
+<rect x="250.0" y="120.0" width="100.0" height="60.0" rx="5" fill="#3a4a3a" stroke="#9b59b6" stroke-width="2"/>
+<text x="300.0" y="150.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">A Inn</text>
+<rect x="600.0" y="270.0" width="100.0" height="60.0" rx="5" fill="#3a3a4a" stroke="#9b59b6" stroke-width="2"/>
+<text x="650.0" y="300.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">B Dock</text>
+<rect x="350.0" y="450.0" width="100.0" height="60.0" rx="5" fill="#3a2a4a" stroke="#9b59b6" stroke-width="2"/>
+<text x="400.0" y="480.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">C Cliff Shrine</text>
+<rect x="20.0" y="540.0" width="860.0" height="60.0" rx="5" fill="#0a1a1e" stroke="#333" stroke-width="2"/>
+<rect x="730" y="20" width="150" height="38" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="805" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Legend</text>
+<text x="740" y="60" fill="#aaa" font-size="9">B Dock</text>
+<text x="20" y="605" fill="#666" font-size="9">LOVEC_WM-01 | Large-Scale Map | Schematic</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L2/LOVEC-CallofCthu-印斯茅斯的陰影/en/maps/LOVEC_WM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L2/LOVEC-CallofCthu-印斯茅斯的陰影/en/maps/LOVEC_WM-01.svg" download>svg</a></p>
+            </div></section>
+    <section class="block"><h2>概念圖</h2><div class="gallery"><a href="../../assets/scripts/L2/LOVEC-CallofCthu-印斯茅斯的陰影/images/enemy_01_dagon.png" target="_blank"><img src="../../assets/scripts/L2/LOVEC-CallofCthu-印斯茅斯的陰影/images/enemy_01_dagon.png" alt="enemy_01_dagon.png"></a><a href="../../assets/scripts/L2/LOVEC-CallofCthu-印斯茅斯的陰影/images/enemy_02_dagon.png" target="_blank"><img src="../../assets/scripts/L2/LOVEC-CallofCthu-印斯茅斯的陰影/images/enemy_02_dagon.png" alt="enemy_02_dagon.png"></a><a href="../../assets/scripts/L2/LOVEC-CallofCthu-印斯茅斯的陰影/images/enemy_03_cthulhu.png" target="_blank"><img src="../../assets/scripts/L2/LOVEC-CallofCthu-印斯茅斯的陰影/images/enemy_03_cthulhu.png" alt="enemy_03_cthulhu.png"></a><a href="../../assets/scripts/L2/LOVEC-CallofCthu-印斯茅斯的陰影/images/npc_01_zadok_allen.png" target="_blank"><img src="../../assets/scripts/L2/LOVEC-CallofCthu-印斯茅斯的陰影/images/npc_01_zadok_allen.png" alt="npc_01_zadok_allen.png"></a><a href="../../assets/scripts/L2/LOVEC-CallofCthu-印斯茅斯的陰影/images/scene_01_innsmouth_harbor.png" target="_blank"><img src="../../assets/scripts/L2/LOVEC-CallofCthu-印斯茅斯的陰影/images/scene_01_innsmouth_harbor.png" alt="scene_01_innsmouth_harbor.png"></a></div></section>
+    </main>
+<footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

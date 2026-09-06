@@ -1,0 +1,1098 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SCP-008: Zombie Plague | SCP-008-殭屍病毒 | Infinite Terror TRPG Scripts</title>
+<link rel="stylesheet" href="../../assets/style.css"></head>
+<body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../../index.html">中文</a></header>
+<div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
+<main class="container"><h1>SCP-008: Zombie Plague</h1>
+    <p class="meta">Code: SCP-008-殭屍病毒 ｜ Source: SCP Foundation Universe ｜ Difficulty: ★★ ｜ Players: 3–5 ｜ Duration: 4–6 hrs / 2–3 sessions ｜ Type: Survival / Defense / Puzzle</p>
+    <p class="nav"><a href="../../index.html">← 劇本總覽</a> ｜ <a href="../../assets/scripts/L2/SCP-008-殭屍病毒/en/SCP-008_SCP-008_劇本.md" download>劇本 MD</a> ｜ <a href="../../assets/scripts/L2/SCP-008-殭屍病毒/en/SCP-008_NPC名冊.xlsx" download>NPC 名冊</a> ｜ <a href="../../assets/scripts/L2/SCP-008-殭屍病毒/en/SCP-008_敵方單位名冊.xlsx" download>敵方名冊</a> ｜ <a href="../../assets/L2_SCP-008-殭屍病毒_all_en.zip">下載全部（zip）</a></p>
+    <section class="block content"><section class="chap"><h2>一、基本資訊</h2>
+<p>Script Title: SCP-008: Zombie Plague
+Source Film: SCP Foundation Universe
+Difficulty Rating: ★★
+Suggested Players: 3–5
+Estimated Duration: 4–6 hrs / 2–3 sessions
+Prerequisites: Gene Lock (基因鎖) Tier 1 recommended; at least 1 mission completed
+Script Type: Survival / Defense / Puzzle</p>
+<hr /></section>
+<details class="gm"><summary>🎭 GM 限定：II. Plot Summary (GM Only)</summary><h2>II. Plot Summary (GM Only)</h2>
+<h3>One-Line Summary</h3>
+<blockquote>
+<p>An SCP-008 viral aerosol leaks; Site-02 bio-site outbreaks with zombie plague. The Reincarnators (輪迴者) must reach the central lab and initiate the sterilization protocol within 12 hours.</p>
+</blockquote>
+<h3>Full Plot Background</h3>
+<p>The present day. SCP Foundation bio-research Site-02 studies SCP-008 — an extremely dangerous prion-like pathogen, transmissible via fluid contact or aerosol. The infected transform within 3 hours into mindless, hyper-aggressive "zombies," spreading the virus through bodily fluids.</p>
+<p>A dismissed researcher (a Chaos Insurgency mole) deliberately sabotaged SCP-008's freezer unit before evacuating. The virus spread as aerosol through the ventilation system to the entire east and central wings. The site triggered emergency lockdown — but ~60% of personnel were already exposed.</p>
+<p>The Reincarnators are urgently conscripted by the Foundation as "external biochemical-response consultants" (in truth, forcibly teleported by the Main God). They awaken in the west-wing quarantine zone; their watches read: "Reach the central lab, initiate the sterilization protocol. Survive."</p>
+<p>Challenges:
+1. Zombie horde — infected count grows exponentially with time (initial 20 → over 150 after 12 hours)
+2. Time pressure — the sterilization protocol needs manual initiation, and key systems (ventilation lockdown, lab power) must be functional before then
+3. Evolved infected — some develop special abilities (speed / armored / spitter types)</p>
+<h3>Plot Structure Type</h3>
+<p><strong>Act-by-Act</strong>: early free exploration, mid-to-late scene-by-scene progression.</p>
+<hr /></details>
+<section class="chap"><h2>III. Main God's Quest</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest Description</td>
+<td>"Reach the central lab within 12 hours and manually initiate the sterilization protocol"</td>
+</tr>
+<tr>
+<td>Main Quest</td>
+<td>Reach the central lab within 12 hours and manually initiate the sterilization protocol</td>
+</tr>
+<tr>
+<td>Quest Reward</td>
+<td>D+1800</td>
+</tr>
+<tr>
+<td>Failure Condition</td>
+<td>Total party wipe / exceeding 12 hours without initiating the sterilization protocol / site collapses from structural damage</td>
+</tr>
+<tr>
+<td>Failure Penalty</td>
+<td>Erased</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>① Rescue at least 5 uninfected researchers: +400 each<br>② Before sterilization, recover SCP-008's complete gene-sequence data (for vaccine R&amp;D): +500 each</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>IV. Side Quests</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-01</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Ventilation Lockdown</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Auto-triggers when passing the ventilation control room</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Close the vents spreading from the east wing to the west wing (Intellect + Mechanics DC3), preventing further virus spread into the safe zone</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Complete within 4 hours of entering the scene (else the west wing is also contaminated)</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>400 + west wing stays safe — provides a safe rest and supply area</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Support — if not done, the safe zone vanishes, difficulty rises sharply</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>The ventilation control room is at the east-wing boundary — requires briefly entering the infected zone</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-02</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Backup Generator Startup</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Insufficient central-lab power (auto-notified at scene hour 6)</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Go to the B2 backup generator room, manually start the generator (Intellect + Mechanics DC2) and ensure fuel supply (must haul diesel barrels — Strength + Athletics DC2)</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Complete before hour 8 (else the central lab systems shut down — sterilization protocol unreachable)</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>350 + restore central-lab power (unlocks the sterilization terminal)</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Main-quest mandatory — without it the main quest cannot progress</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>B2 is a heavy-infection zone — at least 2d4+2 infected</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-03</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Vaccine Sample Recovery</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Find incomplete experiment logs in the central lab's vaccine R&amp;D department</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Go to the cold-storage room to recover SCP-008's complete gene-sequence sample and vaccine prototype (must pass a biochemical checkpoint — Intellect + Science DC3)</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>None (but the cold-storage backup power fails at scene hour 10 — samples are destroyed)</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>500 + complete Optional ②</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Support — recovered vaccine prototype unlocks antiviral enhancement after return</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Evolved infected guard near the cold-storage room</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>V. World Setting</h2>
+<h3>Timeline</h3>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T+0</td>
+<td>Reincarnators awaken at the start point</td>
+</tr>
+<tr>
+<td>T+2 hrs</td>
+<td>First major event triggers</td>
+</tr>
+<tr>
+<td>T+Mid</td>
+<td>World state turning point (crisis escalates)</td>
+</tr>
+<tr>
+<td>T-1 hr</td>
+<td>Final deadline warning (Main God watch vibrates)</td>
+</tr>
+<tr>
+<td>T-0</td>
+<td>Deadline. Quest-failure judgment</td>
+</tr>
+</tbody>
+</table>
+<h3>Key Locations</h3>
+<h4>Location A: West-Wing Quarantine Zone (Start Point)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>West-Wing Quarantine Zone (Start Point)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Clean white corridors; UV disinfection lights glow pale blue. Through double-glazing you see the east-wing corridor — same white walls, now splattered with dark-red blood. An alarm repeats: "Biocontamination alert — all non-essential personnel evacuate to the west-wing safe zone."</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Hazmat suit cabinet (hazmat suits ×5 — worn, immune to airborne infection, but suit HP 10, 20% break chance per battle), supply locker (first-aid kits ×3, sedative syringes ×2), monitoring terminal (shows east-wing infected distribution)</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>Safe — west wing currently uncontaminated</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>A connects to other zones</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>WM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location B: Ventilation Control Room</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Ventilation Control Room</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Giant ventilation ducts converge here. The hydraulic valve system still runs. The monitor shows — of 11 east-wing ducts, 8 are contaminated. Three west-wing ducts remain clean — but contamination spreads at 1 duct per hour.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Ventilation control panel (S-01 trigger), duct space (crawl into vents — narrow, single-file, move directly to other zones but cannot carry large weapons), isolation valve manual controller (backup system — physical labor)</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>Medium risk — this is the east-west boundary; occasionally infected try to break through unsealed ducts</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>B connects to other zones</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>EM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location C: East-Wing Corridor</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>East-Wing Corridor</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>The once-white corridor is now suffocating. Blood and claw marks on walls, floor, even ceiling. An abandoned wheelchair lies overturned, still slowly spinning. Distant moans unlike any human.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Offices (researchers' last letters to family, some uninfected hiding — can be rescued), labs (SCP-008 research logs — reveal virus mechanism and sterilization prerequisites), weapon stash (riot gear: shield base Defense +2, stun gun 1d6 electric)</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>Heavy infection zone — 1d4+1 infected per zone move</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>C connects to other zones</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>EM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location D: Backup Generator Room (B2)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Backup Generator Room (B2)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A generator room like a small power plant. The giant diesel generator is silent; all gauges zero. Beside the diesel tank is a delivery channel to the surface — also the infected's main entry route.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Generator control panel (S-02 trigger), diesel tanks (manual refill — 200 lbs each, need 3), delivery channel (to surface — but the lock door was broken by infected)</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>Extremely high risk — infected swarm here (2d4+2), may include Evolved Infected (★★)</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>D connects to other zones</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>EM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location E: Central Laboratory</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Central Laboratory</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>The site's core — highest biosafety (BSL-4). A thick titanium sealed door (needs biochemical authorization — Intellect + Science DC3 or director-level ID). Inside: SCP-008's original samples, the sterilization terminal, and vaccine R&amp;D equipment.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Sterilization terminal (main goal — after start, 5-min countdown, releases high-temp sterilization gas site-wide, all active virus and infected destroyed), vaccine lab (S-03 trigger), site-director office (director ID in drawer — but the director is now a zombie guarding nearby)</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>Final scene — at least Evolved Infected ×2 + zombie swarm ×4–8</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>E connects to other zones</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>BM-02</td>
+</tr>
+</tbody>
+</table>
+<h3>World Special Rules</h3>
+<ul>
+<li><strong>SCP-008 Infection Mechanism</strong>: Contact with infected bodily fluid → Stamina check (DC3), failure infects. Incubation 1d6 hours (asymptomatic but contagious), then transforms into an infected (during which an extra Stamina check per hour, DC +1 each).</li>
+<li><strong>Sterilization Protocol</strong>: After start, 5 min releases 1200°C high-temp sterilization gas site-wide. All creatures (including Reincarnators) must enter designated safe pods before sterilization begins — the central lab has safe pods (capacity 6).</li>
+<li><strong>Infected Classification</strong>: ① Normal Infected (★) slow but numerous; ② Evolved Infected (★★) randomly generated — Speed type (Agility 6, move ×3), Armored type (base Defense +4 physical resist), Spitter type (ranged acid attack).</li>
+<li><strong>Resource Scarcity</strong>: Weapons and ammo limited. Encourage using environmental items (fire extinguishers, fire axes, chemicals) and stealth tactics (infected perceive within 30 ft, deaf but sensitive to motion and smell).</li>
+</ul>
+<h3>Main God Restrictions</h3>
+<ul>
+<li>Do not reveal the existence of the Main God Space to plot characters</li>
+<li>This world is modern realistic tech (SCP Foundation tech = modern +10 years — energy weapons, biochemical protection available but rare)</li>
+<li>No outside contact during site lockdown — all comms electromagnetically shielded</li>
+<li>Attempting to flee the site without initiating sterilization → external auto-defense opens fire (treated as escaped infection threat)</li>
+</ul>
+<h3>Visual Map System</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>ID</th>
+<th>Content</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>World Map</td>
+<td>WM-01</td>
+<td>Bird's-eye of the script's whole geographic range, with key locations, routes, danger zones</td>
+<td><code>maps/SCP-008_WM-01.svg</code></td>
+</tr>
+<tr>
+<td>Exploration Map</td>
+<td>EM-01</td>
+<td>Detailed map of main exploration zones, with buildings, investigation points, hidden areas</td>
+<td><code>maps/SCP-008_EM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-01</td>
+<td>Main battle scene (15×10 grid), with cover, obstacles, enemy entry points</td>
+<td><code>maps/SCP-008_BM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-02</td>
+<td>Final scene battle map (15×10 grid), with boss position, evacuation point</td>
+<td><code>maps/SCP-008_BM-02.svg</code></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VI. Characters &amp; Enemy Units (Managed in Separate Excel)</h2>
+<blockquote>
+<p>NPC and enemy unit data are in the following separate Excel files:
+- <strong>NPC Roster</strong>: <code>SCP-008_NPC名冊.xlsx</code>
+- <strong>Enemy Unit Roster</strong>: <code>SCP-008_敵方單位名冊.xlsx</code></p>
+<p>Both Excel files contain a "Roster" and a "Blank Template" sheet; the first column reserves space for the character portrait.</p>
+<p>Core NPCs: Dr. Sophia Light, Agent Miles, Researcher Chen
+Enemy Units: Infected (SCP-008-1), Evolved Infected (SCP-008-2)</p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>VII. Key Scenes</h2>
+<h3>Scene Structure Notes</h3>
+<p>This script uses an <strong>Act-by-Act</strong> structure. All scenes trigger by the players' exploration order.</p>
+<h3>Scene Overview</h3>
+<table>
+<thead>
+<tr>
+<th>Scene</th>
+<th>Location</th>
+<th>Trigger</th>
+<th>Core Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S01</td>
+<td>West-Wing Quarantine Zone (Start Point)</td>
+<td>Arrive at the west-wing quarantine zone (start point)</td>
+<td>Clean white corridors; UV lights glow pale blue. Through double-glazing the east-wing corridor — same white walls, now splattered with dark-red blood…</td>
+</tr>
+<tr>
+<td>S02</td>
+<td>Ventilation Control Room</td>
+<td>Arrive at the ventilation control room</td>
+<td>Giant ducts converge. Hydraulic valves still run. Monitor shows — of 11 east-wing ducts, 8 contaminated…</td>
+</tr>
+<tr>
+<td>S03</td>
+<td>East-Wing Corridor</td>
+<td>Arrive at the east-wing corridor</td>
+<td>Once-white corridor now suffocating. Blood and claw marks on walls, floor, ceiling. An overturned wheelchair still spins…</td>
+</tr>
+<tr>
+<td>S04</td>
+<td>Backup Generator Room (B2)</td>
+<td>Arrive at the backup generator room (B2)</td>
+<td>A generator room like a small power plant. The giant diesel generator silent, gauges zero. Beside the tank, a delivery channel to the surface…</td>
+</tr>
+<tr>
+<td>S05</td>
+<td>Central Laboratory</td>
+<td>Arrive at the central laboratory</td>
+<td>The site's core — highest biosafety (BSL-4). Thick titanium sealed door (needs biochemical authorization — Intellect + Science…</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4>Scene S01: West-Wing Quarantine Zone (Start Point)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S01</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>West-Wing Quarantine Zone (Start Point)</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Script start</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"Clean white corridors; UV disinfection lights glow pale blue. Through double-glazing you see the east-wing corridor — same white walls, now splattered with dark-red blood. An alarm repeats: 'Biocontamination alert — all non-essential personnel evacuate to the west-wing safe zone.'"</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Hazmat suit cabinet — hazmat suits ×5 — worn grant airborne-infection immunity, but suit HP 10, 20% break chance per battle; supply locker — first-aid kits ×3, sedative syringes ×2; monitoring terminal — shows east-wing infected distribution</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Safe — west wing currently uncontaminated</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Explore → enter next scene</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Complete exploration / defeat encounter</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S02: Ventilation Control Room</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S02</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Ventilation Control Room</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Advance from Scene S01</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"Giant ventilation ducts converge here. The hydraulic valve system still runs. The monitor shows — of 11 east-wing ducts, 8 are contaminated. Three west-wing ducts remain clean — but contamination spreads at 1 duct per hour."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Ventilation control panel — S-01 trigger; duct space — crawl into vents — narrow, single-file, move directly to other zones but cannot carry large weapons; isolation valve manual controller — backup system — physical labor</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Medium risk — east-west boundary; occasionally infected break through unsealed ducts</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Explore → enter next scene</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Complete exploration / defeat encounter</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S03: East-Wing Corridor</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S03</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>East-Wing Corridor</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Advance from Scene S02</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"The once-white corridor is now suffocating. Blood and claw marks on walls, floor, even ceiling. An abandoned wheelchair lies overturned, still slowly spinning. Distant moans unlike any human."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Offices — researchers' last letters to family, some uninfected hiding — can be rescued; labs — SCP-008 research logs — reveal virus mechanism and sterilization prerequisites; weapon stash — riot gear: shield base Defense +2, stun gun 1d6 electric</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Heavy infection zone — 1d4+1 infected per zone move</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Explore → enter next scene</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Complete exploration / defeat encounter</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S04: Backup Generator Room (B2)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S04</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Backup Generator Room (B2)</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Advance from Scene S03</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"A generator room like a small power plant. The giant diesel generator silent, gauges zero. Beside the diesel tank, a delivery channel to the surface — also the infected's main entry route."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Generator control panel — S-02 trigger; diesel tanks — manual refill — 200 lbs each, need 3; delivery channel — to surface — but the lock door was broken by infected</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Extremely high risk — infected swarm here (2d4+2), may include Evolved Infected (★★)</td>
+</tr>
+<tr>
+<td>Gene Lock Relevance</td>
+<td><strong>Gene Lock hint</strong>: recommended tier — Tier 1. If Gene Lock opened (Determination check, DC2), gain Initiative +2, attack DP +1, 3 rounds. Liberation side effect: 1d4 mental damage after combat ends</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Explore → enter next scene</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Complete exploration / defeat encounter</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S05: Central Laboratory</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S05</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Central Laboratory</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Advance from Scene S04</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"The site's core — highest biosafety (BSL-4). A thick titanium sealed door (needs biochemical authorization — Intellect + Science DC3 or director-level ID). Inside: SCP-008's original samples, the sterilization terminal, and vaccine R&amp;D equipment."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Sterilization terminal — main goal — after start, 5-min countdown, releases high-temp gas site-wide, destroys all active virus and infected; vaccine lab — S-03 trigger; site-director office — director ID in drawer — but the director is now a zombie guarding nearby</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Final scene — at least Evolved Infected ×2 + zombie swarm ×4–8</td>
+</tr>
+<tr>
+<td>Gene Lock Relevance</td>
+<td><strong>Gene Lock hint</strong>: recommended tier — Tier 1. If Gene Lock opened (Determination check, DC3), gain Initiative +2, attack DP +1, 5 rounds. Liberation side effect: 1d4 mental damage after combat ends</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Explore → reach evacuation point</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Within the white-light range of the evacuation point → script cleared</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VIII. Multi-Team Competition Rules</h2>
+<blockquote>
+<p>This script does not involve multi-team competition. This section is left blank.</p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>IX. Reward Settlement</h2>
+<table>
+<thead>
+<tr>
+<th>Reward Type</th>
+<th>Content</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main Quest Complete</td>
+<td>Reach the central lab within 12 hours and manually initiate the sterilization protocol</td>
+<td>D+1800</td>
+</tr>
+<tr>
+<td>Side S-01</td>
+<td>Ventilation Lockdown</td>
+<td>400 + west wing stays safe — provides safe rest and supply area</td>
+</tr>
+<tr>
+<td>Side S-02</td>
+<td>Backup Generator Startup</td>
+<td>350 + restore central-lab power (unlocks sterilization terminal)</td>
+</tr>
+<tr>
+<td>Side S-03</td>
+<td>Vaccine Sample Recovery</td>
+<td>500 + complete Optional ②</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>Complete all optional objectives</td>
+<td>Accumulate per optional-objective notes</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Enemy units (by type)</td>
+<td>See Enemy Unit Roster</td>
+</tr>
+<tr>
+<td>Exploration Reward</td>
+<td>Discover all 5 key locations</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Roleplay</td>
+<td>GM discretion</td>
+<td>0–500</td>
+</tr>
+</tbody>
+</table>
+<h3>Theoretical Maximum Yield</h3>
+<blockquote>
+<p><strong>D+1800</strong> (main) + <strong>accumulated side + optional</strong> (see above)
+= GM advised to sum all achieved rewards at settlement</p>
+</blockquote>
+<h3>Return Exchange (Script-Limited)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Item</th>
+<th>Cost (Side + Reward pts)</th>
+<th>Effect</th>
+<th>Growth Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>SCP-008 Antibody (Passive)</td>
+<td>D+500</td>
+<td>Receive an attenuated vaccine: immune to SCP-008 and common viruses, HP cap +5.</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Containment Procedure Knowledge (Knowledge)</td>
+<td>D+500</td>
+<td>Learn Foundation containment flow: +2 DP on sealing / suppressing anomalous entities, can set basic containment.</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Standard Containment Box (Item)</td>
+<td>D+500</td>
+<td>Gain a lead containment box: temporarily seal 1 small anomalous entity (once per script), limit its actions.</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Zombification · Controlled (Bloodline / Ability)</td>
+<td>B+3600</td>
+<td>Controlled SCP-008 infection: regenerate 2 HP/round, Strength (STR) +2, dulled pain, cost of regularly replenishing flesh.</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Memetic Contamination Resistance (Passive)</td>
+<td>B+2000</td>
+<td>−4 to memetic / cognitive hazards (mental attacks), immune to ordinary fear and memory tampering.</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Keter-Class Anomaly Summon (Ability / Title)</td>
+<td>B+3600</td>
+<td>Gain "Containment Breach" authority: summon 1 Keter-class anomaly (HP 40) per script to aid, cost of scene-collapse risk (GM judgment).</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>SCP-008 Original Culture (Relic / Item)</td>
+<td>B+2000</td>
+<td>Hold the original sample: craft a controlled zombie legion (2 per script, HP 15), infect non-zombie enemies.</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>X. Appendix</h2>
+<ul>
+<li><strong>Maps</strong>: See <code>maps/</code> for <code>SCP-008_WM-01.svg</code>, <code>SCP-008_EM-01.svg</code>, <code>SCP-008_BM-01.svg</code>, <code>SCP-008_BM-02.svg</code></li>
+<li><strong>Special Rules Supplement</strong>: See "V. World Setting → World Special Rules"</li>
+<li><strong>GM Memo</strong>:</li>
+<li><strong>Common Blockage</strong>: Players may be over-cautious — solution: guide via environmental hints or NPC dialogue.</li>
+<li><strong>Difficulty Up</strong>: Multiply enemy count ×1.5, raise check DC +1.</li>
+<li><strong>Difficulty Down</strong>: Multiply enemy count ×0.7, lower check DC −1, add safe-zone supplies.</li>
+<li><strong>Unconventional Player Actions</strong>: GM judges on the spot by circumstance. Remember the core goal — make the story fun and challenging.</li>
+<li><strong>Reference</strong>: SCP Foundation Universe related works.</li>
+</ul>
+<hr />
+<blockquote>
+<p><strong>Script Code</strong>: SCP-008
+<strong>Version</strong>: v1.0
+<strong>Format Spec</strong>: v0.4
+<strong>D10 Dice Pool System</strong>: Attribute + Skill = Dice Pool (DP); 8/9/10 = 1 success | Mortal attribute 1–5, L2 reaches 6</p>
+</blockquote></section></section>
+    <section class="block"><h2>地圖（YAML＋SVG）</h2><div class="map">
+              <div class="maptitle">SCP-008_BM-01 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="680" height="480" fill="#1a1a2e"/>
+<rect x="20" y="20" width="640" height="440" fill="url(#grid)"/>
+<rect x="20" y="20" width="640" height="440" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="340.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Battle Map 1</text>
+<text x="25" y="472" fill="#666" font-size="9">SCP-008_BM-01 | 15×10Cell (concept) | 1Cell = 5ft | Total 75×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="177.5" y="15" text-anchor="middle" fill="#555" font-size="7">11</text>
+<text x="192.5" y="15" text-anchor="middle" fill="#555" font-size="7">12</text>
+<text x="207.5" y="15" text-anchor="middle" fill="#555" font-size="7">13</text>
+<text x="222.5" y="15" text-anchor="middle" fill="#555" font-size="7">14</text>
+<text x="237.5" y="15" text-anchor="middle" fill="#555" font-size="7">15</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="20.0" y="20.0" width="640.0" height="440.0" rx="3" fill="none" stroke="#8B5CF6" stroke-width="2"/>
+<rect x="50.0" y="40.0" width="60.0" height="50.0" rx="3" fill="#333" stroke="#555" stroke-width="1.5"/>
+<text x="80.0" y="61.0" text-anchor="middle" fill="#aaa" font-size="8">Cover A</text>
+<text x="80.0" y="75.0" text-anchor="middle" fill="#666" font-size="6">(20.0, 12.5)ft</text>
+<rect x="500.0" y="40.0" width="70.0" height="40.0" rx="3" fill="#333" stroke="#555" stroke-width="1.5"/>
+<text x="535.0" y="56.0" text-anchor="middle" fill="#aaa" font-size="8">Obstacle</text>
+<text x="535.0" y="70.0" text-anchor="middle" fill="#666" font-size="6">(172.5, 12.5)ft</text>
+<rect x="250.0" y="150.0" width="80.0" height="30.0" rx="3" fill="#2a2a1a" stroke="#884400" stroke-width=""/>
+<text x="290.0" y="161.0" text-anchor="middle" fill="#aaa" font-size="8">Interactable Object</text>
+<text x="290.0" y="175.0" text-anchor="middle" fill="#666" font-size="6">(87.5, 50.0)ft</text>
+<rect x="400.0" y="300.0" width="50.0" height="50.0" rx="3" fill="#2a2020" stroke="#884444" stroke-width=""/>
+<text x="425.0" y="321.0" text-anchor="middle" fill="#aaa" font-size="8">Hazard Object</text>
+<text x="425.0" y="335.0" text-anchor="middle" fill="#666" font-size="6">(132.5, 102.5)ft</text>
+<rect x="60.0" y="380.0" width="100.0" height="60.0" rx="3" fill="none" stroke="#3B82F6" stroke-width="1.5"/>
+<text x="110.0" y="406.0" text-anchor="middle" fill="#aaa" font-size="8">Player Start Zone</text>
+<text x="110.0" y="420.0" text-anchor="middle" fill="#666" font-size="6">(32.5, 130.0)ft</text>
+<rect x="500.0" y="370.0" width="80.0" height="40.0" rx="3" fill="none" stroke="#EF4444" stroke-width="1.5"/>
+<text x="540.0" y="386.0" text-anchor="middle" fill="#aaa" font-size="8">Enemy Entry Point</text>
+<text x="540.0" y="400.0" text-anchor="middle" fill="#666" font-size="6">(172.5, 122.5)ft</text>
+<rect x="500.0" y="180.0" width="120.0" height="90.0" rx="3" fill="#1a2a1a" stroke="#338833" stroke-width="1"/>
+<text x="560.0" y="221.0" text-anchor="middle" fill="#aaa" font-size="8">Elevated Platform (+2 Hit)</text>
+<text x="560.0" y="235.0" text-anchor="middle" fill="#666" font-size="6">(180.0, 70.0)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L2/SCP-008-殭屍病毒/en/maps/SCP-008_BM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L2/SCP-008-殭屍病毒/en/maps/SCP-008_BM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">SCP-008_BM-02 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="680" height="480" fill="#1a1a2e"/>
+<rect x="20" y="20" width="640" height="440" fill="url(#grid)"/>
+<rect x="20" y="20" width="640" height="440" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="340.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Battle Map 2 — Final Scene</text>
+<text x="25" y="472" fill="#666" font-size="9">SCP-008_BM-02 | 15×10Cell (concept) | 1Cell = 5ft | Total 75×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="177.5" y="15" text-anchor="middle" fill="#555" font-size="7">11</text>
+<text x="192.5" y="15" text-anchor="middle" fill="#555" font-size="7">12</text>
+<text x="207.5" y="15" text-anchor="middle" fill="#555" font-size="7">13</text>
+<text x="222.5" y="15" text-anchor="middle" fill="#555" font-size="7">14</text>
+<text x="237.5" y="15" text-anchor="middle" fill="#555" font-size="7">15</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="20.0" y="20.0" width="640.0" height="440.0" rx="3" fill="none" stroke="#8B5CF6" stroke-width="2"/>
+<rect x="50.0" y="60.0" width="70.0" height="35.0" rx="3" fill="#333" stroke="#555" stroke-width=""/>
+<text x="85.0" y="73.5" text-anchor="middle" fill="#aaa" font-size="8">Cover</text>
+<text x="85.0" y="87.5" text-anchor="middle" fill="#666" font-size="6">(22.5, 20.0)ft</text>
+<rect x="200.0" y="100.0" width="60.0" height="60.0" rx="3" fill="#223" stroke="#446" stroke-width=""/>
+<text x="230.0" y="126.0" text-anchor="middle" fill="#aaa" font-size="8">Large Obstacle</text>
+<text x="230.0" y="140.0" text-anchor="middle" fill="#666" font-size="6">(70.0, 35.0)ft</text>
+<rect x="350.0" y="200.0" width="100.0" height="30.0" rx="5" fill="#331" stroke="#662" stroke-width=""/>
+<text x="400.0" y="211.0" text-anchor="middle" fill="#aaa" font-size="8">Obstacle</text>
+<text x="400.0" y="225.0" text-anchor="middle" fill="#666" font-size="6">(127.5, 65.0)ft</text>
+<rect x="120.0" y="310.0" width="50.0" height="80.0" rx="3" fill="#232" stroke="#454" stroke-width=""/>
+<text x="145.0" y="346.0" text-anchor="middle" fill="#aaa" font-size="8">Structure</text>
+<text x="145.0" y="360.0" text-anchor="middle" fill="#666" font-size="6">(42.5, 107.5)ft</text>
+<rect x="530.0" y="370.0" width="80.0" height="40.0" rx="3" fill="none" stroke="#3B82F6" stroke-width="1.5"/>
+<text x="570.0" y="386.0" text-anchor="middle" fill="#aaa" font-size="8">Player Entry Route</text>
+<text x="570.0" y="400.0" text-anchor="middle" fill="#666" font-size="6">(182.5, 122.5)ft</text>
+<rect x="450.0" y="140.0" width="80.0" height="60.0" rx="3" fill="#EF4444" stroke="#EF4444" stroke-width="1"/>
+<text x="490.0" y="166.0" text-anchor="middle" fill="#aaa" font-size="8">Hazardous Terrain</text>
+<text x="490.0" y="180.0" text-anchor="middle" fill="#666" font-size="6">(157.5, 50.0)ft</text>
+<rect x="550.0" y="65.0" width="60" height="20" rx="3" fill="#00FF88" opacity="0.2" stroke="#00FF88"/>
+<text x="580.0" y="79.0" text-anchor="middle" fill="#00FF88" font-size="8">★ Extraction Point</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L2/SCP-008-殭屍病毒/en/maps/SCP-008_BM-02.yaml" download>yaml</a> <a href="../../assets/scripts/L2/SCP-008-殭屍病毒/en/maps/SCP-008_BM-02.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">SCP-008_EM-01 <span class="maptype">探索地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 500" font-family="Microsoft JhengHei, sans-serif">
+<rect width="680" height="500" fill="#1a1a2e"/>
+<text x="340.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">SCP-008·Zombie Virus — Exploration Map</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 1</text>
+<rect x="20" y="0.0" width="640" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="680.0" height="500.0" rx="0.0" fill="#0d0d1a" stroke="" stroke-width=""/>
+<text x="340.0" y="250.0" text-anchor="middle" fill="#aaa" font-size="9">(Exploration Point)</text>
+<rect x="30.0" y="50.0" width="620.0" height="420.0" rx="0.0" fill="none" stroke="#C084FC" stroke-width="1.5"/>
+<text x="340.0" y="260.0" text-anchor="middle" fill="#aaa" font-size="9">(Exploration Point)</text>
+<rect x="70.0" y="80.0" width="100.0" height="70.0" rx="5.0" fill="#8B5CF6" stroke="#F59E0B" stroke-width="2"/>
+<text x="120.0" y="115.0" text-anchor="middle" fill="#aaa" font-size="9">Starting Area</text>
+<rect x="50.0" y="120.0" width="580.0" height="40.0" rx="3.0" fill="#8B5CF6" stroke="#8B5CF6" stroke-width="1"/>
+<text x="340.0" y="140.0" text-anchor="middle" fill="#aaa" font-size="9">Main Passage</text>
+<rect x="250.0" y="190.0" width="120.0" height="80.0" rx="5.0" fill="#8B5CF6" stroke="#C084FC" stroke-width="1"/>
+<text x="310.0" y="230.0" text-anchor="middle" fill="#aaa" font-size="9">(Exploration Point)</text>
+<rect x="450.0" y="190.0" width="120.0" height="80.0" rx="5.0" fill="#8B5CF6" stroke="#C084FC" stroke-width="1"/>
+<text x="510.0" y="230.0" text-anchor="middle" fill="#aaa" font-size="9">Key Location B</text>
+<text x="20" y="315.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 2</text>
+<rect x="20" y="320.0" width="640" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="250.0" y="320.0" width="120.0" height="80.0" rx="5.0" fill="#EF4444" stroke="#EF4444" stroke-width="1"/>
+<text x="310.0" y="360.0" text-anchor="middle" fill="#aaa" font-size="9">Encounter Point</text>
+<rect x="450.0" y="320.0" width="120.0" height="80.0" rx="5.0" fill="#3B82F6" stroke="#3B82F6" stroke-width="1"/>
+<text x="510.0" y="360.0" text-anchor="middle" fill="#aaa" font-size="9">Safe Zone</text>
+<text x="20" y="445.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 3</text>
+<rect x="20" y="450.0" width="640" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="30.0" y="450.0" width="350.0" height="40.0" rx="4.0" fill="#111" stroke="#333" stroke-width=""/>
+<text x="205.0" y="470.0" text-anchor="middle" fill="#aaa" font-size="9">Safe Zone</text>
+<rect x="45.0" y="460.0" width="15.0" height="10.0" rx="0.0" fill="#F59E0B" stroke="#F59E0B" stroke-width=""/>
+<text x="52.5" y="465.0" text-anchor="middle" fill="#aaa" font-size="9">Start Point</text>
+<rect x="110.0" y="460.0" width="15.0" height="10.0" rx="0.0" fill="#EF4444" stroke="#EF4444" stroke-width=""/>
+<text x="117.5" y="465.0" text-anchor="middle" fill="#aaa" font-size="9">Danger Zone</text>
+<rect x="200.0" y="460.0" width="15.0" height="10.0" rx="0.0" fill="#3B82F6" stroke="#3B82F6" stroke-width=""/>
+<text x="207.5" y="465.0" text-anchor="middle" fill="#aaa" font-size="9">Safe Zone</text>
+<rect x="20" y="445" width="640" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="470" fill="#aaa" font-size="9">Starting Area</text>
+<text x="205" y="470" fill="#aaa" font-size="9">Danger Zone</text>
+<text x="375" y="470" fill="#aaa" font-size="9">Start Point</text>
+<text x="545" y="470" fill="#aaa" font-size="9">Danger Zone</text>
+<text x="715" y="470" fill="#aaa" font-size="9">SCP-008_EM-01 | Exploration Map | 1Cell ≈ 5m</text>
+<text x="20" y="490" fill="#666" font-size="9">SCP-008_EM-01 | Exploration Map </text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L2/SCP-008-殭屍病毒/en/maps/SCP-008_EM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L2/SCP-008-殭屍病毒/en/maps/SCP-008_EM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">SCP-008_WM-01 <span class="maptype">世界地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="800" height="600" fill="url(#wmgrid)"/>
+<rect x="80.0" y="80.0" width="200.0" height="180.0" rx="5" fill="#8B5CF6" stroke="#C084FC" stroke-width="2"/>
+<text x="180.0" y="170.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Start Point</text>
+<rect x="420.0" y="80.0" width="200.0" height="180.0" rx="5" fill="#8B5CF6" stroke="#C084FC" stroke-width="2"/>
+<text x="520.0" y="170.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Key Location 2</text>
+<line x1="180.0" y1="170.0" x2="300.0" y2="320.0" stroke="#F59E0B" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="300.0" y1="320.0" x2="650.0" y2="400.0" stroke="#F59E0B" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<ellipse cx="300.0" cy="400.0" rx="150.0" ry="80.0" fill="#EF4444" opacity="0.1" stroke="#EF4444" stroke-width="1"/>
+<circle cx="140.0" cy="160.0" r="8.0" fill="#F59E0B" opacity="0.6"/>
+<circle cx="140.0" cy="160.0" r="8.0" fill="none" stroke="" stroke-width="2"/>
+<text x="140.0" y="147.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Start Point</text>
+<circle cx="200.0" cy="200.0" r="6.0" fill="#8B5CF6" opacity="0.6"/>
+<circle cx="200.0" cy="200.0" r="6.0" fill="none" stroke="" stroke-width="2"/>
+<text x="200.0" y="189.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Key Location 1</text>
+<circle cx="480.0" cy="160.0" r="6.0" fill="#8B5CF6" opacity="0.6"/>
+<circle cx="480.0" cy="160.0" r="6.0" fill="none" stroke="" stroke-width="2"/>
+<text x="480.0" y="149.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Key Location 2</text>
+<circle cx="650.0" cy="400.0" r="20.0" fill="none" stroke="#3B82F6" stroke-width="2" stroke-dasharray="4,2"/>
+<text x="650.0" y="375.0" text-anchor="middle" fill="#3B82F6" font-size="10" font-weight="bold">★ Extraction Point</text>
+<circle cx="650.0" cy="400.0" r="8.0" fill="#3B82F6" opacity="0.6"/>
+<circle cx="650.0" cy="400.0" r="8.0" fill="none" stroke="" stroke-width="2"/>
+<text x="650.0" y="387.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Extraction Point</text>
+<circle cx="635.0" cy="535.0" r="4.0" fill="#3B82F6" opacity="0.6"/>
+<circle cx="635.0" cy="535.0" r="4.0" fill="none" stroke="" stroke-width="2"/>
+<text x="635.0" y="526.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Extraction Point</text>
+<circle cx="635.0" cy="550.0" r="4.0" fill="#F59E0B" opacity="0.6"/>
+<circle cx="635.0" cy="550.0" r="4.0" fill="none" stroke="" stroke-width="2"/>
+<text x="635.0" y="541.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Start Point / Key Location</text>
+<rect x="630" y="20" width="150" height="74" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="705" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Legend</text>
+<text x="640" y="60" fill="#aaa" font-size="9">Extraction Point</text>
+<text x="640" y="76" fill="#aaa" font-size="9">Start Point / Key Location</text>
+<text x="640" y="92" fill="#aaa" font-size="9">Danger Zone</text>
+<text x="20" y="585" fill="#666" font-size="9">SCP-008_WM-01 | Large-Scale Map | SCP-008_WM-01 | Large-Scale Map | 1Cell ≈ 100m</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L2/SCP-008-殭屍病毒/en/maps/SCP-008_WM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L2/SCP-008-殭屍病毒/en/maps/SCP-008_WM-01.svg" download>svg</a></p>
+            </div></section>
+    <section class="block"><h2>概念圖</h2><div class="gallery"><a href="../../assets/scripts/L2/SCP-008-殭屍病毒/images/enemy_01_evolved_infected.png" target="_blank"><img src="../../assets/scripts/L2/SCP-008-殭屍病毒/images/enemy_01_evolved_infected.png" alt="enemy_01_evolved_infected.png"></a><a href="../../assets/scripts/L2/SCP-008-殭屍病毒/images/enemy_02_evolved_infected.png" target="_blank"><img src="../../assets/scripts/L2/SCP-008-殭屍病毒/images/enemy_02_evolved_infected.png" alt="enemy_02_evolved_infected.png"></a><a href="../../assets/scripts/L2/SCP-008-殭屍病毒/images/npc_01_dr_sophia_light.png" target="_blank"><img src="../../assets/scripts/L2/SCP-008-殭屍病毒/images/npc_01_dr_sophia_light.png" alt="npc_01_dr_sophia_light.png"></a><a href="../../assets/scripts/L2/SCP-008-殭屍病毒/images/npc_02_SCP008_01.png" target="_blank"><img src="../../assets/scripts/L2/SCP-008-殭屍病毒/images/npc_02_SCP008_01.png" alt="npc_02_SCP008_01.png"></a><a href="../../assets/scripts/L2/SCP-008-殭屍病毒/images/npc_03_SCP008_02.png" target="_blank"><img src="../../assets/scripts/L2/SCP-008-殭屍病毒/images/npc_03_SCP008_02.png" alt="npc_03_SCP008_02.png"></a><a href="../../assets/scripts/L2/SCP-008-殭屍病毒/images/scene_01_central_lab.png" target="_blank"><img src="../../assets/scripts/L2/SCP-008-殭屍病毒/images/scene_01_central_lab.png" alt="scene_01_central_lab.png"></a><a href="../../assets/scripts/L2/SCP-008-殭屍病毒/images/scene_S02_通風控制室.png" target="_blank"><img src="../../assets/scripts/L2/SCP-008-殭屍病毒/images/scene_S02_通風控制室.png" alt="scene_S02_通風控制室.png"></a><a href="../../assets/scripts/L2/SCP-008-殭屍病毒/images/scene_S03_東翼走廊.png" target="_blank"><img src="../../assets/scripts/L2/SCP-008-殭屍病毒/images/scene_S03_東翼走廊.png" alt="scene_S03_東翼走廊.png"></a><a href="../../assets/scripts/L2/SCP-008-殭屍病毒/images/scene_S04_備用發電機室.png" target="_blank"><img src="../../assets/scripts/L2/SCP-008-殭屍病毒/images/scene_S04_備用發電機室.png" alt="scene_S04_備用發電機室.png"></a><a href="../../assets/scripts/L2/SCP-008-殭屍病毒/images/scene_S05_中央實驗室.png" target="_blank"><img src="../../assets/scripts/L2/SCP-008-殭屍病毒/images/scene_S05_中央實驗室.png" alt="scene_S05_中央實驗室.png"></a></div></section>
+    </main>
+<footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

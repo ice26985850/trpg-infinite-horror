@@ -1,0 +1,61 @@
+map_id: WITCH_WM-01
+map_type: world
+scenario: 'The Witcher: Curse of White Orchard'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 900
+- 620
+title: Witcher · White Orchard — Large-Scale Map (WM-01)
+description: ''
+scale: Schematic
+regions:
+- bounds:
+  - 350.0
+  - 170.0
+  - 100.0
+  - 60.0
+  fill: '#3a5a20'
+  stroke: '#9b59b6'
+  name: A White Orchard Village
+- bounds:
+  - 600.0
+  - 270.0
+  - 100.0
+  - 60.0
+  fill: '#4a3a2a'
+  stroke: '#9b59b6'
+  name: B Ruins Tower
+- bounds:
+  - 150.0
+  - 350.0
+  - 100.0
+  - 60.0
+  fill: '#2a3a5a'
+  stroke: '#9b59b6'
+  name: C Riverbank
+- bounds:
+  - 650.0
+  - 420.0
+  - 100.0
+  - 60.0
+  fill: '#3a3a2a'
+  stroke: '#9b59b6'
+  name: D Forest Ruins
+- bounds:
+  - 20.0
+  - 540.0
+  - 860.0
+  - 60.0
+  fill: '#1a2a1e'
+  stroke: '#333'
+  name: ''
+roads: []
+routes: []
+danger_zones: []
+landmarks: []
+legend:
+- B Ruins Tower
+- D Forest Ruins

@@ -1,0 +1,134 @@
+map_id: EBERRON_2_WM-01
+map_type: world
+scenario: 'The Cry War - Karrnath Undead Empire / Eberron: The Cry War - Thrane''s Last Stand'
+tier: L3
+difficulty: ★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: EBERRON_2_WM-01 World Map
+description: ''
+scale: Schematic
+regions:
+- bounds:
+  - 80.0
+  - 60.0
+  - 640.0
+  - 480.0
+  fill: '#0a1a2a'
+  stroke: '#1e3a5f'
+  name: Wall Defense Line
+roads: []
+routes:
+- x1: 420.0
+  y1: 380.0
+  x2: 620.0
+  y2: 230.0
+  stroke: '#FFD700'
+  stroke_width: '2'
+  dashed: true
+danger_zones:
+- center:
+  - 650.0
+  - 200.0
+  rx: 60.0
+  ry: 40.0
+  name: Summoning Tower
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 550.0
+  - 100.0
+  rx: 80.0
+  ry: 50.0
+  name: Enemy Main Camp
+  fill: '#FF0000'
+  stroke: '#FF4444'
+landmarks:
+- center:
+  - 400.0
+  - 450.0
+  radius: 12.0
+  name: Fort Dawn
+  fill: none
+  stroke: '#00FF88'
+  dashed: true
+- center:
+  - 400.0
+  - 450.0
+  radius: 5.0
+  name: Fort Dawn
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 400.0
+  - 300.0
+  radius: 12.0
+  name: Wall Defense Line
+  fill: none
+  stroke: '#00AAFF'
+  dashed: true
+- center:
+  - 400.0
+  - 300.0
+  radius: 5.0
+  name: Wall Defense Line
+  fill: '#00AAFF'
+  stroke: ''
+  dashed: false
+- center:
+  - 650.0
+  - 200.0
+  radius: 12.0
+  name: Summoning Tower
+  fill: none
+  stroke: '#FF0000'
+  dashed: true
+- center:
+  - 650.0
+  - 200.0
+  radius: 5.0
+  name: Summoning Tower
+  fill: '#FF0000'
+  stroke: ''
+  dashed: false
+- center:
+  - 550.0
+  - 100.0
+  radius: 12.0
+  name: Enemy Main Camp
+  fill: none
+  stroke: '#FF6600'
+  dashed: true
+- center:
+  - 550.0
+  - 100.0
+  radius: 5.0
+  name: Enemy Main Camp
+  fill: '#FF6600'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 60.0
+  radius: 4.0
+  name: Start Point
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 78.0
+  radius: 4.0
+  name: Objective Point
+  fill: '#FFD700'
+  stroke: ''
+  dashed: false
+legend:
+- Undead Legion
+- Enemy Main Camp
+- Start Point
+- Objective Point

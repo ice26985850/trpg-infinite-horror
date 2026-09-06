@@ -1,0 +1,32 @@
+map_id: SW_EM-01
+map_type: exploration
+scenario: 'Star Wars:·Capture the Death Star Project / Star Wars: Death Star'
+tier: L3
+difficulty: ★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: SW_EM-01 Explore the map
+description: ''
+floors:
+- name: Floor 1
+  y: 330.0
+  rooms:
+  - bounds:
+    - 430.0
+    - 330.0
+    - 320.0
+    - 200.0
+    name: '[S05] Boss'
+    fill: '#33335520'
+    stroke: '#5555aa'
+    stroke_width: '1'
+    rx: 5.0
+connections: []
+legend:
+- Start Area — Resupply、Information、Mission brief
+- Safe Zone/Starting point
+- Danger Zone/Battle Zone
+notes: []

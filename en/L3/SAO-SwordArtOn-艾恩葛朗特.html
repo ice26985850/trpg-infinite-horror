@@ -1,0 +1,1337 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sword Art Online: Aincrad | SAO-SwordArtOn-艾恩葛朗特 | Infinite Terror TRPG Scripts</title>
+<link rel="stylesheet" href="../../assets/style.css"></head>
+<body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../../index.html">中文</a></header>
+<div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
+<main class="container"><h1>Sword Art Online: Aincrad</h1>
+    <p class="meta">Code: SAO-SwordArtOn-艾恩葛朗特 ｜ Source: Sword Art Online (anime/manga) — Aincrad arc ｜ Difficulty: ★★★★ ｜ Players: 3–5 ｜ Duration: 30–365 days (in-game) ｜ Type: Survival / Raiding / Adventure</p>
+    <p class="nav"><a href="../../index.html">← 劇本總覽</a> ｜ <a href="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/en/SAO-SwordArtOn-艾恩葛朗特_劇本.md" download>劇本 MD</a> ｜ <a href="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/en/SAO_NPC名冊.xlsx" download>NPC 名冊</a> ｜ <a href="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/en/SAO_敵方單位名冊.xlsx" download>敵方名冊</a> ｜ <a href="../../assets/L3_SAO-SwordArtOn-艾恩葛朗特_all_en.zip">下載全部（zip）</a></p>
+    <section class="block content"><section class="chap"><h2>一、基本資訊</h2>
+<p>Script Title: Sword Art Online: Aincrad
+Source Film: Sword Art Online (anime/manga) — Aincrad arc
+Difficulty Rating: ★★★★
+Suggested Players: 3–5
+Estimated Duration: 30–365 days (in-game)
+Script Type: Survival / Raiding / Adventure
+Gene Lock Stage: Stage 3 (Gene Lock III)
+Prerequisite: Complete at least 2 scripts of ★★ difficulty or higher</p>
+<hr /></section>
+<details class="gm"><summary>🎭 GM 限定：二、Story Summary (GM Only)</summary><h2>二、Story Summary (GM Only)</h2>
+<h3>One-Line Summary</h3>
+<blockquote>
+<p>A VR death game you cannot log out of — Aincrad. Reincarnators (轮回者) and 10,000 players are trapped in the 100-floor floating castle; the death game begins. Clear to floor 50 and survive — that is the Lord God's mission.</p>
+</blockquote>
+<h3>Full Story Background</h3>
+<p>November 6, 2022: the world's first VRMMORPG, Sword Art Online, launches. But its creator Kayaba Akihiko (avatar "Heathcliff," raid-group leader) announces to all players: the logout button is gone, clearing the game is the only way out — death in-game means the NERvGear's high-power microwave destroys your real brain.</p>
+<p>10,000 players are trapped in the 100-floor steel floating castle "Aincrad." Each floor is guarded by a Floor Boss; defeating it opens the path upward. The clearing group pushes the front lines while non-combat players live daily life in rear towns.</p>
+<p>The Reincarnators enter on day 3 of the game — shortly after SAO's opening. At the central plaza of the Town of Beginnings, players are slowly organizing from initial panic. But the floor 1 raid has not yet begun.</p>
+<p>Core challenges:
+- <strong>Death Game</strong>: HP zero = real death, no revive.
+- <strong>Floor Raiding</strong>: Must clear 50 floors; each Boss is a trial.
+- <strong>Player Society</strong>: red-guilds, info brokers, complex clearing-group interactions.
+- <strong>Resource Management</strong>: limited potions, sword-skill recovery lag, equipment durability.</p>
+<h3>Story Structure Type</h3>
+<p><strong>Hybrid</strong>: Floor 1 (S01–S03) advances scene by scene (unified raid start); then, by Reincarnator choice, parallel scenes (S04–S05) trigger at specific Boss floors; floor 50 (S06) is the forced finale.</p>
+<hr /></details>
+<section class="chap"><h2>三、Lord God Mission (Main Quest)</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mission Brief</td>
+<td>"Raid Aincrad to floor 50 and survive. Cross-world items from the Lord God Space are sealed. This world uses SAO's in-game systems."</td>
+</tr>
+<tr>
+<td>Main Objective</td>
+<td>Raid to floor 50 + survive</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>B+5000</td>
+</tr>
+<tr>
+<td>Failure Condition</td>
+<td>Total wipe / HP zero (real death)</td>
+</tr>
+<tr>
+<td>Failure Penalty</td>
+<td>Erasure</td>
+</tr>
+<tr>
+<td>Optional Goals</td>
+<td>① Join 10 floor-Boss raids: extra B1 <br>② Save at least 50 players from death: +3000</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>四、Side Quests</h2>
+<h3>Side Quest S-01: Clear Floor 1 Boss — Open the Raid Group</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side ID</td>
+<td>S-01</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>First Kill of the Kobold Lord</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Follow the raid group into floor 1 labyrinth's depths, join the Boss raid</td>
+</tr>
+<tr>
+<td>Objective</td>
+<td>Defeat floor 1 Boss "Illfang the Kobold Lord" and its 3 "Ruin Kobold Guards"</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Within 30 days of game start</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>C+1000</td>
+</tr>
+<tr>
+<td>Relation to Main</td>
+<td>Necessary — defeating floor 1 Boss is the only way to begin raiding Aincrad</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>The strategy meeting is organized by player "Diabel," who in the original dies grasping for the last hit. Reincarnators may intervene (Intelligence + Investigation, DC 3 to notice the Boss weapon will change early)</td>
+</tr>
+</tbody>
+</table>
+<h3>Side Quest S-02: Defeat the Red Guild "Laughing Coffin"</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side ID</td>
+<td>S-02</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Bury the God of Death</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>On red-player assault, or when actively tracking down Laughing Coffin's base</td>
+</tr>
+<tr>
+<td>Objective</td>
+<td>Defeat Laughing Coffin guild master "PoH" and at least 3 core members</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Before floor 50 raid</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>B+2000</td>
+</tr>
+<tr>
+<td>Relation to Main</td>
+<td>Optional — lowers red-player assault risk, RP bonus</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Red players exploit SAO system loopholes for PK with no death-game penalty dread. PoH is Manipulation + Grace type, using words to incite red players into mass attacks</td>
+</tr>
+</tbody>
+</table>
+<h3>Side Quest S-03: Find the Acquisition Condition of "Dual Blades"</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side ID</td>
+<td>S-03</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Legend of the Twin Swords</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Intelligence + Knowledge check, DC 4, to analyze Dual Blades' trigger from the game database, or deduce after observing Kirito's twin swords</td>
+</tr>
+<tr>
+<td>Objective</td>
+<td>Find the acquisition condition of Dual Blades (auto-granted to the fastest-reaction player — no unlock grind; detect the condition)</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Before floor 50 raid</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>C+1500</td>
+</tr>
+<tr>
+<td>Relation to Main</td>
+<td>Supportive — understanding Dual Blades = understanding SAO's inner rules, useful to predict other unique skills</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Dual Blades already taken by Kirito. Reincarnators' goal is "find the condition," not "get Dual Blades." Correct deduction = complete</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>五、World Settings</h2>
+<h3>SAO Game System (World Special Rule)</h3>
+<p>In this world all Reincarnator abilities convert to the SAO system. The Lord God seals all external items and enhancements, keeping only raw body attributes. All combat uses SAO's Sword Skill system.</p>
+<h4>Sword Skill System</h4>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Rule</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Activate</td>
+<td>Standard action; pick an equipped sword skill for an attack check. On hit, skill enters cooldown (recovery lag) 1 round</td>
+</tr>
+<tr>
+<td>Hit</td>
+<td>Power / Agility + Melee (SAO) check vs enemy Agility + Defense check</td>
+</tr>
+<tr>
+<td>Recovery Lag</td>
+<td>Next round after a sword skill, the character cannot use active skills and Defense check DP-2</td>
+</tr>
+<tr>
+<td>Switch</td>
+<td>Quick position-swap tactic with a teammate: Agility + Athletics check, DC 2; success swaps places with an adjacent teammate and transfers aggro. Failure = 1 round lag</td>
+</tr>
+<tr>
+<td>Combo Sword Skill</td>
+<td>Two+ characters' consecutive switch attacks: after first hits during lag, second replaces attack DC-1 (target's defense reaction too slow)</td>
+</tr>
+</tbody>
+</table>
+<h4>HP and Death</h4>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Rule</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HP Calc</td>
+<td>(Endurance × 4) + (character level × 2) + equipment bonus</td>
+</tr>
+<tr>
+<td>HP Zero</td>
+<td>Instant real death — NERvGear releases high-power microwave, irreversible brain damage</td>
+</tr>
+<tr>
+<td>Recovery Crystal</td>
+<td>Max 2 per combat. Instantly restores 2d8 + Endurance HP</td>
+</tr>
+<tr>
+<td>Safe Zone</td>
+<td>Towns are SAO safe zones (no PK, HP slowly auto-recovers — Endurance-value HP per hour)</td>
+</tr>
+</tbody>
+</table>
+<h4>Floor Transfer Gate</h4>
+<ul>
+<li>Behind each floor Boss room is a staircase to the floor above.</li>
+<li>After passing, a "Transfer Gate" auto-activates — teleport from any floor's main-town plaza to the first safe zone of unlocked floors.</li>
+<li>No reversion — once teleported down from a floor's gate, must redo the labyrinth.</li>
+</ul>
+<h4>Equipment Tiers</h4>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Condition</th>
+<th>Drop Floor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Copper</td>
+<td>D-tier — normal mobs</td>
+<td>floors 1–10</td>
+</tr>
+<tr>
+<td>Iron</td>
+<td>C-tier — mid mobs &amp; side bosses</td>
+<td>floors 10–25</td>
+</tr>
+<tr>
+<td>Steel</td>
+<td>B-tier — elites &amp; low-chance floor bosses</td>
+<td>floors 25–40</td>
+</tr>
+<tr>
+<td>Silver</td>
+<td>B–A tier — rare boss drops</td>
+<td>floors 40–50</td>
+</tr>
+<tr>
+<td>Legendary</td>
+<td>A-tier — unique boss only drop</td>
+<td>specific floors (explore)</td>
+</tr>
+</tbody>
+</table>
+<h3>Timeline</h3>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T+0 day</td>
+<td>Reincarnators awaken in Town of Beginnings. All players gather at central plaza; Kayaba (GM avatar) declares the death game</td>
+</tr>
+<tr>
+<td>T+7 day</td>
+<td>Raid group begins organizing floor 1 labyrinth exploration</td>
+</tr>
+<tr>
+<td>T+14 day</td>
+<td>Floor 1 labyrinth's deepest Boss room found; strategy meeting held</td>
+</tr>
+<tr>
+<td>T+30 day</td>
+<td>Floor 1 Boss raid (Reincarnators should reach proper level/gear by then)</td>
+</tr>
+<tr>
+<td>T+60 day</td>
+<td>~floor 10 — red guild "Laughing Coffin" becomes active</td>
+</tr>
+<tr>
+<td>T+120 day</td>
+<td>~floor 25 — mid tier, Boss strength rises clearly</td>
+</tr>
+<tr>
+<td>T+240 day</td>
+<td>~floor 40 — high tier, red-player activity peaks, raid group faces ★★★★ Bosses</td>
+</tr>
+<tr>
+<td>T+365 day</td>
+<td>~floor 50 — finale, facing the ★★★★★ floor-50 Boss</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>Note: Raid speed depends on Reincarnator participation. Above timeline is a default reference; the GM may flexibly adjust by actual progress.</p>
+</blockquote>
+<h3>Key Locations</h3>
+<h4>Location A: Town of Beginnings</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Town of Beginnings</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Largest town on floor 1; stone streets lit by warm lamps. Anxious players gather before the central fountain. Tavern and shops open — players rebuild daily life in the virtual world. But no one forgets the unclickable "Logout" above their head.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Weapon shop (buy starter gear), potion shop (buy recovery crystals, daily restock 1d6), info tavern (raid progress and red-player intel), transfer-gate plaza (gates to unlocked floors)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>None — safe zone</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>North out of town → floor 1 labyrinth entrance (A→B); central plaza gate → unlocked floors</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>WM-01 (Aincrad floor 1 full map)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location B: Floor 1 Labyrinth</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Floor 1 Labyrinth</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A dark underground maze. Rough rock walls line the corridors; candles give faint light at intervals. Destroyed monster remains litter the floor — earlier raiders cleared part of the route. But low growls from the depths remind you: the worst is yet to come.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Monster spawn points (level up — defeat kobolds / ruin wolves for XP and low drops), treasure chests (Intelligence + Investigation, DC 2 to find hidden chests — chance of copper gear or recovery crystal), labyrinth map (collecting lowers exploration DC — without it, each new area needs a DC 2 direction check)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Kobold soldiers (★★) — 2–4 per area; Ruin Wolves (★★) — 1–2 per area; Destroyer (★★★) — 1 per 5 areas</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>Entrance in northern hills (A→30 min walk); deepest is Boss room → Boss raid (C)</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>EM-01 (floor 1 labyrinth interior)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location C: Floor 1 Boss Room</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Floor 1 Boss Room — Kobold King's Throne</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A giant stone room. The kobold lord's throne sits on the high platform ahead. Wall torches light the whole space. Raid-group members spread around the room — each grips a weapon; nervous breathing is loud in the quiet.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>None — pure combat scene</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Kobold Lord Illfang (★★★) + Ruin Kobold Guards ×3 (★★) — initial special mode; Boss HP&lt;50% switches weapon (axe+shield → scimitar), attack check DP+2</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>On clear, floor 2 transfer gate auto-activates</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>BM-01 (floor 1 Boss room)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location D: Mid-Tier Guild Base (~floors 20–30)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Raid-Group Guild Base — "Windbreaker" HQ</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A three-story stone inn on ~floor 25's main town, converted by Klein's guild "Windbreaker." Raid info and Boss tactics posters cover the walls. Klein himself always sits in the first-floor hall with a mug. This is the intel exchange hub between the raid group and rear players.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Raid info board (take other players' quests or offer trade), tactics briefing room (pre-Boss meeting — successful planning grants whole-team first-round Boss attack DP+1), guild quest board (help members for points and gear)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Friendly players (Windbreaker members — trade or intel), info brokers (buy next-floor Boss weakness intel: DC 3 Intelligence + Investigation to judge authenticity)</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>Floor 25 transfer-gate main town</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>EM-02 (Windbreaker base interior)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location E: Floor 50 Boss Room — Final Scene</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Floor 50 Boss Room — Chamber of the Reaper</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>The divide between Aincrad's mid and high tiers. The floor 50 Boss room is wholly different — a pure-white circular room, no decoration, only a black sphere floating at center. As the team enters, the sphere speaks low: "Challengers detected. Difficulty — Death tier. Activating defense protocol." The black ball bursts into a humanoid Reaper-shaped Boss.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>None — pure Boss fight</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Floor 50 Boss — "Reaper-type Guardian The Reaper" (★★★★★): HP 300, base defense 12 (+steel armor). Special — Death Reap: every 3 rounds deals fixed damage = 25% of current total HP to all (non-die, undodgeable). Afterimage clone: at HP&lt;30% splits into 3 (HP 80 each, attack 70% of original). On all-attack may pick 1 clone to sync (2 targets). Defeating all clones ends the Boss.</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>Must clear floor 49 Boss → floor 50 gate unlocks → this is the final scene</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>BM-02 (floor 50 Boss room)</td>
+</tr>
+</tbody>
+</table>
+<h3>Lord God Restrictions</h3>
+<ul>
+<li>"Reincarnators seal all external items and enhancements in this world. Only raw attributes (9 base values) may enter; everything SAO-in-game must be earned from zero."</li>
+<li>"HP zero = real death — NERvGear releases high-power microwave, no revive."</li>
+<li>"Do not reveal the Lord God Space to story characters."</li>
+<li>"Killing other innocent players (non-PK self-defense / non-red combat): -1000 each time."</li>
+</ul>
+<h3>Visual Map System</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>ID</th>
+<th>Content</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>World Map</td>
+<td>WM-01</td>
+<td>Aincrad elevation — floors 1–50 overview</td>
+<td><code>maps/SAO_WM-01.svg</code></td>
+</tr>
+<tr>
+<td>Exploration Map</td>
+<td>EM-01</td>
+<td>Floor 1 labyrinth interior — monster spread &amp; chests &amp; Boss route</td>
+<td><code>maps/SAO_EM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-01</td>
+<td>Floor 1 Boss battlefield (16×12 grid — Kobold throne hall)</td>
+<td><code>maps/SAO_BM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-02</td>
+<td>Floor 50 Boss battlefield (16×12 grid — Chamber of the Reaper)</td>
+<td><code>maps/SAO_BM-02.svg</code></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>六、Characters &amp; Enemy Units (separate Excel)</h2>
+<blockquote>
+<p>NPC and enemy unit data see separate Excel files:
+- <strong>NPC Roster</strong>: <code>SAO_NPC名冊.xlsx</code>
+- <strong>Enemy Unit Roster</strong>: <code>SAO_敵方單位名冊.xlsx</code></p>
+<p>Both contain a "Roster (名冊)" sheet and a "Blank Template" sheet; first column reserved for character art.</p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>七、Key Scenes</h2>
+<h3>Scene Structure</h3>
+<p>This script is <strong>hybrid</strong>: floor 1 is forced (S01–S03), then Boss fights trigger at specific floors by raid progress (S04–S05), floor 50 is the final battle (S06).</p>
+<hr />
+<h3>Phase One: Floor 1 Raid (0–30 days)</h3>
+<h4>Scene S01: Welcome to the Death Game</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S01</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>The Countdown in the Mirror</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Script start</td>
+</tr>
+<tr>
+<td>GM Read-Aloud</td>
+<td>"You open your eyes — not the Lord God Plaza, not anywhere familiar. Stone streets underfoot, medieval buildings around. No smell in the air — this isn't real. You look down at your hands… a virtual avatar. No black watch on your wrist. Instead a semi-transparent UI panel floats in your vision's corner — HP bar, level, equipment slots. As you try to understand, terrified screams erupt at the plaza center — everyone points at the sky. You look up. The sky turned red. A giant faceless GM avatar appears across the whole sky. 'Welcome, players, to my world. I have canceled the logout function. Dying in this game means your real brain is destroyed by NERvGear's microwave. Clearing all 100 floors is the only way out.' The world fell silent."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Surrounding players (panicking — Grace + Social check, DC 2 to calm 1d6 nearby players, who can give minor intel later), UI panel (manually open menus — map, skills, inventory), roadside NPC blacksmith (SAO auto-sells starter weapons)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>None — safe zone</td>
+</tr>
+<tr>
+<td>Gene Lock</td>
+<td><strong>Gene Lock Hint</strong>: Guidance phase, Gene Lock not advised. But the GM may hint — under this world's rules, attributes and skills are the only guarantee. The step out later needs Gene Lock resolve.</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Calm nearby players → later gain a small info network (skip some intel-gather DC); go to shop to prep gear immediately → save time but lack intel; find other Reincarnators (multi-team mode) → confirm cooperation</td>
+</tr>
+<tr>
+<td>Transition</td>
+<td>Leave town after initial prep</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4>Scene S02: Floor 1 Labyrinth — Raid Group's First Fight</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S02</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Fangs in the Dark</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Enter floor 1 labyrinth (self-depart or follow raid group)</td>
+</tr>
+<tr>
+<td>GM Read-Aloud</td>
+<td>"The labyrinth entrance is a giant iron gate — already opened, marked by the raid group. Behind it, a dark corridor, lit only by wall candles. A low growl comes from deep: 'Awooo—' then kobolds charging from the dark. Their crude weapons reflect firelight; only killing intent in their eyes."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Raid-group marks (Intelligence + Investigation, DC 1 to follow the explored route), treasure chests (Investigation DC 2 for hidden chests), monster spawn points (level up)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Kobold soldiers (★★) ×2–4 per area (40% encounter per corridor); Ruin Wolves (★★) ×1–2 (20% extra)</td>
+</tr>
+<tr>
+<td>Gene Lock</td>
+<td><strong>Gene Lock Hint</strong>: First real fight. Sword-skill recovery lag shows in practice — "can't defend right after attacking." Gene Lock II gains SAO combat intuition here: Agility + Athletics check (DC 3) — success predicts monster attack direction, Defense check DP+1 for 1 scene. Suggest feel out tactics before opening Gene Lock.</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Follow raid group → DP+1 exploration (shared intel), level to Lv.5+; explore alone → hidden chests (chance ×2 but +20% encounter); assist leveling players → rescue counts toward optional goal, extra XP</td>
+</tr>
+<tr>
+<td>Transition</td>
+<td>Reach the depths (pass 6 areas) or level to required</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4>Scene S03: Floor 1 Boss Raid — Kobold Lord</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S03</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Boss Raid — To Leave This Tower</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>After strategy meeting, enter Boss room with raid group</td>
+</tr>
+<tr>
+<td>GM Read-Aloud</td>
+<td>"Raid members split into six groups: two vanguard, two mid, two rear support. As the heavy stone door opens, all wall torches flare — blue-white light reveals the giant kobold on the throne. Over three meters tall, one hand a great axe, one a round shield. It lifts its head — crimson eyes lock on the overeager challengers at the door. 'Wooooooo—!' The huge roar shakes the room. The Kobold Lord leaps from the throne; three Ruin Kobold Guards flank from both sides — battle begins."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Vanguard group (Group A — join as vanguard/main tank), mid group (Group B — flank DPS), rear support (Group C — ammo support and backup switch), retreat signal (Agility + Athletics DC 2 to read Boss target switch → predict swap)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Kobold Lord Illfang (★★★☆) — HP 120, base defense 8 (+shield +2 = 10). Mode 1 (axe+shield): single attack 4d6 blunt (DP6), every 3 rounds shield bash (AoE, fail Resolve DC 3 = knockback 5ft + fall). Mode 2 (HP&lt;50% — scimitar): no shield (base defense -2 but attack DP+3), scimitar flurry — 2 attacks/round (2d8+2 slash). Ruin Kobold Guards (★★) ×3 — HP 45, attack 2d6 slash</td>
+</tr>
+<tr>
+<td>Gene Lock</td>
+<td><strong>Gene Lock Hint</strong>: Strongly advised Gene Lock II–III. The Boss mode switch is a fatal turning point — in the original, Diabel died not predicting it. Gene Lock III can predict the switch 1 round early (Perception + Investigation, DC 3: success knows weapon will change to scimitar mode). Then execute "Switch" to pull the vanguard, avoiding Diabel's repeat mistake.</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>(A) Protect Diabel → Grace + Social DC 3 persuade him to放弃了最后一击的主攻 → Diabel survives, later raid-group intel network; (B) Let story flow → Diabel dies → Kirito and Asuna lead the raid group; (C) Rush the scimitar mode → high risk (early DP-2 unprepared) but prevents Boss mode switch (must kill fast before HP hits 50%)</td>
+</tr>
+<tr>
+<td>Transition</td>
+<td>Kobold Lord defeated. Floor 2 gate unlocks — SAO raid officially begins</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>Phase Two: Raid Progress (30–365 days)</h3>
+<p>The following scenes trigger when raid progress reaches specific floors:</p>
+<h4>Scene S04: The Red Threat — Laughing Coffin</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S04</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Funeral of the Death God</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>At ~floors 10–25, on red-player assault or intel pointing to Laughing Coffin's base</td>
+</tr>
+<tr>
+<td>GM Read-Aloud</td>
+<td>"—Footsteps behind you. Not a monster. Monsters have fixed movement audio — these are player steps. But the comer doesn't hide his overhead marker — orange. The most dangerous color: not a monster, but a killer player. Three, four, five orange markers appear in the corridor shadow. The leader wears a black cloak, a jagged longsword in hand. His marker is — red. 'Newbie?' The voice sounds relaxed but cold. 'Know the best part of SAO? No consequences.'"</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>PoH (Laughing Coffin master — not frontline, manipulates red players into mass siege; skill: Incite — each round red players DP+1), red players ×4 (★★~★★★, poisoned weapons — hit adds 1d4 poison/round for 3 rounds)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>PoH (★★★☆) + red core ×3 (★★★) + red外围 ×2 (★★). PoH gives an incite speech every 2 rounds (Grace + Manipulation vs target Resolve + Composure): success = all reds next-round attack DP+2. Must defeat PoH first (HP 80 / defense 10) or red DP keeps rising.</td>
+</tr>
+<tr>
+<td>Gene Lock</td>
+<td><strong>Gene Lock Hint</strong>: Advised Gene Lock II–III. Red players' mob siege is extremely dangerous in SAO — can't defend multiple attackers during lag. Gene Lock III gains "multi-combat positioning" (Perception + Investigation, DC 3): success tracks 3 enemies' attacks at once, no penalty for being focused by many. Gene Lock IV gains AoE counter here (melee DP no penalty vs multiple targets).</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Defeat PoH → triggers S-02 reward, guild dissolves, later red harassment gone; surrender → looted gear and potions (lose random 3 items) but survive; sneak past (Agility + Stealth DC 4) → avoid risk but Laughing Coffin keeps harassing (20% red encounter per main-town trade)</td>
+</tr>
+<tr>
+<td>Transition</td>
+<td>Defeat or bypass the red group</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4>Scene S05: Mid-Tier Boss Raid (Representative Floor)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S05</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Guardian of the High Tower</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Forced at every 5th floor (5, 10, 15, 20, 25, 30, 35, 40, 45)</td>
+</tr>
+<tr>
+<td>GM Read-Aloud</td>
+<td>(Adjust by floor) "The raid group's scouts compiled this floor's Boss intel — a hand-drawn Boss sketch pinned to the tactics board. Everyone stares at it. 'This Boss has two phases; phase two summons mobs,' the intel officer says. 'Careless and we wipe. Leave now if you want.' No one leaves. As always."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Boss intel (tactics board — Intelligence + Knowledge check, DC by floor: 5–15 DC2 / 20–35 DC3 / 40–50 DC4; success grants one combat edge — e.g. know weakness attribute / predict special-skill timing), raid-group companions (choose vanguard / mid / rear)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Boss (★★★~★★★★★ by floor step) — see enemy unit roster. Boss strength jumps every 5 floors: 5F=★★★☆, 10F=★★★★, 15F=★★★★, 20F=★★★★☆, 25F=★★★★☆, 30F=★★★★★, 35F=★★★★★, 40F=★★★★★, 45F=★★★★★☆, 50F=★★★★★+ (final Boss)</td>
+</tr>
+<tr>
+<td>Gene Lock</td>
+<td><strong>Gene Lock Hint</strong>: Mid+ Bosses (floor 30+) strongly advise Gene Lock III+. Boss damage output reaches wipe level — under HP 150 can be one-shot. Team coordination (Switch) and tactical moves (Agility + Athletics to time dodges) are critical here.</td>
+</tr>
+<tr>
+<td>Transition</td>
+<td>Boss defeated → gate unlocks</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3>Phase Three: Final Battle (Floor 50)</h3>
+<h4>Scene S06: Floor 50 — Trial of the Reaper</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S06</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Death 50/100</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Raid to floor 50 (forced finale)</td>
+</tr>
+<tr>
+<td>GM Read-Aloud</td>
+<td>"The floor 50 Boss room is wholly different in structure — no throne, no torches, no decor. A pure-white circular room stripped of all 'game feel.' The black sphere at center slowly rotates, emitting a low mechanical voice. 'Challengers detected. This is floor 50 defense point. The entrance to clearing. Difficulty — Death tier. Activating defense protocol.' The sphere bursts — from black mist walks a humanoid. A faceless face turns to you. A black giant scythe condenses in its hand. 'To clear — only pass me now.' The Boss's voice is cold as steel."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>None — pure Boss fight</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Floor 50 Boss "Reaper-type Guardian / Reaper" (★★★★★+).</td>
+</tr>
+<tr>
+<td>Detailed:</td>
+<td></td>
+</tr>
+<tr>
+<td>- HP 300, defense 12 (steel armor — sword-skill penetration halved)</td>
+<td></td>
+</tr>
+<tr>
+<td>- Scythe Slash: single 4d8 slash (DP10), 1d8 pierce on block</td>
+<td></td>
+</tr>
+<tr>
+<td>- Death Reap: every 3 rounds AoE fixed damage = 25% max HP (unavoidable, unmitigable)</td>
+<td></td>
+</tr>
+<tr>
+<td>- Afterimage Clone (at HP&lt;30%): splits into 3 clones (HP 100 / attack DP 8), each round the main body's 1 attack may pick 1 clone to sync (2 targets)</td>
+<td></td>
+</tr>
+<tr>
+<td>- Summon Wraith: every 5 rounds summons 1d3 "Wraith Shards" (★ — HP 20 / self-detonate — on defeat deal 2d6 dark to adjacent 1 cell)</td>
+<td></td>
+</tr>
+<tr>
+<td>- Teleport (passive layer shift): every -50 HP → instantly teleport one player to room opposite (Agility + Athletics DC 4 to return next round, else away 1 round)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Battle strategy keys:
+- Death Reap's fixed damage undodgeable — every 3 rounds ensure all HP above 25% or wipe
+- When clones appear, don't split attacks — focus 1 clone → defeat then next
+- Switch is the only reliable defense — during lag a teammate must accept aggro transfer
+- Wraith Shards are a resource trap — clear with ranged, no need to approach, avoid self-detonation
+- Teleport is the biggest variable — every 50 HP; mid players should maintain team contact after being teleported |
+| Gene Lock | <strong>Gene Lock Hint</strong>: Strongly requires Gene Lock IV. Floor 50 Boss data exceeds normal ★★★★★ — a stage designed to kill the dead. Gene Lock IV key uses: (1) Predict Death Reap (Perception + Investigation, DC 4): success gives 1 round early to reposition and heal — put the sharpest Reincarnator at core to detect Boss skill rhythm; (2) Identify the real clone (Intelligence + Investigation, DC 4): when clones appear, see one isn't a true clone — it's a projection; attacking it directly reduces Boss HP by DP value; (3) Best axis of teamwork — Gene Lock IV Reincarnator is the team's core, not a solo role, using Gene Lock to coordinate switches and positioning. |
+| Branch Options | Defeat Reaper → main quest complete — floor 50 cleared! Reward triggers; Reincarnators may continue past floor 51 (main done, can teleport to Lord God Space within 10 min); team fails (≥2 dead) → survivors retreat (transfer crystal to town — safe) but must re-raid floor 50 (Boss doesn't respawn — room stays open, but re-plan) |
+| Transition | Reaper cleared — main complete |</p>
+<hr /></section>
+<section class="chap"><h2>八、Multi-Team Competition Rules</h2>
+<p>If running multi-team (2–3 Reincarnator teams in SAO):</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Competition Mode</td>
+<td>Cooperative coexistence — teams share raid intel, compete for rare Boss drops</td>
+</tr>
+<tr>
+<td>Victory Condition</td>
+<td>At least 1 person per team survives to floor 50 clear — counted independently. First team to floor 50 gains extra C1</td>
+</tr>
+<tr>
+<td>Mutual Attack</td>
+<td>Reincarnators may attack each other — PK in SAO doesn't directly kill, but HP zero still = real death. Each kill of another team's Reincarnator: attacker -3000. Thus no infighting advised</td>
+</tr>
+<tr>
+<td>Boss Ownership</td>
+<td>Team landing the last hit gets the drop. Raid meeting may negotiate distribution</td>
+</tr>
+<tr>
+<td>GM Adjustment</td>
+<td>Boss HP ×1.5; increase potion-shop restock frequency (more buyers)</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>九、Reward Settlement</h2>
+<table>
+<thead>
+<tr>
+<th>Reward Type</th>
+<th>Content</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main Clear</td>
+<td>Raid to floor 50 + survive</td>
+<td>B+5000</td>
+</tr>
+<tr>
+<td>Optional ①</td>
+<td>Join 10 floor-Boss raids</td>
+<td>B1</td>
+</tr>
+<tr>
+<td>Optional ②</td>
+<td>Save at least 50 players</td>
+<td>+3000</td>
+</tr>
+<tr>
+<td>Side S-01</td>
+<td>Defeat floor 1 Boss (first kill)</td>
+<td>C+1000</td>
+</tr>
+<tr>
+<td>Side S-02</td>
+<td>Defeat red guild "Laughing Coffin"</td>
+<td>B+2000</td>
+</tr>
+<tr>
+<td>Side S-03</td>
+<td>Find Dual Blades condition</td>
+<td>C+1500</td>
+</tr>
+<tr>
+<td>Kill</td>
+<td>Normal monster (per floor)</td>
+<td>20–200/each (by tier/strength)</td>
+</tr>
+<tr>
+<td>Kill</td>
+<td>Boss (per floor)</td>
+<td>500–3000/each (by floor)</td>
+</tr>
+<tr>
+<td>Special</td>
+<td>Floor 1 Boss mode-switch, no ally death</td>
+<td>500</td>
+</tr>
+<tr>
+<td>Special</td>
+<td>Reaper raid no death</td>
+<td>1000</td>
+</tr>
+<tr>
+<td>Special</td>
+<td>Find Aincrad hidden room (any 1)</td>
+<td>300</td>
+</tr>
+<tr>
+<td>Special</td>
+<td>Befriend Kirito</td>
+<td>300</td>
+</tr>
+<tr>
+<td>Roleplay</td>
+<td>GM discretion</td>
+<td>0–500</td>
+</tr>
+</tbody>
+</table>
+<h3>Theoretical Max Yield (single team)</h3>
+<blockquote>
+<p>Main: B ×1 +5000
+Optional ① (10 Bosses): B ×1
+Optional ② (save 50): 3000
+S-01: C ×1 +1000 / S-02: B ×1 +2000 / S-03: C ×1 +1500
+Monster kills (~200): ~3000
+Boss kills (~10 + floor 50): 10000 (incl. floor-50 jackpot)
+Floor1 no death: 500 / Reaper no death: 1000 / hidden rooms ×2: 600 / Kirito friend: 300 / Roleplay: 500</p>
+<p>= <strong>B3 + C2 + 28400</strong></p>
+</blockquote>
+<h3>Return Exchange (script-limited)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Item</th>
+<th>Cost</th>
+<th>Effect</th>
+<th>Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>Equipment Smithing (skill)</td>
+<td>C+1000</td>
+<td>Craft (equipment smithing) check permanently +2</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Asuna's Recipe Book (item)</td>
+<td>C+1000</td>
+<td>Special item — cook recovery meals in Lord God Space (2/script, restore 2d8 HP)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Solo Sword Skill · Single (skill)</td>
+<td>C+1000</td>
+<td>Learn basic sword skill "Straight Edge" — melee attack DP+2, can charge (next round +1d6)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Will System Adaptation (passive)</td>
+<td>C+1000</td>
+<td>Adapt to VR will-link — focused attack DP+1, WIL check +2</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Sword Skill Retention (craft)</td>
+<td>B+2000</td>
+<td>Use SAO sword skills in later scripts (melee-related checks only), DP bonus 50% (restorable to 100% later)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Dual Blades Adaptation (passive)</td>
+<td>B+2000</td>
+<td>Passive no-penalty dual-weapon combat (not limited to SAO — general dual-weapon feat)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Switch Tactics (skill)</td>
+<td>B+2000</td>
+<td>Agility + Athletics (Switch) permanently +2, quick swap with teammate (3/script)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Dual Blades · Star Burst (sword skill)</td>
+<td>A+4000</td>
+<td>Learn "Star Burst Stream" — twin-sword 16-hit (4d6 melee), 1/major script</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>System Elf Authority (authority)</td>
+<td>A+7200</td>
+<td>Gain "Cardinal"-level elf authority — rewrite local system rules (1/major script: ignore 1 instant-death, relax skill-seal to 1/3 major scripts)</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></section>
+<section class="chap"><h2>十、Appendix</h2>
+<h3>GM Memo</h3>
+<ul>
+<li><strong>Common Stuck Point 1</strong>: Floor 1 Boss mode switch may instakill unaware vanguards — fix: in the strategy meeting hint Reincarnators to "gather intel" (Intelligence + Investigation) for clues of hidden weapon change. If they miss it, have Kirito shout a warning in combat.</li>
+<li><strong>Common Stuck Point 2</strong>: Potion management — Reincarnators may over-use recovery crystals and run dry before Boss — fix: hint at safe-floor potion restock (once daily).</li>
+<li><strong>Common Stuck Point 3</strong>: Floor 50 Reaper's 25% fixed Death Reap may feel helpless — fix: via intel (or Kirito/Asuna experience) hint "once every 3 rounds — keep all HP full."</li>
+<li><strong>Difficulty Up</strong>: lower potion restock, Boss HP ×1.5, Reaper clones 3→5, higher red encounter rate.</li>
+<li><strong>Difficulty Down</strong>: potion uses 2→3, Boss attack DP-2, Reaper clones trigger at HP&lt;30%→&lt;20%, more Kirito/Asuna active assistance.</li>
+<li><strong>Player Unconventional Actions</strong>: If players try floor 50 without clearing 1–49 — remind them the gate system requires sequential unlock. If they try Lord God Space flight items — these are sealed (this world only allows SAO-in-game items).</li>
+<li><strong>Raid Speed Control</strong>: If Reincarnators rush (skip leveling), remind "below recommended level = fatal penalty in Boss." If they over-level (waste time), have the raid group report the Boss already found by others / must raid within a time limit or other teams grab it.</li>
+</ul>
+<h3>References</h3>
+<ul>
+<li>Sword Art Online novels vol. 1–2 (Aincrad arc)</li>
+<li>Sword Art Online anime ep. 1–14 (Aincrad arc)</li>
+<li>"SAO Game System" setting (equipment tiers, sword skills, switch, etc.)</li>
+</ul>
+<hr />
+<blockquote>
+<p><strong>Script Code</strong>: SAO
+<strong>Version</strong>: v1.0
+<strong>Format Spec</strong>: v0.4</p>
+</blockquote></section></section>
+    <section class="block"><h2>地圖（YAML＋SVG）</h2><div class="map">
+              <div class="maptitle">SAO_BM-01 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="45" height="45" patternUnits="userSpaceOnUse">
+    <path d="M 45 0 L 0 0 0 45" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<rect x="20" y="20" width="760" height="560" fill="url(#grid)"/>
+<rect x="20" y="20" width="760" height="560" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="400.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">No.1Sheaf BOSSBattlegrounds — Kobold King's Throne</text>
+<text x="25" y="592" fill="#666" font-size="9">SAO_BM-01 | 16×12delete（conceptualize） | 1delete = 5ft | L_STATISTIC_TOTAL_COLUMN 80×60ft</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="177.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="222.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="267.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="312.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="357.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="402.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="447.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="492.5" y="15" text-anchor="middle" fill="#555" font-size="7">11</text>
+<text x="537.5" y="15" text-anchor="middle" fill="#555" font-size="7">12</text>
+<text x="582.5" y="15" text-anchor="middle" fill="#555" font-size="7">13</text>
+<text x="627.5" y="15" text-anchor="middle" fill="#555" font-size="7">14</text>
+<text x="672.5" y="15" text-anchor="middle" fill="#555" font-size="7">15</text>
+<text x="717.5" y="15" text-anchor="middle" fill="#555" font-size="7">16</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="180.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="225.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="270.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="315.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="360.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="405.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="450.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<text x="8" y="495.5" text-anchor="middle" fill="#555" font-size="7">K</text>
+<text x="8" y="540.5" text-anchor="middle" fill="#555" font-size="7">L</text>
+<rect x="315.0" y="70.0" width="90.0" height="30.0" rx="5" fill="#2d1b4e" stroke="#b794f4" stroke-width="1.5"/>
+<text x="360.0" y="81.0" text-anchor="middle" fill="#aaa" font-size="8">Throne</text>
+<text x="360.0" y="95.0" text-anchor="middle" fill="#666" font-size="6">(40.0, 7.5)ft</text>
+<rect x="330.0" y="120.0" width="60.0" height="60.0" rx="3" fill="#2d0a1a" stroke="#b8305e" stroke-width="2.5"/>
+<text x="360.0" y="146.0" text-anchor="middle" fill="#aaa" font-size="8">Kobold Lord</text>
+<text x="360.0" y="160.0" text-anchor="middle" fill="#666" font-size="6">(37.5, 12.5)ft</text>
+<rect x="260.0" y="200.0" width="50.0" height="50.0" rx="3" fill="#1f1440" stroke="#6b1a3a" stroke-width="1.5"/>
+<text x="285.0" y="221.0" text-anchor="middle" fill="#aaa" font-size="8">GuardsA</text>
+<text x="285.0" y="235.0" text-anchor="middle" fill="#666" font-size="6">(27.5, 22.5)ft</text>
+<rect x="410.0" y="200.0" width="50.0" height="50.0" rx="3" fill="#1f1440" stroke="#6b1a3a" stroke-width="1.5"/>
+<text x="435.0" y="221.0" text-anchor="middle" fill="#aaa" font-size="8">GuardsB</text>
+<text x="435.0" y="235.0" text-anchor="middle" fill="#666" font-size="6">(47.5, 22.5)ft</text>
+<rect x="330.0" y="340.0" width="50.0" height="50.0" rx="3" fill="#1f1440" stroke="#6b1a3a" stroke-width="1.5"/>
+<text x="355.0" y="361.0" text-anchor="middle" fill="#aaa" font-size="8">GuardsC</text>
+<text x="355.0" y="375.0" text-anchor="middle" fill="#666" font-size="6">(37.5, 37.5)ft</text>
+<rect x="40.0" y="460.0" width="200.0" height="80.0" rx="3" fill="#0a201a" stroke="#2d8f6b" stroke-width="1.5"/>
+<text x="140.0" y="496.0" text-anchor="middle" fill="#aaa" font-size="8">Raiders group entrance</text>
+<text x="140.0" y="510.0" text-anchor="middle" fill="#666" font-size="6">(10.0, 55.0)ft</text>
+<rect x="0.0" y="0.0" width="200.0" height="180.0" rx="3" fill="#1a1030" stroke="#3a2a5e" stroke-width="1"/>
+<text x="100.0" y="86.0" text-anchor="middle" fill="#aaa" font-size="8">Shield Strike Per3ROUND</text>
+<text x="100.0" y="100.0" text-anchor="middle" fill="#666" font-size="6">(10.0, 10.0)ft</text>
+<rect x="70.0" y="160.0" width="60" height="20" rx="3" fill="#00FF88" opacity="0.2" stroke="#00FF88"/>
+<text x="100.0" y="174.0" text-anchor="middle" fill="#00FF88" font-size="8">Diabelle=Priority Protection Targets</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/en/maps/SAO_BM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/en/maps/SAO_BM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">SAO_BM-02 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<rect x="20" y="20" width="760" height="560" fill="url(#grid)"/>
+<rect x="20" y="20" width="760" height="560" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="400.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">No.50Sheaf BOSSBattlegrounds — Between the Grim Reapers</text>
+<text x="25" y="592" fill="#666" font-size="9">SAO_BM-02 | 8×2delete（conceptualize） | 1delete = 5ft | L_STATISTIC_TOTAL_COLUMN 40×10ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<rect x="60.0" y="70.0" width="680.0" height="460.0" rx="3" fill="#0d0d1e" stroke="#4a2d8f" stroke-width="1.5"/>
+<text x="400.0" y="296.0" text-anchor="middle" fill="#aaa" font-size="8">Grim Reaper</text>
+<text x="400.0" y="310.0" text-anchor="middle" fill="#666" font-size="6">(127.5, 92.5)ft</text>
+<rect x="65.0" y="75.0" width="670.0" height="450.0" rx="3" fill="none" stroke="#3a2a5e" stroke-width="0.5"/>
+<text x="400.0" y="296.0" text-anchor="middle" fill="#aaa" font-size="8">Grim Reaper</text>
+<text x="400.0" y="310.0" text-anchor="middle" fill="#666" font-size="6">(127.5, 95.0)ft</text>
+<rect x="90.0" y="460.0" width="140.0" height="60.0" rx="3" fill="#0a201a" stroke="#2d8f6b" stroke-width="1.5"/>
+<text x="160.0" y="486.0" text-anchor="middle" fill="#aaa" font-size="8">Team Portal</text>
+<text x="160.0" y="500.0" text-anchor="middle" fill="#666" font-size="6">(47.5, 155.0)ft</text>
+<rect x="140.0" y="350.0" width="30.0" height="30.0" rx="3" fill="#1a1030" stroke="#4a2d8f" stroke-width="1.5"/>
+<text x="155.0" y="361.0" text-anchor="middle" fill="#aaa" font-size="8">Columns</text>
+<text x="155.0" y="375.0" text-anchor="middle" fill="#666" font-size="6">(45.0, 115.0)ft</text>
+<rect x="630.0" y="350.0" width="30.0" height="30.0" rx="3" fill="#1a1030" stroke="#4a2d8f" stroke-width="1.5"/>
+<text x="645.0" y="361.0" text-anchor="middle" fill="#aaa" font-size="8">Columns</text>
+<text x="645.0" y="375.0" text-anchor="middle" fill="#666" font-size="6">(210.0, 115.0)ft</text>
+<rect x="630.0" y="200.0" width="30.0" height="30.0" rx="3" fill="#1a1030" stroke="#4a2d8f" stroke-width="1.5"/>
+<text x="645.0" y="211.0" text-anchor="middle" fill="#aaa" font-size="8">Columns</text>
+<text x="645.0" y="225.0" text-anchor="middle" fill="#666" font-size="6">(210.0, 65.0)ft</text>
+<rect x="140.0" y="200.0" width="30.0" height="30.0" rx="3" fill="#1a1030" stroke="#4a2d8f" stroke-width="1.5"/>
+<text x="155.0" y="211.0" text-anchor="middle" fill="#aaa" font-size="8">Columns</text>
+<text x="155.0" y="225.0" text-anchor="middle" fill="#666" font-size="6">(45.0, 65.0)ft</text>
+<rect x="300.0" y="160.0" width="40.0" height="40.0" rx="3" fill="none" stroke="#4a2d8f" stroke-width="1"/>
+<text x="320.0" y="176.0" text-anchor="middle" fill="#aaa" font-size="8">CloneA</text>
+<text x="320.0" y="190.0" text-anchor="middle" fill="#666" font-size="6">(102.5, 52.5)ft</text>
+<rect x="500.0" y="400.0" width="40.0" height="40.0" rx="3" fill="none" stroke="#4a2d8f" stroke-width="1"/>
+<text x="520.0" y="416.0" text-anchor="middle" fill="#aaa" font-size="8">CloneB</text>
+<text x="520.0" y="430.0" text-anchor="middle" fill="#666" font-size="6">(167.5, 132.5)ft</text>
+<rect x="600.0" y="250.0" width="40.0" height="40.0" rx="3" fill="none" stroke="#4a2d8f" stroke-width="1"/>
+<text x="620.0" y="266.0" text-anchor="middle" fill="#aaa" font-size="8">CloneC</text>
+<text x="620.0" y="280.0" text-anchor="middle" fill="#666" font-size="6">(202.5, 82.5)ft</text>
+<rect x="0.0" y="0.0" width="220.0" height="220.0" rx="3" fill="#1a1030" stroke="#3a2a5e" stroke-width="1"/>
+<text x="110.0" y="106.0" text-anchor="middle" fill="#aaa" font-size="8"><g id="Bold">Qn,</g>50HP: Send1Player</text>
+<text x="110.0" y="120.0" text-anchor="middle" fill="#666" font-size="6">(32.5, 32.5)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/en/maps/SAO_BM-02.yaml" download>yaml</a> <a href="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/en/maps/SAO_BM-02.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">SAO_EM-01 <span class="maptype">探索地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<rect width="800" height="600" fill="#1a1a2e"/>
+<text x="400.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">No.1Layer Labyrinth · Internal map</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 1</text>
+<rect x="20" y="0.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="12.0" height="12.0" rx="2.0" fill="#1f1440" stroke="#4a2d8f" stroke-width="1"/>
+<text x="6.0" y="6.0" text-anchor="middle" fill="#aaa" font-size="9">Monster Lair</text>
+<rect x="90.0" y="0.0" width="12.0" height="12.0" rx="2.0" fill="#1f1440" stroke="#4a2d8f" stroke-width="1"/>
+<text x="96.0" y="6.0" text-anchor="middle" fill="#aaa" font-size="9">Chest/RESOURCE</text>
+<rect x="180.0" y="0.0" width="12.0" height="12.0" rx="2.0" fill="#1f1440" stroke="#6b1a3a" stroke-width="1.5"/>
+<text x="186.0" y="6.0" text-anchor="middle" fill="#aaa" font-size="9">elite monster</text>
+<rect x="260.0" y="0.0" width="12.0" height="12.0" rx="2.0" fill="#2d0a1a" stroke="#b8305e" stroke-width="2"/>
+<text x="266.0" y="6.0" text-anchor="middle" fill="#aaa" font-size="9">BOSS</text>
+<rect x="30.0" y="65.0" width="740.0" height="490.0" rx="5.0" fill="none" stroke="#3a2a5e" stroke-width="2"/>
+<rect x="50.0" y="85.0" width="120.0" height="30.0" rx="4.0" fill="#1a1030" stroke="#4a2d8f" stroke-width="1"/>
+<text x="110.0" y="100.0" text-anchor="middle" fill="#aaa" font-size="9">INLET</text>
+<rect x="170.0" y="85.0" width="560.0" height="30.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<text x="450.0" y="100.0" text-anchor="middle" fill="#aaa" font-size="9">Sword Art Online · Exploration Map EM-01</text>
+<rect x="50.0" y="115.0" width="30.0" height="120.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<rect x="170.0" y="115.0" width="30.0" height="120.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<rect x="300.0" y="115.0" width="30.0" height="120.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<rect x="490.0" y="115.0" width="30.0" height="120.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<text x="20" y="230.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 2</text>
+<rect x="20" y="235.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="50.0" y="235.0" width="120.0" height="30.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<text x="110.0" y="250.0" text-anchor="middle" fill="#aaa" font-size="9">Kobold's Nest</text>
+<rect x="170.0" y="235.0" width="560.0" height="30.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<rect x="500.0" y="235.0" width="30.0" height="140.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<text x="515.0" y="305.0" text-anchor="middle" fill="#aaa" font-size="9">DC2Survey</text>
+<rect x="200.0" y="235.0" width="30.0" height="140.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<text x="215.0" y="305.0" text-anchor="middle" fill="#aaa" font-size="9">★★x1~2</text>
+<rect x="630.0" y="235.0" width="30.0" height="70.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<text x="645.0" y="270.0" text-anchor="middle" fill="#aaa" font-size="9">Chest Room</text>
+<rect x="80.0" y="255.0" width="80.0" height="50.0" rx="5.0" fill="#1f1440" stroke="#4a2d8f" stroke-width="1.5"/>
+<text x="120.0" y="280.0" text-anchor="middle" fill="#aaa" font-size="9">Kobold's Nest</text>
+<rect x="230.0" y="255.0" width="80.0" height="50.0" rx="5.0" fill="#1f1440" stroke="#4a2d8f" stroke-width="1.5"/>
+<text x="270.0" y="280.0" text-anchor="middle" fill="#aaa" font-size="9">Ruins Wolf Cave</text>
+<rect x="540.0" y="255.0" width="80.0" height="50.0" rx="5.0" fill="#1f1440" stroke="#4a2d8f" stroke-width="1.5"/>
+<text x="580.0" y="280.0" text-anchor="middle" fill="#aaa" font-size="9">Chest Room</text>
+<text x="20" y="370.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 3</text>
+<rect x="20" y="375.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="50.0" y="375.0" width="420.0" height="30.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<rect x="500.0" y="375.0" width="260.0" height="30.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<rect x="50.0" y="405.0" width="30.0" height="120.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<text x="65.0" y="465.0" text-anchor="middle" fill="#aaa" font-size="9">Saboteur</text>
+<rect x="320.0" y="405.0" width="30.0" height="120.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<rect x="630.0" y="405.0" width="30.0" height="120.0" rx="4.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<text x="645.0" y="465.0" text-anchor="middle" fill="#aaa" font-size="9">BOSSRoom</text>
+<rect x="80.0" y="445.0" width="100.0" height="50.0" rx="5.0" fill="#1f1440" stroke="#6b1a3a" stroke-width="1.5"/>
+<text x="130.0" y="470.0" text-anchor="middle" fill="#aaa" font-size="9">Saboteur</text>
+<rect x="370.0" y="445.0" width="100.0" height="50.0" rx="5.0" fill="#1f1440" stroke="#4a2d8f" stroke-width="1.5"/>
+<text x="420.0" y="470.0" text-anchor="middle" fill="#aaa" font-size="9">Break Point</text>
+<rect x="620.0" y="445.0" width="120.0" height="80.0" rx="6.0" fill="#2d0a1a" stroke="#b8305e" stroke-width="2"/>
+<text x="680.0" y="485.0" text-anchor="middle" fill="#aaa" font-size="9">BOSSRoom</text>
+<text x="20" y="525.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 4</text>
+<rect x="20" y="530.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="50.0" y="530.0" width="610.0" height="10.0" rx="3.0" fill="#1a1030" stroke="#2d1b4e" stroke-width="1"/>
+<text x="355.0" y="535.0" text-anchor="middle" fill="#aaa" font-size="9">SAO_Instance · Map IDEM-01 · 800x600 · #1a1a2e</text>
+<rect x="20" y="545" width="760" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="570" fill="#aaa" font-size="9">SAO_Instance · Map IDEM-01 · 800x600 · #1a1a2e</text>
+<text x="20" y="590" fill="#666" font-size="9">SAO_EM-01 | Explore the map </text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/en/maps/SAO_EM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/en/maps/SAO_EM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">SAO_WM-01 <span class="maptype">世界地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="800" height="600" fill="url(#wmgrid)"/>
+<rect x="120.0" y="90.0" width="120.0" height="22.0" rx="5" fill="#b8305e" stroke="" stroke-width="2"/>
+<text x="180.0" y="101.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">No.50Sheaf ★Grim Reaper</text>
+<line x1="260.0" y1="548.0" x2="340.0" y2="530.0" stroke="#b8305e" stroke-width="1" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<rect x="630" y="20" width="150" height="146" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="705" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Legend</text>
+<text x="640" y="60" fill="#aaa" font-size="9">Player Starting Point · secure zone · Portal Center</text>
+<text x="640" y="76" fill="#aaa" font-size="9">Wind Forest Volcano Headquarters · about25Sheaf</text>
+<text x="640" y="92" fill="#aaa" font-size="9">Raiders Intelligence Exchange · Transaction Center</text>
+<text x="640" y="108" fill="#aaa" font-size="9">Final Scene · Raiders Watershed</text>
+<text x="640" y="124" fill="#aaa" font-size="9">General Floor</text>
+<text x="640" y="140" fill="#aaa" font-size="9">BOSSSheaf(<g id="Bold">Qn,</g>5Sheaf)</text>
+<text x="640" y="156" fill="#aaa" font-size="9">Final</text>
+<text x="20" y="585" fill="#666" font-size="9">SAO_WM-01 | Large area map | Illustration</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/en/maps/SAO_WM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/en/maps/SAO_WM-01.svg" download>svg</a></p>
+            </div></section>
+    <section class="block"><h2>概念圖</h2><div class="gallery"><a href="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/images/enemy_01_kayaba.png" target="_blank"><img src="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/images/enemy_01_kayaba.png" alt="enemy_01_kayaba.png"></a><a href="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/images/npc_01_kirito.png" target="_blank"><img src="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/images/npc_01_kirito.png" alt="npc_01_kirito.png"></a><a href="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/images/npc_02_SAO_01.png" target="_blank"><img src="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/images/npc_02_SAO_01.png" alt="npc_02_SAO_01.png"></a><a href="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/images/scene_01_aincrad.png" target="_blank"><img src="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/images/scene_01_aincrad.png" alt="scene_01_aincrad.png"></a><a href="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/images/scene_S02_第1層迷宮_攻略組初戰.png" target="_blank"><img src="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/images/scene_S02_第1層迷宮_攻略組初戰.png" alt="scene_S02_第1層迷宮_攻略組初戰.png"></a><a href="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/images/scene_S03_第1層BOSS攻略戰_狗頭人領主.png" target="_blank"><img src="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/images/scene_S03_第1層BOSS攻略戰_狗頭人領主.png" alt="scene_S03_第1層BOSS攻略戰_狗頭人領主.png"></a><a href="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/images/scene_S04_紅名的威脅_微笑棺木.png" target="_blank"><img src="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/images/scene_S04_紅名的威脅_微笑棺木.png" alt="scene_S04_紅名的威脅_微笑棺木.png"></a><a href="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/images/scene_S05_中層BOSS攻略_代表層.png" target="_blank"><img src="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/images/scene_S05_中層BOSS攻略_代表層.png" alt="scene_S05_中層BOSS攻略_代表層.png"></a><a href="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/images/scene_S06_第50層_死神之試煉.png" target="_blank"><img src="../../assets/scripts/L3/SAO-SwordArtOn-艾恩葛朗特/images/scene_S06_第50層_死神之試煉.png" alt="scene_S06_第50層_死神之試煉.png"></a></div></section>
+    </main>
+<footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

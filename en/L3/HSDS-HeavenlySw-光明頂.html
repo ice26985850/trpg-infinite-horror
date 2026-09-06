@@ -1,0 +1,719 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Heavenly Sword: Bright Peak / 倚天屠龍記·光明頂 | HSDS-HeavenlySw-光明頂 | Infinite Terror TRPG Scripts</title>
+<link rel="stylesheet" href="../../assets/style.css"></head>
+<body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../../index.html">中文</a></header>
+<div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
+<main class="container"><h1>Heavenly Sword: Bright Peak / 倚天屠龍記·光明頂</h1>
+    <p class="meta">Code: HSDS-HeavenlySw-光明頂 ｜ Source: Heavenly Sword and Dragon Saber: Bright Peak ｜ Difficulty: ★★★ ｜ Players: 3–5 ｜ Duration: 5–7 hours / 2–3 sessions ｜ Type: Combat / Investigation / Survival</p>
+    <p class="nav"><a href="../../index.html">← 劇本總覽</a> ｜ <a href="../../assets/scripts/L3/HSDS-HeavenlySw-光明頂/en/HSDS-HeavenlySw-光明頂_劇本.md" download>劇本 MD</a> ｜ <a href="../../assets/scripts/L3/HSDS-HeavenlySw-光明頂/en/HSDS-HeavenlySw-光明頂_NPC名冊.xlsx" download>NPC 名冊</a> ｜ <a href="../../assets/scripts/L3/HSDS-HeavenlySw-光明頂/en/HSDS-HeavenlySw-光明頂_敵方單位名冊.xlsx" download>敵方名冊</a> ｜ <a href="../../assets/L3_HSDS-HeavenlySw-光明頂_all_en.zip">下載全部（zip）</a></p>
+    <section class="block content"><section class="chap"><h2>一、基本資訊</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Script Title</td>
+<td>Heavenly Sword: Bright Peak / 倚天屠龍記·光明頂</td>
+</tr>
+<tr>
+<td>Source Film</td>
+<td>Heavenly Sword and Dragon Saber: Bright Peak</td>
+</tr>
+<tr>
+<td>Difficulty Rating</td>
+<td>★★★</td>
+</tr>
+<tr>
+<td>Suggested Players</td>
+<td>3–5</td>
+</tr>
+<tr>
+<td>Estimated Duration</td>
+<td>5–7 hours / 2–3 sessions</td>
+</tr>
+<tr>
+<td>Prerequisites</td>
+<td>Recommended: at least one prior script below ★★★; team average Attribute not below 4</td>
+</tr>
+<tr>
+<td>Script Type</td>
+<td>Combat / Investigation / Survival</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<details class="gm"><summary>🎭 GM 限定：二、Plot Summary (GM Only)</summary><h2>二、Plot Summary (GM Only)</h2>
+<h3>One-Sentence Summary</h3>
+<blockquote>
+<p>The Reincarnators (RC), as Jianghu (martial world) heroes, ascend Bright Peak. Amid the life-and-death siege of the Ming Cult by the Six Major Sects, they assist the Ming Cult in withstanding the assault and expose Cheng Kun's conspiracy.</p>
+</blockquote>
+<h3>Full Plot Background</h3>
+<p>In the late Yuan Dynasty, the six major Jianghu sects (Shaolin, Wudang, Emei, Kunlun, Huashan, Kongtong) join forces to besiege the Ming Cult's headquarters at Bright Peak, vowing to eradicate this martial faction regarded as the "Demonic Cult." Yet behind this siege lies a earth-shaking conspiracy — Cheng Kun (Hunyuan Thunder Palm) , to avenge the former Ming Cult leader Yang Dingtian, has lurked in many places sowing discord between the Six Sects and the Ming Cult, single-handedly orchestrating this martial-world catastrophe.</p>
+<p>The Reincarnators emerge from the Ming Cult's secret passage at the rear of Bright Peak — the Main God (MG) has arranged them as the Ming Cult's hidden allies. At this point the Six Sects are already attacking up the mountain from all directions; the Ming Cult's high command, led by the White-Browed Eagle King Yin Tianzheng, fights desperately but suffers heavy casualties. Zhang Wuji, having only recently learned the Qiankun Great Shift from the secret passage, is not yet able to fully join the battle.</p>
+<p>Core Conflict: Hold the Ming Cult headquarters for at least 8 rounds under the combined siege of the Six Sects (waiting for Zhang Wuji to finish his secluded healing and arrive with reinforcements), while preventing Cheng Kun from assassinating the Ming Cult's high command, and ultimately helping Zhang Wuji resolve the Jianghu feud.</p>
+<h3>Plot Structure Type</h3>
+<p>Scene-by-scene: Emerge from the Ming Cult secret passage → Observe the battlefield situation → Choose a defensive route → 8-round headquarters defense battle → Zhang Wuji's reinforcements arrive → Final BOSS battle (Cheng Kun).</p>
+<hr /></details>
+<section class="chap"><h2>三、Main God Mission</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mission Description</td>
+<td>"Amid the siege by the Six Major Sects, help the Ming Cult hold Bright Peak for at least 8 rounds. Expose and defeat the mastermind Cheng Kun. Zhang Wuji will join the battle when the time limit arrives."</td>
+</tr>
+<tr>
+<td>Main Objective</td>
+<td>Assist the Ming Cult in withstanding the Six Sects' siege, hold the line before the Bright Peak headquarters for 8 rounds (each round represents about 15 minutes of fierce combat), then expose and defeat Cheng Kun</td>
+</tr>
+<tr>
+<td>Mission Reward</td>
+<td>C+2500</td>
+</tr>
+<tr>
+<td>Failure Condition</td>
+<td>Total party wipe / the Ming Cult headquarters is breached (any 2 of Yang Xiao, Yin Tianzheng, Wei Yixiao die)</td>
+</tr>
+<tr>
+<td>Failure Penalty</td>
+<td>Annihilation</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>① Protect 3 low-ranking Ming Cult disciples alive during the Shaolin offensive: 400 <br>② Persuade the Wudang Sect to temporarily retreat (requires Negotiation DC4): 500 <br>③ Sneak-attack and defeat Huashan master Xian Yutong (exposing his sinister true nature): 300</td>
+</tr>
+</tbody>
+</table>
+<h3>Player-Count Compatibility Design</h3>
+<ul>
+<li>At 3 players, enemy count reduced by 30%</li>
+<li>At 5 players, enemy count increased by 50% or add 1 reinforcement wave</li>
+<li>At 3 players, check Difficulty (DC) reduced by 1</li>
+</ul>
+<hr /></section>
+<section class="chap"><h2>四、Side Quests</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-01</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Open the Ming Cult Secret Passage Defense Line</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>During round 3 of the defense battle, discover the secret passage can serve as a retreat route and ambush point</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Use the Ming Cult's secret-passage tunnel network to set up an ambush behind enemy lines — strike the Six Sects' supply camp from the rear to cause chaos. Small enemy scouting units may be encountered in the passage</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Complete before round 6</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>500 + reduce defense requirement by 1 round (from 8 rounds to 7)</td>
+</tr>
+<tr>
+<td>Relation to Main Plot</td>
+<td>Supports main line — shortens the defense duration</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-02</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Find the Dragon-Slaying Saber Clues</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>During investigation of the Ming Cult headquarters, discover Yang Dingtian's study (Perception+Investigation DC3)</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Yang Dingtian's study hides a secret letter about the whereabouts of the Dragon-Slaying Saber — this legendary weapon is a pair with the Heavenly Sword. The letter may involve foreshadowing for future scripts</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Free exploration impossible once the defense battle begins</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>400 + Dragon-Slaying Saber clue (unlocks related enhancement path after returning)</td>
+</tr>
+<tr>
+<td>Relation to Main Plot</td>
+<td>Foreshadowing for future scripts</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>五、World Setting</h2>
+<h3>Timeline</h3>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T+0</td>
+<td>Emerge from the Ming Cult secret passage at the rear of Bright Peak. Observe the battlefield — the Six Sects are attacking up from the mountain foot</td>
+</tr>
+<tr>
+<td>T+2 rounds</td>
+<td>Shaolin's first offensive. Large numbers of monk soldiers advance from the front. The White-Browed Eagle King Yin Tianzheng fights in person</td>
+</tr>
+<tr>
+<td>T+4 rounds</td>
+<td>Wudang and Emei join the offensive from the flanks. Ming Cult casualties begin to rise. Cheng Kun's lurking opportunity appears (Perception DC3 reveals the anomaly)</td>
+</tr>
+<tr>
+<td>T+6 rounds</td>
+<td>Huashan master Xian Yutong uses hidden poison needles (can trigger Optional Objective ③). The Ming Cult defense line begins to collapse</td>
+</tr>
+<tr>
+<td>T+8 rounds</td>
+<td>Zhang Wuji completes his Qiankun Great Shift seclusion and arrives with the Five-Element Banners. The Six Sects' offensive stalls. Cheng Kun appears attempting assassination</td>
+</tr>
+<tr>
+<td>T+9 rounds</td>
+<td>Final BOSS battle — Cheng Kun (★★★★) and the remnants of the Six Sects' masters. Zhang Wuji assists the defense but mainly handles the other sects</td>
+</tr>
+<tr>
+<td>T+10 rounds</td>
+<td>Zhang Wuji, with Nine-Yang Divine Skill + Qiankun Great Shift, awes the entire field; the Six Sects retreat. Script complete</td>
+</tr>
+</tbody>
+</table>
+<h3>Key Locations</h3>
+<h4>Bright Peak Headquarters Plaza (Core Battlefield)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Bright Peak Headquarters Plaza (Core Battlefield)</td>
+</tr>
+<tr>
+<td>Environment Description</td>
+<td>"Bright Peak is in total chaos — flames shoot to the sky, battle cries deafen the ears. Jianghu fighters in all manner of attire clash fiercely across the plaza. The Ming Cult's white-robed adherents are clearly at a disadvantage, pressed back step by step by the Six Sects' superior numbers. At the center of the plaza, the White-Browed Eagle King Yin Tianzheng leans on his long spear, standing stubbornly before the Ming Cult headquarters gate — wounded in many places, yet refusing to retreat a single step."</td>
+</tr>
+<tr>
+<td>Explorable Content</td>
+<td>Headquarters Gate (core defensive objective — HP=80, AC=10 — if breached, mission fails), Ming Cult high-command positions (Yang Xiao, Yin Tianzheng, Wei Yixiao — must be protected until Zhang Wuji arrives), Secret Passage Entrance (S-01 trigger point — can be used to ambush enemy rear), Yang Dingtian's Study (S-02 trigger point — must be investigated before combat begins)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Disciples of the Six Sects press in from all directions: Shaolin monk soldiers ×5 (★~★★), Wudang swordsmen ×4 (★★), Emei female disciples ×3 (★★), Kunlun disciples ×3 (★), Huashan disciples ×2 (★★, master Xian Yutong's hidden weapons). Cheng Kun (★★★★) appears after round 8 — excels at Hunyuan Skill + Thunder Palm, prioritizes attacking Ming Cult high command</td>
+</tr>
+<tr>
+<td>Relations to Other Locations</td>
+<td>Hold for 8 rounds → Zhang Wuji arrives → script complete</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>BM-01</td>
+</tr>
+</tbody>
+</table>
+<h3>World Special Rules</h3>
+<ul>
+<li><strong>Inner Energy (Qi) System</strong>: All Jianghu fighters in this world possess an Inner Energy value (Qi Pool) — equivalent to a Willpower pool. Using martial arts techniques consumes Inner Energy. Inner Energy can be restored through meditation.</li>
+<li><strong>Martial Arts System</strong>: Attack checks use a D10 dice pool. Each style has specific moves — the move's DP bonus depends on proficiency in that art.</li>
+<li><strong>Six Sects' Traits</strong>: Shaolin (ferocious melee — Vajra Palm / staff technique), Wudang (soft counter-attacks — Taiji Sword / using softness to overcome hardness), Emei (agile assassination — Emei Swordplay / hidden weapons), Kunlun (two-person coordination — Liangyi Sword Formation), Huashan (sinister and poisonous — Xian Yutong's unique poison needles), Kongtong (heavy strikes — Seven Injuries Fist, hurts self before hurting others)</li>
+<li><strong>Ming Cult Five-Element Banners</strong>: After round 8, the Five-Element Banners (Flame Banner, Flood Banner, etc.) join as reinforcements, each with a 5-person squad to assist defense</li>
+</ul>
+<h3>Main God (MG) Restrictions</h3>
+<ul>
+<li>"Prohibited from revealing the existence of the Main God Space to plot characters."</li>
+<li>"Any enhancement ability may be used in this world — but when deployed it is regarded as a strange martial art."</li>
+<li>"Do not kill Ming Cult high command — violators are deemed to be assisting the Six Sects, mission failure."</li>
+<li>"Do not voluntarily leave the Bright Peak area."</li>
+</ul>
+<h3>Visualized Map System</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Code</th>
+<th>Content</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Large-scale Map</td>
+<td>WM-01</td>
+<td>Bright Peak siege situation — the Six Sects' encampments, the Ming Cult headquarters, the secret passage entrance</td>
+<td><code>maps/HSDS_WM-01.svg</code></td>
+</tr>
+<tr>
+<td>Exploration Map</td>
+<td>EM-01</td>
+<td>Ming Cult secret passage and headquarters interior — study, armory, Five-Element Banner assembly area</td>
+<td><code>maps/HSDS_EM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-01</td>
+<td>Bright Peak headquarters grand battle 24×14 grid — each sect's attack routes, defense points, Cheng Kun's lurking position</td>
+<td><code>maps/HSDS_BM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-02</td>
+<td>Zhang Wuji vs. the Six Sects — the endgame battle after reinforcements arrive</td>
+<td><code>maps/HSDS_BM-02.svg</code></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>六、Characters &amp; Enemy Units (Managed in Separate Excel)</h2>
+<blockquote>
+<p>NPC and enemy unit data, please refer to the following separate Excel files:
+- <strong>NPC Roster</strong>: <code>HSDS-HeavenlySw-光明頂_NPC名冊.xlsx</code>
+- <strong>Enemy Unit Roster</strong>: <code>HSDS-HeavenlySw-光明頂_敵方單位名冊.xlsx</code></p>
+<p>Both Excel files contain two sheets, "名冊" (Roster) and "空白模板" (Blank Template); the first column is reserved for character art.</p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>七、Key Scenes</h2>
+<h3>Scene Structure Notes</h3>
+<p>This script uses a <strong>scene-by-scene structure: emerge from the Ming Cult secret passage → observe the battlefield situation → choose a defensive route → 8-round headquarters defense battle → Zhang Wuji's reinforcements arrive → final BOSS battle (Cheng Kun).</strong></p>
+<h3>Opening</h3>
+<h4>Scene S01: Ming Cult Secret Passage — Appearance</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S01</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Ming Cult Secret Passage — Appearance</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Script start</td>
+</tr>
+<tr>
+<td>Environment Description</td>
+<td>"After a spell of spinning heavens and rolling earth, you find yourselves in a dim cavern. Ahead is a faint firelight — a stone stairway leading to the surface. From the cave mouth come faint sounds of slaughter and clashing metal. The Sacred Flame mark of the Ming Cult is carved on the walls — this is the cult's secret passage."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Secret Passage Map (carved on the wall — INT+Perception DC2 to decipher and obtain the full passage route), Yang Dingtian's Remains (former cult leader — can find his last testament and a fragment of the Qiankun Great Shift manual — but non-Ming-Cult members cannot practice it), Secret Passage Armory (basic weapons — longsword ×1/person, leather armor base defense +1)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>No combat — but small Six-Sect scouting units may be encountered at the exit</td>
+</tr>
+<tr>
+<td>Gene Lock (GL) Related</td>
+<td>No special Gene Lock requirement</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>① Enter the battlefield directly from the passage exit → join the defense battle ② First explore Yang Dingtian's study (S-02) → obtain Dragon-Slaying Saber clue before fighting</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Emerge from the passage exit → rear of Bright Peak → observe the battlefield (enter S02)</td>
+</tr>
+</tbody>
+</table>
+<h3>Core Scenes</h3>
+<h4>Scene S03: Headquarters Defense Battle — 8 Rounds of Fierce Combat</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S03</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Headquarters Defense Battle — 8 Rounds of Fierce Combat</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>The Six Sects' full offensive begins</td>
+</tr>
+<tr>
+<td>Environment Description</td>
+<td>"The tide of war surges from every direction. Shaolin's Vajra Palms slam onto Ming Cult disciples' shields with dull thuds — Wudang's sword-light weaves through the crowd like a swimming dragon — Emei female disciples' hidden weapons fly in from unexpected angles — each round another Ming Cult disciple falls. The White-Browed Eagle King's white brows flutter in the wind, his long spear stabs into the enemy formation like lightning — yet three sword wounds now mark his body. 'The Ming Cult — shall not perish here!'"</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Headquarters Gate (defensive objective — can assign personnel to raise its HP), Ming Cult high command (Yin Tianzheng ★★★★, Yang Xiao ★★★, Wei Yixiao ★★★ — fighting alongside one grants +2 DP), Battlefield High Ground (seizing it grants vision advantage — all ranged attacks DP+1), Medical Tent (can evacuate wounded Ming Cult disciples here — reduces headquarters defense pressure)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Each round, Six-Sect disciples advance alternately from various directions (GM secretly rolls each round to decide the hardest-pressed direction). Round 3: Shaolin main offensive (6 monk soldiers). Round 5: Wudang and Emei jointly break through the flank. Round 7: Huashan uses poison smoke (field-wide DC3 Endurance save). After round 8 Cheng Kun appears</td>
+</tr>
+<tr>
+<td>Gene Lock (GL) Related</td>
+<td>### Gene Lock Hint</td>
+</tr>
+<tr>
+<td>- <strong>Strongly recommended Gene Lock Stage 2 or 3</strong>: A long, high-intensity defense battle demands extremely high stamina and focus</td>
+<td></td>
+</tr>
+<tr>
+<td>- <strong>Gene Lock Stage 3 effect</strong>: Gain self-circulating inner breath — recover 1 spent Endurance per round + can handle attacks from 3 directions simultaneously in melee without DP penalty</td>
+<td></td>
+</tr>
+<tr>
+<td>- <strong>Consequence of not activating</strong>: After 5 continuous rounds of combat, fatigue state begins (all checks DP-1, accumulates -1 every 2 rounds)</td>
+<td></td>
+</tr>
+<tr>
+<td>- <strong>Liberation side effect</strong>: After the defense ends, 2d6 mental damage + all Attributes -1 within 12 hours</td>
+<td></td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>① Concentrate defense on the headquarters gate → safest but may give Cheng Kun an opening ② Split forces to defend all directions → comprehensive but resources scattered <br>③ Use the secret passage for a rear surprise attack (S-01) → proactive but high risk</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>8 rounds defended successfully → Zhang Wuji's reinforcements arrive → Six Sects fall into chaos → Cheng Kun appears (enter S04)</td>
+</tr>
+</tbody>
+</table>
+<h3>Gene Lock Hint</h3>
+<ul>
+<li><strong>Strongly recommended Gene Lock Stage 2 or 3</strong>: A long, high-intensity defense battle demands extremely high stamina and focus</li>
+<li><strong>Gene Lock Stage 3 effect</strong>: Gain self-circulating inner breath — recover 1 spent Endurance per round + can handle attacks from 3 directions simultaneously in melee without DP penalty</li>
+<li><strong>Consequence of not activating</strong>: After 5 continuous rounds of combat, fatigue state begins (all checks DP-1, accumulates -1 every 2 rounds)</li>
+<li><strong>Liberation side effect</strong>: After the defense ends, 2d6 mental damage + all Attributes -1 within 12 hours</li>
+</ul>
+<hr /></section>
+<section class="chap"><h2>八、Reward Settlement</h2>
+<table>
+<thead>
+<tr>
+<th>Reward Type</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main Objective</td>
+<td>C+2500</td>
+</tr>
+<tr>
+<td>Side Quests</td>
+<td>S-01 Secret Passage Raid: 500 / S-02 Dragon-Slaying Saber Clue: 400</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>Protect low-ranking disciples: 400 / Persuade Wudang to retreat: 500 / Xian Yutong: 300</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Six-Sect disciple 80–150 / Cheng Kun 800</td>
+</tr>
+<tr>
+<td>Special Achievement</td>
+<td>All Ming Cult high command survive: D / Fewer than 10 Ming Cult disciples casualties before Zhang Wuji arrives: 500</td>
+</tr>
+<tr>
+<td>Roleplay</td>
+<td>At GM's discretion (0–500)</td>
+</tr>
+<tr>
+<td>Return Redemption</td>
+<td>Qiankun Great Shift Primer (B-rank 2000) / Nine-Yang Divine Skill Primer (B-rank 2500) / Heavenly Sword Replica (C-rank 1500)</td>
+</tr>
+</tbody>
+</table>
+<h3>Return Redemption (Script-Exclusive)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Redemption Item</th>
+<th>Cost (Side + Reward Points)</th>
+<th>Effect</th>
+<th>Growth Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>Nine-Yang Basics (technique)</td>
+<td>C+1000</td>
+<td>Learn Nine-Yang Divine Skill primer — Inner Energy (Endurance CON) check +2, recover 1d4 HP per round</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Wudang Soft Palm (martial art)</td>
+<td>C+1000</td>
+<td>Learn Wudang Soft Palm — unarmed attack DP+2, force-redirection (incoming damage -1)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Ming Cult Sacred Flame Token (item)</td>
+<td>C+1000</td>
+<td>Obtain the Sacred Flame Token — holding it grants +3 prestige within Ming Cult territory, can mobilize followers once</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Lightness Skill · Cloud Ladder (lightness)</td>
+<td>C+1000</td>
+<td>Learn Cloud Ladder — Agility (DEX) +1, jump / climb check DP+2</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Qiankun Great Shift (technique)</td>
+<td>B+2000</td>
+<td>Learn Qiankun Great Shift — can deflect enemy attacks (once per round reflect 50% damage), incoming base defense +3</td>
+<td>Can purchase Layer 7 (A+4000)</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Taiji Sword Intent (sword intent)</td>
+<td>B+2000</td>
+<td>Comprehend Taiji Sword Intent — sword-type weapon attack DP+4, using softness to overcome hardness (enemy Strength (STR) check -2)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Seven Injuries Fist (fist technique)</td>
+<td>B+2000</td>
+<td>Learn Seven Injuries Fist — attacks add 2d6 internal injury, but each use inflicts 1d4 backlash on self</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Nine-Yang Divine Skill · Perfection (technique)</td>
+<td>A+4000</td>
+<td>Nine-Yang Divine Skill perfected — endless inner energy (recover 2d8 HP per round, poison / negative-status resistance +3), base defense +5</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Ming Cult Leader Title (title)</td>
+<td>A+7200</td>
+<td>Obtain the Ming Cult Leader inheritance title — can command one branch altar of the Ming Cult, Jianghu prestige +2, adventure-check +2 (downgraded to A-rank Leader inheritance)</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></section>
+<section class="chap"><h2>九、Appendix</h2>
+<ul>
+<li><strong>Maps</strong>: All map files are stored in the <code>maps/</code> subdirectory, archived by the three-tier system: Large-scale Map (WM), Exploration Map (EM), Battle Map (BM).</li>
+<li><strong>GM Memo</strong>:</li>
+<li>Recommended to confirm players' Gene Lock stage before the opening, and adjust encounter difficulty accordingly</li>
+<li>If players take completely unexpected actions, use side quests as a buffer</li>
+<li>For a 3-player party, provide 1 assistive NPC to help in combat</li>
+<li>For a 5-player party, add 1 reinforcement wave in the Boss battle to delay pressure</li>
+</ul>
+<hr />
+<blockquote>
+<p>Version: v0.1 | Format Spec v0.4 | D10 Dice-Pool System</p>
+</blockquote></section></section>
+    <section class="block"><h2>地圖（YAML＋SVG）</h2><div class="map">
+              <div class="maptitle">HSDS_BM-01 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<rect x="20" y="20" width="760" height="560" fill="url(#grid)"/>
+<rect x="20" y="20" width="760" height="560" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="400.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">HSDS_BM-01 Battle Map</text>
+<text x="25" y="592" fill="#666" font-size="9">HSDS_BM-01 | 10×10Grid (Concept) | 1Grid = 5ft | Total 50×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="200.0" y="120.0" width="400.0" height="300.0" rx="3" fill="#2a2a4e30" stroke="#4a4a8e" stroke-width="1"/>
+<text x="400.0" y="266.0" text-anchor="middle" fill="#aaa" font-size="8">Ming Cult Headquarters Entrance</text>
+<text x="400.0" y="280.0" text-anchor="middle" fill="#666" font-size="6">(127.5, 85.0)ft</text>
+<rect x="350.0" y="260.0" width="100.0" height="50.0" rx="3" fill="#2a2a4e" stroke="#5a4a8e" stroke-width="2"/>
+<text x="400.0" y="281.0" text-anchor="middle" fill="#aaa" font-size="8">Ming Cult Headquarters Entrance</text>
+<text x="400.0" y="295.0" text-anchor="middle" fill="#666" font-size="6">(127.5, 87.5)ft</text>
+<rect x="350.0" y="420.0" width="30.0" height="20.0" rx="3" fill="#cc3344" stroke="" stroke-width=""/>
+<text x="365.0" y="426.0" text-anchor="middle" fill="#aaa" font-size="8">Cheng Kun</text>
+<text x="365.0" y="440.0" text-anchor="middle" fill="#666" font-size="6">(115.0, 137.5)ft</text>
+<rect x="60.0" y="460.0" width="680.0" height="25.0" rx="5" fill="#1a1a2eee" stroke="#3a3a6e" stroke-width=""/>
+<text x="400.0" y="468.5" text-anchor="middle" fill="#aaa" font-size="8">Special Rules: Five Sects attack simultaneously from all directions/Defend8rounds later Zhang Wuji arrives with reinforcements/Cheng Kun lurks in the shadows, seizing the chance to assassinate Ming Cult high command</text>
+<text x="400.0" y="482.5" text-anchor="middle" fill="#666" font-size="6">(127.5, 150.0)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/HSDS-HeavenlySw-光明頂/en/maps/HSDS_BM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L3/HSDS-HeavenlySw-光明頂/en/maps/HSDS_BM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">HSDS_BM-02 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<rect x="20" y="20" width="760" height="560" fill="url(#grid)"/>
+<rect x="20" y="20" width="760" height="560" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="400.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">HSDS_BM-02 Battle Map</text>
+<text x="25" y="592" fill="#666" font-size="9">HSDS_BM-02 | 10×10Grid (Concept) | 1Grid = 5ft | Total 50×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="200.0" y="120.0" width="400.0" height="300.0" rx="3" fill="#2a2a4e30" stroke="#4a4a8e" stroke-width="1"/>
+<text x="400.0" y="266.0" text-anchor="middle" fill="#aaa" font-size="8">Ming Cult Headquarters Entrance</text>
+<text x="400.0" y="280.0" text-anchor="middle" fill="#666" font-size="6">(127.5, 85.0)ft</text>
+<rect x="350.0" y="260.0" width="100.0" height="50.0" rx="3" fill="#2a2a4e" stroke="#5a4a8e" stroke-width="2"/>
+<text x="400.0" y="281.0" text-anchor="middle" fill="#aaa" font-size="8">Ming Cult Headquarters Entrance</text>
+<text x="400.0" y="295.0" text-anchor="middle" fill="#666" font-size="6">(127.5, 87.5)ft</text>
+<rect x="350.0" y="420.0" width="30.0" height="20.0" rx="3" fill="#cc3344" stroke="" stroke-width=""/>
+<text x="365.0" y="426.0" text-anchor="middle" fill="#aaa" font-size="8">Cheng Kun</text>
+<text x="365.0" y="440.0" text-anchor="middle" fill="#666" font-size="6">(115.0, 137.5)ft</text>
+<rect x="60.0" y="460.0" width="680.0" height="25.0" rx="5" fill="#1a1a2eee" stroke="#3a3a6e" stroke-width=""/>
+<text x="400.0" y="468.5" text-anchor="middle" fill="#aaa" font-size="8">Special Rules: Five Sects attack simultaneously from all directions/Defend8rounds later Zhang Wuji arrives with reinforcements/Cheng Kun lurks in the shadows, seizing the chance to assassinate Ming Cult high command</text>
+<text x="400.0" y="482.5" text-anchor="middle" fill="#666" font-size="6">(127.5, 150.0)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/HSDS-HeavenlySw-光明頂/en/maps/HSDS_BM-02.yaml" download>yaml</a> <a href="../../assets/scripts/L3/HSDS-HeavenlySw-光明頂/en/maps/HSDS_BM-02.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">HSDS_EM-01 <span class="maptype">探索地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<rect width="800" height="600" fill="#1a1a2e"/>
+<text x="400.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">HSDS_EM-01 Exploration Map</text>
+<text x="20" y="265.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 1</text>
+<rect x="20" y="270.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="370.0" y="270.0" width="60.0" height="20.0" rx="3.0" fill="#cc3344" stroke="" stroke-width=""/>
+<text x="400.0" y="280.0" text-anchor="middle" fill="#aaa" font-size="9">Cheng Kun Ambush</text>
+<rect x="20" y="545" width="760" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="570" fill="#aaa" font-size="9">Safe Zone/Starting Point</text>
+<text x="205" y="570" fill="#aaa" font-size="9">Danger Zone/Combat Zone</text>
+<text x="20" y="590" fill="#666" font-size="9">HSDS_EM-01 | Exploration Map </text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/HSDS-HeavenlySw-光明頂/en/maps/HSDS_EM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L3/HSDS-HeavenlySw-光明頂/en/maps/HSDS_EM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">HSDS_WM-01 <span class="maptype">世界地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="800" height="600" fill="url(#wmgrid)"/>
+<line x1="400.0" y1="135.0" x2="400.0" y2="185.0" stroke="" stroke-width="2"/>
+<line x1="400.0" y1="185.0" x2="250.0" y2="262.0" stroke="" stroke-width="2"/>
+<line x1="400.0" y1="185.0" x2="550.0" y2="262.0" stroke="" stroke-width="2"/>
+<line x1="400.0" y1="400.0" x2="400.0" y2="135.0" stroke="#22aa66" stroke-width="2"/>
+<line x1="595.0" y1="548.0" x2="620.0" y2="548.0" stroke="" stroke-width="2"/>
+<rect x="370.0" y="270.0" width="60.0" height="20.0" rx="5" fill="#cc3344" stroke="" stroke-width="2"/>
+<text x="400.0" y="280.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Cheng Kun Ambush</text>
+<ellipse cx="400.0" cy="300.0" rx="340.0" ry="240.0" fill="" opacity="0.1" stroke="" stroke-width="1"/>
+<text x="570.0" y="300.0" fill="#FF4444" font-size="9">Cheng Kun Ambush</text>
+<circle cx="400.0" cy="280.0" r="80.0" fill="#cc334415" opacity="0.6"/>
+<circle cx="400.0" cy="280.0" r="80.0" fill="none" stroke="#ff556640" stroke-width="2" stroke-dasharray="4,2"/>
+<text x="400.0" y="195.0" text-anchor="middle" fill="#ff556640" font-size="10" font-weight="bold">★ Cheng Kun Ambush</text>
+<rect x="630" y="20" width="150" height="74" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="705" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Legend</text>
+<text x="640" y="60" fill="#aaa" font-size="9">Safe Zone/Starting Point</text>
+<text x="640" y="76" fill="#aaa" font-size="9">Danger Zone/Combat Zone</text>
+<text x="640" y="92" fill="#aaa" font-size="9">Route</text>
+<text x="20" y="585" fill="#666" font-size="9">HSDS_WM-01 | Large-Scale Map | Schematic</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/HSDS-HeavenlySw-光明頂/en/maps/HSDS_WM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L3/HSDS-HeavenlySw-光明頂/en/maps/HSDS_WM-01.svg" download>svg</a></p>
+            </div></section>
+    <section class="block"><h2>概念圖</h2><div class="gallery"><a href="../../assets/scripts/L3/HSDS-HeavenlySw-光明頂/images/enemy_01_cheng_kun.png" target="_blank"><img src="../../assets/scripts/L3/HSDS-HeavenlySw-光明頂/images/enemy_01_cheng_kun.png" alt="enemy_01_cheng_kun.png"></a><a href="../../assets/scripts/L3/HSDS-HeavenlySw-光明頂/images/npc_01_zhang_wuji.png" target="_blank"><img src="../../assets/scripts/L3/HSDS-HeavenlySw-光明頂/images/npc_01_zhang_wuji.png" alt="npc_01_zhang_wuji.png"></a><a href="../../assets/scripts/L3/HSDS-HeavenlySw-光明頂/images/npc_02_HSDS_01.png" target="_blank"><img src="../../assets/scripts/L3/HSDS-HeavenlySw-光明頂/images/npc_02_HSDS_01.png" alt="npc_02_HSDS_01.png"></a><a href="../../assets/scripts/L3/HSDS-HeavenlySw-光明頂/images/scene_01_bright_summit.png" target="_blank"><img src="../../assets/scripts/L3/HSDS-HeavenlySw-光明頂/images/scene_01_bright_summit.png" alt="scene_01_bright_summit.png"></a><a href="../../assets/scripts/L3/HSDS-HeavenlySw-光明頂/images/scene_S03_總壇保衛戰_8輪激戰.png" target="_blank"><img src="../../assets/scripts/L3/HSDS-HeavenlySw-光明頂/images/scene_S03_總壇保衛戰_8輪激戰.png" alt="scene_S03_總壇保衛戰_8輪激戰.png"></a></div></section>
+    </main>
+<footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

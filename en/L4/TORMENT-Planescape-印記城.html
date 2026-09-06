@@ -1,0 +1,1018 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Planescape: Torment — Sigil&#x27;s Labyrinth | TORMENT-Planescape-印記城 | Infinite Terror TRPG Scripts</title>
+<link rel="stylesheet" href="../../assets/style.css"></head>
+<body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../../index.html">中文</a></header>
+<div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
+<main class="container"><h1>Planescape: Torment — Sigil&#x27;s Labyrinth</h1>
+    <p class="meta">Code: TORMENT-Planescape-印記城 ｜ Source: Planescape: Torment ｜ Difficulty: ★★★★★ ｜ Players: 3–5 ｜ Duration: 7–9 hrs / 3–4 sessions ｜ Type: Philosophical Exploration / Memory Quest / Asymmetric Survival</p>
+    <p class="nav"><a href="../../index.html">← 劇本總覽</a> ｜ <a href="../../assets/scripts/L4/TORMENT-Planescape-印記城/en/TORMENT_劇本.md" download>劇本 MD</a> ｜ <a href="../../assets/scripts/L4/TORMENT-Planescape-印記城/en/TORMENT_NPC名冊.xlsx" download>NPC 名冊</a> ｜ <a href="../../assets/scripts/L4/TORMENT-Planescape-印記城/en/TORMENT_敵方單位名冊.xlsx" download>敵方名冊</a> ｜ <a href="../../assets/L4_TORMENT-Planescape-印記城_all_en.zip">下載全部（zip）</a></p>
+    <section class="block content"><section class="chap"><h2>一、基本資訊</h2>
+<p>Script Title: Planescape: Torment — Sigil's Labyrinth
+Source Film: Planescape: Torment
+Difficulty Rating: ★★★★★
+Suggested Players: 3–5
+Estimated Duration: 7–9 hrs / 3–4 sessions
+Prerequisites: Gene Lock Stage IV, philosophical roleplay preferred
+Script Type: Philosophical Exploration / Memory Quest / Asymmetric Survival</p>
+<h3>Difficulty Reference</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Suggested Gene Lock Stage</td>
+<td>Gene Lock Stage IV</td>
+</tr>
+<tr>
+<td>Attribute Range</td>
+<td>Attributes 8–12</td>
+</tr>
+<tr>
+<td>Average Party Buff</td>
+<td>Near captain-class power</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<details class="gm"><summary>🎭 GM 限定：II. Plot Summary (GM Spoilers)</summary><h2>II. Plot Summary (GM Spoilers)</h2>
+<h3>One-Line Summary</h3>
+<blockquote>
+<p>Sigil — the center of the multiverse, where the possible and the impossible meet. The Reincarnators (輪迴者) awaken here with shattered memories. They must recover the lost memory fragments while fleeing the Lady of Pain — Sigil's guardian — whose sanction against any threat to the city's stability is merciless. She is designed to be unbeatable: escape is the only path to survival.</p>
+</blockquote>
+<h3>Full Plot Background</h3>
+<p>Sigil is a ring-shaped city floating at the center of the multiverse, ruled by the Lady of Pain. The Lady of Pain is no god — she is older and more unspeakable than the deities. She speaks to no one and accepts no worship, yet anyone who threatens Sigil's stability is cut to pieces by her "Maze," or simply by her shadow.</p>
+<p>The Reincarnators awaken in Sigil's "Hive" district with no memory of their quest. They only know they must recover the lost memory fragments — scattered among Sigil's factions and planar rifts.</p>
+<p>The script's core is "memory resurgence" — each fragment recovered not only restores part of their memory but reveals that their true identity is far more complex than imagined. And the Lady of Pain is always watching — not interfering, but never tolerating acts that damage the city.</p>
+<p>Finally, once all fragments are gathered, the Reincarnators face a painful truth: they themselves were once the entity that threatened Sigil's stability. The Lady's judgment is about to fall — and the only way to survive is to flee Sigil.</p>
+<h3>Plot Structure Type</h3>
+<p><strong>Hybrid</strong>: Free exploration at the open, shifting to act-by-act progression in the mid-to-late game.</p>
+<hr /></details>
+<section class="chap"><h2>III. Main God Quest</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest Description</td>
+<td>"Sigil — the City of Doors, the hub of all things. Your memory is in pieces. Recover the lost fragments, piece together the truth under the Lady of Pain's gaze, then escape her inescapable judgment. To survive is to win."</td>
+</tr>
+<tr>
+<td>Main Quest</td>
+<td>Collect 7 memory fragments (scattered across Sigil), then escape the Lady of Pain's sanction after the truth is revealed.</td>
+</tr>
+<tr>
+<td>Quest Reward</td>
+<td>A + 15000</td>
+</tr>
+<tr>
+<td>Failure Condition</td>
+<td>Total annihilation / sent into the Maze by the Lady of Pain (permanent imprisonment) / memory fragments not fully collected (no way to learn the escape method)</td>
+</tr>
+<tr>
+<td>Failure Penalty</td>
+<td>Sent into the Maze (equivalent to erasure)</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>① Understand the meaning of all 7 memory fragments (gain the complete truth): extra B + 5000 <br>② Help at least 3 factions resolve internal conflicts: +3000</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>IV. Side Quests</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest ID</td>
+<td>S-01</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Secrets of the Hive</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Hear whispers about "Shadow Plane creatures" in the slums</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Investigate the strange midnight floating — a失控 magic of the Shadow Plane causes Hive buildings to drift off the ground. Resolve the Shadow Plane rift problem.</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Within 12 hours (otherwise the Hive is swallowed by the Shadow Plane)</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>D + 2000</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Supports the main quest — resolving the event yields a memory fragment</td>
+</tr>
+<tr>
+<td>Note</td>
+<td>Must close three Shadow Plane rifts (Intellect + Occultism DC 4)</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest ID</td>
+<td>S-02</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>The Struggle of the Anarchs and the Harmonium</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Witness two faction members facing off in the street</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Mediate or choose to support one of Sigil's two great factions — the Anarchs (chaos is freedom) or the Harmonium (order is strength) — in their opposition</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Within 24 hours</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>D + 1500 + faction support (gain safe-passage rights from that faction)</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Supports — with faction support you may safely enter previously sealed districts</td>
+</tr>
+<tr>
+<td>Note</td>
+<td>The choice affects later NPC interactions; neutral mediation is hardest (Charisma DC 6) but most rewarding</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest ID</td>
+<td>S-03</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>The Modron's Puzzle</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Meet a Modron in Sigil's Great Market</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>A Modron — a geometric transcendental being — poses a challenge requiring 3 logic puzzles to answer. Answering correctly yields its memory crystal.</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Within 24 hours</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>D + 2000 + memory crystal (extra memory-fragment clue)</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Supports — the crystal reveals the direction of the nearest memory fragment</td>
+</tr>
+<tr>
+<td>Note</td>
+<td>Puzzles require Intellect DC 5, or teamwork</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>V. World Setting</h2>
+<h3>Timeline</h3>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T+0 hrs</td>
+<td>Reincarnators awaken on the Hive streets, memory blank</td>
+</tr>
+<tr>
+<td>T+3 hrs</td>
+<td>The first memory fragment's location is discovered</td>
+</tr>
+<tr>
+<td>T+12 hrs</td>
+<td>Sigil's factions begin noticing the "amnesiacs"</td>
+</tr>
+<tr>
+<td>T+24 hrs</td>
+<td>The Lady of Pain's shadow begins appearing in some districts — she is observing</td>
+</tr>
+<tr>
+<td>T+36 hrs</td>
+<td>5+ fragments collected; the Lady's intervention increases</td>
+</tr>
+<tr>
+<td>T+48 hrs</td>
+<td>The Lady issues her final ultimatum — leave Sigil or face judgment</td>
+</tr>
+</tbody>
+</table>
+<h3>Key Locations</h3>
+<h4>Location: The Hive (Start Point)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>The Hive (Start Point)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Sigil's most decayed district. Rotten wooden buildings crowd together; the streets twist like a maze. The air is thick with damp mildew and the scent of distant roasting meat. Walls are plastered with strange "Find Yourself" advertisements.</td>
+</tr>
+<tr>
+<td>Explorable Content</td>
+<td>Abandoned inn (first memory fragment), information merchant's stall (intel), planar-door ruins</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Street thugs ×3 (★)</td>
+</tr>
+<tr>
+<td>Relations to Other Locations</td>
+<td>All directions → other city districts</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>WM-01 / EM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location: The Great Market</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>The Great Market</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Sigil's commercial heart. Every race — humans, modrons, angels, demons, automatons — trades here in peace. Vendors hawk bizarre goods from all planes: dream bottles, memory candles, planar keys...</td>
+</tr>
+<tr>
+<td>Explorable Content</td>
+<td>Modron puzzle stall (triggers S-03), intel-trading post, faction recruitment office, planar-ticket vendors</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Safe (faction police keep order)</td>
+</tr>
+<tr>
+<td>Relations to Other Locations</td>
+<td>Surroundings → various districts</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>EM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location: Faction HQ (Anarchs / Harmonium)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Faction HQ (Anarchs / Harmonium)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>The headquarters of two extreme factions. The Anarchs' HQ — floating buildings that shift at random, with never-ending parties. The Harmonium's HQ — extremely ordered geometric architecture; everyone strictly follows schedules and behavior codes.</td>
+</tr>
+<tr>
+<td>Explorable Content</td>
+<td>Faction quests and dialogue, memory-fragment locations (some fragments hidden in faction vaults)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Faction member probing (★★★) — must choose a stance or prove your strength</td>
+</tr>
+<tr>
+<td>Relations to Other Locations</td>
+<td>City center district</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>BM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location: The Entrance to the Lady of Pain's Maze</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>The Entrance to the Lady of Pain's Maze</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A plaza at Sigil's center, forever shrouded in shadow. The Lady of Pain occasionally appears here — a robed, expressionless silent being, surrounded by spinning blades. Everyone instinctively knows: do not approach, do not speak, do not look directly.</td>
+</tr>
+<tr>
+<td>Explorable Content</td>
+<td>Cannot be explored — any attempt to approach triggers the Lady's warning (shadow-blades graze past you)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>The Lady of Pain (★★★★★+ unbeatable) — any attack directly results in being cut to pieces or sent into the Maze</td>
+</tr>
+<tr>
+<td>Relations to Other Locations</td>
+<td>Geometric center of the city</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>BM-02</td>
+</tr>
+</tbody>
+</table>
+<h3>World Special Rules</h3>
+<ul>
+<li><strong>Memory Fragments</strong>: 7 fragments scattered across Sigil. Collecting a fragment requires an Intellect + Perception DC 3 check to understand its contents. Each fragment understood grants 1 attribute point (permanent, assignable) and part of the quest background.</li>
+<li><strong>The Laws of the Lady of Pain</strong>: The Lady is not defined as an "enemy" — she will not chase the Reincarnators. But any of the following acts within Sigil trigger her judgment: (1) attack her, (2) attempt to become a god, (3) massively destroy the city's structure. Punishment: cut to pieces by shadow (instant death) or sent into the Maze (permanent imprisonment).</li>
+<li><strong>Planar Rifts</strong>: Sigil has many rifts to other planes. Entering a rift may yield memory fragments, but each crossing requires a Resolve DC 4 check; failure means being lost in a strange plane (extra time to return).</li>
+<li><strong>Faction Reputation</strong>: Interactions with factions affect reputation (hostile / neutral / friendly / respected). Faction reputation affects the difficulty of gaining intel and support.</li>
+</ul>
+<h3>Main God Restrictions</h3>
+<ul>
+<li>Absolutely forbidden to attack the Lady of Pain (instant death, no save)</li>
+<li>Forbidden to massively destroy Sigil's buildings</li>
+<li>Forbidden to attempt to seize the Lady of Pain's power</li>
+<li>Memory fragments are the only quest objective — do not lose yourself in Sigil's infinite diversity</li>
+</ul>
+<hr /></section>
+<section class="chap"><h2>VI. Key Scenes</h2>
+<h3>Act 1: The Hive — Blank Awakening</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S01</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>The Hive — Blank Awakening</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Script start</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>You have lost all memory, lying on the filthy streets of the Hive. Beside you is only a rusty dagger and a metal tag engraved with the character "7". Overhead floats the ring-shaped edge of the city — Sigil's form. A dirty drifter crouches beside you: "Awake? Welcome to the City of Doors — the end of all the lost, the start of all who seek."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Talk to the drifter (gain basic Sigil info), examine the metal tag (Perception DC 2 to notice it is a memory-fragment tracker), explore the Hive</td>
+</tr>
+<tr>
+<td>Encounters</td>
+<td>Street thugs ×2 (★) attempting to rob the amnesiac</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>A: focus on collecting memory fragments / B: explore the city first to learn the environment</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Find the first fragment → memory begins to recover</td>
+</tr>
+</tbody>
+</table>
+<h4>Gene Lock Tip</h4>
+<ul>
+<li><strong>Suggested Gene Lock Stage</strong>: III–IV</li>
+<li><strong>Open Gene Lock check</strong>: Resolve DC 3</li>
+<li><strong>After opening</strong>: Though memory is blank, the body retains instinct — combat skills unaffected by amnesia</li>
+<li><strong>Consequence of not opening</strong>: start from zero</li>
+<li><strong>Liberation side effect</strong>: none (this is the starting point)</li>
+</ul>
+<hr />
+<h3>Act 2: The Great Market — Microcosm of the Multiverse</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S02</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>The Great Market — Microcosm of the Multiverse</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>After collecting 2 fragments (or voluntarily traveling there)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>The Great Market's din is dazzling. Inconceivable creatures — winged, faceless, purely mechanical — move around you. Each stall is like a door to a different world. A Modron — a perfect cubic being — turns to you: "Calculations indicate: you have lost 83.7% of yourself. Require assistance locating remaining memories?"</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Accept the Modron's puzzle (triggers S-03), talk with faction recruiters, buy intel</td>
+</tr>
+<tr>
+<td>Encounters</td>
+<td>Faction spies may surveil you</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>A: accept the Modron's challenge / B: search on your own</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Gain new clues → continue collecting</td>
+</tr>
+</tbody>
+</table>
+<h4>Gene Lock Tip</h4>
+<ul>
+<li><strong>Suggested Gene Lock Stage</strong>: IV</li>
+<li><strong>Open Gene Lock check</strong>: Resolve DC 4</li>
+<li><strong>After opening</strong>: senses adapt to the multiverse's diversity; can track information from multiple planes at once</li>
+<li><strong>Consequence of not opening</strong>: easily misled</li>
+<li><strong>Liberation side effect</strong>: 1d4 mental damage</li>
+</ul>
+<hr />
+<h3>Act 3: Shadow Creatures — Midnight Floating</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S03</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Shadow Creatures — Midnight Floating</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Trigger S-01 in the Hive</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>When the midnight bell rings, the Hive's buildings slowly begin to drift off the ground. Residents scream and flee. At the center of the street, a rift opens in reality — a rift of the Shadow Plane. Vague creatures crawl from it — Shadow Creatures, their existence half-real, half-phantom.</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Close three Shadow Plane rifts (Intellect + Occultism DC 4), repel Shadow Creatures, rescue trapped residents</td>
+</tr>
+<tr>
+<td>Encounters</td>
+<td>Shadow Creatures ×5 (★★★) + Rift Guardian ×1 (★★★★)</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>A: close the rifts one by one / B: focus fire on the Shadow Creatures' source</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Close all rifts → gain memory fragment ×1</td>
+</tr>
+</tbody>
+</table>
+<h4>Gene Lock Tip</h4>
+<ul>
+<li><strong>Suggested Gene Lock Stage</strong>: IV</li>
+<li><strong>Open Gene Lock check</strong>: Resolve DC 4</li>
+<li><strong>After opening</strong>: can sense the boundary between the Shadow Plane and reality; rift-closing DC-2</li>
+<li><strong>Consequence of not opening</strong>: Shadow Creatures are invisible in shadows</li>
+<li><strong>Liberation side effect</strong>: 2d4 mental damage + 1d4 cold damage</li>
+</ul>
+<hr />
+<h3>Act 4: Truth Revealed — The Shattered Self</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S04</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Truth Revealed — The Shattered Self</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>After collecting 6 fragments</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>The 6th fragment's contents shock you: you see a figure dressed identically to you — standing atop Sigil's highest tower — attempting to open the ultimate door beyond all things. The Lady of Pain's shadow is right behind him. The image freezes. That person — is you. You once threatened this city's foundations. You once challenged the Lady of Pain's laws. You failed; your memory was stripped away as punishment — but now you have recovered everything, and she is waiting.</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Decide your final act — seek the 7th fragment (hidden near the Lady's Maze entrance)</td>
+</tr>
+<tr>
+<td>Encounters</td>
+<td>None — but the Lady's gaze is always on you</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>A: accept the truth, seek an escape method / B: deny the truth, refuse to continue / C: confront the Lady of Pain (suicidal)</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Obtain the 7th fragment → the Lady's judgment begins</td>
+</tr>
+</tbody>
+</table>
+<h4>Gene Lock Tip</h4>
+<ul>
+<li><strong>Suggested Gene Lock Stage</strong>: IV (forced)</li>
+<li><strong>Open Gene Lock check</strong>: Resolve DC 6</li>
+<li><strong>After opening</strong>: fuse all memory fragments — gain complete self-awareness, all attributes +3 (permanent)</li>
+<li><strong>Consequence of not opening</strong>: shattered self-awareness, unable to act</li>
+<li><strong>Liberation side effect</strong>: 5d4 mental damage</li>
+</ul>
+<hr />
+<h3>Act 5: Fleeing the Judgment — The Planar Door</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S05</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Fleeing the Judgment — The Planar Door</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>The Lady of Pain begins her sanction</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>The Lady of Pain slowly turns toward you. No expression, no words — but the air around her grows cold; shadows extend like living things. She raises a hand. The surrounding space begins to fold — the entrance to the Maze is opening. At the critical moment, all 7 memory fragments resonate with golden light — at the 7th fragment's location, a planar door opens automatically. That is the only passage out of Sigil.</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Charge the planar door (requires 3 Rounds, each Round Agility DC 5 to dodge the Lady's maze-folding)</td>
+</tr>
+<tr>
+<td>Encounters</td>
+<td>The Lady of Pain (★★★★★+ unbeatable) — her sanction is not an attack but space-folding: each Round, failing Agility DC 5 means being pulled into the Maze (permanent imprisonment)</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>The only choice: flee!</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Pass through the planar door → escape Sigil → the Main God retrieves you</td>
+</tr>
+</tbody>
+</table>
+<h4>Gene Lock Tip</h4>
+<ul>
+<li><strong>Suggested Gene Lock Stage</strong>: IV (forced)</li>
+<li><strong>Open Gene Lock check</strong>: Resolve DC 5 + Agility DC 5</li>
+<li><strong>After opening</strong>: spatial-perception ability — automatically sense the omen of maze-folding; Agility check DC-2</li>
+<li><strong>Consequence of not opening</strong>: each Round 40% chance of being pulled into the Maze and unable to escape</li>
+<li><strong>Liberation side effect</strong>: 6d4 mental damage (the pure pressure of the Lady's existence)</li>
+</ul>
+<hr /></section>
+<section class="chap"><h2>VII. Reward Settlement</h2>
+<table>
+<thead>
+<tr>
+<th>Reward Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main Quest Complete</td>
+<td>A + 15000</td>
+</tr>
+<tr>
+<td>Understand all fragment meanings</td>
+<td>B + 5000</td>
+</tr>
+<tr>
+<td>Help 3+ factions</td>
+<td>+3000</td>
+</tr>
+<tr>
+<td>All side quests complete</td>
+<td>D3 total +5500</td>
+</tr>
+<tr>
+<td>Maximum Total</td>
+<td>A×1 + B×1 + D×3 + ~28000</td>
+</tr>
+<tr>
+<td>Roleplay</td>
+<td>At GM's discretion (suggested range: 0–500)</td>
+</tr>
+</tbody>
+</table>
+<h3>Return Exchange (Script-Specific)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Item</th>
+<th>Cost (Side Quest + Reward Points)</th>
+<th>Effect</th>
+<th>Growth Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>Civic of Sigil</td>
+<td>B + 2000</td>
+<td>Social (Charisma (CHA)) + Negotiation permanently +3; may freely travel Sigil and its Portals, and enjoy 1× per script "Council Mediation"</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Belief Shapes Reality</td>
+<td>B + 2000</td>
+<td>Gain the "belief" passive: what you intensely believe can alter reality (2× per script, pass DC 5 Will check to achieve a small miracle, effect scales up)</td>
+<td>Lv1→Lv2→Lv3: small conviction → true belief → near-miracle</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Planar Adaptation</td>
+<td>B + 2000</td>
+<td>Constitution (CON) + elemental-damage resistance permanently +2; may breathe on any plane, and immune to planar-shift chaos damage</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Weave Casting</td>
+<td>A + 4000</td>
+<td>Gain "Weave" spell slots: cast 1st–4th-circle spells 3× per day (Intellect (INT) + Arcane DP+3 / 2d8)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Blade of Whispered Secrets</td>
+<td>A + 4000</td>
+<td>Gain the "Whispered Secrets Blade": slashes carry memory extraction (DP+3, +2 Knowledge on hit)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Nameless One's Frame</td>
+<td>A + 4000</td>
+<td>Gain the "Undead Frame": Hit Points (HP) +40, damage reduction (base defense +2), regen +5 / Round</td>
+<td>Lv1→Lv2→Lv3: mortal frame → scarred frame → near-undying</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Death's Vault</td>
+<td>S + 8000</td>
+<td>Gain a "Phylactery": auto-revive after death (retains memory, 3× per script), revival point per phylactery</td>
+<td>Lv1→Lv2→Lv3: single vault → multiple phylacteries → eternal loop</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Factol Authority</td>
+<td>AA + 12000</td>
+<td>Gain "Factol" authority: may set局部 rules of Sigil (2× per script, force-pass DC 6 Social check)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Portal to the Final Death</td>
+<td>S + 8000</td>
+<td>Gain the ability to open the "Final Death Portal": utterly erase concepts / existence (works on gods too, 1× per script)</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VIII. Appendix</h2>
+<h3>Map Index</h3>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Type</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>WM-01</td>
+<td>Large Map</td>
+<td>TORMENT_WM-01.svg</td>
+</tr>
+<tr>
+<td>EM-01</td>
+<td>Exploration Map</td>
+<td>TORMENT_EM-01.svg</td>
+</tr>
+<tr>
+<td>BM-01</td>
+<td>Combat Map</td>
+<td>TORMENT_BM-01.svg</td>
+</tr>
+<tr>
+<td>BM-02</td>
+<td>Combat Map</td>
+<td>TORMENT_BM-02.svg</td>
+</tr>
+</tbody>
+</table>
+<h3>GM Memo</h3>
+<ul>
+<li>Sigil itself is the best character — describe its strangeness in detail</li>
+<li>The Lady of Pain can never be "defeated" — this is the script's core premise</li>
+<li>The script's exploration and philosophical themes matter more than combat</li>
+<li>A 3-person party may gain NPC companion assistance</li>
+</ul></section></section>
+    <section class="block"><h2>地圖（YAML＋SVG）</h2><div class="map">
+              <div class="maptitle">TORMENT_BM-01 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<rect x="20" y="20" width="760" height="560" fill="url(#grid)"/>
+<rect x="20" y="20" width="760" height="560" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="400.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">TORMENT_BM-01 CombatMap</text>
+<text x="25" y="592" fill="#666" font-size="9">TORMENT_BM-01 | 10×10cells(concept) | 1cells = 5ft | total 50×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="30.0" y="30.0" width="740.0" height="540.0" rx="3" fill="none" stroke="#4a4a7e" stroke-width="2"/>
+<rect x="40.0" y="400.0" width="120.0" height="160.0" rx="3" fill="#00FF88" stroke="#00FF88" stroke-width="1.5"/>
+<text x="100.0" y="476.0" text-anchor="middle" fill="#aaa" font-size="8">Player Start Zone</text>
+<text x="100.0" y="490.0" text-anchor="middle" fill="#666" font-size="6">(25.0, 152.5)ft</text>
+<rect x="600.0" y="40.0" width="160.0" height="120.0" rx="3" fill="#FF4444" stroke="#FF4444" stroke-width="1.5"/>
+<text x="680.0" y="96.0" text-anchor="middle" fill="#aaa" font-size="8">Enemy Infestation Zone</text>
+<text x="680.0" y="110.0" text-anchor="middle" fill="#666" font-size="6">(222.5, 25.0)ft</text>
+<rect x="200.0" y="150.0" width="80.0" height="80.0" rx="3" fill="#3a2a4e" stroke="#6a4a8e" stroke-width="1"/>
+<text x="240.0" y="186.0" text-anchor="middle" fill="#aaa" font-size="8">Floating Buildings</text>
+<text x="240.0" y="200.0" text-anchor="middle" fill="#666" font-size="6">(72.5, 57.5)ft</text>
+<rect x="450.0" y="250.0" width="120.0" height="40.0" rx="5" fill="#3a2a4e" stroke="#6a4a8e" stroke-width="1"/>
+<text x="510.0" y="266.0" text-anchor="middle" fill="#aaa" font-size="8">Chaos Altar</text>
+<text x="510.0" y="280.0" text-anchor="middle" fill="#666" font-size="6">(165.0, 82.5)ft</text>
+<rect x="300.0" y="380.0" width="100.0" height="60.0" rx="3" fill="#3a2a4e" stroke="#6a4a8e" stroke-width="1"/>
+<text x="350.0" y="406.0" text-anchor="middle" fill="#aaa" font-size="8">Pillar of Order</text>
+<text x="350.0" y="420.0" text-anchor="middle" fill="#666" font-size="6">(112.5, 130.0)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L4/TORMENT-Planescape-印記城/en/maps/TORMENT_BM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L4/TORMENT-Planescape-印記城/en/maps/TORMENT_BM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">TORMENT_BM-02 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<rect x="20" y="20" width="760" height="560" fill="url(#grid)"/>
+<rect x="20" y="20" width="760" height="560" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="400.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">TORMENT_BM-02 CombatMap</text>
+<text x="25" y="592" fill="#666" font-size="9">TORMENT_BM-02 | 10×10cells(concept) | 1cells = 5ft | total 50×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="30.0" y="30.0" width="740.0" height="540.0" rx="3" fill="none" stroke="#4a4a7e" stroke-width="2"/>
+<rect x="40.0" y="400.0" width="120.0" height="160.0" rx="3" fill="#00FF88" stroke="#00FF88" stroke-width="1.5"/>
+<text x="100.0" y="476.0" text-anchor="middle" fill="#aaa" font-size="8">Player Start Zone</text>
+<text x="100.0" y="490.0" text-anchor="middle" fill="#666" font-size="6">(25.0, 152.5)ft</text>
+<rect x="600.0" y="40.0" width="160.0" height="120.0" rx="3" fill="#FF4444" stroke="#FF4444" stroke-width="1.5"/>
+<text x="680.0" y="96.0" text-anchor="middle" fill="#aaa" font-size="8">Enemy Infestation Zone</text>
+<text x="680.0" y="110.0" text-anchor="middle" fill="#666" font-size="6">(222.5, 25.0)ft</text>
+<rect x="300.0" y="100.0" width="200.0" height="80.0" rx="3" fill="#3a2a4e" stroke="#6a4a8e" stroke-width="1"/>
+<text x="400.0" y="136.0" text-anchor="middle" fill="#aaa" font-size="8">Maze Entrance</text>
+<text x="400.0" y="150.0" text-anchor="middle" fill="#666" font-size="6">(127.5, 37.5)ft</text>
+<rect x="150.0" y="250.0" width="80.0" height="80.0" rx="3" fill="#3a2a4e" stroke="#6a4a8e" stroke-width="1"/>
+<text x="190.0" y="286.0" text-anchor="middle" fill="#aaa" font-size="8">Shadow Blade</text>
+<text x="190.0" y="300.0" text-anchor="middle" fill="#666" font-size="6">(57.5, 87.5)ft</text>
+<rect x="450.0" y="250.0" width="80.0" height="80.0" rx="3" fill="#3a2a4e" stroke="#6a4a8e" stroke-width="1"/>
+<text x="490.0" y="286.0" text-anchor="middle" fill="#aaa" font-size="8">Shadow Blade</text>
+<text x="490.0" y="300.0" text-anchor="middle" fill="#666" font-size="6">(157.5, 87.5)ft</text>
+<rect x="350.0" y="400.0" width="100.0" height="40.0" rx="3" fill="#3a2a4e" stroke="#6a4a8e" stroke-width="1"/>
+<text x="400.0" y="416.0" text-anchor="middle" fill="#aaa" font-size="8">Planegate (Exit)</text>
+<text x="400.0" y="430.0" text-anchor="middle" fill="#666" font-size="6">(127.5, 132.5)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L4/TORMENT-Planescape-印記城/en/maps/TORMENT_BM-02.yaml" download>yaml</a> <a href="../../assets/scripts/L4/TORMENT-Planescape-印記城/en/maps/TORMENT_BM-02.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">TORMENT_EM-01 <span class="maptype">探索地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<rect width="800" height="600" fill="#1a1a2e"/>
+<text x="400.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">TORMENT_EM-01 ExplorationMap</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 1</text>
+<rect x="20" y="0.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="800.0" height="600.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<text x="400.0" y="300.0" text-anchor="middle" fill="#aaa" font-size="9">Slums</text>
+<rect x="50.0" y="40.0" width="700.0" height="520.0" rx="8.0" fill="none" stroke="#4a4a7e" stroke-width="2"/>
+<text x="400.0" y="300.0" text-anchor="middle" fill="#aaa" font-size="9">Slums</text>
+<rect x="80.0" y="60.0" width="200.0" height="140.0" rx="5.0" fill="#2a3a5e" stroke="#6a4a8e" stroke-width="1.5"/>
+<text x="180.0" y="130.0" text-anchor="middle" fill="#aaa" font-size="9">Abandoned Inn</text>
+<rect x="320.0" y="60.0" width="180.0" height="140.0" rx="5.0" fill="#2a3a5e" stroke="#6a4a8e" stroke-width="1.5"/>
+<text x="410.0" y="130.0" text-anchor="middle" fill="#aaa" font-size="9">Information Broker</text>
+<text x="20" y="175.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 2</text>
+<rect x="20" y="180.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="540.0" y="180.0" width="120.0" height="80.0" rx="5.0" fill="#2a3a5e" stroke="#6a4a8e" stroke-width="1.5"/>
+<text x="600.0" y="220.0" text-anchor="middle" fill="#aaa" font-size="9">Dark Alley</text>
+<rect x="80.0" y="240.0" width="200.0" height="140.0" rx="5.0" fill="#2a3a5e" stroke="#6a4a8e" stroke-width="1.5"/>
+<text x="180.0" y="310.0" text-anchor="middle" fill="#aaa" font-size="9">Planegate Ruins</text>
+<rect x="320.0" y="240.0" width="180.0" height="140.0" rx="5.0" fill="#2a3a5e" stroke="#6a4a8e" stroke-width="1.5"/>
+<text x="410.0" y="310.0" text-anchor="middle" fill="#aaa" font-size="9">Slums</text>
+<text x="20" y="495.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 3</text>
+<rect x="20" y="500.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="620.0" y="500.0" width="160.0" height="80.0" rx="4.0" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="700.0" y="540.0" text-anchor="middle" fill="#aaa" font-size="9">Legend</text>
+<rect x="635.0" y="533.0" width="15.0" height="10.0" rx="0.0" fill="#2a3a5e" stroke="#6a4a8e" stroke-width=""/>
+<text x="642.5" y="538.0" text-anchor="middle" fill="#aaa" font-size="9">Explorable Area</text>
+<rect x="635.0" y="550.0" width="15.0" height="10.0" rx="0.0" fill="#3a2a5e" stroke="#6a4a8e" stroke-width=""/>
+<text x="642.5" y="555.0" text-anchor="middle" fill="#aaa" font-size="9">Safe Zone</text>
+<rect x="20" y="545" width="760" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="570" fill="#aaa" font-size="9">TORMENT_EM-01 | ExplorationMap | 1cells = 5m</text>
+<text x="20" y="590" fill="#666" font-size="9">TORMENT_EM-01 | ExplorationMap </text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L4/TORMENT-Planescape-印記城/en/maps/TORMENT_EM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L4/TORMENT-Planescape-印記城/en/maps/TORMENT_EM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">TORMENT_WM-01 <span class="maptype">世界地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="800" height="600" fill="url(#wmgrid)"/>
+<rect x="80.0" y="60.0" width="640.0" height="480.0" rx="5" fill="#0a1a2a" stroke="#1e3a5f" stroke-width="2"/>
+<text x="400.0" y="300.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Great Market</text>
+<line x1="270.0" y1="370.0" x2="380.0" y2="290.0" stroke="#FFD700" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="400.0" y1="260.0" x2="530.0" y2="120.0" stroke="#FFD700" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<ellipse cx="550.0" cy="100.0" rx="40.0" ry="40.0" fill="#FF0000" opacity="0.1" stroke="#FF4444" stroke-width="1"/>
+<text x="570.0" y="100.0" fill="#FF4444" font-size="9">Lady of Pain's Maze</text>
+<circle cx="250.0" cy="400.0" r="12.0" fill="none" stroke="#00FF88" stroke-width="2" stroke-dasharray="4,2"/>
+<text x="250.0" y="383.0" text-anchor="middle" fill="#00FF88" font-size="10" font-weight="bold">★ Dusty Quarter</text>
+<circle cx="250.0" cy="400.0" r="5.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="250.0" cy="400.0" r="5.0" fill="none" stroke="" stroke-width="2"/>
+<text x="250.0" y="390.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Dusty Quarter</text>
+<circle cx="400.0" cy="280.0" r="12.0" fill="none" stroke="#FFD700" stroke-width="2" stroke-dasharray="4,2"/>
+<text x="400.0" y="263.0" text-anchor="middle" fill="#FFD700" font-size="10" font-weight="bold">★ Great Market</text>
+<circle cx="400.0" cy="280.0" r="5.0" fill="#FFD700" opacity="0.6"/>
+<circle cx="400.0" cy="280.0" r="5.0" fill="none" stroke="" stroke-width="2"/>
+<text x="400.0" y="270.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Great Market</text>
+<circle cx="200.0" cy="150.0" r="12.0" fill="none" stroke="#00AAFF" stroke-width="2" stroke-dasharray="4,2"/>
+<text x="200.0" y="133.0" text-anchor="middle" fill="#00AAFF" font-size="10" font-weight="bold">★ Faction HQ</text>
+<circle cx="200.0" cy="150.0" r="5.0" fill="#00AAFF" opacity="0.6"/>
+<circle cx="200.0" cy="150.0" r="5.0" fill="none" stroke="" stroke-width="2"/>
+<text x="200.0" y="140.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Faction HQ</text>
+<circle cx="550.0" cy="100.0" r="12.0" fill="none" stroke="#FF0000" stroke-width="2" stroke-dasharray="4,2"/>
+<text x="550.0" y="83.0" text-anchor="middle" fill="#FF0000" font-size="10" font-weight="bold">★ Lady of Pain's Maze</text>
+<circle cx="550.0" cy="100.0" r="5.0" fill="#FF0000" opacity="0.6"/>
+<circle cx="550.0" cy="100.0" r="5.0" fill="none" stroke="" stroke-width="2"/>
+<text x="550.0" y="90.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Lady of Pain's Maze</text>
+<circle cx="642.0" cy="60.0" r="4.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="642.0" cy="60.0" r="4.0" fill="none" stroke="" stroke-width="2"/>
+<text x="642.0" y="51.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Start Point</text>
+<circle cx="642.0" cy="78.0" r="4.0" fill="#FFD700" opacity="0.6"/>
+<circle cx="642.0" cy="78.0" r="4.0" fill="none" stroke="" stroke-width="2"/>
+<text x="642.0" y="69.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Objective Point</text>
+<rect x="630" y="20" width="150" height="74" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="705" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Legend</text>
+<text x="640" y="60" fill="#aaa" font-size="9">Maze (Forbidden Zone)</text>
+<text x="640" y="76" fill="#aaa" font-size="9">Start Point</text>
+<text x="640" y="92" fill="#aaa" font-size="9">Objective Point</text>
+<text x="20" y="585" fill="#666" font-size="9">TORMENT_WM-01 | largeRangeMap | Schematic</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L4/TORMENT-Planescape-印記城/en/maps/TORMENT_WM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L4/TORMENT-Planescape-印記城/en/maps/TORMENT_WM-01.svg" download>svg</a></p>
+            </div></section>
+    <section class="block"><h2>概念圖</h2><div class="gallery"><a href="../../assets/scripts/L4/TORMENT-Planescape-印記城/images/enemy_01_lady_of_pain.png" target="_blank"><img src="../../assets/scripts/L4/TORMENT-Planescape-印記城/images/enemy_01_lady_of_pain.png" alt="enemy_01_lady_of_pain.png"></a><a href="../../assets/scripts/L4/TORMENT-Planescape-印記城/images/npc_01_morte.png" target="_blank"><img src="../../assets/scripts/L4/TORMENT-Planescape-印記城/images/npc_01_morte.png" alt="npc_01_morte.png"></a><a href="../../assets/scripts/L4/TORMENT-Planescape-印記城/images/npc_02_TORMENT_01.png" target="_blank"><img src="../../assets/scripts/L4/TORMENT-Planescape-印記城/images/npc_02_TORMENT_01.png" alt="npc_02_TORMENT_01.png"></a><a href="../../assets/scripts/L4/TORMENT-Planescape-印記城/images/scene_01_sigil_ring_city.png" target="_blank"><img src="../../assets/scripts/L4/TORMENT-Planescape-印記城/images/scene_01_sigil_ring_city.png" alt="scene_01_sigil_ring_city.png"></a></div></section>
+    </main>
+<footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

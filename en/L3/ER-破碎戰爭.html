@@ -1,0 +1,687 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Elden Ring: The Shattering | ER-破碎戰爭 | Infinite Terror TRPG Scripts</title>
+<link rel="stylesheet" href="../../assets/style.css"></head>
+<body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../../index.html">中文</a></header>
+<div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
+<main class="container"><h1>Elden Ring: The Shattering</h1>
+    <p class="meta">Code: ER-破碎戰爭 ｜ Source: Elden Ring: The Shattering (original) ｜ Difficulty: ★★★★ ｜ Players: 3–5 ｜ Duration: 5–7 hrs / 2–3 sessions ｜ Type: Combat / Investigation / Survival</p>
+    <p class="nav"><a href="../../index.html">← 劇本總覽</a> ｜ <a href="../../assets/scripts/L3/ER-破碎戰爭/en/ER-破碎戰爭_劇本.md" download>劇本 MD</a> ｜ <a href="../../assets/scripts/L3/ER-破碎戰爭/en/ER-破碎戰爭_NPC名冊.xlsx" download>NPC 名冊</a> ｜ <a href="../../assets/scripts/L3/ER-破碎戰爭/en/ER-破碎戰爭_敵方單位名冊.xlsx" download>敵方名冊</a> ｜ <a href="../../assets/L3_ER-破碎戰爭_all_en.zip">下載全部（zip）</a></p>
+    <section class="block content"><section class="chap"><h2>一、基本資訊</h2>
+<p>Script Title: Elden Ring: The Shattering
+Source Film: Elden Ring: The Shattering (original)
+Difficulty Rating: ★★★★
+Suggested Players: 3–5
+Estimated Duration: 5–7 hrs / 2–3 sessions
+Script Type: Combat / Investigation / Survival
+Prerequisite: Recommended at least one completed script of ★★★ or below; average team Attribute not below 4</p>
+<hr /></section>
+<details class="gm"><summary>🎭 GM 限定：二、Plot Summary (GM Only)</summary><h2>二、Plot Summary (GM Only)</h2>
+<h3>One-line Summary</h3>
+<blockquote>
+<p>Reincarnators (RC) arrive in the Lands Between as Tarnished, in the devastated world after the Shattering, to defeat Godrick the Grafted — ruler of Limgrave — and claim the first Great Rune.</p>
+</blockquote>
+<h3>Full Story Background</h3>
+<p>After the Elden Ring shattered, the offspring of the goddess Marika — the demigods — waged a devastating war over the Ring's fragments (the Great Runes). This is "The Shattering." After the war, the Lands Between became a war-scorched wasteland; the demigods each hid in their domains, guarding the Great Rune fragments they seized.</p>
+<p>Guided by "Grace," the Reincarnators come to the Lands Between — they are Tarnished, once exiled but now recalled, bearing the mission to repair the Elden Ring. Their journey begins in Limgrave — once beautiful land now ruled by the demigod "Godrick the Grafted."</p>
+<p>Godrick's stronghold — Stormveil Castle — sits atop a cliff north of Limgrave. The road to the castle is guarded by Margit the Fell Omen. Godrick is a twisted tyrant — he pursues power by grafting others' limbs onto himself (hence "the Grafted"). He holds the first Great Rune — the key to repairing the Elden Ring.</p>
+<p>Core conflict: cross Limgrave's dangerous wilds, defeat the gatekeeper Margit, breach Stormveil Castle, defeat Godrick in his lair, and seize the Great Rune.</p>
+<h3>Story Structure Type</h3>
+<p>Act-by-act: depart from the Limgrave grace point → cross Stormhill to face Margit → storm Stormveil Castle → defeat Godrick the Grafted and seize the Great Rune.</p>
+<hr /></details>
+<section class="chap"><h2>三、Main God Quest</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest Description</td>
+<td>"Defeat Limgrave's demigod — Godrick the Grafted — and take his Great Rune. Along the way you must defeat the gatekeeper Margit the Fell Omen."</td>
+</tr>
+<tr>
+<td>Main Quest</td>
+<td>Cross Limgrave to Stormveil Castle, defeat Margit the Fell Omen (mid-Boss), then defeat Godrick the Grafted to obtain the Great Rune</td>
+</tr>
+<tr>
+<td>Quest Reward</td>
+<td>B+5000</td>
+</tr>
+<tr>
+<td>Failure Condition</td>
+<td>Total party wipe / abandoned by Grace in the Lands Between (cannot revive after 3+ deaths — the Tarnished's fate)</td>
+</tr>
+<tr>
+<td>Failure Penalty</td>
+<td>Erasure</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>① Find all map fragments of Limgrave (×3): 400 <br>② Defeat the Tree Sentinel (★★★ mounted knight): 500 <br>③ Find and activate all 5 grace points: 300</td>
+</tr>
+</tbody>
+</table>
+<h3>Party-size Compatibility</h3>
+<ul>
+<li>With 3 players, enemy count reduced by 30%</li>
+<li>With 5 players, enemy count increased by 50% or add 1 reinforcement wave</li>
+<li>With 3 players, check Difficulty (DC) reduced by 1</li>
+</ul>
+<hr /></section>
+<section class="chap"><h2>四、Side Quests</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-01</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Free the Sorceress Sellen</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Discover the imprisoned sorceress at the Waypoint Ruins in Limgrave (PER DC2)</td>
+</tr>
+<tr>
+<td>Objective</td>
+<td>Sorceress Sellen is imprisoned in the Waypoint Ruins basement — a powerful Glintstone sorceress. Freeing her requires defeating the guard Pumpkin Head Soldiers (★★) and Glintstone Apprentices ×2 (★). After rescue she teaches the "Glintstone Comet" spell (ranged 2d8 magic damage — extreme range)</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Before entering Stormveil Castle</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>500 + Glintstone Comet spell (usable until script end)</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Supports — gain a powerful spell</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-02</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Weapon Enhancement</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Discover the forge at the Church of Elleh ruins (PER DC2)</td>
+</tr>
+<tr>
+<td>Objective</td>
+<td>Collect Smithing Stone ×3 (scattered in Limgrave's mine caves — requires small exploration fights: Cave Giant Rat ×2 ★) to enhance weapons. Each enhancement +1 weapon damage (max +3)</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Before defeating Godrick</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>Weapon enhancement +2 (increases final Boss damage output) +300</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Supports the main quest</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>五、World Setting</h2>
+<h3>Timeline</h3>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T+0</td>
+<td>Awaken at the guided grace point in Limgrave. Melina appears, offers the spirit horse whistle (Torrent — summonable spirit horse raises move speed)</td>
+</tr>
+<tr>
+<td>T+3 rounds</td>
+<td>Cross Stormhill. Optionally challenge the Tree Sentinel (★★★ optional Boss). Collect grace points</td>
+</tr>
+<tr>
+<td>T+6 rounds</td>
+<td>Reach before Stormveil Castle gate. Encounter Margit the Fell Omen (★★★ mid-Boss — golden halberd and magic throws)</td>
+</tr>
+<tr>
+<td>T+10 rounds</td>
+<td>Breach the gate into Stormveil Castle. Exile Soldiers (★~★★) and Battle Hawks (★★) patrol inside</td>
+</tr>
+<tr>
+<td>T+14 rounds</td>
+<td>Reach the Grafted Hall — Godrick's lair. Final Boss fight begins</td>
+</tr>
+<tr>
+<td>T+18 rounds</td>
+<td>Defeat Godrick → obtain Great Rune and Godrick's Remembrance → script complete</td>
+</tr>
+</tbody>
+</table>
+<h3>Key Locations</h3>
+<h4>Guided Grace Point (Starting Point)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Guided Grace Point (Starting Point)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A golden light rises from the ground — the light of Grace. Around it lies Limgrave's ruined grassland; in the distance a giant golden tree covers half the sky. A hooded woman appears beside the light.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Melina (offers spirit horse whistle and basic intel — summon Torrent to accelerate movement), map fragments (partial area maps — optional objective ①), basic gear (longsword/small shield/bow+arrows×20)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>North → Stormhill → Stormveil Castle</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>WM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Grafted Hall (Boss Arena)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Grafted Hall (Boss Arena)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"The hall reeks of decay and stale blood. The floor is dark — covered in dried bloodstains. Severed limbs hang on the walls — arms, legs, even whole bodies. At the grafting altar in the hall's center, a twisted giant is attaching a new dragon head to his own arm. 'Kneel — lowly Tarnished. Your blood shall be my new power.'"</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Grafting altar (Godrick's combat position — after HP drops to 50% he uses the grafted dragon head for empowered attacks), upper corridor (ranged characters can take the high ground — but blown off by Godrick's storm call, DC4 AGI save), dragon-head corpse (can be destroyed to cause explosion — Godrick's dragon head temporarily loses function in the blast)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td><strong>Boss</strong>: Godrick the Grafted (★★★★ demigod — multi-phase fight). Phase 1: great axe swings + limb sweep. Phase 2 (HP&lt;50%): grafted dragon-head flame spray (AoE 4d6 fire DC4 AGI). Phase 3 (HP&lt;25%): berserk state — all attacks DP+2 but defense −2. Round 6: Exile Soldier ×3 (★) enter from side door</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>Defeat Godrick → obtain Great Rune → script complete</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>BM-01</td>
+</tr>
+</tbody>
+</table>
+<h3>World Special Rules</h3>
+<ul>
+<li><strong>Tarnished Mechanic</strong>: After death in the Lands Between, Reincarnators revive at the nearest grace point — but each death consumes 1 revival (total 3). 4th death = permanent death (quest failure). After revival HP restores to full, but all unspent Runes (XP currency) are lost.</li>
+<li><strong>Grace Points</strong>: Golden-light rest points. At a grace point you can: ① restore HP and FP (magic points) ② upgrade Attributes ③ travel to other discovered grace points. More discovered grace points = more exploration reward.</li>
+<li><strong>Spirit Horse Torrent</strong>: A ghostly steed summonable at will (costs 1 action — summon/dismiss). While mounted move speed ×2 but combat DP-1 (mounted combat less precise than on foot). Cannot ride in Boss fights.</li>
+<li><strong>Runes</strong>: Currency/XP gained from defeating enemies. Used at grace points to upgrade (each level needs progressively more Runes). On death lose all Runes; must return to the death location after revival to retrieve.</li>
+</ul>
+<h3>Main God Restrictions</h3>
+<ul>
+<li>"Revealing the existence of the Main God space to story characters is forbidden"</li>
+<li>"Any ability may be used in this world — but when cast it is treated as a unique Ash of War or Incantation"</li>
+<li>"Do not attack friendly NPCs (e.g. Melina) — violation loses all grace guidance"</li>
+<li>"If you surrender to Godrick and hand over Runes — treated as betraying the mission, quest failure"</li>
+</ul>
+<h3>Visual Map System</h3>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Code</th>
+<th>Content</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Regional Map</td>
+<td>WM-01</td>
+<td>Limgrave full map — grace points, Stormhill, Stormveil Castle location</td>
+<td><code>maps/ER_WM-01.svg</code></td>
+</tr>
+<tr>
+<td>Exploration Map</td>
+<td>EM-01</td>
+<td>Limgrave wilds exploration map — ruins, mine caves, NPC locations</td>
+<td><code>maps/ER_EM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-01</td>
+<td>Grafted Hall Boss arena 24×12 cells — altar, broken columns, corpse pile, dragon head</td>
+<td><code>maps/ER_BM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-02</td>
+<td>Stormhill castle-gate bridge — Margit encounter</td>
+<td><code>maps/ER_BM-02.svg</code></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>六、Characters and Enemy Units (Managed in Separate Excel)</h2>
+<blockquote>
+<p>NPC and enemy unit data — see the following separate Excel files:
+- <strong>NPC Roster</strong>: <code>ER-破碎戰爭_NPC名冊.xlsx</code>
+- <strong>Enemy Unit Roster</strong>: <code>ER-破碎戰爭_敵方單位名冊.xlsx</code></p>
+<p>Both Excel files contain a "Roster" page and a "Blank Template" page; the first column is reserved for character art.</p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>七、Key Scenes</h2>
+<h3>Scene Structure Note</h3>
+<p>This script uses <strong>act-by-act: depart from the Limgrave grace point → cross Stormhill to face Margit the Fell Omen → storm Stormveil Castle → defeat Godrick the Grafted and seize the Great Rune.</strong></p>
+<h3>Opening</h3>
+<h4>Scene S01: Limgrave — Guidance of Grace</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S01</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Limgrave — Guidance of Grace</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Start of script</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"Golden light filters through your eyelids — when you open your eyes, you lie on a vast grassland. In the distance a golden tree covering half the sky radiates warm light. Beside you, a small golden grace pulses on the ground. A young hooded woman stands quietly not far away."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Melina (dialogue — gain spirit horse whistle and basic intel), grace point (rest + upgrade + travel network), surrounding ruins (search for basic gear and map fragments)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>None — but the Tree Sentinel (★★★ optional Boss) is visible patrolling in the distance</td>
+</tr>
+<tr>
+<td>Gene Lock Related</td>
+<td>No special Gene Lock requirement</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>① Follow Melina's guidance directly to Stormveil Castle → fast main-quest progress ② First explore Limgrave to gather resources → may discover S-01 and S-02</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Head northwest → cross Stormhill (enter S02)</td>
+</tr>
+</tbody>
+</table>
+<h3>Mid-Boss</h3>
+<h4>Scene S02: Stormhill — Margit the Fell Omen</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S02</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Stormhill — Margit the Fell Omen</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Arrive at the great bridge before Stormveil Castle gate</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"At the bridge's end spanning the abyss stands Stormveil Castle's giant gate. As you step onto the bridge, a tall figure drops from the sky — he wields a golden great-halberd, radiating ancient majesty. 'Foolish Tarnished... you are not yet ready to face this castle's lord.' Margit the Fell Omen."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Great bridge (combat field — mind the edge fall), bridge-pier cover (half cover — use to dodge Margit's magic throws)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td><strong>Mid-Boss</strong>: Margit the Fell Omen (★★★ fallen omen — HP=40 AC=15). Skills: Golden Halberd Combo (1d10+6 physical), Magic Throw (ranged 1d8+3 holy), Leaping Smash (AoE 3d8+3 — DC3 AGI save for half). At HP&lt;50% begins using Holy Hammer (summon holy hammer — 2d8+4 AoE)</td>
+</tr>
+<tr>
+<td>Gene Lock Related</td>
+<td>### Gene Lock Hint<br>- <strong>Suggested Gene Lock Stage 2</strong><br>- <strong>Stage 2</strong>: Can read Margit's action patterns — Reflex save DP+2<br>- <strong>Liberation Side Effect</strong>: None (mid-Boss — not an extreme liberation)</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>① Confront Margit head-on → after defeat gain Margit's Shackle (usable to weaken the next fight against Margit) ② Use the spirit horse to bypass the bridge → skip this fight but miss the reward</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Defeat Margit → pass the gate into Stormveil Castle (enter S03)</td>
+</tr>
+</tbody>
+</table>
+<h3>Gene Lock Hint</h3>
+<ul>
+<li><strong>Suggested Gene Lock Stage 2</strong></li>
+<li><strong>Stage 2</strong>: Can read Margit's action patterns — Reflex save DP+2</li>
+<li><strong>Liberation Side Effect</strong>: None (mid-Boss — not an extreme liberation)</li>
+</ul>
+<hr /></section>
+<section class="chap"><h2>八、Reward Settlement</h2>
+<table>
+<thead>
+<tr>
+<th>Reward Type</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main Quest Complete</td>
+<td>B+5000</td>
+</tr>
+<tr>
+<td>Side Quests Complete</td>
+<td>S-01 Sellen: 500+Glintstone Comet / S-02 Enhancement: 300</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>Map fragments ×3: 400 / Tree Sentinel: 500 / Grace points ×5: 300</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Margit 800 / Godrick 1500 / Tree Sentinel 500</td>
+</tr>
+<tr>
+<td>Special Achievement</td>
+<td>No-death clear (0 revivals used): B-tier upgraded to A / defeat Godrick unarmored: 1000</td>
+</tr>
+<tr>
+<td>Return Exchange</td>
+<td>Great Rune Fragment (A-tier 4000) / Glintstone Sorcery Basics (D-tier 500) / Spirit Horse Whistle (D-tier 300)</td>
+</tr>
+</tbody>
+</table>
+<h3>Return Exchange (Script-limited)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Exchange Item</th>
+<th>Cost (Side + Reward Points)</th>
+<th>Effect</th>
+<th>Growth Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>Ash of War · Finishing Blow (Ash)</td>
+<td>C+1000</td>
+<td>Learn Ash of War — attacks gain "Finishing Blow" stance; +2d6 vs broken-guard enemies</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Glintstone Missile (Sorcery)</td>
+<td>C+1000</td>
+<td>INT + Arcane cast "Glintstone Missile (1d8 magic)" 3× per script</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Golden Tree Blessing (Incantation)</td>
+<td>C+1000</td>
+<td>Learn incantation — 2× per script deploy "Golden Healing" restoring 2d8 HP</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Deathroot Sense (Passive)</td>
+<td>C+1000</td>
+<td>Sense deathroot / death-blight aura — reconnaissance vs undead calamity DP+2</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Great Rune · Starscourge (Rune)</td>
+<td>B+4000</td>
+<td>Embed "Starscourge (Radahn)" Great Rune — STR +3, gravity control (once per script slow enemy area)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Glintstone School Mastery (Sorcery)</td>
+<td>B+2000</td>
+<td>Master Glintstone sorcery — Arcane check DC-1; can cast "Rock Sling" "Carian Slicer" 2× each per script</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Ash of War · Iai (Ash)</td>
+<td>B+2000</td>
+<td>Learn Iai Ash — melee attack DP+4, crit range +1</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Greater Will's Favor (Divine Favor)</td>
+<td>A+7200</td>
+<td>Gain "Greater Will" favor — all Attributes +2; "Gold Skewer" judgment downgraded to once per major script (3d6 holy damage)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Elden Lord Title (Title)</td>
+<td>A+7200</td>
+<td>Gain "Elden Lord" title — can command a Golden Tree faction; Main God space holy/glintstone enhancements discount downgraded to 5%</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></section>
+<section class="chap"><h2>九、Appendix</h2>
+<ul>
+<li><strong>Maps</strong>: All map files are stored in the <code>maps/</code> subdirectory, archived by the three-tier system: Regional Map (WM), Exploration Map (EM), Battle Map (BM).</li>
+<li><strong>GM Memo</strong>:</li>
+<li>Confirm players' Gene Lock stage before opening; adjust encounter difficulty accordingly</li>
+<li>If players take completely unexpected actions, use side quests as buffer</li>
+<li>For a 3-person party, provide 1 supportive NPC to aid combat</li>
+<li>For a 5-person party, add 1 reinforcement wave in the boss fight to delay pressure</li>
+</ul>
+<hr />
+<blockquote>
+<p>Version: v0.1 | Format Spec v0.4 | D10 Dice Pool System</p>
+</blockquote></section></section>
+    <section class="block"><h2>地圖（YAML＋SVG）</h2><div class="map">
+              <div class="maptitle">ER_BM-01 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<rect x="20" y="20" width="760" height="560" fill="url(#grid)"/>
+<rect x="20" y="20" width="760" height="560" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="400.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">ER_BM-01 Battle Map</text>
+<text x="25" y="592" fill="#666" font-size="9">ER_BM-01 | 10×10cells (concept) | 1cell = 5ft | Total 50×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="300.0" y="180.0" width="200.0" height="120.0" rx="3" fill="#2a2a4e" stroke="#4a4a8e" stroke-width="2"/>
+<text x="400.0" y="236.0" text-anchor="middle" fill="#aaa" font-size="8">Grafting Altar</text>
+<text x="400.0" y="250.0" text-anchor="middle" fill="#666" font-size="6">(127.5, 75.0)ft</text>
+<rect x="60.0" y="460.0" width="680.0" height="30.0" rx="5" fill="#1a1a2eee" stroke="#3a3a6e" stroke-width=""/>
+<text x="400.0" y="471.0" text-anchor="middle" fill="#aaa" font-size="8">Special Rules: GodrickHPdrops to50% when Grafted Dragon Head (flame sprayAoE 4d6)/Rd6 rounds summon Exile Soldier ×3(★)/If Margit defeated, Godrick initialHP-20%</text>
+<text x="400.0" y="485.0" text-anchor="middle" fill="#666" font-size="6">(127.5, 150.0)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/ER-破碎戰爭/en/maps/ER_BM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L3/ER-破碎戰爭/en/maps/ER_BM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">ER_BM-02 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<rect x="20" y="20" width="760" height="560" fill="url(#grid)"/>
+<rect x="20" y="20" width="760" height="560" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="400.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">ER_BM-02 Battle Map</text>
+<text x="25" y="592" fill="#666" font-size="9">ER_BM-02 | 10×10cells (concept) | 1cell = 5ft | Total 50×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="300.0" y="180.0" width="200.0" height="120.0" rx="3" fill="#2a2a4e" stroke="#4a4a8e" stroke-width="2"/>
+<text x="400.0" y="236.0" text-anchor="middle" fill="#aaa" font-size="8">Grafting Altar</text>
+<text x="400.0" y="250.0" text-anchor="middle" fill="#666" font-size="6">(127.5, 75.0)ft</text>
+<rect x="60.0" y="460.0" width="680.0" height="30.0" rx="5" fill="#1a1a2eee" stroke="#3a3a6e" stroke-width=""/>
+<text x="400.0" y="471.0" text-anchor="middle" fill="#aaa" font-size="8">Special Rules: GodrickHPdrops to50% when Grafted Dragon Head (flame sprayAoE 4d6)/Rd6 rounds summon Exile Soldier ×3(★)/If Margit defeated, Godrick initialHP-20%</text>
+<text x="400.0" y="485.0" text-anchor="middle" fill="#666" font-size="6">(127.5, 150.0)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/ER-破碎戰爭/en/maps/ER_BM-02.yaml" download>yaml</a> <a href="../../assets/scripts/L3/ER-破碎戰爭/en/maps/ER_BM-02.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">ER_EM-01 <span class="maptype">探索地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<rect width="800" height="600" fill="#1a1a2e"/>
+<text x="400.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">Lands Between (The Lands Between)</text>
+<text x="20" y="65.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 1</text>
+<rect x="20" y="70.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="50.0" y="70.0" width="700.0" height="450.0" rx="5.0" fill="#1a1a3e" stroke="#3a3a6e" stroke-width="2"/>
+<text x="400.0" y="295.0" text-anchor="middle" fill="#aaa" font-size="9">[S03-Boss]</text>
+<rect x="20" y="545" width="760" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="570" fill="#aaa" font-size="9">Safe Zone/Start Point</text>
+<text x="205" y="570" fill="#aaa" font-size="9">Danger Zone/Combat Zone</text>
+<text x="20" y="590" fill="#666" font-size="9">ER_EM-01 | Exploration Map </text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/ER-破碎戰爭/en/maps/ER_EM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L3/ER-破碎戰爭/en/maps/ER_EM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">ER_WM-01 <span class="maptype">世界地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="800" height="600" fill="url(#wmgrid)"/>
+<line x1="400.0" y1="380.0" x2="265.0" y2="232.0" stroke="" stroke-width="2"/>
+<line x1="265.0" y1="232.0" x2="400.0" y2="265.0" stroke="" stroke-width="2"/>
+<line x1="400.0" y1="265.0" x2="535.0" y2="232.0" stroke="#cc3344" stroke-width="2"/>
+<line x1="595.0" y1="548.0" x2="620.0" y2="548.0" stroke="" stroke-width="2"/>
+<rect x="50.0" y="70.0" width="700.0" height="450.0" rx="5" fill="#1a1a3e" stroke="#3a3a6e" stroke-width="2"/>
+<text x="400.0" y="295.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">[S03-Boss]</text>
+<circle cx="400.0" cy="280.0" r="180.0" fill="#2a1a3e30" opacity="0.6"/>
+<circle cx="400.0" cy="280.0" r="180.0" fill="none" stroke="#4a3a6e" stroke-width="2" stroke-dasharray="4,2"/>
+<text x="400.0" y="95.0" text-anchor="middle" fill="#4a3a6e" font-size="10" font-weight="bold">★ [S03-Boss]</text>
+<circle cx="400.0" cy="265.0" r="50.0" fill="#cc334415" opacity="0.6"/>
+<circle cx="400.0" cy="265.0" r="50.0" fill="none" stroke="#ff556640" stroke-width="2" stroke-dasharray="4,2"/>
+<text x="400.0" y="210.0" text-anchor="middle" fill="#ff556640" font-size="10" font-weight="bold">★ Stormveil Castle</text>
+<rect x="630" y="20" width="150" height="74" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="705" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Legend</text>
+<text x="640" y="60" fill="#aaa" font-size="9">Safe Zone/Start Point</text>
+<text x="640" y="76" fill="#aaa" font-size="9">Danger Zone/Combat Zone</text>
+<text x="640" y="92" fill="#aaa" font-size="9">Route</text>
+<text x="20" y="585" fill="#666" font-size="9">ER_WM-01 | Regional Map | ER WM-01 — Limgrave Area Map</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/ER-破碎戰爭/en/maps/ER_WM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L3/ER-破碎戰爭/en/maps/ER_WM-01.svg" download>svg</a></p>
+            </div></section>
+    <section class="block"><h2>概念圖</h2><div class="gallery"><a href="../../assets/scripts/L3/ER-破碎戰爭/images/enemy_01_godrick.png" target="_blank"><img src="../../assets/scripts/L3/ER-破碎戰爭/images/enemy_01_godrick.png" alt="enemy_01_godrick.png"></a><a href="../../assets/scripts/L3/ER-破碎戰爭/images/npc_01_melina.png" target="_blank"><img src="../../assets/scripts/L3/ER-破碎戰爭/images/npc_01_melina.png" alt="npc_01_melina.png"></a><a href="../../assets/scripts/L3/ER-破碎戰爭/images/scene_01_erdtree_vista.png" target="_blank"><img src="../../assets/scripts/L3/ER-破碎戰爭/images/scene_01_erdtree_vista.png" alt="scene_01_erdtree_vista.png"></a><a href="../../assets/scripts/L3/ER-破碎戰爭/images/scene_S02_風暴山丘_惡兆妖鬼.png" target="_blank"><img src="../../assets/scripts/L3/ER-破碎戰爭/images/scene_S02_風暴山丘_惡兆妖鬼.png" alt="scene_S02_風暴山丘_惡兆妖鬼.png"></a></div></section>
+    </main>
+<footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

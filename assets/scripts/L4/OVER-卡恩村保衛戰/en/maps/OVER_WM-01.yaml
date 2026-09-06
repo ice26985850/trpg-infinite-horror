@@ -1,0 +1,60 @@
+map_id: OVER_WM-01
+map_type: world
+scenario: 'Karn Village Defense War'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: Carne Village & Surroundings — Kingdom Army Invasion Route
+description: ''
+scale: Schematic
+regions:
+- bounds:
+  - 200.0
+  - 50.0
+  - 400.0
+  - 100.0
+  fill: '#0d1a1a'
+  stroke: '#10B981'
+  name: Carne Village (Stronghold)
+- bounds:
+  - 200.0
+  - 220.0
+  - 400.0
+  - 120.0
+  fill: '#1a1505'
+  stroke: '#F59E0B'
+  name: Plains (Battlefield)
+- bounds:
+  - 200.0
+  - 400.0
+  - 400.0
+  - 120.0
+  fill: '#1a0505'
+  stroke: '#EF4444'
+  name: Kingdom Army Camp
+roads: []
+routes:
+- x1: 400.0
+  y1: 150.0
+  x2: 400.0
+  y2: 220.0
+  stroke: '#C084FC'
+  stroke_width: '2'
+  dashed: true
+- x1: 400.0
+  y1: 340.0
+  x2: 400.0
+  y2: 400.0
+  stroke: '#C084FC'
+  stroke_width: '2'
+  dashed: true
+danger_zones: []
+landmarks: []
+legend:
+- 圖例
+- 箭頭 = 推薦路線
+- 紅色區域 = 最終目標

@@ -1,0 +1,198 @@
+map_id: TOB_BM-02
+map_type: battle
+scenario: Train to Busan / Train to Busan (TOB)
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: Car Interior — Standard Battle Map
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 6
+  cell_px: 25
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 30
+terrain:
+- bounds_px:
+  - 40.0
+  - 60.0
+  - 720.0
+  - 350.0
+  name: ''
+  fill: '#0d0d1a'
+  stroke: '#4a2a6a'
+  stroke_width: '3'
+  bounds_grid:
+  - 1
+  - 2
+  - 29
+  - 14
+  center_ft:
+  - 77.5
+  - 45.0
+- bounds_px:
+  - 60.0
+  - 75.0
+  - 680.0
+  - 5.0
+  name: Car Interior — Standard Battle Map
+  fill: '#334'
+  stroke: '#444'
+  stroke_width: '0.5'
+  bounds_grid:
+  - 2
+  - 2
+  - 27
+  - 1
+  center_ft:
+  - 77.5
+  - 12.5
+- bounds_px:
+  - 55.0
+  - 340.0
+  - 60.0
+  - 50.0
+  name: Front Door
+  fill: '#162040'
+  stroke: '#F59E0B'
+  stroke_width: '2'
+  bounds_grid:
+  - 1
+  - 13
+  - 2
+  - 2
+  center_ft:
+  - 10.0
+  - 70.0
+- bounds_px:
+  - 685.0
+  - 340.0
+  - 60.0
+  - 50.0
+  name: Rear Door
+  fill: '#162040'
+  stroke: '#F59E0B'
+  stroke_width: '2'
+  bounds_grid:
+  - 27
+  - 13
+  - 2
+  - 2
+  center_ft:
+  - 140.0
+  - 70.0
+- bounds_px:
+  - 55.0
+  - 435.0
+  - 20.0
+  - 15.0
+  name: Passenger Seats (Half Cover)
+  fill: '#2a2a3e'
+  stroke: '#555'
+  stroke_width: ''
+  bounds_grid:
+  - 1
+  - 17
+  - 1
+  - 1
+  center_ft:
+  - 7.5
+  - 87.5
+- bounds_px:
+  - 55.0
+  - 458.0
+  - 20.0
+  - 5.0
+  name: Luggage Rack (Climbable or grab makeshift weapon)
+  fill: '#334'
+  stroke: '#444'
+  stroke_width: ''
+  bounds_grid:
+  - 1
+  - 18
+  - 1
+  - 1
+  center_ft:
+  - 7.5
+  - 92.5
+- bounds_px:
+  - 55.0
+  - 475.0
+  - 20.0
+  - 15.0
+  name: Car Coupling (Openable)
+  fill: '#162040'
+  stroke: '#F59E0B'
+  stroke_width: ''
+  bounds_grid:
+  - 1
+  - 18
+  - 1
+  - 1
+  center_ft:
+  - 7.5
+  - 92.5
+- bounds_px:
+  - 55.0
+  - 495.0
+  - 90.0
+  - 1.0
+  name: Car Coupling (Openable)
+  fill: '#3B82F6'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 1
+  - 19
+  - 4
+  - 1
+  center_ft:
+  - 15.0
+  - 97.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: ''
+  to: Car Interior — Standard Battle Map
+  distance_ft: 32.5
+- from: ''
+  to: Front Door
+  distance_ft: 72.0
+- from: ''
+  to: Rear Door
+  distance_ft: 67.3
+- from: ''
+  to: Passenger Seats (Half Cover)
+  distance_ft: 81.9
+- from: ''
+  to: Luggage Rack (Climbable or grab makeshift weapon)
+  distance_ft: 84.6
+- from: ''
+  to: Car Coupling (Openable)
+  distance_ft: 84.6
+- from: ''
+  to: Car Coupling (Openable)
+  distance_ft: 81.6
+- from: Car Interior — Standard Battle Map
+  to: Front Door
+  distance_ft: 88.7
+- from: Car Interior — Standard Battle Map
+  to: Rear Door
+  distance_ft: 84.9
+- from: Car Interior — Standard Battle Map
+  to: Passenger Seats (Half Cover)
+  distance_ft: 102.6

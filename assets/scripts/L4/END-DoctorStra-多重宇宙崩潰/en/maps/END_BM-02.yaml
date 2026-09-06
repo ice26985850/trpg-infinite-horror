@@ -1,0 +1,147 @@
+map_id: END_BM-02
+map_type: battle
+scenario: 'Doctor Strange 2: Multiverse Collapse / 奇異博士2·多重宇宙崩潰'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 640
+- 480
+title: BM-02 Scarlet Witch Final Battle
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 80.0
+  - 80.0
+  name: Player Start
+  fill: none
+  stroke: '#00FF88'
+  stroke_width: '2'
+  bounds_grid:
+  - 1
+  - 1
+  - 5
+  - 5
+  center_ft:
+  - 17.5
+  - 17.5
+- bounds_px:
+  - 280.0
+  - 280.0
+  - 80.0
+  - 80.0
+  name: Scarlet Witch
+  fill: none
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 17
+  - 17
+  - 5
+  - 5
+  center_ft:
+  - 97.5
+  - 97.5
+- bounds_px:
+  - 280.0
+  - 40.0
+  - 120.0
+  - 80.0
+  name: Darkhold Fragments
+  fill: '#6D28D922'
+  stroke: '#6D28D9'
+  stroke_width: '2'
+  bounds_grid:
+  - 17
+  - 1
+  - 8
+  - 5
+  center_ft:
+  - 105.0
+  - 17.5
+- bounds_px:
+  - 40.0
+  - 200.0
+  - 120.0
+  - 80.0
+  name: Shattered Reality (shifts every 2 rounds)
+  fill: '#F59E0B44'
+  stroke: '#F59E0B'
+  stroke_width: '1'
+  bounds_grid:
+  - 1
+  - 12
+  - 8
+  - 5
+  center_ft:
+  - 25.0
+  - 72.5
+- bounds_px:
+  - 160.0
+  - 80.0
+  - 80.0
+  - 80.0
+  name: Miss America
+  fill: '#10B98144'
+  stroke: '#10B981'
+  stroke_width: '1'
+  bounds_grid:
+  - 9
+  - 4
+  - 5
+  - 5
+  center_ft:
+  - 57.5
+  - 32.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: Player Start
+  to: Scarlet Witch
+  distance_ft: 113.1
+- from: Player Start
+  to: Darkhold Fragments
+  distance_ft: 87.5
+- from: Player Start
+  to: Shattered Reality (shifts every 2 rounds)
+  distance_ft: 55.5
+- from: Player Start
+  to: Miss America
+  distance_ft: 42.7
+- from: Scarlet Witch
+  to: Darkhold Fragments
+  distance_ft: 80.4
+- from: Scarlet Witch
+  to: Shattered Reality (shifts every 2 rounds)
+  distance_ft: 76.7
+- from: Scarlet Witch
+  to: Miss America
+  distance_ft: 76.3
+- from: Darkhold Fragments
+  to: Shattered Reality (shifts every 2 rounds)
+  distance_ft: 97.1
+- from: Darkhold Fragments
+  to: Miss America
+  distance_ft: 49.8
+- from: Shattered Reality (shifts every 2 rounds)
+  to: Miss America
+  distance_ft: 51.5

@@ -5,19 +5,512 @@
 <body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../index.html">中文</a></header>
 <div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
 <main class="container">
-    <p class="lead">This is the English homepage of the <b>Infinite Terror TRPG</b> script archive. Use the <b>中文</b> button above to switch to the full Chinese site. English scenario pages are coming soon.</p>
+    <p class="lead">This is the English edition of the <b>Infinite Terror TRPG</b> script archive — <b>80</b> script(s) translated so far. Use the <b>中文</b> button above to switch to the full Chinese site. More scripts are being translated.</p>
+    <input id="search" type="search" placeholder="Search scripts / code / source…" oninput="filterCards(this.value)">
+    <div id="noresult" style="display:none;color:var(--mut);margin:20px 0">No matching script.</div>
     <section class="layer">
           <div class="lhead"><h2>L1 菜鳥輪迴者</h2><p class="ldesc">未開啟基因鎖 · 初入輪迴（0～2 場）</p></div>
-          <p class="lead">英文劇本頁面建置中（English scenario pages coming soon）。</p>
-        </section><section class="layer">
+          <div class="grid"><a class="card" href="L1/BLAME-超結構深淵.html">
+      <div class="ctitle">BLAME!: Megastructure Abyss</div>
+      <div class="ccode">BLAME-超結構深淵</div>
+      <div class="cstars">★</div>
+      <div class="cinfo">BLAME! (1998) ｜ 3–5 ｜ 3–4 hrs ｜ Survival / Exploration</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L1/BR-BattleRoya-大逃殺.html">
+      <div class="ctitle">Battle Royale</div>
+      <div class="ccode">BR-BattleRoya-大逃殺</div>
+      <div class="cstars">★</div>
+      <div class="cinfo">Battle Royale (2000) ｜ 3–5 ｜ 4–5 hrs ｜ Battle Royale / Survival Competition</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L1/CAPT-CaptainPhi-貨輪劫持.html">
+      <div class="ctitle">Captain Phillips: Cargo Ship Hijacking</div>
+      <div class="ccode">CAPT-CaptainPhi-貨輪劫持</div>
+      <div class="cstars">★</div>
+      <div class="cinfo">Captain Phillips (2013) ｜ 3–5 ｜ 3–4 hrs ｜ Negotiation / Infiltration / Survival</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L1/DARKWOOD-七日求生.html">
+      <div class="ctitle">Darkwood: Seven Days Survival</div>
+      <div class="ccode">DARKWOOD-七日求生</div>
+      <div class="cstars">★</div>
+      <div class="cinfo">Darkwood (2017) ｜ 3–5 ｜ 3–4 hrs / 1–2 sessions ｜ Survival / Horror</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L1/FIRE-ThisWarofM-圍城求生.html">
+      <div class="ctitle">This War of Mine: Siege Survival</div>
+      <div class="ccode">FIRE-ThisWarofM-圍城求生</div>
+      <div class="cstars">★</div>
+      <div class="cinfo">This War of Mine (2014) ｜ 3–5 ｜ 3–4 hrs / 1–2 sessions ｜ Survival / Resource Management</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L1/FREECRY5-希望郡末日.html">
+      <div class="ctitle">Far Cry 5: Hope County Collapse</div>
+      <div class="ccode">FREECRY5-希望郡末日</div>
+      <div class="cstars">★</div>
+      <div class="cinfo">Far Cry 5 ｜ 3–5 ｜ 4–6 hrs ｜ Survival / Infiltration / Militia Uprising</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L1/GANTZ-強制獵殺.html">
+      <div class="ctitle">GANTZ: Mandatory Hunt</div>
+      <div class="ccode">GANTZ-強制獵殺</div>
+      <div class="cstars">★</div>
+      <div class="cinfo">GANTZ (2000) ｜ 3–5 ｜ 3–4 hrs / 1–2 sessions ｜ Survival / Combat</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L1/GREEN-亞馬遜求生.html">
+      <div class="ctitle">Green Hell: Amazon Survival</div>
+      <div class="ccode">GREEN-亞馬遜求生</div>
+      <div class="cstars">★</div>
+      <div class="cinfo">Green Hell (2019) ｜ 3–5 ｜ 3–4 hrs / 1–2 sessions ｜ Survival / Exploration</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L1/HG-TheHungerG-競技場求生.html">
+      <div class="ctitle">The Hunger Games: Arena Survival</div>
+      <div class="ccode">HG-TheHungerG-競技場求生</div>
+      <div class="cstars">★</div>
+      <div class="cinfo">The Hunger Games ｜ 3–6 (note: Reincarnators enter as 2–4 &quot;Tributes&quot;; the remaining 1–2 may take &quot;backstage support&quot; roles or ally Tributes in a friendly entry) ｜ 4–6 hrs / 1–2 sessions ｜ Survival / Competition / Social Game</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L1/HILLS-TheHillsHa-廢鎮求生.html">
+      <div class="ctitle">The Hills Have Eyes: Wasteland Survival</div>
+      <div class="ccode">HILLS-TheHillsHa-廢鎮求生</div>
+      <div class="cstars">★</div>
+      <div class="cinfo">The Hills Have Eyes ｜ 3–5 ｜ 4–5 hrs / 2–3 sessions ｜ Survival / Escape</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L1/HL-黑山逃離.html">
+      <div class="ctitle">Half-Life: Black Mesa Escape</div>
+      <div class="ccode">HL-黑山逃離</div>
+      <div class="cstars">★</div>
+      <div class="cinfo">Half-Life (1998) ｜ 3–5 ｜ 3–4 hrs / 1–2 sessions ｜ Survival / Escape</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L1/HOTD-Highschool-末日校園.html">
+      <div class="ctitle">Highschool of the Dead: Academy of the Dead</div>
+      <div class="ccode">HOTD-Highschool-末日校園</div>
+      <div class="cstars">★</div>
+      <div class="cinfo">Highschool of the Dead ｜ 3–6 ｜ 3–4 hrs / 1–2 sessions ｜ Survival / Puzzle</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L1/IAL-廢城求生.html">
+      <div class="ctitle">I Am Legend: Last Light / 我是傳奇·廢城求生</div>
+      <div class="ccode">IAL-廢城求生</div>
+      <div class="cstars">★</div>
+      <div class="cinfo">I Am Legend (2007) ｜ 3–6 ｜ 4–6 hours / 1–2 sessions ｜ Survival / Exploration / Defense</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L1/LONELY-TheLongDar-寂靜荒野.html">
+      <div class="ctitle">The Long Dark: Silent Wilderness</div>
+      <div class="ccode">LONELY-TheLongDar-寂靜荒野</div>
+      <div class="cstars">★</div>
+      <div class="cinfo">The Long Dark ｜ 3–5 ｜ 4–6 hrs ｜ Survival / Resource Management / Environmental</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L1/METRO-暗黑隧道.html">
+      <div class="ctitle">Metro 2033: Dark Tunnels</div>
+      <div class="ccode">METRO-暗黑隧道</div>
+      <div class="cstars">★</div>
+      <div class="cinfo">Metro 2033 (2010 / 2013) ｜ 3–5 ｜ 3–4 hrs / 1–2 sessions ｜ Survival / Exploration</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L1/RISE-RiseoftheP-金門大橋.html">
+      <div class="ctitle">Rise of the Planet of the Apes: Golden Gate</div>
+      <div class="ccode">RISE-RiseoftheP-金門大橋</div>
+      <div class="cstars">★</div>
+      <div class="cinfo">Rise of the Planet of the Apes ｜ 3–5 ｜ 4–6 hrs ｜ Survival / Escort / Urban Escape</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L1/TLOU-TheLastofU-孢子隔離區.html">
+      <div class="ctitle">The Last of Us: Quarantine Zone</div>
+      <div class="ccode">TLOU-TheLastofU-孢子隔離區</div>
+      <div class="cstars">★</div>
+      <div class="cinfo">The Last of Us (2013 / 2023) ｜ 3–5 ｜ 3–4 hrs / 1–2 sessions ｜ Survival / Escort</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L1/TOB-TraintoBus-屍速列車.html">
+      <div class="ctitle">Train to Busan / 屍速列車</div>
+      <div class="ccode">TOB-TraintoBus-屍速列車</div>
+      <div class="cstars">★</div>
+      <div class="cinfo">Train to Busan (2016) ｜ 3–6 ｜ 3–4 hours / 1–2 sessions ｜ Survival / Escape</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L1/WWZ-耶路撒冷圍城.html">
+      <div class="ctitle">World War Z: Siege of Jerusalem / 末日之戰·耶路撒冷圍城</div>
+      <div class="ccode">WWZ-耶路撒冷圍城</div>
+      <div class="cstars">★</div>
+      <div class="cinfo">World War Z (2013) ｜ 3–5 ｜ 3–4 hours / 1–2 sessions ｜ Survival / Defense</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L1/ZERO-30DaysofNi-永夜小鎮.html">
+      <div class="ctitle">30 Days of Night: The Polar Night / 30 極夜·永夜小鎮</div>
+      <div class="ccode">ZERO-30DaysofNi-永夜小鎮</div>
+      <div class="cstars">★</div>
+      <div class="cinfo">30 Days of Night (2007) ｜ 3–5 ｜ 5–7 hours / 2–4 sessions ｜ Survival / Defense</div>
+      <div class="cbadge"></div>
+    </a></div></section><section class="layer">
           <div class="lhead"><h2>L2 資深輪迴者</h2><p class="ldesc">一階基因鎖 · 基礎強化完成</p></div>
-          <p class="lead">英文劇本頁面建置中（English scenario pages coming soon）。</p>
-        </section><section class="layer">
+          <div class="grid"><a class="card" href="L2/ALIEN-太空孤立.html">
+      <div class="ctitle">Alien: Deep Space Isolation</div>
+      <div class="ccode">ALIEN-太空孤立</div>
+      <div class="cstars">★★</div>
+      <div class="cinfo">Alien ｜ 3–5 ｜ 4–6 hrs / 2–3 sessions ｜ Survival / Horror / Escape</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L2/AOT-AttackonTi-托洛斯特區奪還戰.html">
+      <div class="ctitle">Attack on Titan: Battle of Trost District</div>
+      <div class="ccode">AOT-AttackonTi-托洛斯特區奪還戰</div>
+      <div class="cstars">★★</div>
+      <div class="cinfo">Attack on Titan (進撃の巨人) ｜ 3–6 ｜ 4–6 hrs / 1–2 sessions ｜ Kaiju / Survival / Tactics</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L2/BACK-01-TheBackroo-入門層級.html">
+      <div class="ctitle">The Backrooms: Entry Levels</div>
+      <div class="ccode">BACK-01-TheBackroo-入門層級</div>
+      <div class="cstars">★★</div>
+      <div class="cinfo">The Backrooms (internet creepypasta) ｜ 3–5 ｜ 4–6 hrs / 2–3 sessions ｜ Survival / Exploration / Puzzle</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L2/BAKI-地下格鬥淘汰賽.html">
+      <div class="ctitle">Baki: Underground Tournament</div>
+      <div class="ccode">BAKI-地下格鬥淘汰賽</div>
+      <div class="cstars">★★</div>
+      <div class="cinfo">Baki the Grappler (グラップラー刃牙) ｜ 3–5 ｜ 4–6 hrs ｜ Competitive / Combat / Survival</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L2/BASIL-BlackButle-開膛手傑克的真相.html">
+      <div class="ctitle">Black Butler: The Truth of Jack the Ripper</div>
+      <div class="ccode">BASIL-BlackButle-開膛手傑克的真相</div>
+      <div class="cstars">★★</div>
+      <div class="cinfo">Black Butler ｜ 3–5 ｜ 4–6 hrs ｜ Investigation / Infiltration / Combat</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L2/CLAY-覺醒者討伐令.html">
+      <div class="ctitle">Claymore: Hunt the Awakened Being</div>
+      <div class="ccode">CLAY-覺醒者討伐令</div>
+      <div class="cstars">★★</div>
+      <div class="cinfo">Claymore ｜ 3–5 ｜ 4–6 hrs ｜ Hunt / Investigation / Survival</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L2/DS-DemonSlaye-藤襲山最終選拔.html">
+      <div class="ctitle">Demon Slayer: Final Selection</div>
+      <div class="ccode">DS-DemonSlaye-藤襲山最終選拔</div>
+      <div class="cstars">★★</div>
+      <div class="cinfo">Demon Slayer (鬼滅の刃) ｜ 3–6 ｜ 4–6 hrs / 1–2 sessions ｜ Survival / Combat</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L2/DUNKEL-維多利亞的惡魔.html">
+      <div class="ctitle">Dunkel: Victorian Demon Hunt</div>
+      <div class="ccode">DUNKEL-維多利亞的惡魔</div>
+      <div class="cstars">★★</div>
+      <div class="cinfo">Original / Victorian Demon Hunting ｜ 3–5 ｜ 4–6 hrs ｜ Investigation / Hunt / Survival</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L2/GRIMGAL-義勇兵的初陣.html">
+      <div class="ctitle">Grimgar: Volunteer Soldier&#x27;s First Campaign</div>
+      <div class="ccode">GRIMGAL-義勇兵的初陣</div>
+      <div class="cstars">★★</div>
+      <div class="cinfo">Grimgar: Ash and Fantasy (灰と幻想のグリムガル) ｜ 3–5 ｜ 4–6 hrs ｜ Survival / Hunt / Growth</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L2/HP-HarryPotte-魔法石的守護.html">
+      <div class="ctitle">Harry Potter: The Philosopher&#x27;s Stone</div>
+      <div class="ccode">HP-HarryPotte-魔法石的守護</div>
+      <div class="cstars">★★</div>
+      <div class="cinfo">Harry Potter ｜ 3–5 ｜ 4–6 hrs / 1–2 sessions ｜ Infiltration / Puzzle / Combat</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L2/JKR-Jigokuraku-神仙島的長生詛咒.html">
+      <div class="ctitle">Jigokuraku: Paradise&#x27;s Curse</div>
+      <div class="ccode">JKR-Jigokuraku-神仙島的長生詛咒</div>
+      <div class="cstars">★★</div>
+      <div class="cinfo">Jigokuraku (Hell&#x27;s Paradise) ｜ 3–6 ｜ 5–7 hrs / 1–2 sessions ｜ Survival / Exploration / Combat</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L2/LOVEC-CallofCthu-印斯茅斯的陰影.html">
+      <div class="ctitle">Call of Cthulhu: Shadow Over Innsmouth</div>
+      <div class="ccode">LOVEC-CallofCthu-印斯茅斯的陰影</div>
+      <div class="cstars">★★</div>
+      <div class="cinfo">Call of Cthulhu ｜ 3–5 ｜ 4–6 hrs ｜ Investigation / Horror / Escape</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L2/MHA-MyHeroAcad-USJ襲擊事件.html">
+      <div class="ctitle">My Hero Academia: USJ Incident</div>
+      <div class="ccode">MHA-MyHeroAcad-USJ襲擊事件</div>
+      <div class="cstars">★★</div>
+      <div class="cinfo">My Hero Academia (僕のヒーローアカデミア) ｜ 3–6 ｜ 5–7 hrs / 1–2 sessions ｜ Combat / Protection / Teamwork</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L2/RE-ResidentEv-蜂巢逃脫.html">
+      <div class="ctitle">Resident Evil: Escape from the Hive</div>
+      <div class="ccode">RE-ResidentEv-蜂巢逃脫</div>
+      <div class="cstars">★★</div>
+      <div class="cinfo">Resident Evil ｜ 3–5 ｜ 4–6 hrs / 2–3 sessions ｜ Survival / Enclosed Escape / Puzzle</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L2/RITUAL-北歐森林的邪教.html">
+      <div class="ctitle">The Ritual: Nordic Forest Cult</div>
+      <div class="ccode">RITUAL-北歐森林的邪教</div>
+      <div class="cstars">★★</div>
+      <div class="cinfo">The Ritual ｜ 3–5 ｜ 4–6 hrs ｜ Survival / Horror / Escape</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L2/SCP-008-殭屍病毒.html">
+      <div class="ctitle">SCP-008: Zombie Plague</div>
+      <div class="ccode">SCP-008-殭屍病毒</div>
+      <div class="cstars">★★</div>
+      <div class="cinfo">SCP Foundation Universe ｜ 3–5 ｜ 4–6 hrs / 2–3 sessions ｜ Survival / Defense / Puzzle</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L2/SCP-173-雕像·最初之作.html">
+      <div class="ctitle">SCP-173: The Sculpture - The Original</div>
+      <div class="ccode">SCP-173-雕像·最初之作</div>
+      <div class="cstars">★★</div>
+      <div class="cinfo">SCP Foundation Universe ｜ 3–5 ｜ 3–5 hrs / 1–2 sessions ｜ Survival / Escape / Puzzle</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L2/SERAPH-Seraphofth-澀谷防衛戰.html">
+      <div class="ctitle">Seraph of the End: Battle of Shibuya</div>
+      <div class="ccode">SERAPH-Seraphofth-澀谷防衛戰</div>
+      <div class="cstars">★★</div>
+      <div class="cinfo">Seraph of the End (終わりのセラフ) ｜ 3–5 ｜ 4–6 hrs ｜ Survival / Defense / Combat</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L2/SHIKI-外場村.html">
+      <div class="ctitle">Shiki: The Forsaken Village</div>
+      <div class="ccode">SHIKI-外場村</div>
+      <div class="cstars">★</div>
+      <div class="cinfo">Shiki ｜ 3–5 ｜ 4–6 hrs ｜ Survival / Mystery / Vampire Horror</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L2/WITCH-TheWitcher-白果園的詛咒.html">
+      <div class="ctitle">The Witcher: Curse of White Orchard</div>
+      <div class="ccode">WITCH-TheWitcher-白果園的詛咒</div>
+      <div class="cstars">★★</div>
+      <div class="cinfo">The Witcher ｜ 3–5 ｜ 4–6 hrs / 1–2 sessions ｜ Monster Hunt / Investigation / Survival</div>
+      <div class="cbadge"></div>
+    </a></div></section><section class="layer">
           <div class="lhead"><h2>L3 精英輪迴者</h2><p class="ldesc">二階基因鎖 · 中階強化＋部分血統</p></div>
-          <p class="lead">英文劇本頁面建置中（English scenario pages coming soon）。</p>
-        </section><section class="layer">
+          <div class="grid"><a class="card" href="L3/ABYSS2-卓爾逃亡.html">
+      <div class="ctitle">Underdark: Drow Escape</div>
+      <div class="ccode">ABYSS2-卓爾逃亡</div>
+      <div class="cstars">★★★★</div>
+      <div class="cinfo">Drizzt Do&#x27;Urden Saga (Dungeons &amp; Dragons: Drow) ｜ 3–5 ｜ 5–7 hrs / 2–3 sessions ｜ Infiltration / Escape / Subterranean Exploration</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L3/BACK-02-深入.html">
+      <div class="ctitle">Backrooms: Deep Dive</div>
+      <div class="ccode">BACK-02-深入</div>
+      <div class="cstars">★★★</div>
+      <div class="cinfo">Backrooms: Deep Dive (original) ｜ 3–5 ｜ 5–7 hrs / 2–3 sessions ｜ Combat / Investigation / Survival</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L3/BACK-03-邊界.html">
+      <div class="ctitle">Backrooms: Border - Level 94</div>
+      <div class="ccode">BACK-03-邊界</div>
+      <div class="cstars">★★★★</div>
+      <div class="cinfo">Backrooms: Border (original) ｜ 3–5 ｜ 5–7 hrs / 2–3 sessions ｜ Combat / Investigation / Survival</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L3/BTTH-BattleThro-異火爭奪.html">
+      <div class="ctitle">Battle Through the Heavens: Strange Fire</div>
+      <div class="ccode">BTTH-BattleThro-異火爭奪</div>
+      <div class="cstars">★★★★</div>
+      <div class="cinfo">Battle Through the Heavens: Strange Fire (original) ｜ 3–5 ｜ 5–7 hrs / 2–3 sessions ｜ Combat / Investigation / Survival</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L3/DS-SOUL-不死人朝聖.html">
+      <div class="ctitle">Dark Souls: Undead Pilgrimage</div>
+      <div class="ccode">DS-SOUL-不死人朝聖</div>
+      <div class="cstars">★★★★</div>
+      <div class="cinfo">Dark Souls: Undead Pilgrimage (original) ｜ 3–5 ｜ 5–7 hrs / 2–3 sessions ｜ Combat / Investigation / Survival</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L3/EBERRON_2-賽爾死靈帝國.html">
+      <div class="ctitle">Eberron: The Cry War - Thrane&#x27;s Last Stand</div>
+      <div class="ccode">EBERRON_2-賽爾死靈帝國</div>
+      <div class="cstars">★★★★</div>
+      <div class="cinfo">Eberron Campaign Setting ｜ 3–5 ｜ 5–7 hrs / 2–3 sessions ｜ Siege Defense / War / Undead Confrontation</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L3/ER-破碎戰爭.html">
+      <div class="ctitle">Elden Ring: The Shattering</div>
+      <div class="ccode">ER-破碎戰爭</div>
+      <div class="cstars">★★★★</div>
+      <div class="cinfo">Elden Ring: The Shattering (original) ｜ 3–5 ｜ 5–7 hrs / 2–3 sessions ｜ Combat / Investigation / Survival</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L3/FMAB-FullmetalA-國土鍊成.html">
+      <div class="ctitle">Fullmetal Alchemist: Nationwide Transmutation / 鋼之鍊金術師·國土鍊成</div>
+      <div class="ccode">FMAB-FullmetalA-國土鍊成</div>
+      <div class="cstars">★★★</div>
+      <div class="cinfo">Fullmetal Alchemist ｜ 3–5 ｜ 5–7 hours / 2–3 sessions ｜ Investigation / Combat / Ritual Prevention</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L3/HSDS-HeavenlySw-光明頂.html">
+      <div class="ctitle">Heavenly Sword: Bright Peak / 倚天屠龍記·光明頂</div>
+      <div class="ccode">HSDS-HeavenlySw-光明頂</div>
+      <div class="cstars">★★★</div>
+      <div class="cinfo">Heavenly Sword and Dragon Saber: Bright Peak ｜ 3–5 ｜ 5–7 hours / 2–3 sessions ｜ Combat / Investigation / Survival</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L3/HSR-星穹鐵道·裂界侵.html">
+      <div class="ctitle">Honkai: Star Rail - Fragmentum / 崩壞·星穹鐵道·裂界侵蝕</div>
+      <div class="ccode">HSR-星穹鐵道·裂界侵</div>
+      <div class="cstars">★★★★</div>
+      <div class="cinfo">Honkai: Star Rail - Fragmentum ｜ 3–5 ｜ 5–7 hours / 2–3 sessions ｜ Combat / Investigation / Survival</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L3/HXH-Hunter×Hun-貪婪之島.html">
+      <div class="ctitle">Hunter × Hunter: Greed Island</div>
+      <div class="ccode">HXH-Hunter×Hun-貪婪之島</div>
+      <div class="cstars">★★★★</div>
+      <div class="cinfo">HUNTER×HUNTER (manga/anime) — Greed Island arc ｜ 3–5 ｜ 48–84 hrs (in-game time) ｜ Competitive / Survival / Collection</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L3/JJK-JujutsuKai-澀谷事變.html">
+      <div class="ctitle">Jujutsu Kaisen: Shibuya Incident</div>
+      <div class="ccode">JJK-JujutsuKai-澀谷事變</div>
+      <div class="cstars">★★★★</div>
+      <div class="cinfo">JUJUTSU KAISEN (manga/anime) — Shibuya Incident arc ｜ 3–5 ｜ 120 min (in-game time) ｜ Combat / Survival / Protection</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L3/LOL-LeagueofLe-符文大地衝突.html">
+      <div class="ctitle">League of Legends: Runeterra Conflict</div>
+      <div class="ccode">LOL-LeagueofLe-符文大地衝突</div>
+      <div class="cstars">★★★★</div>
+      <div class="cinfo">League of Legends ｜ 3–5 ｜ 5–7 hrs / 2–3 sessions ｜ War / Politics / Annihilation</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L3/OUTCAST-TheOutcast-羅天大醮.html">
+      <div class="ctitle">The Outcast: Luo Tian Grand Ceremony</div>
+      <div class="ccode">OUTCAST-TheOutcast-羅天大醮</div>
+      <div class="cstars">★★★</div>
+      <div class="cinfo">The Outcast — Luo Tian Grand Ceremony arc ｜ 3–5 ｜ 5–7 hrs / 2–3 sessions ｜ Combat / Investigation / Survival</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L3/SAO-SwordArtOn-艾恩葛朗特.html">
+      <div class="ctitle">Sword Art Online: Aincrad</div>
+      <div class="ccode">SAO-SwordArtOn-艾恩葛朗特</div>
+      <div class="cstars">★★★★</div>
+      <div class="cinfo">Sword Art Online (anime/manga) — Aincrad arc ｜ 3–5 ｜ 30–365 days (in-game) ｜ Survival / Raiding / Adventure</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L3/SCP-079-舊AI接管.html">
+      <div class="ctitle">SCP: Old AI — Site Takeover</div>
+      <div class="ccode">SCP-079-舊AI接管</div>
+      <div class="cstars">★★★</div>
+      <div class="cinfo">SCP-079 — Old AI Takeover ｜ 3–5 ｜ 5–7 hrs / 2–3 sessions ｜ Combat / Investigation / Survival</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L3/STRAHD-CastleRave-巴洛維亞濃霧.html">
+      <div class="ctitle">Castle Ravenloft: The Mists of Barovia</div>
+      <div class="ccode">STRAHD-CastleRave-巴洛維亞濃霧</div>
+      <div class="cstars">★★★★</div>
+      <div class="cinfo">D&amp;D: Curse of Strahd (《鴉閣城》) ｜ 3–5 ｜ 6–8 hours / 3–4 sessions ｜ Gothic Horror / Vampire Hunt / Maze Exploration</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L3/SW-奪取死星計劃.html">
+      <div class="ctitle">Star Wars: Death Star</div>
+      <div class="ccode">SW-奪取死星計劃</div>
+      <div class="cstars">★★★★</div>
+      <div class="cinfo">Star Wars: Rogue One / A New Hope (Death Star arc) ｜ 3–5 ｜ 5–7 hours / 2–3 sessions ｜ Combat / Investigation / Survival</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L3/TG-TokyoGhoul-20區動亂.html">
+      <div class="ctitle">Tokyo Ghoul: Ward 20 Uprising</div>
+      <div class="ccode">TG-TokyoGhoul-20區動亂</div>
+      <div class="cstars">★★★</div>
+      <div class="cinfo">Tokyo Ghoul (《東京喰種》) ｜ 3–5 ｜ 5–7 hours / 2–3 sessions ｜ Investigation / Combat / Faction Choice</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L3/TOA-TombofAnni-死亡詛咒.html">
+      <div class="ctitle">Tomb of Annihilation: The Death Curse</div>
+      <div class="ccode">TOA-TombofAnni-死亡詛咒</div>
+      <div class="cstars">★★★</div>
+      <div class="cinfo">D&amp;D: Tomb of Annihilation (《墳墓滅絕》) ｜ 3–5 ｜ 4–6 hours / 2–3 sessions ｜ Jungle Exploration / Ruin Assault / Curse Resolution</div>
+      <div class="cbadge"></div>
+    </a></div></section><section class="layer">
           <div class="lhead"><h2>L4 隊長級輪迴者</h2><p class="ldesc">四階基因鎖 · 接近隊長級戰力</p></div>
-          <p class="lead">英文劇本頁面建置中（English scenario pages coming soon）。</p>
-        </section>
+          <div class="grid"><a class="card" href="L4/AVERNUS-Baldur'sGa-地獄.html">
+      <div class="ctitle">Baldur&#x27;s Gate: Descent into Avernus</div>
+      <div class="ccode">AVERNUS-Baldur&#x27;sGa-地獄</div>
+      <div class="cstars">★★★★★</div>
+      <div class="cinfo">Dungeons &amp; Dragons — Avernus, the First Layer of the Nine Hells ｜ 3–5 ｜ 10–14 hrs / 3–4 sessions ｜ Survival / Combat / Escape</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L4/BLEACH-屍魂界救援.html">
+      <div class="ctitle">Bleach: Soul Society Rescue</div>
+      <div class="ccode">BLEACH-屍魂界救援</div>
+      <div class="cstars">★★★★★</div>
+      <div class="cinfo">Bleach — Soul Society Arc ｜ 3–5 ｜ 8–12 hrs / 3–4 sessions ｜ Infiltration / Combat / Story</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L4/CLAYMORE-覺醒篇.html">
+      <div class="ctitle">Claymore: Abyssal Awakening</div>
+      <div class="ccode">CLAYMORE-覺醒篇</div>
+      <div class="cstars">★★★★★</div>
+      <div class="cinfo">Claymore (クレイモア) ｜ 3–5 ｜ 8–12 hrs / 3–4 sessions ｜ Combat / Adventure</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L4/DBZ-DragonBall-那美克星篇.html">
+      <div class="ctitle">Dragon Ball Z: Namek Saga</div>
+      <div class="ccode">DBZ-DragonBall-那美克星篇</div>
+      <div class="cstars">★★★★★</div>
+      <div class="cinfo">DRAGON BALL Z — Namek Saga ｜ 3–5 ｜ Race / Contest / Survival</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L4/DESTINY-第五次聖杯戰爭.html">
+      <div class="ctitle">Fate/stay night: The Fifth Holy Grail War</div>
+      <div class="ccode">DESTINY-第五次聖杯戰爭</div>
+      <div class="cstars">★★★★★</div>
+      <div class="cinfo">Fate/stay night — The Fifth Holy Grail War ｜ 3–5 ｜ 8–12 hrs / 3–4 sessions ｜ Combat / Adventure</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L4/END-DoctorStra-多重宇宙崩潰.html">
+      <div class="ctitle">Doctor Strange 2: Multiverse Collapse / 奇異博士2·多重宇宙崩潰</div>
+      <div class="ccode">END-DoctorStra-多重宇宙崩潰</div>
+      <div class="cstars">★★★★★</div>
+      <div class="cinfo">Doctor Strange in the Multiverse of Madness ｜ 3–5 ｜ 8–12 hours / 3–4 sessions ｜ Combat / Adventure</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L4/FGO-第七特異點·絕對.html">
+      <div class="ctitle">FGO: Absolute Demonic Front Babylonia / Fate/GO·第七特異點·絕對魔獸戰線</div>
+      <div class="ccode">FGO-第七特異點·絕對</div>
+      <div class="cstars">★★★★★</div>
+      <div class="cinfo">Fate/Grand Order — Singularities: Absolute Demonic Front Babylonia ｜ 3–5 ｜ 8–12 hours / 3–4 sessions ｜ Combat / Adventure</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L4/FZ-第四次聖杯戰爭.html">
+      <div class="ctitle">Fate/Zero: The 4th Holy Grail War / Fate/Zero·第四次聖杯戰爭</div>
+      <div class="ccode">FZ-第四次聖杯戰爭</div>
+      <div class="cstars">★★★★★</div>
+      <div class="cinfo">Fate/Zero ｜ 3–5 (1 team, as the 8th Master) ｜ 10–14 hours / 4–5 sessions ｜ Multi-Team Competition / Holy Grail War PvP / Story</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L4/GOW-九界試煉.html">
+      <div class="ctitle">God of War: Trial of the Nine Realms / 戰神·九界試煉</div>
+      <div class="ccode">GOW-九界試煉</div>
+      <div class="cstars">★★★★★</div>
+      <div class="cinfo">God of War (2018/2022) — Norse Nine Realms ｜ 3–5 ｜ 8–12 hrs / 3–4 sessions ｜ Combat / Adventure</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L4/LOTM-LordoftheM-廷根市失控.html">
+      <div class="ctitle">Lord of the Mysteries: Tingen&#x27;s Descent / 詭秘之主·廷根市失控</div>
+      <div class="ccode">LOTM-LordoftheM-廷根市失控</div>
+      <div class="cstars">★★★★★</div>
+      <div class="cinfo">Lord of the Mysteries (by Cuttlefish That Loves Diving) ｜ 3–5 ｜ 6–8 hrs / 3–4 sessions ｜ Investigation / Infiltration / Cthulhu-style Horror</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L4/NAR-第四次忍界大戰.html">
+      <div class="ctitle">Naruto: Fourth Great Ninja War</div>
+      <div class="ccode">NAR-第四次忍界大戰</div>
+      <div class="cstars">★★★★★</div>
+      <div class="cinfo">NARUTO Shippuden — Fourth Great Ninja War Arc ｜ 3–5 ｜ 6–10 hrs ｜ War / Combat / Sealing</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L4/OPM-OnePunchMa-怪人協會殲滅戰.html">
+      <div class="ctitle">One Punch Man: Monster Association Raid</div>
+      <div class="ccode">OPM-OnePunchMa-怪人協會殲滅戰</div>
+      <div class="cstars">★★★★★</div>
+      <div class="cinfo">One Punch Man — Monster Association Arc ｜ 3–5 ｜ 8–10 hrs / 3–4 sessions ｜ Raid / Timed Battle / Story</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L4/OVER-卡恩村保衛戰.html">
+      <div class="ctitle">Overlord: Defense of Carne Village</div>
+      <div class="ccode">OVER-卡恩村保衛戰</div>
+      <div class="cstars">★★★★★</div>
+      <div class="cinfo">Overlord (オーバーロード) ｜ 3–5 ｜ 8–12 hrs / 3–4 sessions ｜ Combat / Adventure</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L4/SCP-001-SCP-001破.html">
+      <div class="ctitle">SCP-001: When Day Breaks</div>
+      <div class="ccode">SCP-001-SCP-001破</div>
+      <div class="cstars">★★★★★</div>
+      <div class="cinfo">SCP Foundation — SCP-001 &quot;When Day Breaks&quot; Proposal ｜ 3–5 ｜ 8–12 hrs / 3–4 sessions ｜ Survival / Infiltration / Horror</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L4/SIN-TheSevenDe-魔神之戰.html">
+      <div class="ctitle">The Seven Deadly Sins: War of the Demon King</div>
+      <div class="ccode">SIN-TheSevenDe-魔神之戰</div>
+      <div class="cstars">★★★★★</div>
+      <div class="cinfo">The Seven Deadly Sins (七つの大罪) ｜ 3–5 ｜ 8–12 hrs / 3–4 sessions ｜ Combat / Adventure</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L4/TORMENT-Planescape-印記城.html">
+      <div class="ctitle">Planescape: Torment — Sigil&#x27;s Labyrinth</div>
+      <div class="ccode">TORMENT-Planescape-印記城</div>
+      <div class="cstars">★★★★★</div>
+      <div class="cinfo">Planescape: Torment ｜ 3–5 ｜ 7–9 hrs / 3–4 sessions ｜ Philosophical Exploration / Memory Quest / Asymmetric Survival</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L4/W40K-Warhammer4-審判庭的裁決.html">
+      <div class="ctitle">Warhammer 40K: The Inquisition&#x27;s Judgment</div>
+      <div class="ccode">W40K-Warhammer4-審判庭的裁決</div>
+      <div class="cstars">★★★★★</div>
+      <div class="cinfo">Warhammer 40,000 ｜ 3–5 ｜ 6–8 hrs / 3–4 sessions ｜ Sci-Fi Horror / Heretic Purge / Ritual Stop</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L4/WARC-燃燒軍團.html">
+      <div class="ctitle">Warcraft: The Burning Legion</div>
+      <div class="ccode">WARC-燃燒軍團</div>
+      <div class="cstars">★★★★★</div>
+      <div class="cinfo">Warcraft — The Burning Legion Invasion ｜ 3–5 ｜ 8–12 hrs / 3–4 sessions ｜ Combat / Adventure</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L4/XYJ-Journeytot-大鬧天宮.html">
+      <div class="ctitle">Journey to the West: Havoc in Heaven</div>
+      <div class="ccode">XYJ-Journeytot-大鬧天宮</div>
+      <div class="cstars">★★★★★</div>
+      <div class="cinfo">Journey to the West (by Wu Cheng&#x27;en) ｜ 3–5 ｜ 7–9 hrs / 3–4 sessions ｜ Mythic War / Escort Support / Rebellion Against Authority</div>
+      <div class="cbadge"></div>
+    </a><a class="card" href="L4/ZHE-Shroudingt-九龍拉棺.html">
+      <div class="ctitle">Shrouding the Heavens: Nine Dragons Pull Coffin</div>
+      <div class="ccode">ZHE-Shroudingt-九龍拉棺</div>
+      <div class="cstars">★★★★★</div>
+      <div class="cinfo">Shrouding the Heavens (Zhetian), by Chen Dong ｜ 3–5 ｜ 7–9 hours / 3–4 sessions ｜ Immortal-Cultivation / Exploration / Contest of Plunder</div>
+      <div class="cbadge"></div>
+    </a></div></section>
+    <script>
+    function filterCards(q){
+      q=q.trim().toLowerCase();var n=0;
+      document.querySelectorAll('.layer').forEach(function(layer){
+        var shown=0;
+        layer.querySelectorAll('.card').forEach(function(c){
+          var t=c.textContent.toLowerCase();
+          var ok=q===''||t.indexOf(q)>=0;
+          c.style.display=ok?'':'none'; if(ok)shown++;
+        });
+        layer.style.display=shown?'':'none'; n+=shown;
+      });
+      document.getElementById('noresult').style.display=n?'none':'block';
+    }
+    </script>
     </main>
 <footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

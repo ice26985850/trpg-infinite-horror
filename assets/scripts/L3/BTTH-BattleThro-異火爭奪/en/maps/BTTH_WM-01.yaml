@@ -1,0 +1,59 @@
+map_id: BTTH_WM-01
+map_type: world
+scenario: 'Battle Through the Heavens: Strange Fire / Battle Through the Heavens: Strange Fire'
+tier: L3
+difficulty: ★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: Mount Longhu — Luotian Dajiao Venue
+description: ''
+scale: Schematic
+regions:
+- bounds:
+  - 100.0
+  - 80.0
+  - 600.0
+  - 420.0
+  fill: '#1a1a3e'
+  stroke: '#3a3a6e'
+  name: '[S04-Quanxing Lair]'
+roads:
+- x1: 400.0
+  y1: 180.0
+  x2: 400.0
+  y2: 130.0
+  stroke: ''
+  stroke_width: '2'
+  dashed: false
+- x1: 400.0
+  y1: 205.0
+  x2: 400.0
+  y2: 250.0
+  stroke: '#cc3344'
+  stroke_width: '2'
+  dashed: false
+- x1: 595.0
+  y1: 548.0
+  x2: 620.0
+  y2: 548.0
+  stroke: ''
+  stroke_width: '2'
+  dashed: false
+routes: []
+danger_zones: []
+landmarks:
+- center:
+  - 400.0
+  - 262.0
+  radius: 40.0
+  name: Back-Mountain Forbidden Ground
+  fill: '#cc334410'
+  stroke: '#ff556640'
+  dashed: true
+legend:
+- Safe Zone/Start Point
+- Danger Zone/Combat Zone
+- Route

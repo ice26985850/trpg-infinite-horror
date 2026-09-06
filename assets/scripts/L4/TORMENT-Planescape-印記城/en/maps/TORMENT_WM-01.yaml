@@ -1,0 +1,132 @@
+map_id: TORMENT_WM-01
+map_type: world
+scenario: 'Planescape: Torment — Sigil, City of Doors''s Labyrinth'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: TORMENT_WM-01 WorldMap
+description: ''
+scale: Schematic
+regions:
+- bounds:
+  - 80.0
+  - 60.0
+  - 640.0
+  - 480.0
+  fill: '#0a1a2a'
+  stroke: '#1e3a5f'
+  name: Great Market
+roads: []
+routes:
+- x1: 270.0
+  y1: 370.0
+  x2: 380.0
+  y2: 290.0
+  stroke: '#FFD700'
+  stroke_width: '2'
+  dashed: true
+- x1: 400.0
+  y1: 260.0
+  x2: 530.0
+  y2: 120.0
+  stroke: '#FFD700'
+  stroke_width: '2'
+  dashed: true
+danger_zones:
+- center:
+  - 550.0
+  - 100.0
+  rx: 40.0
+  ry: 40.0
+  name: Lady of Pain's Maze
+  fill: '#FF0000'
+  stroke: '#FF4444'
+landmarks:
+- center:
+  - 250.0
+  - 400.0
+  radius: 12.0
+  name: Dusty Quarter
+  fill: none
+  stroke: '#00FF88'
+  dashed: true
+- center:
+  - 250.0
+  - 400.0
+  radius: 5.0
+  name: Dusty Quarter
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 400.0
+  - 280.0
+  radius: 12.0
+  name: Great Market
+  fill: none
+  stroke: '#FFD700'
+  dashed: true
+- center:
+  - 400.0
+  - 280.0
+  radius: 5.0
+  name: Great Market
+  fill: '#FFD700'
+  stroke: ''
+  dashed: false
+- center:
+  - 200.0
+  - 150.0
+  radius: 12.0
+  name: Faction HQ
+  fill: none
+  stroke: '#00AAFF'
+  dashed: true
+- center:
+  - 200.0
+  - 150.0
+  radius: 5.0
+  name: Faction HQ
+  fill: '#00AAFF'
+  stroke: ''
+  dashed: false
+- center:
+  - 550.0
+  - 100.0
+  radius: 12.0
+  name: Lady of Pain's Maze
+  fill: none
+  stroke: '#FF0000'
+  dashed: true
+- center:
+  - 550.0
+  - 100.0
+  radius: 5.0
+  name: Lady of Pain's Maze
+  fill: '#FF0000'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 60.0
+  radius: 4.0
+  name: Start Point
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 78.0
+  radius: 4.0
+  name: Objective Point
+  fill: '#FFD700'
+  stroke: ''
+  dashed: false
+legend:
+- 迷宮（禁區）
+- 起始點
+- 目標點

@@ -1,0 +1,51 @@
+map_id: RITUAL_WM-01
+map_type: world
+scenario: 'The Ritual: Nordic Forest Cult'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 900
+- 620
+title: Nordic Primeval Forest — Large-Scale Map (WM-01)
+description: ''
+scale: Schematic
+regions:
+- bounds:
+  - 150.0
+  - 120.0
+  - 100.0
+  - 60.0
+  fill: '#2a3a1a'
+  stroke: '#27ae60'
+  name: A Abandoned Wooden House
+- bounds:
+  - 550.0
+  - 370.0
+  - 100.0
+  - 60.0
+  fill: '#3a2a2a'
+  stroke: '#27ae60'
+  name: B Cult Village
+- bounds:
+  - 350.0
+  - 520.0
+  - 100.0
+  - 60.0
+  fill: '#2a2a3a'
+  stroke: '#27ae60'
+  name: C Underground Sanctum
+- bounds:
+  - 20.0
+  - 540.0
+  - 860.0
+  - 60.0
+  fill: '#0a1a0a'
+  stroke: '#333'
+  name: ''
+roads: []
+routes: []
+danger_zones: []
+landmarks: []
+legend: []

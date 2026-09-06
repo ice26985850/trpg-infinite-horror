@@ -1,0 +1,60 @@
+map_id: CLAYMORE_WM-01
+map_type: world
+scenario: 'Claymore: Abyssal Awakening'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: Land of Yoma — Awakened Being Hunting Region
+description: ''
+scale: Schematic
+regions:
+- bounds:
+  - 200.0
+  - 50.0
+  - 400.0
+  - 100.0
+  fill: '#0d1a1a'
+  stroke: '#10B981'
+  name: Organization Forward Base (Start)
+- bounds:
+  - 200.0
+  - 200.0
+  - 400.0
+  - 120.0
+  fill: '#1a1505'
+  stroke: '#F59E0B'
+  name: Awakened Being Lair
+- bounds:
+  - 200.0
+  - 370.0
+  - 400.0
+  - 150.0
+  fill: '#1a0505'
+  stroke: '#EF4444'
+  name: Abyssal Canyon (Final)
+roads: []
+routes:
+- x1: 400.0
+  y1: 150.0
+  x2: 400.0
+  y2: 200.0
+  stroke: '#C084FC'
+  stroke_width: '2'
+  dashed: true
+- x1: 400.0
+  y1: 320.0
+  x2: 400.0
+  y2: 370.0
+  stroke: '#C084FC'
+  stroke_width: '2'
+  dashed: true
+danger_zones: []
+landmarks: []
+legend:
+- Legend
+- Arrow = Recommended Route
+- Red Zone = Final Goal

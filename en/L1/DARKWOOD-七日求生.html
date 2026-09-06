@@ -1,0 +1,1187 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Darkwood: Seven Days Survival | DARKWOOD-七日求生 | Infinite Terror TRPG Scripts</title>
+<link rel="stylesheet" href="../../assets/style.css"></head>
+<body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../../index.html">中文</a></header>
+<div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
+<main class="container"><h1>Darkwood: Seven Days Survival</h1>
+    <p class="meta">Code: DARKWOOD-七日求生 ｜ Source: Darkwood (2017) ｜ Difficulty: ★ ｜ Players: 3–5 ｜ Duration: 3–4 hrs / 1–2 sessions ｜ Type: Survival / Horror</p>
+    <p class="nav"><a href="../../index.html">← 劇本總覽</a> ｜ <a href="../../assets/scripts/L1/DARKWOOD-七日求生/en/DARKWOOD_劇本.md" download>劇本 MD</a> ｜ <a href="../../assets/scripts/L1/DARKWOOD-七日求生/en/DARKWOOD_NPC名冊.xlsx" download>NPC 名冊</a> ｜ <a href="../../assets/scripts/L1/DARKWOOD-七日求生/en/DARKWOOD_敵方單位名冊.xlsx" download>敵方名冊</a> ｜ <a href="../../assets/L1_DARKWOOD-七日求生_all_en.zip">下載全部（zip）</a></p>
+    <section class="block content"><section class="chap"><h2>一、基本資訊</h2>
+<p>Script Title: Darkwood: Seven Days Survival
+Source Film: Darkwood (2017)
+Difficulty Rating: ★
+Suggested Players: 3–5
+Estimated Duration: 3–4 hrs / 1–2 sessions
+Prerequisite: None (suitable for newcomers to the Reincarnation cycle)
+Script Type: Survival / Horror</p>
+<hr /></section>
+<details class="gm"><summary>🎭 GM 限定：II. Plot Summary (GM Spoilers)</summary><h2>II. Plot Summary (GM Spoilers)</h2>
+<h3>One-Line Summary</h3>
+<blockquote>
+<p>In a remote forest in 1980s Soviet-occupied Poland, an unknown "forest mutation" is spreading. Trees grow human faces, animals undergo grotesque mutations, and after nightfall the forest seeps a corrosive black mist. The Reincarnators must survive in the forest for 7 days, find the source of the mutation, and escape the woods.</p>
+</blockquote>
+<h3>Full Plot Background</h3>
+<p>A remote Polish forest has been corrupted by an unknown force. Daytime is relatively safe — you can explore abandoned houses, gather supplies, and interact with other trapped souls. But at night you must hide inside a safe house: black mist wells up from the depths of the forest, and within it lurk unspeakable aberrations. Every night is a survival ordeal: reinforce doors and windows, manage fuel and light sources, and fight off creatures that come from the dark. On the 7th day the mutation reaches its peak, and the Forest Mother will fully awaken.</p>
+<h3>Story Structure Type</h3>
+<p><strong>Hybrid</strong>: a day–night cycle. By day, freely explore 5 regions to gather intel and supplies; by night, defend your safe house. The 7th day is the final boss battle.</p>
+<hr /></details>
+<section class="chap"><h2>III. Lord God's Mission</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mission Brief</td>
+<td>"Survive in the forest for 7 days. Find the source of the mutation — the Forest Mother — and destroy her, or reach the forest boundary and escape. Time limit: 7 days."</td>
+</tr>
+<tr>
+<td>Main Objective</td>
+<td>After surviving 7 days: escape across the forest boundary OR destroy the Forest Mother</td>
+</tr>
+<tr>
+<td>Mission Reward</td>
+<td>D+1400</td>
+</tr>
+<tr>
+<td>Failure Condition</td>
+<td>Total party wipe / failing to escape or destroy the Forest Mother within 7 days / the safe house being breached consecutively</td>
+</tr>
+<tr>
+<td>Failure Penalty</td>
+<td>Erasure</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>① Collect mutation samples: +200 each, max 5 <br>② Rescue other trapped survivors: +300 per survivor alive, max 3</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>IV. Side Quests</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-01</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>The Radio in the Swamp Cabin</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Discover an old cabin while exploring the swamp region</td>
+</tr>
+<tr>
+<td>Quest Detail</td>
+<td>Inside the cabin is an old vacuum-tube radio. Repairing it (Intellect + Tech, DC3) lets you tune into military communications outside the forest — revealing the coordinates of the mutation's source.</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>The cabin is swallowed by black mist after 4 hours</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>600</td>
+</tr>
+<tr>
+<td>Relation to Main Plot</td>
+<td>Support — obtains the exact location of the Forest Mother</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Repairing it attracts 1 Alien Hound ×1</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-02</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>The Abandoned Barracks</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Discover abandoned Soviet barracks in the eastern forest</td>
+</tr>
+<tr>
+<td>Quest Detail</td>
+<td>The Soviet army once built a research station here. Searching yields experiment logs (revealing the origin of the mutation), military weapons (AK rifle ×2, 1d10) and a high-output generator.</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>3 Savages lurk inside the barracks</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>700</td>
+</tr>
+<tr>
+<td>Relation to Main Plot</td>
+<td>Support — gains heavy firepower and intel on the mutation's origin</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>The barracks lab's lower level is guarded by 1 Alien Hound ×1</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-03</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>The Werewolf's Night</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Special event on Night 4</td>
+</tr>
+<tr>
+<td>Quest Detail</td>
+<td>A knock at the door of the safe house — not a monster, but a wounded middle-aged man who claims to be a hunter from a nearby village. He asks for shelter for the night. But his pupils reflect green in the dark...</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Must decide whether to let him in before dawn</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>900</td>
+</tr>
+<tr>
+<td>Relation to Main Plot</td>
+<td>Support — if you trust him, by day he guides you to the Forest Mother and provides werewolf-form support; if you refuse, he appears as a hostile on Day 6</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>He truly is a werewolf — but under the mutation's influence he retains human will. Trust is a high-risk, high-reward choice</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>V. World Setting</h2>
+<h3>Timeline</h3>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Day 1</td>
+<td>Awaken in an abandoned cabin at the forest edge. The first night begins.</td>
+</tr>
+<tr>
+<td>Day 2</td>
+<td>The forest expands — more regions covered by the mutation.</td>
+</tr>
+<tr>
+<td>Day 3</td>
+<td>Begin to find ruins of Soviet research facilities.</td>
+</tr>
+<tr>
+<td>Day 4</td>
+<td>Special event: the werewolf knocks.</td>
+</tr>
+<tr>
+<td>Day 5</td>
+<td>Mutation intensifies — aberrations appear even by day.</td>
+</tr>
+<tr>
+<td>Day 6</td>
+<td>The Forest Mother's influence grows; black mist begins appearing in the woods by daylight.</td>
+</tr>
+<tr>
+<td>Day 7</td>
+<td>Final day — the Forest Mother fully awakens. The boundary is about to close permanently.</td>
+</tr>
+</tbody>
+</table>
+<h3>Key Locations</h3>
+<h4>Location: Abandoned Cabin (Start / First Safe House)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Abandoned Cabin (Start / First Safe House)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A crooked wooden hut, windows shattered but structure intact. Inside: an old stove, planks and a few iron nails — enough to survive the first night. Dried blood stains the floor.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Stove (cooking + warmth = light source), toolbox (hammer 1d6, nails ×20, planks ×5), old radio (partial outside comms).</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>First night: 2 Savages ×2 + 1 Alien Hound ×1 assault the cabin. Defense points: door (Base Defense 10, HP 20) and two windows (Base Defense 8, HP 15).</td>
+</tr>
+<tr>
+<td>Links to Other Locations</td>
+<td>By day you may go out → forest depths. Cellar → underground passage (safe but dark).</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>EM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location: Swamp Region</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Swamp Region</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Black swamp water still as a mirror — but it never reflects the sky. Tubular things that are not plants protrude from the reeds. A collapsed wooden cabin sits in the distance.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Swamp cabin (S-01), peat (fuel; burning produces anti-mutation smoke), strange mushrooms (edible or medicinal).</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>1d2 Savages ×1d2 patrol the swamp each hour. Something may lurk in the water — approaching the shore requires Perception DC2 warning.</td>
+</tr>
+<tr>
+<td>Links to Other Locations</td>
+<td>Through the swamp → Soviet barracks. Detour → werewolf cabin.</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>EM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location: Abandoned Soviet Barracks</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Abandoned Soviet Barracks</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Concrete buildings covered in vines. Abandoned military vehicles and a collapsed comms tower. A 1983 Soviet propaganda poster still hangs on the wall — "The forest is the people's wealth" — but someone crossed it out with a huge X in blood.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Triggers S-02, military weapons, experiment logs, generator (powers the safe house = auto-defense +1 round).</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Inside barracks: 3 Savages ×3 (hidden). Basement: 1 Alien Hound ×1 guards the lab.</td>
+</tr>
+<tr>
+<td>Links to Other Locations</td>
+<td>Behind the camp → forest depths → Forest Mother's domain (opens Day 7).</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>EM-01 / WM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location: Werewolf Cabin (Optional)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Werewolf Cabin (Optional)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A lonely wooden cabin deepest in the forest. No sign of mutation — instead a ring of withered vegetation, as if some force protects this place. A silver charm hangs on the door.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Dialogue with the werewolf (on the Forest Mother's weakness — silver and flame deal double damage), shotgun ×1 (2d6 slug, silver rounds ×5).</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>If you refused the werewolf on Day 4, this is a hostile encounter; if trusted, it is an intel and supply point.</td>
+</tr>
+<tr>
+<td>Links to Other Locations</td>
+<td>Behind the cabin → shortcut to the Forest Mother's domain.</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>EM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location: Forest Mother's Domain (Final Boss)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Forest Mother's Domain (Final Boss)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>The forest's center looks like a living organ — enormous fleshy vines rise from the earth to form a dome. At its heart is an unspeakable "tree" — bark like skin, branches like arms, roots like veins. The Forest Mother's heartbeat echoes in the air, and with every beat the ground trembles.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Final battlefield — you may attack the Forest Mother directly, or first destroy the surrounding "mutation sacs" (4 of them, each HP 30, Base Defense 12; destroying them lowers her HP and attack).</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Forest Mother (Base Defense 16, HP 120). Per round attacks: vine lash 2d8 (range 15ft), spore cloud 2d6 (area, infection), summon 1d2 Alien Hounds ×1d2.</td>
+</tr>
+<tr>
+<td>Links to Other Locations</td>
+<td>Destroy the Forest Mother → script cleared; flee to the boundary → if she lives, all must pass Agility DC3 sprint to escape. Cleared when she is destroyed or all reach the boundary.</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>BM-02</td>
+</tr>
+</tbody>
+</table>
+<h3>World Special Rules</h3>
+<ul>
+<li><strong>Day–Night Cycle</strong>: Daytime (06:00–18:00) you may freely explore, gather supplies, and move safe houses. Nighttime (18:00–06:00) you must stay inside a safe house. Safe houses can be upgraded (planks + nails = Base Defense +2). Night assaults come in 3 waves (2 hours apart), each wave 1d3 random enemies.</li>
+<li><strong>Light System</strong>: Stove = basic light (radius 10ft). Kerosene lamp = mid light (radius 20ft, consumes kerosene). Generator = high light (radius 40ft, auto-defense 1 round). Enemies in darkness gain +3 DP on attacks.</li>
+<li><strong>Resource Management</strong>: Food (1 ration/person/day; shortage → attribute DP-1), fuel (stove and kerosene lamp), medical supplies (herbs / first-aid kits), building materials (planks / nails / barbed wire). All must be gathered by going out in daytime.</li>
+<li><strong>Mutation Infection</strong>: After being hit by an aberration, Endurance DC3; failure accumulates infection. At 5 points a permanent -1 to an attribute. At 10 points you transform into an aberration (character controlled by the GM).</li>
+</ul>
+<h3>Lord God Restrictions</h3>
+<ul>
+<li>"Leaving the forest boundary by more than 1 km is forbidden — the world beyond the boundary is barred by the Lord God."</li>
+<li>"Deliberately destroying the only radio or outside-communication device deducts 500 reward points."</li>
+<li>"The werewolf choice affects the ending — if you kill him, the Forest Mother's weakness info cannot be obtained."</li>
+</ul>
+<h3>Visual Map System</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Code</th>
+<th>Content</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wide-area Map</td>
+<td>WM-01</td>
+<td>Entire remote Polish forest, 10 km², including start cabin, swamp, barracks, werewolf cabin, Forest Mother's domain</td>
+<td><code>maps/DARKWOOD_WM-01.svg</code></td>
+</tr>
+<tr>
+<td>Exploration Map</td>
+<td>EM-01</td>
+<td>Start cabin and surrounding exploration region</td>
+<td><code>maps/DARKWOOD_EM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-01</td>
+<td>Night defense of safe house (14×10) — doors, windows, light, barricades</td>
+<td><code>maps/DARKWOOD_BM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-02</td>
+<td>Forest Mother's domain final battlefield (12×8)</td>
+<td><code>maps/DARKWOOD_BM-02.svg</code></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VI. Characters &amp; Enemy Units (managed in separate Excel)</h2>
+<blockquote>
+<p>⚠️ NPC and enemy unit data are in the separate Excel files below:
+- <strong>NPC Roster</strong>: <code>DARKWOOD_NPC名冊.xlsx</code>
+- <strong>Enemy Unit Roster</strong>: <code>DARKWOOD_敵方單位名冊.xlsx</code></p>
+<p>Both Excel files contain a "Roster" sheet and a "Blank Template" sheet; the first column is reserved for the character portrait.</p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>VII. Key Scenes</h2>
+<h3>Scene Structure</h3>
+<p>Phase 1: free exploration to gather supplies and intel. Phase 2: advance key missions scene by scene.</p>
+<hr />
+<h4>Scene S01: Dawn of the First Day</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S01</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Dawn of the First Day</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Script start</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"You wake in an abandoned wooden cabin. Outside the window is an unfamiliar forest — unnaturally dense, sunlight barely piercing through. On a table lies a note, scrawled crookedly: 'Reinforce the doors and windows before dark. The first night is the hardest.' Your wristwatch glows cold: '7 days.'"</td>
+</tr>
+<tr>
+<td>Interactable Elements</td>
+<td>Search inside cabin (toolbox, stove, canned food ×3), inspect door and windows.</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>No immediate threat — but dusk is near (4 hours left on Day 1).</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td>None (prep phase — time pressure).</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Reinforce immediately → safest but supplies unknown; explore nearby first → more supplies but risks time.</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Complete prep for the first night's defense.</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S02: The First Night</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S02</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>The First Night</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>The sun sets; black mist seeps from the woods.</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"The moment the last sliver of sunlight vanishes, every forest sound stops — birdsong, insects, wind — all fall silent. Then you hear it: footsteps from the dark. Not human footsteps — too heavy, too irregular."</td>
+</tr>
+<tr>
+<td>Interactable Elements</td>
+<td>Door (reinforce), windows ×2 (can be sealed but you lose sight outside), stove (light), radio.</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Wave 1 (20:00): 2 Savages ×2. Wave 2 (00:00): 1 Alien Hound ×1. Wave 3 (04:00): 1 Savage ×1 + random (1d2).</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td>First night pressure: Genetic Lock Tier 1 (Resolve DC2) — darkvision +20ft, Initiative +2.</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Full defense → safest but heavy resource drain; give up some windows → more risk but saves reinforcement materials.</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Survive to the second dawn.</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S03: Swamp Exploration</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S03</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Swamp Exploration</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Arrive at the swamp region by day (around Day 2–3).</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"The swamp's surface reflects a sky that does not exist — a dark red cloud layer. Figures flicker among the reeds, then vanish. In the distance a wooden cabin is about to collapse, smoke rising from its chimney."</td>
+</tr>
+<tr>
+<td>Interactable Elements</td>
+<td>Swamp cabin (triggers S-01), mushroom gathering (Intellect + Nature DC2 to identify edible vs. poisonous), peat digging.</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>1d2 Savages ×1d2 patrol the swamp per hour. Near water, Perception DC2 warns of aquatic aberrations.</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td>Exploring the swamp cabin: Genetic Lock Tier 1 (Resolve DC2) — Perception DP+3 reveals hidden supplies.</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Enter cabin to investigate → triggers S-01; bypass cabin → saves time but loses the lead.</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Complete exploration of the swamp region.</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S04: Barracks Secret</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S04</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Barracks Secret</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Arrive at the Soviet barracks (around Day 3–5).</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"The concrete barracks look long abandoned — yet the generator still hums faintly. Inside, on a desk, lies a yellowed document titled: 'Project: Heart of the Forest — Top Secret.' Date: March 15, 1983 — the day the mutation began."</td>
+</tr>
+<tr>
+<td>Interactable Elements</td>
+<td>Triggers S-02, read documents (full origin of the mutation), military weapons and generator.</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Inside barracks: 3 Savages ×3 (ambush from cabinets and doors). Basement: 1 Alien Hound ×1.</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td>Barracks are large and easy to get lost in: Genetic Lock Tier 1 (Resolve DC2) — direction sense +3.</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Thorough search → most resources but high time cost; quick grab → take key items and leave.</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Obtain key intel (mutation origin + Forest Mother location).</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S05: The Werewolf's Night</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S05</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>The Werewolf's Night</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Night 4 special event.</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"Three knocks — not a monster's impact, but a human knock. A weary male voice in Polish from outside: 'Please... let me in... I've been out here three days... I'm not a monster...' But his eyes reflect green in the dark."</td>
+</tr>
+<tr>
+<td>Interactable Elements</td>
+<td>Door (open or not — the decision), windows (observe if he is alone), radio (try to contact outside to confirm his identity).</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>If door opened and he is hostile: Wave 2 attacker is the werewolf (Base Defense 14, HP 35, twin claws 2d6 + bite 1d8). If opened and friendly: he helps defend later waves.</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td>Fighting the werewolf: Genetic Lock Tier 1 (Resolve DC2) — Hit DP+2 (requires silver weapon).</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Open and trust → two outcomes; refuse → he leaves but returns hostile on Day 6.</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Make the choice and survive Night 4.</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S06: Mutation Intensifies</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S06</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Mutation Intensifies</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>From Day 5, threats appear even in daylight.</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"You no longer have to wait for night. From Day 5, black mist appears not only at night — by day it seeps from the shadows of the forest. Trees grow organs that should not exist — eyes, teeth, fingers. The Forest Mother is nearing full awakening."</td>
+</tr>
+<tr>
+<td>Interactable Elements</td>
+<td>Daytime exploration time halved (after 06:00–12:00 the mist begins); any supply gathering needs extra Perception DC2 to avoid the mist.</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>By day, 1 Alien Hound ×1 may appear randomly. Inside mist zones, Endurance DC3 1d6 corrosion every 5 minutes.</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td>Under sustained pressure: Genetic Lock Tier 1 (Resolve DC2) — stamina conservation (Endurance drain halved).</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Head straight to the Forest Mother → fastest but risky; return to safe house for final prep → safer but may miss daytime.</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Prepare for the Day 7 final battle.</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S07: Heart of the Forest</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S07</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Heart of the Forest</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Day 7 — the final day.</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"The forest's center is a sight that should not exist. Fleshy vines rise from the ground like blood vessels, converging at the center into a giant, pulsing tree-shaped organ. The bark is translucent — you can see black liquid flowing inside. With every 'heartbeat' the entire forest trembles. The ground begins to crack, and black mist erupts from the fissures."</td>
+</tr>
+<tr>
+<td>Interactable Elements</td>
+<td>The Forest Mother herself, 4 mutation sacs (destructible), werewolf support may be outside (if trusted).</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Final boss battle: Forest Mother (Base Defense 16, HP 120) + 2 Alien Hounds ×2. If sacs not destroyed, she regenerates 10 HP per round.</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td>Final boss: Genetic Lock Tier 1 (Resolve DC3) — whole party damage +2. May attempt Genetic Lock Tier 2 (Resolve DC4) for an extra turn, side effect 3d6 mental.</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Attack the core directly → fastest but hardest; destroy mutation sacs first → lowers difficulty but costs extra time.</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Forest Mother HP to 0 or all successfully flee to the boundary — script cleared.</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VIII. Multi-Team Rules</h2>
+<blockquote>
+<p>This script does not involve multi-team competition. This section is left blank.</p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>IX. Reward Settlement</h2>
+<table>
+<thead>
+<tr>
+<th>Reward Type</th>
+<th>Content</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main Clear</td>
+<td>After surviving 7 days: escape the forest boundary OR destroy the Forest Mother</td>
+<td>D+1400</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>① Collect mutation samples: +200 each, max 5 <br>② Rescue other trapped survivors: +300 per survivor, max 3</td>
+<td>800–1500</td>
+</tr>
+<tr>
+<td>Side S-01</td>
+<td>Swamp Radio</td>
+<td>600</td>
+</tr>
+<tr>
+<td>Side S-02</td>
+<td>Abandoned Barracks</td>
+<td>700</td>
+</tr>
+<tr>
+<td>Side S-03</td>
+<td>Werewolf's Night</td>
+<td>900</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Normal enemy (each)</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Elite / Boss</td>
+<td>40 (Alien Hound) / 200 (Forest Mother) reward points</td>
+</tr>
+<tr>
+<td>Exploration Reward</td>
+<td>Discover all key locations</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Special Achievement</td>
+<td>Infection-free clear (no party member accumulates infection)</td>
+<td>300</td>
+</tr>
+<tr>
+<td>Special Achievement</td>
+<td>Werewolf Ally (trust the werewolf and survive to the end)</td>
+<td>200</td>
+</tr>
+<tr>
+<td>Roleplay</td>
+<td>At GM's discretion</td>
+<td>0–300</td>
+</tr>
+</tbody>
+</table>
+<h3>Theoretical Maximum Gain</h3>
+<blockquote>
+<p>Main: D×1 + 1400
+S-01: 600 / S-02: 700 / S-03: 900
+Optional ① (5 samples): 1000
+Optional ② (3 survivors): 900
+Kills (~40 Savages + 3 Alien Hounds + 1 Mother) ≈ 870
+Exploration: 100 / Achievements: 500 / : 300</p>
+</blockquote>
+<p>= D2 + 5870</p>
+<h3>Return Exchange (script-limited)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Item</th>
+<th>Cost (Side + Reward Points)</th>
+<th>Effect</th>
+<th>Growth Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>Silver Weapon</td>
+<td>500</td>
+<td>Item: gain silver dagger (1d6+2, +2 extra vs. mutated creatures)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Mutation Resistance</td>
+<td>D+500</td>
+<td>Modification (passive): permanent mutation infection difficulty (DC) -2</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Night Vision</td>
+<td>D+500</td>
+<td>Modification (passive): dark-environment Perception (WIS) check +3, sees in dim light as day</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Werewolf Blood</td>
+<td>C+1000</td>
+<td>Bloodline: regen passive, +1 HP per round (in dark +1)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Dark Sense</td>
+<td>C+1000</td>
+<td>Modification (passive): sense creatures' breath within 8m with eyes closed; not detected by smell while hiding</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Village Guard Knowledge</td>
+<td>C+1000</td>
+<td>Skill: know mutation weaknesses and rituals; +1 damage vs. mutated creatures</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Forest Whisper Resistance</td>
+<td>C+1000</td>
+<td>Modification (passive): immune to "forest whisper" mental corruption; passively hear mutants' thoughts (Perception WIS+2)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Elder Bloodline</td>
+<td>C+2000</td>
+<td>Bloodline: half-mutated body, Base Defense +2, immune to mutation threat, but -1 in sunlight</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>X. Appendix</h2>
+<ul>
+<li><strong>Maps</strong>: See <code>maps/</code> for <code>DARKWOOD_WM-01.svg</code>, <code>DARKWOOD_EM-01.svg</code>, <code>DARKWOOD_BM-01.svg</code>, <code>DARKWOOD_BM-02.svg</code></li>
+<li><strong>Special Rules Supplement</strong>:</li>
+<li><strong>Day–Night Cycle</strong>: Daytime (06:00–18:00) free exploration, supply gathering, safe-house moves. Nighttime (18:00–06:00) must stay in safe house. Safe houses upgradable (planks + nails = Base Defense +2). Night assaults in 3 waves (2h apart), each wave 1d3 random enemies.</li>
+<li><strong>Light System</strong>: Stove = basic light (radius 10ft). Kerosene lamp = mid light (radius 20ft, consumes kerosene). Generator = high light (radius 40ft, auto-defense 1 round). Enemies in darkness gain +3 DP on attacks.</li>
+<li><strong>GM Memo</strong>:</li>
+<li><strong>Common Stuck Points</strong>: Players may be overly cautious. Fix — apply time pressure or have NPCs actively request help.</li>
+<li><strong>Difficulty Up</strong>: enemy count ×1.5, key check DC+1.</li>
+<li><strong>Difficulty Down</strong>: enemy count ×0.7, key check DC-1.</li>
+<li><strong>Unconventional Player Actions</strong>: if players use unconventional tactics, judge their reasonableness and apply fitting consequences.</li>
+<li><strong>References</strong>: Source material for <em>Darkwood</em> (2017).</li>
+</ul>
+<hr />
+<blockquote>
+<p><strong>Script Code</strong>: DARKWOOD
+<strong>Version</strong>: v1.0
+<strong>Format Spec</strong>: v0.4</p>
+</blockquote></section></section>
+    <section class="block"><h2>地圖（YAML＋SVG）</h2><div class="map">
+              <div class="maptitle">DARKWOOD_BM-01 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="680" height="420" fill="#1a1a2e"/>
+<rect x="20" y="20" width="640" height="380" fill="url(#grid)"/>
+<rect x="20" y="20" width="640" height="380" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="340.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Safe House - Night Defense</text>
+<text x="25" y="412" fill="#666" font-size="9">DARKWOOD_BM-01 | 14×10grid (concept) | 1 grid = 5ft | total 70×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="177.5" y="15" text-anchor="middle" fill="#555" font-size="7">11</text>
+<text x="192.5" y="15" text-anchor="middle" fill="#555" font-size="7">12</text>
+<text x="207.5" y="15" text-anchor="middle" fill="#555" font-size="7">13</text>
+<text x="222.5" y="15" text-anchor="middle" fill="#555" font-size="7">14</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="40.0" y="40.0" width="420.0" height="5.0" rx="5" fill="#667" stroke="" stroke-width=""/>
+<text x="250.0" y="38.5" text-anchor="middle" fill="#aaa" font-size="8">Alien Hound</text>
+<text x="250.0" y="52.5" text-anchor="middle" fill="#666" font-size="6">(70.0, 2.5)ft</text>
+<rect x="40.0" y="335.0" width="420.0" height="5.0" rx="5" fill="#667" stroke="" stroke-width=""/>
+<rect x="40.0" y="40.0" width="5.0" height="300.0" rx="3" fill="#667" stroke="" stroke-width=""/>
+<rect x="455.0" y="40.0" width="5.0" height="300.0" rx="3" fill="#667" stroke="" stroke-width=""/>
+<rect x="200.0" y="180.0" width="100.0" height="70.0" rx="3" fill="#1a1030" stroke="#6D28D9" stroke-width="1.5"/>
+<text x="250.0" y="211.0" text-anchor="middle" fill="#aaa" font-size="8">Safe House Interior</text>
+<text x="250.0" y="225.0" text-anchor="middle" fill="#666" font-size="6">(72.5, 57.5)ft</text>
+<rect x="180.0" y="250.0" width="140.0" height="8.0" rx="5" fill="#FFAA00" stroke="#886600" stroke-width="1.5"/>
+<text x="250.0" y="250.0" text-anchor="middle" fill="#aaa" font-size="8">Main Gate(AC10 HP20)</text>
+<text x="250.0" y="264.0" text-anchor="middle" fill="#666" font-size="6">(67.5, 72.5)ft</text>
+<rect x="200.0" y="180.0" width="8.0" height="70.0" rx="3" fill="#FFAA00" stroke="#886600" stroke-width="1.5"/>
+<text x="204.0" y="211.0" text-anchor="middle" fill="#aaa" font-size="8">WindowA</text>
+<text x="204.0" y="225.0" text-anchor="middle" fill="#666" font-size="6">(57.5, 57.5)ft</text>
+<rect x="300.0" y="180.0" width="8.0" height="70.0" rx="3" fill="#FFAA00" stroke="#886600" stroke-width="1.5"/>
+<text x="304.0" y="211.0" text-anchor="middle" fill="#aaa" font-size="8">WindowB</text>
+<text x="304.0" y="225.0" text-anchor="middle" fill="#666" font-size="6">(87.5, 57.5)ft</text>
+<rect x="200.0" y="195.0" width="100.0" height="5.0" rx="5" fill="#00FF88" stroke="#00FF88" stroke-width="1.5"/>
+<text x="250.0" y="193.5" text-anchor="middle" fill="#aaa" font-size="8">Safe House</text>
+<text x="250.0" y="207.5" text-anchor="middle" fill="#666" font-size="6">(72.5, 52.5)ft</text>
+<polygon points="190.0,412.0 210.0,420.0 190.0,428.0" fill="#00FF88"/>
+<text x="205.0" y="434.0" fill="#00FF88" font-size="8">Player Entrance</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/DARKWOOD-七日求生/en/maps/DARKWOOD_BM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L1/DARKWOOD-七日求生/en/maps/DARKWOOD_BM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">DARKWOOD_BM-02 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="680" height="420" fill="#1a1a2e"/>
+<rect x="20" y="20" width="640" height="380" fill="url(#grid)"/>
+<rect x="20" y="20" width="640" height="380" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="340.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Forest Mother Domain - Final Battle</text>
+<text x="25" y="412" fill="#666" font-size="9">DARKWOOD_BM-02 | 12×8grid (concept) | 1 grid = 5ft | total 60×40ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="177.5" y="15" text-anchor="middle" fill="#555" font-size="7">11</text>
+<text x="192.5" y="15" text-anchor="middle" fill="#555" font-size="7">12</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<rect x="40.0" y="40.0" width="360.0" height="5.0" rx="5" fill="#667" stroke="" stroke-width=""/>
+<rect x="40.0" y="275.0" width="360.0" height="5.0" rx="5" fill="#667" stroke="" stroke-width=""/>
+<rect x="40.0" y="40.0" width="5.0" height="240.0" rx="3" fill="#667" stroke="" stroke-width=""/>
+<rect x="395.0" y="40.0" width="5.0" height="240.0" rx="3" fill="#667" stroke="" stroke-width=""/>
+<rect x="200.0" y="180.0" width="120.0" height="80.0" rx="3" fill="#2e1a3e" stroke="#8B5CF6" stroke-width="1.5"/>
+<text x="260.0" y="216.0" text-anchor="middle" fill="#aaa" font-size="8">Forest Mother</text>
+<text x="260.0" y="230.0" text-anchor="middle" fill="#666" font-size="6">(75.0, 57.5)ft</text>
+<rect x="80.0" y="100.0" width="40.0" height="40.0" rx="3" fill="#301520" stroke="#EF4444" stroke-width="1.5"/>
+<text x="100.0" y="116.0" text-anchor="middle" fill="#aaa" font-size="8">Mutation Sac</text>
+<text x="100.0" y="130.0" text-anchor="middle" fill="#666" font-size="6">(22.5, 27.5)ft</text>
+<rect x="450.0" y="100.0" width="40.0" height="40.0" rx="3" fill="#301520" stroke="#EF4444" stroke-width="1.5"/>
+<text x="470.0" y="116.0" text-anchor="middle" fill="#aaa" font-size="8">Mutation Sac</text>
+<text x="470.0" y="130.0" text-anchor="middle" fill="#666" font-size="6">(142.5, 27.5)ft</text>
+<rect x="80.0" y="300.0" width="40.0" height="40.0" rx="3" fill="#301520" stroke="#EF4444" stroke-width="1.5"/>
+<text x="100.0" y="316.0" text-anchor="middle" fill="#aaa" font-size="8">Mutation Sac</text>
+<text x="100.0" y="330.0" text-anchor="middle" fill="#666" font-size="6">(22.5, 92.5)ft</text>
+<rect x="450.0" y="300.0" width="40.0" height="40.0" rx="3" fill="#301520" stroke="#EF4444" stroke-width="1.5"/>
+<text x="470.0" y="316.0" text-anchor="middle" fill="#aaa" font-size="8">Mutation Sac</text>
+<text x="470.0" y="330.0" text-anchor="middle" fill="#666" font-size="6">(142.5, 92.5)ft</text>
+<rect x="200.0" y="175.0" width="120.0" height="5.0" rx="5" fill="#00FF88" stroke="#00FF88" stroke-width="1.5"/>
+<text x="260.0" y="173.5" text-anchor="middle" fill="#aaa" font-size="8">Destroy Forest Mother</text>
+<text x="260.0" y="187.5" text-anchor="middle" fill="#666" font-size="6">(75.0, 47.5)ft</text>
+<polygon points="490.0,392.0 510.0,400.0 490.0,408.0" fill="#00FF88"/>
+<text x="505.0" y="414.0" fill="#00FF88" font-size="8">Player Entrance</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/DARKWOOD-七日求生/en/maps/DARKWOOD_BM-02.yaml" download>yaml</a> <a href="../../assets/scripts/L1/DARKWOOD-七日求生/en/maps/DARKWOOD_BM-02.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">DARKWOOD_EM-01 <span class="maptype">探索地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<rect width="800" height="600" fill="#1a1a2e"/>
+<text x="400.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">Exploration Map</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 1</text>
+<rect x="20" y="0.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="800.0" height="600.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<rect x="15.0" y="60.0" width="770.0" height="140.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="400.0" y="130.0" text-anchor="middle" fill="#aaa" font-size="9">To Swamp</text>
+<rect x="25.0" y="75.0" width="120.0" height="60.0" rx="3.0" fill="#1a1030" stroke="#6D28D9" stroke-width="1.5"/>
+<text x="85.0" y="105.0" text-anchor="middle" fill="#aaa" font-size="9">Starting Cabin</text>
+<rect x="200.0" y="75.0" width="80.0" height="60.0" rx="3.0" fill="#1a2a20" stroke="#10B981" stroke-width="1.5"/>
+<text x="240.0" y="105.0" text-anchor="middle" fill="#aaa" font-size="9">Forest Boundary</text>
+<rect x="340.0" y="75.0" width="90.0" height="60.0" rx="3.0" fill="#1a2a30" stroke="#3B82F6" stroke-width="1.5"/>
+<text x="385.0" y="105.0" text-anchor="middle" fill="#aaa" font-size="9">To Swamp</text>
+<rect x="490.0" y="75.0" width="80.0" height="60.0" rx="3.0" fill="#2e1a3e" stroke="#8B5CF6" stroke-width="1.5"/>
+<text x="530.0" y="105.0" text-anchor="middle" fill="#aaa" font-size="9">To Military Camp</text>
+<text x="20" y="235.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 2</text>
+<rect x="20" y="240.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="15.0" y="240.0" width="770.0" height="35.0" rx="3.0" fill="#111" stroke="#333" stroke-width="1.5"/>
+<rect x="83.0" y="251.0" width="14.0" height="12.0" rx="0.0" fill="#EF4444" stroke="#EF4444" stroke-width="1"/>
+<text x="90.0" y="257.0" text-anchor="middle" fill="#aaa" font-size="9">Danger Zone</text>
+<rect x="143.0" y="251.0" width="14.0" height="12.0" rx="0.0" fill="#F59E0B" stroke="#F59E0B" stroke-width="1"/>
+<text x="150.0" y="257.0" text-anchor="middle" fill="#aaa" font-size="9">Passage</text>
+<rect x="193.0" y="251.0" width="14.0" height="12.0" rx="0.0" fill="#3B82F6" stroke="#3B82F6" stroke-width="1"/>
+<text x="200.0" y="257.0" text-anchor="middle" fill="#aaa" font-size="9">Side Quest</text>
+<rect x="243.0" y="251.0" width="14.0" height="12.0" rx="0.0" fill="#10B981" stroke="#10B981" stroke-width="1"/>
+<text x="250.0" y="257.0" text-anchor="middle" fill="#aaa" font-size="9">Supplies</text>
+<rect x="20" y="545" width="760" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="570" fill="#aaa" font-size="9">Start</text>
+<text x="205" y="570" fill="#aaa" font-size="9">Danger Zone</text>
+<text x="375" y="570" fill="#aaa" font-size="9">DARKWOOD_EM-01 | Exploration Map</text>
+<text x="20" y="590" fill="#666" font-size="9">DARKWOOD_EM-01 | Exploration Map </text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/DARKWOOD-七日求生/en/maps/DARKWOOD_EM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L1/DARKWOOD-七日求生/en/maps/DARKWOOD_EM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">DARKWOOD_WM-01 <span class="maptype">世界地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="800" height="600" fill="url(#wmgrid)"/>
+<line x1="80.0" y1="380.0" x2="720.0" y2="380.0" stroke="#555" stroke-width="3"/>
+<line x1="120.0" y1="480.0" x2="680.0" y2="100.0" stroke="#555" stroke-width="2"/>
+<line x1="200.0" y1="200.0" x2="600.0" y2="200.0" stroke="#555" stroke-width="1"/>
+<rect x="60.0" y="470.0" width="80.0" height="60.0" rx="5" fill="#2e1a3e" stroke="#8B5CF6" stroke-width="2"/>
+<text x="100.0" y="500.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Starting Cabin</text>
+<rect x="300.0" y="430.0" width="80.0" height="50.0" rx="5" fill="#1a2a30" stroke="#3B82F6" stroke-width="2"/>
+<text x="340.0" y="455.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Swamp Zone</text>
+<rect x="480.0" y="360.0" width="80.0" height="50.0" rx="5" fill="#2e1a3e" stroke="#8B5CF6" stroke-width="2"/>
+<text x="520.0" y="385.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Soviet Military Camp</text>
+<rect x="200.0" y="240.0" width="70.0" height="50.0" rx="5" fill="#301520" stroke="#EF4444" stroke-width="2"/>
+<text x="235.0" y="265.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Werewolf Cabin</text>
+<line x1="140.0" y1="500.0" x2="375.0" y2="460.0" stroke="#FF4444" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="375.0" y1="460.0" x2="650.0" y2="80.0" stroke="#FF4444" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="635.0" y1="515.0" x2="665.0" y2="515.0" stroke="#FF4444" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<ellipse cx="300.0" cy="300.0" rx="100.0" ry="80.0" fill="#FF0000" opacity="0.1" stroke="#FF4444" stroke-width="1"/>
+<text x="350.0" y="300.0" fill="#FF4444" font-size="9">Black Mist Zone</text>
+<ellipse cx="500.0" cy="220.0" rx="70.0" ry="50.0" fill="#FF0000" opacity="0.1" stroke="#FF4444" stroke-width="1"/>
+<text x="535.0" y="220.0" fill="#FF4444" font-size="9">Mutation Core</text>
+<ellipse cx="200.0" cy="100.0" rx="60.0" ry="50.0" fill="#FF0000" opacity="0.1" stroke="#FF4444" stroke-width="1"/>
+<text x="230.0" y="100.0" fill="#FF4444" font-size="9">Savage Camp</text>
+<circle cx="100.0" cy="525.0" r="4.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="100.0" cy="525.0" r="4.0" fill="none" stroke="" stroke-width="2"/>
+<text x="100.0" y="516.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ (Start)</text>
+<circle cx="650.0" cy="80.0" r="18.0" fill="none" stroke="#00FF88" stroke-width="2" stroke-dasharray="4,2"/>
+<text x="650.0" y="57.0" text-anchor="middle" fill="#00FF88" font-size="10" font-weight="bold">★ ★ Extraction Point</text>
+<circle cx="650.0" cy="80.0" r="7.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="650.0" cy="80.0" r="7.0" fill="none" stroke="" stroke-width="2"/>
+<text x="650.0" y="68.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ ★ Extraction Point</text>
+<circle cx="642.0" cy="558.0" r="5.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="642.0" cy="558.0" r="5.0" fill="none" stroke="" stroke-width="2"/>
+<text x="642.0" y="548.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Extraction Point</text>
+<circle cx="642.0" cy="575.0" r="4.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="642.0" cy="575.0" r="4.0" fill="none" stroke="" stroke-width="2"/>
+<text x="642.0" y="566.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Start</text>
+<rect x="630" y="20" width="150" height="110" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="705" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Legend</text>
+<text x="640" y="60" fill="#aaa" font-size="9">Boundary</text>
+<text x="640" y="76" fill="#aaa" font-size="9">Extraction Route</text>
+<text x="640" y="92" fill="#aaa" font-size="9">Danger Zone</text>
+<text x="640" y="108" fill="#aaa" font-size="9">Extraction Point</text>
+<text x="640" y="124" fill="#aaa" font-size="9">Start</text>
+<text x="20" y="585" fill="#666" font-size="9">DARKWOOD_WM-01 | Wide-area Map | DARKWOOD_WM-01 | Wide-area Map | 1 grid ~ 5m</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/DARKWOOD-七日求生/en/maps/DARKWOOD_WM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L1/DARKWOOD-七日求生/en/maps/DARKWOOD_WM-01.svg" download>svg</a></p>
+            </div></section>
+    <section class="block"><h2>概念圖</h2><div class="gallery"><a href="../../assets/scripts/L1/DARKWOOD-七日求生/images/enemy_01_mutant.png" target="_blank"><img src="../../assets/scripts/L1/DARKWOOD-七日求生/images/enemy_01_mutant.png" alt="enemy_01_mutant.png"></a><a href="../../assets/scripts/L1/DARKWOOD-七日求生/images/npc_01_stranger.png" target="_blank"><img src="../../assets/scripts/L1/DARKWOOD-七日求生/images/npc_01_stranger.png" alt="npc_01_stranger.png"></a><a href="../../assets/scripts/L1/DARKWOOD-七日求生/images/scene_01_cabin.png" target="_blank"><img src="../../assets/scripts/L1/DARKWOOD-七日求生/images/scene_01_cabin.png" alt="scene_01_cabin.png"></a><a href="../../assets/scripts/L1/DARKWOOD-七日求生/images/scene_S02_第一夜.png" target="_blank"><img src="../../assets/scripts/L1/DARKWOOD-七日求生/images/scene_S02_第一夜.png" alt="scene_S02_第一夜.png"></a><a href="../../assets/scripts/L1/DARKWOOD-七日求生/images/scene_S03_沼澤探索.png" target="_blank"><img src="../../assets/scripts/L1/DARKWOOD-七日求生/images/scene_S03_沼澤探索.png" alt="scene_S03_沼澤探索.png"></a><a href="../../assets/scripts/L1/DARKWOOD-七日求生/images/scene_S04_軍營秘密.png" target="_blank"><img src="../../assets/scripts/L1/DARKWOOD-七日求生/images/scene_S04_軍營秘密.png" alt="scene_S04_軍營秘密.png"></a><a href="../../assets/scripts/L1/DARKWOOD-七日求生/images/scene_S05_狼人之夜.png" target="_blank"><img src="../../assets/scripts/L1/DARKWOOD-七日求生/images/scene_S05_狼人之夜.png" alt="scene_S05_狼人之夜.png"></a><a href="../../assets/scripts/L1/DARKWOOD-七日求生/images/scene_S06_異變加劇.png" target="_blank"><img src="../../assets/scripts/L1/DARKWOOD-七日求生/images/scene_S06_異變加劇.png" alt="scene_S06_異變加劇.png"></a><a href="../../assets/scripts/L1/DARKWOOD-七日求生/images/scene_S07_森林之心.png" target="_blank"><img src="../../assets/scripts/L1/DARKWOOD-七日求生/images/scene_S07_森林之心.png" alt="scene_S07_森林之心.png"></a></div></section>
+    </main>
+<footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

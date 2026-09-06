@@ -1,0 +1,150 @@
+map_id: SCP-173_EM-01
+map_type: exploration
+scenario: 'SCP-173: Statue · The First Work'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 680
+- 500
+title: SCP-173·Statue · The First Work — Exploration Map
+description: ''
+floors:
+- name: Floor 1
+  y: 0.0
+  rooms:
+  - bounds:
+    - 0.0
+    - 0.0
+    - 680.0
+    - 500.0
+    name: (Exploration Point)
+    fill: '#0d0d0d'
+    stroke: ''
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 30.0
+    - 50.0
+    - 620.0
+    - 420.0
+    name: (Exploration Point)
+    fill: none
+    stroke: '#FCA5A5'
+    stroke_width: '1.5'
+    rx: 0.0
+  - bounds:
+    - 70.0
+    - 80.0
+    - 100.0
+    - 70.0
+    name: Starting Area
+    fill: '#DC2626'
+    stroke: '#F59E0B'
+    stroke_width: '2'
+    rx: 5.0
+  - bounds:
+    - 50.0
+    - 120.0
+    - 580.0
+    - 40.0
+    name: Main Passage
+    fill: '#DC2626'
+    stroke: '#DC2626'
+    stroke_width: '1'
+    rx: 3.0
+  - bounds:
+    - 250.0
+    - 190.0
+    - 120.0
+    - 80.0
+    name: (Exploration Point)
+    fill: '#DC2626'
+    stroke: '#FCA5A5'
+    stroke_width: '1'
+    rx: 5.0
+  - bounds:
+    - 450.0
+    - 190.0
+    - 120.0
+    - 80.0
+    name: Key Location B
+    fill: '#DC2626'
+    stroke: '#FCA5A5'
+    stroke_width: '1'
+    rx: 5.0
+- name: Floor 2
+  y: 320.0
+  rooms:
+  - bounds:
+    - 250.0
+    - 320.0
+    - 120.0
+    - 80.0
+    name: Encounter Point
+    fill: '#EF4444'
+    stroke: '#EF4444'
+    stroke_width: '1'
+    rx: 5.0
+  - bounds:
+    - 450.0
+    - 320.0
+    - 120.0
+    - 80.0
+    name: Safe Zone
+    fill: '#3B82F6'
+    stroke: '#3B82F6'
+    stroke_width: '1'
+    rx: 5.0
+- name: Floor 3
+  y: 450.0
+  rooms:
+  - bounds:
+    - 30.0
+    - 450.0
+    - 350.0
+    - 40.0
+    name: Safe Zone
+    fill: '#111'
+    stroke: '#333'
+    stroke_width: ''
+    rx: 4.0
+  - bounds:
+    - 45.0
+    - 460.0
+    - 15.0
+    - 10.0
+    name: Start Point
+    fill: '#F59E0B'
+    stroke: '#F59E0B'
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 110.0
+    - 460.0
+    - 15.0
+    - 10.0
+    name: Danger Zone
+    fill: '#EF4444'
+    stroke: '#EF4444'
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 200.0
+    - 460.0
+    - 15.0
+    - 10.0
+    name: Safe Zone
+    fill: '#3B82F6'
+    stroke: '#3B82F6'
+    stroke_width: ''
+    rx: 0.0
+connections: []
+legend:
+- Starting Area
+- Danger Zone
+- Start Point
+- Danger Zone
+- SCP-173_EM-01 | Exploration Map | 1Cell ≈ 5m
+notes: []

@@ -1,0 +1,679 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dark Souls: Undead Pilgrimage | DS-SOUL-不死人朝聖 | Infinite Terror TRPG Scripts</title>
+<link rel="stylesheet" href="../../assets/style.css"></head>
+<body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../../index.html">中文</a></header>
+<div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
+<main class="container"><h1>Dark Souls: Undead Pilgrimage</h1>
+    <p class="meta">Code: DS-SOUL-不死人朝聖 ｜ Source: Dark Souls: Undead Pilgrimage (original) ｜ Difficulty: ★★★★ ｜ Players: 3–5 ｜ Duration: 5–7 hrs / 2–3 sessions ｜ Type: Combat / Investigation / Survival</p>
+    <p class="nav"><a href="../../index.html">← 劇本總覽</a> ｜ <a href="../../assets/scripts/L3/DS-SOUL-不死人朝聖/en/DS-SOUL-不死人朝聖_劇本.md" download>劇本 MD</a> ｜ <a href="../../assets/scripts/L3/DS-SOUL-不死人朝聖/en/DS-SOUL-不死人朝聖_NPC名冊.xlsx" download>NPC 名冊</a> ｜ <a href="../../assets/scripts/L3/DS-SOUL-不死人朝聖/en/DS-SOUL-不死人朝聖_敵方單位名冊.xlsx" download>敵方名冊</a> ｜ <a href="../../assets/L3_DS-SOUL-不死人朝聖_all_en.zip">下載全部（zip）</a></p>
+    <section class="block content"><section class="chap"><h2>一、基本資訊</h2>
+<p>Script Title: Dark Souls: Undead Pilgrimage
+Source Film: Dark Souls: Undead Pilgrimage (original)
+Difficulty Rating: ★★★★
+Suggested Players: 3–5
+Estimated Duration: 5–7 hrs / 2–3 sessions
+Script Type: Combat / Investigation / Survival
+Prerequisite: Recommended at least one completed script of ★★★ or below; average team Attribute not below 4</p>
+<hr /></section>
+<details class="gm"><summary>🎭 GM 限定：二、Plot Summary (GM Only)</summary><h2>二、Plot Summary (GM Only)</h2>
+<h3>One-line Summary</h3>
+<blockquote>
+<p>Reincarnators (RC) awaken as Undead in the Northern Undead Asylum and set foot on the ancient prophesied pilgrimage — crossing the kingdom of Lordran to ring the Awakening Bell hidden deep in the Undead Church.</p>
+</blockquote>
+<h3>Full Story Background</h3>
+<p>In the beginning, the world was shrouded in grey fog — neither light nor dark. Until the first flame appeared, bringing disparity — light and dark, life and death. Four great beings — the first Flame inheritors — took the Lord Souls from the fire and established the age of the gods.</p>
+<p>But the flame will eventually fade. As the flame wanes, the Undead curse spreads — the cursed do not truly die, but revive endlessly by the bonfire, losing a part of their Humanity with each death, until they become mindless Hollows.</p>
+<p>The prophecy says the chosen Undead will ring two Awakening Bells — one high in the church, one deep underground — to awaken the ancient Flame inheritors, reconnecting them to the First Flame.</p>
+<p>The Reincarnators are freed from the Northern Undead Asylum cell by Oscar. Oscar gives the Reincarnators a key, then collapses — he was grievously wounded by the Asylum Demon. The Reincarnators must fight out of the asylum and set on the pilgrimage to Lordran: cross the Undead Burg, defeat the Gargoyles guarding the church, and ring the first Awakening Bell — then learn the second bell lies deeper.</p>
+<h3>Story Structure Type</h3>
+<p>Act-by-act: Northern Undead Asylum escape → arrive at Firelink Shrine → cross Undead Burg → Gargoyle battle at Undead Church → ring the Awakening Bell.</p>
+<hr /></details>
+<section class="chap"><h2>三、Main God Quest</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest Description</td>
+<td>"Ring the Awakening Bell hidden high in the Undead Church. This is the first step of the prophecy."</td>
+</tr>
+<tr>
+<td>Main Quest</td>
+<td>Escape the Northern Undead Asylum, cross Lordran's Undead Burg, reach the Undead Church and defeat the Gargoyles guarding it, then ring the Awakening Bell</td>
+</tr>
+<tr>
+<td>Quest Reward</td>
+<td>B+5000</td>
+</tr>
+<tr>
+<td>Failure Condition</td>
+<td>Total party wipe / complete Hollowification (cumulative deaths over 5 — lose all Humanity and sanity)</td>
+</tr>
+<tr>
+<td>Failure Penalty</td>
+<td>Erasure</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>① Rescue Oscar from the Asylum Demon (★★): 500 <br>② Find all 3 bonfires: 300 <br>③ Defeat the hidden Black Knight (★★★): 600</td>
+</tr>
+</tbody>
+</table>
+<h3>Party-size Compatibility</h3>
+<ul>
+<li>With 3 players, enemy count reduced by 30%</li>
+<li>With 5 players, enemy count increased by 50% or add 1 reinforcement wave</li>
+<li>With 3 players, check Difficulty (DC) reduced by 1</li>
+</ul>
+<hr /></section>
+<section class="chap"><h2>四、Side Quests</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-01</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Free the Fire Keeper's Soul</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>After talking with the Mournful Knight at Firelink Shrine, learn the Fire Keeper is imprisoned (PER DC2)</td>
+</tr>
+<tr>
+<td>Objective</td>
+<td>The Firelink Shrine's Fire Keeper is sealed in a cage — her soul is split into fragments scattered across the Undead Burg. Collect 3 soul fragments and return them to restore her power. Each fragment returned: shrine grants free Attribute upgrade</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Before ringing the Awakening Bell</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>500 + Fire Keeper's Blessing (permanent HP+5)</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Supports the main quest — provides permanent bonus</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-02</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>The Sun Warrior's Pact</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Meet the Sun Knight Solair on the Undead Burg bridge</td>
+</tr>
+<tr>
+<td>Objective</td>
+<td>Solair is searching for "his own sun" — a symbolic goal. Make a pact with him: summon him as an ally (white phantom) in the Gargoyle Boss fight. Solair assists with his Lightning Spear — extra DPS support in the Boss fight</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>After obtaining the White Soapstone — use it at the Gargoyle Boss gate</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>300 + Lightning Spear miracle (usable until script end)</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Supports the main quest</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>五、World Setting</h2>
+<h3>Timeline</h3>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T+0</td>
+<td>Awaken in the Northern Undead Asylum cell. Oscar drops a key through the vent and collapses. Obtain basic gear — straight sword, battered shield</td>
+</tr>
+<tr>
+<td>T+3 rounds</td>
+<td>Escape the asylum — defeat the Asylum Demon (★★★) or flee via side door before defeat</td>
+</tr>
+<tr>
+<td>T+6 rounds</td>
+<td>Carried by the giant crow to Firelink Shrine. Meet NPCs like Solair. Obtain the first bonfire</td>
+</tr>
+<tr>
+<td>T+10 rounds</td>
+<td>Cross Undead Burg — Undead soldiers, Hollows, Black Knight (optional Boss)</td>
+</tr>
+<tr>
+<td>T+14 rounds</td>
+<td>Arrive at Undead Church — Gargoyles ×2 (★★★) guard the Awakening Bell</td>
+</tr>
+<tr>
+<td>T+18 rounds</td>
+<td>Defeat the Gargoyles → ring the Awakening Bell → bell echoes across Lordran → script complete (first step of the prophecy)</td>
+</tr>
+</tbody>
+</table>
+<h3>Key Locations</h3>
+<h4>Northern Undead Asylum (Starting Cell)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Northern Undead Asylum (Starting Cell)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Moss climbs the damp stone walls; through the narrow iron window only a grey hazy sky is visible. Through the cell's iron bars you see a man in knight armor — battling some giant creature. The clang of metal and the demon's roar come from afar.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Cell (Oscar's dropped key and basic gear), corridor (Asylum Hollows — ★ slow but numerous), side door (bypass the Asylum Demon and flee directly — AGI + Stealth DC3), courtyard (Asylum Demon ★★★ — if you choose to fight)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Asylum Demon (★★★ large demon — 3d8+4 physical heavy hit, HP=35 AC=12. Choose to fight or bypass). Hollow ×5 (★ slow melee)</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>Courtyard's giant crow nest → carried by the crow to Lordran (Firelink Shrine)</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>WM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Undead Church (Final Scene)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Undead Church (Final Scene)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"The church roof is long gone — replaced by a gloomy grey sky. Giant stone pillars support the broken vault; deep in the church hangs a rust-stained bronze great bell. As you step into the nave, two petrified figures begin to crumble — the Gargoyles guarding the church spread their stone wings."</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Awakening Bell (core objective — ringing requires 1 round of channeling — no other actions during channeling), second-floor corridor (gain high-ground advantage), church organ (can be destroyed to cause sonic vibration — 1d6 sonic damage to Gargoyles and staggers them 1 round)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Gargoyle ×2 (★★★ flight + fire breath + tail sweep — HP30 each, Base Defense 14). Cannot melee while flying (need ranged or wait for landing). Fire Breath (AoE 2d6 fire DC3 AGI for half). When first one's HP&lt;50%, the second descends from the roof to join</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>Ring the Awakening Bell → bell echoes → script complete</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>BM-01</td>
+</tr>
+</tbody>
+</table>
+<h3>World Special Rules</h3>
+<ul>
+<li><strong>Undead Curse</strong>: After death, Reincarnators revive at the nearest bonfire — but each revival consumes 1 Humanity. At 0 Humanity, become Hollow: rotting appearance, NPCs refuse to talk, trade prices doubled. Humanity restored via "Humanity items" (gain 1 per Boss defeated). 5 cumulative deaths = complete Hollowification — quest failure.</li>
+<li><strong>Bonfire</strong>: A sacred rest point. At a bonfire you can: restore HP and Estus, use Souls to upgrade Attributes, refill Estus charges. Discovering a new bonfire auto-becomes the new revival point.</li>
+<li><strong>Estus Flask</strong>: Refilled each bonfire rest. Start with 3 flasks — each restores 2d6+2 HP. More flasks via strengthening the bonfire by spending Humanity (each Humanity +1 flask cap — max 10).</li>
+<li><strong>Souls</strong>: Experience/currency gained from defeating enemies. Use Souls at bonfires to upgrade (same system as ER). On death lose all unspent Souls — must return to the death location to retrieve; dying again loses them permanently.</li>
+</ul>
+<h3>Main God Restrictions</h3>
+<ul>
+<li>"Revealing the existence of the Main God space to story characters is forbidden"</li>
+<li>"Any ability may be used in this world"</li>
+<li>"Do not attack friendly NPCs — increases sin value, drawing pursuit from the Blade of the Darkmoon covenant"</li>
+<li>"If you refuse to ring the Awakening Bell — prophecy fails — quest failure and Erasure"</li>
+</ul>
+<h3>Visual Map System</h3>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Code</th>
+<th>Content</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Regional Map</td>
+<td>WM-01</td>
+<td>Lordran pilgrimage route — Asylum → Firelink Shrine → Undead Burg → Church</td>
+<td><code>maps/DS-SOUL_WM-01.svg</code></td>
+</tr>
+<tr>
+<td>Exploration Map</td>
+<td>EM-01</td>
+<td>Undead Burg exploration map — bonfires, NPCs, hidden passages, Black Knight spawns</td>
+<td><code>maps/DS-SOUL_EM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-01</td>
+<td>Undead Church Gargoyle Boss fight 24×12 cells — second-floor corridor, organ, Awakening Bell</td>
+<td><code>maps/DS-SOUL_BM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-02</td>
+<td>Asylum courtyard — Asylum Demon encounter</td>
+<td><code>maps/DS-SOUL_BM-02.svg</code></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>六、Characters and Enemy Units (Managed in Separate Excel)</h2>
+<blockquote>
+<p>NPC and enemy unit data — see the following separate Excel files:
+- <strong>NPC Roster</strong>: <code>DS-SOUL-不死人朝聖_NPC名冊.xlsx</code>
+- <strong>Enemy Unit Roster</strong>: <code>DS-SOUL-不死人朝聖_敵方單位名冊.xlsx</code></p>
+<p>Both Excel files contain a "Roster" page and a "Blank Template" page; the first column is reserved for character art.</p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>七、Key Scenes</h2>
+<h3>Scene Structure Note</h3>
+<p>This script uses <strong>act-by-act: Northern Undead Asylum escape → arrive at Firelink Shrine → cross Undead Burg → Gargoyle battle at Undead Church → ring the Awakening Bell.</strong></p>
+<h3>Opening</h3>
+<h4>Scene S01: Undead Asylum — Escape</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S01</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Undead Asylum — Escape</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Start of script</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"A thin layer of dust coats the cold stone slab — you no longer know how long you've lain here. Through the iron bars of the door, a man in worn knight armor drops a ring of keys through the vent. 'Hurry... before it returns...' He slumps against the wall — black blood seeps from the cracks in his armor."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Key (open door — Oscar's keepsake), corridor weapon rack (straight sword + shield — basic gear), side door (AGI + Stealth DC3 to bypass Boss), Oscar (if healed — optional objective ① + extra story dialogue, but Oscar still dies of his wounds in the end)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Asylum Demon (★★★ — fight or flee). Hollow ×5 (★) wander the corridor</td>
+</tr>
+<tr>
+<td>Gene Lock Related</td>
+<td>No special Gene Lock requirement</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>① Confront the Asylum Demon head-on → gain the Demon Great Hammer (heavy weapon) ② Bypass via side door → saves time but misses Boss reward</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Reach the courtyard → grabbed by the giant crow to Lordran → fall at Firelink Shrine (enter S02)</td>
+</tr>
+</tbody>
+</table>
+<h3>Rest/Prep</h3>
+<h4>Scene S02: Firelink Shrine — Sanctuary</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S02</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Firelink Shrine — Sanctuary</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Carried by the giant crow to Firelink Shrine</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"Firelink Shrine is an ancient circular hall; the central bonfire emits warm orange light — the Undead's only solace in this land of despair. A few Undead NPCs sit around the fire — some whispering, some staring silently into the flames. A knight in strange armor stands to greet you — a hand-drawn sun mark on his chest."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Bonfire (rest + upgrade + revival point), Solair (S-02 pact trigger), Mournful Knight (S-01 intel — Fire Keeper imprisoned), Baldur's sorcerer (can learn basic magic — INT + Sense DC2)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>None — safe zone</td>
+</tr>
+<tr>
+<td>Gene Lock Related</td>
+<td>No special Gene Lock requirement</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>① Depart well-prepared → complete S-01/S-02 first ② Head straight to Undead Burg → save time</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Leave the shrine → enter Undead Burg (enter S03)</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>八、Reward Settlement</h2>
+<table>
+<thead>
+<tr>
+<th>Reward Type</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main Quest Complete</td>
+<td>B+5000</td>
+</tr>
+<tr>
+<td>Side Quests Complete</td>
+<td>S-01 Fire Keeper: 500+HP+5 / S-02 Solair: 300</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>Rescue Oscar: 500 / 3 Bonfires: 300 / Black Knight: 600</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Asylum Demon 600 / Black Knight 600 / Gargoyle 500 each</td>
+</tr>
+<tr>
+<td>Special Achievement</td>
+<td>No-death clear (0 revivals): B-tier upgraded to A / ring bell while Hollow (Humanity=0): alternate achievement +D</td>
+</tr>
+<tr>
+<td>Roleplay</td>
+<td>GM discretion (0–500)</td>
+</tr>
+<tr>
+<td>Return Exchange</td>
+<td>Estus Flask (D-tier 300) / Lightning Spear Miracle (C-tier 1200) / Humanity Item (D-tier 200)</td>
+</tr>
+</tbody>
+</table>
+<h3>Return Exchange (Script-limited)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Exchange Item</th>
+<th>Cost (Side + Reward Points)</th>
+<th>Effect</th>
+<th>Growth Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>Bonfire Bond (Knowledge)</td>
+<td>C+1000</td>
+<td>Gain knowledge to briefly light a "Bonfire" in any script — once per script, whole party restores 2d8 HP and resets non-permanent negatives</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Ember (Item)</td>
+<td>C+1000</td>
+<td>Carry Humanity (Ember) — on use, this script's base defense +2, can summon co-op phantom once</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Pyromancy Flame (Pyromancy)</td>
+<td>C+1000</td>
+<td>Ignite the pyromancy flame — INT + Faith cast "Flame Spray (1d8 fire)" 3× per script</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Undead Quick-Heal (Passive)</td>
+<td>C+1000</td>
+<td>Undead constitution — auto-recover once at near-death (lose 1d4 Attribute)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Undead Bloodline (Bloodline)</td>
+<td>B+3600</td>
+<td>Gain Undead bloodline — revive once at nearest bonfire on death (1× per script, lose part of Souls)</td>
+<td>Can repurchase A-tier (A+7200)</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Miracle · Sunlight Spear (Miracle)</td>
+<td>B+2000</td>
+<td>Learn faith miracle — 2× per script summon "Sunlight Spear" for 3d6 lightning damage</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Sorcerer · Glintstone Magic (Sorcery)</td>
+<td>B+2000</td>
+<td>Learn the Glintstone school — INT + Arcane cast "Soul Arrow (1d10 magic)" 3× per script</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Primordial Flux · Dragon Blood (Bloodline)</td>
+<td>A+7200</td>
+<td>Drink dragon blood — gain "Dragon Scale" base defense +4, STR +2, fire/lightning resistance (downgraded to A-tier Dragonkin)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Lord of Cinder Title (Title)</td>
+<td>A+7200</td>
+<td>Gain "Lord of Cinder" title — all Attributes +2; "Ember" aura downgraded to once-per-script ignition (grants party temp defense +2)</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></section>
+<section class="chap"><h2>九、Appendix</h2>
+<ul>
+<li><strong>Maps</strong>: All map files are stored in the <code>maps/</code> subdirectory, archived by the three-tier system: Regional Map (WM), Exploration Map (EM), Battle Map (BM).</li>
+<li><strong>GM Memo</strong>:</li>
+<li>Confirm players' Gene Lock stage before opening; adjust encounter difficulty accordingly</li>
+<li>If players take completely unexpected actions, use side quests as buffer</li>
+<li>For a 3-person party, provide 1 supportive NPC to aid combat</li>
+<li>For a 5-person party, add 1 reinforcement wave in the boss fight to delay pressure</li>
+</ul>
+<hr />
+<blockquote>
+<p>Version: v0.1 | Format Spec v0.4 | D10 Dice Pool System</p>
+</blockquote></section></section>
+    <section class="block"><h2>地圖（YAML＋SVG）</h2><div class="map">
+              <div class="maptitle">DS-SOUL_BM-01 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<rect x="20" y="20" width="760" height="560" fill="url(#grid)"/>
+<rect x="20" y="20" width="760" height="560" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="400.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Lordran (Lordran)</text>
+<text x="25" y="592" fill="#666" font-size="9">DS-SOUL_BM-01 | 10×10cells (concept) | 1cell = 5ft | Total 50×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="50.0" y="70.0" width="700.0" height="450.0" rx="3" fill="#1a1a3e" stroke="#3a3a6e" stroke-width="2"/>
+<text x="400.0" y="291.0" text-anchor="middle" fill="#aaa" font-size="8">[S03-Boss]</text>
+<text x="400.0" y="305.0" text-anchor="middle" fill="#666" font-size="6">(127.5, 90.0)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/DS-SOUL-不死人朝聖/en/maps/DS-SOUL_BM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L3/DS-SOUL-不死人朝聖/en/maps/DS-SOUL_BM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">DS-SOUL_BM-02 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<rect x="20" y="20" width="760" height="560" fill="url(#grid)"/>
+<rect x="20" y="20" width="760" height="560" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="400.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Lordran (Lordran)</text>
+<text x="25" y="592" fill="#666" font-size="9">DS-SOUL_BM-02 | 10×10cells (concept) | 1cell = 5ft | Total 50×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="50.0" y="70.0" width="700.0" height="450.0" rx="3" fill="#1a1a3e" stroke="#3a3a6e" stroke-width="2"/>
+<text x="400.0" y="291.0" text-anchor="middle" fill="#aaa" font-size="8">[S03-Boss]</text>
+<text x="400.0" y="305.0" text-anchor="middle" fill="#666" font-size="6">(127.5, 90.0)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/DS-SOUL-不死人朝聖/en/maps/DS-SOUL_BM-02.yaml" download>yaml</a> <a href="../../assets/scripts/L3/DS-SOUL-不死人朝聖/en/maps/DS-SOUL_BM-02.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">DS-SOUL_EM-01 <span class="maptype">探索地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<rect width="800" height="600" fill="#1a1a2e"/>
+<text x="400.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">Lordran (Lordran)</text>
+<text x="20" y="65.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 1</text>
+<rect x="20" y="70.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="50.0" y="70.0" width="700.0" height="450.0" rx="5.0" fill="#1a1a3e" stroke="#3a3a6e" stroke-width="2"/>
+<text x="400.0" y="295.0" text-anchor="middle" fill="#aaa" font-size="9">[S03-Boss]</text>
+<rect x="20" y="545" width="760" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="570" fill="#aaa" font-size="9">Safe Zone/Start Point</text>
+<text x="205" y="570" fill="#aaa" font-size="9">Danger Zone/Combat Zone</text>
+<text x="20" y="590" fill="#666" font-size="9">DS-SOUL_EM-01 | Exploration Map </text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/DS-SOUL-不死人朝聖/en/maps/DS-SOUL_EM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L3/DS-SOUL-不死人朝聖/en/maps/DS-SOUL_EM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">DS-SOUL_WM-01 <span class="maptype">世界地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="800" height="600" fill="url(#wmgrid)"/>
+<line x1="400.0" y1="380.0" x2="250.0" y2="232.0" stroke="" stroke-width="2"/>
+<line x1="250.0" y1="232.0" x2="400.0" y2="265.0" stroke="" stroke-width="2"/>
+<line x1="400.0" y1="265.0" x2="550.0" y2="232.0" stroke="#cc3344" stroke-width="2"/>
+<line x1="595.0" y1="548.0" x2="620.0" y2="548.0" stroke="" stroke-width="2"/>
+<rect x="50.0" y="70.0" width="700.0" height="450.0" rx="5" fill="#1a1a3e" stroke="#3a3a6e" stroke-width="2"/>
+<text x="400.0" y="295.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">[S03-Boss]</text>
+<circle cx="400.0" cy="290.0" r="200.0" fill="#2a1a3e30" opacity="0.6"/>
+<circle cx="400.0" cy="290.0" r="200.0" fill="none" stroke="#4a3a6e" stroke-width="2" stroke-dasharray="4,2"/>
+<text x="400.0" y="85.0" text-anchor="middle" fill="#4a3a6e" font-size="10" font-weight="bold">★ [S03-Boss]</text>
+<circle cx="400.0" cy="265.0" r="40.0" fill="#cc334415" opacity="0.6"/>
+<circle cx="400.0" cy="265.0" r="40.0" fill="none" stroke="#ff556640" stroke-width="2" stroke-dasharray="4,2"/>
+<text x="400.0" y="220.0" text-anchor="middle" fill="#ff556640" font-size="10" font-weight="bold">★ Undead Church</text>
+<rect x="630" y="20" width="150" height="74" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="705" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Legend</text>
+<text x="640" y="60" fill="#aaa" font-size="9">Safe Zone/Start Point</text>
+<text x="640" y="76" fill="#aaa" font-size="9">Danger Zone/Combat Zone</text>
+<text x="640" y="92" fill="#aaa" font-size="9">Route</text>
+<text x="20" y="585" fill="#666" font-size="9">DS-SOUL_WM-01 | Regional Map | Schematic</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/DS-SOUL-不死人朝聖/en/maps/DS-SOUL_WM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L3/DS-SOUL-不死人朝聖/en/maps/DS-SOUL_WM-01.svg" download>svg</a></p>
+            </div></section>
+    <section class="block"><h2>概念圖</h2><div class="gallery"><a href="../../assets/scripts/L3/DS-SOUL-不死人朝聖/images/enemy_01_asylum_demon.png" target="_blank"><img src="../../assets/scripts/L3/DS-SOUL-不死人朝聖/images/enemy_01_asylum_demon.png" alt="enemy_01_asylum_demon.png"></a><a href="../../assets/scripts/L3/DS-SOUL-不死人朝聖/images/npc_01_fire_keeper.png" target="_blank"><img src="../../assets/scripts/L3/DS-SOUL-不死人朝聖/images/npc_01_fire_keeper.png" alt="npc_01_fire_keeper.png"></a><a href="../../assets/scripts/L3/DS-SOUL-不死人朝聖/images/scene_01_firelink_shrine.png" target="_blank"><img src="../../assets/scripts/L3/DS-SOUL-不死人朝聖/images/scene_01_firelink_shrine.png" alt="scene_01_firelink_shrine.png"></a><a href="../../assets/scripts/L3/DS-SOUL-不死人朝聖/images/scene_S02_傳火祭祀場_聖地.png" target="_blank"><img src="../../assets/scripts/L3/DS-SOUL-不死人朝聖/images/scene_S02_傳火祭祀場_聖地.png" alt="scene_S02_傳火祭祀場_聖地.png"></a></div></section>
+    </main>
+<footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

@@ -1,0 +1,149 @@
+map_id: FZ_WM-01
+map_type: world
+scenario: 'Fate/Zero: The 4th Holy Grail War / Fate/Zero·第四次聖杯戰爭'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: Fuyuki City — Complete Map of the 4th Holy Grail War
+description: ''
+scale: FZ_WM-01 | World Map | Fuyuki City Panorama (1 square ≈ 200m)
+regions:
+- bounds:
+  - 0.0
+  - 250.0
+  - 800.0
+  - 80.0
+  fill: '#1a2a3a'
+  stroke: ''
+  name: Fuyuki Bridge
+- bounds:
+  - 350.0
+  - 275.0
+  - 100.0
+  - 30.0
+  fill: '#334'
+  stroke: '#888'
+  name: Fuyuki Bridge
+- bounds:
+  - 50.0
+  - 55.0
+  - 300.0
+  - 180.0
+  fill: '#151530'
+  stroke: '#6D28D9'
+  name: ''
+- bounds:
+  - 70.0
+  - 70.0
+  - 120.0
+  - 60.0
+  fill: '#1a2a2a'
+  stroke: '#3B82F6'
+  name: City Hall
+- bounds:
+  - 220.0
+  - 70.0
+  - 110.0
+  - 60.0
+  fill: '#1a1030'
+  stroke: '#6D28D9'
+  name: Seaside Park
+- bounds:
+  - 70.0
+  - 150.0
+  - 120.0
+  - 50.0
+  fill: '#301520'
+  stroke: '#EF4444'
+  name: Hyatt Hotel
+- bounds:
+  - 220.0
+  - 150.0
+  - 110.0
+  - 50.0
+  fill: '#1a1030'
+  stroke: '#6D28D9'
+  name: Fuyuki Church
+- bounds:
+  - 450.0
+  - 55.0
+  - 300.0
+  - 180.0
+  fill: '#151530'
+  stroke: '#6D28D9'
+  name: ''
+- bounds:
+  - 470.0
+  - 70.0
+  - 130.0
+  - 60.0
+  fill: '#1a2a2a'
+  stroke: '#10B981'
+  name: Emiya Residence
+- bounds:
+  - 620.0
+  - 70.0
+  - 110.0
+  - 60.0
+  fill: '#1a2020'
+  stroke: '#F59E0B'
+  name: Tohsaka Residence
+- bounds:
+  - 470.0
+  - 150.0
+  - 130.0
+  - 50.0
+  fill: '#1a1020'
+  stroke: '#884488'
+  name: Matou Residence
+- bounds:
+  - 620.0
+  - 150.0
+  - 110.0
+  - 50.0
+  fill: '#301520'
+  stroke: '#EF4444'
+  name: Ryudou Temple
+- bounds:
+  - 50.0
+  - 380.0
+  - 160.0
+  - 100.0
+  fill: '#1a2a2a'
+  stroke: '#10B981'
+  name: (Forest Base / Saber Summoning Site)
+- bounds:
+  - 550.0
+  - 380.0
+  - 180.0
+  - 100.0
+  fill: '#301520'
+  stroke: '#EF4444'
+  name: (Sewers / Child Kidnapping Site)
+roads: []
+routes:
+- x1: 180.0
+  y1: 410.0
+  x2: 350.0
+  y2: 290.0
+  stroke: '#C084FC'
+  stroke_width: '2'
+  dashed: true
+- x1: 350.0
+  y1: 280.0
+  x2: 620.0
+  y2: 150.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+danger_zones: []
+landmarks: []
+legend:
+- Tohsaka Residence
+- Ryudou Temple
+- Caster Underground Workshop
+- (Sewers / Child Kidnapping Site)

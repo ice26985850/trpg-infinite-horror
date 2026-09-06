@@ -1,0 +1,1082 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Witcher: Curse of White Orchard | WITCH-TheWitcher-白果園的詛咒 | Infinite Terror TRPG Scripts</title>
+<link rel="stylesheet" href="../../assets/style.css"></head>
+<body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../../index.html">中文</a></header>
+<div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
+<main class="container"><h1>The Witcher: Curse of White Orchard</h1>
+    <p class="meta">Code: WITCH-TheWitcher-白果園的詛咒 ｜ Source: The Witcher ｜ Difficulty: ★★ ｜ Players: 3–5 ｜ Duration: 4–6 hrs / 1–2 sessions ｜ Type: Monster Hunt / Investigation / Survival</p>
+    <p class="nav"><a href="../../index.html">← 劇本總覽</a> ｜ <a href="../../assets/scripts/L2/WITCH-TheWitcher-白果園的詛咒/en/WITCH_白果園的詛咒_劇本.md" download>劇本 MD</a> ｜ <a href="../../assets/scripts/L2/WITCH-TheWitcher-白果園的詛咒/en/WITCH_NPC名冊.xlsx" download>NPC 名冊</a> ｜ <a href="../../assets/scripts/L2/WITCH-TheWitcher-白果園的詛咒/en/WITCH_敵方單位名冊.xlsx" download>敵方名冊</a> ｜ <a href="../../assets/L2_WITCH-TheWitcher-白果園的詛咒_all_en.zip">下載全部（zip）</a></p>
+    <section class="block content"><section class="chap"><h2>一、基本資訊</h2>
+<p>Script Title: The Witcher: Curse of White Orchard
+Source Film: The Witcher
+Difficulty Rating: ★★
+Suggested Players: 3–5
+Estimated Duration: 4–6 hrs / 1–2 sessions
+Prerequisites: Recommended 1–2 prior scripts; Gene Lock (基因鎖) Tier 1 unlocked
+Script Type: Monster Hunt / Investigation / Survival</p>
+<hr /></section>
+<details class="gm"><summary>🎭 GM 限定：II. Plot Summary (GM Only)</summary><h2>II. Plot Summary (GM Only)</h2>
+<h3>One-Line Summary</h3>
+<blockquote>
+<p>The Reincarnators (輪迴者), as witcher apprentices, complete three monster-hunt contracts in White Orchard — Drowners, a Striga, and a Griffin.</p>
+</blockquote>
+<h3>Full Plot Background</h3>
+<p>The Reincarnators are dropped by the Main God into the world of The Witcher — White Orchard, a war-ravaged remote village. Nilfgaardian troops have just withdrawn, leaving devastation and corpses — which now draw scavenging monsters.</p>
+<p>The village chief posts three witcher contracts — Drowners (水鬼) attack fishermen at the riverbank, a Striga (吸血妖鳥) nests in an abandoned tower, and a wounded Griffin (獅鷲獸) hunts travelers deep in the forest. As witcher apprentices, the Reincarnators must complete at least one contract to survive — but completing all three earns the true reward.</p>
+<p>This script tests not raw combat power, but preparation. The witcher philosophy: "Know the monster's weakness and you've won half the battle." Intelligence gathering, potion-brewing, and tactical choice are the path to survival.</p>
+<h3>Plot Structure Type</h3>
+<p><strong>Hybrid: opening village briefing → free exploration (investigation, alchemy, hunting) → finale battle</strong></p>
+<hr /></details>
+<section class="chap"><h2>III. Main God's Quest</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest Description</td>
+<td>"Complete witcher contracts in White Orchard and survive. Slay at least 1 monster of Threat Level ★★ or higher. Protect White Orchard villagers from monster slaughter."</td>
+</tr>
+<tr>
+<td>Main Quest</td>
+<td>Complete at least 1 witcher contract, ensure villager deaths ≤5, survive to script end</td>
+</tr>
+<tr>
+<td>Quest Reward</td>
+<td>D+1800</td>
+</tr>
+<tr>
+<td>Failure Condition</td>
+<td>Total party wipe / over 15 villagers dead / no witcher contract completed</td>
+</tr>
+<tr>
+<td>Failure Penalty</td>
+<td>Erased</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>Complete all 3 contracts: +800<br>Complete any contract without using potions: +300<br>Collect a complete monster bestiary: +200</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>IV. Side Quests</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-01</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>The Drowner Pack at the Riverbank — The Drowned's Resentment</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Go to the riverbank area to investigate (hours 1–2)</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Clear the Drowner pack (1d3+2) on White Orchard's west riverbank. Drowners are monsters formed from drowned corpses corrupted by black magic — they swarm, fear fire, and gain speed in water. First investigate the corpse source (Perception (PER) + Investigation check, DC2), discovering a deserted graveyard downstream — if the source is not dealt with, Drowners keep regenerating. After clearing, the graveyard must be handled: burn the corpses (needs oil) or seal the graveyard entrance with silver chains.</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Before hour 4 (after that Drowner count doubles)</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>D+600. Handle the graveyard source: extra +300</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Support — after completion, nightly villager death chance −50%</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Drowners are numerous but individually fragile. Move speed ×2 in water, land Initiative (Init) −2. Fire attacks deal 1.5× damage. Recommended: Drowner blade oil (+2 DP).</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-02</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>The Striga of the Ruined Tower — The Cursed Daughter Under the Moon</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Enter the ruined tower north of White Orchard (hours 2–3)</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Investigate and deal with the Striga in an abandoned Nilfgaardian watchtower — a noble girl cursed into a monster. She hides in a coffin deep in the tower by day, hunts by night.</td>
+</tr>
+<tr>
+<td>Resolution:</td>
+<td></td>
+</tr>
+<tr>
+<td>A. Infiltrate the tower by day, kill with a silver sword (Agility (DEX) + Melee check, DC3).</td>
+<td></td>
+</tr>
+<tr>
+<td>B. Investigate the curse source (Intellect (INT) + Lore check, DC3), perform a lifting ritual — the girl returns to human form and provides intel and a reward.</td>
+<td></td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Before hour 4 (after that the Striga migrates)</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>Kill: C+800. Lift curse: C+1200 + NPC companion</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Independent — the curse route reveals the Griffin's nest location</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Night attack DP+2. Silver weapons deal 2× damage. Shriek attack: Will save, DC3, failure = 1 round unable to act.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-03</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>The Griffin of the Forest — Lord of the Sky</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Go deep into the east forest (hours 3–4)</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Hunt a wounded but still dangerous Griffin. Its left wing is arrow-wounded, limiting flight, but ground power is undiminished. Nest sits atop an ancient ruin deep in the forest.</td>
+</tr>
+<tr>
+<td>Preparation: brew beast oil (+3 DP) and Thunderbolt potion (Strength (STR) +1 for 1 hour). Tracking (Perception (PER) + Survival check, DC2).</td>
+<td></td>
+</tr>
+<tr>
+<td>Combat: dive attack (DP7, 2d8+3), claw (DP6, 1d10+3), beak (DP5, 1d8+2). Attempts takeoff-and-dive every 3 rounds. Traps can be set around the nest.</td>
+<td></td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Before hour 6</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>C+1000. Griffin feather ×1, Griffin egg ×1 (hatchable as a mount)</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>One of the three main contracts. Completion earns the "Monster Hunter" achievement</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Traps at the nest (Intellect (INT) + Crafts check, DC2): bear trap, fire trap, net trap.</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>V. World Setting</h2>
+<h3>Timeline</h3>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T+0</td>
+<td>Reincarnators awaken at White Orchard village edge. Geralt's horse waits at the edge. Vesemir waits at the inn.</td>
+</tr>
+<tr>
+<td>T+0.5</td>
+<td>Dialogue with the village chief; accept the three witcher contracts. Basic intel: Drowners → riverbank, Striga → ruined tower, Griffin → forest.</td>
+</tr>
+<tr>
+<td>T+1</td>
+<td>Free exploration phase — learn at the inn, investigate the riverbank, or gather alchemy materials.</td>
+</tr>
+<tr>
+<td>T+2</td>
+<td>Drowner activity intensifies. If unhandled, +1 nightly villager death.</td>
+</tr>
+<tr>
+<td>T+3</td>
+<td>Moonrise — the Striga becomes active. Nilfgaardian remnant patrols may be encountered.</td>
+</tr>
+<tr>
+<td>T+4</td>
+<td>Griffin attacks a caravan. Gain direction clues to the nest.</td>
+</tr>
+<tr>
+<td>T+5</td>
+<td>Final preparation time. Vesemir provides extra potion supplies.</td>
+</tr>
+<tr>
+<td>T+6</td>
+<td>Return to the village after completing contracts. Main God teleport countdown begins.</td>
+</tr>
+</tbody>
+</table>
+<h3>Key Locations</h3>
+<h4>Location A: White Orchard Village Center — "Rose and Wine" Inn</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>White Orchard Village Center — "Rose and Wine" Inn</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A wood inn blackened by war but still open. Behind the bar, the owner wipes glasses while sneaking glances at the two swords at your waist. In a corner sits a white-haired man — Geralt. Three witcher contracts are pinned to the wall.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Dialogue with Geralt (combat advice), dialogue with Vesemir (alchemy tutorial), view the contract board, inn shop</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>None (safe zone)</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>North → ruined tower (B) West → riverbank (C) East → forest entrance (D)</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>WM-01, EM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location B: Ruined Tower — Nilfgaardian Watchtower Ruins</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Ruined Tower — Nilfgaardian Watchtower Ruins</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A three-story stone tower, half collapsed. A Nilfgaardian black-sun flag hangs at the top. The air reeks of rotting flesh. An inhuman breathing rhythm comes from inside.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Investigate the perimeter (Perception (PER) + Investigation, DC2), infiltrate the tower (Agility (DEX) + Stealth, DC2), tower-top ritual site</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>Night: Striga (Threat Level ★★). Day: none — infiltrate and kill or investigate.</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>South → village center (A)</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>EM-01, BM-02</td>
+</tr>
+</tbody>
+</table>
+<h4>Location C: Riverbank Area — Graveyard of the Drowned</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Riverbank Area — Graveyard of the Drowned</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A winding waterway west of White Orchard. Willow branches hang yellow and withered. A rotten wooden bridge spans the river. The downstream graveyard — toppled headstones, shallow pits revealing rotting shrouds.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Discover the graveyard source (Perception (PER) + Investigation, DC2), investigate the bridge (reinforce or dismantle), search the riverside fisherman's hut</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>1d3+2 Drowners (Threat Level ★) patrol the bank. Move speed ×2 in water.</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>East → village center (A)</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>EM-01, BM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location D: Forest Ruins — Griffin's Nest</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Forest Ruins — Griffin's Nest</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Deep in the east forest, atop an ancient elf ruin. Great stone pillars heap with beast bones and broken armor. A giant Griffin perches atop — left wing clearly arrow-wounded, but its eyes are still knife-sharp.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Track the Griffin (Perception (PER) + Survival, DC2), investigate the ruins (Intellect (INT) + Lore, DC2), set traps</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>Griffin (Threat Level ★★★). In the nest by day, hunts outside by night.</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>West → village center (A)</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>BM-01 (forest battlefield)</td>
+</tr>
+</tbody>
+</table>
+<h3>World Special Rules</h3>
+<ul>
+<li><strong>Witcher Potion Toxicity</strong>: Each potion drunk accumulates 1 toxicity point. When toxicity exceeds Constitution (CON), each extra point deals 1 toxin damage per hour.</li>
+<li><strong>Blade Oil System</strong>: Apply blade oil against specific monster types; gain DP bonus against that type (base +2). Requires Intellect (INT) + Alchemy check, DC1, to brew.</li>
+<li><strong>Silver Sword vs Steel Sword</strong>: Silver sword deals 2× damage to magic/cursed creatures. Steel sword for humans/beasts.</li>
+<li><strong>Witcher Medallion Vibration</strong>: Near magic creatures or magic traps, the medallion vibrates (Perception (PER) check identifies direction and intensity).</li>
+<li><strong>Monster Bestiary</strong>: Successfully identifying a monster (Intellect (INT) + Lore check) reveals its weakness; whole party +1 DP.</li>
+</ul>
+<h3>Main God Restrictions</h3>
+<ul>
+<li>"Do not reveal the existence of the Main God Space to plot characters"</li>
+<li>"No weapons obviously beyond this world's tech (energy weapons, flying devices)"</li>
+<li>"Using supernatural abilities too overtly before plot characters deducts 500 each time"</li>
+</ul>
+<h3>Visual Map System</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>ID</th>
+<th>Content</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>World Map</td>
+<td>WM-01</td>
+<td>White Orchard panorama, with village / riverbank / tower / forest</td>
+<td><code>maps/WITCH_WM-01.svg</code></td>
+</tr>
+<tr>
+<td>Exploration Map</td>
+<td>EM-01</td>
+<td>Village and surrounding exploration map</td>
+<td><code>maps/WITCH_EM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-01</td>
+<td>Riverbank Drowner hunt battle</td>
+<td><code>maps/WITCH_BM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-02</td>
+<td>Ruined tower Striga battle</td>
+<td><code>maps/WITCH_BM-02.svg</code></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VI. Characters &amp; Enemy Units (Managed in Separate Excel)</h2>
+<blockquote>
+<p>NPC and enemy unit data are in the following separate Excel files:
+- <strong>NPC Roster</strong>: <code>WITCH_NPC名冊.xlsx</code>
+- <strong>Enemy Unit Roster</strong>: <code>WITCH_敵方單位名冊.xlsx</code></p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>VII. NPC Design Depth Guide</h2>
+<h4>Geralt of Rivia — The Legendary White Wolf</h4>
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>Design Guide</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Core Trait</td>
+<td>Taciturn, professionalism above all, hidden moral code beneath coldness. Classic line: "Evil is evil — no matter the size."</td>
+</tr>
+<tr>
+<td>Interaction Level</td>
+<td>Surface: brief dialogue when taking contracts. Mid: complete 2+ contracts and show professionalism → shares combat experience. Deep: lift the Striga's curse → true respect.</td>
+</tr>
+<tr>
+<td>Key Trigger</td>
+<td>Show tactical wit (blade oil, traps, environment) → "Not bad," Affinity +20. Reckless charging → −10.</td>
+</tr>
+<tr>
+<td>Affinity Impact</td>
+<td>4+: personally assists in the final battle (DP8 silver sword). Low: only basic intel.</td>
+</tr>
+<tr>
+<td>Combat Role</td>
+<td>Witcher master — DP8 silver sword, DP6 steel sword. Aard Sign (push), Igni Sign (fire). 2 actions/round.</td>
+</tr>
+</tbody>
+</table>
+<h4>Vesemir — The Old Witcher Mentor</h4>
+<table>
+<thead>
+<tr>
+<th>Dimension</th>
+<th>Design Guide</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Core Trait</td>
+<td>Kind old master, monster-knowledge encyclopedia, fatherly care for young witchers.</td>
+</tr>
+<tr>
+<td>Interaction Level</td>
+<td>Mid — source of knowledge. Learn alchemy, identify monsters, get tactical advice.</td>
+</tr>
+<tr>
+<td>Key Trigger</td>
+<td>Show curiosity → eager to teach, freely provides 2 bottles of basic blade oil (+1 DP).</td>
+</tr>
+<tr>
+<td>Combat Role</td>
+<td>Non-combat — old but unmatched in alchemy. Can brew antidotes and advanced potions.</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VIII. Key Scenes</h2>
+<h3>Scene Structure Notes</h3>
+<p>This script uses a <strong>Hybrid</strong> structure: Phase One (T+0–0.5) village assembly and briefing, Phase Two (T+1–4) free exploration hunting, Phase Three (T+5–6) finale wrap-up.</p>
+<hr />
+<h4>S01: Village Edge — The Call of White Orchard</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S01</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>The Remote Village After War</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Script start</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"You stand on a muddy village road. The sky is grey — not cloudy, but stained grey by distant battlefield smoke. White Orchard — a buffer between Nilfgaard and the Northern Kingdoms — now looks like an open wound. Thatched roofs mostly burned; a few thin dogs rummage rubble for food. The air smells of scorched wood and rotting flesh. A chestnut mare waits at the village edge — you know whose horse that is. The inn door is half-open, from inside the clink of cups."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>View the village notice board (get the three contracts), find Vesemir at the inn, talk with Geralt, chief's house (quest confirm)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Gene Lock Relevance</td>
+<td>None — guidance phase</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Go straight to Geralt (combat tips) vs find Vesemir (alchemy knowledge) vs free explore first</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Accept at least one witcher contract</td>
+</tr>
+</tbody>
+</table>
+<h4>S02: First Battle — The Drowner Pack at the Riverbank</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S02</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>The Drowned's Welcome</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Go to the riverbank area</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"The river water is yellow-brown — not mud, but churned human blood. As you near the bank, the water stirs. From tangled weeds rise pale faces — once human, now melted and deformed, only two hollow sockets and a never-closing mouth left. Splash — the first Drowner rises from the shallows, its claws slicing the water with a grating sound."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Riverbank terrain (Drowners +3 Initiative in water, players advantaged on shore), the bridge (can destroy to limit Drowner movement), abandoned graveyard (burn corpses to end Drowner regeneration)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>1d3+2 Drowners (Threat Level ★). Swarm attack, fast in water.</td>
+</tr>
+<tr>
+<td>Gene Lock Relevance</td>
+<td>Recommend Gene Lock Tier 1 (Determination (WIL) check, DC2): attack DP +2, physique DP +2, 3 rounds. Side effect: 1d4 mental damage.</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Frontal attack (lure Drowners ashore then fight) vs underwater combat (not recommended) vs burn the graveyard (handle source first to reduce Drowner count)</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Drowners wiped or players retreat</td>
+</tr>
+</tbody>
+</table>
+<h4>S03: Tower Under the Moon — The Striga's Secret</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S03</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>The Cursed Daughter Under the Moon</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Enter the ruined tower</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"The moon peeks from the clouds — in that instant you see something move in the tower window. It looks like a woman's silhouette, but her body is distorted beyond human — arms too long, claw-tips reflecting moonlight, wild hair dancing in the night wind. Then she screams — not a beast's voice, but a wail mixing human woman's sob and raptor's shriek."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Tower floors (1st entrance → 2nd coffin room → 3rd tower top), Nilfgaardian remnant relics (search for a silver dagger), curse clues (noble girl's diary on 2nd floor)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Night — Striga (Threat Level ★★). Day — empty tower, infiltrate and kill or investigate.</td>
+</tr>
+<tr>
+<td>Gene Lock Relevance</td>
+<td>Night battle recommends Gene Lock Tier 1. Curse route needs no combat. Gene Lock Tier 1: Initiative +3, attack DP +2, mobile defense +2. Side effect: 1d4 mental damage.</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>A. Day infiltrate and kill (Agility (DEX) + Melee, DC3) B. Night frontal battle C. Investigate and lift curse (Intellect (INT) + Lore, DC3)</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Striga killed or curse lifted</td>
+</tr>
+</tbody>
+</table>
+<h4>S04: Lord of the Sky — The Griffin's Nest</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S04</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>The Finale Atop the Ruins</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Track to the forest ruins</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"Giant elf-ruin stone pillars rise in the forest — once carved as elf king portraits, now covered in vines and bird droppings. A Griffin perches atop the highest pillar, body larger than a warhorse, wings spread shading half the sky. It turns to you — those raptor eyes hold no fear, only hunger and contempt."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Ruin pillars (provide cover and high ground), elf chest (Intellect (INT) + Traps check, DC2, gain ancient elf silver-sword shard), set traps (bear trap / fire trap / net)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Griffin (Threat Level ★★★). Dive → claw cycle. Attempts re-takeoff every 3 rounds.</td>
+</tr>
+<tr>
+<td>Gene Lock Relevance</td>
+<td><strong>Recommend Gene Lock Tier 2</strong> (Determination (WIL) check, DC4): all-action DP +4, Initiative +5, 4 rounds. Side effect: 2d4 mental damage + 1 permanent physical damage. If the party is well-prepared (oil + potions), Gene Lock Tier 1 suffices.</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Frontal hunt (use potions and oil) vs trap tactics (reduce frontal contact) vs environment use (lure Griffin into pillars to stun it)</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Griffin killed</td>
+</tr>
+</tbody>
+</table>
+<h4>S05: Return — The Witcher's Glory</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S05</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>White Orchard at Dusk</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Complete at least one contract and return to the village</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"Dusk paints White Orchard gold-red. The chief stands at the inn door, a heavy purse in his hands. As you approach, he lowers his head — not from the purse's weight, but gratitude. 'You… you really did it.' Geralt leans on the inn doorframe, raises his cup slightly toward you — the highest respect among witchers."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Collect bounty (chief), final dialogue with Geralt (high Affinity → witcher medal), farewell Vesemir (gain 1d3 alchemy recipes), check Main God watch (confirm quest complete)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Gene Lock Relevance</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>None — return confirmation</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Main God teleport complete</td>
+</tr>
+</tbody>
+</table>
+<h4>S06: The Witcher's Path (Hidden Scene — after completing all three contracts)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S06</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>The White Wolf's Legacy</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Complete all three witcher contracts, Geralt Affinity 5+</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"Geralt calls you to the clearing behind the inn. Under the moonlight he draws the silver sword from his back — the blade glows cold silver in the moonlight. 'Sit.' He jerks his chin at a nearby stake. Then he lays the sword on the ground before you. 'In three days you've done what some witchers learn in a lifetime — preparation, observation, the right weapon.' He pauses; those cat-like yellow eyes fix on yours. 'If you want — I can teach you a move.'"</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Learn a witcher special skill — choose one from "Igni Sign" (fire shockwave, DP6 fire damage), "Aard Sign" (area push, Will-save contest), or "Quen Sign" (one full-damage-immune shield)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>None — pure reward scene</td>
+</tr>
+<tr>
+<td>Gene Lock Relevance</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>After learning, return to the Main God Space</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>IX. Multi-Team Competition Rules</h2>
+<blockquote>
+<p>This script does not involve multi-team competition. This section is left blank.</p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>X. Reward Settlement</h2>
+<table>
+<thead>
+<tr>
+<th>Reward Type</th>
+<th>Content</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main Quest Complete</td>
+<td>Complete at least 1 witcher contract, villagers survive ≥10</td>
+<td>D+1800</td>
+</tr>
+<tr>
+<td>Side S-01</td>
+<td>Drowner pack hunt incl. source handling</td>
+<td>D×1 + up to 900</td>
+</tr>
+<tr>
+<td>Side S-02</td>
+<td>Striga kill / curse lift</td>
+<td>C+800 (kill) or 1200 (curse lift)</td>
+</tr>
+<tr>
+<td>Side S-03</td>
+<td>Griffin hunt</td>
+<td>C+1000 + Griffin materials</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>All three contracts complete</td>
+<td>+800</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Drowner 80 pts/each, Striga 500 pts, Griffin 800 pts</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Exploration Reward</td>
+<td>Discover hidden elf silver-sword shard</td>
+<td>200</td>
+</tr>
+<tr>
+<td>Roleplay</td>
+<td>GM discretion</td>
+<td>0–300</td>
+</tr>
+</tbody>
+</table>
+<h3>Theoretical Maximum Yield</h3>
+<blockquote>
+<p>D3 + C2 + up to 5700</p>
+</blockquote>
+<h3>Return Exchange (Script-Limited)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Item</th>
+<th>Cost (Side + Reward pts)</th>
+<th>Effect</th>
+<th>Growth Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>Silver Sword Forging Recipe (Knowledge / Item)</td>
+<td>D+500</td>
+<td>Forge a silver sword from the Main God: +50% extra damage to magic/cursed creatures, usable outside this world.</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Alchemy Kit (Knowledge / Item)</td>
+<td>D+500</td>
+<td>Gain basic Alchemy knowledge and a portable alchemy kit; brew basic oils and bombs.</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Bestiary · Volume One (Knowledge)</td>
+<td>D+500</td>
+<td>After reading, +2 DP identifying registered monsters; killing new monsters expands the bestiary.</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Witcher Sign Initiation (Ability)</td>
+<td>D+500</td>
+<td>Learn a basic Sign (choose one of five: Igni / Aard / Quen / Axii / Yrden), 2× per script.</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Witcher Mutagen Serum (Bloodline)</td>
+<td>B+3600</td>
+<td>Strength (STR) +1, Agility (DEX) +1, Constitution (CON) +1, toxin resist +3, lifespan ×10. Side effect: lost fertility.</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Witcher Sign · Mastery (Ability)</td>
+<td>B+2000</td>
+<td>Master the five Signs: Quen (shield 1d8), Igni (2d6 fire), Yrden (slow trap), Axii (charm DC3), Aard (knockback), 2× each per script.</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Wolf School Mutation · Complete (Bloodline)</td>
+<td>B+3600</td>
+<td>Complete the Wolf School Trial of the Grasses: all attributes +2, immune to toxin and disease, night vision, swordsmanship master (silver/steel twin blades 2d8, ×1.5 vs monsters).</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Elixir of the Witcher · Ripened Recipe (Item / Knowledge)</td>
+<td>B+2000</td>
+<td>Master ripened Elixir of the Witcher / Swallow / Thunderbolt etc.: drink before battle for all attributes +2 (3 rounds), regenerate 2 HP/round, +1 vs magic creatures; cost of frenzy (10% hit allies).</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>XI. Appendix</h2>
+<ul>
+<li><strong>Maps</strong>: See <code>maps/</code> for <code>WITCH_WM-01.svg</code>, <code>WITCH_EM-01.svg</code>, <code>WITCH_BM-01.svg</code>, <code>WITCH_BM-02.svg</code></li>
+<li><strong>GM Memo</strong>:</li>
+<li><strong>Common Blockage 1</strong>: Players unfamiliar with witcher preparation — have Vesemir proactively guide: "In the witcher's world, intel matters as much as the sword."</li>
+<li><strong>Common Blockage 2</strong>: Striga too hard — if the party is unprepared, have Geralt appear at a key moment to assist (trade Affinity for plot progress).</li>
+<li><strong>Common Blockage 3</strong>: Can't find the Griffin's nest — the curse-lifted girl gives detailed directions, or Vesemir provides a tracking potion (Perception +2 for 1 hour).</li>
+<li><strong>Difficulty Up</strong>: Add nighttime Nilfgaardian skirmishers (hostile, Threat Level ★~★★), increase monster count.</li>
+<li><strong>Difficulty Down</strong>: Provide +1 free blade oil + potion per monster type; have Geralt give a tactical hint before each battle (+1 DP).</li>
+<li><strong>Unconventional Player Actions</strong>: Trying to bypass monsters and skip contracts → more villager deaths, main quest fails. Trying to negotiate with monsters → Intellect (INT) + Socialize, DC4 (Drowners uncommunicative / Striga controllable / Griffin not).</li>
+</ul>
+<hr />
+<blockquote>
+<p><strong>Script Code</strong>: WITCH
+<strong>Version</strong>: v1.0
+<strong>Format Spec</strong>: v0.4</p>
+</blockquote></section></section>
+    <section class="block"><h2>地圖（YAML＋SVG）</h2><div class="map">
+              <div class="maptitle">WITCH_BM-01 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 520" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="600" height="520" fill="#1a1a2e"/>
+<rect x="20" y="20" width="560" height="480" fill="url(#grid)"/>
+<rect x="20" y="20" width="560" height="480" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="300.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Witcher · White Orchard — Battle Map (BM-01)</text>
+<text x="25" y="512" fill="#666" font-size="9">WITCH_BM-01 | 10×8Cell (concept) | 1Cell = 5ft | Total 50×40ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<rect x="40.0" y="60.0" width="500.0" height="400.0" rx="3" fill="#2a3020" stroke="#9b59b6" stroke-width="2"/>
+<rect x="80.0" y="100.0" width="200.0" height="150.0" rx="3" fill="#4a5a3a" stroke="#555" stroke-width="1"/>
+<text x="180.0" y="171.0" text-anchor="middle" fill="#aaa" font-size="8">Building / Cover</text>
+<text x="180.0" y="185.0" text-anchor="middle" fill="#666" font-size="6">(52.5, 50.0)ft</text>
+<rect x="340.0" y="250.0" width="150.0" height="120.0" rx="3" fill="#4a5a3a" stroke="#555" stroke-width="1"/>
+<text x="415.0" y="306.0" text-anchor="middle" fill="#aaa" font-size="8">Building</text>
+<text x="415.0" y="320.0" text-anchor="middle" fill="#666" font-size="6">(130.0, 95.0)ft</text>
+<rect x="100.0" y="420.0" width="60.0" height="30.0" rx="3" fill="none" stroke="#2ecc71" stroke-width="2"/>
+<text x="130.0" y="431.0" text-anchor="middle" fill="#aaa" font-size="8">Start</text>
+<text x="130.0" y="445.0" text-anchor="middle" fill="#666" font-size="6">(35.0, 140.0)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L2/WITCH-TheWitcher-白果園的詛咒/en/maps/WITCH_BM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L2/WITCH-TheWitcher-白果園的詛咒/en/maps/WITCH_BM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">WITCH_BM-02 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 420" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="500" height="420" fill="#1a1a2e"/>
+<rect x="20" y="20" width="460" height="380" fill="url(#grid)"/>
+<rect x="20" y="20" width="460" height="380" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="250.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Witcher · White Orchard — Battle Map (BM-02)</text>
+<text x="25" y="412" fill="#666" font-size="9">WITCH_BM-02 | 8×6Cell (concept) | 1Cell = 5ft | Total 40×30ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<rect x="40.0" y="60.0" width="400.0" height="300.0" rx="3" fill="#2a3020" stroke="#9b59b6" stroke-width="2"/>
+<text x="240.0" y="206.0" text-anchor="middle" fill="#aaa" font-size="8">BOSS</text>
+<text x="240.0" y="220.0" text-anchor="middle" fill="#666" font-size="6">(72.5, 65.0)ft</text>
+<rect x="200.0" y="100.0" width="150.0" height="150.0" rx="3" fill="#4a5a3a" stroke="#555" stroke-width="1"/>
+<text x="275.0" y="171.0" text-anchor="middle" fill="#aaa" font-size="8">Core Area</text>
+<text x="275.0" y="185.0" text-anchor="middle" fill="#666" font-size="6">(85.0, 50.0)ft</text>
+<rect x="80.0" y="300.0" width="50.0" height="30.0" rx="3" fill="none" stroke="#2ecc71" stroke-width="2"/>
+<text x="105.0" y="311.0" text-anchor="middle" fill="#aaa" font-size="8">Start</text>
+<text x="105.0" y="325.0" text-anchor="middle" fill="#666" font-size="6">(27.5, 100.0)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L2/WITCH-TheWitcher-白果園的詛咒/en/maps/WITCH_BM-02.yaml" download>yaml</a> <a href="../../assets/scripts/L2/WITCH-TheWitcher-白果園的詛咒/en/maps/WITCH_BM-02.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">WITCH_EM-01 <span class="maptype">探索地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500" font-family="Microsoft JhengHei, sans-serif">
+<rect width="700" height="500" fill="#1a1a2e"/>
+<text x="350.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">Witcher · White Orchard — Exploration Map (EM-01)</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 1</text>
+<rect x="20" y="0.0" width="660" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="700.0" height="500.0" rx="0.0" fill="#1a2a1e" stroke="" stroke-width=""/>
+<rect x="30.0" y="55.0" width="640.0" height="420.0" rx="3.0" fill="#1a2a1e" stroke="#9b59b6" stroke-width="1.5"/>
+<rect x="80.0" y="100.0" width="250.0" height="80.0" rx="3.0" fill="#3a5a20" stroke="#9b59b6" stroke-width="1.5"/>
+<text x="205.0" y="140.0" text-anchor="middle" fill="#aaa" font-size="9">A White Orchard Village</text>
+<text x="20" y="205.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 2</text>
+<rect x="20" y="210.0" width="660" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="80.0" y="210.0" width="250.0" height="80.0" rx="3.0" fill="#4a3a2a" stroke="#9b59b6" stroke-width="1.5"/>
+<text x="205.0" y="250.0" text-anchor="middle" fill="#aaa" font-size="9">B Ruins Tower</text>
+<text x="20" y="315.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 3</text>
+<rect x="20" y="320.0" width="660" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="80.0" y="320.0" width="250.0" height="80.0" rx="3.0" fill="#2a3a5a" stroke="#9b59b6" stroke-width="1.5"/>
+<text x="205.0" y="360.0" text-anchor="middle" fill="#aaa" font-size="9">C Riverbank</text>
+<text x="20" y="490" fill="#666" font-size="9">WITCH_EM-01 | Exploration Map </text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L2/WITCH-TheWitcher-白果園的詛咒/en/maps/WITCH_EM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L2/WITCH-TheWitcher-白果園的詛咒/en/maps/WITCH_EM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">WITCH_WM-01 <span class="maptype">世界地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="900" height="620" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="900" height="620" fill="url(#wmgrid)"/>
+<rect x="350.0" y="170.0" width="100.0" height="60.0" rx="5" fill="#3a5a20" stroke="#9b59b6" stroke-width="2"/>
+<text x="400.0" y="200.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">A White Orchard Village</text>
+<rect x="600.0" y="270.0" width="100.0" height="60.0" rx="5" fill="#4a3a2a" stroke="#9b59b6" stroke-width="2"/>
+<text x="650.0" y="300.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">B Ruins Tower</text>
+<rect x="150.0" y="350.0" width="100.0" height="60.0" rx="5" fill="#2a3a5a" stroke="#9b59b6" stroke-width="2"/>
+<text x="200.0" y="380.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">C Riverbank</text>
+<rect x="650.0" y="420.0" width="100.0" height="60.0" rx="5" fill="#3a3a2a" stroke="#9b59b6" stroke-width="2"/>
+<text x="700.0" y="450.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">D Forest Ruins</text>
+<rect x="20.0" y="540.0" width="860.0" height="60.0" rx="5" fill="#1a2a1e" stroke="#333" stroke-width="2"/>
+<rect x="730" y="20" width="150" height="56" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="805" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Legend</text>
+<text x="740" y="60" fill="#aaa" font-size="9">B Ruins Tower</text>
+<text x="740" y="76" fill="#aaa" font-size="9">D Forest Ruins</text>
+<text x="20" y="605" fill="#666" font-size="9">WITCH_WM-01 | Large-Scale Map | Schematic</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L2/WITCH-TheWitcher-白果園的詛咒/en/maps/WITCH_WM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L2/WITCH-TheWitcher-白果園的詛咒/en/maps/WITCH_WM-01.svg" download>svg</a></p>
+            </div></section>
+    <section class="block"><h2>概念圖</h2><div class="gallery"><a href="../../assets/scripts/L2/WITCH-TheWitcher-白果園的詛咒/images/enemy_01_griffin.png" target="_blank"><img src="../../assets/scripts/L2/WITCH-TheWitcher-白果園的詛咒/images/enemy_01_griffin.png" alt="enemy_01_griffin.png"></a><a href="../../assets/scripts/L2/WITCH-TheWitcher-白果園的詛咒/images/enemy_02_striga.png" target="_blank"><img src="../../assets/scripts/L2/WITCH-TheWitcher-白果園的詛咒/images/enemy_02_striga.png" alt="enemy_02_striga.png"></a><a href="../../assets/scripts/L2/WITCH-TheWitcher-白果園的詛咒/images/enemy_03_griffin.png" target="_blank"><img src="../../assets/scripts/L2/WITCH-TheWitcher-白果園的詛咒/images/enemy_03_griffin.png" alt="enemy_03_griffin.png"></a><a href="../../assets/scripts/L2/WITCH-TheWitcher-白果園的詛咒/images/npc_01_geralt.png" target="_blank"><img src="../../assets/scripts/L2/WITCH-TheWitcher-白果園的詛咒/images/npc_01_geralt.png" alt="npc_01_geralt.png"></a><a href="../../assets/scripts/L2/WITCH-TheWitcher-白果園的詛咒/images/npc_02_WITCH_01.png" target="_blank"><img src="../../assets/scripts/L2/WITCH-TheWitcher-白果園的詛咒/images/npc_02_WITCH_01.png" alt="npc_02_WITCH_01.png"></a><a href="../../assets/scripts/L2/WITCH-TheWitcher-白果園的詛咒/images/npc_03_WITCH_02.png" target="_blank"><img src="../../assets/scripts/L2/WITCH-TheWitcher-白果園的詛咒/images/npc_03_WITCH_02.png" alt="npc_03_WITCH_02.png"></a><a href="../../assets/scripts/L2/WITCH-TheWitcher-白果園的詛咒/images/scene_01_white_orchard.png" target="_blank"><img src="../../assets/scripts/L2/WITCH-TheWitcher-白果園的詛咒/images/scene_01_white_orchard.png" alt="scene_01_white_orchard.png"></a></div></section>
+    </main>
+<footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

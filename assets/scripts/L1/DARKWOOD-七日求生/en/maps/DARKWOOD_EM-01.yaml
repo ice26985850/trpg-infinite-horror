@@ -1,0 +1,135 @@
+map_id: DARKWOOD_EM-01
+map_type: exploration
+scenario: 'Darkwood·Seven Days Survival / Darkwood: Seven Days Survival'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: Exploration Map
+description: ''
+floors:
+- name: Floor 1
+  y: 0.0
+  rooms:
+  - bounds:
+    - 0.0
+    - 0.0
+    - 800.0
+    - 600.0
+    name: ''
+    fill: '#1a1a2e'
+    stroke: ''
+    stroke_width: ''
+    rx: 0.0
+  - bounds:
+    - 15.0
+    - 60.0
+    - 770.0
+    - 140.0
+    name: To Swamp
+    fill: '#0d0d1a'
+    stroke: '#4a2a6a'
+    stroke_width: '1'
+    rx: 4.0
+  - bounds:
+    - 25.0
+    - 75.0
+    - 120.0
+    - 60.0
+    name: Starting Cabin
+    fill: '#1a1030'
+    stroke: '#6D28D9'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 200.0
+    - 75.0
+    - 80.0
+    - 60.0
+    name: Forest Boundary
+    fill: '#1a2a20'
+    stroke: '#10B981'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 340.0
+    - 75.0
+    - 90.0
+    - 60.0
+    name: To Swamp
+    fill: '#1a2a30'
+    stroke: '#3B82F6'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 490.0
+    - 75.0
+    - 80.0
+    - 60.0
+    name: To Military Camp
+    fill: '#2e1a3e'
+    stroke: '#8B5CF6'
+    stroke_width: '1.5'
+    rx: 3.0
+- name: Floor 2
+  y: 240.0
+  rooms:
+  - bounds:
+    - 15.0
+    - 240.0
+    - 770.0
+    - 35.0
+    name: ''
+    fill: '#111'
+    stroke: '#333'
+    stroke_width: '1.5'
+    rx: 3.0
+  - bounds:
+    - 83.0
+    - 251.0
+    - 14.0
+    - 12.0
+    name: Danger Zone
+    fill: '#EF4444'
+    stroke: '#EF4444'
+    stroke_width: '1'
+    rx: 0.0
+  - bounds:
+    - 143.0
+    - 251.0
+    - 14.0
+    - 12.0
+    name: Passage
+    fill: '#F59E0B'
+    stroke: '#F59E0B'
+    stroke_width: '1'
+    rx: 0.0
+  - bounds:
+    - 193.0
+    - 251.0
+    - 14.0
+    - 12.0
+    name: Side Quest
+    fill: '#3B82F6'
+    stroke: '#3B82F6'
+    stroke_width: '1'
+    rx: 0.0
+  - bounds:
+    - 243.0
+    - 251.0
+    - 14.0
+    - 12.0
+    name: Supplies
+    fill: '#10B981'
+    stroke: '#10B981'
+    stroke_width: '1'
+    rx: 0.0
+connections: []
+legend:
+- Start
+- Danger Zone
+- DARKWOOD_EM-01 | Exploration Map
+notes: []

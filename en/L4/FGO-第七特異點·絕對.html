@@ -1,0 +1,596 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FGO: Absolute Demonic Front Babylonia / Fate/GO·第七特異點·絕對魔獸戰線 | FGO-第七特異點·絕對 | Infinite Terror TRPG Scripts</title>
+<link rel="stylesheet" href="../../assets/style.css"></head>
+<body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../../index.html">中文</a></header>
+<div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
+<main class="container"><h1>FGO: Absolute Demonic Front Babylonia / Fate/GO·第七特異點·絕對魔獸戰線</h1>
+    <p class="meta">Code: FGO-第七特異點·絕對 ｜ Source: Fate/Grand Order — Singularities: Absolute Demonic Front Babylonia ｜ Difficulty: ★★★★★ ｜ Players: 3–5 ｜ Duration: 8–12 hours / 3–4 sessions ｜ Type: Combat / Adventure</p>
+    <p class="nav"><a href="../../index.html">← 劇本總覽</a> ｜ <a href="../../assets/scripts/L4/FGO-第七特異點·絕對/en/FGO-第七特異點·絕對_劇本.md" download>劇本 MD</a> ｜ <a href="../../assets/scripts/L4/FGO-第七特異點·絕對/en/FGO-第七特異點·絕對_NPC名冊.xlsx" download>NPC 名冊</a> ｜ <a href="../../assets/scripts/L4/FGO-第七特異點·絕對/en/FGO-第七特異點·絕對_敵方單位名冊.xlsx" download>敵方名冊</a> ｜ <a href="../../assets/L4_FGO-第七特異點·絕對_all_en.zip">下載全部（zip）</a></p>
+    <section class="block content"><section class="chap"><h2>一、基本資訊</h2>
+<p>Script Title: FGO: Absolute Demonic Front Babylonia / Fate/GO·第七特異點·絕對魔獸戰線
+Source Film: Fate/Grand Order — Singularities: Absolute Demonic Front Babylonia
+Difficulty Rating: ★★★★★
+Suggested Players: 3–5
+Estimated Duration: 8–12 hours / 3–4 sessions
+Prerequisites: Gene Lock (GL) Stage 3+, recommended Stage 4
+Script Type: Combat / Adventure</p>
+<hr /></section>
+<details class="gm"><summary>🎭 GM 限定：二、Plot Summary (GM Only)</summary><h2>二、Plot Summary (GM Only)</h2>
+<h3>One-Line Summary</h3>
+<blockquote>
+<p>Help the wise King Gilgamesh repel Tiamat's horde of monsters and protect the final defense line of human history.</p>
+</blockquote>
+<h3>Full Plot Background</h3>
+<p>Human history — is about to be incinerated. King Solomon's Incineration of Humanity has already begun, and seven Singularities have distorted history. The Seventh Singularity — Mesopotamia, 2600 BCE — is the final defense line of human history.</p>
+<p>The Alliance of the Three Goddesses is destroying this era. And an even more terrible threat — the primordial mother goddess Tiamat — is awakening from the depths of the Persian Gulf. Her tide of chaos will drown the walls of Uruk within seven days, transforming all life into her beasts.</p>
+<p>Gilgamesh — no longer the arrogant tyrant, but ruling Uruk as the wise King — is organizing the final defense. He has summoned Ritsuka Fujimaru and Mash from Chaldea, and… the Reincarnators. This is the last battle for the survival of humanity.</p>
+<h3>Plot Structure Type</h3>
+<p><strong>Hybrid</strong>: Defense-line battle — hold the walls of Uruk against three waves of attack → final thrust into the Persian Gulf.</p>
+<hr /></details>
+<section class="chap"><h2>三、Lord God Mission</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mission Brief</td>
+<td>"Assist Gilgamesh against Tiamat. Hold the walls of Uruk for seven days. Time limit: seven days."</td>
+</tr>
+<tr>
+<td>Main Objective</td>
+<td>Uruk survives + Tiamat repelled/sealed</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>A+15000</td>
+</tr>
+<tr>
+<td>Failure Conditions</td>
+<td>Total Party Wipe / Uruk walls fully breached / Human history incinerated</td>
+</tr>
+<tr>
+<td>Failure Penalty</td>
+<td>Erasure</td>
+</tr>
+<tr>
+<td>Optional Goals</td>
+<td>① Defeat one of the Three Goddesses Alliance: A1 <br>② Help Chaldea (Ritsuka Fujimaru + Mash) survive: B1 <br>③ Slay Lahmu (cumulative 10+): C+2000</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>四、Side Quests</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-01</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Trial of the King's Treasury</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>After Gilgamesh acknowledges the Reincarnators — offers a trial (defeat 1 beast he summons)</td>
+</tr>
+<tr>
+<td>Content</td>
+<td>Solo a test-beast summoned by Gilgamesh (★★★★ tier / random attributes)</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Before day 2</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>Gain a Noble Phantasm from the King's Treasury (weapon DP+3 / valid in this world) +B1</td>
+</tr>
+<tr>
+<td>Relation to Main</td>
+<td>Support — acquire a legendary weapon</td>
+</tr>
+<tr>
+<td>Field</td>
+<td>Content</td>
+</tr>
+<tr>
+<td>------</td>
+<td>------</td>
+</tr>
+<tr>
+<td>Side Quest No.</td>
+<td>S-02</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Rift in the Three Goddesses Alliance</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Contact the goddess Gorgon — discover she also bears hostility toward Tiamat</td>
+</tr>
+<tr>
+<td>Content</td>
+<td>Persuade Gorgon to aid humanity (Negotiation DC 6 / Manipulation DC 5) or defeat her to gain her Divinity Fragment</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Before Tiamat arrives</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>If persuaded — Gorgon becomes friendly (can be summoned in the final battle / DP 14 ranged fire support). If defeated — gain Divinity Fragment (damage vs Tiamat ×2 / single use)</td>
+</tr>
+<tr>
+<td>Relation to Main</td>
+<td>Strongly supports the final battle — gain god-tier fire support</td>
+</tr>
+<tr>
+<td>Field</td>
+<td>Content</td>
+</tr>
+<tr>
+<td>------</td>
+<td>------</td>
+</tr>
+<tr>
+<td>Side Quest No.</td>
+<td>S-03</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Enkidu's Chain of Heaven</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Find Enkidu's remains in the Babylonian ruins — Gilgamesh will tell his story</td>
+</tr>
+<tr>
+<td>Content</td>
+<td>Help Gilgamesh recover the Divine Construct "Chain of Heaven" fragment from the remains</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Before the final battle</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>Gain the Chain of Heaven — can bind Tiamat for 2 rounds in the final battle (locks movement and attacks / single use) +A1</td>
+</tr>
+<tr>
+<td>Relation to Main</td>
+<td>Core — the strongest control measure against Tiamat</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>五、World Setting</h2>
+<h3>Timeline</h3>
+<p>| T+0 day | Awaken at the walls of Uruk — Gilgamesh is organizing the defense |
+| T+1 day | First probing attack by monsters |
+| T+3 day | One of the Three Goddesses Alliance begins a direct assault |
+| T+5 day | Lahmu — Tiamat's vanguard — arrives |
+| T+7 day | Tiamat awakens from the Persian Gulf — final battle |</p>
+<h3>Key Locations</h3>
+<h4>Location A: Walls of Uruk (Main Defense Line)</h4>
+<p>The last fortress of Mesopotamia. Walls reinforced by Gilgamesh with the King's Treasury — HP 300 / Base Defense 18. Magic turrets and Gilgamesh's ranged Noble Phantasms are deployed on the walls.</p>
+<h4>Location B: Shore of the Persian Gulf</h4>
+<p>Tiamat's awakening point. The black tide of chaos keeps welling up from the sea, covering the land along the shore. The air here is toxic — non-divine creatures take 1d6 chaos damage each round.</p>
+<h4>Location C: Absolute Demonic Front (Final Battlefield)</h4>
+<p>The vast plain between the walls and the Persian Gulf. Largely submerged by Tiamat's tide of chaos — only a narrow land bridge leads to Tiamat's true body.</p>
+<h3>World Special Rules</h3>
+<ul>
+<li><strong>Tide of Chaos</strong>: Tiamat's black mud. Those who touch it must make Fortitude DC 4 each round — failure accumulates 1 stack of "Chaos Corruption". At 5 stacks, transform into a monster</li>
+<li><strong>Divine Weapon</strong>: Only weapons with Divinity deal full damage to Tiamat. Non-divine weapon damage ×0.5</li>
+<li><strong>King's Treasury</strong>: Gilgamesh can provide 1 Noble Phantasm support every 3 rounds (roll 1d6 for type: 1-2 attack / 3-4 defense / 5-6 healing)</li>
+</ul>
+<h3>Lord God Restrictions</h3>
+<ul>
+<li>"Forbidden to reveal future history to ancient humans"</li>
+<li>"If a Reincarnator uses modern weapons — Gilgamesh will see it as an insult and lose trust"</li>
+<li>"If the walls of Uruk are breached before the final battle — instant mission failure"</li>
+</ul>
+<h3>Visual Map System</h3>
+<table>
+<thead>
+<tr>
+<th>Layer</th>
+<th>Code</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>World Map</td>
+<td>WM-01</td>
+<td><code>maps/FGO_WM-01.svg</code></td>
+</tr>
+<tr>
+<td>Exploration Map</td>
+<td>EM-01</td>
+<td><code>maps/FGO_EM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-01</td>
+<td><code>maps/FGO_BM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-02</td>
+<td><code>maps/FGO_BM-02.svg</code></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>七、Key Scenes</h2>
+<h4>Scene S01: Awakening — World Descends</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S01</td>
+</tr>
+<tr>
+<td>GM Narration</td>
+<td>"Sand. Sand everywhere. You lie under the scorching sun of Mesopotamia — no, this is not a simple desert. You are atop a giant stone wall. Below, thousands of monsters are ramming the city gate. A golden figure stands above the gate — Gilgamesh. He turns to you, arrogance and weariness both in his eyes: 'You have come? Chaldea's reinforcements… or are you envoys sent by the Lord God?'"</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Gilgamesh (mission briefing + defense plan — very detailed), walls (may help repair or reinforce / Strength (STR) DC 3 to grant walls +50 HP), Uruk soldiers (may help train — each squad trained grants defense bonus +1), Chaldea team (Ritsuka Fujimaru and Mash — may gain allies / tactical support)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>No immediate combat — guidance phase</td>
+</tr>
+<tr>
+<td>Gene Lock (GL)</td>
+<td>None — guidance phase</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Obtain mission intel and decide course of action</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>八、Reward Settlement</h2>
+<h4>Scene S03: Encounter — Lahmu — Chaos Vanguard</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GM Narration</td>
+<td>"The edge of the tide of chaos begins to stir. Countless pale humanoid creatures crawl from the black mud — Lahmu. They have no faces — only a hollow smile carved on their heads. Their movement is unnaturally fast — like a swarm driven by some collective consciousness. Gilgamesh's voice rings in your ear: 'Do not let them touch you — they will assimilate you into their kind.'"</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Walls (main defense line — must hold), magic turret (fires once every 2 rounds / DP 10 area attack — requires manual operation), Mash's shield (can deploy temporary protection / AC+3 within 20 ft radius / lasts 2 rounds / once per battle)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Lahmu ×1d3 (★★★★★) + Chaos Beast ×1d6 (★★★★). Lahmu have teleport — can blink to any position every 2 rounds. Contact attack ignores AC / always hits.</td>
+</tr>
+<tr>
+<td>Gene Lock (GL)</td>
+<td><strong>Gene Lock Hint</strong>: Gene Lock (GL) Stage 4 (Resolve (RES) DC 5): Lahmu's teleport attacks cannot be defended normally — Gene Lock Stage 4 can sense spatial distortion to predict the teleport landing point, thereby dodging the guaranteed hit. This is the only effective defense against Lahmu.</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Destroy the Lahmu vanguard force</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S08: Final Battle — Tiamat — End of the Primordial Mother Goddess</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GM Narration</td>
+<td>"The waters of the Persian Gulf have turned completely black. A figure too vast to comprehend rises from the deep — Tiamat. Her form is beyond human understanding — countless limbs, faces, and eyes cover her surface. Her voice is not heard with ears — it echoes directly in your minds: 'Return to nothingness — my children.'"</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Land bridge (the only path to Tiamat — narrow / only 1 person at a time), Gorgon (if S-02 persuaded — provides ranged fire / DP 14 shoots every 2 rounds), Chain of Heaven (if S-03 done — can bind Tiamat for 2 rounds / locks actions), Gilgamesh (full Noble Phantasm support — King's Treasury fully open / can destroy 1 of Tiamat's limbs)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td><strong>Forced BOSS Battle</strong>: Tiamat (★★★★★+). HP 400 / Base Defense 20 / DP 15. Skills: ①Primordial Sea (2d6 chaos damage to whole field each round). ②Life Creation (summons 1d4 Lahmu every 3 rounds). <br>③Chaos Quickening (below 30% HP — all non-divine creatures on field DP−4 / each round). Weakness: Divine damage ×2 / Chain of Heaven bind ×3 effect.</td>
+</tr>
+<tr>
+<td>Gene Lock (GL)</td>
+<td><strong>Gene Lock Hint</strong>: Gene Lock (GL) Stage 4 (Resolve (RES) DC 5) is the minimum requirement. Tiamat's attack scale is "whole field" level — Gene Lock Stage 4 is used to sense the rhythm of Chaos Quickening (the 3-round summon interval), concentrating damage output during the safe gap windows.</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Tiamat repelled/sealed → Seventh Singularity repaired → script cleared</td>
+</tr>
+</tbody>
+</table>
+<h3>Return Exchange (Script-Limited)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Exchange Item</th>
+<th>Cost (Side + Reward Points)</th>
+<th>Effect</th>
+<th>Growth Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>Command Spell</td>
+<td>B+2000</td>
+<td>Gain 1 set of Command Spells (3 marks) + 1 reserve mark: absolute command on Servant/self (DP+3, each mark forces 1 DC 6 check pass or reroll 1 failed)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Mana Burst</td>
+<td>B+2000</td>
+<td>Gain "Mana Release": inject mana into weapon/body, attack DP+3, move +5 ft (once per round)</td>
+<td>Lv1→Lv2→Lv3: weak→mid→strong release</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Age of Gods Lore</td>
+<td>B+2000</td>
+<td>Knowledge (Myth) permanently +3; can read Age-of-Gods script and rituals, and DC−1 on Age-of-Gods/faith checks</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Servant Contract</td>
+<td>A+8000</td>
+<td>Gain summon of 1 Servant (C~A rank) to fight alongside (once per battle, lasts until battle ends)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Magic Resistance</td>
+<td>A+4000</td>
+<td>Defense checks vs magecraft/energy attacks permanently DC−2</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Divinity</td>
+<td>A+7200</td>
+<td>Gain "Divinity": resistance DC−2 vs Age-of-Gods/faith attacks, myth-type skill power +1; can float</td>
+<td>Lv1→Lv2→Lv3: faint→notable→deity</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Noble Phantasm</td>
+<td>S+8000</td>
+<td>Gain 1 Origin Noble Phantasm: True Name Release DP+5 / 2d10 conceptual damage, by class trait</td>
+<td>Lv1→Lv2→Lv3: sealed→True Name Release→Anti-World Noble Phantasm</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Wedge of Heaven</td>
+<td>S+8000</td>
+<td>Gain "Wedge of Heaven": can rewrite reality laws (2/script, force 1 DC 7 check pass)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Grand Qualification</td>
+<td>AA+12000</td>
+<td>Gain "Grand" candidate qualification: all attributes +3, can bear Anti-World Noble Phantasm, unlock "Human-Order Protection" passive</td>
+<td>Lv1→Lv2→Lv3: candidate→formal→Grand·Transcendent</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>十、Appendix</h2>
+<ul>
+<li><strong>Maps</strong>: <code>maps/FGO_WM-01.svg</code>–<code>FGO_BM-02.svg</code></li>
+<li><strong>NPC / Enemies</strong>: <code>FGO_NPC名冊.xlsx</code>, <code>FGO_敵方單位名冊.xlsx</code></li>
+<li><strong>GM Memo</strong>: | Main Complete | Repel Tiamat | A+15000 |
+| Optional ① | Defeat one of the Three Goddesses | A1 |
+| Optional ② | Chaldea survives | B1 |
+| Side S-01 | Trial of King's Treasury | B1 |
+| Side S-02 | Rift in Three Goddesses | God-tier fire support |
+| Side S-03 | Enkidu's Chain of Heaven | A1 |
+| Kill | Lahmu (each) | 800 |
+| Kill | Tiamat | 4000 |
+| Special | Defeat Tiamat without Chain of Heaven | 2000 |
+| Special | Uruk walls undamaged | 1500 |</li>
+</ul>
+<hr />
+<blockquote>
+<p><strong>Script Code</strong>: FGO <strong>Version</strong>: v1.0 <strong>Format Spec</strong>: v0.4</p>
+</blockquote></section></section>
+    <section class="block"><h2>地圖（YAML＋SVG）</h2><div class="map">
+              <div class="maptitle">FGO_BM-01 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="640" height="480" fill="#1a1a2e"/>
+<rect x="20" y="20" width="600" height="440" fill="url(#grid)"/>
+<rect x="20" y="20" width="600" height="440" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="320.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">BM-01 Lahmu Defense Line</text>
+<text x="25" y="472" fill="#666" font-size="9">FGO_BM-01 | 10×10 grid (concept) | 1 square = 5ft | total 50×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="40.0" y="240.0" width="80.0" height="80.0" rx="3" fill="none" stroke="#00FF88" stroke-width="2"/>
+<text x="80.0" y="276.0" text-anchor="middle" fill="#aaa" font-size="8">Player Start</text>
+<text x="80.0" y="290.0" text-anchor="middle" fill="#666" font-size="6">(17.5, 87.5)ft</text>
+<rect x="40.0" y="40.0" width="120.0" height="80.0" rx="3" fill="#F59E0B22" stroke="#F59E0B" stroke-width="2"/>
+<text x="100.0" y="76.0" text-anchor="middle" fill="#aaa" font-size="8">Walls of Uruk</text>
+<text x="100.0" y="90.0" text-anchor="middle" fill="#666" font-size="6">(25.0, 17.5)ft</text>
+<rect x="320.0" y="40.0" width="80.0" height="40.0" rx="3" fill="none" stroke="#FF4444" stroke-width="1.5"/>
+<text x="360.0" y="56.0" text-anchor="middle" fill="#aaa" font-size="8">Lahmu ×2</text>
+<text x="360.0" y="70.0" text-anchor="middle" fill="#666" font-size="6">(112.5, 12.5)ft</text>
+<rect x="320.0" y="200.0" width="80.0" height="40.0" rx="3" fill="none" stroke="#FF4444" stroke-width="1.5"/>
+<text x="360.0" y="216.0" text-anchor="middle" fill="#aaa" font-size="8">Lahmu ×2</text>
+<text x="360.0" y="230.0" text-anchor="middle" fill="#666" font-size="6">(112.5, 67.5)ft</text>
+<rect x="200.0" y="120.0" width="80.0" height="80.0" rx="3" fill="#3B82F644" stroke="#3B82F6" stroke-width="1"/>
+<text x="240.0" y="156.0" text-anchor="middle" fill="#aaa" font-size="8">Magic Turret</text>
+<text x="240.0" y="170.0" text-anchor="middle" fill="#666" font-size="6">(72.5, 47.5)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L4/FGO-第七特異點·絕對/en/maps/FGO_BM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L4/FGO-第七特異點·絕對/en/maps/FGO_BM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">FGO_BM-02 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="640" height="480" fill="#1a1a2e"/>
+<rect x="20" y="20" width="600" height="440" fill="url(#grid)"/>
+<rect x="20" y="20" width="600" height="440" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="320.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">BM-02 Tiamat Final Battle</text>
+<text x="25" y="472" fill="#666" font-size="9">FGO_BM-02 | 10×10 grid (concept) | 1 square = 5ft | total 50×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="40.0" y="40.0" width="80.0" height="80.0" rx="3" fill="none" stroke="#00FF88" stroke-width="2"/>
+<text x="80.0" y="76.0" text-anchor="middle" fill="#aaa" font-size="8">Player Start</text>
+<text x="80.0" y="90.0" text-anchor="middle" fill="#666" font-size="6">(17.5, 17.5)ft</text>
+<rect x="320.0" y="280.0" width="120.0" height="120.0" rx="3" fill="none" stroke="#FF4444" stroke-width="1.5"/>
+<text x="380.0" y="336.0" text-anchor="middle" fill="#aaa" font-size="8">Tiamat</text>
+<text x="380.0" y="350.0" text-anchor="middle" fill="#666" font-size="6">(120.0, 105.0)ft</text>
+<rect x="280.0" y="40.0" width="80.0" height="40.0" rx="3" fill="#F59E0B22" stroke="#F59E0B" stroke-width="2"/>
+<text x="320.0" y="56.0" text-anchor="middle" fill="#aaa" font-size="8">Land Bridge (Single Passage)</text>
+<text x="320.0" y="70.0" text-anchor="middle" fill="#666" font-size="6">(97.5, 12.5)ft</text>
+<rect x="40.0" y="200.0" width="120.0" height="80.0" rx="3" fill="#10B98144" stroke="#10B981" stroke-width="1"/>
+<text x="100.0" y="236.0" text-anchor="middle" fill="#aaa" font-size="8">Gilgamesh</text>
+<text x="100.0" y="250.0" text-anchor="middle" fill="#666" font-size="6">(25.0, 72.5)ft</text>
+<rect x="200.0" y="120.0" width="80.0" height="40.0" rx="3" fill="#6D28D944" stroke="#6D28D9" stroke-width="1"/>
+<text x="240.0" y="136.0" text-anchor="middle" fill="#aaa" font-size="8">Chain of Heaven (S-03)</text>
+<text x="240.0" y="150.0" text-anchor="middle" fill="#666" font-size="6">(72.5, 42.5)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L4/FGO-第七特異點·絕對/en/maps/FGO_BM-02.yaml" download>yaml</a> <a href="../../assets/scripts/L4/FGO-第七特異點·絕對/en/maps/FGO_BM-02.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">FGO_EM-01 <span class="maptype">探索地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" font-family="Microsoft JhengHei, sans-serif">
+<rect width="900" height="580" fill="#1a1a2e"/>
+<text x="450.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">Demonic Front — Defense Detail Map</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 1</text>
+<rect x="20" y="0.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="900.0" height="580.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<rect x="20.0" y="53.0" width="860.0" height="140.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="123.0" text-anchor="middle" fill="#aaa" font-size="9">Magic Turret ×3</text>
+<rect x="35.0" y="85.0" width="200.0" height="60.0" rx="3.0" fill="#1a1505" stroke="#F59E0B" stroke-width="1.5"/>
+<text x="135.0" y="115.0" text-anchor="middle" fill="#aaa" font-size="9">Main Gate (HP 300)</text>
+<rect x="270.0" y="85.0" width="250.0" height="60.0" rx="3.0" fill="#0d0d1a" stroke="#3B82F6" stroke-width="1.5"/>
+<text x="395.0" y="115.0" text-anchor="middle" fill="#aaa" font-size="9">Magic Turret ×3</text>
+<text x="20" y="218.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 2</text>
+<rect x="20" y="223.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="223.0" width="860.0" height="140.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="20" y="350.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 3</text>
+<rect x="20" y="355.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="35.0" y="355.0" width="250.0" height="60.0" rx="3.0" fill="#1a1020" stroke="#6D28D9" stroke-width="1.5"/>
+<text x="160.0" y="385.0" text-anchor="middle" fill="#aaa" font-size="9">Enkidu Remains (S-03)</text>
+<rect x="320.0" y="355.0" width="200.0" height="60.0" rx="3.0" fill="#0d0d1a" stroke="#3B82F6" stroke-width="1.5"/>
+<text x="420.0" y="385.0" text-anchor="middle" fill="#aaa" font-size="9">Gorgon Temple (S-02)</text>
+<rect x="20.0" y="393.0" width="860.0" height="160.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="20" y="620.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 4</text>
+<rect x="20" y="625.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="35.0" y="625.0" width="530.0" height="80.0" rx="3.0" fill="#1a0505" stroke="#FF4444" stroke-width="1.5"/>
+<text x="300.0" y="665.0" text-anchor="middle" fill="#aaa" font-size="9">Tiamat Awakening Point (Final)</text>
+<rect x="20" y="525" width="860" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="550" fill="#aaa" font-size="9">FGO_EM-01 | Exploration Map</text>
+<text x="20" y="570" fill="#666" font-size="9">FGO_EM-01 | Exploration Map</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L4/FGO-第七特異點·絕對/en/maps/FGO_EM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L4/FGO-第七特異點·絕對/en/maps/FGO_EM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">FGO_WM-01 <span class="maptype">世界地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="800" height="600" fill="url(#wmgrid)"/>
+<rect x="200.0" y="50.0" width="400.0" height="100.0" rx="5" fill="#0d1a1a" stroke="#10B981" stroke-width="2"/>
+<text x="400.0" y="100.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Walls of Uruk (Base)</text>
+<rect x="200.0" y="200.0" width="400.0" height="120.0" rx="5" fill="#1a1505" stroke="#F59E0B" stroke-width="2"/>
+<text x="400.0" y="260.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Plains / Demonic Front</text>
+<rect x="200.0" y="370.0" width="400.0" height="150.0" rx="5" fill="#1a0505" stroke="#EF4444" stroke-width="2"/>
+<text x="400.0" y="445.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Persian Gulf (Final)</text>
+<line x1="400.0" y1="150.0" x2="400.0" y2="200.0" stroke="#C084FC" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="400.0" y1="320.0" x2="400.0" y2="370.0" stroke="#C084FC" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<rect x="630" y="20" width="150" height="74" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="705" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Legend</text>
+<text x="640" y="60" fill="#aaa" font-size="9">Legend</text>
+<text x="640" y="76" fill="#aaa" font-size="9">Arrow = Recommended Route</text>
+<text x="640" y="92" fill="#aaa" font-size="9">Red Zone = Final Objective</text>
+<text x="20" y="585" fill="#666" font-size="9">FGO_WM-01 | World Map | Schematic</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L4/FGO-第七特異點·絕對/en/maps/FGO_WM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L4/FGO-第七特異點·絕對/en/maps/FGO_WM-01.svg" download>svg</a></p>
+            </div></section>
+    <section class="block"><h2>概念圖</h2><div class="gallery"><a href="../../assets/scripts/L4/FGO-第七特異點·絕對/images/enemy_01_tiamat.png" target="_blank"><img src="../../assets/scripts/L4/FGO-第七特異點·絕對/images/enemy_01_tiamat.png" alt="enemy_01_tiamat.png"></a><a href="../../assets/scripts/L4/FGO-第七特異點·絕對/images/npc_01_gilgamesh.png" target="_blank"><img src="../../assets/scripts/L4/FGO-第七特異點·絕對/images/npc_01_gilgamesh.png" alt="npc_01_gilgamesh.png"></a><a href="../../assets/scripts/L4/FGO-第七特異點·絕對/images/npc_02_FGO_01.png" target="_blank"><img src="../../assets/scripts/L4/FGO-第七特異點·絕對/images/npc_02_FGO_01.png" alt="npc_02_FGO_01.png"></a><a href="../../assets/scripts/L4/FGO-第七特異點·絕對/images/scene_01_uruk_walls.png" target="_blank"><img src="../../assets/scripts/L4/FGO-第七特異點·絕對/images/scene_01_uruk_walls.png" alt="scene_01_uruk_walls.png"></a><a href="../../assets/scripts/L4/FGO-第七特異點·絕對/images/scene_S03_遭遇拉赫穆混沌先鋒.png" target="_blank"><img src="../../assets/scripts/L4/FGO-第七特異點·絕對/images/scene_S03_遭遇拉赫穆混沌先鋒.png" alt="scene_S03_遭遇拉赫穆混沌先鋒.png"></a><a href="../../assets/scripts/L4/FGO-第七特異點·絕對/images/scene_S08_最終決戰提亞馬特創世母神的終焉.png" target="_blank"><img src="../../assets/scripts/L4/FGO-第七特異點·絕對/images/scene_S08_最終決戰提亞馬特創世母神的終焉.png" alt="scene_S08_最終決戰提亞馬特創世母神的終焉.png"></a></div></section>
+    </main>
+<footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

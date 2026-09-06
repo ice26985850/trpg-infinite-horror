@@ -1,0 +1,52 @@
+map_id: SERAPH_WM-01
+map_type: world
+scenario: 'Seraph of the End: Shibuya Defense War'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 900
+- 620
+title: Apocalypse Shibuya — Large-Scale Map (WM-01)
+description: ''
+scale: Schematic
+regions:
+- bounds:
+  - 250.0
+  - 370.0
+  - 100.0
+  - 60.0
+  fill: '#3a3a4a'
+  stroke: '#e74c3c'
+  name: A Underground Outpost
+- bounds:
+  - 500.0
+  - 220.0
+  - 100.0
+  - 60.0
+  fill: '#3a2a2a'
+  stroke: '#e74c3c'
+  name: B Shibuya Ruins
+- bounds:
+  - 750.0
+  - 320.0
+  - 100.0
+  - 60.0
+  fill: '#4a3a2a'
+  stroke: '#e74c3c'
+  name: C Shibuya Station
+- bounds:
+  - 20.0
+  - 540.0
+  - 860.0
+  - 60.0
+  fill: '#1e1a1a'
+  stroke: '#333'
+  name: ''
+roads: []
+routes: []
+danger_zones: []
+landmarks: []
+legend:
+- C Shibuya Station

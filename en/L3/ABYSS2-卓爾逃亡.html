@@ -1,0 +1,1012 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Underdark: Drow Escape | ABYSS2-卓爾逃亡 | Infinite Terror TRPG Scripts</title>
+<link rel="stylesheet" href="../../assets/style.css"></head>
+<body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../../index.html">中文</a></header>
+<div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
+<main class="container"><h1>Underdark: Drow Escape</h1>
+    <p class="meta">Code: ABYSS2-卓爾逃亡 ｜ Source: Drizzt Do&#x27;Urden Saga (Dungeons &amp; Dragons: Drow) ｜ Difficulty: ★★★★ ｜ Players: 3–5 ｜ Duration: 5–7 hrs / 2–3 sessions ｜ Type: Infiltration / Escape / Subterranean Exploration</p>
+    <p class="nav"><a href="../../index.html">← 劇本總覽</a> ｜ <a href="../../assets/scripts/L3/ABYSS2-卓爾逃亡/en/ABYSS2-卓爾逃亡_劇本.md" download>劇本 MD</a> ｜ <a href="../../assets/scripts/L3/ABYSS2-卓爾逃亡/en/ABYSS2-卓爾逃亡_NPC名冊.xlsx" download>NPC 名冊</a> ｜ <a href="../../assets/scripts/L3/ABYSS2-卓爾逃亡/en/ABYSS2-卓爾逃亡_敵方單位名冊.xlsx" download>敵方名冊</a> ｜ <a href="../../assets/L3_ABYSS2-卓爾逃亡_all_en.zip">下載全部（zip）</a></p>
+    <section class="block content"><section class="chap"><h2>一、基本資訊</h2>
+<p>Script Title: Underdark: Drow Escape
+Source Film: <em>Drizzt Do'Urden Saga</em> (Dungeons &amp; Dragons: Drow)
+Difficulty Rating: ★★★★
+Suggested Players: 3–5
+Estimated Duration: 5–7 hrs / 2–3 sessions
+Script Type: Infiltration / Escape / Subterranean Exploration
+Prerequisite: Gene Lock (GL) Stage 2 or above; Darkvision or a light-source ability is helpful</p>
+<h3>Difficulty Reference</h3>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Suggested Gene Lock Stage</td>
+<td>Gene Lock (GL) Stage 2–3</td>
+</tr>
+<tr>
+<td>Attribute Range</td>
+<td>Attributes 6–8</td>
+</tr>
+<tr>
+<td>Average Team Enhancement</td>
+<td>Mid-tier Enhancement + Survival Feat</td>
+</tr>
+</tbody>
+</table></section>
+<details class="gm"><summary>🎭 GM 限定：二、Plot Summary (GM Only)</summary><h2>二、Plot Summary (GM Only)</h2>
+<h3>One-line Summary</h3>
+<blockquote>
+<p>Reincarnators (RC) are thrown into a Drow prison camp in the Underdark. Within the dark domain of Lolth the Spider Queen, they must orchestrate a daring escape from this subterranean world of betrayal and dark magic.</p>
+</blockquote>
+<h3>Full Story Background</h3>
+<p>The Underdark is a vast cavern network beneath the surface world, ruled by the Drow (dark elves). Drow society teems with betrayal, intrigue, and fanatical worship of Lolth (the Spider Queen).</p>
+<p>The Reincarnators are cast into the Underdark by the Main God (MG) and awaken inside a Drow prison camp. Treated as slaves, they are forced to toil in dark mines. The Drow guards are merciless, and the camp's slave overseer is a cruel priest of the Spider Queen.</p>
+<p>The camp sits on the edge of Menzoberranzan. Sealed deep below is an exiled Demon Lord — it watches, waiting for its chance at vengeance. The Reincarnators must organize a revolt among the slaves and find a path out of the Underdark.</p>
+<h3>Story Structure Type</h3>
+<p><strong>Hybrid</strong>: free exploration at the opening, shifting to act-by-act progression in the mid-to-late game.</p></details>
+<section class="chap"><h2>三、Main God Quest</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest Description</td>
+<td>"The darkness of the Underdark devours all light. Escape the Drow prison camp, traverse the perilous underground passages, and reach the surface exit. Survival is victory."</td>
+</tr>
+<tr>
+<td>Main Quest</td>
+<td>Escape the Drow prison camp and safely reach the Underdark's exit to the surface. Must be completed within 48 hours.</td>
+</tr>
+<tr>
+<td>Quest Reward</td>
+<td>B+5000</td>
+</tr>
+<tr>
+<td>Failure Condition</td>
+<td>Total party wipe / failure to escape within 48 hours / transformed into a Drider by the Spider Priest</td>
+</tr>
+<tr>
+<td>Failure Penalty</td>
+<td>Erasure</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>① Liberate the camp: +1000 per 10 slaves freed (max 30) <br>② Defeat the Spider Priest Overseer: C+2000</td>
+</tr>
+</tbody>
+</table></section>
+<section class="chap"><h2>四、Side Quests</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-01</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Mine Secret Passage</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Discover a faint draft from a ventilation shaft in the mine</td>
+</tr>
+<tr>
+<td>Objective</td>
+<td>Dig out and clear a secret tunnel, connecting the prison camp to an external underground passage</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Within 24 hours (or discovered by the overseer)</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>D+1200</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Supports the main quest — provides an alternate escape route</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Requires STR + Digging DC3; rotate workers to avoid fatigue</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-02</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Prisoner Riot</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Persuade at least 5 prisoners to join the revolt</td>
+</tr>
+<tr>
+<td>Objective</td>
+<td>Organize the prisoners to riot during a shift change and seize the guards' weapons</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Must be triggered at the planned moment</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>D+1500</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Supports the main quest — weakens the camp's defenses</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Requires CHA + Negotiation DC4 to persuade prisoners; failure may lead to betrayal</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-03</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Infiltrate the Lolth Temple</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Discover the Spider Priest performing a dark ritual</td>
+</tr>
+<tr>
+<td>Objective</td>
+<td>Sneak into the small Lolth temple within the camp, steal the sacred spider pendant, and gain the Spider Queen's blessing of disguise</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>During the ritual (roughly a 2-hour window)</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>D+1500 + Spider Pendant (Drow will not attack proactively)</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Supports the main quest — the pendant can bypass some Drow patrols</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Requires Stealth DC4; discovery triggers an alarm</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>五、World Setting</h2>
+<h3>Timeline</h3>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T+0 hrs</td>
+<td>Reincarnators awaken in camp cells; belongings confiscated</td>
+</tr>
+<tr>
+<td>T+6 hrs</td>
+<td>First mine shift begins; terrain can be observed</td>
+</tr>
+<tr>
+<td>T+12 hrs</td>
+<td>Guard shift change — the best escape window</td>
+</tr>
+<tr>
+<td>T+24 hrs</td>
+<td>Spider Priest holds a dark sacrifice; some prisoners are offered</td>
+</tr>
+<tr>
+<td>T+36 hrs</td>
+<td>If not escaped, the Demon Lord begins influencing the camp through the seal</td>
+</tr>
+<tr>
+<td>T+48 hrs</td>
+<td>Final deadline</td>
+</tr>
+</tbody>
+</table>
+<h3>Key Locations</h3>
+<h4>Location: Prison Cell Block (Starting Point)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Prison Cell Block (Starting Point)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Stone-carved cells, walls damp and cold, lit only by faint phosphorescent moss. Beyond the iron bars echo the footsteps of Drow guards and the crack of whips.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Straw pile (hidden: wire ×1, sharp stone shard ×1), loose brick (leads to ventilation duct), cell door lock (AGI + Lockpicking DC4)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Drow guard patrol (passes every 30 min)</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>North → Mine, South → Camp Plaza</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>EM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location: Mine</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Mine</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A vast underground pit where slaves mine glowing fungi and ore with primitive tools. Drow guards with crossbows watch from overseer towers.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Abandoned tunnel (may lead outside), ventilation shaft (triggers S-01), explosives cache (detonating draws attention), hidden fungi (glow, usable as light)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Drow Overseer ×2 + Slave Overseer (★★★)</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>South → Camp, West → Secret Passage (after S-01)</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>BM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location: Camp Plaza</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Camp Plaza</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>An open space at the camp's center, surrounded by towering stone walls. At its heart stands a giant spider statue of Lolth, radiating an unsettling aura.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Small temple (triggers S-03), armory (guard equipment), prisoner quarters (where prisoners are persuaded), execution platform (regular public executions)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Drow Warrior ×6 patrol, 1 Spider Priest at the temple</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>South → Camp Main Gate, North → Cells, East → Mine</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>EM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location: Sealed Demon Cavern</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Sealed Demon Cavern</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A deep cavern with a glowing sealing array at its center. Within, the silhouette of a vast demon is faintly visible — it sleeps within the seal, yet its nightmares corrupt the surrounding environment.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Sealing array (INT + Occult DC5 to study), warped plants nearby (harvest toxin), demon's whisper (Resolve DC4 to resist temptation)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>If the seal is broken by accident → Demon Lord awakens (★★★★★ optional ultimate encounter)</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>Beside the path to the surface (can be bypassed)</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>BM-02</td>
+</tr>
+</tbody>
+</table>
+<h3>World Special Rules</h3>
+<ul>
+<li><strong>Total Darkness</strong>: The Underdark has almost no natural light. Units without Darkvision or a light source are considered blinded (all actions DP-4). Phosphorescent plants provide dim light (radius 3m, DP-2).</li>
+<li><strong>Drow Toxin</strong>: Drow warriors coat their weapons with a sleep toxin. A hit target must make an END + Resolve contest check (DC = number of successful attacks); failure causes sleep for 1d4 hours.</li>
+<li><strong>Subterranean Navigation</strong>: The Underdark is extremely easy to get lost in. Long-distance movement requires PER + Survival check (DC 4). Failure veers off course, costing an extra 2 hours.</li>
+<li><strong>Eye of Lolth</strong>: Lolth can watch the camp through the spider statue. Performing illegal acts within the statue's sight has a 30% chance of being discovered. Destroying the statue interrupts the surveillance.</li>
+</ul>
+<h3>Main God Restrictions</h3>
+<ul>
+<li>Using bright-light spells is forbidden (attracts many underground creatures)</li>
+<li>Drow are extremely sensitive to betrayal; a single betrayal makes all Drow permanently hostile</li>
+<li>Revealing the Main God space to slaves is forbidden</li>
+</ul></section>
+<section class="chap"><h2>六、Key Scenes</h2>
+<h3>Act 1: The Dark Cell</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S01</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>The Dark Cell</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Start of script</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Bound wrist and ankle with coarse rope on cold stone. Crying and praying echo in the dark. An old Dwarf slave whispers, "New here? Keep quiet... the Drow don't like noisy slaves."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Slip the rope (AGI DC2), talk with the old Dwarf (gain camp intel), search the cell</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>None (observation phase)</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>A: Act after low-profile observation B: Attempt escape immediately (higher difficulty)</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Guards take you to the mine (T+6)</td>
+</tr>
+</tbody>
+</table>
+<h4>Gene Lock Hint</h4>
+<ul>
+<li><strong>Suggested Gene Lock Stage</strong>: Stage 2</li>
+<li><strong>Gene Lock Check</strong>: Resolve DC3</li>
+<li><strong>Upon Opening</strong>: Darkvision — no penalty from dark environments</li>
+<li><strong>Consequence of Not Opening</strong>: Considered blinded in total darkness</li>
+<li><strong>Liberation Side Effect</strong>: None</li>
+</ul>
+<hr />
+<h3>Act 2: Mine Labor</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S02</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Mine Labor</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>T+6, taken to the mine</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>The mine is hot and noisy. Slaves swing heavy picks. The overseer cracks a whip from the tower: "Faster! Today's quota isn't met yet!"</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Talk with other slaves (persuade to join revolt), observe terrain (PER DC3 to find ventilation shaft), steal tools (AGI DC3)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Overseer notices anomaly → 1 Drow Warrior (★) comes to investigate</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>A: Observe carefully + gather intel B: Strike the overseer immediately</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Return to cells (T+12 shift change)</td>
+</tr>
+</tbody>
+</table>
+<h4>Gene Lock Hint</h4>
+<ul>
+<li><strong>Suggested Gene Lock Stage</strong>: Stage 2</li>
+<li><strong>Gene Lock Check</strong>: Resolve DC3</li>
+<li><strong>Upon Opening</strong>: Enhanced stamina — carrying heavy stone does not reduce speed</li>
+<li><strong>Consequence of Not Opening</strong>: Labor accumulates fatigue</li>
+<li><strong>Liberation Side Effect</strong>: 1d4 fatigue (no mental damage)</li>
+</ul>
+<hr />
+<h3>Act 3: Shift Change — The Escape Window</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S03</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Shift Change — The Escape Window</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>T+12, guard shift change</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>In the chaos of the handover, surveillance has a brief gap. The old Dwarf lowers his voice: "Now — this is the only chance."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Start a riot (triggers S-02), infiltrate the temple (triggers S-03), use the secret passage (S-01), or charge the main gate directly</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Drow Warrior ×4 (patrol) + Spider Priest ×1 (temple)</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>A: Stealth escape B: Violent breakout C: Disguised escape (if S-03 completed)</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Successfully escape camp → enter underground passage</td>
+</tr>
+</tbody>
+</table>
+<h4>Gene Lock Hint</h4>
+<ul>
+<li><strong>Suggested Gene Lock Stage</strong>: Stage 3</li>
+<li><strong>Gene Lock Check</strong>: Resolve DC4</li>
+<li><strong>Upon Opening</strong>: Reflex boost — Initiative +2, Stealth DP+3</li>
+<li><strong>Consequence of Not Opening</strong>: Easily alert more guards</li>
+<li><strong>Liberation Side Effect</strong>: 2d4 mental damage</li>
+</ul>
+<hr />
+<h3>Act 4: Underground Passage — The Menzoberranzan Maze</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S04</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Underground Passage — The Menzoberranzan Maze</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Escape the prison camp</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Dark tunnels interweave like a spider's web. Luminescent fungi on the rock walls point the way — but may also lead you into traps. A distant rumble... a giant burrowing worm is digging tunnels.</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Orient (PER + Survival DC3), avoid the worm (PER + Stealth DC4), gather fungal light</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>If the worm is roused → Burrowing Worm (★★★★ Large) / route can be bypassed</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>A: Shortest route (highest risk, 1 encounter) B: Safe route (50% longer, no encounter)</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Reach the surface exit</td>
+</tr>
+</tbody>
+</table>
+<h4>Gene Lock Hint</h4>
+<ul>
+<li><strong>Suggested Gene Lock Stage</strong>: Stage 3</li>
+<li><strong>Gene Lock Check</strong>: Resolve DC4</li>
+<li><strong>Upon Opening</strong>: Perception enhanced 10× — sense all hidden passages and traps</li>
+<li><strong>Consequence of Not Opening</strong>: Extremely high risk of getting lost</li>
+<li><strong>Liberation Side Effect</strong>: 2d4 mental damage</li>
+</ul>
+<hr />
+<h3>Act 5: The Price of Light — The Exit Gate</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S05</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>The Price of Light — The Exit Gate</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Arrive near the surface exit</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Faint light ahead — sunlight unseen for days! But the only path to the exit passes the Sealed Demon Cavern. The seal array flickers unstably...</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Detour (costs extra 4 hrs + 1 encounter check), pass the sealed cavern (Resolve DC4 to resist demon temptation), study the seal (INT DC4 for safe passage)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>If the demon is roused → Demon Lord (★★★★★ optional battle, reward A×1 +10000)</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>A: Detour (safe but time-consuming) B: Pass through (fast but requires mental temptation contest) C: Challenge the demon (highest difficulty / highest reward)</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Pass the cavern → reach surface → Main God retrieval</td>
+</tr>
+</tbody>
+</table>
+<h4>Gene Lock Hint</h4>
+<ul>
+<li><strong>Suggested Gene Lock Stage</strong>: Stage 3</li>
+<li><strong>Gene Lock Check</strong>: Resolve DC5</li>
+<li><strong>Upon Opening</strong>: Mental barrier — immune to the demon's mental temptation</li>
+<li><strong>Consequence of Not Opening</strong>: Demon whispers persistently interfere</li>
+<li><strong>Liberation Side Effect</strong>: 3d4 mental damage</li>
+</ul>
+<hr /></section>
+<section class="chap"><h2>七、Reward Settlement</h2>
+<table>
+<thead>
+<tr>
+<th>Reward Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main Quest Complete</td>
+<td>B+5000</td>
+</tr>
+<tr>
+<td>Free all slaves (all 30)</td>
+<td>+3000</td>
+</tr>
+<tr>
+<td>Defeat Spider Priest Overseer</td>
+<td>C+2000</td>
+</tr>
+<tr>
+<td>All Side Quests Complete</td>
+<td>D3 total +4200</td>
+</tr>
+<tr>
+<td>Max Total Yield (incl. demon)</td>
+<td>A×1 + B×1 + C×1 + D×3 + ~19000</td>
+</tr>
+<tr>
+<td>Roleplay</td>
+<td>GM discretion (suggested range: 0–500)</td>
+</tr>
+</tbody>
+</table>
+<h3>Return Exchange (Script-limited)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Exchange Item</th>
+<th>Cost (Side + Reward Points)</th>
+<th>Effect</th>
+<th>Growth Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>Darkvision Enhancement (Mod)</td>
+<td>C+1000</td>
+<td>In total darkness, sight range +15m; +1 Initiative vs invisible/shadow creatures</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Drow Poison Gland (Poison)</td>
+<td>C+1000</td>
+<td>Coat weapon with mystery toxin (END save DC4, failure −1d4 AGI per round for 3 rounds)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Prayer to Lolth (Prayer)</td>
+<td>C+1000</td>
+<td>Pray to Lolth the Spider Queen — once per script, Intimidate DP+3 vs demons/otherworldly beings</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Graceful War Dance (War Dance)</td>
+<td>C+1000</td>
+<td>Display Drow poise in combat; CHA +1, Performance check DP+2</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Drow Bloodline (Bloodline)</td>
+<td>B+3600</td>
+<td>Gain Drow bloodline — AGI +1, Spell Resistance +2, +1 to all checks in night combat</td>
+<td>Can repurchase at A-tier (A+7200)</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Weave of the Magic Net (Spell)</td>
+<td>B+2000</td>
+<td>Gain basic Conjuration/Illusion — INT + Arcane check DC3 to cast "Magic Missile (1d4+1×3)" 3× per script</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Spider Pact (Pact)</td>
+<td>B+4000</td>
+<td>Covenant with Lolth — once per script summon 1 Giant Spider (HP 30) to fight for 5 rounds</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Blessing of Lolth (Divine Favor)</td>
+<td>A+7200</td>
+<td>Become a favored of Lolth — passive "Divine Grace" (once per script ignore one lethal hit); transforms knowledge into "Drider Disguise" knowledge</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Abyssal Demon Sword · Vhaeraun (Magic Sword)</td>
+<td>A+4000</td>
+<td>Gain a legendary Drow rapier — Attack DP+5, +1d6 vs light creatures, "Silent" stealth +2</td>
+<td>—</td>
+</tr>
+</tbody>
+</table></section>
+<section class="chap"><h2>八、Appendix</h2>
+<h3>Map Index</h3>
+<table>
+<thead>
+<tr>
+<th>No.</th>
+<th>Type</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>WM-01</td>
+<td>Regional Map</td>
+<td>ABYSS2_WM-01.svg</td>
+</tr>
+<tr>
+<td>EM-01</td>
+<td>Exploration Map</td>
+<td>ABYSS2_EM-01.svg</td>
+</tr>
+<tr>
+<td>BM-01</td>
+<td>Battle Map</td>
+<td>ABYSS2_BM-01.svg</td>
+</tr>
+<tr>
+<td>BM-02</td>
+<td>Battle Map</td>
+<td>ABYSS2_BM-02.svg</td>
+</tr>
+</tbody>
+</table>
+<h3>GM Memo</h3>
+<ul>
+<li>Camp atmosphere matters more than direct combat — convey the cruelty of Drow society</li>
+<li>Slaves can become valuable allies or a burden</li>
+<li>A 3-person squad may gain the old Dwarf NPC as a guide</li>
+</ul></section></section>
+    <section class="block"><h2>地圖（YAML＋SVG）</h2><div class="map">
+              <div class="maptitle">ABYSS2_BM-01 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<rect x="20" y="20" width="760" height="560" fill="url(#grid)"/>
+<rect x="20" y="20" width="760" height="560" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="400.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">ABYSS2_BM-01 Battle Map</text>
+<text x="25" y="592" fill="#666" font-size="9">ABYSS2_BM-01 | 10×10cells (concept) | 1cell = 5ft | Total 50×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="30.0" y="30.0" width="740.0" height="540.0" rx="3" fill="none" stroke="#4a4a7e" stroke-width="2"/>
+<rect x="40.0" y="400.0" width="120.0" height="160.0" rx="3" fill="#00FF88" stroke="#00FF88" stroke-width="1.5"/>
+<text x="100.0" y="476.0" text-anchor="middle" fill="#aaa" font-size="8">Player Start Zone</text>
+<text x="100.0" y="490.0" text-anchor="middle" fill="#666" font-size="6">(25.0, 152.5)ft</text>
+<rect x="600.0" y="40.0" width="160.0" height="120.0" rx="3" fill="#FF4444" stroke="#FF4444" stroke-width="1.5"/>
+<text x="680.0" y="96.0" text-anchor="middle" fill="#aaa" font-size="8">Enemy Zone</text>
+<text x="680.0" y="110.0" text-anchor="middle" fill="#666" font-size="6">(222.5, 25.0)ft</text>
+<rect x="150.0" y="200.0" width="100.0" height="40.0" rx="3" fill="#3a2a4e" stroke="#6a4a8e" stroke-width="1"/>
+<text x="200.0" y="216.0" text-anchor="middle" fill="#aaa" font-size="8">Mine Cart</text>
+<text x="200.0" y="230.0" text-anchor="middle" fill="#666" font-size="6">(62.5, 67.5)ft</text>
+<rect x="400.0" y="150.0" width="80.0" height="60.0" rx="3" fill="#3a2a4e" stroke="#6a4a8e" stroke-width="1"/>
+<text x="440.0" y="176.0" text-anchor="middle" fill="#aaa" font-size="8">Overseer Tower</text>
+<text x="440.0" y="190.0" text-anchor="middle" fill="#666" font-size="6">(137.5, 55.0)ft</text>
+<rect x="300.0" y="350.0" width="120.0" height="80.0" rx="3" fill="#3a2a4e" stroke="#6a4a8e" stroke-width="1"/>
+<text x="360.0" y="386.0" text-anchor="middle" fill="#aaa" font-size="8">Crystal Ore Pile</text>
+<text x="360.0" y="400.0" text-anchor="middle" fill="#666" font-size="6">(115.0, 122.5)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/ABYSS2-卓爾逃亡/en/maps/ABYSS2_BM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L3/ABYSS2-卓爾逃亡/en/maps/ABYSS2_BM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">ABYSS2_BM-02 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<rect x="20" y="20" width="760" height="560" fill="url(#grid)"/>
+<rect x="20" y="20" width="760" height="560" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="400.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">ABYSS2_BM-02 Battle Map</text>
+<text x="25" y="592" fill="#666" font-size="9">ABYSS2_BM-02 | 10×10cells (concept) | 1cell = 5ft | Total 50×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="30.0" y="30.0" width="740.0" height="540.0" rx="3" fill="none" stroke="#4a4a7e" stroke-width="2"/>
+<rect x="40.0" y="400.0" width="120.0" height="160.0" rx="3" fill="#00FF88" stroke="#00FF88" stroke-width="1.5"/>
+<text x="100.0" y="476.0" text-anchor="middle" fill="#aaa" font-size="8">Player Start Zone</text>
+<text x="100.0" y="490.0" text-anchor="middle" fill="#666" font-size="6">(25.0, 152.5)ft</text>
+<rect x="600.0" y="40.0" width="160.0" height="120.0" rx="3" fill="#FF4444" stroke="#FF4444" stroke-width="1.5"/>
+<text x="680.0" y="96.0" text-anchor="middle" fill="#aaa" font-size="8">Enemy Zone</text>
+<text x="680.0" y="110.0" text-anchor="middle" fill="#666" font-size="6">(222.5, 25.0)ft</text>
+<rect x="200.0" y="200.0" width="80.0" height="80.0" rx="3" fill="#3a2a4e" stroke="#6a4a8e" stroke-width="1"/>
+<text x="240.0" y="236.0" text-anchor="middle" fill="#aaa" font-size="8">Sealing Circle</text>
+<text x="240.0" y="250.0" text-anchor="middle" fill="#666" font-size="6">(72.5, 72.5)ft</text>
+<rect x="450.0" y="150.0" width="100.0" height="60.0" rx="3" fill="#3a2a4e" stroke="#6a4a8e" stroke-width="1"/>
+<text x="500.0" y="176.0" text-anchor="middle" fill="#aaa" font-size="8">Stalagmite Column</text>
+<text x="500.0" y="190.0" text-anchor="middle" fill="#666" font-size="6">(162.5, 55.0)ft</text>
+<rect x="350.0" y="400.0" width="80.0" height="60.0" rx="3" fill="#3a2a4e" stroke="#6a4a8e" stroke-width="1"/>
+<text x="390.0" y="426.0" text-anchor="middle" fill="#aaa" font-size="8">Rift</text>
+<text x="390.0" y="440.0" text-anchor="middle" fill="#666" font-size="6">(122.5, 135.0)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/ABYSS2-卓爾逃亡/en/maps/ABYSS2_BM-02.yaml" download>yaml</a> <a href="../../assets/scripts/L3/ABYSS2-卓爾逃亡/en/maps/ABYSS2_BM-02.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">ABYSS2_EM-01 <span class="maptype">探索地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<rect width="800" height="600" fill="#1a1a2e"/>
+<text x="400.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">ABYSS2_EM-01 Exploration Map</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 1</text>
+<rect x="20" y="0.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="800.0" height="600.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<text x="400.0" y="300.0" text-anchor="middle" fill="#aaa" font-size="9">Warehouse</text>
+<rect x="50.0" y="40.0" width="700.0" height="520.0" rx="8.0" fill="none" stroke="#4a4a7e" stroke-width="2"/>
+<text x="400.0" y="300.0" text-anchor="middle" fill="#aaa" font-size="9">Warehouse</text>
+<rect x="80.0" y="60.0" width="200.0" height="160.0" rx="5.0" fill="#2a3a5e" stroke="#6a4a8e" stroke-width="1.5"/>
+<text x="180.0" y="140.0" text-anchor="middle" fill="#aaa" font-size="9">Plaza</text>
+<rect x="320.0" y="60.0" width="180.0" height="160.0" rx="5.0" fill="#2a3a5e" stroke="#6a4a8e" stroke-width="1.5"/>
+<text x="410.0" y="140.0" text-anchor="middle" fill="#aaa" font-size="9">Temple</text>
+<text x="20" y="175.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 2</text>
+<rect x="20" y="180.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="540.0" y="180.0" width="120.0" height="80.0" rx="5.0" fill="#2a3a5e" stroke="#6a4a8e" stroke-width="1.5"/>
+<text x="600.0" y="220.0" text-anchor="middle" fill="#aaa" font-size="9">Main Gate</text>
+<text x="20" y="255.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 3</text>
+<rect x="20" y="260.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="80.0" y="260.0" width="200.0" height="140.0" rx="5.0" fill="#2a3a5e" stroke="#6a4a8e" stroke-width="1.5"/>
+<text x="180.0" y="330.0" text-anchor="middle" fill="#aaa" font-size="9">Cell Block</text>
+<rect x="320.0" y="260.0" width="180.0" height="140.0" rx="5.0" fill="#2a3a5e" stroke="#6a4a8e" stroke-width="1.5"/>
+<text x="410.0" y="330.0" text-anchor="middle" fill="#aaa" font-size="9">Warehouse</text>
+<text x="20" y="495.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 4</text>
+<rect x="20" y="500.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="620.0" y="500.0" width="160.0" height="80.0" rx="4.0" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="700.0" y="540.0" text-anchor="middle" fill="#aaa" font-size="9">Legend</text>
+<rect x="635.0" y="533.0" width="15.0" height="10.0" rx="0.0" fill="#2a3a5e" stroke="#6a4a8e" stroke-width=""/>
+<text x="642.5" y="538.0" text-anchor="middle" fill="#aaa" font-size="9">Explorable Area</text>
+<rect x="635.0" y="550.0" width="15.0" height="10.0" rx="0.0" fill="#3a2a5e" stroke="#6a4a8e" stroke-width=""/>
+<text x="642.5" y="555.0" text-anchor="middle" fill="#aaa" font-size="9">Safe Zone</text>
+<rect x="20" y="545" width="760" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="570" fill="#aaa" font-size="9">ABYSS2_EM-01 | Exploration Map | 1cell = 5m</text>
+<text x="20" y="590" fill="#666" font-size="9">ABYSS2_EM-01 | Exploration Map </text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/ABYSS2-卓爾逃亡/en/maps/ABYSS2_EM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L3/ABYSS2-卓爾逃亡/en/maps/ABYSS2_EM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">ABYSS2_WM-01 <span class="maptype">世界地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="800" height="600" fill="url(#wmgrid)"/>
+<rect x="80.0" y="60.0" width="640.0" height="480.0" rx="5" fill="#0a1a2a" stroke="#1e3a5f" stroke-width="2"/>
+<line x1="400.0" y1="400.0" x2="500.0" y2="120.0" stroke="#FFD700" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<ellipse cx="400.0" cy="450.0" rx="50.0" ry="40.0" fill="#FF0000" opacity="0.1" stroke="#FF4444" stroke-width="1"/>
+<text x="425.0" y="450.0" fill="#FF4444" font-size="9">Prison Camp</text>
+<ellipse cx="600.0" cy="150.0" rx="60.0" ry="40.0" fill="#FF0000" opacity="0.1" stroke="#FF4444" stroke-width="1"/>
+<text x="630.0" y="150.0" fill="#FF4444" font-size="9">Sealed Cavern</text>
+<ellipse cx="350.0" cy="200.0" rx="70.0" ry="40.0" fill="#FF0000" opacity="0.1" stroke="#FF4444" stroke-width="1"/>
+<circle cx="400.0" cy="450.0" r="12.0" fill="none" stroke="#FF0000" stroke-width="2" stroke-dasharray="4,2"/>
+<text x="400.0" y="433.0" text-anchor="middle" fill="#FF0000" font-size="10" font-weight="bold">★ Prison Camp</text>
+<circle cx="400.0" cy="450.0" r="5.0" fill="#FF0000" opacity="0.6"/>
+<circle cx="400.0" cy="450.0" r="5.0" fill="none" stroke="" stroke-width="2"/>
+<text x="400.0" y="440.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Prison Camp</text>
+<circle cx="200.0" cy="280.0" r="12.0" fill="none" stroke="#FF6600" stroke-width="2" stroke-dasharray="4,2"/>
+<text x="200.0" y="263.0" text-anchor="middle" fill="#FF6600" font-size="10" font-weight="bold">★ Mine</text>
+<circle cx="200.0" cy="280.0" r="5.0" fill="#FF6600" opacity="0.6"/>
+<circle cx="200.0" cy="280.0" r="5.0" fill="none" stroke="" stroke-width="2"/>
+<text x="200.0" y="270.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Mine</text>
+<circle cx="600.0" cy="150.0" r="12.0" fill="none" stroke="#FF00FF" stroke-width="2" stroke-dasharray="4,2"/>
+<text x="600.0" y="133.0" text-anchor="middle" fill="#FF00FF" font-size="10" font-weight="bold">★ Sealed Cavern</text>
+<circle cx="600.0" cy="150.0" r="5.0" fill="#FF00FF" opacity="0.6"/>
+<circle cx="600.0" cy="150.0" r="5.0" fill="none" stroke="" stroke-width="2"/>
+<text x="600.0" y="140.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Sealed Cavern</text>
+<circle cx="500.0" cy="80.0" r="12.0" fill="none" stroke="#00FF88" stroke-width="2" stroke-dasharray="4,2"/>
+<text x="500.0" y="63.0" text-anchor="middle" fill="#00FF88" font-size="10" font-weight="bold">★ Exit</text>
+<circle cx="500.0" cy="80.0" r="5.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="500.0" cy="80.0" r="5.0" fill="none" stroke="" stroke-width="2"/>
+<text x="500.0" y="70.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Exit</text>
+<circle cx="642.0" cy="60.0" r="4.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="642.0" cy="60.0" r="4.0" fill="none" stroke="" stroke-width="2"/>
+<text x="642.0" y="51.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Start Point</text>
+<circle cx="642.0" cy="78.0" r="4.0" fill="#FFD700" opacity="0.6"/>
+<circle cx="642.0" cy="78.0" r="4.0" fill="none" stroke="" stroke-width="2"/>
+<text x="642.0" y="69.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Objective Point</text>
+<rect x="630" y="20" width="150" height="74" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="705" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Legend</text>
+<text x="640" y="60" fill="#aaa" font-size="9">Demon Seal</text>
+<text x="640" y="76" fill="#aaa" font-size="9">Start Point</text>
+<text x="640" y="92" fill="#aaa" font-size="9">Objective Point</text>
+<text x="20" y="585" fill="#666" font-size="9">ABYSS2_WM-01 | Regional Map | Schematic</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L3/ABYSS2-卓爾逃亡/en/maps/ABYSS2_WM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L3/ABYSS2-卓爾逃亡/en/maps/ABYSS2_WM-01.svg" download>svg</a></p>
+            </div></section>
+    <section class="block"><h2>概念圖</h2><div class="gallery"><a href="../../assets/scripts/L3/ABYSS2-卓爾逃亡/images/enemy_01_lolth_priestess.png" target="_blank"><img src="../../assets/scripts/L3/ABYSS2-卓爾逃亡/images/enemy_01_lolth_priestess.png" alt="enemy_01_lolth_priestess.png"></a><a href="../../assets/scripts/L3/ABYSS2-卓爾逃亡/images/npc_01_beldrum.png" target="_blank"><img src="../../assets/scripts/L3/ABYSS2-卓爾逃亡/images/npc_01_beldrum.png" alt="npc_01_beldrum.png"></a><a href="../../assets/scripts/L3/ABYSS2-卓爾逃亡/images/scene_01_drow_camp_plaza.png" target="_blank"><img src="../../assets/scripts/L3/ABYSS2-卓爾逃亡/images/scene_01_drow_camp_plaza.png" alt="scene_01_drow_camp_plaza.png"></a></div></section>
+    </main>
+<footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

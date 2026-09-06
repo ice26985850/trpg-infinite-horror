@@ -1,0 +1,1180 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>This War of Mine: Siege Survival | FIRE-ThisWarofM-圍城求生 | Infinite Terror TRPG Scripts</title>
+<link rel="stylesheet" href="../../assets/style.css"></head>
+<body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../../index.html">中文</a></header>
+<div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
+<main class="container"><h1>This War of Mine: Siege Survival</h1>
+    <p class="meta">Code: FIRE-ThisWarofM-圍城求生 ｜ Source: This War of Mine (2014) ｜ Difficulty: ★ ｜ Players: 3–5 ｜ Duration: 3–4 hrs / 1–2 sessions ｜ Type: Survival / Resource Management</p>
+    <p class="nav"><a href="../../index.html">← 劇本總覽</a> ｜ <a href="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/en/FIRE_劇本.md" download>劇本 MD</a> ｜ <a href="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/en/FIRE_NPC名冊.xlsx" download>NPC 名冊</a> ｜ <a href="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/en/FIRE_敵方單位名冊.xlsx" download>敵方名冊</a> ｜ <a href="../../assets/L1_FIRE-ThisWarofM-圍城求生_all_en.zip">下載全部（zip）</a></p>
+    <section class="block content"><section class="chap"><h2>一、基本資訊</h2>
+<p>Script Title: This War of Mine: Siege Survival
+Source Film: This War of Mine (2014)
+Difficulty Rating: ★
+Suggested Players: 3–5
+Estimated Duration: 3–4 hrs / 1–2 sessions
+Prerequisite: None (suitable for newcomers to the Reincarnation cycle)
+Script Type: Survival / Resource Management</p>
+<hr /></section>
+<details class="gm"><summary>🎭 GM 限定：II. Plot Summary (GM Spoilers)</summary><h2>II. Plot Summary (GM Spoilers)</h2>
+<h3>One-Line Summary</h3>
+<blockquote>
+<p>The fictional Eastern European city of Pogoren is trapped in a civil-war siege. Supplies are scarce, snipers hold the high ground, rebels loot at will, and hunger and disease are deadlier than bullets. The Reincarnators are trapped in an abandoned apartment and must cooperate with other survivors to endure 30 days of siege until a ceasefire is signed.</p>
+</blockquote>
+<h3>Full Plot Background</h3>
+<p>A siege is another kind of hell — no mutant monsters, no aliens; the enemy is human nature and scarcity. Food, medicine, fuel, drinking water — every basic survival resource is desperately scarce. By day, snipers force you indoors or into tunnels. By night you may go out for supplies — but at the risk of being discovered by rebels, blown up by a mine, or even forced to steal or rob other survivors. Every moral choice has consequences.</p>
+<h3>Story Structure Type</h3>
+<p><strong>Hybrid</strong>: fully free — a 30-day day–night cycle. By day manage the camp (cooking, crafting medicine, building, interacting with survivors); by night go out to explore (each night pick a destination for resource gathering or a mission). After 30 days a ceasefire arrives; surviving is victory.</p>
+<hr /></details>
+<section class="chap"><h2>III. Lord God's Mission</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mission Brief</td>
+<td>"Survive inside the siege for 30 days. Keep at least 2 survivors (including yourself) alive until the ceasefire is signed. Time limit: 30 days."</td>
+</tr>
+<tr>
+<td>Main Objective</td>
+<td>Survive 30 days inside the siege until the ceasefire is signed</td>
+</tr>
+<tr>
+<td>Mission Reward</td>
+<td>D+1500</td>
+</tr>
+<tr>
+<td>Failure Condition</td>
+<td>Total party wipe / fewer than 2 survivors remaining (started with 4)</td>
+</tr>
+<tr>
+<td>Failure Penalty</td>
+<td>Erasure</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>① Collect 30 days of food (1 ration/person/day = 120 total needed): 60 rations +300, 120 rations +D1 <br>② Rescue other trapped survivors: +400 per extra person taken in, max 2</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>IV. Side Quests</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-01</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Military Supply Depot</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Night exploration of the marked military warehouse on the map</td>
+</tr>
+<tr>
+<td>Quest Detail</td>
+<td>Sneak into a rebel-occupied military warehouse (Agility + Stealth, group DC3). Can obtain large amounts of military food (30 rations), medicine, and weapons. But discovery triggers rebel reinforcements.</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Within one night (must return before 05:00)</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>1000</td>
+</tr>
+<tr>
+<td>Relation to Main Plot</td>
+<td>Support — greatly eases food pressure</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Warehouse has 4 Rebels ×4 on patrol + 1 Military Dog ×1 (Perception DC4 to bypass)</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-02</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Save the Children</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>At night, hearing children crying in the abandoned school</td>
+</tr>
+<tr>
+<td>Quest Detail</td>
+<td>3 orphans hide in the school basement; their guardian died in the bombing. You may bring them back to camp — adding 3 mouths (daily food +3 rations), but they may find useful things.</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Must decide before dawn</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>800</td>
+</tr>
+<tr>
+<td>Relation to Main Plot</td>
+<td>Support — if brought back, gain substantial moral RP and special child events</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Children can do simple chores to help the camp (+1 action choice/day), but cannot fight or go out at night</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-03</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Sniper's Nest</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Night infiltration of a large downtown building</td>
+</tr>
+<tr>
+<td>Quest Detail</td>
+<td>The building's 5th floor is a sniper stronghold. Eliminating the sniper (must climb from inside) yields a military sniper rifle (2d12, 400m range) + high-magnification scope + military radio.</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>The sniper changes position every 2 rounds</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>900</td>
+</tr>
+<tr>
+<td>Relation to Main Plot</td>
+<td>Support — gains a long-range weapon and military comms (intel on bombings and rebel movement)</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>After clearing the sniper, the area becomes safe by day too — free movement in daylight</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>V. World Setting</h2>
+<h3>Timeline</h3>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Day 1</td>
+<td>Awaken in the abandoned apartment. Meet 3 other survivors.</td>
+</tr>
+<tr>
+<td>Day 3</td>
+<td>First bombing wave — some buildings damaged. Supply demand spikes.</td>
+</tr>
+<tr>
+<td>Day 7</td>
+<td>First contact with the outside world (radio receives humanitarian aid message).</td>
+</tr>
+<tr>
+<td>Day 14</td>
+<td>Siege intensifies — rebels block all main roads. Food prices soar.</td>
+</tr>
+<tr>
+<td>Day 21</td>
+<td>Disease outbreak — some survivors fall ill. Medicine demand rises.</td>
+</tr>
+<tr>
+<td>Day 28</td>
+<td>Ceasefire rumors spread — but the last two days are the most dangerous (rebels launch a final assault before talks).</td>
+</tr>
+<tr>
+<td>Day 30</td>
+<td>Ceasefire officially signed — script cleared.</td>
+</tr>
+</tbody>
+</table>
+<h3>Key Locations</h3>
+<h4>Location: Abandoned Apartment (Start / Base)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Abandoned Apartment (Start / Base)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A middle-class apartment from before the war, now only a concrete shell. Windows boarded with planks; a rocket-shell hole in the wall — just big enough for one person to crawl through.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Basic facilities: stove (cooking + warmth), beds (rest/recovery), workbench (craft tools/weapons), radio (outside info).</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Initially safe inside. But at night rebels have a 30% chance to knock and inspect — must hide supplies or pay "protection."</td>
+</tr>
+<tr>
+<td>Links to Other Locations</td>
+<td>Outside apartment → street (dangerous — snipers by day). Basement → tunnel entrance to other parts of the city.</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>EM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location: Military Warehouse (Optional Night Target)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Military Warehouse (Optional Night Target)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Concrete warehouse, barbed-wire fence, sweeping searchlights. Rebels store loot plundered from humanitarian aid here.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Large food stock (30 rations), military medicine (antibiotics ×5, morphine ×2), weapons (AK rifle ×2 1d10, ammo crates).</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>4 Rebels ×4 on patrol (rifle 1d10, grenade 3d6) + 1 Military Dog ×1 (Perception DC4 to avoid detection).</td>
+</tr>
+<tr>
+<td>Links to Other Locations</td>
+<td>After successful infiltration, return → camp. Failure → rebels may chase back to camp.</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>WM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location: Abandoned School (Optional Night Target)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Abandoned School (Optional Night Target)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>An elementary school hit on the west side by a rocket. Classroom desks were arranged as a makeshift shelter — now empty. Only the basement still holds a faint sound.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Triggers S-02 (3 children), school storage (stationery/paper — usable as fuel), infirmary (first-aid kit ×2).</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>2 Rebels ×2 may be scavenging the school — 30% chance of encounter. Basement is safe, but the children must be escorted out.</td>
+</tr>
+<tr>
+<td>Links to Other Locations</td>
+<td>After rescue, return → camp (with or without the children).</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>WM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location: Downtown Building (Optional Night Target)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Downtown Building (Optional Night Target)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A ten-story office tower used by snipers as a vantage point. Above the 5th floor the hit rate is extreme — anyone near a window is a target.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Triggers S-03 (clear the sniper), office supplies (computer parts sellable to black-market merchants), rooftop supplies.</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>1 Sniper ×1 (Base Defense 14, HP 25) holds the 5th floor. Floors 1–4 inside have 1 Rebel ×1 on patrol.</td>
+</tr>
+<tr>
+<td>Links to Other Locations</td>
+<td>If you can clear the sniper: sneak up and ambush → get the weapon; a direct attack risks casualties. After the sniper is cleared the area is safe.</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>BM-02</td>
+</tr>
+</tbody>
+</table>
+<h4>Location: Ceasefire Rally Point (Extraction Point — opens Day 30)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Ceasefire Rally Point (Extraction Point — opens Day 30)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>The city square. White UN peacekeeper vehicles sit at its center. Journalists, cameras, and haggard but hopeful civilians approach from all sides. The snipers no longer fire — it is real; the war is over.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>UN medical station (free treatment), food distribution point, ceasefire signing ceremony.</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>None (safe zone — ceasefire in effect).</td>
+</tr>
+<tr>
+<td>Links to Other Locations</td>
+<td>Reaching the square → script cleared.</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>WM-01</td>
+</tr>
+</tbody>
+</table>
+<h3>World Special Rules</h3>
+<ul>
+<li><strong>Day–Night Cycle</strong>: Daytime (06:00–18:00) you must stay indoors — snipers outside (going out requires Agility + Stealth DC4 or be sniped for 3d10). Nighttime (18:00–06:00) you may go out, but you have only one night and must return before dawn.</li>
+<li><strong>Resource System</strong>: Food (1 ration/person/day; shortage → cumulative DP-1), Medicine (untreated wound infects after 24h, DC3), Fuel (warmth + cooking; 2 rations/day in winter), Building Materials (repair house + build workbench). All resources gathered at night or traded with black-market merchants.</li>
+<li><strong>Morality System</strong>: Each choice accumulates a morality value. Stealing from survivors → -10 morality (at cumulative -30 all suffer Resolve DC3 or mental trauma). Helping others → +10 morality (at +50 gain "Hope" bonus: all DP+1 for 3 days).</li>
+<li><strong>Weather</strong>: Days 1–10 autumn (normal), Days 11–20 winter (fuel demand ×2, disease risk +30%), Days 21–30 spring (back to normal but rebels' final assault).</li>
+</ul>
+<h3>Lord God Restrictions</h3>
+<ul>
+<li>"Use of tech weapons beyond the 1990s is forbidden" — civil-war era setting.</li>
+<li>"Killing other civilian survivors in self-defense deducts 500/person (self-defense exempt with just cause)."</li>
+<li>"Do not go out by day — a forced rule. Violators suffer sniper fire 3d10 (no save)."</li>
+</ul>
+<h3>Visual Map System</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Code</th>
+<th>Content</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wide-area Map</td>
+<td>WM-01</td>
+<td>The entire besieged city of Pogoren, 5 km², including apartment, warehouse, school, downtown building, ceasefire point</td>
+<td><code>maps/FIRE_WM-01.svg</code></td>
+</tr>
+<tr>
+<td>Exploration Map</td>
+<td>EM-01</td>
+<td>Apartment camp interior layout — room functions, basement passage</td>
+<td><code>maps/FIRE_EM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-01</td>
+<td>Military warehouse (14×10) — infiltration challenge</td>
+<td><code>maps/FIRE_BM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-02</td>
+<td>Downtown building sniper stronghold (12×8)</td>
+<td><code>maps/FIRE_BM-02.svg</code></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VI. Characters &amp; Enemy Units (managed in separate Excel)</h2>
+<blockquote>
+<p>⚠️ NPC and enemy unit data are in the separate Excel files below:
+- <strong>NPC Roster</strong>: <code>FIRE_NPC名冊.xlsx</code>
+- <strong>Enemy Unit Roster</strong>: <code>FIRE_敵方單位名冊.xlsx</code></p>
+<p>Both Excel files contain a "Roster" sheet and a "Blank Template" sheet; the first column is reserved for the character portrait.</p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>VII. Key Scenes</h2>
+<h3>Scene Structure</h3>
+<p>Phase 1: free exploration to gather supplies and intel. Phase 2: advance key missions scene by scene.</p>
+<hr />
+<h4>Scene S01: Siege Dawn</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S01</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Siege Dawn</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Start of Day 1</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"The first thing you feel on waking is cold — not winter cold, but concrete cold. Cracks run through the apartment walls; grey sky beyond the window. Distant explosions — mortar rounds falling on the other end of the city. Three figures huddle in a corner: a young couple and a middle-aged worker. They look at you: 'Another survivor?' Your wristwatch lights up silently: '30 days. At least 2 must survive.'"</td>
+</tr>
+<tr>
+<td>Interactable Elements</td>
+<td>Dialogue with the three survivors (learn the situation), search the apartment (basic supplies), radio (outside info).</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>No immediate threat.</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td>None (guidance phase — survival management begins).</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Gather supplies immediately → prep for the first night; learn about the other survivors first → gain their skill info.</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Complete initial camp setup.</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S02: The First Night</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S02</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>The First Night</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Night of Day 1</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"After the sun sets, the city enters another state. Through a gap in the boarded window you see the street outside — scattered flares, patrolling rebels, collapsed buildings. The radio says a storm will hit late tonight — perhaps the best cover. Ready your backpack."</td>
+</tr>
+<tr>
+<td>Interactable Elements</td>
+<td>Choose a night destination (military warehouse / abandoned school / supermarket / residence / downtown building), equipment prep (weapons, medicine, empty backpack capacity).</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>On the way out: 30% random encounter with 1 Rebel ×1 patrol (Agility + Stealth DC2 to bypass); 10% mine (Perception DC3 to spot).</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td>None (prep phase).</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Go to different destinations → trigger corresponding scenes. Stay at camp → safest but no supply gain.</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Choose and travel to a night destination.</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S03: Military Warehouse</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S03</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Military Warehouse</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Arrive at the military warehouse at night</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"Searchlights cut the night sky, but you already hide in the shadows beyond the wire. Two rebels warm themselves by a fire barrel at the warehouse entrance — lucky they're talking, or they'd hear your heartbeat."</td>
+</tr>
+<tr>
+<td>Interactable Elements</td>
+<td>Barbed wire (need bolt cutters or Agility + Athletics DC2 to climb), warehouse door (locked — Intellect + Lockpick DC3 or Strength DC4 to break), supply pile.</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>4 Rebels ×4 patrol route (move to different positions every 2 rounds) + 1 Military Dog ×1 (Perception DC2 to spot early and toss food to divert).</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td>Infiltration pressure: Genetic Lock Tier 1 (Resolve DC2) — Agility DP+3, silent movement (Stealth DC-2).</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Successful infiltration → large supplies; discovered → flee or fight (rebel reinforcements arrive in 1 round).</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Return to camp before dawn (success or not).</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S04: School Basement</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S04</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>School Basement</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Arrive at the abandoned school at night</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"Moonlight illuminates the school corridor — every classroom door stands open, desks scattered on the floor. Small footprints lead down the stairs to the basement. Faint sobbing rises from below."</td>
+</tr>
+<tr>
+<td>Interactable Elements</td>
+<td>Triggers S-02, school storage, infirmary.</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>30% chance of 2 Rebels ×2 scavenging inside. Basement is safe — 3 children, the oldest about 11, holding his 4-year-old brother.</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td>Communicating with the children: Presence + Persuasion DC2 to earn their trust.</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Bring back to camp → adds warmth and special events; leave at school → give food and leave (still gain partial reward points).</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Return to camp before dawn (with or without children).</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S05: The Sniper's Eye</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S05</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>The Sniper's Eye</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Arrive at the downtown building at night</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"The building still stands after many shellings. Its interior is intact, but the elevator shaft is open — from the 5th floor you can see straight to the street. A corpse lies by the window, a sniper rifle and scope before it. But the gun is gone — the sniper is still up there."</td>
+</tr>
+<tr>
+<td>Interactable Elements</td>
+<td>Triggers S-03 — clear the sniper, search the building for supplies.</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Floors 1–4: 1 Rebel ×1 patrol. 5th floor: 1 Sniper ×1 + 1 Spotter ×1 (pistol 1d8).</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td>Facing the sniper: Genetic Lock Tier 1 (Resolve DC2) — ranged DP+3. If spotted by the sniper, its first shot automatically has initiative.</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Ambush from inside → safest; advance from outside using cover → high risk; use observation dead angles → needs Intellect + Tactics DC3.</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Sniper cleared or chose to retreat.</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S06: Winter Arrives</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S06</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Winter Arrives</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Auto-triggers on Day 11</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"The day the first snowflake fell, everyone went silent. Winter means one thing — more will die, not by shellfire but by freezing and starvation. Fuel turns from 'needed' to 'essential' — those without heat won't survive nights of minus 15 degrees."</td>
+</tr>
+<tr>
+<td>Interactable Elements</td>
+<td>Fuel gathering (wood ×4 or kerosene ×2 per day demand), warm-clothing crafting (cloth + needlework), extra food demand (cold raises calorie burn +50%).</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Winter: disease risk +30% (frostbite, pneumonia); every 3 days without enough fuel → Endurance DC3 or 2d4 + attribute -1.</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td>Environmental adversity: Genetic Lock Tier 1 (Resolve DC2) — cold resistance +3 (can reduce fuel need by 1 ration).</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Gather fuel with all effort → protect everyone; prioritize some → moral dilemma of who gets enough heat.</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Survive the 11-day winter (Days 11–21).</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S07: The Day of Ceasefire</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S07</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>The Day of Ceasefire</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Dawn of Day 30</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"At 04:00 the radio suddenly falls silent from its crackling battle report — then an unfamiliar voice: '...all parties have signed the ceasefire. Effective: today 06:00. Repeat: the ceasefire is signed.' Everyone in the apartment first dares not believe it, then begins to weep. But it is not yet time to celebrate — the last dawn is the most dangerous: rebels will launch a final assault before the talks."</td>
+</tr>
+<tr>
+<td>Interactable Elements</td>
+<td>Final preparations (light packing), keep monitoring the radio, plan the route to the ceasefire rally point.</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Last 2 hours (04:00–06:00): rebels' final assault — random shelling (30% chance every 10 min) may hit the apartment (Agility + Perception DC3 warning).</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td>Final sprint: Genetic Lock Tier 1 (Resolve DC2) — whole party movement speed +10ft.</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Stay in apartment until 06:00 → safe but passive; set out early for the square → may meet the last wave of rebels.</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>06:00 — ceasefire takes effect — script cleared.</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VIII. Multi-Team Rules</h2>
+<blockquote>
+<p>This script does not involve multi-team competition. This section is left blank.</p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>IX. Reward Settlement</h2>
+<table>
+<thead>
+<tr>
+<th>Reward Type</th>
+<th>Content</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main Clear</td>
+<td>Survive 30 days inside the siege until the ceasefire is signed</td>
+<td>D+1500</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>① Collect 30 days of food (1 ration/person/day = 120 total): 60 rations +300, 120 rations +D1 <br>② Rescue other trapped survivors: +400 per extra person, max 2</td>
+<td>800–1500</td>
+</tr>
+<tr>
+<td>Side S-01</td>
+<td>Military Supply Depot</td>
+<td>1000</td>
+</tr>
+<tr>
+<td>Side S-02</td>
+<td>Save the Children</td>
+<td>800</td>
+</tr>
+<tr>
+<td>Side S-03</td>
+<td>Sniper's Nest</td>
+<td>900</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Normal enemy (each)</td>
+<td>25</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Elite / Boss</td>
+<td>50 (Sniper) reward points</td>
+</tr>
+<tr>
+<td>Exploration Reward</td>
+<td>Discover all key locations</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Special Achievement</td>
+<td>Full survival (initial 4 + any taken-in survivors all alive)</td>
+<td>400</td>
+</tr>
+<tr>
+<td>Special Achievement</td>
+<td>Saint (morality +50 or above)</td>
+<td>300</td>
+</tr>
+<tr>
+<td>Roleplay</td>
+<td>At GM's discretion</td>
+<td>0–300</td>
+</tr>
+</tbody>
+</table>
+<h3>Theoretical Maximum Gain</h3>
+<blockquote>
+<p>Main: D×1 + 1500
+S-01: 1000 / S-02: 800 / S-03: 900
+Optional ① (120 rations of food): D×1 + 300
+Optional ② (take in 2 people): 800
+Kills (~8 rebels + 2 snipers) ≈ 300
+Exploration: 100 / Achievements: 700 / : 300</p>
+</blockquote>
+<p>= D2 + 5600</p>
+<h3>Return Exchange (script-limited)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Item</th>
+<th>Cost (Side + Reward Points)</th>
+<th>Effect</th>
+<th>Growth Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>Radio Operation</td>
+<td>D+500</td>
+<td>Skill: intercept military / militia comms; +2 intel in armed-conflict scenes</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Siege Survival Skill</td>
+<td>D+500</td>
+<td>Skill: +2 survival checks in war environments; stealth less likely to alert garrison</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Humanitarian Spirit</td>
+<td>D+500</td>
+<td>Modification (passive): +2 dealing with any faction's survivors; reduces "misdeed" will penalty</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Sniper Mastery</td>
+<td>C+1000</td>
+<td>Skill: sniper rifle Hit +2, first-shot weak-point damage +1d4</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Black-Market Network</td>
+<td>C+1000</td>
+<td>Skill: unlock any settlement black market; 10% discount on trades</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Siege Commander Bloodline</td>
+<td>C+1000</td>
+<td>Bloodline: command defense battles; own Base Defense +1; +2 morale checks for whole party when leading</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Scorched-Earth Title</td>
+<td>C+1000</td>
+<td>Title: +10% siege settlement reward; +1 success rate on "guardian" type missions</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>X. Appendix</h2>
+<ul>
+<li><strong>Maps</strong>: See <code>maps/</code> for <code>FIRE_WM-01.svg</code>, <code>FIRE_EM-01.svg</code>, <code>FIRE_BM-01.svg</code>, <code>FIRE_BM-02.svg</code></li>
+<li><strong>Special Rules Supplement</strong>:</li>
+<li><strong>Day–Night Cycle</strong>: Daytime (06:00–18:00) must stay indoors — snipers outside (going out requires Agility + Stealth DC4 or be sniped for 3d10). Nighttime (18:00–06:00) may go out, but must return before dawn.</li>
+<li><strong>Resource System</strong>: Food (1 ration/person/day; shortage → cumulative DP-1), Medicine (untreated wound infects after 24h, DC3), Fuel (warmth + cooking; 2 rations/day in winter), Building Materials (repair house + build workbench). All resources gathered at night or traded with black-market merchants.</li>
+<li><strong>GM Memo</strong>:</li>
+<li><strong>Common Stuck Points</strong>: Players may be overly cautious. Fix — apply time pressure or have NPCs actively request help.</li>
+<li><strong>Difficulty Up</strong>: enemy count ×1.5, key check DC+1.</li>
+<li><strong>Difficulty Down</strong>: enemy count ×0.7, key check DC-1.</li>
+<li><strong>Unconventional Player Actions</strong>: if players use unconventional tactics, judge their reasonableness and apply fitting consequences.</li>
+<li><strong>References</strong>: Source material for <em>This War of Mine</em> (2014).</li>
+</ul>
+<hr />
+<blockquote>
+<p><strong>Script Code</strong>: FIRE
+<strong>Version</strong>: v1.0
+<strong>Format Spec</strong>: v0.4</p>
+</blockquote></section></section>
+    <section class="block"><h2>地圖（YAML＋SVG）</h2><div class="map">
+              <div class="maptitle">FIRE_BM-01 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="680" height="420" fill="#1a1a2e"/>
+<rect x="20" y="20" width="640" height="380" fill="url(#grid)"/>
+<rect x="20" y="20" width="640" height="380" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="340.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Military Warehouse - Infiltration Challenge</text>
+<text x="25" y="412" fill="#666" font-size="9">FIRE_BM-01 | 14×10grid (concept) | 1 grid = 5ft | total 70×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="177.5" y="15" text-anchor="middle" fill="#555" font-size="7">11</text>
+<text x="192.5" y="15" text-anchor="middle" fill="#555" font-size="7">12</text>
+<text x="207.5" y="15" text-anchor="middle" fill="#555" font-size="7">13</text>
+<text x="222.5" y="15" text-anchor="middle" fill="#555" font-size="7">14</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="40.0" y="40.0" width="420.0" height="5.0" rx="5" fill="#667" stroke="" stroke-width=""/>
+<text x="250.0" y="38.5" text-anchor="middle" fill="#aaa" font-size="8">Rebel x2</text>
+<text x="250.0" y="52.5" text-anchor="middle" fill="#666" font-size="6">(70.0, 2.5)ft</text>
+<rect x="40.0" y="335.0" width="420.0" height="5.0" rx="5" fill="#667" stroke="" stroke-width=""/>
+<rect x="40.0" y="40.0" width="5.0" height="300.0" rx="3" fill="#667" stroke="" stroke-width=""/>
+<rect x="455.0" y="40.0" width="5.0" height="300.0" rx="3" fill="#667" stroke="" stroke-width=""/>
+<text x="457.5" y="186.0" text-anchor="middle" fill="#aaa" font-size="8">Rebel x1</text>
+<text x="457.5" y="200.0" text-anchor="middle" fill="#666" font-size="6">(142.5, 50.0)ft</text>
+<rect x="80.0" y="60.0" width="160.0" height="60.0" rx="3" fill="#2a2a30" stroke="#555" stroke-width="1.5"/>
+<text x="160.0" y="86.0" text-anchor="middle" fill="#aaa" font-size="8">Food Storage Zone</text>
+<text x="160.0" y="100.0" text-anchor="middle" fill="#666" font-size="6">(42.5, 15.0)ft</text>
+<rect x="380.0" y="60.0" width="160.0" height="60.0" rx="3" fill="#2a2a30" stroke="#555" stroke-width="1.5"/>
+<text x="460.0" y="86.0" text-anchor="middle" fill="#aaa" font-size="8">Ordnance Storage</text>
+<text x="460.0" y="100.0" text-anchor="middle" fill="#666" font-size="6">(142.5, 15.0)ft</text>
+<rect x="250.0" y="200.0" width="120.0" height="40.0" rx="5" fill="#2e1a3e" stroke="#8B5CF6" stroke-width="1.5"/>
+<text x="310.0" y="216.0" text-anchor="middle" fill="#aaa" font-size="8">Warehouse Core</text>
+<text x="310.0" y="230.0" text-anchor="middle" fill="#666" font-size="6">(90.0, 62.5)ft</text>
+<rect x="250.0" y="280.0" width="120.0" height="12.0" rx="5" fill="#FFAA00" stroke="#886600" stroke-width="1.5"/>
+<text x="310.0" y="282.0" text-anchor="middle" fill="#aaa" font-size="8">Barbed Wire Fence</text>
+<text x="310.0" y="296.0" text-anchor="middle" fill="#666" font-size="6">(90.0, 82.5)ft</text>
+<rect x="250.0" y="275.0" width="120.0" height="5.0" rx="5" fill="#00FF88" stroke="#00FF88" stroke-width="1.5"/>
+<text x="310.0" y="273.5" text-anchor="middle" fill="#aaa" font-size="8">Warehouse Entrance</text>
+<text x="310.0" y="287.5" text-anchor="middle" fill="#666" font-size="6">(90.0, 82.5)ft</text>
+<polygon points="490.0,372.0 510.0,380.0 490.0,388.0" fill="#00FF88"/>
+<text x="505.0" y="394.0" fill="#00FF88" font-size="8">Player Entrance</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/en/maps/FIRE_BM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/en/maps/FIRE_BM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">FIRE_BM-02 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="680" height="420" fill="#1a1a2e"/>
+<rect x="20" y="20" width="640" height="380" fill="url(#grid)"/>
+<rect x="20" y="20" width="640" height="380" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="340.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Downtown Buildings - Sniper Stronghold</text>
+<text x="25" y="412" fill="#666" font-size="9">FIRE_BM-02 | 12×8grid (concept) | 1 grid = 5ft | total 60×40ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="177.5" y="15" text-anchor="middle" fill="#555" font-size="7">11</text>
+<text x="192.5" y="15" text-anchor="middle" fill="#555" font-size="7">12</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<rect x="40.0" y="40.0" width="360.0" height="5.0" rx="5" fill="#667" stroke="" stroke-width=""/>
+<rect x="40.0" y="275.0" width="360.0" height="5.0" rx="5" fill="#667" stroke="" stroke-width=""/>
+<rect x="40.0" y="40.0" width="5.0" height="240.0" rx="3" fill="#667" stroke="" stroke-width=""/>
+<rect x="395.0" y="40.0" width="5.0" height="240.0" rx="3" fill="#667" stroke="" stroke-width=""/>
+<rect x="200.0" y="300.0" width="200.0" height="50.0" rx="5" fill="#1a2a30" stroke="#555" stroke-width="1.5"/>
+<text x="300.0" y="321.0" text-anchor="middle" fill="#aaa" font-size="8">1-4FStairwell</text>
+<text x="300.0" y="335.0" text-anchor="middle" fill="#666" font-size="6">(87.5, 92.5)ft</text>
+<rect x="250.0" y="180.0" width="100.0" height="60.0" rx="3" fill="#301520" stroke="#EF4444" stroke-width="1.5"/>
+<text x="300.0" y="206.0" text-anchor="middle" fill="#aaa" font-size="8">5FSniper Position</text>
+<text x="300.0" y="220.0" text-anchor="middle" fill="#666" font-size="6">(87.5, 55.0)ft</text>
+<rect x="500.0" y="80.0" width="60.0" height="40.0" rx="3" fill="#2a2a30" stroke="#555" stroke-width="1.5"/>
+<text x="530.0" y="96.0" text-anchor="middle" fill="#aaa" font-size="8">Observer</text>
+<text x="530.0" y="110.0" text-anchor="middle" fill="#666" font-size="6">(165.0, 22.5)ft</text>
+<rect x="250.0" y="175.0" width="100.0" height="5.0" rx="5" fill="#00FF88" stroke="#00FF88" stroke-width="1.5"/>
+<text x="300.0" y="173.5" text-anchor="middle" fill="#aaa" font-size="8">Eliminate Sniper</text>
+<text x="300.0" y="187.5" text-anchor="middle" fill="#666" font-size="6">(87.5, 47.5)ft</text>
+<polygon points="110.0,392.0 130.0,400.0 110.0,408.0" fill="#00FF88"/>
+<text x="125.0" y="414.0" fill="#00FF88" font-size="8">Player Entrance</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/en/maps/FIRE_BM-02.yaml" download>yaml</a> <a href="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/en/maps/FIRE_BM-02.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">FIRE_EM-01 <span class="maptype">探索地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<rect width="800" height="600" fill="#1a1a2e"/>
+<text x="400.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">Exploration Map</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 1</text>
+<rect x="20" y="0.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="800.0" height="600.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<rect x="15.0" y="60.0" width="770.0" height="150.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="400.0" y="135.0" text-anchor="middle" fill="#aaa" font-size="9">Rest / Recovery</text>
+<rect x="25.0" y="75.0" width="100.0" height="60.0" rx="3.0" fill="#1a1030" stroke="#6D28D9" stroke-width="1.5"/>
+<text x="75.0" y="105.0" text-anchor="middle" fill="#aaa" font-size="9">Living Room</text>
+<rect x="160.0" y="75.0" width="80.0" height="60.0" rx="3.0" fill="#1a2a30" stroke="#3B82F6" stroke-width="1.5"/>
+<text x="200.0" y="105.0" text-anchor="middle" fill="#aaa" font-size="9">Workbench</text>
+<rect x="280.0" y="75.0" width="80.0" height="60.0" rx="3.0" fill="#301520" stroke="#EF4444" stroke-width="1.5"/>
+<text x="320.0" y="105.0" text-anchor="middle" fill="#aaa" font-size="9">Kitchen</text>
+<rect x="400.0" y="75.0" width="70.0" height="60.0" rx="3.0" fill="#1a2a20" stroke="#10B981" stroke-width="1.5"/>
+<text x="435.0" y="105.0" text-anchor="middle" fill="#aaa" font-size="9">Beds</text>
+<rect x="510.0" y="75.0" width="90.0" height="60.0" rx="3.0" fill="#162040" stroke="#F59E0B" stroke-width="1.5"/>
+<text x="555.0" y="105.0" text-anchor="middle" fill="#aaa" font-size="9">Basement Entrance</text>
+<text x="20" y="245.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 2</text>
+<rect x="20" y="250.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="15.0" y="250.0" width="770.0" height="35.0" rx="3.0" fill="#111" stroke="#333" stroke-width="1.5"/>
+<rect x="83.0" y="261.0" width="14.0" height="12.0" rx="0.0" fill="#EF4444" stroke="#EF4444" stroke-width="1"/>
+<text x="90.0" y="267.0" text-anchor="middle" fill="#aaa" font-size="9">Danger Zone</text>
+<rect x="143.0" y="261.0" width="14.0" height="12.0" rx="0.0" fill="#F59E0B" stroke="#F59E0B" stroke-width="1"/>
+<text x="150.0" y="267.0" text-anchor="middle" fill="#aaa" font-size="9">Passage</text>
+<rect x="193.0" y="261.0" width="14.0" height="12.0" rx="0.0" fill="#3B82F6" stroke="#3B82F6" stroke-width="1"/>
+<text x="200.0" y="267.0" text-anchor="middle" fill="#aaa" font-size="9">Side Quest</text>
+<rect x="243.0" y="261.0" width="14.0" height="12.0" rx="0.0" fill="#10B981" stroke="#10B981" stroke-width="1"/>
+<text x="250.0" y="267.0" text-anchor="middle" fill="#aaa" font-size="9">Supplies</text>
+<rect x="20" y="545" width="760" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="570" fill="#aaa" font-size="9">Start</text>
+<text x="205" y="570" fill="#aaa" font-size="9">Start</text>
+<text x="375" y="570" fill="#aaa" font-size="9">Danger Zone</text>
+<text x="545" y="570" fill="#aaa" font-size="9">FIRE_EM-01 | Exploration Map</text>
+<text x="20" y="590" fill="#666" font-size="9">FIRE_EM-01 | Exploration Map </text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/en/maps/FIRE_EM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/en/maps/FIRE_EM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">FIRE_WM-01 <span class="maptype">世界地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="800" height="600" fill="url(#wmgrid)"/>
+<line x1="80.0" y1="380.0" x2="720.0" y2="380.0" stroke="#555" stroke-width="6"/>
+<line x1="400.0" y1="80.0" x2="400.0" y2="520.0" stroke="#555" stroke-width="3"/>
+<line x1="150.0" y1="200.0" x2="650.0" y2="200.0" stroke="#555" stroke-width="2"/>
+<line x1="100.0" y1="480.0" x2="680.0" y2="120.0" stroke="#555" stroke-width="1"/>
+<rect x="110.0" y="420.0" width="80.0" height="60.0" rx="5" fill="#2e1a3e" stroke="#8B5CF6" stroke-width="2"/>
+<text x="150.0" y="450.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Abandoned Apartment</text>
+<rect x="280.0" y="430.0" width="70.0" height="40.0" rx="5" fill="#2e1a3e" stroke="#8B5CF6" stroke-width="2"/>
+<text x="315.0" y="450.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Military Warehouse</text>
+<rect x="480.0" y="350.0" width="70.0" height="40.0" rx="5" fill="#1a2a30" stroke="#3B82F6" stroke-width="2"/>
+<text x="515.0" y="370.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Abandoned School</text>
+<rect x="380.0" y="250.0" width="80.0" height="40.0" rx="5" fill="#301520" stroke="#EF4444" stroke-width="2"/>
+<text x="420.0" y="270.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Downtown Buildings</text>
+<line x1="190.0" y1="450.0" x2="375.0" y2="410.0" stroke="#FF4444" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="375.0" y1="410.0" x2="600.0" y2="100.0" stroke="#FF4444" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="635.0" y1="515.0" x2="665.0" y2="515.0" stroke="#FF4444" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<ellipse cx="300.0" cy="350.0" rx="80.0" ry="60.0" fill="#FF0000" opacity="0.1" stroke="#FF4444" stroke-width="1"/>
+<text x="340.0" y="350.0" fill="#FF4444" font-size="9">Sniper Zone</text>
+<ellipse cx="500.0" cy="280.0" rx="70.0" ry="50.0" fill="#FF0000" opacity="0.1" stroke="#FF4444" stroke-width="1"/>
+<text x="535.0" y="280.0" fill="#FF4444" font-size="9">Rebel Stronghold</text>
+<ellipse cx="200.0" cy="120.0" rx="60.0" ry="40.0" fill="#FF0000" opacity="0.1" stroke="#FF4444" stroke-width="1"/>
+<text x="230.0" y="120.0" fill="#FF4444" font-size="9">Bombing Zone</text>
+<circle cx="150.0" cy="475.0" r="4.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="150.0" cy="475.0" r="4.0" fill="none" stroke="" stroke-width="2"/>
+<text x="150.0" y="466.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ (Start)</text>
+<circle cx="600.0" cy="100.0" r="18.0" fill="none" stroke="#00FF88" stroke-width="2" stroke-dasharray="4,2"/>
+<text x="600.0" y="77.0" text-anchor="middle" fill="#00FF88" font-size="10" font-weight="bold">★ ★ Extraction Point</text>
+<circle cx="600.0" cy="100.0" r="7.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="600.0" cy="100.0" r="7.0" fill="none" stroke="" stroke-width="2"/>
+<text x="600.0" y="88.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ ★ Extraction Point</text>
+<circle cx="642.0" cy="558.0" r="5.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="642.0" cy="558.0" r="5.0" fill="none" stroke="" stroke-width="2"/>
+<text x="642.0" y="548.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Extraction Point</text>
+<circle cx="642.0" cy="575.0" r="4.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="642.0" cy="575.0" r="4.0" fill="none" stroke="" stroke-width="2"/>
+<text x="642.0" y="566.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Start</text>
+<rect x="630" y="20" width="150" height="110" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="705" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Legend</text>
+<text x="640" y="60" fill="#aaa" font-size="9">Ceasefire Rally Point</text>
+<text x="640" y="76" fill="#aaa" font-size="9">Extraction Route</text>
+<text x="640" y="92" fill="#aaa" font-size="9">Danger Zone</text>
+<text x="640" y="108" fill="#aaa" font-size="9">Extraction Point</text>
+<text x="640" y="124" fill="#aaa" font-size="9">Start</text>
+<text x="20" y="585" fill="#666" font-size="9">FIRE_WM-01 | Wide-area Map | Siege Bogrun - Wide-area Map</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/en/maps/FIRE_WM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/en/maps/FIRE_WM-01.svg" download>svg</a></p>
+            </div></section>
+    <section class="block"><h2>概念圖</h2><div class="gallery"><a href="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/images/enemy_01_sniper.png" target="_blank"><img src="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/images/enemy_01_sniper.png" alt="enemy_01_sniper.png"></a><a href="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/images/npc_01_bruno.png" target="_blank"><img src="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/images/npc_01_bruno.png" alt="npc_01_bruno.png"></a><a href="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/images/scene_01_apartment.png" target="_blank"><img src="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/images/scene_01_apartment.png" alt="scene_01_apartment.png"></a><a href="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/images/scene_S02_第一夜.png" target="_blank"><img src="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/images/scene_S02_第一夜.png" alt="scene_S02_第一夜.png"></a><a href="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/images/scene_S03_軍用倉庫.png" target="_blank"><img src="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/images/scene_S03_軍用倉庫.png" alt="scene_S03_軍用倉庫.png"></a><a href="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/images/scene_S04_學校地下室.png" target="_blank"><img src="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/images/scene_S04_學校地下室.png" alt="scene_S04_學校地下室.png"></a><a href="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/images/scene_S05_狙擊手之眼.png" target="_blank"><img src="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/images/scene_S05_狙擊手之眼.png" alt="scene_S05_狙擊手之眼.png"></a><a href="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/images/scene_S06_寒冬來臨.png" target="_blank"><img src="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/images/scene_S06_寒冬來臨.png" alt="scene_S06_寒冬來臨.png"></a><a href="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/images/scene_S07_停火之日.png" target="_blank"><img src="../../assets/scripts/L1/FIRE-ThisWarofM-圍城求生/images/scene_S07_停火之日.png" alt="scene_S07_停火之日.png"></a></div></section>
+    </main>
+<footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

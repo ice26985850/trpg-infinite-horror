@@ -1,0 +1,31 @@
+map_id: OUTCAST_EM-01
+map_type: exploration
+scenario: 'Under One Person·Rakuten Daejeon / The Outcast: Luo Tian Grand Ceremony'
+tier: L3
+difficulty: ★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: Dragon Tiger Mountain — Rakuten Daejeon Venue
+description: ''
+floors:
+- name: Floor 1
+  y: 80.0
+  rooms:
+  - bounds:
+    - 100.0
+    - 80.0
+    - 600.0
+    - 420.0
+    name: '[S04-Universal Nest]'
+    fill: '#1a1a3e'
+    stroke: '#3a3a6e'
+    stroke_width: '2'
+    rx: 5.0
+connections: []
+legend:
+- Safe Zone/Starting point
+- Danger Zone/Battle Zone
+notes: []

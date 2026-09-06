@@ -1,0 +1,60 @@
+map_id: AVERNUS_WM-01
+map_type: world
+scenario: 'Baldur''s Gate: Descent into Avernus'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: Avernus, Layer 1 of the Nine Hells — Baldur's Gate Panorama
+description: ''
+scale: Schematic
+regions:
+- bounds:
+  - 200.0
+  - 50.0
+  - 400.0
+  - 150.0
+  fill: '#0d1a1a'
+  stroke: '#10B981'
+  name: Temple District (Start)
+- bounds:
+  - 200.0
+  - 250.0
+  - 400.0
+  - 150.0
+  fill: '#1a1505'
+  stroke: '#F59E0B'
+  name: Lower City (Explore/Combat)
+- bounds:
+  - 200.0
+  - 450.0
+  - 400.0
+  - 100.0
+  fill: '#1a0505'
+  stroke: '#EF4444'
+  name: City Edge Portal (Final)
+roads: []
+routes:
+- x1: 400.0
+  y1: 200.0
+  x2: 400.0
+  y2: 250.0
+  stroke: '#C084FC'
+  stroke_width: '2'
+  dashed: true
+- x1: 400.0
+  y1: 400.0
+  x2: 400.0
+  y2: 450.0
+  stroke: '#C084FC'
+  stroke_width: '2'
+  dashed: true
+danger_zones: []
+landmarks: []
+legend:
+- Legend
+- Arrow = Recommended Route
+- Red Zone = Final Goal

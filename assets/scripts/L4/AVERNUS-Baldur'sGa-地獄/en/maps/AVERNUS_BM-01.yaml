@@ -1,0 +1,198 @@
+map_id: AVERNUS_BM-01
+map_type: battle
+scenario: 'Baldur''s Gate: Descent into Avernus'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 640
+- 480
+title: BM-01 Temple District Defense
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 160.0
+  - 200.0
+  - 120.0
+  - 80.0
+  name: Ward Core
+  fill: '#10B98122'
+  stroke: '#10B981'
+  stroke_width: '2'
+  bounds_grid:
+  - 9
+  - 12
+  - 8
+  - 5
+  center_ft:
+  - 65.0
+  - 72.5
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 80.0
+  - 80.0
+  name: Player Start
+  fill: none
+  stroke: '#00FF88'
+  stroke_width: '2'
+  bounds_grid:
+  - 1
+  - 1
+  - 5
+  - 5
+  center_ft:
+  - 17.5
+  - 17.5
+- bounds_px:
+  - 360.0
+  - 80.0
+  - 80.0
+  - 40.0
+  name: Wave 1 Breach Point
+  fill: none
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 23
+  - 4
+  - 5
+  - 3
+  center_ft:
+  - 127.5
+  - 27.5
+- bounds_px:
+  - 360.0
+  - 280.0
+  - 80.0
+  - 40.0
+  name: Wave 2 Breach Point
+  fill: none
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 23
+  - 17
+  - 5
+  - 3
+  center_ft:
+  - 127.5
+  - 92.5
+- bounds_px:
+  - 160.0
+  - 360.0
+  - 120.0
+  - 40.0
+  name: Great Hall Door
+  fill: '#F59E0B22'
+  stroke: '#F59E0B'
+  stroke_width: '2'
+  bounds_grid:
+  - 9
+  - 23
+  - 8
+  - 3
+  center_ft:
+  - 65.0
+  - 122.5
+- bounds_px:
+  - 400.0
+  - 160.0
+  - 80.0
+  - 80.0
+  name: Altar
+  fill: '#3B82F644'
+  stroke: '#3B82F6'
+  stroke_width: '1'
+  bounds_grid:
+  - 25
+  - 9
+  - 5
+  - 5
+  center_ft:
+  - 137.5
+  - 57.5
+- bounds_px:
+  - 40.0
+  - 200.0
+  - 80.0
+  - 80.0
+  name: Pews (Cover)
+  fill: '#66644'
+  stroke: '#666'
+  stroke_width: '1'
+  bounds_grid:
+  - 1
+  - 12
+  - 5
+  - 5
+  center_ft:
+  - 17.5
+  - 72.5
+- bounds_px:
+  - 40.0
+  - 320.0
+  - 80.0
+  - 80.0
+  name: Pews (Cover)
+  fill: '#66644'
+  stroke: '#666'
+  stroke_width: '1'
+  bounds_grid:
+  - 1
+  - 20
+  - 5
+  - 5
+  center_ft:
+  - 17.5
+  - 112.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: Ward Core
+  to: Player Start
+  distance_ft: 72.7
+- from: Ward Core
+  to: Wave 1 Breach Point
+  distance_ft: 77.0
+- from: Ward Core
+  to: Wave 2 Breach Point
+  distance_ft: 65.6
+- from: Ward Core
+  to: Great Hall Door
+  distance_ft: 50.0
+- from: Ward Core
+  to: Altar
+  distance_ft: 74.0
+- from: Ward Core
+  to: Pews (Cover)
+  distance_ft: 47.5
+- from: Ward Core
+  to: Pews (Cover)
+  distance_ft: 62.1
+- from: Player Start
+  to: Wave 1 Breach Point
+  distance_ft: 110.5
+- from: Player Start
+  to: Wave 2 Breach Point
+  distance_ft: 133.1
+- from: Player Start
+  to: Great Hall Door
+  distance_ft: 115.2

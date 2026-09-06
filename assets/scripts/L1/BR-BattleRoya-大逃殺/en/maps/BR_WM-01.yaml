@@ -1,0 +1,164 @@
+map_id: BR_WM-01
+map_type: world
+scenario: Battle Royale / Battle Royale (BR)
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: Lonely Island
+description: ''
+scale: Schematic
+regions:
+- bounds:
+  - 310.0
+  - 280.0
+  - 80.0
+  - 60.0
+  fill: '#2e1a3e'
+  stroke: '#8B5CF6'
+  name: School Hall
+- bounds:
+  - 550.0
+  - 150.0
+  - 40.0
+  - 30.0
+  fill: '#1a2a30'
+  stroke: '#3B82F6'
+  name: Lighthouse
+- bounds:
+  - 610.0
+  - 140.0
+  - 30.0
+  - 20.0
+  fill: '#162040'
+  stroke: '#F59E0B'
+  name: Comms Tower
+- bounds:
+  - 90.0
+  - 380.0
+  - 60.0
+  - 50.0
+  fill: '#1a2a2a'
+  stroke: '#888'
+  name: Abandoned Fishing Village
+- bounds:
+  - 440.0
+  - 360.0
+  - 30.0
+  - 20.0
+  fill: '#2a2a2a'
+  stroke: '#888'
+  name: Military Bunker
+roads: []
+routes: []
+danger_zones:
+- center:
+  - 350.0
+  - 320.0
+  rx: 280.0
+  ry: 200.0
+  name: (S01 Start)
+  fill: '#1a2a1a'
+  stroke: '#2a4a2a'
+- center:
+  - 350.0
+  - 320.0
+  rx: 280.0
+  ry: 200.0
+  name: (S01 Start)
+  fill: none
+  stroke: '#4a6a4a'
+- center:
+  - 350.0
+  - 500.0
+  rx: 150.0
+  ry: 35.0
+  name: Beach - Final Battlefield
+  fill: '#2a2a1a'
+  stroke: '#F59E0B'
+- center:
+  - 350.0
+  - 310.0
+  rx: 100.0
+  ry: 80.0
+  name: School Hall
+  fill: '#FF0000'
+  stroke: '#EF4444'
+- center:
+  - 180.0
+  - 220.0
+  rx: 90.0
+  ry: 60.0
+  name: "Forbidden Zone B-2 (Day 1 16:00)"
+  fill: '#FF0000'
+  stroke: '#EF4444'
+- center:
+  - 350.0
+  - 480.0
+  rx: 120.0
+  ry: 40.0
+  name: "Forbidden Zone C-3 (Day 1 22:00)"
+  fill: '#FF0000'
+  stroke: '#EF4444'
+- center:
+  - 250.0
+  - 340.0
+  rx: 70.0
+  ry: 45.0
+  name: "Forbidden Zone D-4 (Day 2 06:00)"
+  fill: '#FF0000'
+  stroke: '#EF4444'
+- center:
+  - 520.0
+  - 280.0
+  rx: 60.0
+  ry: 45.0
+  name: "Forbidden Zone E-5 (Day 2 16:00)"
+  fill: '#FF0000'
+  stroke: '#EF4444'
+- center:
+  - 220.0
+  - 200.0
+  rx: 100.0
+  ry: 60.0
+  name: "Forbidden Zone F-6 (Day 2 22:00)"
+  fill: '#FF0000'
+  stroke: '#EF4444'
+- center:
+  - 35.0
+  - 60.0
+  rx: 12.0
+  ry: 6.0
+  name: Forbidden Zone
+  fill: '#FF0000'
+  stroke: '#EF4444'
+landmarks:
+- center:
+  - 350.0
+  - 332.0
+  radius: 4.0
+  name: (S01 Start)
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 350.0
+  - 525.0
+  radius: 5.0
+  name: Beach - Final Battlefield
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 34.0
+  - 122.0
+  radius: 5.0
+  name: Extraction Point / Safe Zone
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+legend:
+- Lighthouse

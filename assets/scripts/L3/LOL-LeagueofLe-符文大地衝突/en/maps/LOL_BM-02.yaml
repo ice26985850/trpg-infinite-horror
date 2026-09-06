@@ -1,0 +1,181 @@
+map_id: LOL_BM-02
+map_type: battle
+scenario: 'League of Legends·Rune Earth Clash / League of Legends: Runeterra Conflict'
+tier: L3
+difficulty: ★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: LOL_BM-02 Battle Map
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 30.0
+  - 30.0
+  - 740.0
+  - 540.0
+  name: ''
+  fill: none
+  stroke: '#4a4a7e'
+  stroke_width: '2'
+  bounds_grid:
+  - 1
+  - 1
+  - 49
+  - 36
+  center_ft:
+  - 127.5
+  - 95.0
+- bounds_px:
+  - 40.0
+  - 400.0
+  - 120.0
+  - 160.0
+  name: Player Start Zone
+  fill: '#00FF88'
+  stroke: '#00FF88'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 1
+  - 25
+  - 8
+  - 11
+  center_ft:
+  - 25.0
+  - 152.5
+- bounds_px:
+  - 600.0
+  - 40.0
+  - 160.0
+  - 120.0
+  name: Enemy infestation zone
+  fill: '#FF4444'
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 39
+  - 1
+  - 11
+  - 8
+  center_ft:
+  - 222.5
+  - 25.0
+- bounds_px:
+  - 150.0
+  - 200.0
+  - 120.0
+  - 30.0
+  name: Trench
+  fill: '#3a2a4e'
+  stroke: '#6a4a8e'
+  stroke_width: '1'
+  bounds_grid:
+  - 9
+  - 12
+  - 8
+  - 2
+  center_ft:
+  - 65.0
+  - 65.0
+- bounds_px:
+  - 400.0
+  - 100.0
+  - 80.0
+  - 50.0
+  name: Crushed Stone Pile
+  fill: '#3a2a4e'
+  stroke: '#6a4a8e'
+  stroke_width: '1'
+  bounds_grid:
+  - 25
+  - 5
+  - 5
+  - 3
+  center_ft:
+  - 137.5
+  - 32.5
+- bounds_px:
+  - 500.0
+  - 300.0
+  - 80.0
+  - 60.0
+  name: Burning wreckage
+  fill: '#3a2a4e'
+  stroke: '#6a4a8e'
+  stroke_width: '1'
+  bounds_grid:
+  - 32
+  - 19
+  - 5
+  - 4
+  center_ft:
+  - 172.5
+  - 105.0
+- bounds_px:
+  - 250.0
+  - 400.0
+  - 60.0
+  - 80.0
+  name: Siege Ladder
+  fill: '#3a2a4e'
+  stroke: '#6a4a8e'
+  stroke_width: '1'
+  bounds_grid:
+  - 15
+  - 25
+  - 4
+  - 5
+  center_ft:
+  - 85.0
+  - 137.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: ''
+  to: Player Start Zone
+  distance_ft: 117.5
+- from: ''
+  to: Enemy infestation zone
+  distance_ft: 118.0
+- from: ''
+  to: Trench
+  distance_ft: 69.3
+- from: ''
+  to: Crushed Stone Pile
+  distance_ft: 63.3
+- from: ''
+  to: Burning wreckage
+  distance_ft: 46.1
+- from: ''
+  to: Siege Ladder
+  distance_ft: 60.1
+- from: Player Start Zone
+  to: Enemy infestation zone
+  distance_ft: 235.1
+- from: Player Start Zone
+  to: Trench
+  distance_ft: 96.2
+- from: Player Start Zone
+  to: Crushed Stone Pile
+  distance_ft: 164.5
+- from: Player Start Zone
+  to: Burning wreckage
+  distance_ft: 155.0

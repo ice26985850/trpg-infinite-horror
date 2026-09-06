@@ -1,0 +1,169 @@
+map_id: METRO_WM-01
+map_type: world
+scenario: 'Metro 2033: Dark Tunnels / Metro 2033: Dark Tunnels'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: Moscow Metro — Route Map
+description: ''
+scale: METRO_WM-01 | Wide-area Map | 1 grid ~ 5m
+regions:
+- bounds:
+  - 60.0
+  - 420.0
+  - 80.0
+  - 60.0
+  fill: '#2e1a3e'
+  stroke: '#8B5CF6'
+  name: VDNKh Station
+- bounds:
+  - 280.0
+  - 430.0
+  - 80.0
+  - 50.0
+  fill: '#1a2a30'
+  stroke: '#3B82F6'
+  name: Commercial District Station
+- bounds:
+  - 480.0
+  - 380.0
+  - 80.0
+  - 50.0
+  fill: '#301520'
+  stroke: '#EF4444'
+  name: Nazi Zone
+- bounds:
+  - 380.0
+  - 260.0
+  - 80.0
+  - 50.0
+  fill: '#2e1a3e'
+  stroke: '#8B5CF6'
+  name: Arsenal
+roads:
+- x1: 80.0
+  y1: 350.0
+  x2: 720.0
+  y2: 350.0
+  stroke: '#555'
+  stroke_width: '6'
+  dashed: false
+- x1: 400.0
+  y1: 80.0
+  x2: 400.0
+  y2: 520.0
+  stroke: '#555'
+  stroke_width: '6'
+  dashed: false
+- x1: 150.0
+  y1: 200.0
+  x2: 650.0
+  y2: 200.0
+  stroke: '#555'
+  stroke_width: '3'
+  dashed: false
+- x1: 250.0
+  y1: 450.0
+  x2: 550.0
+  y2: 150.0
+  stroke: '#555'
+  stroke_width: '2'
+  dashed: false
+routes:
+- x1: 140.0
+  y1: 450.0
+  x2: 390.0
+  y2: 410.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+- x1: 390.0
+  y1: 410.0
+  x2: 680.0
+  y2: 100.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+- x1: 635.0
+  y1: 515.0
+  x2: 665.0
+  y2: 515.0
+  stroke: '#FF4444'
+  stroke_width: '2'
+  dashed: true
+danger_zones:
+- center:
+  - 250.0
+  - 350.0
+  rx: 60.0
+  ry: 40.0
+  name: Stalker Nest
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 500.0
+  - 280.0
+  rx: 70.0
+  ry: 50.0
+  name: Nazi Controlled Zone
+  fill: '#FF0000'
+  stroke: '#FF4444'
+- center:
+  - 350.0
+  - 100.0
+  rx: 60.0
+  ry: 40.0
+  name: Demon Domain
+  fill: '#FF0000'
+  stroke: '#FF4444'
+landmarks:
+- center:
+  - 100.0
+  - 475.0
+  radius: 4.0
+  name: (Start)
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 680.0
+  - 100.0
+  radius: 18.0
+  name: ★ Extraction Point
+  fill: none
+  stroke: '#00FF88'
+  dashed: true
+- center:
+  - 680.0
+  - 100.0
+  radius: 7.0
+  name: ★ Extraction Point
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 558.0
+  radius: 5.0
+  name: Extraction Point
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+- center:
+  - 642.0
+  - 575.0
+  radius: 4.0
+  name: Start Point
+  fill: '#00FF88'
+  stroke: ''
+  dashed: false
+legend:
+- Polis Station
+- Extraction Route
+- Danger Area
+- Extraction Point
+- Start Point

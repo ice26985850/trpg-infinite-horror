@@ -1,0 +1,1186 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Half-Life: Black Mesa Escape | HL-黑山逃離 | Infinite Terror TRPG Scripts</title>
+<link rel="stylesheet" href="../../assets/style.css"></head>
+<body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../../index.html">中文</a></header>
+<div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
+<main class="container"><h1>Half-Life: Black Mesa Escape</h1>
+    <p class="meta">Code: HL-黑山逃離 ｜ Source: Half-Life (1998) ｜ Difficulty: ★ ｜ Players: 3–5 ｜ Duration: 3–4 hrs / 1–2 sessions ｜ Type: Survival / Escape</p>
+    <p class="nav"><a href="../../index.html">← 劇本總覽</a> ｜ <a href="../../assets/scripts/L1/HL-黑山逃離/en/HL_劇本.md" download>劇本 MD</a> ｜ <a href="../../assets/scripts/L1/HL-黑山逃離/en/HL_NPC名冊.xlsx" download>NPC 名冊</a> ｜ <a href="../../assets/scripts/L1/HL-黑山逃離/en/HL_敵方單位名冊.xlsx" download>敵方名冊</a> ｜ <a href="../../assets/L1_HL-黑山逃離_all_en.zip">下載全部（zip）</a></p>
+    <section class="block content"><section class="chap"><h2>一、基本資訊</h2>
+<p>Script Title: Half-Life: Black Mesa Escape
+Source Film: Half-Life (1998)
+Difficulty Rating: ★
+Suggested Players: 3–5
+Estimated Duration: 3–4 hrs / 1–2 sessions
+Prerequisites: None (suitable for newcomers to the Reincarnation cycle)
+Script Type: Survival / Escape</p>
+<hr /></section>
+<details class="gm"><summary>🎭 GM 限定：II. Story Overview (GM Only)</summary><h2>II. Story Overview (GM Only)</h2>
+<h3>One-Line Summary</h3>
+<blockquote>
+<p>Deep within the Black Mesa Research Facility in New Mexico, a resonance cascade experiment tears open a dimensional rift. Alien creatures from the border world Xen invade, and the military seals the facility to eliminate all witnesses. The Reincarnators must traverse labs, ventilation ducts, and military blockades to escape alive.</p>
+</blockquote>
+<h3>Full Story Background</h3>
+<p>The Black Mesa resonance cascade disaster occurs exactly as the Reincarnators enter. The facility instantly becomes an alien hunting ground and a target of the military's cover-up purge. The only way out: cross the chaotic facility, avoid the Marines' indiscriminate sweep, and reach the surface evacuation point before the full nuclear detonation.</p>
+<h3>Story Structure Type</h3>
+<p><strong>Hybrid:</strong> free exploration of the lab area in the first half to gather weapons and intel, then act-by-act progression crossing the military blockade in the second half.</p>
+<hr /></details>
+<section class="chap"><h2>III. Lord God Mission</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mission Brief</td>
+<td>"Before Black Mesa is destroyed by the nuke, reach the surface Lambda Lab evacuation point. Time limit: 24 hours."</td>
+</tr>
+<tr>
+<td>Main Mission</td>
+<td>Escape Black Mesa within 24 hours and reach the Lambda Lab evacuation point</td>
+</tr>
+<tr>
+<td>Mission Reward</td>
+<td>D+1200</td>
+</tr>
+<tr>
+<td>Failure Condition</td>
+<td>Total party wipe / failing to reach the evacuation point within 24 hours / captured by the military</td>
+</tr>
+<tr>
+<td>Failure Penalty</td>
+<td>Erasure</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>① Rescue scientists: +150 each, max 5 <br>② Close the dimensional rift: INT + Tech, DC4; success grants D1</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>IV. Side Quests</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest ID</td>
+<td>S-01</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Particle Accelerator Restart</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Enter the anomalous materials lab</td>
+</tr>
+<tr>
+<td>Objective</td>
+<td>Restart the particle accelerator to stabilize the dimensional rift (INT + Tech, DC4), stopping further alien invasion</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Within 4 hours</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>800</td>
+</tr>
+<tr>
+<td>Relation to Main Mission</td>
+<td>Supportive — reduces subsequent alien encounters by 50%</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Must first clear the headcrabs and barnacles in the lab</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest ID</td>
+<td>S-02</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Armory Unlock</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Arrive at the security center computer room</td>
+</tr>
+<tr>
+<td>Objective</td>
+<td>Hack the security system (INT + Computer, DC3) to open the armory and obtain military weapons</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>500</td>
+</tr>
+<tr>
+<td>Relation to Main Mission</td>
+<td>Supportive — obtain heavy-fire weapons</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Marines patrol the armory. MP5 ×2 (1d8), Shotgun ×1 (2d6)</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest ID</td>
+<td>S-02</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Trapped Scientist Squad</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Explore the materials science lab</td>
+</tr>
+<tr>
+<td>Objective</td>
+<td>A squad of 3 scientists is trapped in the observation room; the door lock is broken and headcrabs are in the vents. Clear 5 headcrabs and repair the door lock</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Scientists have 2 hours of oxygen left</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>600</td>
+</tr>
+<tr>
+<td>Relation to Main Mission</td>
+<td>Supportive — +3 scientists counted toward optional ①</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Led by Dr. Rosenberg, who can provide shortcut info about the facility</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>V. World Setting</h2>
+<h3>Timeline</h3>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T+0</td>
+<td>Resonance cascade. Reincarnators awaken in the test lab observation room</td>
+</tr>
+<tr>
+<td>T+2</td>
+<td>Military arrives, seals all exits</td>
+</tr>
+<tr>
+<td>T+6</td>
+<td>Alien invasion intensifies, multiple cave-ins</td>
+</tr>
+<tr>
+<td>T+12</td>
+<td>Marines begin indiscriminate cleanup</td>
+</tr>
+<tr>
+<td>T+18</td>
+<td>Military declares "full decontamination" — prepares to detonate the nuke</td>
+</tr>
+<tr>
+<td>T+24</td>
+<td>Nuke detonation countdown hits zero</td>
+</tr>
+</tbody>
+</table>
+<h3>Key Locations</h3>
+<h4>Location: Observation Room (Starting Point)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Observation Room (Starting Point)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Test lab observation room; monitors show the test chamber in chaos — green lightning, floating debris. Alarms scream.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>HEV Suit ×1 (+2 base DEF, built-in flashlight), first-aid station</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>1 headcrab in the corridor</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>Leads to test chamber → Sector B labs</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>EM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location: Anomalous Materials Lab</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Anomalous Materials Lab</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A massive ring-shaped particle accelerator occupies the entire space. Strange sounds echo from beneath the grating floor.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Particle accelerator console (S-01), toolbox (crowbar ×1, 1d6)</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>3 headcrabs + 2 barnacles (ceiling)</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>Leads to Sector C materials lab, Sector D security center</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>EM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location: Materials Science Lab</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Materials Science Lab</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>The observation room glass is shattered; scientists are trapped inside. Headcrab hisses come from the vents.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>High-energy laser (1d10 fire), S-03 trigger point</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>5 headcrabs in the vents</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>Returns to anomalous materials lab</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>EM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location: Security Center</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Security Center</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A monitoring room; displays show every sector of the facility. Marines are advancing.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Computer terminal (S-02), armory door (requires hacking), surveillance system</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>2 patrolling Marines (M4 rifle, 1d10)</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>Leads to the start of the evacuation route</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>BM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location: Lambda Lab (Evacuation Point)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Lambda Lab (Evacuation Point)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Deep within the high-energy physics lab, a massive dimensional portal emits green light. It is the door to Xen — and the way home.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Portal control system, final supply crate</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>4 Marines block the portal; 3 barnacles on the ceiling</td>
+</tr>
+<tr>
+<td>Connections</td>
+<td>Enter the portal → cleared</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>BM-02</td>
+</tr>
+</tbody>
+</table>
+<h3>World Special Rules</h3>
+<ul>
+<li><strong>Resonance Field:</strong> Some areas have a resonance field (green flash); entering requires an END check DC3 to avoid 2d6 radiation damage.</li>
+<li><strong>Ventilation System:</strong> The facility is threaded with ventilation ducts (AGI + Stealth, DC2) that bypass most enemies.</li>
+<li><strong>Scarce Supplies:</strong> The facility's standard weapons are limited (crowbar, pistol); heavy weapons must be captured from Marines.</li>
+<li><strong>Structural Collapse:</strong> After T+12, each hour has a 20% chance of a sector cave-in (AGI + Athletics, DC3, to avoid).</li>
+</ul>
+<h3>Lord God Restrictions</h3>
+<ul>
+<li>"Forbidden to reveal the existence of the Lord God Space to story characters."</li>
+<li>"This world forbids tech items from after 1998."</li>
+<li>"Killing an innocent scientist costs 200 each."</li>
+</ul>
+<h3>Visual Map System</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>ID</th>
+<th>Content</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>World Map</td>
+<td>WM-01</td>
+<td>Black Mesa facility floor plan and surrounding area, with evacuation route</td>
+<td><code>maps/HL_WM-01.svg</code></td>
+</tr>
+<tr>
+<td>Exploration Map</td>
+<td>EM-01</td>
+<td>Exploration map of Sectors B–D, with each lab and the security center</td>
+<td><code>maps/HL_EM-01.svg</code></td>
+</tr>
+<tr>
+<td>Combat Map</td>
+<td>BM-01</td>
+<td>Security center armory (14×10)</td>
+<td><code>maps/HL_BM-01.svg</code></td>
+</tr>
+<tr>
+<td>Combat Map</td>
+<td>BM-02</td>
+<td>Lambda Lab portal area (12×8)</td>
+<td><code>maps/HL_BM-02.svg</code></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VI. Characters &amp; Enemy Units (Managed Separately in Excel)</h2>
+<blockquote>
+<p>⚠️ For NPC and enemy unit data, see the following standalone Excel files:
+- <strong>NPC Roster</strong>: <code>HL_NPC名冊.xlsx</code>
+- <strong>Enemy Unit Roster</strong>: <code>HL_敵方單位名冊.xlsx</code></p>
+<p>Both Excel files contain two sheets — "Roster" and "Blank Template" — with the first column reserved for the character art.</p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>VII. Key Scenes</h2>
+<h3>Scene Structure</h3>
+<p>Phase One: free exploration to gather supplies and intel. Phase Two: act-by-act progression of key missions.</p>
+<hr />
+<h4>Scene S01: Resonance Disaster</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S01</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Resonance Disaster</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Script start</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"The test chamber glass suddenly shatters. Green arcs burst from the particle accelerator's core, and agonized screams echo from the lab corridor. Your watch lights up: '24 hours. Lambda Lab.' Footsteps — not human — skitter from the vent."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>HEV suit (+2 base DEF), first-aid station, communicator to contact other scientists</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>1 headcrab in the corridor. Firing draws 3 more.</td>
+</tr>
+<tr>
+<td>Gene Lock</td>
+<td>None (guidance phase)</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Explore immediately → S02; check communicator → obtain facility map</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Leave the observation room</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S02: Anomalous Materials</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S02</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Anomalous Materials</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Enter the anomalous materials lab</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"The accelerator emits an unstable hum. The control panel blinks red. You see a scientist's corpse hanging from the ceiling — not hanged, but caught by some mucus-covered tongue."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Console (S-01), toolbox, security door (requires engineer password)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>3 headcrabs + 2 barnacles (ceiling, 20 ft high)</td>
+</tr>
+<tr>
+<td>Gene Lock</td>
+<td>Barnacles require stealth bypass or ranged kill. Gene Lock Stage 1 (RES DC2) grants +2 hit DP</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>To materials lab → S03; to security center → S04</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Choose direction</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S03: Scientist Rescue</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S03</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Scientist Rescue</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Arrive at the materials lab</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"The observation room glass is shattered. Through the crack you see three scientists — they've barricaded the vent with desks, but headcrabs are squeezing in through the joints."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Dialogue with Dr. Rosenberg, console, vent entrance</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>5 headcrabs in the vents. Quick action allows a preemptive strike.</td>
+</tr>
+<tr>
+<td>Gene Lock</td>
+<td>Enclosed-space combat: Gene Lock Stage 1 (RES DC2), +2 Attack DP, +3 Initiative</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Rescue all → gain shortcut info and +3 scientists; fail → lose everything</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Complete rescue or choose to abandon</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S04: The Armory Fight</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S04</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>The Armory Fight</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Arrive at the security center</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"Surveillance screens show Marines advancing floor by floor. A soldier's voice comes over the communicator: 'Target is to eliminate all witnesses — including staff.' They're here."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Computer terminal (S-02 hack), surveillance system, armory</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>2 patrolling Marines (M4, base DEF 12, HP 25), 60% chance of reinforcements arriving within 1 round</td>
+</tr>
+<tr>
+<td>Gene Lock</td>
+<td>High Marine threat: Gene Lock Stage 1 (RES DC3), +3 Initiative, +2 damage</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Frontal assault → high risk but can capture weapons; stealth bypass → save ammo</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Obtain armory supplies</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S05: Military Blockade</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S05</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Military Blockade</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>On the way to the Lambda Lab</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"Concrete roadblocks and machine-gun emplacements appear at the corridor corner. 'This is a restricted zone! Anyone who approaches will be shot on sight!'"</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Roadblock (clearable with grenades), vent detour, elevator shaft</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>4 Marines (2 rifle + 2 shotgun), 1 auto gun turret (3d6/round)</td>
+</tr>
+<tr>
+<td>Gene Lock</td>
+<td>Gun turret needs quick handling: Gene Lock Stage 1 (RES DC3), +3 AGI check DP</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Frontal breakthrough → fastest but high casualty risk; vent stealth → 2 hours but safe; elevator shaft → dangerous but may reach directly</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Break through the blockade</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S06: Nuke Countdown</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S06</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Nuke Countdown</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Announced over the broadcast system after T+18</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"Facility broadcast: 'Emergency notice. Nuclear device activated, detonation in T-6 hours. All personnel evacuate immediately.' Concrete begins falling from the ceiling."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Evacuation route signs, final supply crate, emergency generator</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>After T+18, each hour 20% chance of sector cave-in (3d6 damage, DC3 to avoid) + patrolling aliens</td>
+</tr>
+<tr>
+<td>Gene Lock</td>
+<td>Time pressure and environmental threat: under high stress, Gene Lock Stage 2 (RES DC4), +2 to all checks but 1d4 mental damage per round</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Full sprint → may miss supplies; planned route → controlled but time-consuming</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Reach the Lambda Lab</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S07: The Portal Fight</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S07</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>The Portal Fight</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Arrive at the Lambda Lab</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"A massive circular portal emits green light. But 4 Marines stand before the door — their guns trained on the gateway. At least 3 barnacles hang from the ceiling."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Portal control (INT + Tech, DC3, to activate), cover (lab equipment)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>4 Marines + 3 barnacles. If the rift was closed earlier (S-01), aliens reduced by 2</td>
+</tr>
+<tr>
+<td>Gene Lock</td>
+<td>Final battle: Gene Lock Stage 1 (RES DC3), +2 Attack DP, +3 Initiative. Side effect: 2d4 mental damage</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Wipe all enemies → enter portal step by step; activate portal then sprint → may take hits but fastest</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Cross the portal, script cleared</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VIII. Multi-Team Competition Rules</h2>
+<blockquote>
+<p>This script does not involve multi-team competition. This section is intentionally left blank.</p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>IX. Reward Settlement</h2>
+<table>
+<thead>
+<tr>
+<th>Reward Type</th>
+<th>Content</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main Mission</td>
+<td>Escape Black Mesa within 24 hours, reach the Lambda Lab evacuation point</td>
+<td>D+1200</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>① Rescue scientists: +150 each, max 5 <br>② Close dimensional rift: INT + Tech, DC4, success grants D1</td>
+<td>800–1500</td>
+</tr>
+<tr>
+<td>Side S-01</td>
+<td>Side Quest One</td>
+<td>500</td>
+</tr>
+<tr>
+<td>Side S-02</td>
+<td>Side Quest Two</td>
+<td>500</td>
+</tr>
+<tr>
+<td>Side S-03</td>
+<td>Side Quest Three</td>
+<td>800</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Normal enemy (each)</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Elite / Boss</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Exploration Reward</td>
+<td>Discover all key locations</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Special Achievement</td>
+<td>Perfect Clear</td>
+<td>300</td>
+</tr>
+<tr>
+<td>Special Achievement</td>
+<td>Special Achievement</td>
+<td>200</td>
+</tr>
+<tr>
+<td>Roleplay</td>
+<td>At GM discretion</td>
+<td>0–300</td>
+</tr>
+</tbody>
+</table>
+<h3>Theoretical Maximum Yield</h3>
+<blockquote>
+<p>Main: D×1 + 1200
+Side total: ~2200
+Kill rewards: ~800
+Exploration / achievement / roleplay: ~800</p>
+<p>= D + ~5000</p>
+</blockquote>
+<h3>Return Exchange (Script-Exclusive)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Exchange Item</th>
+<th>Cost (Side + Reward Points)</th>
+<th>Effect</th>
+<th>Growth Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>HEV Armor Operation</td>
+<td>D+500</td>
+<td>Skill: pilot HEV powered armor, +2 base DEF, +5 max HP</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Xen Ecology Knowledge</td>
+<td>D+500</td>
+<td>Skill: +2 Investigation checks, identify Xen creature weaknesses</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Headcrab Parasite Resistance</td>
+<td>D+500</td>
+<td>Modification (passive): permanently immune to headcrab parasitism, +3 headshot-save DC</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Gravity Gun</td>
+<td>C+1000</td>
+<td>Item: manipulate "zero-point energy" to lift/launch heavy objects (2d6 STR damage)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Dimensional Teleport Knowledge</td>
+<td>C+1000</td>
+<td>Skill: decipher teleport devices, plan cross-dimensional routes (WIS +2)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Gordon-Class Engineering Bloodline</td>
+<td>C+1000</td>
+<td>Bloodline: physicist constitution, +2 to all science/engineering checks, +2 will in crisis</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Time Manager's Favor</td>
+<td>C+2000</td>
+<td>Privilege (passive): gain G-Man's gaze, once per battle "freeze time" for 2 rounds (self only)</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>X. Appendix</h2>
+<ul>
+<li><strong>Maps:</strong> See <code>maps/</code> directory: <code>HL_WM-01.svg</code>, <code>HL_EM-01.svg</code>, <code>HL_BM-01.svg</code>, <code>HL_BM-02.svg</code></li>
+<li><strong>Special Rules Supplement:</strong> — <strong>Resonance Field:</strong> some areas have a resonance field (green flash); entering requires END check DC3 to avoid 2d6 radiation damage.</li>
+<li><strong>Ventilation System:</strong> the facility is threaded with ventilation ducts (AGI + Stealth, DC2) that bypass most enemies.</li>
+<li><strong>Scarce Supplies:</strong> the facility's standard weapons are limited (crowbar, pistol); heavy weapons must be captured from Marines.</li>
+<li><strong>Structural Collapse:</strong> after T+12, each hour has a 20% chance of a sector cave-in (AGI + Athletics, DC3, to avoid)...</li>
+<li><strong>GM Memo:</strong></li>
+<li><strong>Common Stuck Points:</strong> Players may be overly cautious. Solution — apply time pressure or have NPCs actively request help.</li>
+<li><strong>Difficulty Up:</strong> Enemy count ×1.5, key check DC +1.</li>
+<li><strong>Difficulty Down:</strong> Enemy count ×0.7, key check DC -1.</li>
+<li><strong>Unconventional Player Actions:</strong> If players adopt unconventional strategies, assess reasonableness and apply corresponding consequences.</li>
+<li><strong>Reference Material:</strong> Half-Life (1998) and related source material.</li>
+</ul>
+<hr />
+<blockquote>
+<p><strong>Script Code:</strong> HL
+<strong>Version:</strong> v1.0
+<strong>Format Spec:</strong> v0.4</p>
+</blockquote></section></section>
+    <section class="block"><h2>地圖（YAML＋SVG）</h2><div class="map">
+              <div class="maptitle">HL_BM-01 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="680" height="420" fill="#1a1a2e"/>
+<rect x="20" y="20" width="640" height="380" fill="url(#grid)"/>
+<rect x="20" y="20" width="640" height="380" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="340.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Security Center Armory</text>
+<text x="25" y="412" fill="#666" font-size="9">HL_BM-01 | 14×10grid (concept) | 1 grid = 5ft | total 70×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="177.5" y="15" text-anchor="middle" fill="#555" font-size="7">11</text>
+<text x="192.5" y="15" text-anchor="middle" fill="#555" font-size="7">12</text>
+<text x="207.5" y="15" text-anchor="middle" fill="#555" font-size="7">13</text>
+<text x="222.5" y="15" text-anchor="middle" fill="#555" font-size="7">14</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="40.0" y="40.0" width="420.0" height="5.0" rx="5" fill="#667" stroke="" stroke-width=""/>
+<rect x="40.0" y="335.0" width="420.0" height="5.0" rx="5" fill="#667" stroke="" stroke-width=""/>
+<rect x="40.0" y="40.0" width="5.0" height="300.0" rx="3" fill="#667" stroke="" stroke-width=""/>
+<rect x="455.0" y="40.0" width="5.0" height="300.0" rx="3" fill="#667" stroke="" stroke-width=""/>
+<text x="457.5" y="186.0" text-anchor="middle" fill="#aaa" font-size="8">Reinforcements</text>
+<text x="457.5" y="200.0" text-anchor="middle" fill="#666" font-size="6">(142.5, 50.0)ft</text>
+<rect x="80.0" y="50.0" width="100.0" height="20.0" rx="5" fill="#FFAA00" stroke="#886600" stroke-width="1.5"/>
+<text x="130.0" y="56.0" text-anchor="middle" fill="#aaa" font-size="8">Military Barricade</text>
+<text x="130.0" y="70.0" text-anchor="middle" fill="#666" font-size="6">(32.5, 7.5)ft</text>
+<rect x="340.0" y="60.0" width="30.0" height="50.0" rx="3" fill="#334" stroke="#F59E0B" stroke-width="1.5"/>
+<text x="355.0" y="81.0" text-anchor="middle" fill="#aaa" font-size="8">Machine Gun Tower</text>
+<text x="355.0" y="95.0" text-anchor="middle" fill="#666" font-size="6">(105.0, 12.5)ft</text>
+<rect x="500.0" y="55.0" width="60.0" height="40.0" rx="3" fill="#1a2a30" stroke="#3B82F6" stroke-width="1.5"/>
+<text x="530.0" y="71.0" text-anchor="middle" fill="#aaa" font-size="8">Armory Door</text>
+<text x="530.0" y="85.0" text-anchor="middle" fill="#666" font-size="6">(165.0, 12.5)ft</text>
+<rect x="260.0" y="280.0" width="80.0" height="12.0" rx="5" fill="#FFAA00" stroke="#886600" stroke-width="1.5"/>
+<text x="300.0" y="282.0" text-anchor="middle" fill="#aaa" font-size="8">Defense Line</text>
+<text x="300.0" y="296.0" text-anchor="middle" fill="#666" font-size="6">(87.5, 82.5)ft</text>
+<rect x="500.0" y="55.0" width="60.0" height="5.0" rx="5" fill="#00FF88" stroke="#00FF88" stroke-width="1.5"/>
+<text x="530.0" y="53.5" text-anchor="middle" fill="#aaa" font-size="8">Armory</text>
+<text x="530.0" y="67.5" text-anchor="middle" fill="#666" font-size="6">(165.0, 7.5)ft</text>
+<polygon points="250.0,372.0 270.0,380.0 250.0,388.0" fill="#00FF88"/>
+<text x="265.0" y="394.0" fill="#00FF88" font-size="8">Player Entrance</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/HL-黑山逃離/en/maps/HL_BM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L1/HL-黑山逃離/en/maps/HL_BM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">HL_BM-02 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="680" height="420" fill="#1a1a2e"/>
+<rect x="20" y="20" width="640" height="380" fill="url(#grid)"/>
+<rect x="20" y="20" width="640" height="380" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="340.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">LambdaLaboratory Teleport Gate</text>
+<text x="25" y="412" fill="#666" font-size="9">HL_BM-02 | 12×8grid (concept) | 1 grid = 5ft | total 60×40ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="177.5" y="15" text-anchor="middle" fill="#555" font-size="7">11</text>
+<text x="192.5" y="15" text-anchor="middle" fill="#555" font-size="7">12</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<rect x="40.0" y="40.0" width="360.0" height="5.0" rx="5" fill="#667" stroke="" stroke-width=""/>
+<text x="220.0" y="38.5" text-anchor="middle" fill="#aaa" font-size="8">Barnacle</text>
+<text x="220.0" y="52.5" text-anchor="middle" fill="#666" font-size="6">(60.0, 2.5)ft</text>
+<rect x="40.0" y="275.0" width="360.0" height="5.0" rx="5" fill="#667" stroke="" stroke-width=""/>
+<rect x="40.0" y="40.0" width="5.0" height="240.0" rx="3" fill="#667" stroke="" stroke-width=""/>
+<rect x="395.0" y="40.0" width="5.0" height="240.0" rx="3" fill="#667" stroke="" stroke-width=""/>
+<rect x="250.0" y="200.0" width="100.0" height="60.0" rx="3" fill="#2a2a20" stroke="#10B981" stroke-width="1.5"/>
+<text x="300.0" y="226.0" text-anchor="middle" fill="#aaa" font-size="8">Teleport Gate</text>
+<text x="300.0" y="240.0" text-anchor="middle" fill="#666" font-size="6">(87.5, 65.0)ft</text>
+<rect x="80.0" y="80.0" width="60.0" height="40.0" rx="3" fill="#2a2a30" stroke="#555" stroke-width="1.5"/>
+<text x="110.0" y="96.0" text-anchor="middle" fill="#aaa" font-size="8">Instrument</text>
+<text x="110.0" y="110.0" text-anchor="middle" fill="#666" font-size="6">(25.0, 22.5)ft</text>
+<rect x="500.0" y="80.0" width="60.0" height="40.0" rx="3" fill="#2a2a30" stroke="#555" stroke-width="1.5"/>
+<text x="530.0" y="96.0" text-anchor="middle" fill="#aaa" font-size="8">Control Console</text>
+<text x="530.0" y="110.0" text-anchor="middle" fill="#666" font-size="6">(165.0, 22.5)ft</text>
+<rect x="250.0" y="195.0" width="100.0" height="5.0" rx="5" fill="#00FF88" stroke="#00FF88" stroke-width="1.5"/>
+<text x="300.0" y="193.5" text-anchor="middle" fill="#aaa" font-size="8">Enter Teleport Gate!</text>
+<text x="300.0" y="207.5" text-anchor="middle" fill="#666" font-size="6">(87.5, 52.5)ft</text>
+<polygon points="490.0,372.0 510.0,380.0 490.0,388.0" fill="#00FF88"/>
+<text x="505.0" y="394.0" fill="#00FF88" font-size="8">Player Entrance</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/HL-黑山逃離/en/maps/HL_BM-02.yaml" download>yaml</a> <a href="../../assets/scripts/L1/HL-黑山逃離/en/maps/HL_BM-02.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">HL_EM-01 <span class="maptype">探索地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<rect width="800" height="600" fill="#1a1a2e"/>
+<text x="400.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">Exploration Map</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 1</text>
+<rect x="20" y="0.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="800.0" height="600.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<text x="400.0" y="300.0" text-anchor="middle" fill="#aaa" font-size="9">C</text>
+<rect x="15.0" y="60.0" width="770.0" height="120.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="400.0" y="120.0" text-anchor="middle" fill="#aaa" font-size="9">B</text>
+<rect x="25.0" y="75.0" width="140.0" height="50.0" rx="3.0" fill="#301520" stroke="#EF4444" stroke-width="1.5"/>
+<text x="95.0" y="100.0" text-anchor="middle" fill="#aaa" font-size="9">Anomalous Matter Lab</text>
+<rect x="185.0" y="75.0" width="90.0" height="50.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width="1.5"/>
+<text x="230.0" y="100.0" text-anchor="middle" fill="#aaa" font-size="9">Observation Room</text>
+<rect x="295.0" y="75.0" width="100.0" height="50.0" rx="3.0" fill="#1a2a30" stroke="#3B82F6" stroke-width="1.5"/>
+<text x="345.0" y="100.0" text-anchor="middle" fill="#aaa" font-size="9">Control Room</text>
+<rect x="415.0" y="75.0" width="70.0" height="50.0" rx="3.0" fill="#162040" stroke="#F59E0B" stroke-width="1.5"/>
+<text x="450.0" y="100.0" text-anchor="middle" fill="#aaa" font-size="9">B</text>
+<text x="20" y="205.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 2</text>
+<rect x="20" y="210.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="15.0" y="210.0" width="770.0" height="100.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="400.0" y="260.0" text-anchor="middle" fill="#aaa" font-size="9">C</text>
+<rect x="25.0" y="225.0" width="120.0" height="45.0" rx="3.0" fill="#1a2a30" stroke="#3B82F6" stroke-width="1.5"/>
+<text x="85.0" y="247.5" text-anchor="middle" fill="#aaa" font-size="9">Materials Lab</text>
+<rect x="185.0" y="225.0" width="90.0" height="45.0" rx="3.0" fill="#1a1030" stroke="#555" stroke-width="1.5"/>
+<text x="230.0" y="247.5" text-anchor="middle" fill="#aaa" font-size="9">Observation RoomB</text>
+<rect x="415.0" y="225.0" width="70.0" height="45.0" rx="3.0" fill="#162040" stroke="#F59E0B" stroke-width="1.5"/>
+<text x="450.0" y="247.5" text-anchor="middle" fill="#aaa" font-size="9">C</text>
+<text x="20" y="345.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 3</text>
+<rect x="20" y="350.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="15.0" y="350.0" width="770.0" height="35.0" rx="3.0" fill="#111" stroke="#333" stroke-width="1.5"/>
+<rect x="83.0" y="361.0" width="14.0" height="12.0" rx="0.0" fill="#EF4444" stroke="#EF4444" stroke-width="1"/>
+<text x="90.0" y="367.0" text-anchor="middle" fill="#aaa" font-size="9">Danger Zone</text>
+<rect x="143.0" y="361.0" width="14.0" height="12.0" rx="0.0" fill="#F59E0B" stroke="#F59E0B" stroke-width="1"/>
+<text x="150.0" y="367.0" text-anchor="middle" fill="#aaa" font-size="9">Passage</text>
+<rect x="193.0" y="361.0" width="14.0" height="12.0" rx="0.0" fill="#3B82F6" stroke="#3B82F6" stroke-width="1"/>
+<text x="200.0" y="367.0" text-anchor="middle" fill="#aaa" font-size="9">Side Quest</text>
+<rect x="243.0" y="361.0" width="14.0" height="12.0" rx="0.0" fill="#10B981" stroke="#10B981" stroke-width="1"/>
+<text x="250.0" y="367.0" text-anchor="middle" fill="#aaa" font-size="9">Supplies</text>
+<rect x="20" y="545" width="760" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="570" fill="#aaa" font-size="9">Start</text>
+<text x="205" y="570" fill="#aaa" font-size="9">Danger Zone</text>
+<text x="375" y="570" fill="#aaa" font-size="9">HL_EM-01 | Exploration Map</text>
+<text x="20" y="590" fill="#666" font-size="9">HL_EM-01 | Exploration Map </text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/HL-黑山逃離/en/maps/HL_EM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L1/HL-黑山逃離/en/maps/HL_EM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">HL_WM-01 <span class="maptype">世界地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="800" height="600" fill="url(#wmgrid)"/>
+<line x1="100.0" y1="350.0" x2="700.0" y2="350.0" stroke="#555" stroke-width="6"/>
+<line x1="400.0" y1="80.0" x2="400.0" y2="520.0" stroke="#555" stroke-width="6"/>
+<line x1="200.0" y1="200.0" x2="600.0" y2="200.0" stroke="#555" stroke-width="3"/>
+<rect x="160.0" y="420.0" width="80.0" height="60.0" rx="5" fill="#2e1a3e" stroke="#8B5CF6" stroke-width="2"/>
+<text x="200.0" y="450.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Observation Room</text>
+<rect x="180.0" y="120.0" width="100.0" height="60.0" rx="5" fill="#2e1a3e" stroke="#8B5CF6" stroke-width="2"/>
+<text x="230.0" y="150.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Security Center</text>
+<rect x="500.0" y="420.0" width="100.0" height="60.0" rx="5" fill="#1a2a30" stroke="#3B82F6" stroke-width="2"/>
+<text x="550.0" y="450.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Materials Lab</text>
+<rect x="320.0" y="350.0" width="80.0" height="50.0" rx="5" fill="#301520" stroke="#EF4444" stroke-width="2"/>
+<text x="360.0" y="375.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Anomalous Matter</text>
+<line x1="240.0" y1="450.0" x2="400.0" y2="410.0" stroke="#FF4444" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="400.0" y1="410.0" x2="600.0" y2="100.0" stroke="#FF4444" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="635.0" y1="515.0" x2="665.0" y2="515.0" stroke="#FF4444" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<ellipse cx="350.0" cy="300.0" rx="80.0" ry="50.0" fill="#FF0000" opacity="0.1" stroke="#FF4444" stroke-width="1"/>
+<text x="390.0" y="300.0" fill="#FF4444" font-size="9">Alien Active Zone</text>
+<ellipse cx="600.0" cy="350.0" rx="60.0" ry="40.0" fill="#FF0000" opacity="0.1" stroke="#FF4444" stroke-width="1"/>
+<text x="630.0" y="350.0" fill="#FF4444" font-size="9">Military Blockade Line</text>
+<ellipse cx="150.0" cy="200.0" rx="50.0" ry="35.0" fill="#FF0000" opacity="0.1" stroke="#FF4444" stroke-width="1"/>
+<text x="175.0" y="200.0" fill="#FF4444" font-size="9">Collapsed Area</text>
+<circle cx="200.0" cy="475.0" r="4.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="200.0" cy="475.0" r="4.0" fill="none" stroke="" stroke-width="2"/>
+<text x="200.0" y="466.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ (Start)</text>
+<circle cx="600.0" cy="100.0" r="18.0" fill="none" stroke="#00FF88" stroke-width="2" stroke-dasharray="4,2"/>
+<text x="600.0" y="77.0" text-anchor="middle" fill="#00FF88" font-size="10" font-weight="bold">★ ★ Extraction Point</text>
+<circle cx="600.0" cy="100.0" r="7.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="600.0" cy="100.0" r="7.0" fill="none" stroke="" stroke-width="2"/>
+<text x="600.0" y="88.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ ★ Extraction Point</text>
+<circle cx="400.0" cy="180.0" r="20.0" fill="#FFAA00" opacity="0.6"/>
+<circle cx="400.0" cy="180.0" r="20.0" fill="none" stroke="#FFAA00" stroke-width="2"/>
+<text x="400.0" y="155.0" text-anchor="middle" fill="#FFAA00" font-size="10" font-weight="bold">★ T+18 Nuke Detonation</text>
+<circle cx="642.0" cy="558.0" r="5.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="642.0" cy="558.0" r="5.0" fill="none" stroke="" stroke-width="2"/>
+<text x="642.0" y="548.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Extraction Point</text>
+<circle cx="642.0" cy="575.0" r="4.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="642.0" cy="575.0" r="4.0" fill="none" stroke="" stroke-width="2"/>
+<text x="642.0" y="566.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Start</text>
+<rect x="630" y="20" width="150" height="128" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="705" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Legend</text>
+<text x="640" y="60" fill="#aaa" font-size="9">LambdaLaboratory</text>
+<text x="640" y="76" fill="#aaa" font-size="9">Military Blockade Line</text>
+<text x="640" y="92" fill="#aaa" font-size="9">Extraction Route</text>
+<text x="640" y="108" fill="#aaa" font-size="9">Danger Zone</text>
+<text x="640" y="124" fill="#aaa" font-size="9">Extraction Point</text>
+<text x="640" y="140" fill="#aaa" font-size="9">Start</text>
+<text x="20" y="585" fill="#666" font-size="9">HL_WM-01 | Wide-area Map | HL_WM-01 | Wide-area Map | 1 grid ~ 5m</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/HL-黑山逃離/en/maps/HL_WM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L1/HL-黑山逃離/en/maps/HL_WM-01.svg" download>svg</a></p>
+            </div></section>
+    <section class="block"><h2>概念圖</h2><div class="gallery"><a href="../../assets/scripts/L1/HL-黑山逃離/images/enemy_01_headcrab.png" target="_blank"><img src="../../assets/scripts/L1/HL-黑山逃離/images/enemy_01_headcrab.png" alt="enemy_01_headcrab.png"></a><a href="../../assets/scripts/L1/HL-黑山逃離/images/npc_01_rosenberg.png" target="_blank"><img src="../../assets/scripts/L1/HL-黑山逃離/images/npc_01_rosenberg.png" alt="npc_01_rosenberg.png"></a><a href="../../assets/scripts/L1/HL-黑山逃離/images/scene_01_lambda_portal.png" target="_blank"><img src="../../assets/scripts/L1/HL-黑山逃離/images/scene_01_lambda_portal.png" alt="scene_01_lambda_portal.png"></a><a href="../../assets/scripts/L1/HL-黑山逃離/images/scene_S02_異常物質.png" target="_blank"><img src="../../assets/scripts/L1/HL-黑山逃離/images/scene_S02_異常物質.png" alt="scene_S02_異常物質.png"></a><a href="../../assets/scripts/L1/HL-黑山逃離/images/scene_S03_科學家救援.png" target="_blank"><img src="../../assets/scripts/L1/HL-黑山逃離/images/scene_S03_科學家救援.png" alt="scene_S03_科學家救援.png"></a><a href="../../assets/scripts/L1/HL-黑山逃離/images/scene_S04_軍械庫之戰.png" target="_blank"><img src="../../assets/scripts/L1/HL-黑山逃離/images/scene_S04_軍械庫之戰.png" alt="scene_S04_軍械庫之戰.png"></a><a href="../../assets/scripts/L1/HL-黑山逃離/images/scene_S05_軍事封鎖線.png" target="_blank"><img src="../../assets/scripts/L1/HL-黑山逃離/images/scene_S05_軍事封鎖線.png" alt="scene_S05_軍事封鎖線.png"></a><a href="../../assets/scripts/L1/HL-黑山逃離/images/scene_S06_核彈倒數.png" target="_blank"><img src="../../assets/scripts/L1/HL-黑山逃離/images/scene_S06_核彈倒數.png" alt="scene_S06_核彈倒數.png"></a><a href="../../assets/scripts/L1/HL-黑山逃離/images/scene_S07_傳送門之戰.png" target="_blank"><img src="../../assets/scripts/L1/HL-黑山逃離/images/scene_S07_傳送門之戰.png" alt="scene_S07_傳送門之戰.png"></a></div></section>
+    </main>
+<footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

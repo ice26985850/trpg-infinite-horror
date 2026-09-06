@@ -1,0 +1,1133 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BLAME!: Megastructure Abyss | BLAME-超結構深淵 | Infinite Terror TRPG Scripts</title>
+<link rel="stylesheet" href="../../assets/style.css"></head>
+<body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../../index.html">中文</a></header>
+<div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
+<main class="container"><h1>BLAME!: Megastructure Abyss</h1>
+    <p class="meta">Code: BLAME-超結構深淵 ｜ Source: BLAME! (1998) ｜ Difficulty: ★ ｜ Players: 3–5 ｜ Duration: 3–4 hrs ｜ Type: Survival / Exploration</p>
+    <p class="nav"><a href="../../index.html">← 劇本總覽</a> ｜ <a href="../../assets/scripts/L1/BLAME-超結構深淵/en/BLAME_劇本.md" download>劇本 MD</a> ｜ <a href="../../assets/scripts/L1/BLAME-超結構深淵/en/BLAME_NPC名冊.xlsx" download>NPC 名冊</a> ｜ <a href="../../assets/scripts/L1/BLAME-超結構深淵/en/BLAME_敵方單位名冊.xlsx" download>敵方名冊</a> ｜ <a href="../../assets/L1_BLAME-超結構深淵_all_en.zip">下載全部（zip）</a></p>
+    <section class="block content"><section class="chap"><h2>一、基本資訊</h2>
+<p>Script Title: BLAME!: Megastructure Abyss
+Source Film: BLAME! (1998)
+Difficulty Rating: ★
+Suggested Players: 3–5
+Estimated Duration: 3–4 hrs
+Script Type: Survival / Exploration</p>
+<hr /></section>
+<details class="gm"><summary>🎭 GM 限定：II. Plot Summary (GM Spoilers)</summary><h2>II. Plot Summary (GM Spoilers)</h2>
+<h3>One-Line Summary</h3>
+<blockquote>
+<p>In the far future, the megastructure (The City) built by humanity has expanded unchecked beyond Jupiter's orbit. In this inorganic labyrinth, the Safeguard exterminates without distinction any human who does not carry the Net Terminal Gene. The Reincarnators are trapped in the deep layers of the megastructure and must find the legendary water purifier — a device that filters the megastructure's toxins — and reach the Safe Level past the pursuit of the Silicon Life and the Safeguard.</p>
+</blockquote>
+<h3>Full Plot Background</h3>
+<p>The megastructure is an infinitely stretching mechanical maze. Millions of layers of steel, conduits, abandoned factories, and perpetually dark shafts. Humanity has degenerated into small settlements, barely clinging to survival. The Safeguard — the network's immune system — mercilessly "disinfects" any human. The Silicon Life is a non-carbon-based life-form evolved by the megastructure, possessing higher physical resistance and destructive power. The Reincarnators' only advantage: the Silicon Life occasionally fight each other over territory, and these gaps can be exploited.</p>
+<h3>Story Structure Type</h3>
+<p><strong>Hybrid</strong>: segmented maze exploration — each level is an independent scene. Descend gradually from the starting level; each level has a different ecosystem and enemies. Final objective: find the Purifier Level and the transit elevator.</p>
+<hr /></details>
+<section class="chap"><h2>III. Lord God's Mission</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mission Brief</td>
+<td>"Find the water purifier device and reach the Safe Level transit point within 14 days. The constantly depleting water supply must be replenished during this period. Time limit: 14 days."</td>
+</tr>
+<tr>
+<td>Main Objective</td>
+<td>Find the purifier and reach the Safe Level transit point within 14 days</td>
+</tr>
+<tr>
+<td>Mission Reward</td>
+<td>D+1400</td>
+</tr>
+<tr>
+<td>Failure Condition</td>
+<td>Total party wipe / water exhausted (each person needs 1 ration per 48 hrs; start with 3 rations/person)</td>
+</tr>
+<tr>
+<td>Failure Penalty</td>
+<td>Erasure</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>① Collect tech blueprints (scattered across levels): +200 each, 5 total = D1 <br>② Destroy Safeguard biocenters: +400 each, 2 total = +D1</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>IV. Side Quests</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest ID</td>
+<td>S-01</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Gravity Furnace Restart</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Reach the abandoned factory level</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>At the level's core is an ancient gravity furnace — restarting it cancels this level's gravity anomaly, restoring normal move speed. Requires Intellect+Tech DC4 and 4 energy cells</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Gravity anomaly drains 1 extra stamina (DP-1) per hour</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>700</td>
+</tr>
+<tr>
+<td>Relation to Main</td>
+<td>Support — cancels gravity anomaly, gains stable light and gravity</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Restarting the furnace alerts a high-tier Silicon Life ×1 (alarm triggered)</td>
+</tr>
+<tr>
+<td>Field</td>
+<td>Content</td>
+</tr>
+<tr>
+<td>------</td>
+<td>------</td>
+</tr>
+<tr>
+<td>Side Quest ID</td>
+<td>S-02</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Net Terminal Gene Fragment</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Discover preserved gene samples in the abandoned lab level</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>An old genetic lab preserves partially viable Net Terminal Gene fragments. Implanting one temporarily prevents the Safeguard from identifying you as "human" (lasts 12 hrs — can pass multiple Safeguard levels)</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>None — but implantation requires Endurance DC3 or take 1d6 damage</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>800</td>
+</tr>
+<tr>
+<td>Relation to Main</td>
+<td>Support — safely pass Safeguard-dense zones</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Only 1 gene fragment — protects only 1 person for 12 hrs. Must be allocated strategically</td>
+</tr>
+<tr>
+<td>Field</td>
+<td>Content</td>
+</tr>
+<tr>
+<td>------</td>
+<td>------</td>
+</tr>
+<tr>
+<td>Side Quest ID</td>
+<td>S-02</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Human Settlement Defense</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Discover a small human settlement on a level</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>The settlement is under attack by the Safeguard. Assist defense for 8 rounds (1d2 Safeguard per round) to gain the settlement's permanent shelter, purifier, and underground shortcut</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Before the settlement's defense collapses (8 rounds)</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>1000</td>
+</tr>
+<tr>
+<td>Relation to Main</td>
+<td>Support — directly obtain purifier, human guide, shortcut passage</td>
+</tr>
+<tr>
+<td>Notes</td>
+<td>Settlement has a makeshift plasma cannon (3d8 energy, requires Intellect+Tech DC2 to operate)</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>V. World Setting</h2>
+<h3>Timeline</h3>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T+0</td>
+<td>Awaken in the abandoned elevator level. Water count begins</td>
+</tr>
+<tr>
+<td>T+1</td>
+<td>First gravity-anomaly level. Move speed halved</td>
+</tr>
+<tr>
+<td>T+3</td>
+<td>Cross Safeguard patrol level — requires stealth or gene fragment</td>
+</tr>
+<tr>
+<td>T+5</td>
+<td>Discover human settlement (optional). First reliable intel</td>
+</tr>
+<tr>
+<td>T+8</td>
+<td>High-tier Silicon Life appears — territory war</td>
+</tr>
+<tr>
+<td>T+12</td>
+<td>Find the water purifier device</td>
+</tr>
+<tr>
+<td>T+14</td>
+<td>Reach the Safe Level transit point — deadline</td>
+</tr>
+</tbody>
+</table>
+<h3>Key Locations</h3>
+<h4>Location: Abandoned Elevator Level (Start)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Abandoned Elevator Level (Start)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A vast circular shaft; the elevator cables long snapped. The rusted control panel shows red text in an unknown language. Light comes from bioluminescent moss on the walls — someone was here before you.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Control panel (Intellect+Tech DC2 reveals part of the map), abandoned supplies (water ×3/person, energy bars ×6), broken elevator (repairable but time-consuming)</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>None (initially safe) — but metal clanging rises from below</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>Shaft downward → next level. Side passage → abandoned factory</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>EM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location: Abandoned Factory Level (S-01 trigger)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Abandoned Factory Level (S-01 trigger)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Giant mechanical arms frozen mid-air, conveyor belts rusted and broken. Gravity here waxes and wanes — each flip floats you for 2 seconds, then slams you to the floor and presses you down again.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Gravity furnace (S-01), energy cells ×2 (need 2 more), scrap parts (craft weapons or repair tools)</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>Overnighting in gravity-anomaly zone needs Endurance DC2 or 1d4/hour. Silicon Life ×1 patrols this level</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>Repair furnace → return to shaft and descend. Skip → detour, +2 days and ongoing gravity effects</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>EM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location: Safeguard Patrol Level</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Safeguard Patrol Level</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>Flawless white corridors — a stark contrast to the ruin elsewhere. Self-cleaning walls, steady lights, no dust. Beautifully unnatural. Safeguard footsteps echo down the hall.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Abandoned monitoring room (observe Safeguard patrol routes — Intellect+Computers DC3), equipment supply point (energy batteries recharge weapons)</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>Safeguard ×2 patrol (Perception DC3 to avoid). 2 reinforcements within 1 round if spotted. Combat unsustainable — infinite Safeguard reinforcements</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>Stealth through → best route; gene fragment → safest but precious; fight → not recommended. Continue down after passing safely</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>EM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location: Human Settlement (Optional)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Human Settlement (Optional)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A settlement built from scrap metal plates, hidden among giant pipes. Elders and children huddle in the innermost ring; young people on the perimeter grip modified welding torches and plasma cutters. Their leader is a one-eyed woman.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>S-03 trigger, settlement trade (exchange gear for water and food), settlement's private map (safe route to lower levels)</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>S-03 defense battle (if triggered): Safeguard attack for 8 rounds</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>Assist defense → gain purifier and guide; trade only → some supplies but no main-line impact. Relationship with settlement affects what follows</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>EM-01</td>
+</tr>
+</tbody>
+</table>
+<h4>Location: Purifier Level (Main Objective)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Purifier Level (Main Objective)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>An ancient water-treatment facility; at its core, a room-sized purifier — still running. Pure water flows through transparent pipes. But it is not empty: a high-tier Silicon Life uses this as its nest.</td>
+</tr>
+<tr>
+<td>Explorable</td>
+<td>Purifier (core objective), water sample to take (refills 7 days drinking/person), facility map (marks transit elevator location)</td>
+</tr>
+<tr>
+<td>Possible Encounter</td>
+<td>High-tier Silicon Life ×1 guards the purifier (Base Defense 18, HP80) — loud noise here alerts the Safeguard</td>
+</tr>
+<tr>
+<td>Links</td>
+<td>Boss fight: kill the high-tier then take purifier; distract → lure it away and steal. Obtaining purifier completes the core objective</td>
+</tr>
+<tr>
+<td>Map Ref</td>
+<td>BM-01</td>
+</tr>
+</tbody>
+</table>
+<h3>World Special Rules</h3>
+<ul>
+<li><strong>Mechanical Environment</strong>: Most of the megastructure's metal floors are electrified (1d4/round unless insulated boots equipped). Coolant in the pipes is lethal poison (contact → Endurance DC4 or 2d8 toxin/round).</li>
+<li><strong>Silicon Life</strong>: Non-carbon life, resistant to physical attacks (damage -2), but energy weapons deal +3 damage to them. High-tier Silicon Life uses gravity manipulation (all within range DP-2).</li>
+<li><strong>Safeguard System</strong>: Safeguard spawn infinitely — each destroyed unit is replaced by reinforcements within 3 rounds. The only safe methods are stealth or temporary Net Gene masking. Safeguard are also hostile to non-human targets — exploit their fights with Silicon Life.</li>
+</ul>
+<h3>Lord God Restrictions</h3>
+<ul>
+<li>"Do not destroy the megastructure's structural support pillars — or the whole level collapses (instant death)."</li>
+<li>"Net Terminal Gene fragments cannot be transferred — only the implanted person is protected."</li>
+<li>"Killing innocent settlement residents deducts 1000."</li>
+</ul>
+<h3>Visual Map System</h3>
+<table>
+<thead>
+<tr>
+<th>Layer</th>
+<th>Map ID</th>
+<th>Content</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wide-area Map</td>
+<td>WM-01</td>
+<td>Vertical cross-section of all megastructure levels, with elevator, factory, Safeguard level, settlement, purifier level, transit point</td>
+<td><code>maps/BLAME_WM-01.svg</code></td>
+</tr>
+<tr>
+<td>Exploration Map</td>
+<td>EM-01</td>
+<td>Abandoned elevator level and surrounding passage exploration map</td>
+<td><code>maps/BLAME_EM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-01</td>
+<td>Purifier level (14×10) — boss fight</td>
+<td><code>maps/BLAME_BM-01.svg</code></td>
+</tr>
+<tr>
+<td>Battle Map</td>
+<td>BM-02</td>
+<td>Safeguard patrol level (12×8) — stealth challenge</td>
+<td><code>maps/BLAME_BM-02.svg</code></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VI. Characters &amp; Enemy Units (separate Excel)</h2>
+<blockquote>
+<p>⚠ NPC and enemy unit data, see these separate Excel files:
+- <strong>NPC Roster</strong>: <code>BLAME_NPC名冊.xlsx</code>
+- <strong>Enemy Unit Roster</strong>: <code>BLAME_敵方單位名冊.xlsx</code></p>
+<p>Both Excel files contain "Roster" and "Blank Template" sheets; the first column is reserved for character portraits.</p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>VII. Key Scenes</h2>
+<h3>Scene Structure</h3>
+<p>Phase 1: free exploration to gather supplies and intel. Phase 2: advance key missions scene by scene.</p>
+<hr />
+<h4>Scene S01: Abandoned Elevator</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S01</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Abandoned Elevator</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Script start</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"Cold — the first thing you feel. The metal floor is colder than ice. The vast shaft stretches up and down into invisible darkness. Bioluminescent moss gives faint green light. Your watch lights up: '14 days. Purifier. Transit point.' Water count: 3/person."</td>
+</tr>
+<tr>
+<td>Interactive</td>
+<td>Control panel (partial map), abandoned supplies, shaft observation</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>No immediate threat — but the metal clanging below grows closer</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td>None (tutorial phase)</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Explore down → officially begin; search side passage → may find extra supplies</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Leaving the start level</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S02: Gravity Maze</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S02</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Gravity Maze</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Reach the abandoned factory (≈T+1)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"The moment you step in, your body weighs three times as much — then suddenly lightens, almost floating. The gravity field pulses irregularly. Giant mechanical arms hang silently overhead — if gravity flips, that steel comes crashing down."</td>
+</tr>
+<tr>
+<td>Interactive</td>
+<td>Gravity furnace console (S-01), energy cell search (2 of 4 here — other 2 below), mechanical arm operation</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Silicon Life ×1 patrol (Base Defense 14, HP35, physical -2 but energy +3). All movement DC+1, hit DP-1 in gravity field</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td>Gravity Adaptation: Genetic Lock Stage 1 (Resolve DC2), can predict gravity flips (immune to sudden gravity penalty)</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Repair furnace → cancel anomaly, gain reward (S-01); bypass → endure one day of gravity anomaly</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Passing this level</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S03: Silent Corridor</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S03</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Silent Corridor</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Reach the Safeguard level (≈T+3~5)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"White. Perfect. Unnatural. This corridor is too clean — walls, floor, ceiling, seamless white panels. Not a speck of dust. Then you understand: the Safeguard disinfect not just humans, but even microbes. You are the next thing to be disinfected."</td>
+</tr>
+<tr>
+<td>Interactive</td>
+<td>Monitoring room (observe Safeguard routes), energy battery supply, abandoned control panel</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Safeguard ×2 patrol (Base Defense 16, HP30). Radar sense range 40ft. Perception DC3 predicts route</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td>Megastructure Stealth: Genetic Lock Stage 1 (Resolve DC2), sound control DP+3, footprint erase DP+2</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Stealth through → optimal route; gene fragment → safe but consumes precious resource</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Pass safely — not detected by Safeguard</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S04: Settlement Fire</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S04</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Settlement Fire</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Reach the human settlement (≈T+5~7)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"In the shelter of metal plates, the fire barrel is the only light. These humans have never seen sunlight — their skin is pale, but fire still burns in their eyes. The one-eyed woman leader looks at you: 'You came from above? Are there still people alive out there?'"</td>
+</tr>
+<tr>
+<td>Interactive</td>
+<td>Settlement dialogue, S-03 trigger, trade</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>If S-03 triggered: Safeguard ×1d2 attack the outer defense for 8 rounds</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td>Team defense: Genetic Lock Stage 1 (Resolve DC2), whole party morale +2</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Assist defense → gain purifier and guide; trade only → save combat but must find purifier yourself</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Decide the settlement's fate — success or failure doesn't affect the core mission but affects rewards</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S05: Purifier Nest</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S05</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Purifier Nest</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Reach the purifier level (≈T+10~12)</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"The purifier is right there — pure water flowing endlessly through giant transparent pipes. Your goal, your salvation. But between the pipes, a high-tier Silicon Life strokes the walls with multiple arms, as if guarding a relic. It notices you."</td>
+</tr>
+<tr>
+<td>Interactive</td>
+<td>Purifier (main objective), facility map (transit elevator location), water sample (refill drinking)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Final boss? High-tier Silicon Life ×1 (Base Defense 18, HP80)</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td>Boss fight: Genetic Lock Stage 1 (Resolve DC3), whole party damage +2. Energy weapons +3 vs Silicon Life</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Fight → kill high-tier then safely take purifier; distract → Intellect+Tech DC3 lure it away</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Obtain the purifier</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S06: Transit Point Countdown</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S06</td>
+</tr>
+<tr>
+<td>Scene Name</td>
+<td>Transit Point Countdown</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Head to the transit elevator after obtaining the purifier</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>"The transit elevator level is the top of the megastructure — closest to the safe zone. The elevator's control panel shows a countdown: if you don't start it before zero, the next activation cycle is three years away."</td>
+</tr>
+<tr>
+<td>Interactive</td>
+<td>Transit elevator console (Intellect+Tech DC3 to activate), energy core (needs purifier's energy inserted), final Safeguard wave</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Final Safeguard assault — transit elevator needs 3 rounds of uninterrupted protection. 1 Safeguard reinforcement/round</td>
+</tr>
+<tr>
+<td>Genetic Lock</td>
+<td>Final defense: Genetic Lock Stage 1 (Resolve DC3), whole party damage +2</td>
+</tr>
+<tr>
+<td>Branch Options</td>
+<td>Keep protecting console → elevator starts → clear; fail to protect → mission fails (restart in 3 years)</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Transit elevator starts — all survivors board — script cleared</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VIII. Multi-Team Competition Rules</h2>
+<blockquote>
+<p>This script does not involve multi-team competition. This section is left blank.</p>
+</blockquote>
+<hr /></section>
+<section class="chap"><h2>IX. Reward Settlement</h2>
+<table>
+<thead>
+<tr>
+<th>Reward Type</th>
+<th>Content</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main Clear</td>
+<td>Find purifier and reach Safe Level transit point within 14 days</td>
+<td>D+1400</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>① Collect tech blueprints (scattered across levels): +200 each, 5 total = D1 <br>② Destroy Safeguard biocenters: +400 each, 2 total = +D1</td>
+<td>800-1500</td>
+</tr>
+<tr>
+<td>Side S-01</td>
+<td>Gravity Furnace Restart</td>
+<td>700</td>
+</tr>
+<tr>
+<td>Side S-02</td>
+<td>Net Terminal Gene Fragment</td>
+<td>800</td>
+</tr>
+<tr>
+<td>Side S-03</td>
+<td>Human Settlement Defense</td>
+<td>1000</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Normal enemy (each)</td>
+<td>40</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Elite/Boss</td>
+<td>50 (Expeller)/120 (High-tier) bonus points</td>
+</tr>
+<tr>
+<td>Exploration Reward</td>
+<td>Discover all key locations</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Special Achievement</td>
+<td>Deus ex Machina (pass all Safeguard levels via EMP or other non-violent means)</td>
+<td>300</td>
+</tr>
+<tr>
+<td>Special Achievement</td>
+<td>Humanity Guardian (no settlement resident dies)</td>
+<td>200</td>
+</tr>
+<tr>
+<td>Roleplay</td>
+<td>GM discretion</td>
+<td>0–300</td>
+</tr>
+</tbody>
+</table>
+<h3>Theoretical Maximum</h3>
+<blockquote>
+<p>Main: D×1+1400
+S-01: 700 / S-02: 800 / S-03: 1000
+Optional ① (5 blueprints): D×1+1000
+Optional ② (2 biocenters): D×1+800
+Kills (~10 Safeguard + 1 Expeller + 1 High-tier) ≈ 630
+Exploration: 100 / Achievements: 500 / : 300</p>
+</blockquote>
+<p>= D3+5430</p>
+<h3>Return Exchange (script-exclusive)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Item</th>
+<th>Cost (side + bonus points)</th>
+<th>Effect</th>
+<th>Growth Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>Portable Purifier Module</td>
+<td>200</td>
+<td>Extract pure drinking water from any liquid (incl. polluted coolant), 1 person/day</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Gravity Adaptation Mod</td>
+<td>D+500</td>
+<td>Mod (passive): no penalty to move or Agility (DEX) checks in gravity anomalies (0.5G–5G)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>EMP Device</td>
+<td>500</td>
+<td>Stun mechanical/electronic enemies for 1 round (once per combat)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Silicon Armor Plating</td>
+<td>C+1000</td>
+<td>Mod: permanent physical damage reduction -1 (non-stackable); +1 threat resistance vs electric life</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Builder Network Access</td>
+<td>C+1000</td>
+<td>Briefly jack into the megastructure network, unlock a security door or query area map (once per script)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Graviton Cannon Core</td>
+<td>C+1000</td>
+<td>Item: fixed graviton cannon, line 20ft, 2d6 Strength (STR) damage, slight knockback</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Safeguard AI Access</td>
+<td>C+2000</td>
+<td>Temporarily gain "Safeguard" tier authorization, command low-tier defense machines for 1 round (once per combat)</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>X. Appendix</h2>
+<ul>
+<li><strong>Maps</strong>: See <code>maps/</code> — <code>BLAME_WM-01.svg</code>, <code>BLAME_EM-01.svg</code>, <code>BLAME_BM-01.svg</code>, <code>BLAME_BM-02.svg</code></li>
+<li><strong>Special Rules Addendum</strong>:</li>
+<li><strong>Mechanical Environment</strong>: Most of the megastructure's metal floors are electrified (1d4/round unless insulated boots equipped). Coolant in the pipes is lethal poison (contact → Endurance DC4 or 2d8 toxin/round).</li>
+<li><strong>Silicon Life</strong>: Non-carbon life, resistant to physical attacks (damage -2), but energy weapons deal +3 damage. High-tier Silicon Life uses gravity manipulation (all within range DP-2).</li>
+<li><strong>Safeguard System</strong>: Safeguard spawn infinitely — each destroyed unit is replaced by reinforcements within 3 rounds. The only safe methods are stealth or temporary Net Gene masking...</li>
+<li><strong>GM Memo</strong>:</li>
+<li><strong>Common Stuck Points</strong>: Players may be overly cautious. Fix — apply time pressure or have an NPC proactively ask for help.</li>
+<li><strong>Difficulty Up</strong>: Enemy count ×1.5, key check DC+1.</li>
+<li><strong>Difficulty Down</strong>: Enemy count ×0.7, key check DC-1.</li>
+<li><strong>Unconventional Player Actions</strong>: If players use unconventional tactics, judge plausibility then assign fitting consequences.</li>
+<li><strong>References</strong>: Source material related to BLAME! (1998)</li>
+</ul>
+<hr />
+<blockquote>
+<p><strong>Script Code</strong>: BLAME
+<strong>Version</strong>: v1.0
+<strong>Format Spec</strong>: v0.4</p>
+</blockquote></section></section>
+    <section class="block"><h2>地圖（YAML＋SVG）</h2><div class="map">
+              <div class="maptitle">BLAME_BM-01 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="680" height="420" fill="#1a1a2e"/>
+<rect x="20" y="20" width="640" height="380" fill="url(#grid)"/>
+<rect x="20" y="20" width="640" height="380" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="340.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Purifier Level - Boss Fight</text>
+<text x="25" y="412" fill="#666" font-size="9">BLAME_BM-01 | 14x10 grid (concept) | 1 grid = 5ft | total 70x50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="177.5" y="15" text-anchor="middle" fill="#555" font-size="7">11</text>
+<text x="192.5" y="15" text-anchor="middle" fill="#555" font-size="7">12</text>
+<text x="207.5" y="15" text-anchor="middle" fill="#555" font-size="7">13</text>
+<text x="222.5" y="15" text-anchor="middle" fill="#555" font-size="7">14</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="40.0" y="40.0" width="420.0" height="5.0" rx="5" fill="#667" stroke="" stroke-width=""/>
+<rect x="40.0" y="335.0" width="420.0" height="5.0" rx="5" fill="#667" stroke="" stroke-width=""/>
+<text x="250.0" y="333.5" text-anchor="middle" fill="#aaa" font-size="8">Upper-tier Domain</text>
+<text x="250.0" y="347.5" text-anchor="middle" fill="#666" font-size="6">(70.0, 102.5)ft</text>
+<rect x="40.0" y="40.0" width="5.0" height="300.0" rx="3" fill="#667" stroke="" stroke-width=""/>
+<rect x="455.0" y="40.0" width="5.0" height="300.0" rx="3" fill="#667" stroke="" stroke-width=""/>
+<text x="457.5" y="186.0" text-anchor="middle" fill="#aaa" font-size="8">Guard</text>
+<text x="457.5" y="200.0" text-anchor="middle" fill="#666" font-size="6">(142.5, 50.0)ft</text>
+<rect x="200.0" y="160.0" width="120.0" height="80.0" rx="3" fill="#1a2a20" stroke="#10B981" stroke-width="1.5"/>
+<text x="260.0" y="196.0" text-anchor="middle" fill="#aaa" font-size="8">Purifier Core</text>
+<text x="260.0" y="210.0" text-anchor="middle" fill="#666" font-size="6">(75.0, 52.5)ft</text>
+<rect x="80.0" y="80.0" width="80.0" height="50.0" rx="3" fill="#2a2a30" stroke="#555" stroke-width="1.5"/>
+<text x="120.0" y="101.0" text-anchor="middle" fill="#aaa" font-size="8">Conduit A</text>
+<text x="120.0" y="115.0" text-anchor="middle" fill="#666" font-size="6">(27.5, 22.5)ft</text>
+<rect x="450.0" y="80.0" width="80.0" height="50.0" rx="3" fill="#2a2a30" stroke="#555" stroke-width="1.5"/>
+<text x="490.0" y="101.0" text-anchor="middle" fill="#aaa" font-size="8">Conduit B</text>
+<text x="490.0" y="115.0" text-anchor="middle" fill="#666" font-size="6">(147.5, 22.5)ft</text>
+<rect x="250.0" y="300.0" width="100.0" height="20.0" rx="5" fill="#301520" stroke="#EF4444" stroke-width="1.5"/>
+<text x="300.0" y="306.0" text-anchor="middle" fill="#aaa" font-size="8">Upper-tier Domain</text>
+<text x="300.0" y="320.0" text-anchor="middle" fill="#666" font-size="6">(87.5, 87.5)ft</text>
+<rect x="200.0" y="155.0" width="120.0" height="5.0" rx="5" fill="#00FF88" stroke="#00FF88" stroke-width="1.5"/>
+<text x="260.0" y="153.5" text-anchor="middle" fill="#aaa" font-size="8">Acquire Purifier</text>
+<text x="260.0" y="167.5" text-anchor="middle" fill="#666" font-size="6">(75.0, 42.5)ft</text>
+<polygon points="490.0,372.0 510.0,380.0 490.0,388.0" fill="#00FF88"/>
+<text x="505.0" y="394.0" fill="#00FF88" font-size="8">Player Entrance</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/BLAME-超結構深淵/en/maps/BLAME_BM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L1/BLAME-超結構深淵/en/maps/BLAME_BM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">BLAME_BM-02 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 420" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="680" height="420" fill="#1a1a2e"/>
+<rect x="20" y="20" width="640" height="380" fill="url(#grid)"/>
+<rect x="20" y="20" width="640" height="380" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="340.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Security Guard Level - Stealth Challenge</text>
+<text x="25" y="412" fill="#666" font-size="9">BLAME_BM-02 | 12x8 grid (concept) | 1 grid = 5ft | total 60x40ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="177.5" y="15" text-anchor="middle" fill="#555" font-size="7">11</text>
+<text x="192.5" y="15" text-anchor="middle" fill="#555" font-size="7">12</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<rect x="40.0" y="40.0" width="360.0" height="5.0" rx="5" fill="#667" stroke="" stroke-width=""/>
+<rect x="40.0" y="275.0" width="360.0" height="5.0" rx="5" fill="#667" stroke="" stroke-width=""/>
+<rect x="40.0" y="40.0" width="5.0" height="240.0" rx="3" fill="#667" stroke="" stroke-width=""/>
+<rect x="395.0" y="40.0" width="5.0" height="240.0" rx="3" fill="#667" stroke="" stroke-width=""/>
+<text x="397.5" y="156.0" text-anchor="middle" fill="#aaa" font-size="8">Guard B</text>
+<text x="397.5" y="170.0" text-anchor="middle" fill="#666" font-size="6">(122.5, 40.0)ft</text>
+<rect x="350.0" y="180.0" width="30.0" height="100.0" rx="3" fill="#1a2a30" stroke="#555" stroke-width="1.5"/>
+<text x="365.0" y="226.0" text-anchor="middle" fill="#aaa" font-size="8">Passage A</text>
+<text x="365.0" y="240.0" text-anchor="middle" fill="#666" font-size="6">(110.0, 62.5)ft</text>
+<rect x="450.0" y="180.0" width="30.0" height="100.0" rx="3" fill="#1a2a30" stroke="#555" stroke-width="1.5"/>
+<text x="465.0" y="226.0" text-anchor="middle" fill="#aaa" font-size="8">Passage B</text>
+<text x="465.0" y="240.0" text-anchor="middle" fill="#666" font-size="6">(140.0, 62.5)ft</text>
+<rect x="80.0" y="80.0" width="60.0" height="40.0" rx="3" fill="#2a2a30" stroke="#555" stroke-width="1.5"/>
+<text x="110.0" y="96.0" text-anchor="middle" fill="#aaa" font-size="8">Monitoring Room</text>
+<text x="110.0" y="110.0" text-anchor="middle" fill="#666" font-size="6">(25.0, 22.5)ft</text>
+<rect x="500.0" y="80.0" width="60.0" height="40.0" rx="3" fill="#2a2a30" stroke="#555" stroke-width="1.5"/>
+<text x="530.0" y="96.0" text-anchor="middle" fill="#aaa" font-size="8">Supply Depot</text>
+<text x="530.0" y="110.0" text-anchor="middle" fill="#666" font-size="6">(165.0, 22.5)ft</text>
+<rect x="580.0" y="320.0" width="30.0" height="30.0" rx="3" fill="#00FF88" stroke="#00FF88" stroke-width="1.5"/>
+<text x="595.0" y="331.0" text-anchor="middle" fill="#aaa" font-size="8">Exit</text>
+<text x="595.0" y="345.0" text-anchor="middle" fill="#666" font-size="6">(185.0, 100.0)ft</text>
+<polygon points="190.0,392.0 210.0,400.0 190.0,408.0" fill="#00FF88"/>
+<text x="205.0" y="414.0" fill="#00FF88" font-size="8">Player Entrance</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/BLAME-超結構深淵/en/maps/BLAME_BM-02.yaml" download>yaml</a> <a href="../../assets/scripts/L1/BLAME-超結構深淵/en/maps/BLAME_BM-02.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">BLAME_EM-01 <span class="maptype">探索地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<rect width="800" height="600" fill="#1a1a2e"/>
+<text x="400.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">Exploration Map</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 1</text>
+<rect x="20" y="0.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="800.0" height="600.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<rect x="15.0" y="60.0" width="770.0" height="130.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="400.0" y="125.0" text-anchor="middle" fill="#aaa" font-size="9">Control Panel</text>
+<rect x="25.0" y="75.0" width="80.0" height="60.0" rx="3.0" fill="#1a1030" stroke="#6D28D9" stroke-width="1.5"/>
+<text x="65.0" y="105.0" text-anchor="middle" fill="#aaa" font-size="9">Elevator Shaft</text>
+<rect x="150.0" y="75.0" width="80.0" height="60.0" rx="3.0" fill="#162040" stroke="#F59E0B" stroke-width="1.5"/>
+<text x="190.0" y="105.0" text-anchor="middle" fill="#aaa" font-size="9">Side Passage</text>
+<rect x="280.0" y="75.0" width="100.0" height="60.0" rx="3.0" fill="#1a2a30" stroke="#3B82F6" stroke-width="1.5"/>
+<text x="330.0" y="105.0" text-anchor="middle" fill="#aaa" font-size="9">Control Panel</text>
+<rect x="430.0" y="75.0" width="80.0" height="60.0" rx="3.0" fill="#1a2a20" stroke="#10B981" stroke-width="1.5"/>
+<text x="470.0" y="105.0" text-anchor="middle" fill="#aaa" font-size="9">Supply Point</text>
+<rect x="560.0" y="75.0" width="80.0" height="60.0" rx="3.0" fill="#301520" stroke="#EF4444" stroke-width="1.5"/>
+<text x="600.0" y="105.0" text-anchor="middle" fill="#aaa" font-size="9">Downward Passage</text>
+<text x="20" y="225.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 2</text>
+<rect x="20" y="230.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="15.0" y="230.0" width="770.0" height="35.0" rx="3.0" fill="#111" stroke="#333" stroke-width="1.5"/>
+<rect x="83.0" y="241.0" width="14.0" height="12.0" rx="0.0" fill="#EF4444" stroke="#EF4444" stroke-width="1"/>
+<text x="90.0" y="247.0" text-anchor="middle" fill="#aaa" font-size="9">Danger Zone</text>
+<rect x="143.0" y="241.0" width="14.0" height="12.0" rx="0.0" fill="#F59E0B" stroke="#F59E0B" stroke-width="1"/>
+<text x="150.0" y="247.0" text-anchor="middle" fill="#aaa" font-size="9">Passage</text>
+<rect x="193.0" y="241.0" width="14.0" height="12.0" rx="0.0" fill="#3B82F6" stroke="#3B82F6" stroke-width="1"/>
+<text x="200.0" y="247.0" text-anchor="middle" fill="#aaa" font-size="9">Side Path</text>
+<rect x="243.0" y="241.0" width="14.0" height="12.0" rx="0.0" fill="#10B981" stroke="#10B981" stroke-width="1"/>
+<text x="250.0" y="247.0" text-anchor="middle" fill="#aaa" font-size="9">Supplies</text>
+<rect x="20" y="545" width="760" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="570" fill="#aaa" font-size="9">Start</text>
+<text x="205" y="570" fill="#aaa" font-size="9">Danger Zone</text>
+<text x="375" y="570" fill="#aaa" font-size="9">BLAME_EM-01 | Exploration Map</text>
+<text x="20" y="590" fill="#666" font-size="9">BLAME_EM-01 | Exploration Map </text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/BLAME-超結構深淵/en/maps/BLAME_EM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L1/BLAME-超結構深淵/en/maps/BLAME_EM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">BLAME_WM-01 <span class="maptype">世界地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="800" height="600" fill="url(#wmgrid)"/>
+<line x1="380.0" y1="500.0" x2="380.0" y2="80.0" stroke="#555" stroke-width="4"/>
+<line x1="100.0" y1="400.0" x2="700.0" y2="400.0" stroke="#555" stroke-width="2"/>
+<line x1="150.0" y1="300.0" x2="650.0" y2="300.0" stroke="#555" stroke-width="2"/>
+<line x1="200.0" y1="180.0" x2="600.0" y2="180.0" stroke="#555" stroke-width="2"/>
+<rect x="360.0" y="470.0" width="80.0" height="60.0" rx="5" fill="#2e1a3e" stroke="#8B5CF6" stroke-width="2"/>
+<text x="400.0" y="500.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Abandoned Elevator</text>
+<rect x="280.0" y="430.0" width="70.0" height="40.0" rx="5" fill="#2e1a3e" stroke="#8B5CF6" stroke-width="2"/>
+<text x="315.0" y="450.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Abandoned Factory</text>
+<rect x="520.0" y="380.0" width="70.0" height="40.0" rx="5" fill="#301520" stroke="#EF4444" stroke-width="2"/>
+<text x="555.0" y="400.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Security Guard Level</text>
+<rect x="330.0" y="280.0" width="70.0" height="40.0" rx="5" fill="#1a2a20" stroke="#10B981" stroke-width="2"/>
+<text x="365.0" y="300.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Human Settlement</text>
+<rect x="420.0" y="340.0" width="70.0" height="40.0" rx="5" fill="#1a2a30" stroke="#3B82F6" stroke-width="2"/>
+<text x="455.0" y="360.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Purifier Level</text>
+<line x1="440.0" y1="500.0" x2="400.0" y2="460.0" stroke="#FF4444" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="400.0" y1="460.0" x2="400.0" y2="80.0" stroke="#FF4444" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="635.0" y1="515.0" x2="665.0" y2="515.0" stroke="#FF4444" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<ellipse cx="250.0" cy="400.0" rx="60.0" ry="40.0" fill="#FF0000" opacity="0.1" stroke="#FF4444" stroke-width="1"/>
+<text x="280.0" y="400.0" fill="#FF4444" font-size="9">Gravity Anomaly</text>
+<ellipse cx="550.0" cy="320.0" rx="70.0" ry="50.0" fill="#FF0000" opacity="0.1" stroke="#FF4444" stroke-width="1"/>
+<text x="585.0" y="320.0" fill="#FF4444" font-size="9">Security Guard Level</text>
+<ellipse cx="380.0" cy="200.0" rx="80.0" ry="60.0" fill="#FF0000" opacity="0.1" stroke="#FF4444" stroke-width="1"/>
+<text x="420.0" y="200.0" fill="#FF4444" font-size="9">Silicon Domain</text>
+<circle cx="400.0" cy="525.0" r="4.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="400.0" cy="525.0" r="4.0" fill="none" stroke="" stroke-width="2"/>
+<text x="400.0" y="516.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ (Start)</text>
+<circle cx="400.0" cy="80.0" r="18.0" fill="none" stroke="#00FF88" stroke-width="2" stroke-dasharray="4,2"/>
+<text x="400.0" y="57.0" text-anchor="middle" fill="#00FF88" font-size="10" font-weight="bold">★ ★ Extraction Point</text>
+<circle cx="400.0" cy="80.0" r="7.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="400.0" cy="80.0" r="7.0" fill="none" stroke="" stroke-width="2"/>
+<text x="400.0" y="68.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ ★ Extraction Point</text>
+<circle cx="642.0" cy="558.0" r="5.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="642.0" cy="558.0" r="5.0" fill="none" stroke="" stroke-width="2"/>
+<text x="642.0" y="548.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Extraction Point</text>
+<circle cx="642.0" cy="575.0" r="4.0" fill="#00FF88" opacity="0.6"/>
+<circle cx="642.0" cy="575.0" r="4.0" fill="none" stroke="" stroke-width="2"/>
+<text x="642.0" y="566.0" text-anchor="middle" fill="" font-size="10" font-weight="bold">★ Start</text>
+<rect x="630" y="20" width="150" height="92" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="705" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Legend</text>
+<text x="640" y="60" fill="#aaa" font-size="9">Extraction Route</text>
+<text x="640" y="76" fill="#aaa" font-size="9">Danger Area</text>
+<text x="640" y="92" fill="#aaa" font-size="9">Extraction Point</text>
+<text x="640" y="108" fill="#aaa" font-size="9">Start</text>
+<text x="20" y="585" fill="#666" font-size="9">BLAME_WM-01 | Wide-area Map | BLAME_WM-01 | Wide-area Map | 1 grid ~ 5m</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/BLAME-超結構深淵/en/maps/BLAME_WM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L1/BLAME-超結構深淵/en/maps/BLAME_WM-01.svg" download>svg</a></p>
+            </div></section>
+    <section class="block"><h2>概念圖</h2><div class="gallery"><a href="../../assets/scripts/L1/BLAME-超結構深淵/images/enemy_01_safeguard.png" target="_blank"><img src="../../assets/scripts/L1/BLAME-超結構深淵/images/enemy_01_safeguard.png" alt="enemy_01_safeguard.png"></a><a href="../../assets/scripts/L1/BLAME-超結構深淵/images/npc_01_cibo.png" target="_blank"><img src="../../assets/scripts/L1/BLAME-超結構深淵/images/npc_01_cibo.png" alt="npc_01_cibo.png"></a><a href="../../assets/scripts/L1/BLAME-超結構深淵/images/scene_01_megastructure.png" target="_blank"><img src="../../assets/scripts/L1/BLAME-超結構深淵/images/scene_01_megastructure.png" alt="scene_01_megastructure.png"></a><a href="../../assets/scripts/L1/BLAME-超結構深淵/images/scene_S02_重力迷宮.png" target="_blank"><img src="../../assets/scripts/L1/BLAME-超結構深淵/images/scene_S02_重力迷宮.png" alt="scene_S02_重力迷宮.png"></a><a href="../../assets/scripts/L1/BLAME-超結構深淵/images/scene_S03_寂靜走廊.png" target="_blank"><img src="../../assets/scripts/L1/BLAME-超結構深淵/images/scene_S03_寂靜走廊.png" alt="scene_S03_寂靜走廊.png"></a><a href="../../assets/scripts/L1/BLAME-超結構深淵/images/scene_S04_聚落之火.png" target="_blank"><img src="../../assets/scripts/L1/BLAME-超結構深淵/images/scene_S04_聚落之火.png" alt="scene_S04_聚落之火.png"></a><a href="../../assets/scripts/L1/BLAME-超結構深淵/images/scene_S05_淨水器巢穴.png" target="_blank"><img src="../../assets/scripts/L1/BLAME-超結構深淵/images/scene_S05_淨水器巢穴.png" alt="scene_S05_淨水器巢穴.png"></a><a href="../../assets/scripts/L1/BLAME-超結構深淵/images/scene_S06_傳送點倒數.png" target="_blank"><img src="../../assets/scripts/L1/BLAME-超結構深淵/images/scene_S06_傳送點倒數.png" alt="scene_S06_傳送點倒數.png"></a></div></section>
+    </main>
+<footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

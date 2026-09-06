@@ -1,0 +1,787 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Long Dark: Silent Wilderness | LONELY-TheLongDar-寂靜荒野 | Infinite Terror TRPG Scripts</title>
+<link rel="stylesheet" href="../../assets/style.css"></head>
+<body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../../index.html">中文</a></header>
+<div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
+<main class="container"><h1>The Long Dark: Silent Wilderness</h1>
+    <p class="meta">Code: LONELY-TheLongDar-寂靜荒野 ｜ Source: The Long Dark ｜ Difficulty: ★ ｜ Players: 3–5 ｜ Duration: 4–6 hrs ｜ Type: Survival / Resource Management / Environmental</p>
+    <p class="nav"><a href="../../index.html">← 劇本總覽</a> ｜ <a href="../../assets/scripts/L1/LONELY-TheLongDar-寂靜荒野/en/LONELY-TheLongDar-寂靜荒野_劇本.md" download>劇本 MD</a> ｜ <a href="../../assets/scripts/L1/LONELY-TheLongDar-寂靜荒野/en/LONELY-TheLongDar-寂靜荒野_NPC名冊.xlsx" download>NPC 名冊</a> ｜ <a href="../../assets/scripts/L1/LONELY-TheLongDar-寂靜荒野/en/LONELY-TheLongDar-寂靜荒野_敵方單位名冊.xlsx" download>敵方名冊</a> ｜ <a href="../../assets/L1_LONELY-TheLongDar-寂靜荒野_all_en.zip">下載全部（zip）</a></p>
+    <section class="block content"><section class="chap"><h2>一、基本資訊</h2>
+<p>Script Title: The Long Dark: Silent Wilderness
+Source Film: The Long Dark
+Difficulty Rating: ★
+Suggested Players: 3–5
+Estimated Duration: 4–6 hrs
+Script Type: Survival / Resource Management / Environmental
+Prerequisites: None</p></section>
+<details class="gm"><summary>🎭 GM 限定：II. Plot Summary (GM Spoilers)</summary><h2>II. Plot Summary (GM Spoilers)</h2>
+<blockquote>
+<p>The Canadian tundra. A geomagnetic storm has destroyed all electronic devices. The plane carrying the Reincarnators (輪迴者) crashes in the wilderness. There are no monsters — the only enemies are the cold, hunger, the wolf packs, and despair.</p>
+</blockquote>
+<h3>One-Line Summary</h3>
+<p>Search for food, warmth, and rescue in the Canadian wilderness at minus 30 degrees Celsius.</p></details>
+<section class="chap"><h2>III. Main God's Quest (主神任務)</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest Description</td>
+<td>"The geomagnetic storm destroyed everything. Survive 30 days in the Canadian wilderness and reach the rescue signal tower."</td>
+</tr>
+<tr>
+<td>Main Quest</td>
+<td>Survive 30 days and reach the rescue signal tower to activate the distress beacon</td>
+</tr>
+<tr>
+<td>Quest Reward</td>
+<td>D+1200</td>
+</tr>
+<tr>
+<td>Failure Condition</td>
+<td>Total party wipe (freezing / starvation / killed by wolf pack)</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>① No frostbite the entire run → whole party +500;<br>② Craft a full set of cold-weather gear → +300</td>
+</tr>
+</tbody>
+</table></section>
+<section class="chap"><h2>IV. Side Quests (支線劇情)</h2>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Quest Name</th>
+<th>Trigger Condition</th>
+<th>Quest Content</th>
+<th>Reward</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S-01</td>
+<td>Hunter's Cabin</td>
+<td>Explore the forest region</td>
+<td>Find the hunter's abandoned cabin, containing a rifle and ammunition</td>
+<td>D+500</td>
+</tr>
+<tr>
+<td>S-02</td>
+<td>Ice-Lake Fishing</td>
+<td>Discover a frozen lake</td>
+<td>Drill through the ice to fish and stock up on enough food</td>
+<td>D+400</td>
+</tr>
+<tr>
+<td>S-03</td>
+<td>Abandoned Weather Station</td>
+<td>Explore the mountains</td>
+<td>Find the backup generator and radio parts at the abandoned weather station</td>
+<td>D+600</td>
+</tr>
+</tbody>
+</table></section>
+<section class="chap"><h2>V. World Setting</h2>
+<h3>Timeline</h3>
+<blockquote>
+<p>Modern day. Day 1 after the geomagnetic storm. All of northern Canada is without power or communication.</p>
+</blockquote>
+<h3>Key Locations</h3>
+<ul>
+<li><strong>Crash Site (墜機點)</strong>: The broken fuselage provides initial supplies and shelter from the wind</li>
+<li><strong>Lake Mython (密斯頓湖)</strong>: A frozen lake; a cabin sits at its center and fishing spots line the shore</li>
+<li><strong>Silent Valley (寂靜河谷)</strong>: A transition zone where wolves roam but resources are abundant</li>
+<li><strong>Abandoned Mine (廢棄礦坑)</strong>: A deep mine that blocks the wind and holds coal for heating</li>
+<li><strong>Signal Tower (信號塔)</strong>: A battered radio tower on the mountain peak; activating it triggers rescue</li>
+</ul>
+<h3>World Special Rules</h3>
+<ul>
+<li><strong>Body Temperature System</strong>: Every 4 hours, make an Endurance (END) check (Difficulty Class (DC) 1). Failure = body temperature drops one step (Normal → Cold → Hypothermia → Frostbite). Cold-weather gear grants DP+2.</li>
+<li><strong>Hunger System</strong>: Every 12 hours you must consume 1 unit of food, or all checks suffer DP-2.</li>
+<li><strong>Wolf Packs</strong>: Wolves are sensitive to firelight and noise. You can distract them by throwing meat (Agility (AGI) + Athletics (ATH) DC2).</li>
+<li><strong>Time Pressure</strong>: After Day 20, blizzard frequency doubles.</li>
+</ul></section>
+<section class="chap"><h2>VI. NPCs (see Excel)</h2>
+<p>No plot-relevant NPCs — pure environmental survival. You may design notes left behind by past survivors as clues. (See <code>LONELY-TheLongDar-寂靜荒野_NPC名冊.xlsx</code>.)</p></section>
+<section class="chap"><h2>VII. Key Scenes</h2>
+<h3>S01 – Crash Site</h3>
+<blockquote>
+<p><strong>GM Read-Aloud</strong>: "Wreckage is scattered across the snow. Flames still burn, but they will die out soon. In the distance, the howl of wolves drifts faintly through the air."</p>
+</blockquote>
+<h3>S02 – Forest Exploration</h3>
+<blockquote>
+<p><strong>GM Read-Aloud</strong>: "Pine trees creak in the wind. Snow buries your knees. Somewhere, smoke rises — it could be shelter, or a trap."</p>
+</blockquote>
+<h3>S03 – Blizzard Survival</h3>
+<blockquote>
+<p><strong>GM Read-Aloud</strong>: "The snowstorm arrives without warning. Visibility drops to two meters. You must find cover at once — or freeze to death within the half-hour."</p>
+</blockquote>
+<p><strong>Gene Lock (基因鎖) Hint</strong>: Recommended Gene Lock stage — Unlocked. The script can be completed without opening the Gene Lock.</p>
+<h3>S04 – Signal Tower</h3>
+<blockquote>
+<p><strong>GM Read-Aloud</strong>: "The iron tower sways in the blizzard. The control room is half-buried in snow. Fix the generator… and you can call for help."</p>
+</blockquote></section>
+<section class="chap"><h2>VIII. Reward Settlement</h2>
+<table>
+<thead>
+<tr>
+<th>Reward Type</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main Quest</td>
+<td>D+1200</td>
+</tr>
+<tr>
+<td>Side Quests</td>
+<td>Up to D2+1500</td>
+</tr>
+<tr>
+<td>Optional</td>
+<td>Up to +800</td>
+</tr>
+</tbody>
+</table>
+<p>Theoretical maximum yield: D×3 + ~3500</p>
+<h3>Return Exchange (script-limited)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Exchange Item</th>
+<th>Cost (Side Quests + Reward Points)</th>
+<th>Effect</th>
+<th>Growth Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>Extreme Cold Resistance</td>
+<td>D+500</td>
+<td>Modification (Passive): permanently -2 to hypothermia speed; no penalty on cold-hardened Constitution (CON) checks</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Wolf Taming Knowledge</td>
+<td>D+500</td>
+<td>Craft: soothe / tame wolf packs (Charisma (CHA)+2); gain a guide wolf</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Polar Survival Technique</td>
+<td>D+500</td>
+<td>Craft: +2 to snowfield survival checks; can build a cold shelter camp</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Standard</td>
+<td>Aurora Sense</td>
+<td>C+1000</td>
+<td>Modification (Passive): read the aurora to foresee weather and danger (Perception (WIS)+2)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Standard</td>
+<td>Prey Tracking</td>
+<td>C+1000</td>
+<td>Craft: +2 to tracking large beasts; +1 to trap-hunting efficiency</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Standard</td>
+<td>Ice-Plain Trap Crafting</td>
+<td>C+1000</td>
+<td>Craft: +1 to craft checks; build bear traps / ice huts (Base Defense (DEF)+1)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Eternal-Night Survivor Bloodline</td>
+<td>C+2000</td>
+<td>Bloodline: extreme physique; Base Defense (DEF)+1, hunger/thirst needs halved, natural healing +1</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<hr /></section></section>
+    <section class="block"><h2>地圖（YAML＋SVG）</h2><div class="map">
+              <div class="maptitle">LONELY_BM-01 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 460" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="560" height="460" fill="#1a1a2e"/>
+<rect x="20" y="20" width="520" height="420" fill="url(#grid)"/>
+<rect x="20" y="20" width="520" height="420" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="280.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Battle Map 10x8</text>
+<text x="25" y="452" fill="#666" font-size="9">LONELY_BM-01 | 10x10 grid(concept) | 1 grid = 5ft | total 50×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="30.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="330.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="380.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="330.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="380.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="130.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="155.0" y="51.0" text-anchor="middle" fill="#aaa" font-size="8">▲ Battle Map BM-01</text>
+<text x="155.0" y="65.0" text-anchor="middle" fill="#666" font-size="6">(42.5, 12.5)ft</text>
+<rect x="130.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="130.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="130.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="130.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="130.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="130.0" y="330.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="130.0" y="380.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="180.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="205.0" y="51.0" text-anchor="middle" fill="#aaa" font-size="8">▲ Battle Map BM-01</text>
+<text x="205.0" y="65.0" text-anchor="middle" fill="#666" font-size="6">(62.5, 12.5)ft</text>
+<rect x="180.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="180.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="180.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="180.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="205.0" y="251.0" text-anchor="middle" fill="#aaa" font-size="8">Enemy</text>
+<text x="205.0" y="265.0" text-anchor="middle" fill="#666" font-size="6">(62.5, 77.5)ft</text>
+<rect x="180.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="205.0" y="301.0" text-anchor="middle" fill="#aaa" font-size="8">Enemy</text>
+<text x="205.0" y="315.0" text-anchor="middle" fill="#666" font-size="6">(62.5, 92.5)ft</text>
+<rect x="180.0" y="330.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="180.0" y="380.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="255.0" y="51.0" text-anchor="middle" fill="#aaa" font-size="8">Battle Map 10x8</text>
+<text x="255.0" y="65.0" text-anchor="middle" fill="#666" font-size="6">(77.5, 12.5)ft</text>
+<rect x="230.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="255.0" y="101.0" text-anchor="middle" fill="#aaa" font-size="8">Bunker</text>
+<text x="255.0" y="115.0" text-anchor="middle" fill="#666" font-size="6">(77.5, 27.5)ft</text>
+<rect x="230.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="255.0" y="251.0" text-anchor="middle" fill="#aaa" font-size="8">Enemy</text>
+<text x="255.0" y="265.0" text-anchor="middle" fill="#666" font-size="6">(77.5, 77.5)ft</text>
+<rect x="230.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="255.0" y="301.0" text-anchor="middle" fill="#aaa" font-size="8">Enemy</text>
+<text x="255.0" y="315.0" text-anchor="middle" fill="#666" font-size="6">(77.5, 92.5)ft</text>
+<rect x="230.0" y="330.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="380.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="305.0" y="51.0" text-anchor="middle" fill="#aaa" font-size="8">Battle Map 10x8</text>
+<text x="305.0" y="65.0" text-anchor="middle" fill="#666" font-size="6">(92.5, 12.5)ft</text>
+<rect x="280.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="305.0" y="101.0" text-anchor="middle" fill="#aaa" font-size="8">Bunker</text>
+<text x="305.0" y="115.0" text-anchor="middle" fill="#666" font-size="6">(92.5, 27.5)ft</text>
+<rect x="280.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="305.0" y="151.0" text-anchor="middle" fill="#aaa" font-size="8">Bunker</text>
+<text x="305.0" y="165.0" text-anchor="middle" fill="#666" font-size="6">(92.5, 42.5)ft</text>
+<rect x="280.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="330.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="380.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="330.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="330.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="355.0" y="101.0" text-anchor="middle" fill="#aaa" font-size="8">Bunker</text>
+<text x="355.0" y="115.0" text-anchor="middle" fill="#666" font-size="6">(112.5, 27.5)ft</text>
+<rect x="330.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="355.0" y="151.0" text-anchor="middle" fill="#aaa" font-size="8">Bunker</text>
+<text x="355.0" y="165.0" text-anchor="middle" fill="#666" font-size="6">(112.5, 42.5)ft</text>
+<rect x="330.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="355.0" y="201.0" text-anchor="middle" fill="#aaa" font-size="8">Our Side</text>
+<text x="355.0" y="215.0" text-anchor="middle" fill="#666" font-size="6">(112.5, 62.5)ft</text>
+<rect x="330.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="355.0" y="251.0" text-anchor="middle" fill="#aaa" font-size="8">Our Side</text>
+<text x="355.0" y="265.0" text-anchor="middle" fill="#666" font-size="6">(112.5, 77.5)ft</text>
+<rect x="330.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="330.0" y="330.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="330.0" y="380.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="405.0" y="201.0" text-anchor="middle" fill="#aaa" font-size="8">Our Side</text>
+<text x="405.0" y="215.0" text-anchor="middle" fill="#666" font-size="6">(127.5, 62.5)ft</text>
+<rect x="380.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="405.0" y="251.0" text-anchor="middle" fill="#aaa" font-size="8">Our Side</text>
+<text x="405.0" y="265.0" text-anchor="middle" fill="#666" font-size="6">(127.5, 77.5)ft</text>
+<rect x="380.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="330.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="380.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="430.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="430.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="430.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="430.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="430.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="430.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="430.0" y="330.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="430.0" y="380.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="330.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="380.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="28.0" y="28.0" width="504.0" height="404.0" rx="3" fill="none" stroke="#4B0082" stroke-width="2"/>
+<text x="280.0" y="226.0" text-anchor="middle" fill="#aaa" font-size="8">Enemy</text>
+<text x="280.0" y="240.0" text-anchor="middle" fill="#666" font-size="6">(90.0, 72.5)ft</text>
+<rect x="300.0" y="100.0" width="100.0" height="40.0" rx="3" fill="#7f8c8d" stroke="#95a5a6" stroke-width="1"/>
+<text x="350.0" y="116.0" text-anchor="middle" fill="#aaa" font-size="8">Bunker</text>
+<text x="350.0" y="130.0" text-anchor="middle" fill="#666" font-size="6">(112.5, 32.5)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/LONELY-TheLongDar-寂靜荒野/en/maps/LONELY_BM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L1/LONELY-TheLongDar-寂靜荒野/en/maps/LONELY_BM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">LONELY_BM-02 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 360" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="460" height="360" fill="#1a1a2e"/>
+<rect x="20" y="20" width="420" height="320" fill="url(#grid)"/>
+<rect x="20" y="20" width="420" height="320" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="230.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Battle Map 8x6</text>
+<text x="25" y="352" fill="#666" font-size="9">LONELY_BM-02 | 10x10 grid(concept) | 1 grid = 5ft | total 50×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="30.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="105.0" y="151.0" text-anchor="middle" fill="#aaa" font-size="8">Obstacle</text>
+<text x="105.0" y="165.0" text-anchor="middle" fill="#666" font-size="6">(27.5, 42.5)ft</text>
+<rect x="80.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="130.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="155.0" y="51.0" text-anchor="middle" fill="#aaa" font-size="8">▲ Battle Map BM-02</text>
+<text x="155.0" y="65.0" text-anchor="middle" fill="#666" font-size="6">(42.5, 12.5)ft</text>
+<rect x="130.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="155.0" y="101.0" text-anchor="middle" fill="#aaa" font-size="8">Obstacle</text>
+<text x="155.0" y="115.0" text-anchor="middle" fill="#666" font-size="6">(42.5, 27.5)ft</text>
+<rect x="130.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="155.0" y="151.0" text-anchor="middle" fill="#aaa" font-size="8">Obstacle</text>
+<text x="155.0" y="165.0" text-anchor="middle" fill="#666" font-size="6">(42.5, 42.5)ft</text>
+<rect x="130.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="155.0" y="201.0" text-anchor="middle" fill="#aaa" font-size="8">BOSS</text>
+<text x="155.0" y="215.0" text-anchor="middle" fill="#666" font-size="6">(42.5, 62.5)ft</text>
+<rect x="130.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="130.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="180.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="205.0" y="51.0" text-anchor="middle" fill="#aaa" font-size="8">▲ Battle Map BM-02</text>
+<text x="205.0" y="65.0" text-anchor="middle" fill="#666" font-size="6">(62.5, 12.5)ft</text>
+<rect x="180.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="180.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="205.0" y="151.0" text-anchor="middle" fill="#aaa" font-size="8">BOSS</text>
+<text x="205.0" y="165.0" text-anchor="middle" fill="#666" font-size="6">(62.5, 42.5)ft</text>
+<rect x="180.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="205.0" y="201.0" text-anchor="middle" fill="#aaa" font-size="8">BOSS</text>
+<text x="205.0" y="215.0" text-anchor="middle" fill="#666" font-size="6">(62.5, 62.5)ft</text>
+<rect x="180.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="180.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="255.0" y="51.0" text-anchor="middle" fill="#aaa" font-size="8">Battle Map 8x6</text>
+<text x="255.0" y="65.0" text-anchor="middle" fill="#666" font-size="6">(77.5, 12.5)ft</text>
+<rect x="230.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="305.0" y="201.0" text-anchor="middle" fill="#aaa" font-size="8">Our Side</text>
+<text x="305.0" y="215.0" text-anchor="middle" fill="#666" font-size="6">(92.5, 62.5)ft</text>
+<rect x="280.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="305.0" y="251.0" text-anchor="middle" fill="#aaa" font-size="8">Our Side</text>
+<text x="305.0" y="265.0" text-anchor="middle" fill="#666" font-size="6">(92.5, 77.5)ft</text>
+<rect x="280.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="330.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="330.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="330.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="330.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="355.0" y="201.0" text-anchor="middle" fill="#aaa" font-size="8">Our Side</text>
+<text x="355.0" y="215.0" text-anchor="middle" fill="#666" font-size="6">(112.5, 62.5)ft</text>
+<rect x="330.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="355.0" y="251.0" text-anchor="middle" fill="#aaa" font-size="8">Our Side</text>
+<text x="355.0" y="265.0" text-anchor="middle" fill="#666" font-size="6">(112.5, 77.5)ft</text>
+<rect x="330.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="30.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="80.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="130.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="180.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="230.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="280.0" width="50.0" height="50.0" rx="3" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="28.0" y="28.0" width="404.0" height="304.0" rx="3" fill="none" stroke="#4B0082" stroke-width="2"/>
+<text x="230.0" y="176.0" text-anchor="middle" fill="#aaa" font-size="8">BOSS</text>
+<text x="230.0" y="190.0" text-anchor="middle" fill="#666" font-size="6">(72.5, 55.0)ft</text>
+<rect x="150.0" y="100.0" width="40.0" height="80.0" rx="3" fill="#7f8c8d" stroke="#95a5a6" stroke-width="1"/>
+<text x="170.0" y="136.0" text-anchor="middle" fill="#aaa" font-size="8">Obstacle</text>
+<text x="170.0" y="150.0" text-anchor="middle" fill="#666" font-size="6">(52.5, 37.5)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/LONELY-TheLongDar-寂靜荒野/en/maps/LONELY_BM-02.yaml" download>yaml</a> <a href="../../assets/scripts/L1/LONELY-TheLongDar-寂靜荒野/en/maps/LONELY_BM-02.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">LONELY_EM-01 <span class="maptype">探索地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 560" font-family="Microsoft JhengHei, sans-serif">
+<rect width="660" height="560" fill="#1a1a2e"/>
+<text x="330.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">Exploration Map</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 1</text>
+<rect x="20" y="0.0" width="620" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="660.0" height="560.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<text x="330.0" y="280.0" text-anchor="middle" fill="#aaa" font-size="9">Militia Camp</text>
+<rect x="28.0" y="28.0" width="604.0" height="504.0" rx="0.0" fill="none" stroke="#4B0082" stroke-width="2"/>
+<text x="330.0" y="280.0" text-anchor="middle" fill="#aaa" font-size="9">Militia Camp</text>
+<rect x="30.0" y="30.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="55.0" y="55.0" text-anchor="middle" fill="#aaa" font-size="9">Church</text>
+<rect x="80.0" y="30.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="105.0" y="55.0" text-anchor="middle" fill="#aaa" font-size="9">Church</text>
+<rect x="130.0" y="30.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="155.0" y="55.0" text-anchor="middle" fill="#aaa" font-size="9">▲ Exploration Area</text>
+<rect x="180.0" y="30.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="205.0" y="55.0" text-anchor="middle" fill="#aaa" font-size="9">▲ Exploration Area</text>
+<rect x="230.0" y="30.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="255.0" y="55.0" text-anchor="middle" fill="#aaa" font-size="9">▲ Exploration Area</text>
+<rect x="280.0" y="30.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="305.0" y="55.0" text-anchor="middle" fill="#aaa" font-size="9">Exploration Map</text>
+<rect x="330.0" y="30.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="355.0" y="55.0" text-anchor="middle" fill="#aaa" font-size="9">Exploration Map</text>
+<rect x="380.0" y="30.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="405.0" y="55.0" text-anchor="middle" fill="#aaa" font-size="9">Farmland</text>
+<rect x="430.0" y="30.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="30.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="530.0" y="30.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="580.0" y="30.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="60.0" y="70.0" width="200.0" height="200.0" rx="0.0" fill="#333" stroke="#555" stroke-width="1"/>
+<rect x="320.0" y="70.0" width="200.0" height="200.0" rx="0.0" fill="#333" stroke="#555" stroke-width="1"/>
+<rect x="30.0" y="80.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="55.0" y="105.0" text-anchor="middle" fill="#aaa" font-size="9">Church</text>
+<rect x="80.0" y="80.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="105.0" y="105.0" text-anchor="middle" fill="#aaa" font-size="9">Church</text>
+<rect x="130.0" y="80.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="155.0" y="105.0" text-anchor="middle" fill="#aaa" font-size="9">Church</text>
+<rect x="180.0" y="80.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="205.0" y="105.0" text-anchor="middle" fill="#aaa" font-size="9">▲ Exploration Area</text>
+<rect x="230.0" y="80.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="80.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="305.0" y="105.0" text-anchor="middle" fill="#aaa" font-size="9">Farmland</text>
+<rect x="330.0" y="80.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="355.0" y="105.0" text-anchor="middle" fill="#aaa" font-size="9">Farmland</text>
+<rect x="380.0" y="80.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="405.0" y="105.0" text-anchor="middle" fill="#aaa" font-size="9">Farmland</text>
+<rect x="430.0" y="80.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="80.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="530.0" y="80.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="580.0" y="80.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="130.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="55.0" y="155.0" text-anchor="middle" fill="#aaa" font-size="9">Church</text>
+<rect x="80.0" y="130.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="105.0" y="155.0" text-anchor="middle" fill="#aaa" font-size="9">Church</text>
+<rect x="130.0" y="130.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="155.0" y="155.0" text-anchor="middle" fill="#aaa" font-size="9">Church</text>
+<rect x="180.0" y="130.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="130.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="130.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="305.0" y="155.0" text-anchor="middle" fill="#aaa" font-size="9">Farmland</text>
+<rect x="330.0" y="130.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="355.0" y="155.0" text-anchor="middle" fill="#aaa" font-size="9">Farmland</text>
+<rect x="380.0" y="130.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="405.0" y="155.0" text-anchor="middle" fill="#aaa" font-size="9">Farmland</text>
+<rect x="430.0" y="130.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="130.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="530.0" y="130.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="580.0" y="130.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="180.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="180.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="130.0" y="180.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="180.0" y="180.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="180.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="180.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="330.0" y="180.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="180.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="430.0" y="180.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="180.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="530.0" y="180.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="580.0" y="180.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="230.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="230.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="130.0" y="230.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="180.0" y="230.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="230.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="230.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="330.0" y="230.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="230.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="430.0" y="230.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="230.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="530.0" y="230.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="580.0" y="230.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="280.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="55.0" y="305.0" text-anchor="middle" fill="#aaa" font-size="9">Bunker</text>
+<rect x="80.0" y="280.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="105.0" y="305.0" text-anchor="middle" fill="#aaa" font-size="9">Bunker</text>
+<rect x="130.0" y="280.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="155.0" y="305.0" text-anchor="middle" fill="#aaa" font-size="9">Bunker</text>
+<rect x="180.0" y="280.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="280.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="280.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="305.0" y="305.0" text-anchor="middle" fill="#aaa" font-size="9">Militia Camp</text>
+<rect x="330.0" y="280.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="355.0" y="305.0" text-anchor="middle" fill="#aaa" font-size="9">Militia Camp</text>
+<rect x="380.0" y="280.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="405.0" y="305.0" text-anchor="middle" fill="#aaa" font-size="9">Militia Camp</text>
+<rect x="430.0" y="280.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="280.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="530.0" y="280.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="580.0" y="280.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="60.0" y="300.0" width="200.0" height="200.0" rx="0.0" fill="#333" stroke="#555" stroke-width="1"/>
+<rect x="30.0" y="330.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="55.0" y="355.0" text-anchor="middle" fill="#aaa" font-size="9">Bunker</text>
+<rect x="80.0" y="330.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="105.0" y="355.0" text-anchor="middle" fill="#aaa" font-size="9">Bunker</text>
+<rect x="130.0" y="330.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="155.0" y="355.0" text-anchor="middle" fill="#aaa" font-size="9">Bunker</text>
+<rect x="180.0" y="330.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="330.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="330.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="305.0" y="355.0" text-anchor="middle" fill="#aaa" font-size="9">Militia Camp</text>
+<rect x="330.0" y="330.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="355.0" y="355.0" text-anchor="middle" fill="#aaa" font-size="9">Militia Camp</text>
+<rect x="380.0" y="330.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="405.0" y="355.0" text-anchor="middle" fill="#aaa" font-size="9">Militia Camp</text>
+<rect x="430.0" y="330.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="330.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="530.0" y="330.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="580.0" y="330.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="380.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="55.0" y="405.0" text-anchor="middle" fill="#aaa" font-size="9">Bunker</text>
+<rect x="80.0" y="380.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="105.0" y="405.0" text-anchor="middle" fill="#aaa" font-size="9">Bunker</text>
+<rect x="130.0" y="380.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="180.0" y="380.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="380.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="380.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="330.0" y="380.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="355.0" y="405.0" text-anchor="middle" fill="#aaa" font-size="9">Militia Camp</text>
+<rect x="380.0" y="380.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="405.0" y="405.0" text-anchor="middle" fill="#aaa" font-size="9">Militia Camp</text>
+<rect x="430.0" y="380.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="380.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="530.0" y="380.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="580.0" y="380.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="430.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="430.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="130.0" y="430.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="180.0" y="430.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="430.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="430.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="330.0" y="430.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="430.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="430.0" y="430.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="430.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="530.0" y="430.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="580.0" y="430.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="30.0" y="480.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="80.0" y="480.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="130.0" y="480.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="180.0" y="480.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="230.0" y="480.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="280.0" y="480.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="330.0" y="480.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="380.0" y="480.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="430.0" y="480.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="480.0" y="480.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="530.0" y="480.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<rect x="580.0" y="480.0" width="50.0" height="50.0" rx="0.0" fill="none" stroke="#333" stroke-width="0.5"/>
+<text x="20" y="550" fill="#666" font-size="9">LONELY_EM-01 | Exploration Map </text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/LONELY-TheLongDar-寂靜荒野/en/maps/LONELY_EM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L1/LONELY-TheLongDar-寂靜荒野/en/maps/LONELY_EM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">LONELY_WM-01 <span class="maptype">世界地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 460" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="660" height="460" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="660" height="460" fill="url(#wmgrid)"/>
+<rect x="30.0" y="30.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="30.0" y="80.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="30.0" y="130.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="30.0" y="180.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="30.0" y="230.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="30.0" y="280.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="30.0" y="330.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="30.0" y="380.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="80.0" y="30.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="80.0" y="80.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<text x="105.0" y="105.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Crash Site</text>
+<rect x="80.0" y="130.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<text x="105.0" y="155.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Crash Site</text>
+<rect x="80.0" y="180.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="80.0" y="230.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<text x="105.0" y="255.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Mine</text>
+<rect x="80.0" y="280.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<text x="105.0" y="305.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Mine</text>
+<rect x="80.0" y="330.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="80.0" y="380.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="130.0" y="30.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="130.0" y="80.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="130.0" y="130.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="130.0" y="180.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="130.0" y="230.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="130.0" y="280.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="130.0" y="330.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="130.0" y="380.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="180.0" y="30.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<text x="205.0" y="55.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">▲ Canadian Tundra</text>
+<rect x="180.0" y="80.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="180.0" y="130.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="180.0" y="180.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="180.0" y="230.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="180.0" y="280.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="180.0" y="330.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="180.0" y="380.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="230.0" y="30.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="230.0" y="80.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="230.0" y="130.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="230.0" y="180.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="230.0" y="230.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="230.0" y="280.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="230.0" y="330.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="230.0" y="380.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="280.0" y="30.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<text x="305.0" y="55.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Wide-area Map</text>
+<rect x="280.0" y="80.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="280.0" y="130.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="280.0" y="180.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="280.0" y="230.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="280.0" y="280.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="280.0" y="330.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="280.0" y="380.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="330.0" y="30.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<text x="355.0" y="55.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Wide-area Map</text>
+<rect x="330.0" y="80.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<text x="355.0" y="105.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Lake Mython</text>
+<rect x="330.0" y="130.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="330.0" y="180.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="330.0" y="230.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="330.0" y="280.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<text x="355.0" y="305.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">→ Signal Tower</text>
+<rect x="330.0" y="330.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="330.0" y="380.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="380.0" y="30.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="380.0" y="80.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<text x="405.0" y="105.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Lake Mython</text>
+<rect x="380.0" y="130.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="380.0" y="180.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="380.0" y="230.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="380.0" y="280.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="380.0" y="330.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="380.0" y="380.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="430.0" y="30.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="430.0" y="80.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="430.0" y="130.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="430.0" y="180.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="430.0" y="230.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="430.0" y="280.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="430.0" y="330.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="430.0" y="380.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="480.0" y="30.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="480.0" y="80.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="480.0" y="130.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="480.0" y="180.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="480.0" y="230.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="480.0" y="280.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="480.0" y="330.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="480.0" y="380.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="530.0" y="30.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="530.0" y="80.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="530.0" y="130.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="530.0" y="180.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="530.0" y="230.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="530.0" y="280.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="530.0" y="330.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="530.0" y="380.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="580.0" y="30.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="580.0" y="80.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="580.0" y="130.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="580.0" y="180.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="580.0" y="230.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="580.0" y="280.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="580.0" y="330.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="580.0" y="380.0" width="50.0" height="50.0" rx="5" fill="none" stroke="#333" stroke-width="2"/>
+<rect x="28.0" y="28.0" width="604.0" height="404.0" rx="5" fill="none" stroke="#4B0082" stroke-width="2"/>
+<rect x="80.0" y="80.0" width="150.0" height="100.0" rx="5" fill="#333" stroke="#4B0082" stroke-width="2"/>
+<rect x="350.0" y="80.0" width="150.0" height="100.0" rx="5" fill="#333" stroke="#4B0082" stroke-width="2"/>
+<rect x="80.0" y="250.0" width="150.0" height="100.0" rx="5" fill="#333" stroke="#4B0082" stroke-width="2"/>
+<text x="20" y="445" fill="#666" font-size="9">LONELY_WM-01 | Wide-area Map | Schematic</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L1/LONELY-TheLongDar-寂靜荒野/en/maps/LONELY_WM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L1/LONELY-TheLongDar-寂靜荒野/en/maps/LONELY_WM-01.svg" download>svg</a></p>
+            </div></section>
+    <section class="block"><h2>概念圖</h2><div class="gallery"><a href="../../assets/scripts/L1/LONELY-TheLongDar-寂靜荒野/images/enemy_01_wolf.png" target="_blank"><img src="../../assets/scripts/L1/LONELY-TheLongDar-寂靜荒野/images/enemy_01_wolf.png" alt="enemy_01_wolf.png"></a><a href="../../assets/scripts/L1/LONELY-TheLongDar-寂靜荒野/images/npc_01_survivor.png" target="_blank"><img src="../../assets/scripts/L1/LONELY-TheLongDar-寂靜荒野/images/npc_01_survivor.png" alt="npc_01_survivor.png"></a><a href="../../assets/scripts/L1/LONELY-TheLongDar-寂靜荒野/images/scene_01_crash_site.png" target="_blank"><img src="../../assets/scripts/L1/LONELY-TheLongDar-寂靜荒野/images/scene_01_crash_site.png" alt="scene_01_crash_site.png"></a></div></section>
+    </main>
+<footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

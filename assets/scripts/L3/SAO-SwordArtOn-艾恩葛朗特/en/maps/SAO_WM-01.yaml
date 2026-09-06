@@ -1,0 +1,41 @@
+map_id: SAO_WM-01
+map_type: world
+scenario: 'Blade and Sword Divine Domain·Aincrad / Sword Art Online: Aincrad'
+tier: L3
+difficulty: ★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: SAO_WM-01 World map
+description: ''
+scale: Illustration
+regions:
+- bounds:
+  - 120.0
+  - 90.0
+  - 120.0
+  - 22.0
+  fill: '#b8305e'
+  stroke: ''
+  name: No.50Sheaf ★Grim Reaper
+roads: []
+routes:
+- x1: 260.0
+  y1: 548.0
+  x2: 340.0
+  y2: 530.0
+  stroke: '#b8305e'
+  stroke_width: '1'
+  dashed: true
+danger_zones: []
+landmarks: []
+legend:
+- Player Starting Point · secure zone · Portal Center
+- Wind Forest Volcano Headquarters · about25Sheaf
+- Raiders Intelligence Exchange · Transaction Center
+- Final Scene · Raiders Watershed
+- General Floor
+- BOSSSheaf(<g id="Bold">Qn,</g>5Sheaf)
+- Final

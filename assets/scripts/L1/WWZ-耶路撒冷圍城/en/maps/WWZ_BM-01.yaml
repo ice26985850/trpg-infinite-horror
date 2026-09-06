@@ -1,0 +1,244 @@
+map_id: WWZ_BM-01
+map_type: battle
+scenario: 'World War Z: Siege of Jerusalem / World War Z: Siege of Jerusalem'
+tier: L1
+difficulty: ★
+viewbox:
+- 0
+- 0
+- 680
+- 420
+title: Perimeter Wall Checkpoint Defense Position
+description: ''
+grid:
+  type: square
+  width: 14
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 40.0
+  - 40.0
+  total_width_ft: 70
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 420.0
+  - 5.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 28
+  - 1
+  center_ft:
+  - 70.0
+  - 2.5
+- bounds_px:
+  - 40.0
+  - 335.0
+  - 420.0
+  - 5.0
+  name: Barricade
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 20
+  - 28
+  - 1
+  center_ft:
+  - 70.0
+  - 102.5
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 5.0
+  - 300.0
+  name: ''
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 0
+  - 0
+  - 1
+  - 20
+  center_ft:
+  - 2.5
+  - 50.0
+- bounds_px:
+  - 455.0
+  - 40.0
+  - 5.0
+  - 300.0
+  name: Z
+  fill: '#667'
+  stroke: ''
+  stroke_width: ''
+  bounds_grid:
+  - 28
+  - 0
+  - 1
+  - 20
+  center_ft:
+  - 142.5
+  - 50.0
+- bounds_px:
+  - 80.0
+  - 60.0
+  - 140.0
+  - 15.0
+  name: Perimeter Wall
+  fill: '#FFAA00'
+  stroke: '#886600'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 3
+  - 1
+  - 9
+  - 1
+  center_ft:
+  - 37.5
+  - 7.5
+- bounds_px:
+  - 340.0
+  - 40.0
+  - 30.0
+  - 40.0
+  name: Machine-gun Tower
+  fill: '#334'
+  stroke: '#F59E0B'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 20
+  - 0
+  - 2
+  - 3
+  center_ft:
+  - 105.0
+  - 7.5
+- bounds_px:
+  - 180.0
+  - 280.0
+  - 80.0
+  - 12.0
+  name: Barricade
+  fill: '#FFAA00'
+  stroke: '#886600'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 9
+  - 16
+  - 5
+  - 1
+  center_ft:
+  - 57.5
+  - 82.5
+- bounds_px:
+  - 480.0
+  - 280.0
+  - 80.0
+  - 12.0
+  name: Barricade
+  fill: '#FFAA00'
+  stroke: '#886600'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 29
+  - 16
+  - 5
+  - 1
+  center_ft:
+  - 157.5
+  - 82.5
+- bounds_px:
+  - 310.0
+  - 320.0
+  - 80.0
+  - 30.0
+  name: Escape Passage
+  fill: '#1a2a30'
+  stroke: '#3B82F6'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 18
+  - 19
+  - 5
+  - 2
+  center_ft:
+  - 102.5
+  - 100.0
+- bounds_px:
+  - 310.0
+  - 340.0
+  - 80.0
+  - 5.0
+  name: Control Console
+  fill: '#00FF88'
+  stroke: '#00FF88'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 18
+  - 20
+  - 5
+  - 1
+  center_ft:
+  - 102.5
+  - 102.5
+spawn_points:
+  players:
+  - px:
+    - 310.0
+    - 380.0
+    name: Player Entrance
+    fill: '#00FF88'
+    grid:
+    - 18
+    - 23
+  enemies: []
+entry_points: []
+boundary: []
+objective:
+  description: Escape Passage
+  position_px:
+  - 350.0
+  - 337.0
+key_distances:
+- from: ''
+  to: Barricade
+  distance_ft: 100.0
+- from: ''
+  to: ''
+  distance_ft: 82.5
+- from: ''
+  to: Z
+  distance_ft: 86.7
+- from: ''
+  to: Perimeter Wall
+  distance_ft: 32.9
+- from: ''
+  to: Machine-gun Tower
+  distance_ft: 35.4
+- from: ''
+  to: Barricade
+  distance_ft: 81.0
+- from: ''
+  to: Barricade
+  distance_ft: 118.6
+- from: ''
+  to: Escape Passage
+  distance_ft: 102.8
+- from: ''
+  to: Control Console
+  distance_ft: 105.1
+- from: Barricade
+  to: ''
+  distance_ft: 85.5

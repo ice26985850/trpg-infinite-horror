@@ -1,0 +1,654 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Warcraft: The Burning Legion | WARC-燃燒軍團 | Infinite Terror TRPG Scripts</title>
+<link rel="stylesheet" href="../../assets/style.css"></head>
+<body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../../index.html">中文</a></header>
+<div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
+<main class="container"><h1>Warcraft: The Burning Legion</h1>
+    <p class="meta">Code: WARC-燃燒軍團 ｜ Source: Warcraft — The Burning Legion Invasion ｜ Difficulty: ★★★★★ ｜ Players: 3–5 ｜ Duration: 8–12 hrs / 3–4 sessions ｜ Type: Combat / Adventure</p>
+    <p class="nav"><a href="../../index.html">← 劇本總覽</a> ｜ <a href="../../assets/scripts/L4/WARC-燃燒軍團/en/WARC_劇本.md" download>劇本 MD</a> ｜ <a href="../../assets/scripts/L4/WARC-燃燒軍團/en/WARC_NPC名冊.xlsx" download>NPC 名冊</a> ｜ <a href="../../assets/scripts/L4/WARC-燃燒軍團/en/WARC_敵方單位名冊.xlsx" download>敵方名冊</a> ｜ <a href="../../assets/L4_WARC-燃燒軍團_all_en.zip">下載全部（zip）</a></p>
+    <section class="block content"><section class="chap"><h2>一、基本資訊</h2>
+<p>Script Title: Warcraft: The Burning Legion
+Source Film: Warcraft — The Burning Legion Invasion
+Difficulty Rating: ★★★★★
+Suggested Players: 3–5
+Estimated Duration: 8–12 hrs / 3–4 sessions
+Prerequisites: Gene Lock Stage III or higher (Stage IV recommended)
+Script Type: Combat / Adventure</p>
+<hr /></section>
+<details class="gm"><summary>🎭 GM 限定：II. Plot Summary (GM Spoilers)</summary><h2>II. Plot Summary (GM Spoilers)</h2>
+<h3>One-Line Summary</h3>
+<blockquote>
+<p>Help Khadgar close the Burning Legion's portal and stop Archimonde from manifesting in Azeroth.</p>
+</blockquote>
+<h3>Full Plot Background</h3>
+<p>The Burning Legion invades Azeroth once more. A gigantic portal torn open from the Twisting Nether endlessly pours out the demon army — felhounds, Doomguards, and Pit Lords lay waste to everything. The archmage Khadgar has gathered the last of the guardians' power, but closing the portal requires a guardian to cast at three key nodes simultaneously — and he is alone.</p>
+<p>The Reincarnators (輪迴者) enter at this critical moment. They must help Khadgar protect the three spell-nodes from demon sabotage, while slaying enough Legion commanders to weaken the portal's energy. The guardian Medivh — though he once opened the Dark Portal — now stands with humanity, willing to use his knowledge to help close it.</p>
+<p>But if Archimonde fully manifests through the portal — everything ends.</p>
+<h3>Plot Structure Type</h3>
+<p><strong>Hybrid</strong>: Three spell-nodes must be defended simultaneously — each node is an independent combat scene.</p>
+<hr /></details>
+<section class="chap"><h2>III. Main God Quest</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Quest Description</td>
+<td>"Help the archmage Khadgar close the Burning Legion's portal. Protect all three spell-nodes. Time limit: 24 hours."</td>
+</tr>
+<tr>
+<td>Main Quest</td>
+<td>Close the Burning Legion's portal</td>
+</tr>
+<tr>
+<td>Quest Reward</td>
+<td>A + 12000</td>
+</tr>
+<tr>
+<td>Failure Condition</td>
+<td>Total annihilation / all three spell-nodes fully destroyed / Archimonde fully manifests</td>
+</tr>
+<tr>
+<td>Failure Penalty</td>
+<td>Erasure</td>
+</tr>
+<tr>
+<td>Optional Objectives</td>
+<td>① Defeat a Pit Lord: B1 <br>② Defeat felhound commanders (cumulative 5+): C + 1500 <br>③ Help rally the orc and human allied army: B1</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>IV. Side Quests</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest ID</td>
+<td>S-01</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>The Orcs' Honor</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Find Grommash and help the Warsong Clan repel a felhound assault</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Destroy 1d4+2 felhounds + 1 felhound commander, earn the orc tribe's trust</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>First 12 hours</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>3 orc warriors join node defense + 1200</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Supports the main quest — lowers node-defense difficulty (each node +1 guard)</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest ID</td>
+<td>S-02</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>The Guardian's Legacy</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Find the Guardian's library in Medivh's Tower</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Decipher the sealed ancient texts (Intellect + Occultism DC 4, 2 checks) to find the spell that accelerates the portal's closure</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Before the main quest ends</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>Portal closure time halved (from 10 Rounds → 5 Rounds) + B1</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Greatly supports the main quest — shortens the boss battle duration</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest ID</td>
+<td>S-03</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>The Demon's True Name</td>
+</tr>
+<tr>
+<td>Trigger Condition</td>
+<td>Capture and interrogate a felhound commander (requires at least 1 successful Intimidation DC 4 or Negotiation DC 4)</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Wrench the Pit Lord's true name from the demon — it can be used to weaken him</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Before encountering the Pit Lord</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>Pit Lord AC-3 / DP-2 + 600</td>
+</tr>
+<tr>
+<td>Relation to Main Quest</td>
+<td>Supports the main quest — lowers the Pit Lord battle difficulty</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>V. World Setting</h2>
+<h3>Timeline</h3>
+<p>| T+0 hrs | Awaken at the ruins of Dalaran — Khadgar is preparing the portal-closure ritual |
+| T+3 hrs | First spell-node begins — felhound vanguard attacks |
+| T+6 hrs | Medivh arrives — provides the acceleration spell |
+| T+12 hrs | Pit Lord appears — second node defense battle |
+| T+18 hrs | Archimonde begins manifesting through the portal — third node final defense |
+| T+24 hrs | Portal fully opens — quest failed |</p>
+<h3>Key Locations</h3>
+<h4>Location A: Ruins of Dalaran (Start Point / First Node)</h4>
+<p>The once city of magic is now half-ruined. Khadgar carves a gigantic sealing rune into the magic array at the city center. Around it burn buildings and scattered pages of spellbooks.</p>
+<h4>Location B: Medivh's Tower (Second Node)</h4>
+<p>A lonely stone tower rises on the wasteland. Its top observatory overlooks the full panorama of the portal. Medivh prepares the second sealing array here.</p>
+<h4>Location C: Dark Portal Ruins (Third Node / Final)</h4>
+<p>The portal ruins that once linked to Draenor — now the Burning Legion uses the same spatial fissure to build its invasion channel. The Twisting Nether's light streams from the rift into this world.</p>
+<h3>World Special Rules</h3>
+<ul>
+<li><strong>Portal Energy</strong>: Every 6 hours elapsed, Legion reinforcement strength +1 (initial ★★ → final ★★★★).</li>
+<li><strong>Node Defense</strong>: Each node requires 10 Rounds of chanting. Being attacked interrupts it — each interrupted Round sets progress back 2 Rounds.</li>
+<li><strong>Medivh's Sacrifice</strong>: If the situation is critical, Medivh may sacrifice himself to fully close the portal — but this costs the party its wise guidance.</li>
+</ul>
+<h3>Main God Restrictions</h3>
+<ul>
+<li>"Do not reveal the existence of the Main God Space to story characters."</li>
+<li>"If all three spell-nodes fall, the portal opens irreversibly."</li>
+</ul>
+<h3>Visual Map System</h3>
+<table>
+<thead>
+<tr>
+<th>Layer</th>
+<th>ID</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Large Map</td>
+<td>WM-01</td>
+<td><code>maps/WARC_WM-01.svg</code></td>
+</tr>
+<tr>
+<td>Exploration Map</td>
+<td>EM-01</td>
+<td><code>maps/WARC_EM-01.svg</code></td>
+</tr>
+<tr>
+<td>Combat Map</td>
+<td>BM-01</td>
+<td><code>maps/WARC_BM-01.svg</code></td>
+</tr>
+<tr>
+<td>Combat Map</td>
+<td>BM-02</td>
+<td><code>maps/WARC_BM-02.svg</code></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VII. Key Scenes</h2>
+<h4>Scene S01: Awakening — The World Descends</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene ID</td>
+<td>S01</td>
+</tr>
+<tr>
+<td>GM Read-Aloud Text</td>
+<td>"The acrid smell of sulfur is the first thing to hit your nostrils. You lie amid rubble — the former Dalaran Academy of Magic, now half-ruined. In the sky, a massive green rift is expanding — that is the Burning Legion's portal. A white-haired old man stands before you, the tip of his staff glowing faint blue. 'Thank the gods — I thought we'd be too late. I am Khadgar. We don't have much time.'"</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Khadgar (quest briefing + intel on the three node locations); magic array (may help carve it — Intellect + Occultism DC 3 / +20 HP to the node); surrounding ruins (search yields magic potions ×3)</td>
+</tr>
+<tr>
+<td>Encounters</td>
+<td>No immediate combat — guidance phase</td>
+</tr>
+<tr>
+<td>Gene Lock Notes</td>
+<td>None — guidance phase</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Obtain quest intel and decide on a course of action</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>VIII. Reward Settlement</h2>
+<h4>Scene S03: Encounter — Node Defense — Pit Lord Assault</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GM Read-Aloud Text</td>
+<td>"No sooner is the second node laid than a deep roar sounds from the sky. A gigantic figure squeezes through the portal — taller than any building, wreathed in green hellfire. A Pit Lord. He raises his gigantic warhammer and bellows at the node. The ground trembles beneath your feet."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Node (HP 150 / base defense 14 — must be protected); surrounding magic towers (may topple to knock down the Pit Lord for DP 10 / Strength DC 5); Khadgar (provides ranged fire support — DP 8 arcane to 1 enemy per Round)</td>
+</tr>
+<tr>
+<td>Encounters</td>
+<td>Pit Lord (★★★★) ×1 + felhounds ×1d4. The Pit Lord releases demon flame every 2 Rounds (DP 9 / range 30ft / 4d6 fire).</td>
+</tr>
+<tr>
+<td>Gene Lock Notes</td>
+<td><strong>Gene Lock Tip</strong>: Gene Lock Stage III (Resolve DC 4): recommended for locating the Pit Lord's attack blind spot — gain a 1-Round invincibility window while the warhammer charges.</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Protect the node for 10 Rounds or defeat the Pit Lord</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S08: Final Decisive Battle — Archimonde Descends</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GM Read-Aloud Text</td>
+<td>"The third node — and the last hope. Khadgar and Medivh begin the final sealing chant together. But just then the portal shudders violently — a massive arm wreathed in flame extends from the rift. Archimonde. The Defiler. He is pulling himself from the Twisting Nether into this world. His eyes lock onto you — onto the spell-node."</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Node (HP 200 / must be protected within 10 Rounds — completing S-02 shortens to 5 Rounds); Medivh's barrier (grants the node temporary invincibility / lasts 3 Rounds / usable once); Khadgar's array (if a party member helps guide the energy — Intellect + Occultism DC 4 speeds chanting by 0.5 Round per Round)</td>
+</tr>
+<tr>
+<td>Encounters</td>
+<td><strong>Forced boss battle</strong>: Archimonde (★★★★★+) — not-yet-fully-manifested state. HP 200 (true body) / DP 12. Every 3 Rounds the Legion summons reinforcements. Must protect the node before the portal fully opens. After Archimonde fully manifests: HP = 300 / DP = 14 / auto-attacks each Round.</td>
+</tr>
+<tr>
+<td>Gene Lock Notes</td>
+<td><strong>Gene Lock Tip</strong>: Gene Lock Stage IV (Resolve DC 5) is the minimum requirement. Archimonde's Finger of Death is an instant-death-level threat — Stage IV lets you sense the mana coalescing 1 Round before casting, gaining DC-3 Reflex to evade.</td>
+</tr>
+<tr>
+<td>Transition Condition</td>
+<td>Portal fully closed → script cleared</td>
+</tr>
+</tbody>
+</table>
+<h3>Return Exchange (Script-Specific)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Item</th>
+<th>Cost (Side Quest + Reward Points)</th>
+<th>Effect</th>
+<th>Growth Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>Demon Blood</td>
+<td>B + 2000</td>
+<td>Drink demon blood: Strength (STR) +3, Hit Points (HP) +30, at the cost of -1 Sanity, and gain 1×/day Demon Charge (DP+2)</td>
+<td>Lv1→Lv2→Lv3: first drink → demonized → half-demon</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Orc Warrior Training</td>
+<td>B + 2000</td>
+<td>Strength (STR) + melee permanently +3; Berserk (2× per battle, Strength +3 / 3 Rounds)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Druid Nature Magic</td>
+<td>B + 2000</td>
+<td>Gain druid nature magic: healing (recover Hit Points (HP) 15 / Round), root binding (DP+3, bind 1d3 Rounds)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Fel Magic</td>
+<td>A + 4000</td>
+<td>Unlock "Fel": green-flame attack (DP+3 / 2d8 fel, may corrupt terrain)</td>
+<td>Lv1→Lv2→Lv3: minor fel → fel burn → demon form</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>The Holy Light</td>
+<td>A + 4000</td>
+<td>Gain "Holy Light": healing and undead/demon banishment (DP+3 vs undead / demons), Will (Charisma (CHA)) +2</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Shadow Magic</td>
+<td>A + 4000</td>
+<td>Gain Shadow Bolt / Shadow Cloak: DP+3 shadow damage, Stealth (Perception (WIS) DC-2)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Illidan's Eyes</td>
+<td>S + 9600</td>
+<td>Gain the "Demon Hunter" eyes: full-field perception, demon true-name sense, shadow / fel power +2</td>
+<td>Lv1→Lv2→Lv3: blind → demon eyes → Demon Hunter awakening</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Frostmourne</td>
+<td>S + 8000</td>
+<td>Gain the "Frostmourne" runeblade: soul devour (DP+5, heal Hit Points (HP) 15 on hit), control undead</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Flame of Sargeras</td>
+<td>S + 8000</td>
+<td>Gain Sargeras's genesis-level flame: devastating strike (DP+6 / 5d10 arcane fire, range 50ft)</td>
+<td>Lv1→Lv2→Lv3: spark → blaze → Titan's Flame</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>X. Appendix</h2>
+<ul>
+<li><strong>Maps</strong>: <code>maps/WARC_WM-01.svg</code> ~ <code>WARC_BM-02.svg</code></li>
+<li><strong>NPC / Enemies</strong>: <code>WARC_NPC名冊.xlsx</code>, <code>WARC_敵方單位名冊.xlsx</code></li>
+<li><strong>GM Memo</strong>:</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Reward Type</th>
+<th>Content</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main Quest Complete</td>
+<td>Close the portal</td>
+<td>A + 12000</td>
+</tr>
+<tr>
+<td>Optional Objective ①</td>
+<td>Defeat the Pit Lord</td>
+<td>B1</td>
+</tr>
+<tr>
+<td>Optional Objective ②</td>
+<td>Defeat 5+ felhound commanders</td>
+<td>C + 1500</td>
+</tr>
+<tr>
+<td>Side Quest S-01</td>
+<td>Orcs' honor</td>
+<td>1200</td>
+</tr>
+<tr>
+<td>Side Quest S-02</td>
+<td>Guardian's legacy</td>
+<td>B1</td>
+</tr>
+<tr>
+<td>Side Quest S-03</td>
+<td>Demon's true name</td>
+<td>600</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Felhound (each)</td>
+<td>120</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Pit Lord</td>
+<td>1000</td>
+</tr>
+<tr>
+<td>Kill Reward</td>
+<td>Archimonde (unmanifested)</td>
+<td>2000</td>
+</tr>
+<tr>
+<td>Special Achievement</td>
+<td>All three nodes never hit</td>
+<td>800</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<blockquote>
+<p><strong>Script Code</strong>: WARC <strong>Version</strong>: v1.0 <strong>Format Spec</strong>: v0.4</p>
+</blockquote></section></section>
+    <section class="block"><h2>地圖（YAML＋SVG）</h2><div class="map">
+              <div class="maptitle">WARC_BM-01 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="640" height="480" fill="#1a1a2e"/>
+<rect x="20" y="20" width="600" height="440" fill="url(#grid)"/>
+<rect x="20" y="20" width="600" height="440" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="320.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">BM-01 Pit Lord Node Guard Battle</text>
+<text x="25" y="472" fill="#666" font-size="9">WARC_BM-01 | 10×10cells(concept) | 1cells = 5ft | total 50×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="40.0" y="40.0" width="80.0" height="80.0" rx="3" fill="none" stroke="#00FF88" stroke-width="2"/>
+<text x="80.0" y="76.0" text-anchor="middle" fill="#aaa" font-size="8">Player Start</text>
+<text x="80.0" y="90.0" text-anchor="middle" fill="#666" font-size="6">(17.5, 17.5)ft</text>
+<rect x="280.0" y="280.0" width="120.0" height="80.0" rx="3" fill="none" stroke="#FF4444" stroke-width="1.5"/>
+<text x="340.0" y="316.0" text-anchor="middle" fill="#aaa" font-size="8">Pit Lord</text>
+<text x="340.0" y="330.0" text-anchor="middle" fill="#666" font-size="6">(105.0, 97.5)ft</text>
+<rect x="40.0" y="280.0" width="120.0" height="80.0" rx="3" fill="#3B82F622" stroke="#3B82F6" stroke-width="2"/>
+<text x="100.0" y="316.0" text-anchor="middle" fill="#aaa" font-size="8">Node 2 Magic Circle</text>
+<text x="100.0" y="330.0" text-anchor="middle" fill="#666" font-size="6">(25.0, 97.5)ft</text>
+<rect x="200.0" y="40.0" width="80.0" height="80.0" rx="3" fill="none" stroke="#FF4444" stroke-width="1.5"/>
+<text x="240.0" y="76.0" text-anchor="middle" fill="#aaa" font-size="8">Hellhound ×3</text>
+<text x="240.0" y="90.0" text-anchor="middle" fill="#666" font-size="6">(72.5, 17.5)ft</text>
+<rect x="160.0" y="160.0" width="80.0" height="80.0" rx="3" fill="#66644" stroke="#666" stroke-width="1"/>
+<text x="200.0" y="196.0" text-anchor="middle" fill="#aaa" font-size="8">Magic Tower (Can be Toppled)</text>
+<text x="200.0" y="210.0" text-anchor="middle" fill="#666" font-size="6">(57.5, 57.5)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L4/WARC-燃燒軍團/en/maps/WARC_BM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L4/WARC-燃燒軍團/en/maps/WARC_BM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">WARC_BM-02 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="640" height="480" fill="#1a1a2e"/>
+<rect x="20" y="20" width="600" height="440" fill="url(#grid)"/>
+<rect x="20" y="20" width="600" height="440" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="320.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">BM-02 Archimonde Descent Battle</text>
+<text x="25" y="472" fill="#666" font-size="9">WARC_BM-02 | 10×10cells(concept) | 1cells = 5ft | total 50×50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="40.0" y="40.0" width="80.0" height="80.0" rx="3" fill="none" stroke="#00FF88" stroke-width="2"/>
+<text x="80.0" y="76.0" text-anchor="middle" fill="#aaa" font-size="8">Player Start</text>
+<text x="80.0" y="90.0" text-anchor="middle" fill="#666" font-size="6">(17.5, 17.5)ft</text>
+<rect x="320.0" y="280.0" width="80.0" height="80.0" rx="3" fill="none" stroke="#FF4444" stroke-width="1.5"/>
+<text x="360.0" y="316.0" text-anchor="middle" fill="#aaa" font-size="8">Archimonde</text>
+<text x="360.0" y="330.0" text-anchor="middle" fill="#666" font-size="6">(112.5, 97.5)ft</text>
+<rect x="280.0" y="40.0" width="120.0" height="80.0" rx="3" fill="#EF444422" stroke="#EF4444" stroke-width="2"/>
+<text x="340.0" y="76.0" text-anchor="middle" fill="#aaa" font-size="8">Node 3 Magic Circle</text>
+<text x="340.0" y="90.0" text-anchor="middle" fill="#666" font-size="6">(105.0, 17.5)ft</text>
+<rect x="40.0" y="280.0" width="120.0" height="80.0" rx="3" fill="#6D28D922" stroke="#6D28D9" stroke-width="2"/>
+<text x="100.0" y="316.0" text-anchor="middle" fill="#aaa" font-size="8">Portal</text>
+<text x="100.0" y="330.0" text-anchor="middle" fill="#666" font-size="6">(25.0, 97.5)ft</text>
+<rect x="160.0" y="160.0" width="80.0" height="80.0" rx="3" fill="#3B82F644" stroke="#3B82F6" stroke-width="1"/>
+<text x="200.0" y="196.0" text-anchor="middle" fill="#aaa" font-size="8">Medivh's Barrier</text>
+<text x="200.0" y="210.0" text-anchor="middle" fill="#666" font-size="6">(57.5, 57.5)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L4/WARC-燃燒軍團/en/maps/WARC_BM-02.yaml" download>yaml</a> <a href="../../assets/scripts/L4/WARC-燃燒軍團/en/maps/WARC_BM-02.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">WARC_EM-01 <span class="maptype">探索地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" font-family="Microsoft JhengHei, sans-serif">
+<rect width="900" height="580" fill="#1a1a2e"/>
+<text x="450.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">Azeroth Combat Zone — Three-Node Defense Map</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 1</text>
+<rect x="20" y="0.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="900.0" height="580.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<rect x="20.0" y="53.0" width="860.0" height="140.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="450.0" y="123.0" text-anchor="middle" fill="#aaa" font-size="9">Ruins (Cover / Supply)</text>
+<rect x="35.0" y="85.0" width="300.0" height="60.0" rx="3.0" fill="#0d1a1a" stroke="#10B981" stroke-width="1.5"/>
+<text x="185.0" y="115.0" text-anchor="middle" fill="#aaa" font-size="9">Khadgar's Magic Circle</text>
+<rect x="370.0" y="85.0" width="200.0" height="60.0" rx="3.0" fill="#1a1505" stroke="#F59E0B" stroke-width="1.5"/>
+<text x="470.0" y="115.0" text-anchor="middle" fill="#aaa" font-size="9">Ruins (Cover / Supply)</text>
+<text x="20" y="218.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 2</text>
+<rect x="20" y="223.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="20.0" y="223.0" width="860.0" height="140.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="20" y="350.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 3</text>
+<rect x="20" y="355.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="35.0" y="355.0" width="200.0" height="60.0" rx="3.0" fill="#0d0d1a" stroke="#3B82F6" stroke-width="1.5"/>
+<text x="135.0" y="385.0" text-anchor="middle" fill="#aaa" font-size="9">Sealing Magic Circle</text>
+<rect x="270.0" y="355.0" width="250.0" height="60.0" rx="3.0" fill="#1a1020" stroke="#6D28D9" stroke-width="1.5"/>
+<text x="395.0" y="385.0" text-anchor="middle" fill="#aaa" font-size="9">Library (S-02)</text>
+<rect x="20.0" y="393.0" width="860.0" height="150.0" rx="4.0" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<text x="20" y="620.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 4</text>
+<rect x="20" y="625.0" width="860" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="35.0" y="625.0" width="350.0" height="70.0" rx="3.0" fill="#1a0505" stroke="#EF4444" stroke-width="1.5"/>
+<text x="210.0" y="660.0" text-anchor="middle" fill="#aaa" font-size="9">Dark Portal Ruins</text>
+<rect x="420.0" y="625.0" width="180.0" height="70.0" rx="3.0" fill="#1a0505" stroke="#FF4444" stroke-width="1.5"/>
+<text x="510.0" y="660.0" text-anchor="middle" fill="#aaa" font-size="9">Legion Camp</text>
+<rect x="20" y="525" width="860" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="550" fill="#aaa" font-size="9">WARC_EM-01 | ExplorationMap</text>
+<text x="20" y="570" fill="#666" font-size="9">WARC_EM-01 | ExplorationMap </text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L4/WARC-燃燒軍團/en/maps/WARC_EM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L4/WARC-燃燒軍團/en/maps/WARC_EM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">WARC_WM-01 <span class="maptype">世界地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="800" height="600" fill="url(#wmgrid)"/>
+<rect x="200.0" y="50.0" width="400.0" height="120.0" rx="5" fill="#0d1a1a" stroke="#10B981" stroke-width="2"/>
+<text x="400.0" y="110.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Dalaran Ruins (Start / Node 1)</text>
+<rect x="200.0" y="230.0" width="400.0" height="120.0" rx="5" fill="#0d0d1a" stroke="#3B82F6" stroke-width="2"/>
+<text x="400.0" y="290.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Medivh's Tower (Node 2)</text>
+<rect x="200.0" y="430.0" width="400.0" height="100.0" rx="5" fill="#1a0505" stroke="#EF4444" stroke-width="2"/>
+<text x="400.0" y="480.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Portal Ruins (Node 3 / Final)</text>
+<line x1="400.0" y1="170.0" x2="400.0" y2="230.0" stroke="#C084FC" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="400.0" y1="350.0" x2="400.0" y2="430.0" stroke="#C084FC" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<rect x="630" y="20" width="150" height="74" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="705" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Legend</text>
+<text x="640" y="60" fill="#aaa" font-size="9">Legend</text>
+<text x="640" y="76" fill="#aaa" font-size="9">Arrow = Recommended Route</text>
+<text x="640" y="92" fill="#aaa" font-size="9">Red Zone = Final Objective</text>
+<text x="20" y="585" fill="#666" font-size="9">WARC_WM-01 | largeRangeMap | Schematic</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L4/WARC-燃燒軍團/en/maps/WARC_WM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L4/WARC-燃燒軍團/en/maps/WARC_WM-01.svg" download>svg</a></p>
+            </div></section>
+    <section class="block"><h2>概念圖</h2><div class="gallery"><a href="../../assets/scripts/L4/WARC-燃燒軍團/images/enemy_01_archimonde.png" target="_blank"><img src="../../assets/scripts/L4/WARC-燃燒軍團/images/enemy_01_archimonde.png" alt="enemy_01_archimonde.png"></a><a href="../../assets/scripts/L4/WARC-燃燒軍團/images/npc_01_khadgar.png" target="_blank"><img src="../../assets/scripts/L4/WARC-燃燒軍團/images/npc_01_khadgar.png" alt="npc_01_khadgar.png"></a><a href="../../assets/scripts/L4/WARC-燃燒軍團/images/scene_01_legion_portal.png" target="_blank"><img src="../../assets/scripts/L4/WARC-燃燒軍團/images/scene_01_legion_portal.png" alt="scene_01_legion_portal.png"></a><a href="../../assets/scripts/L4/WARC-燃燒軍團/images/scene_S03_遭遇節點守護深淵領主來襲.png" target="_blank"><img src="../../assets/scripts/L4/WARC-燃燒軍團/images/scene_S03_遭遇節點守護深淵領主來襲.png" alt="scene_S03_遭遇節點守護深淵領主來襲.png"></a><a href="../../assets/scripts/L4/WARC-燃燒軍團/images/scene_S08_最終決戰阿克蒙德降臨.png" target="_blank"><img src="../../assets/scripts/L4/WARC-燃燒軍團/images/scene_S08_最終決戰阿克蒙德降臨.png" alt="scene_S08_最終決戰阿克蒙德降臨.png"></a></div></section>
+    </main>
+<footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

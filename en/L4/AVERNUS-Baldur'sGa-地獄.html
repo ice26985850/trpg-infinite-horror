@@ -1,0 +1,878 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Baldur&#x27;s Gate: Descent into Avernus | AVERNUS-Baldur&#x27;sGa-地獄 | Infinite Terror TRPG Scripts</title>
+<link rel="stylesheet" href="../../assets/style.css"></head>
+<body><header class="topbar"><span class="brand">Infinite Terror TRPG Scripts</span><a class="back-btn" href="../../index.html">← Back to Home</a><span class="spacer"></span><a class="lang" href="../../index.html">中文</a></header>
+<div class="ai-notice">All scripts, rosters, maps, and concept art on this site are AI-generated.</div>
+<main class="container"><h1>Baldur&#x27;s Gate: Descent into Avernus</h1>
+    <p class="meta">Code: AVERNUS-Baldur&#x27;sGa-地獄 ｜ Source: Dungeons &amp; Dragons — Avernus, the First Layer of the Nine Hells ｜ Difficulty: ★★★★★ ｜ Players: 3–5 ｜ Duration: 10–14 hrs / 3–4 sessions ｜ Type: Survival / Combat / Escape</p>
+    <p class="nav"><a href="../../index.html">← 劇本總覽</a> ｜ <a href="../../assets/scripts/L4/AVERNUS-Baldur'sGa-地獄/en/AVERNUS-Baldur'sGa-地獄_劇本.md" download>劇本 MD</a> ｜ <a href="../../assets/scripts/L4/AVERNUS-Baldur'sGa-地獄/en/AVERNUS-Baldur'sGa-地獄_NPC名冊.xlsx" download>NPC 名冊</a> ｜ <a href="../../assets/scripts/L4/AVERNUS-Baldur'sGa-地獄/en/AVERNUS-Baldur'sGa-地獄_敵方單位名冊.xlsx" download>敵方名冊</a> ｜ <a href="../../assets/L4_AVERNUS-Baldur'sGa-地獄_all_en.zip">下載全部（zip）</a></p>
+    <section class="block content"><section class="chap"><h2>一、基本資訊</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Script Title</td>
+<td>Baldur's Gate: Descent into Avernus</td>
+</tr>
+<tr>
+<td>Source Film</td>
+<td>Dungeons &amp; Dragons — Avernus, the First Layer of the Nine Hells</td>
+</tr>
+<tr>
+<td>Difficulty Rating</td>
+<td>★★★★★</td>
+</tr>
+<tr>
+<td>Suggested Players</td>
+<td>3–5</td>
+</tr>
+<tr>
+<td>Estimated Duration</td>
+<td>10–14 hrs / 3–4 sessions</td>
+</tr>
+<tr>
+<td>Prerequisites</td>
+<td>Gene Lock Stage III+, recommended Stage IV</td>
+</tr>
+<tr>
+<td>Script Type</td>
+<td>Survival / Combat / Escape</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<details class="gm"><summary>🎭 GM 限定：二、Plot Summary (GM Only)</summary><h2>二、Plot Summary (GM Only)</h2>
+<h3>One-Line Summary</h3>
+<blockquote>
+<p>Baldur's Gate has been dragged into Avernus, the first layer of the Nine Hells. The Reincarnators must find their way back to the Material Plane while fleeing the relentless pursuit of the devil armies.</p>
+</blockquote>
+<h3>Full Plot Background</h3>
+<p>Baldur's Gate — one of the greatest cities of Faerûn — was torn into Avernus, the first layer of the Nine Hells, during a great catastrophe. The city now floats beneath the blood-red skies of Hell, surrounded by the boiling River Styx and endless legions of devils. The culprit is the fallen angel Archduke Zariel, who seeks to transform the entire city into a forward base for the Blood War.</p>
+<p>The Reincarnators awaken in the city's Temple District. The Lord God informs them: in 72 hours the city will be fully dragged into the depths of Hell, and all life will be transformed into devils by the infernal energy. They must reach the portal at the city's edge (the only exit to the Material Plane) and escape successfully before then, all while fleeing Zariel's pursuit.</p>
+<h3>Plot Structure Type</h3>
+<p><strong>Hybrid</strong>: Phase One (exploration within the city) is free-form exploration — gathering resources and finding allies across the city's districts. Phase Two (escape from the city) is scene-by-scene progression as the devil armies launch their full assault.</p>
+<hr /></details>
+<section class="chap"><h2>三、Lord God's Mission</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mission Brief</td>
+<td>"Escape the first layer of Avernus. Time Limit: 72 hours."</td>
+</tr>
+<tr>
+<td>Main Objective</td>
+<td>Reach the portal at the city's edge and initiate escape</td>
+</tr>
+<tr>
+<td>Mission Reward</td>
+<td>A+12000</td>
+</tr>
+<tr>
+<td>Failure Condition</td>
+<td>Total party wipe / time runs out (city sinks into the depths of Hell)</td>
+</tr>
+<tr>
+<td>Failure Penalty</td>
+<td>Erasure</td>
+</tr>
+<tr>
+<td>Optional Goals</td>
+<td>① Destroy an infernal war machine (at least one): B1 <br>② Protect at least 50 civilians in evacuation: C+1500 <br>③ Obtain a fragment of Zariel's sword: A1</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>四、Side Quests</h2>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-01</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Guardian of the Temple</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Help the priests of the Temple District maintain their protective ward</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Repel 3 waves of devils (6 rounds each), protect the ward core from destruction</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Before the end of Act I</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>Holy Blessing (vs devils — base Defense +2, lasts until end of script) +1200</td>
+</tr>
+<tr>
+<td>Relation to Main Plot</td>
+<td>Supportive — temple survivors provide intel on the portal's location</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-02</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>The Infernal Blacksmith's Bargain</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Find the hidden devil smithy in the Lower City</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Trade 3 devil soul coins for infernal weapon enhancement (INT + Social DC4 negotiation)</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>Party weapons gain the "Hellfire" enchantment (+2d6 fire damage, valid in this world)</td>
+</tr>
+<tr>
+<td>Relation to Main Plot</td>
+<td>Supportive — greatly boosts combat power vs devils</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side Quest No.</td>
+<td>S-03</td>
+</tr>
+<tr>
+<td>Quest Name</td>
+<td>Ferryman of the Styx</td>
+</tr>
+<tr>
+<td>Trigger</td>
+<td>Upon reaching the portal, discover it is sealed by Zariel's ward</td>
+</tr>
+<tr>
+<td>Quest Content</td>
+<td>Find the ferryman by the River Styx, persuade or defeat him to obtain the key that breaks the ward</td>
+</tr>
+<tr>
+<td>Time Limit</td>
+<td>Before the main plot ends</td>
+</tr>
+<tr>
+<td>Reward</td>
+<td>B1</td>
+</tr>
+<tr>
+<td>Relation to Main Plot</td>
+<td>Critical to main plot — the portal cannot be activated without unlocking it</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>五、World Setting</h2>
+<h3>Timeline</h3>
+<table>
+<thead>
+<tr>
+<th>Time</th>
+<th>Event</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>T+0 hrs</td>
+<td>Reincarnators awaken in the Temple District. Baldur's Gate is already in Avernus</td>
+</tr>
+<tr>
+<td>T+6 hrs</td>
+<td>Devil scouts begin probing the city's defenses</td>
+</tr>
+<tr>
+<td>T+12 hrs</td>
+<td>Infernal war-machine units arrive and begin the siege</td>
+</tr>
+<tr>
+<td>T+24 hrs</td>
+<td>The city's outer districts fall</td>
+</tr>
+<tr>
+<td>T+48 hrs</td>
+<td>Zariel descends personally; the devil offensive begins</td>
+</tr>
+<tr>
+<td>T+72 hrs</td>
+<td>The city sinks into the depths of Hell — mission deadline</td>
+</tr>
+</tbody>
+</table>
+<h3>Key Locations</h3>
+<h4>Location A: Temple District (Starting Point)</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Temple District — Temple of the Eternal Rose</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A great marble temple now bathed in the red light of Hell. The ward upon the altar emits a faint golden glow — the last barrier in the city resisting the erosion of infernal energy. Several priests are desperately maintaining the ward, their faces pale, clearly having spent all their divine power.</td>
+</tr>
+<tr>
+<td>Explorable Content</td>
+<td>Ward Core (HP 200 / Base Defense 15 — can be destroyed or repaired), temple underground storeroom (search yields Healing Potions ×5, Holy Water ×10), library (INT + Occult DC3 to research / obtain portal location intel)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>S-01 trigger — devil attack waves. Each wave: 1d6+2 imps (★★) + 1d3 hell hounds (★★★)</td>
+</tr>
+<tr>
+<td>Connections to Other Locations</td>
+<td>South Gate → Lower City / East Gate → Harbor District / West Gate → Noble District</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>EM-01 (Area A)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location B: Lower City</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>Lower City — Ragged Tavern Street</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>A once-thriving district now shrouded in the reek of sulfur. Cracks riddle the ground, leaking dark-red infernal light. Black vines that belong to no world of this one grow upon the building walls.</td>
+</tr>
+<tr>
+<td>Explorable Content</td>
+<td>Devil smithy (hidden — Perception DC4 to find, S-02 trigger point), abandoned tavern (devil ambush encounter), sewer entrance (fast route — leads to city edge but full of traps)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td>Tavern trap: 1d4+1 imps (★★) hidden in shadows lying in ambush. Sewers: random — 1d6, on 1-3 no encounter, on 4-6 trigger infernal poison-gas trap (Fortitude save DC4, fail = 2d6 poison damage)</td>
+</tr>
+<tr>
+<td>Connections to Other Locations</td>
+<td>North Gate → Temple District / Sewers → City Edge</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>EM-01 (Area B)</td>
+</tr>
+</tbody>
+</table>
+<h4>Location C: City Edge — The Portal</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Location Name</td>
+<td>City Edge — The Burning Portal</td>
+</tr>
+<tr>
+<td>Environment</td>
+<td>The edge of the city is a void. The great portal that once connected to the Material Plane is now sealed by a dark-red ward — a prohibition laid personally by Zariel. The remains of slain soldiers are scattered around the portal. The blood-red River Styx rushes through the void, echoing with the wails of cursed souls.</td>
+</tr>
+<tr>
+<td>Explorable Content</td>
+<td>Portal (activation requires breaking the ward — INT + Occult DC5), ward console (requires the Styx ferryman's key, S-03), surrounding cover (rubble piles — Base Defense +2)</td>
+</tr>
+<tr>
+<td>Possible Encounters</td>
+<td><strong>Forced BOSS Battle</strong>: Archduke Zariel (★★★★★+). Portal activation takes 10 rounds — Zariel will raid during this. If S-01 is complete, temple priests provide cover (restore 1d8 HP per round to a random party member).</td>
+</tr>
+<tr>
+<td>Connections to Other Locations</td>
+<td>Final scene</td>
+</tr>
+<tr>
+<td>Map Reference</td>
+<td>BM-02</td>
+</tr>
+</tbody>
+</table>
+<h3>World Special Rules</h3>
+<ul>
+<li><strong>Infernal Energy</strong>: Except within the temple ward, all other city districts require an Endurance check DC3 every hour; failure grants 1 layer of Infernal Corruption (DP-1 per layer, max 5 layers)</li>
+<li><strong>Devil Soul Coins</strong>: Killing devils yields soul coins (roll 1d4 for quantity), usable in S-02. 3 coins = 1 transaction</li>
+<li><strong>Holy Weapons</strong>: The Temple District can provide holy water (vs devils +2d6 radiant damage, single use)</li>
+</ul>
+<h3>Lord God's Restrictions</h3>
+<ul>
+<li>"Do not reveal the existence of the Lord God's Space to plot characters"</li>
+<li>"Leaving the city boundary (falling into the abyss) is judged as death"</li>
+<li>"If the ward core is destroyed, all Reincarnators immediately gain 3 layers of Infernal Corruption"</li>
+</ul>
+<h3>Visual Map System</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Code</th>
+<th>Content</th>
+<th>File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>World Map</td>
+<td>WM-01</td>
+<td>Panorama of Avernus, first layer of Hell — Baldur's Gate location, River Styx, portal, devil legion deployment</td>
+<td><code>maps/AVERNUS_WM-01.svg</code></td>
+</tr>
+<tr>
+<td>Exploration Map</td>
+<td>EM-01</td>
+<td>Inside Baldur's Gate — Temple District, Lower City, Harbor District, Noble District, Portal</td>
+<td><code>maps/AVERNUS_EM-01.svg</code></td>
+</tr>
+<tr>
+<td>Combat Map</td>
+<td>BM-01</td>
+<td>Temple District defense battle (16×12 grid — ward, altar, devil breach points)</td>
+<td><code>maps/AVERNUS_BM-01.svg</code></td>
+</tr>
+<tr>
+<td>Combat Map</td>
+<td>BM-02</td>
+<td>Portal final showdown (16×12 grid — portal console, Styx bank, Zariel's descent point)</td>
+<td><code>maps/AVERNUS_BM-02.svg</code></td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>六、Characters &amp; Enemy Units (Managed in Separate Excel)</h2>
+<blockquote>
+<p>See the separate Excel files for the following characters:
+- <strong>NPC Roster</strong>: <code>AVERNUS-Baldur'sGa-地獄_NPC名冊.xlsx</code>
+- <strong>Enemy Unit Roster</strong>: <code>AVERNUS-Baldur'sGa-地獄_敵方單位名冊.xlsx</code></p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Character</th>
+<th>Type</th>
+<th>Key Stats</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>High Priestess Selene</td>
+<td>Friendly/Leader</td>
+<td>INT 12 / WIS 12 / maintains temple ward</td>
+</tr>
+<tr>
+<td>Devil Blacksmith Gaz</td>
+<td>Neutral/Merchant</td>
+<td>RES 10 / S-02 trade partner</td>
+</tr>
+<tr>
+<td>Styx Ferryman</td>
+<td>Enemy/Key</td>
+<td>RES 12 / holds portal-breaking key</td>
+</tr>
+<tr>
+<td>Devil Zariel</td>
+<td>Final BOSS</td>
+<td>HP 250 / Melee 15 / Infernal Flame</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>七、Key Scenes</h2>
+<h3>Act I: City Survival (0–24 hrs)</h3>
+<h4>Scene S01: Awakening — The Temple's Last Light</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S01</td>
+</tr>
+<tr>
+<td>GM Read-Aloud Text</td>
+<td>"You open your eyes, and the first thing that meets your gaze is a dark-red sky — not sunset, but the eternal twilight of Hell. You lie upon the floor of a marble temple, surrounded by wounded civilians and exhausted priests. High Priestess Selene — a silver-haired human woman — is spending her last strength to maintain the protective ward above her head. She turns to you: 'You... are not of this city. I sense no infernal mark upon you. Please, help us.'"</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Selene (obtain mission intel and time limit), wounded civilians (can assist with healing — Medicine DC3, each civilian saved can provide 1 aid die in the final scene)</td>
+</tr>
+<tr>
+<td>Gene Lock Related</td>
+<td>None — guidance phase</td>
+</tr>
+</tbody>
+</table>
+<h4>Scene S02: Devil Probing — The First Line</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S02</td>
+</tr>
+<tr>
+<td>GM Read-Aloud Text</td>
+<td>"The ward suddenly shudders. Beyond the temple comes a shrill howl — the language of devils. Through the stained-glass windows, you see a cluster of red figures gathering in the plaza. Imps. Dozens of them. They are testing the strength of the ward. Selene's voice trembles: 'They're here — please, hold the great hall's door!'"</td>
+</tr>
+<tr>
+<td>Interactive Elements</td>
+<td>Great Hall Door (HP 80 / Base Defense 12 — can be reinforced or trapped), Plaza (good visibility — Perception DC2 to spot the devil commander)</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td>Wave 1: 1d6+2 imps (★★). Wave 2 (after 6 rounds): 1d3 hell hounds (★★★) + 1d4 imps. Wave 3 (after 12 rounds): 1 hell knight (★★★★) + 1d3 hell hounds.</td>
+</tr>
+<tr>
+<td>Gene Lock Related</td>
+<td><strong>Gene Lock Hint</strong>: Wave 3 recommends Gene Lock Stage III (RES DC4). The hell knight has "Infernal Charge" — each turn can charge one target (DP+2); requires the reaction bonus of Gene Lock Stage III to effectively evade.</td>
+</tr>
+</tbody>
+</table>
+<h3>Act II: Escape (24–72 hrs)</h3>
+<h4>Scene S03: The Portal Battle — Final Showdown</h4>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Scene No.</td>
+<td>S08</td>
+</tr>
+<tr>
+<td>GM Read-Aloud Text</td>
+<td>"You finally reach the city's edge. The portal is before your eyes — but wrapped in a blood-red ward. The portal's base is carved with devil runes. The moment you approach, a hurricane of spiritual pressure descends from the sky — a pair of burning wings blocks out the blood-red heavens. The fallen angel Zariel has descended."</td>
+</tr>
+<tr>
+<td>Encounter</td>
+<td><strong>Forced BOSS Battle</strong>: Archduke Zariel (★★★★★+). HP 250 / Base Defense 20 / DP 12 (Infernal Sword). Passive: deals 1d6 fire damage each round to all creatures within 10ft. When HP&lt;50%, summons 1d4 infernal war machines (★★★★) as reinforcements.</td>
+</tr>
+<tr>
+<td>Gene Lock Related</td>
+<td><strong>Gene Lock Hint</strong>: All members must open Gene Lock Stage IV (RES DC5). Zariel's "Infernal Wrath" is an area attack (DP 14 / 4d12 fire+slash); Gene Lock Stage IV grants perceptual foresight — sensing the energy fluctuation before the attack lands, gaining Reflex save DC-3.</td>
+</tr>
+<tr>
+<td>Cutscene Condition</td>
+<td>Portal activated + successfully entered → script cleared</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>八、Reward Settlement</h2>
+<table>
+<thead>
+<tr>
+<th>Reward Type</th>
+<th>Content</th>
+<th>Points</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Main Clear</td>
+<td>Escape Avernus</td>
+<td>A+12000</td>
+</tr>
+<tr>
+<td>Optional Goal ①</td>
+<td>Destroy infernal war machine</td>
+<td>B1</td>
+</tr>
+<tr>
+<td>Optional Goal ②</td>
+<td>Protect 50+ civilians</td>
+<td>C+1500</td>
+</tr>
+<tr>
+<td>Optional Goal ③</td>
+<td>Obtain fragment of Zariel's sword</td>
+<td>A1</td>
+</tr>
+<tr>
+<td>Side Quest S-01</td>
+<td>Guardian of the Temple</td>
+<td>1200</td>
+</tr>
+<tr>
+<td>Side Quest S-02</td>
+<td>Infernal Blacksmith's Bargain</td>
+<td>Hellfire enchantment</td>
+</tr>
+<tr>
+<td>Side Quest S-03</td>
+<td>Ferryman of the Styx</td>
+<td>B1</td>
+</tr>
+<tr>
+<td>Kill</td>
+<td>Imp (each)</td>
+<td>80</td>
+</tr>
+<tr>
+<td>Kill</td>
+<td>Hell Hound (each)</td>
+<td>200</td>
+</tr>
+<tr>
+<td>Kill</td>
+<td>Hell Knight (each)</td>
+<td>500</td>
+</tr>
+<tr>
+<td>Kill</td>
+<td>Infernal War Machine (each)</td>
+<td>800</td>
+</tr>
+<tr>
+<td>Kill</td>
+<td>Zariel (final BOSS)</td>
+<td>3000</td>
+</tr>
+<tr>
+<td>Special Achievement</td>
+<td>Ward core not destroyed</td>
+<td>500</td>
+</tr>
+<tr>
+<td>Roleplay</td>
+<td>GM discretion</td>
+<td>0–500</td>
+</tr>
+</tbody>
+</table>
+<h3>Return Exchange (Script-Limited)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Exchange Item</th>
+<th>Cost (Side + Reward Points)</th>
+<th>Effect</th>
+<th>Growth Path</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cheap</td>
+<td>Tiefling Bloodline</td>
+<td>B+3600</td>
+<td>Fire Resistance permanent +2; gain "Hellish Communion" passive (can negotiate with devils/demons, INT + Social check DC-2), and 1/day "Fiend Flame" enchantment attack</td>
+<td>Lv1→Lv2→Lv3: Fire Resist→Infernal Sorcery→Horned Combat Body</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Flame Tongue</td>
+<td>B+2000</td>
+<td>Gain Flame Tongue weapon: fire enchantment, attack DP+3 (extra 2d8 fire damage), permanently bound</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Cheap</td>
+<td>Infernal Warplane License</td>
+<td>B+2000</td>
+<td>DEX + Athletics (Piloting · Demon Warplane) permanent +3; can pilot Flame Tongue tank, and 1/day aerial strafe (DP+3, range 20ft)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Fiendish Pact</td>
+<td>A+8000</td>
+<td>Contract with a devil lord, gain "Warlock" spell slots (3/day, INT + Arcane DC4 to cast 2nd-circle spells)</td>
+<td>Lv1→Lv2→Lv3: Single Lord→Dual Lord→Archduke Pact</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Book of the Dead</td>
+<td>A+8000</td>
+<td>Knowledge (Occult) permanent +3; can summon 1 skeleton servant per day (HP 30)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Normal</td>
+<td>Wings of Avernus</td>
+<td>A+4000</td>
+<td>Permanently gain Flight (speed 40ft, DEX + Athletics (Flight) DP+2); landing causes 2d6 infernal flame splash</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Sword of Zariel (Fragment)</td>
+<td>S+8000</td>
+<td>Holy + Blazing dual-attribute legendary weapon: attack DP+4, extra 3d6 radiant damage vs demons/undead</td>
+<td>Lv1→Lv2→Lv3: Fragment→Reforged→Full Awakening (release "Righteous Judgment")</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Balor Lineage</td>
+<td>AA+10800</td>
+<td>Gain partial Balor bloodline: STR+3, fire immunity, innate "Death Blade" whip (DP+3)</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Expensive</td>
+<td>Bhaal's Favor</td>
+<td>AA+12000</td>
+<td>Gain "Murder Domain" passive: backstab (sneak attack) damage ×3, WIS + Stealth (Assassination) DC-2</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<hr /></section>
+<section class="chap"><h2>十、Appendix</h2>
+<ul>
+<li><strong>Maps</strong>: <code>maps/AVERNUS_WM-01.svg</code>, <code>AVERNUS_EM-01.svg</code>, <code>AVERNUS_BM-01.svg</code>, <code>AVERNUS_BM-02.svg</code></li>
+<li><strong>GM Memo</strong>: If the party relies too heavily on the temple ward — use the infernal energy corruption mechanic to force them to move. If the portal battle is too difficult — allow civilians saved in S-01 to provide aid dice.</li>
+<li><strong>References</strong>: <em>Baldur's Gate: Descent into Avernus</em>, official D&amp;D module.</li>
+</ul>
+<hr />
+<blockquote>
+<p><strong>Script Codename</strong>: AVERNUS <strong>Version</strong>: v1.0 <strong>Format Spec</strong>: v0.4</p>
+</blockquote></section></section>
+    <section class="block"><h2>地圖（YAML＋SVG）</h2><div class="map">
+              <div class="maptitle">AVERNUS_BM-01 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="640" height="480" fill="#1a1a2e"/>
+<rect x="20" y="20" width="600" height="440" fill="url(#grid)"/>
+<rect x="20" y="20" width="600" height="440" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="320.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">BM-01 Temple District Defense</text>
+<text x="25" y="472" fill="#666" font-size="9">AVERNUS_BM-01 | 10x10 grid (concept) | 1 grid = 5ft | total 50x50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="160.0" y="200.0" width="120.0" height="80.0" rx="3" fill="#10B98122" stroke="#10B981" stroke-width="2"/>
+<text x="220.0" y="236.0" text-anchor="middle" fill="#aaa" font-size="8">Ward Core</text>
+<text x="220.0" y="250.0" text-anchor="middle" fill="#666" font-size="6">(65.0, 72.5)ft</text>
+<rect x="40.0" y="40.0" width="80.0" height="80.0" rx="3" fill="none" stroke="#00FF88" stroke-width="2"/>
+<text x="80.0" y="76.0" text-anchor="middle" fill="#aaa" font-size="8">Player Start</text>
+<text x="80.0" y="90.0" text-anchor="middle" fill="#666" font-size="6">(17.5, 17.5)ft</text>
+<rect x="360.0" y="80.0" width="80.0" height="40.0" rx="3" fill="none" stroke="#FF4444" stroke-width="1.5"/>
+<text x="400.0" y="96.0" text-anchor="middle" fill="#aaa" font-size="8">Wave 1 Breach Point</text>
+<text x="400.0" y="110.0" text-anchor="middle" fill="#666" font-size="6">(127.5, 27.5)ft</text>
+<rect x="360.0" y="280.0" width="80.0" height="40.0" rx="3" fill="none" stroke="#FF4444" stroke-width="1.5"/>
+<text x="400.0" y="296.0" text-anchor="middle" fill="#aaa" font-size="8">Wave 2 Breach Point</text>
+<text x="400.0" y="310.0" text-anchor="middle" fill="#666" font-size="6">(127.5, 92.5)ft</text>
+<rect x="160.0" y="360.0" width="120.0" height="40.0" rx="5" fill="#F59E0B22" stroke="#F59E0B" stroke-width="2"/>
+<text x="220.0" y="376.0" text-anchor="middle" fill="#aaa" font-size="8">Great Hall Door</text>
+<text x="220.0" y="390.0" text-anchor="middle" fill="#666" font-size="6">(65.0, 122.5)ft</text>
+<rect x="400.0" y="160.0" width="80.0" height="80.0" rx="3" fill="#3B82F644" stroke="#3B82F6" stroke-width="1"/>
+<text x="440.0" y="196.0" text-anchor="middle" fill="#aaa" font-size="8">Altar</text>
+<text x="440.0" y="210.0" text-anchor="middle" fill="#666" font-size="6">(137.5, 57.5)ft</text>
+<rect x="40.0" y="200.0" width="80.0" height="80.0" rx="3" fill="#66644" stroke="#666" stroke-width="1"/>
+<text x="80.0" y="236.0" text-anchor="middle" fill="#aaa" font-size="8">Pews (Cover)</text>
+<text x="80.0" y="250.0" text-anchor="middle" fill="#666" font-size="6">(17.5, 72.5)ft</text>
+<rect x="40.0" y="320.0" width="80.0" height="80.0" rx="3" fill="#66644" stroke="#666" stroke-width="1"/>
+<text x="80.0" y="356.0" text-anchor="middle" fill="#aaa" font-size="8">Pews (Cover)</text>
+<text x="80.0" y="370.0" text-anchor="middle" fill="#666" font-size="6">(17.5, 112.5)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L4/AVERNUS-Baldur'sGa-地獄/en/maps/AVERNUS_BM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L4/AVERNUS-Baldur'sGa-地獄/en/maps/AVERNUS_BM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">AVERNUS_BM-02 <span class="maptype">戰鬥地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <pattern id="grid" width="15" height="15" patternUnits="userSpaceOnUse">
+    <path d="M 15 0 L 0 0 0 15" fill="none" stroke="#2a2a4a" stroke-width="0.3"/>
+  </pattern>
+</defs>
+<rect width="640" height="480" fill="#1a1a2e"/>
+<rect x="20" y="20" width="600" height="440" fill="url(#grid)"/>
+<rect x="20" y="20" width="600" height="440" fill="none" stroke="#4a2a6a" stroke-width="2"/>
+<text x="320.0" y="12" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">BM-02 Portal Final Showdown</text>
+<text x="25" y="472" fill="#666" font-size="9">AVERNUS_BM-02 | 10x10 grid (concept) | 1 grid = 5ft | total 50x50ft</text>
+<text x="27.5" y="15" text-anchor="middle" fill="#555" font-size="7">1</text>
+<text x="42.5" y="15" text-anchor="middle" fill="#555" font-size="7">2</text>
+<text x="57.5" y="15" text-anchor="middle" fill="#555" font-size="7">3</text>
+<text x="72.5" y="15" text-anchor="middle" fill="#555" font-size="7">4</text>
+<text x="87.5" y="15" text-anchor="middle" fill="#555" font-size="7">5</text>
+<text x="102.5" y="15" text-anchor="middle" fill="#555" font-size="7">6</text>
+<text x="117.5" y="15" text-anchor="middle" fill="#555" font-size="7">7</text>
+<text x="132.5" y="15" text-anchor="middle" fill="#555" font-size="7">8</text>
+<text x="147.5" y="15" text-anchor="middle" fill="#555" font-size="7">9</text>
+<text x="162.5" y="15" text-anchor="middle" fill="#555" font-size="7">10</text>
+<text x="8" y="30.5" text-anchor="middle" fill="#555" font-size="7">A</text>
+<text x="8" y="45.5" text-anchor="middle" fill="#555" font-size="7">B</text>
+<text x="8" y="60.5" text-anchor="middle" fill="#555" font-size="7">C</text>
+<text x="8" y="75.5" text-anchor="middle" fill="#555" font-size="7">D</text>
+<text x="8" y="90.5" text-anchor="middle" fill="#555" font-size="7">E</text>
+<text x="8" y="105.5" text-anchor="middle" fill="#555" font-size="7">F</text>
+<text x="8" y="120.5" text-anchor="middle" fill="#555" font-size="7">G</text>
+<text x="8" y="135.5" text-anchor="middle" fill="#555" font-size="7">H</text>
+<text x="8" y="150.5" text-anchor="middle" fill="#555" font-size="7">I</text>
+<text x="8" y="165.5" text-anchor="middle" fill="#555" font-size="7">J</text>
+<rect x="280.0" y="240.0" width="80.0" height="80.0" rx="3" fill="#3B82F622" stroke="#3B82F6" stroke-width="2"/>
+<text x="320.0" y="276.0" text-anchor="middle" fill="#aaa" font-size="8">Portal</text>
+<text x="320.0" y="290.0" text-anchor="middle" fill="#666" font-size="6">(97.5, 87.5)ft</text>
+<rect x="360.0" y="160.0" width="80.0" height="40.0" rx="3" fill="#F59E0B22" stroke="#F59E0B" stroke-width="2"/>
+<text x="400.0" y="176.0" text-anchor="middle" fill="#aaa" font-size="8">Console</text>
+<text x="400.0" y="190.0" text-anchor="middle" fill="#666" font-size="6">(127.5, 52.5)ft</text>
+<rect x="40.0" y="40.0" width="80.0" height="80.0" rx="3" fill="none" stroke="#00FF88" stroke-width="2"/>
+<text x="80.0" y="76.0" text-anchor="middle" fill="#aaa" font-size="8">Player Start</text>
+<text x="80.0" y="90.0" text-anchor="middle" fill="#666" font-size="6">(17.5, 17.5)ft</text>
+<rect x="320.0" y="320.0" width="120.0" height="80.0" rx="3" fill="none" stroke="#FF4444" stroke-width="1.5"/>
+<text x="380.0" y="356.0" text-anchor="middle" fill="#aaa" font-size="8">Zariel Descent Point</text>
+<text x="380.0" y="370.0" text-anchor="middle" fill="#666" font-size="6">(120.0, 112.5)ft</text>
+<rect x="40.0" y="240.0" width="120.0" height="80.0" rx="3" fill="#66644" stroke="#666" stroke-width="1"/>
+<text x="100.0" y="276.0" text-anchor="middle" fill="#aaa" font-size="8">Rubble Cover</text>
+<text x="100.0" y="290.0" text-anchor="middle" fill="#666" font-size="6">(25.0, 87.5)ft</text>
+<rect x="440.0" y="120.0" width="120.0" height="80.0" rx="3" fill="#6D28D944" stroke="#6D28D9" stroke-width="1"/>
+<text x="500.0" y="156.0" text-anchor="middle" fill="#aaa" font-size="8">Styx Bank</text>
+<text x="500.0" y="170.0" text-anchor="middle" fill="#666" font-size="6">(160.0, 47.5)ft</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L4/AVERNUS-Baldur'sGa-地獄/en/maps/AVERNUS_BM-02.yaml" download>yaml</a> <a href="../../assets/scripts/L4/AVERNUS-Baldur'sGa-地獄/en/maps/AVERNUS_BM-02.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">AVERNUS_EM-01 <span class="maptype">探索地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<rect width="800" height="600" fill="#1a1a2e"/>
+<text x="400.0" y="25" text-anchor="middle" fill="#C084FC" font-size="16" font-weight="bold">Baldur's Gate Interior — Exploration Map</text>
+<text x="20" y="-5.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 1</text>
+<rect x="20" y="0.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="0.0" y="0.0" width="800.0" height="600.0" rx="0.0" fill="#1a1a2e" stroke="" stroke-width=""/>
+<text x="400.0" y="300.0" text-anchor="middle" fill="#aaa" font-size="9">Lower City (Smithy/Tavern)</text>
+<text x="20" y="95.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 2</text>
+<rect x="20" y="100.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="200.0" y="100.0" width="400.0" height="100.0" rx="5.0" fill="#0d1a1a" stroke="#10B981" stroke-width="2"/>
+<text x="400.0" y="150.0" text-anchor="middle" fill="#aaa" font-size="9">Temple District (Ward/Supplies)</text>
+<text x="20" y="245.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 3</text>
+<rect x="20" y="250.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="200.0" y="250.0" width="400.0" height="100.0" rx="5.0" fill="#1a1505" stroke="#F59E0B" stroke-width="2"/>
+<text x="400.0" y="300.0" text-anchor="middle" fill="#aaa" font-size="9">Lower City (Smithy/Tavern)</text>
+<text x="20" y="395.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 4</text>
+<rect x="20" y="400.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="200.0" y="400.0" width="400.0" height="100.0" rx="5.0" fill="#0d0d1a" stroke="#3B82F6" stroke-width="2"/>
+<text x="400.0" y="450.0" text-anchor="middle" fill="#aaa" font-size="9">Noble District (Ruins/Shelter)</text>
+<text x="20" y="495.0" fill="#8B5CF6" font-size="13" font-weight="bold">Floor 5</text>
+<rect x="20" y="500.0" width="760" height="140" rx="4" fill="#0d0d1a" stroke="#4a2a6a" stroke-width="1"/>
+<rect x="620.0" y="500.0" width="165.0" height="85.0" rx="4.0" fill="#111" stroke="#333" stroke-width=""/>
+<text x="702.5" y="542.5" text-anchor="middle" fill="#aaa" font-size="9">Legend</text>
+<rect x="200.0" y="550.0" width="400.0" height="100.0" rx="5.0" fill="#1a1020" stroke="#6D28D9" stroke-width="2"/>
+<text x="400.0" y="600.0" text-anchor="middle" fill="#aaa" font-size="9">Harbor District (Styx Contact Point)</text>
+<rect x="20" y="545" width="760" height="40" rx="4" fill="#111" stroke="#333"/>
+<text x="35" y="570" fill="#aaa" font-size="9">AVERNUS_WM-01 | World Map</text>
+<text x="20" y="590" fill="#666" font-size="9">AVERNUS_EM-01 | Exploration Map</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L4/AVERNUS-Baldur'sGa-地獄/en/maps/AVERNUS_EM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L4/AVERNUS-Baldur'sGa-地獄/en/maps/AVERNUS_EM-01.svg" download>svg</a></p>
+            </div><div class="map">
+              <div class="maptitle">AVERNUS_WM-01 <span class="maptype">世界地圖</span></div>
+              <div class="mapbody"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Microsoft JhengHei, sans-serif">
+<defs>
+  <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto"><polygon points="0 0, 10 3.5, 0 7" fill="#FF4444"/></marker>
+</defs>
+<rect width="800" height="600" fill="#1a1a2e"/>
+<pattern id="wmgrid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a2a4e" stroke-width="0.5"/></pattern>
+<rect width="800" height="600" fill="url(#wmgrid)"/>
+<rect x="200.0" y="50.0" width="400.0" height="150.0" rx="5" fill="#0d1a1a" stroke="#10B981" stroke-width="2"/>
+<text x="400.0" y="125.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Temple District (Start)</text>
+<rect x="200.0" y="250.0" width="400.0" height="150.0" rx="5" fill="#1a1505" stroke="#F59E0B" stroke-width="2"/>
+<text x="400.0" y="325.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">Lower City (Explore/Combat)</text>
+<rect x="200.0" y="450.0" width="400.0" height="100.0" rx="5" fill="#1a0505" stroke="#EF4444" stroke-width="2"/>
+<text x="400.0" y="500.0" text-anchor="middle" fill="#C084FC" font-size="14" font-weight="bold">City Edge Portal (Final)</text>
+<line x1="400.0" y1="200.0" x2="400.0" y2="250.0" stroke="#C084FC" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<line x1="400.0" y1="400.0" x2="400.0" y2="450.0" stroke="#C084FC" stroke-width="2" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+<rect x="630" y="20" width="150" height="74" rx="4" fill="#111" stroke="#333" stroke-width="1"/>
+<text x="705" y="38" text-anchor="middle" fill="#fff" font-size="11" font-weight="bold">Legend</text>
+<text x="640" y="60" fill="#aaa" font-size="9">Legend</text>
+<text x="640" y="76" fill="#aaa" font-size="9">Arrow = Recommended Route</text>
+<text x="640" y="92" fill="#aaa" font-size="9">Red Zone = Final Goal</text>
+<text x="20" y="585" fill="#666" font-size="9">AVERNUS_WM-01 | World Map | Schematic</text>
+</svg></div>
+              <p class="cap"><a href="../../assets/scripts/L4/AVERNUS-Baldur'sGa-地獄/en/maps/AVERNUS_WM-01.yaml" download>yaml</a> <a href="../../assets/scripts/L4/AVERNUS-Baldur'sGa-地獄/en/maps/AVERNUS_WM-01.svg" download>svg</a></p>
+            </div></section>
+    <section class="block"><h2>概念圖</h2><div class="gallery"><a href="../../assets/scripts/L4/AVERNUS-Baldur'sGa-地獄/images/enemy_01_horned_devil.png" target="_blank"><img src="../../assets/scripts/L4/AVERNUS-Baldur'sGa-地獄/images/enemy_01_horned_devil.png" alt="enemy_01_horned_devil.png"></a><a href="../../assets/scripts/L4/AVERNUS-Baldur'sGa-地獄/images/npc_01_selene.png" target="_blank"><img src="../../assets/scripts/L4/AVERNUS-Baldur'sGa-地獄/images/npc_01_selene.png" alt="npc_01_selene.png"></a><a href="../../assets/scripts/L4/AVERNUS-Baldur'sGa-地獄/images/scene_01_avernus_portal.png" target="_blank"><img src="../../assets/scripts/L4/AVERNUS-Baldur'sGa-地獄/images/scene_01_avernus_portal.png" alt="scene_01_avernus_portal.png"></a><a href="../../assets/scripts/L4/AVERNUS-Baldur'sGa-地獄/images/scene_S02_魔鬼試探防線初建.png" target="_blank"><img src="../../assets/scripts/L4/AVERNUS-Baldur'sGa-地獄/images/scene_S02_魔鬼試探防線初建.png" alt="scene_S02_魔鬼試探防線初建.png"></a><a href="../../assets/scripts/L4/AVERNUS-Baldur'sGa-地獄/images/scene_S03_傳送門之戰最終決戰.png" target="_blank"><img src="../../assets/scripts/L4/AVERNUS-Baldur'sGa-地獄/images/scene_S03_傳送門之戰最終決戰.png" alt="scene_S03_傳送門之戰最終決戰.png"></a></div></section>
+    </main>
+<footer class="foot">This archive collects Infinite Terror TRPG scripts; each script is downloadable (script MD / NPC roster / enemy roster / map YAML+SVG / concept art).</footer></body></html>

@@ -1,0 +1,118 @@
+map_id: CLAYMORE_BM-01
+map_type: battle
+scenario: 'Claymore: Abyssal Awakening'
+tier: L4
+difficulty: ★★★★★
+viewbox:
+- 0
+- 0
+- 640
+- 480
+title: BM-01 Awakened Being Valley Battle
+description: ''
+grid:
+  type: square
+  width: 10
+  height: 10
+  cell_px: 15
+  cell_size_ft: 5
+  unit: ft
+  origin:
+  - 20
+  - 20
+  total_width_ft: 50
+  total_height_ft: 50
+terrain:
+- bounds_px:
+  - 40.0
+  - 40.0
+  - 80.0
+  - 80.0
+  name: Player Start
+  fill: none
+  stroke: '#00FF88'
+  stroke_width: '2'
+  bounds_grid:
+  - 1
+  - 1
+  - 5
+  - 5
+  center_ft:
+  - 17.5
+  - 17.5
+- bounds_px:
+  - 280.0
+  - 200.0
+  - 120.0
+  - 80.0
+  name: Awakened Being
+  fill: none
+  stroke: '#FF4444'
+  stroke_width: '1.5'
+  bounds_grid:
+  - 17
+  - 12
+  - 8
+  - 5
+  center_ft:
+  - 105.0
+  - 72.5
+- bounds_px:
+  - 40.0
+  - 200.0
+  - 80.0
+  - 80.0
+  name: Clare (Synergy DP+2)
+  fill: none
+  stroke: '#00FF88'
+  stroke_width: '2'
+  bounds_grid:
+  - 1
+  - 12
+  - 5
+  - 5
+  center_ft:
+  - 17.5
+  - 72.5
+- bounds_px:
+  - 160.0
+  - 120.0
+  - 80.0
+  - 80.0
+  name: High Ground (AGI DC3)
+  fill: '#3B82F644'
+  stroke: '#3B82F6'
+  stroke_width: '1'
+  bounds_grid:
+  - 9
+  - 7
+  - 5
+  - 5
+  center_ft:
+  - 57.5
+  - 47.5
+spawn_points:
+  players: []
+  enemies: []
+entry_points: []
+boundary: []
+objective: {}
+key_distances:
+- from: Player Start
+  to: Awakened Being
+  distance_ft: 103.4
+- from: Player Start
+  to: Clare (Synergy DP+2)
+  distance_ft: 55.0
+- from: Player Start
+  to: High Ground (AGI DC3)
+  distance_ft: 50.0
+- from: Awakened Being
+  to: Clare (Synergy DP+2)
+  distance_ft: 87.5
+- from: Awakened Being
+  to: High Ground (AGI DC3)
+  distance_ft: 53.7
+- from: Clare (Synergy DP+2)
+  to: High Ground (AGI DC3)
+  distance_ft: 47.2

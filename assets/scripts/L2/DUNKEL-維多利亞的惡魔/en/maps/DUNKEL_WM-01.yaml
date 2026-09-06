@@ -1,0 +1,60 @@
+map_id: DUNKEL_WM-01
+map_type: world
+scenario: 'Dunkel · Victorian Demon / Dunkel: Victorian Demon Hunt'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 900
+- 620
+title: Demon-Hunting London — World Map (WM-01)
+description: ''
+scale: Schematic
+regions:
+- bounds:
+  - 200.0
+  - 170.0
+  - 100.0
+  - 60.0
+  fill: '#3a3a4a'
+  stroke: '#e74c3c'
+  name: A Hunter's Guild Outpost
+- bounds:
+  - 450.0
+  - 370.0
+  - 100.0
+  - 60.0
+  fill: '#2a2a3a'
+  stroke: '#e74c3c'
+  name: B Sewer Lair
+- bounds:
+  - 700.0
+  - 170.0
+  - 100.0
+  - 60.0
+  fill: '#4a3a3a'
+  stroke: '#e74c3c'
+  name: C Councilman's Manor
+- bounds:
+  - 500.0
+  - 470.0
+  - 100.0
+  - 60.0
+  fill: '#2a3a3a'
+  stroke: '#e74c3c'
+  name: D Abandoned Church
+- bounds:
+  - 20.0
+  - 540.0
+  - 860.0
+  - 60.0
+  fill: '#1a1a1e'
+  stroke: '#333'
+  name: ''
+roads: []
+routes: []
+danger_zones: []
+landmarks: []
+legend:
+- C Councilman's Manor

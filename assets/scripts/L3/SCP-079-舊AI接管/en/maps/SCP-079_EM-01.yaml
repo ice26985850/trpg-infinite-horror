@@ -1,0 +1,31 @@
+map_id: SCP-079_EM-01
+map_type: exploration
+scenario: 'SCP-079·OldAIConnection pipe / SCP: Old AI - Site Takeover'
+tier: L3
+difficulty: ★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: Site-19 Inside the site
+description: ''
+floors:
+- name: SCP Foundation - Site-19 Facility Map
+  y: 80.0
+  rooms:
+  - bounds:
+    - 50.0
+    - 80.0
+    - 700.0
+    - 440.0
+    name: Security Command Center
+    fill: '#1a1a3e'
+    stroke: '#3a3a6e'
+    stroke_width: '2'
+    rx: 5.0
+connections: []
+legend:
+- Safe Zone/Starting point
+- Danger Zone/Battle Zone
+notes: []

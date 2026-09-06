@@ -1,0 +1,18 @@
+map_id: HSR_EM-01
+map_type: exploration
+scenario: 'Honkai: Star Rail - Fragmentum / Honkai: Star Rail - Fragmentum'
+tier: L3
+difficulty: ★★★★
+viewbox:
+- 0
+- 0
+- 800
+- 600
+title: HSR_EM-01 Exploration Map
+description: ''
+floors: []
+connections: []
+legend:
+- Safe Zone/Starting Point
+- Danger Zone/Combat Zone
+notes: []

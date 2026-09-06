@@ -1,0 +1,52 @@
+map_id: GRIMGAL_WM-01
+map_type: world
+scenario: 'Grimgar of Fantasy and Ash · Volunteer Soldier's First Campaign / Grimgar: Volunteer Soldier''s First Campaign'
+tier: L2
+difficulty: ★★
+viewbox:
+- 0
+- 0
+- 900
+- 620
+title: Around Ordan — World Map (WM-01)
+description: ''
+scale: Schematic
+regions:
+- bounds:
+  - 200.0
+  - 170.0
+  - 100.0
+  - 60.0
+  fill: '#3a4a3a'
+  stroke: '#2ecc71'
+  name: A Legion HQ
+- bounds:
+  - 550.0
+  - 270.0
+  - 100.0
+  - 60.0
+  fill: '#4a3a2a'
+  stroke: '#2ecc71'
+  name: B Old Mine
+- bounds:
+  - 700.0
+  - 450.0
+  - 100.0
+  - 60.0
+  fill: '#3a3a2a'
+  stroke: '#2ecc71'
+  name: C Old Fortress
+- bounds:
+  - 20.0
+  - 540.0
+  - 860.0
+  - 60.0
+  fill: '#1a1e1a'
+  stroke: '#333'
+  name: ''
+roads: []
+routes: []
+danger_zones: []
+landmarks: []
+legend:
+- C Old Fortress
